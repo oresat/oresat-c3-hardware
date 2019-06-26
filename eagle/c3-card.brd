@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="15" fill="1" visible="no" active="yes"/>
@@ -24,7 +24,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="route" color="14" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -37,7 +37,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -161,7 +161,7 @@
 <plain>
 <rectangle x1="5.8" y1="8.6" x2="13.8" y2="16.6" layer="21"/>
 <text x="7.5" y="18" size="2" layer="21" font="vector" ratio="15" rot="R90">OreSat C3-Card</text>
-<text x="10.5" y="18" size="2" layer="21" font="vector" ratio="15" rot="R90">2019/02/20</text>
+<text x="10.5" y="18" size="2" layer="21" font="vector" ratio="15" rot="R90">2019/06/25</text>
 <text x="29.16" y="46.8" size="2" layer="21" font="vector" ratio="15" rot="R90">+3.3V</text>
 <text x="22.2" y="13" size="0.635" layer="21" font="vector" ratio="20">3.3V</text>
 <text x="22.1" y="14.7" size="0.635" layer="21" font="vector" ratio="20">VBUSP</text>
@@ -186,7 +186,7 @@
 <text x="16.62" y="52.625" size="0.635" layer="21" font="vector" ratio="20">PA3/RX</text>
 <text x="16.62" y="50.125" size="0.635" layer="21" font="vector" ratio="20">PA4</text>
 <text x="16.62" y="47.625" size="0.635" layer="21" font="vector" ratio="20">PA5</text>
-<text x="16.62" y="45.125" size="0.635" layer="21" font="vector" ratio="20">PA6</text>
+<text x="9.72" y="44.625" size="0.635" layer="21" font="vector" ratio="20">PA6</text>
 <text x="16.62" y="42.625" size="0.635" layer="21" font="vector" ratio="20">PA7</text>
 <text x="16.62" y="40.125" size="1" layer="21" font="vector" ratio="20">PB0</text>
 <text x="16.62" y="37.625" size="1" layer="21" font="vector" ratio="20">PB1</text>
@@ -5117,7 +5117,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MPN" value="73300-0020" x="77.25" y="91.56" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="75.017" y="83.703" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="CM3" library="J-Molex-SMPM-73300-003X" package="J-MOLEX-SMPM-073300-003X" value="J-MOLEX-SMPM-73300-003X" x="83.25" y="91.56" locked="yes" smashed="yes">
+<element name="CM3" library="J-Molex-SMPM-73300-003X" package="J-MOLEX-SMPM-073300-003X" value="J-MOLEX-SMPM-73300-003X" x="83.25" y="91.56" smashed="yes">
 <attribute name="MFR" value="Molex" x="83.25" y="91.56" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="73300-0020" x="83.25" y="91.56" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="86.303" y="85.483" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -5312,198 +5312,198 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="36.7" y="66.2" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="40.4" y="68" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C6" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="22.35" y="62.45" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="22.35" y="62.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="22.35" y="62.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="22.35" y="62.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="22.35" y="62.45" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.9" y="63.25" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="NAME" x="22.35" y="62.45" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="21" y="63.25" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
-</element>
-<element name="C8" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="10.35" y="62.5" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="10.35" y="62.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="10.35" y="62.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="10.35" y="62.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="10.35" y="62.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.9" y="63.3" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="NAME" x="10.35" y="62.5" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="9" y="63.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
-</element>
-<element name="C13" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="5.6" y="52.15" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="5.6" y="52.15" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="5.6" y="52.15" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="5.6" y="52.15" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="5.6" y="52.15" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="4.8" y="52.7" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="NAME" x="5.6" y="52.15" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="VALUE" x="4.8" y="50.8" size="0.8" layer="27" font="vector" ratio="15"/>
-</element>
-<element name="C18" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="12.85" y="35.2" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="12.85" y="35.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="12.85" y="35.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="12.85" y="35.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="12.85" y="35.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="12.85" y="35.2" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="NAME" x="12.3" y="34.4" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="14.2" y="34.4" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
-</element>
-<element name="C3" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="23.354" y="76.404" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="19.454" y="76.404" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="19.454" y="76.404" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="19.454" y="76.404" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="19.454" y="76.404" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.804" y="75.604" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="NAME" x="23.354" y="76.404" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="24.704" y="75.604" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
-</element>
-<element name="U1" library="TCAN330" package="SOT23-8_TI-DCN" value="TCAN330" x="23" y="79.9" smashed="yes">
-<attribute name="MFR" value="Texas Instruments" x="23" y="76.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="TCAN330GDCNT" x="23" y="76.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="24.9" y="80.1" size="0.635" layer="25" ratio="20"/>
-<attribute name="VALUE" x="24.9" y="79.2" size="0.635" layer="27" ratio="20"/>
-</element>
-<element name="C9" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="32.2" y="58.15" smashed="yes" rot="R180">
-<attribute name="DIS" value="Digi-Key" x="32.2" y="54.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="32.2" y="54.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="32.2" y="54.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="32.2" y="54.25" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33" y="57.6" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="NAME" x="32.2" y="58.15" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="33" y="59.5" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
-</element>
-<element name="U6" library="TCAN330" package="SOT23-8_TI-DCN" value="TCAN330" x="26.8" y="79.9" smashed="yes">
-<attribute name="MFR" value="Texas Instruments" x="26.8" y="76.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="TCAN330GDCNT" x="26.8" y="76.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.7" y="80.1" size="0.635" layer="25" ratio="20"/>
-<attribute name="VALUE" x="28.7" y="79.2" size="0.635" layer="27" ratio="20"/>
-</element>
 <element name="U$2" library="oresat-cards" package="ORESAT-CARD-V1.1-3XRF" value="ORESAT-CARD-V1.1-3XRF" x="0" y="0" locked="yes" smashed="yes"/>
-<element name="U$3" library="U-ST-STM32F446RE-uC" package="P-TQFP-144-19" value="STM32F446ZET6" x="19.1" y="49.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="14.02" y="43.05" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="24.18" y="43.05" size="1.27" layer="27" rot="R90"/>
+<element name="C1" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="12.05" y="61.6" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="52.95" y="69.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="52.95" y="69.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="52.95" y="69.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="52.95" y="69.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="12.6" y="62.4" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="12.05" y="61.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="10.7" y="62.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="U2" library="IS21ES04G-JCLI-TR" package="BGA153N50P14X14_1150X1300X100" value="IS21ES04G-JCLI-TR" x="16.2" y="70.2" smashed="yes">
-<attribute name="AVAILABILITY" value="Unavailable" x="16.2" y="70.2" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" IC FLASH 32G EMMC 153VFBGA " x="16.2" y="70.2" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ISSI, Integrated Silicon Solution Inc" x="16.2" y="70.2" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="IS21ES04G-JCLI-TR" x="16.2" y="70.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.18911875" y="77.212690625" size="1.448490625" layer="25"/>
-<attribute name="PACKAGE" value="VFBGA-153 ISSI, Integrated Silicon Solution Inc" x="16.2" y="70.2" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="16.2" y="70.2" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="10.18976875" y="61.91806875" size="1.43375" layer="27"/>
+<element name="C14" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="34.1" y="40.85" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="46.1" y="3.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="46.1" y="3.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="46.1" y="3.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="46.1" y="3.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="34.9" y="40.3" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="34.1" y="40.85" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="34.9" y="42.2" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R17" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="35.3" y="31" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="35.3" y="31" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="35.3" y="31" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="35.3" y="31" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="35.3" y="31" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.5" y="31.55" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="NAME" x="35.3" y="31" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="VALUE" x="34.5" y="29.65" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C15" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="34.1" y="47.4" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="49.9" y="13.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="49.9" y="13.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="49.9" y="13.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="49.9" y="13.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="34.9" y="46.85" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="34.1" y="47.4" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="34.9" y="48.75" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="E2" library="oresat-rcl" package=".0603-B" value="" x="35.2" y="26.1" smashed="yes">
-<attribute name="NAME" x="34" y="27" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="NAME" x="35.2" y="26.1" size="0.3" layer="33" ratio="15" align="center"/>
-<attribute name="VALUE" x="34" y="24.4" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C19" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="24.05" y="61.6" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="54.45" y="81.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="54.45" y="81.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="54.45" y="81.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="54.45" y="81.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="24.6" y="62.4" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="24.05" y="61.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="22.7" y="62.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C11" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="31.1" y="29.8" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="31.1" y="29.8" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="31.1" y="29.8" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="31.1" y="29.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="31.1" y="29.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.1" y="29.8" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="30.3" y="30.35" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="30.3" y="28.45" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C27" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="26.5" y="87.6" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="3.1" y="114.5" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="3.1" y="114.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="3.1" y="114.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="3.1" y="114.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.7" y="88.15" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="26.5" y="87.6" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="VALUE" x="25.7" y="86.25" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C16" library="rcl_custom" package=".0402-B-NOSILK" value="20p" x="19.7" y="35.2" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="24.9" y="35.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="24.9" y="35.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="24.9" y="35.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="24.9" y="35.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="20.25" y="36" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="NAME" x="19.7" y="35.2" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="18.35" y="36" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
+<element name="U3" library="TCAN330" package="SOT23-8_TI-DCN" value="TCAN330" x="28.8" y="82.7" smashed="yes">
+<attribute name="MFR" value="Texas Instruments" x="3.2" y="88.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TCAN330GDCNT" x="3.2" y="88.1" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.7" y="82.9" size="0.635" layer="25" ratio="20"/>
+<attribute name="VALUE" x="30.7" y="82" size="0.635" layer="27" ratio="20"/>
 </element>
-<element name="C17" library="rcl_custom" package=".0402-B-NOSILK" value="20p" x="23.5" y="35.3" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="21.8" y="32.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="21.8" y="32.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="21.8" y="32.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="21.8" y="32.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.95" y="34.5" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="NAME" x="23.5" y="35.3" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="24.85" y="34.5" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<element name="C28" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="30.7" y="87.3" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="3.5" y="106.8" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="3.5" y="106.8" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="3.5" y="106.8" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="3.5" y="106.8" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="29.9" y="87.85" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="30.7" y="87.3" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="VALUE" x="29.9" y="85.95" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="X1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="16MHZ-2.5x2mm" x="21.6" y="35.3" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="23.4" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="XC2181CT-ND" x="23.4" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="ECS Inc." x="23.4" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="ECS-160-10-36Q-ES-TR" x="23.4" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="20.072" y="33.768" size="0.8128" layer="25" ratio="18" rot="R90"/>
-<attribute name="VALUE" x="23.509" y="33.895" size="0.4064" layer="27" ratio="10" rot="R90"/>
+<element name="U8" library="TCAN330" package="SOT23-8_TI-DCN" value="TCAN330" x="33" y="82.6" smashed="yes">
+<attribute name="MFR" value="Texas Instruments" x="33" y="98.6" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="TCAN330GDCNT" x="33" y="98.6" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="34.9" y="82.8" size="0.635" layer="25" ratio="20"/>
+<attribute name="VALUE" x="34.9" y="81.9" size="0.635" layer="27" ratio="20"/>
 </element>
-<element name="C20" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="32.1" y="48.15" smashed="yes" rot="R180">
-<attribute name="DIS" value="Digi-Key" x="32.1" y="48.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="32.1" y="48.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="32.1" y="48.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="32.1" y="48.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="32.1" y="48.15" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="NAME" x="32.9" y="47.6" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="32.9" y="49.5" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="U$1" library="U-ST-STM32F446RE-uC" package="P-TQFP-144-19" value="STM32F446ZET6" x="20.8" y="48.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.72" y="42.25" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.88" y="42.25" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C21" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="32.1" y="41.65" smashed="yes" rot="R180">
-<attribute name="DIS" value="Digi-Key" x="32.1" y="41.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="32.1" y="41.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="32.1" y="41.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="32.1" y="41.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="32.1" y="41.65" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="NAME" x="32.9" y="41.1" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="32.9" y="43" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="U9" library="IS21ES04G-JCLI-TR" package="BGA153N50P14X14_1150X1300X100" value="IS21ES04G-JCLI-TR" x="11.6" y="77" smashed="yes">
+<attribute name="AVAILABILITY" value="Unavailable" x="-1.1" y="66.2" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value=" IC FLASH 32G EMMC 153VFBGA " x="-1.1" y="66.2" size="1.778" layer="27" display="off"/>
+<attribute name="MF" value="ISSI, Integrated Silicon Solution Inc" x="-1.1" y="66.2" size="1.778" layer="27" display="off"/>
+<attribute name="MP" value="IS21ES04G-JCLI-TR" x="-1.1" y="66.2" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="5.58911875" y="84.012690625" size="1.448490625" layer="25"/>
+<attribute name="PACKAGE" value="VFBGA-153 ISSI, Integrated Silicon Solution Inc" x="-1.1" y="66.2" size="1.778" layer="27" display="off"/>
+<attribute name="PRICE" value="None" x="-1.1" y="66.2" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="5.58976875" y="68.71806875" size="1.43375" layer="27"/>
 </element>
-<element name="C22" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="5.6" y="47.15" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="5.6" y="47.15" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="5.6" y="47.15" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="5.6" y="47.15" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="5.6" y="47.15" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="5.6" y="47.15" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="4.8" y="47.7" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="4.8" y="45.8" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="R4" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="0.3" y="-51" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-12.3" y="-54.5" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="-12.3" y="-54.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="-12.3" y="-54.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="-12.3" y="-54.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-0.5" y="-50.45" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="0.3" y="-51" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="VALUE" x="-0.5" y="-52.35" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C23" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="43.3" y="28.3" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="43.3" y="28.3" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="43.3" y="28.3" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="43.3" y="28.3" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="43.3" y="28.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="43.3" y="28.3" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="42.5" y="28.85" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="42.5" y="26.95" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="E1" library="oresat-rcl" package=".0603-B" value="" x="3.6" y="-51.4" smashed="yes">
+<attribute name="NAME" x="2.4" y="-50.5" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="3.6" y="-51.4" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="VALUE" x="2.4" y="-53.1" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C24" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="18.35" y="35.2" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="18.35" y="35.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="18.35" y="35.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="18.35" y="35.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="18.35" y="35.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="18.35" y="35.2" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="NAME" x="17.8" y="34.4" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="VALUE" x="19.7" y="34.4" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<element name="C29" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="37.9" y="57" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-5.7" y="39.5" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="-5.7" y="39.5" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="-5.7" y="39.5" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="-5.7" y="39.5" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="37.1" y="57.55" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="37.9" y="57" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="VALUE" x="37.1" y="55.65" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C25" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="41.3" y="21.7" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="41.3" y="21.7" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="41.3" y="21.7" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="41.3" y="21.7" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="41.3" y="21.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41.3" y="21.7" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="40.5" y="22.25" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="VALUE" x="40.5" y="20.35" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C30" library="rcl_custom" package=".0402-B-NOSILK" value="20p" x="20.8" y="34.5" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="37.9" y="-4.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-6601-1-ND" x="37.9" y="-4.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="37.9" y="-4.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05C200JB51PNC" x="37.9" y="-4.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="20.25" y="33.7" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="20.8" y="34.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="22.15" y="33.7" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="C26" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="32.1" y="53.15" smashed="yes" rot="R180">
-<attribute name="DIS" value="Digi-Key" x="32.1" y="53.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="32.1" y="53.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="32.1" y="53.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="32.1" y="53.15" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="32.1" y="53.15" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="NAME" x="32.9" y="52.6" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
-<attribute name="VALUE" x="32.9" y="54.5" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="C31" library="rcl_custom" package=".0402-B-NOSILK" value="20p" x="25.4" y="34.5" smashed="yes" rot="R270">
+<attribute name="DIS" value="Digi-Key" x="4.8" y="76.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-6601-1-ND" x="4.8" y="76.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="4.8" y="76.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05C200JB51PNC" x="4.8" y="76.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="25.95" y="35.3" size="0.8" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="25.4" y="34.5" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="VALUE" x="24.05" y="35.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
+</element>
+<element name="X2" library="low-gain-radio" package="CRYSTAL_2.5X2" value="16MHZ-2.5x2mm" x="23.1" y="34.5" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="61" y="75.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="XC2181CT-ND" x="61" y="75.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="ECS Inc." x="61" y="75.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ECS-160-10-36Q-ES-TR" x="61" y="75.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="24.632" y="32.972" size="0.8128" layer="25" ratio="18" rot="R180"/>
+<attribute name="VALUE" x="24.505" y="36.409" size="0.4064" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="C32" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="26.55" y="34.5" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="50.65" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="50.65" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="50.65" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="50.65" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="26" y="33.7" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="26.55" y="34.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="27.9" y="33.7" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+</element>
+<element name="C33" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="7.65" y="46.35" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-13.75" y="18.75" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="-13.75" y="18.75" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="-13.75" y="18.75" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="-13.75" y="18.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.85" y="46.9" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="7.65" y="46.35" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="VALUE" x="6.85" y="45" size="0.8" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="C34" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="7.65" y="51.35" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-17.55" y="20.25" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="-17.55" y="20.25" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="-17.55" y="20.25" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="-17.55" y="20.25" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="6.85" y="51.9" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="7.65" y="51.35" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="VALUE" x="6.85" y="50" size="0.8" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="C35" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="14.55" y="34.5" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="49.15" y="5.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="49.15" y="5.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="49.15" y="5.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="49.15" y="5.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="14" y="33.7" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="14.55" y="34.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="15.9" y="33.7" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+</element>
+<element name="C36" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="19.65" y="34.5" smashed="yes" rot="R90">
+<attribute name="DIS" value="Digi-Key" x="57.75" y="1.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="57.75" y="1.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="57.75" y="1.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="57.75" y="1.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="19.1" y="33.7" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="19.65" y="34.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="VALUE" x="21" y="33.7" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+</element>
+<element name="C37" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="34.1" y="52.3" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="70.7" y="93.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="70.7" y="93.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="70.7" y="93.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="70.7" y="93.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="34.9" y="51.75" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="34.1" y="52.3" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="34.9" y="53.65" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+</element>
+<element name="C38" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="34.1" y="57.35" smashed="yes" rot="R180">
+<attribute name="DIS" value="Digi-Key" x="74.5" y="102.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="74.5" y="102.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="74.5" y="102.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="74.5" y="102.45" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="34.9" y="56.8" size="0.8" layer="25" font="vector" ratio="15" rot="R180"/>
+<attribute name="NAME" x="34.1" y="57.35" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="34.9" y="58.7" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 </elements>
 <signals>
@@ -5537,83 +5537,88 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.1" y1="12" x2="20.5" y2="12.4" width="0.2" layer="1"/>
 <wire x1="20.5" y1="12.4" x2="20.5" y2="13" width="0.2" layer="1"/>
 <wire x1="17.96" y1="10.66" x2="19.3" y2="12" width="0.2" layer="1"/>
-<contactref element="C6" pad="2"/>
-<contactref element="C13" pad="2"/>
-<contactref element="C8" pad="2"/>
-<contactref element="C18" pad="2"/>
-<contactref element="C3" pad="2"/>
-<contactref element="U1" pad="3"/>
-<contactref element="C9" pad="2"/>
-<contactref element="U6" pad="3"/>
-<contactref element="U$3" pad="62"/>
-<contactref element="U$3" pad="72"/>
-<contactref element="U$3" pad="108"/>
-<contactref element="U$3" pad="121"/>
-<contactref element="U$3" pad="52"/>
-<contactref element="U$3" pad="30"/>
-<contactref element="U$3" pad="131"/>
-<contactref element="U$3" pad="144"/>
-<contactref element="U$3" pad="17"/>
-<contactref element="U$3" pad="84"/>
-<contactref element="U$3" pad="39"/>
-<contactref element="U2" pad="N4"/>
-<contactref element="U2" pad="C6"/>
-<contactref element="U2" pad="M4"/>
-<contactref element="U2" pad="P3"/>
-<contactref element="U2" pad="P5"/>
-<contactref element="U2" pad="E6"/>
-<contactref element="U2" pad="F5"/>
-<contactref element="U2" pad="K9"/>
-<contactref element="U2" pad="J10"/>
-<contactref element="E2" pad="1"/>
-<contactref element="C11" pad="2"/>
-<contactref element="U$3" pad="6"/>
-<contactref element="C26" pad="2"/>
-<contactref element="C25" pad="2"/>
-<contactref element="C24" pad="2"/>
-<contactref element="C23" pad="2"/>
-<contactref element="C22" pad="2"/>
-<contactref element="C21" pad="2"/>
-<contactref element="C20" pad="2"/>
-<wire x1="29.825" y1="41.65" x2="31.6" y2="41.65" width="0.2" layer="1"/>
-<wire x1="29.825" y1="48.15" x2="31.6" y2="48.15" width="0.2" layer="1"/>
-<wire x1="29.825" y1="58.15" x2="31.7" y2="58.15" width="0.2" layer="1"/>
-<wire x1="22.35" y1="60.125" x2="22.35" y2="61.95" width="0.2" layer="1"/>
-<wire x1="10.35" y1="60.125" x2="10.35" y2="62" width="0.2" layer="1"/>
-<wire x1="8.375" y1="52.15" x2="6.1" y2="52.15" width="0.2" layer="1"/>
-<wire x1="8.375" y1="47.15" x2="6.1" y2="47.15" width="0.2" layer="1"/>
-<wire x1="12.85" y1="35.7" x2="12.85" y2="38.675" width="0.2" layer="1"/>
-<wire x1="18.35" y1="35.7" x2="18.35" y2="38.675" width="0.2" layer="1"/>
-<wire x1="29.825" y1="53.15" x2="31.6" y2="53.15" width="0.1524" layer="1"/>
-<wire x1="23.325" y1="78.6" x2="27.125" y2="78.6" width="0" layer="19" extent="1-1"/>
-<wire x1="23.354" y1="76.904" x2="23.325" y2="78.6" width="0" layer="19" extent="1-1"/>
-<wire x1="21.18" y1="72.62" x2="23.354" y2="76.904" width="0" layer="19" extent="1-1"/>
-<wire x1="22.35" y1="61.95" x2="25.4" y2="63.1" width="0" layer="19" extent="1-1"/>
-<wire x1="17.45" y1="69.45" x2="21.18" y2="72.62" width="0" layer="19" extent="1-1"/>
-<wire x1="16.95" y1="68.95" x2="17.45" y2="69.45" width="0" layer="19" extent="1-1"/>
-<wire x1="14.45" y1="67.95" x2="16.95" y2="68.95" width="0" layer="19" extent="1-1"/>
-<wire x1="14.45" y1="67.45" x2="14.45" y2="67.95" width="0" layer="19" extent="1-1"/>
-<wire x1="13.95" y1="66.95" x2="14.45" y2="67.45" width="0" layer="19" extent="1-1"/>
-<wire x1="14.95" y1="66.95" x2="14.45" y2="67.45" width="0" layer="19" extent="1-1"/>
-<wire x1="15.45" y1="71.45" x2="17.45" y2="69.45" width="0" layer="19" extent="1-1"/>
-<wire x1="14.95" y1="70.95" x2="15.45" y2="71.45" width="0" layer="19" extent="1-1"/>
-<wire x1="15.45" y1="72.45" x2="15.45" y2="71.45" width="0" layer="19" extent="1-1"/>
-<wire x1="29.825" y1="58.15" x2="29.6" y2="63.225" width="0" layer="19" extent="1-1"/>
-<wire x1="31.6" y1="53.15" x2="31.7" y2="58.15" width="0" layer="19" extent="1-1"/>
-<wire x1="31.6" y1="48.15" x2="31.6" y2="53.15" width="0" layer="19" extent="1-1"/>
-<wire x1="10.35" y1="62" x2="13.95" y2="66.95" width="0" layer="19" extent="1-1"/>
-<wire x1="31.6" y1="41.65" x2="31.6" y2="48.15" width="0" layer="19" extent="1-1"/>
-<wire x1="24.85" y1="38.675" x2="29.825" y2="41.65" width="0" layer="19" extent="1-1"/>
-<wire x1="18.35" y1="38.675" x2="24.85" y2="38.675" width="0" layer="19" extent="1-1"/>
-<wire x1="12.85" y1="38.675" x2="18.35" y2="38.675" width="0" layer="19" extent="1-1"/>
-<wire x1="8.375" y1="40.65" x2="12.85" y2="38.675" width="0" layer="19" extent="1-1"/>
-<wire x1="8.375" y1="47.15" x2="8.375" y2="40.65" width="0" layer="19" extent="1-1"/>
-<wire x1="8.375" y1="52.15" x2="8.375" y2="47.15" width="0" layer="19" extent="1-1"/>
-<wire x1="31.6" y1="29.8" x2="24.85" y2="38.675" width="0" layer="19" extent="1-1"/>
-<wire x1="34.4" y1="26.1" x2="31.6" y2="29.8" width="0" layer="19" extent="1-1"/>
-<wire x1="41.8" y1="21.7" x2="34.4" y2="26.1" width="0" layer="19" extent="1-1"/>
-<wire x1="43.8" y1="28.3" x2="41.8" y2="21.7" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="13" x2="34.4" y2="26.1" width="0" layer="19" extent="1-1"/>
+<contactref element="C1" pad="2"/>
+<contactref element="C15" pad="2"/>
+<contactref element="C14" pad="2"/>
+<contactref element="C19" pad="2"/>
+<contactref element="C38" pad="2"/>
+<contactref element="C37" pad="2"/>
+<contactref element="C36" pad="2"/>
+<contactref element="C35" pad="2"/>
+<contactref element="C34" pad="2"/>
+<contactref element="C33" pad="2"/>
+<contactref element="C32" pad="2"/>
+<contactref element="C27" pad="2"/>
+<contactref element="U3" pad="3"/>
+<contactref element="C28" pad="2"/>
+<contactref element="U8" pad="3"/>
+<contactref element="U$1" pad="39"/>
+<contactref element="U$1" pad="108"/>
+<contactref element="U$1" pad="52"/>
+<contactref element="U$1" pad="84"/>
+<contactref element="U$1" pad="121"/>
+<contactref element="U$1" pad="17"/>
+<contactref element="U$1" pad="62"/>
+<contactref element="U$1" pad="72"/>
+<contactref element="U$1" pad="131"/>
+<contactref element="U$1" pad="30"/>
+<contactref element="U$1" pad="144"/>
+<contactref element="E1" pad="1"/>
+<contactref element="C29" pad="2"/>
+<contactref element="U$1" pad="6"/>
+<contactref element="U9" pad="N4"/>
+<contactref element="U9" pad="C6"/>
+<contactref element="U9" pad="M4"/>
+<contactref element="U9" pad="P5"/>
+<contactref element="U9" pad="P3"/>
+<contactref element="U9" pad="K9"/>
+<contactref element="U9" pad="F5"/>
+<contactref element="U9" pad="E6"/>
+<contactref element="U9" pad="J10"/>
+<wire x1="10.075" y1="51.35" x2="8.15" y2="51.35" width="0.2" layer="1"/>
+<wire x1="12.05" y1="59.325" x2="12.05" y2="61.1" width="0.2" layer="1"/>
+<wire x1="24.05" y1="61.1" x2="24.05" y2="59.5556" width="0.2" layer="1"/>
+<wire x1="10.075" y1="46.35" x2="8.15" y2="46.35" width="0.2" layer="1"/>
+<wire x1="31.525" y1="52.35" x2="33.55" y2="52.35" width="0.2" layer="1"/>
+<wire x1="33.55" y1="52.35" x2="33.6" y2="52.3" width="0.2" layer="1"/>
+<wire x1="31.525" y1="47.35" x2="33.35" y2="47.35" width="0.2" layer="1"/>
+<wire x1="33.35" y1="47.35" x2="33.6" y2="47.4" width="0.2" layer="1"/>
+<wire x1="31.525" y1="40.85" x2="33.6" y2="40.85" width="0.2" layer="1"/>
+<wire x1="26.55" y1="37.875" x2="26.55" y2="35" width="0.2" layer="1"/>
+<wire x1="20.05" y1="37.875" x2="20.05" y2="36.775" width="0.2" layer="1"/>
+<wire x1="20.05" y1="36.775" x2="19.65" y2="36.375" width="0.2" layer="1"/>
+<wire x1="19.65" y1="36.375" x2="19.65" y2="35" width="0.2" layer="1"/>
+<wire x1="14.55" y1="37.875" x2="14.55" y2="35" width="0.2" layer="1"/>
+<wire x1="31.525" y1="57.35" x2="33.6" y2="57.35" width="0.2" layer="1"/>
+<wire x1="29.125" y1="81.4" x2="33.325" y2="81.3" width="0" layer="19" extent="1-1"/>
+<wire x1="38.4" y1="57" x2="29.125" y2="81.4" width="0" layer="19" extent="1-1"/>
+<wire x1="33.6" y1="52.3" x2="38.4" y2="57" width="0" layer="19" extent="1-1"/>
+<wire x1="33.6" y1="47.4" x2="33.6" y2="52.3" width="0" layer="19" extent="1-1"/>
+<wire x1="33.6" y1="57.35" x2="33.55" y2="52.35" width="0" layer="19" extent="1-1"/>
+<wire x1="29.6" y1="63.225" x2="31.525" y2="57.35" width="0" layer="19" extent="1-1"/>
+<wire x1="24.05" y1="61.1" x2="25.4" y2="63.1" width="0" layer="19" extent="1-1"/>
+<wire x1="24.05" y1="59.325" x2="24.05" y2="59.5556" width="0" layer="19" extent="1-1"/>
+<wire x1="31.525" y1="40.85" x2="31.525" y2="47.35" width="0" layer="19" extent="1-1"/>
+<wire x1="26.55" y1="37.875" x2="31.525" y2="40.85" width="0" layer="19" extent="1-1"/>
+<wire x1="20.05" y1="37.875" x2="26.55" y2="37.875" width="0" layer="19" extent="1-1"/>
+<wire x1="14.55" y1="35" x2="19.65" y2="35" width="0" layer="19" extent="1-1"/>
+<wire x1="10.075" y1="39.85" x2="14.55" y2="37.875" width="0" layer="19" extent="1-1"/>
+<wire x1="10.075" y1="46.35" x2="10.075" y2="39.85" width="0" layer="19" extent="1-1"/>
+<wire x1="10.075" y1="51.35" x2="10.075" y2="46.35" width="0" layer="19" extent="1-1"/>
+<wire x1="12.05" y1="59.325" x2="10.075" y2="51.35" width="0" layer="19" extent="1-1"/>
+<wire x1="12.85" y1="76.25" x2="21.18" y2="72.62" width="0" layer="19" extent="1-1"/>
+<wire x1="12.35" y1="75.75" x2="12.85" y2="76.25" width="0" layer="19" extent="1-1"/>
+<wire x1="9.85" y1="74.75" x2="12.35" y2="75.75" width="0" layer="19" extent="1-1"/>
+<wire x1="9.85" y1="74.25" x2="9.85" y2="74.75" width="0" layer="19" extent="1-1"/>
+<wire x1="10.35" y1="73.75" x2="9.85" y2="74.25" width="0" layer="19" extent="1-1"/>
+<wire x1="9.35" y1="73.75" x2="9.85" y2="74.25" width="0" layer="19" extent="1-1"/>
+<wire x1="10.35" y1="77.75" x2="12.35" y2="75.75" width="0" layer="19" extent="1-1"/>
+<wire x1="10.85" y1="78.25" x2="10.35" y2="77.75" width="0" layer="19" extent="1-1"/>
+<wire x1="10.85" y1="79.25" x2="10.85" y2="78.25" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="13" x2="26.55" y2="35" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="87.6" x2="17.96" y2="9.032" width="0" layer="19" extent="1-1"/>
+<wire x1="31.2" y1="87.3" x2="27" y2="87.6" width="0" layer="19" extent="1-1"/>
+<wire x1="2.8" y1="-51.4" x2="27" y2="87.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDAOPT2">
 </signal>
@@ -5623,17 +5628,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.04" y1="4.968" x2="23.04" y2="3.26" width="0.2" layer="1"/>
 <wire x1="23.04" y1="3.26" x2="22.78" y2="3" width="0.2" layer="1"/>
 <wire x1="22.78" y1="3" x2="16.801625" y2="3" width="0.2" layer="1"/>
-<contactref element="U$3" pad="25"/>
-<wire x1="7.3" y1="45.8" x2="7.3" y2="45.6" width="0.2" layer="16"/>
-<wire x1="7.3" y1="45.6" x2="6.9" y2="45.2" width="0.2" layer="16"/>
-<wire x1="6.9" y1="45.2" x2="3.1" y2="45.2" width="0.2" layer="16"/>
-<wire x1="3.1" y1="45.2" x2="2.7" y2="45.6" width="0.2" layer="16"/>
-<wire x1="2.7" y1="45.6" x2="2.5" y2="45.6" width="0.2" layer="16"/>
-<via x="2.5" y="45.6" extent="1-16" drill="0.35"/>
-<wire x1="2.7" y1="45.6" x2="3.1476" y2="45.1524" width="0.2" layer="1"/>
-<wire x1="2.5" y1="45.6" x2="2.7" y2="45.6" width="0.2" layer="1"/>
 <wire x1="3.1476" y1="45.1524" x2="3.1476" y2="16.654025" width="0.2" layer="1"/>
-<wire x1="7.3" y1="45.6" x2="22.35" y2="38.675" width="0" layer="19" extent="1-16"/>
+<contactref element="U$1" pad="25"/>
+<wire x1="3.1476" y1="45.1524" x2="24.05" y2="37.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDAOPT1">
 </signal>
@@ -5779,8 +5776,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="5.38" y="53.7" extent="1-16" drill="0.254"/>
 <via x="19.48" y="39.9" extent="1-16" drill="0.254"/>
 <via x="7.48" y="38.9" extent="1-16" drill="0.254"/>
-<via x="7.48" y="28.9" extent="1-16" drill="0.254"/>
-<via x="17.98" y="28.4" extent="1-16" drill="0.254"/>
+<via x="25.28" y="36.2" extent="1-16" drill="0.254"/>
+<via x="21.38" y="36.4" extent="1-16" drill="0.254"/>
 <via x="24.98" y="31.4" extent="1-16" drill="0.254"/>
 <via x="16.8" y="9" extent="1-16" drill="0.254"/>
 <via x="19.9" y="11" extent="1-16" drill="0.254"/>
@@ -5906,58 +5903,58 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="15" y="15" extent="1-16" drill="0.254"/>
 <via x="15" y="17" extent="1-16" drill="0.254"/>
 <via x="24.2" y="9.1" extent="1-16" drill="0.254"/>
-<contactref element="C8" pad="1"/>
-<contactref element="U1" pad="2"/>
-<contactref element="C3" pad="1"/>
-<contactref element="U6" pad="2"/>
-<contactref element="C9" pad="1"/>
-<contactref element="U2" pad="A6"/>
-<contactref element="U2" pad="E7"/>
-<contactref element="U2" pad="G5"/>
-<contactref element="U2" pad="J5"/>
-<contactref element="U2" pad="H10"/>
-<contactref element="U2" pad="K8"/>
-<contactref element="U$3" pad="94"/>
-<contactref element="U$3" pad="120"/>
-<contactref element="U$3" pad="38"/>
-<contactref element="U$3" pad="83"/>
-<contactref element="U$3" pad="16"/>
-<contactref element="U$3" pad="130"/>
-<contactref element="U$3" pad="51"/>
-<contactref element="U$3" pad="61"/>
-<contactref element="U$3" pad="107"/>
-<contactref element="U$3" pad="31"/>
-<contactref element="R17" pad="1"/>
-<contactref element="U2" pad="N5"/>
-<contactref element="U2" pad="C4"/>
-<contactref element="U2" pad="P4"/>
-<contactref element="U2" pad="N2"/>
-<contactref element="U2" pad="P6"/>
-<contactref element="C11" pad="1"/>
-<contactref element="X1" pad="2"/>
-<contactref element="X1" pad="4"/>
-<contactref element="C16" pad="2"/>
-<contactref element="C17" pad="2"/>
-<contactref element="C26" pad="1"/>
-<contactref element="C13" pad="1"/>
-<contactref element="C18" pad="1"/>
-<contactref element="C6" pad="1"/>
-<contactref element="C20" pad="1"/>
-<contactref element="C21" pad="1"/>
-<contactref element="C22" pad="1"/>
-<contactref element="C23" pad="1"/>
-<contactref element="C24" pad="1"/>
-<contactref element="C25" pad="1"/>
 <contactref element="J6" pad="28"/>
 <contactref element="J6" pad="27"/>
+<contactref element="U3" pad="2"/>
+<contactref element="U8" pad="2"/>
+<contactref element="C14" pad="1"/>
+<contactref element="C38" pad="1"/>
+<contactref element="C15" pad="1"/>
+<contactref element="C19" pad="1"/>
+<contactref element="C1" pad="1"/>
+<contactref element="C32" pad="1"/>
+<contactref element="C33" pad="1"/>
+<contactref element="C34" pad="1"/>
+<contactref element="C35" pad="1"/>
+<contactref element="C36" pad="1"/>
+<contactref element="C37" pad="1"/>
+<contactref element="C27" pad="1"/>
+<contactref element="C28" pad="1"/>
+<contactref element="U9" pad="A6"/>
+<contactref element="U9" pad="H10"/>
+<contactref element="U9" pad="K8"/>
+<contactref element="U9" pad="G5"/>
+<contactref element="U9" pad="J5"/>
+<contactref element="U9" pad="E7"/>
+<contactref element="U9" pad="N5"/>
+<contactref element="U9" pad="C4"/>
+<contactref element="U9" pad="P4"/>
+<contactref element="U9" pad="P6"/>
+<contactref element="U9" pad="N2"/>
+<contactref element="U$1" pad="83"/>
+<contactref element="U$1" pad="120"/>
+<contactref element="U$1" pad="94"/>
+<contactref element="U$1" pad="130"/>
+<contactref element="U$1" pad="61"/>
+<contactref element="U$1" pad="107"/>
+<contactref element="U$1" pad="16"/>
+<contactref element="U$1" pad="38"/>
+<contactref element="U$1" pad="51"/>
+<contactref element="U$1" pad="31"/>
+<contactref element="R4" pad="1"/>
+<contactref element="C29" pad="1"/>
+<contactref element="X2" pad="2"/>
+<contactref element="X2" pad="4"/>
+<contactref element="C30" pad="2"/>
+<contactref element="C31" pad="2"/>
 <wire x1="92.5" y1="91.5" x2="92" y2="94.5" width="0" layer="19" extent="1-1"/>
-<wire x1="14.95" y1="67.45" x2="14.45" y2="66.95" width="0" layer="19" extent="1-1"/>
-<wire x1="13.45" y1="67.45" x2="14.45" y2="66.95" width="0" layer="19" extent="1-1"/>
-<wire x1="22.225" y1="36.125" x2="23.5" y2="35.8" width="0" layer="19" extent="1-1"/>
-<wire x1="14.45" y1="72.45" x2="15.45" y2="73.45" width="0" layer="19" extent="1-1"/>
+<wire x1="10.35" y1="74.25" x2="9.85" y2="73.75" width="0" layer="19" extent="1-1"/>
+<wire x1="8.85" y1="74.25" x2="9.85" y2="73.75" width="0" layer="19" extent="1-1"/>
+<wire x1="9.85" y1="79.25" x2="10.85" y2="80.25" width="0" layer="19" extent="1-1"/>
 <wire x1="85.028" y1="86.48" x2="84.5" y2="85" width="0" layer="19" extent="1-1"/>
 <wire x1="79.028" y1="86.48" x2="78.5" y2="85" width="0" layer="19" extent="1-1"/>
 <wire x1="73.028" y1="86.48" x2="72.5" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="11.85" y1="75.75" x2="13.1" y2="74.7" width="0" layer="19" extent="1-1"/>
 <wire x1="79.282" y1="89.782" x2="81.218" y2="89.782" width="0" layer="19" extent="16-16"/>
 <wire x1="73.282" y1="89.782" x2="75.218" y2="89.782" width="0" layer="19" extent="16-16"/>
 <wire x1="85.282" y1="89.782" x2="86.5" y2="88" width="0" layer="19" extent="16-16"/>
@@ -5969,17 +5966,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="63" y1="94.5" x2="58" y2="94.5" width="0" layer="19" extent="1-1"/>
 <wire x1="43" y1="94.5" x2="48" y2="94.5" width="0" layer="19" extent="1-1"/>
 <wire x1="38" y1="94.5" x2="43" y2="94.5" width="0" layer="19" extent="1-1"/>
+<wire x1="26" y1="87.6" x2="24" y2="0.8" width="0" layer="19" extent="1-1"/>
+<wire x1="30.2" y1="87.3" x2="26" y2="87.6" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.2" y1="-51" x2="26" y2="87.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWDIO">
 <contactref element="J7" pad="2"/>
 <wire x1="3.5" y1="54.66" x2="3.5" y2="16.9" width="0.2" layer="1"/>
 <wire x1="3.5" y1="16.9" x2="15.432" y2="4.968" width="0.2" layer="1"/>
 <wire x1="17.96" y1="4.968" x2="15.432" y2="4.968" width="0.2" layer="1"/>
-<contactref element="U$3" pad="105"/>
 <wire x1="3.5" y1="54.66" x2="7.3874" y2="58.5474" width="0.2" layer="1"/>
-<wire x1="11.85" y1="59.05" x2="11.85" y2="60.125" width="0.2" layer="1"/>
-<wire x1="7.3874" y1="58.5474" x2="11.3474" y2="58.5474" width="0.2" layer="1"/>
-<wire x1="11.3474" y1="58.5474" x2="11.85" y2="59.05" width="0.2" layer="1"/>
+<contactref element="U$1" pad="105"/>
+<wire x1="7.3874" y1="58.5474" x2="13.55" y2="59.325" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="J7" pad="4"/>
@@ -5988,23 +5986,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.7" y1="7.1" x2="13.9" y2="7.1" width="0.2" layer="1"/>
 <wire x1="19.23" y1="4.968" x2="19.23" y2="6.57" width="0.2" layer="1"/>
 <wire x1="19.23" y1="6.57" x2="18.7" y2="7.1" width="0.2" layer="1"/>
-<contactref element="U$3" pad="109"/>
 <wire x1="3.9" y1="54.5" x2="7.55" y2="58.15" width="0.2" layer="1"/>
-<wire x1="7.55" y1="58.15" x2="8.375" y2="58.15" width="0.2" layer="1"/>
+<contactref element="U$1" pad="109"/>
+<wire x1="7.55" y1="58.15" x2="10.075" y2="57.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PA2/USART2_TX">
-<contactref element="U$3" pad="36"/>
+<contactref element="U$1" pad="36"/>
 </signal>
 <signal name="PA3/USART2_RX">
-<contactref element="U$3" pad="37"/>
+<contactref element="U$1" pad="37"/>
 </signal>
 <signal name="PA0">
 <contactref element="R3" pad="2"/>
 <wire x1="21.2" y1="17" x2="21.7" y2="17.5" width="0.2" layer="1"/>
 <wire x1="21.2" y1="17" x2="20.5" y2="17" width="0.2" layer="1"/>
-<contactref element="U$3" pad="34"/>
 <wire x1="21.7" y1="17.5" x2="26.85" y2="22.65" width="0.1524" layer="1"/>
-<wire x1="26.85" y1="22.65" x2="26.85" y2="38.675" width="0.1524" layer="1"/>
+<contactref element="U$1" pad="34"/>
+<wire x1="26.85" y1="22.65" x2="28.55" y2="37.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPD_SDA">
 <contactref element="J6" pad="11"/>
@@ -6134,7 +6132,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SDAOPT6">
 </signal>
 <signal name="CAN2_L">
-<contactref element="U6" pad="6"/>
 <contactref element="J6" pad="19"/>
 <contactref element="J6" pad="20"/>
 <wire x1="50.535" y1="88.635" x2="50.535" y2="87.365" width="0.25" layer="16"/>
@@ -6148,7 +6145,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="64" y1="69.1" x2="68" y2="73.1" width="0.5" layer="1"/>
 <wire x1="68" y1="73.1" x2="68" y2="76.9" width="0.5" layer="1"/>
 <wire x1="68" y1="76.9" x2="66.2" y2="78.7" width="0.5" layer="1"/>
-<wire x1="27.125" y1="81.2" x2="50.535" y2="87.365" width="0" layer="19" extent="1-1"/>
+<contactref element="U8" pad="6"/>
+<wire x1="33.325" y1="83.9" x2="63.6" y2="67.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_L">
 <contactref element="J6" pad="35"/>
@@ -6156,11 +6154,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="40.375" y1="88.635" x2="40.375" y2="87.365" width="0.25" layer="16"/>
 <wire x1="40.375" y1="87.365" x2="40.375" y2="83.405" width="0.25" layer="16"/>
 <wire x1="40.375" y1="83.405" x2="39.37" y2="82.4" width="0.25" layer="16"/>
-<contactref element="U1" pad="6"/>
-<wire x1="23.325" y1="81.2" x2="39.37" y2="82.4" width="0" layer="19" extent="1-16"/>
+<contactref element="U3" pad="6"/>
+<wire x1="29.125" y1="84" x2="39.37" y2="82.4" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="CAN2_H">
-<contactref element="U6" pad="7"/>
 <contactref element="J6" pad="17"/>
 <contactref element="J6" pad="18"/>
 <wire x1="51.805" y1="88.635" x2="51.805" y2="87.365" width="0.25" layer="16"/>
@@ -6174,7 +6171,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="67.4064" y1="73.4064" x2="65.5024" y2="71.5024" width="0.254" layer="1"/>
 <wire x1="65.6" y1="90.16908125" x2="65.6" y2="78.4747375" width="0.254" layer="1"/>
 <wire x1="67.4064" y1="76.6683375" x2="67.4064" y2="73.4064" width="0.254" layer="1"/>
-<wire x1="26.475" y1="81.2" x2="51.805" y2="87.365" width="0" layer="19" extent="1-1"/>
+<contactref element="U8" pad="7"/>
+<wire x1="32.675" y1="83.9" x2="64.4" y2="70.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_H">
 <contactref element="J6" pad="33"/>
@@ -6183,8 +6181,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="41.645" y1="87.365" x2="41.645" y2="82.685" width="0.25" layer="16"/>
 <wire x1="41.645" y1="82.685" x2="41.9" y2="82.43" width="0.25" layer="16"/>
 <wire x1="41.9" y1="82.43" x2="41.9" y2="81.29" width="0.25" layer="16"/>
-<contactref element="U1" pad="7"/>
-<wire x1="22.675" y1="81.2" x2="41.645" y2="82.685" width="0" layer="19" extent="1-16"/>
+<contactref element="U3" pad="7"/>
+<wire x1="28.475" y1="84" x2="41.9" y2="81.29" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="OPD_SCL">
 <contactref element="J6" pad="13"/>
@@ -6435,88 +6433,47 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="39.6" y1="74.8" x2="39.2" y2="75.2" width="0.2" layer="1"/>
 </signal>
 <signal name="CAN1_TX">
-<contactref element="U1" pad="1"/>
-<contactref element="U$3" pad="104"/>
-<wire x1="12.35" y1="60.125" x2="22.025" y2="78.6" width="0" layer="19" extent="1-1"/>
+<contactref element="U3" pad="1"/>
+<contactref element="U$1" pad="104"/>
+<wire x1="14.05" y1="59.325" x2="27.825" y2="81.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_RX">
-<contactref element="U1" pad="4"/>
-<contactref element="U$3" pad="103"/>
-<wire x1="12.85" y1="60.125" x2="23.975" y2="78.6" width="0" layer="19" extent="1-1"/>
+<contactref element="U3" pad="4"/>
+<contactref element="U$1" pad="103"/>
+<wire x1="14.55" y1="59.325" x2="29.775" y2="81.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_SHDN">
-<contactref element="U1" pad="5"/>
-<contactref element="U$3" pad="102"/>
-<wire x1="13.35" y1="60.125" x2="23.975" y2="81.2" width="0" layer="19" extent="1-1"/>
+<contactref element="U3" pad="5"/>
+<contactref element="U$1" pad="102"/>
+<wire x1="15.05" y1="59.325" x2="29.775" y2="84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_SILENT">
-<contactref element="U1" pad="8"/>
-<contactref element="U$3" pad="101"/>
-<wire x1="13.85" y1="60.125" x2="22.025" y2="81.2" width="0" layer="19" extent="1-1"/>
+<contactref element="U3" pad="8"/>
+<contactref element="U$1" pad="101"/>
+<wire x1="15.55" y1="59.325" x2="27.825" y2="84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN2_TX">
-<contactref element="U6" pad="1"/>
-<contactref element="U$3" pad="74"/>
-<wire x1="27.35" y1="60.125" x2="25.825" y2="78.6" width="0" layer="19" extent="1-1"/>
+<contactref element="U8" pad="1"/>
+<contactref element="U$1" pad="74"/>
+<wire x1="29.05" y1="59.325" x2="32.025" y2="81.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN2_RX">
-<contactref element="U6" pad="4"/>
-<contactref element="U$3" pad="73"/>
-<wire x1="27.85" y1="60.125" x2="27.775" y2="78.6" width="0" layer="19" extent="1-1"/>
+<contactref element="U8" pad="4"/>
+<contactref element="U$1" pad="73"/>
+<wire x1="29.55" y1="59.325" x2="33.975" y2="81.3" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN2_SHDN">
-<contactref element="U6" pad="5"/>
-<contactref element="U$3" pad="70"/>
-<wire x1="29.825" y1="57.15" x2="27.775" y2="81.2" width="0" layer="19" extent="1-1"/>
+<contactref element="U8" pad="5"/>
+<contactref element="U$1" pad="70"/>
+<wire x1="31.525" y1="56.35" x2="33.975" y2="83.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN2_SILENT">
-<contactref element="U6" pad="8"/>
-<contactref element="U$3" pad="69"/>
-<wire x1="29.825" y1="56.65" x2="25.825" y2="81.2" width="0" layer="19" extent="1-1"/>
+<contactref element="U8" pad="8"/>
+<contactref element="U$1" pad="69"/>
+<wire x1="31.525" y1="55.85" x2="32.025" y2="83.9" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDI">
-<contactref element="U2" pad="C2"/>
-</signal>
-<signal name="N$6">
-<contactref element="R17" pad="2"/>
-<contactref element="U$3" pad="138"/>
-<wire x1="8.375" y1="43.65" x2="35.8" y2="31" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$7">
-<contactref element="U$3" pad="33"/>
-<contactref element="E2" pad="2"/>
-<wire x1="36" y1="26.1" x2="26.35" y2="38.675" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="CRYSTALIN2">
-<contactref element="C17" pad="1"/>
-<contactref element="X1" pad="1"/>
-<contactref element="U$3" pad="24"/>
-<wire x1="22.225" y1="34.475" x2="22.25" y2="34.5" width="0.1524" layer="1"/>
-<wire x1="22.3" y1="34.5" x2="22.25" y2="34.5" width="0.1524" layer="1"/>
-<wire x1="21.85" y1="38.675" x2="21.85" y2="37.25" width="0.2" layer="1"/>
-<wire x1="21.85" y1="37.25" x2="22.1726" y2="36.9274" width="0.2" layer="1"/>
-<wire x1="22.1726" y1="36.9274" x2="22.62955" y2="36.9274" width="0.2" layer="1"/>
-<wire x1="22.62955" y1="36.9274" x2="22.8976" y2="36.65935" width="0.2" layer="1"/>
-<wire x1="22.72955" y1="35.4226" x2="22.7226" y2="35.4226" width="0.2" layer="1"/>
-<wire x1="22.8976" y1="35.59065" x2="22.72955" y2="35.4226" width="0.2" layer="1"/>
-<wire x1="22.8976" y1="36.65935" x2="22.8976" y2="35.59065" width="0.2" layer="1"/>
-<wire x1="22.7226" y1="35.4226" x2="22.3" y2="35" width="0.2" layer="1"/>
-<wire x1="23.5" y1="34.8" x2="23.1" y2="34.8" width="0.2" layer="1"/>
-<wire x1="22.8" y1="34.5" x2="22.3" y2="34.5" width="0.2" layer="1"/>
-<wire x1="23.1" y1="34.8" x2="22.8" y2="34.5" width="0.2" layer="1"/>
-<wire x1="22.25" y1="34.5" x2="22.3" y2="35" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="CRYSTALOUT2">
-<contactref element="C16" pad="1"/>
-<contactref element="X1" pad="3"/>
-<contactref element="U$3" pad="23"/>
-<wire x1="20.975" y1="36.125" x2="20.95" y2="36.1" width="0.1524" layer="1"/>
-<wire x1="21.35" y1="38.675" x2="21.35" y2="37.15" width="0.2" layer="1"/>
-<wire x1="20.975" y1="36.775" x2="20.975" y2="36.125" width="0.2" layer="1"/>
-<wire x1="21.35" y1="37.15" x2="20.975" y2="36.775" width="0.2" layer="1"/>
-<wire x1="20.975" y1="36.125" x2="20.525" y2="36.125" width="0.2" layer="1"/>
-<wire x1="20.1" y1="35.7" x2="19.7" y2="35.7" width="0.2" layer="1"/>
-<wire x1="20.525" y1="36.125" x2="20.1" y2="35.7" width="0.2" layer="1"/>
+<contactref element="U9" pad="C2"/>
 </signal>
 <signal name="N$2">
 <contactref element="U4" pad="9"/>
@@ -6530,6 +6487,38 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="46.8" y1="66.8846" x2="46.8" y2="66.262" width="0.2" layer="1"/>
 <wire x1="46.9" y1="71.4" x2="51.6" y2="71.4" width="0.2" layer="16"/>
 <wire x1="51.6" y1="71.4" x2="54" y2="70.5" width="0" layer="19" extent="1-16"/>
+</signal>
+<signal name="N$3">
+<contactref element="R4" pad="2"/>
+<contactref element="U$1" pad="138"/>
+<wire x1="10.075" y1="42.85" x2="0.8" y2="-51" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U$1" pad="33"/>
+<contactref element="E1" pad="2"/>
+<wire x1="4.4" y1="-51.4" x2="28.05" y2="37.875" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="CRYSTALIN1">
+<contactref element="C31" pad="1"/>
+<contactref element="X2" pad="1"/>
+<contactref element="U$1" pad="24"/>
+<wire x1="23.55" y1="37.875" x2="23.55" y2="36.25" width="0.2" layer="1"/>
+<wire x1="23.925" y1="35.875" x2="23.925" y2="35.125" width="0.2" layer="1"/>
+<wire x1="23.55" y1="36.25" x2="23.925" y2="35.875" width="0.2" layer="1"/>
+<wire x1="23.925" y1="35.125" x2="24.575" y2="35.125" width="0.2" layer="1"/>
+<wire x1="24.575" y1="35.125" x2="24.7" y2="35" width="0.2" layer="1"/>
+<wire x1="24.7" y1="35" x2="25.4" y2="35" width="0.2" layer="1"/>
+</signal>
+<signal name="CRYSTALOUT1">
+<contactref element="C30" pad="1"/>
+<contactref element="X2" pad="3"/>
+<contactref element="U$1" pad="23"/>
+<wire x1="23.05" y1="37.875" x2="23.05" y2="34.15" width="0.2" layer="1"/>
+<wire x1="22.775" y1="33.875" x2="22.275" y2="33.875" width="0.2" layer="1"/>
+<wire x1="23.05" y1="34.15" x2="22.775" y2="33.875" width="0.2" layer="1"/>
+<wire x1="22.275" y1="33.875" x2="21.725" y2="33.875" width="0.2" layer="1"/>
+<wire x1="21.725" y1="33.875" x2="21.6" y2="34" width="0.2" layer="1"/>
+<wire x1="21.6" y1="34" x2="20.8" y2="34" width="0.2" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
