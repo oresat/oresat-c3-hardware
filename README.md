@@ -7,11 +7,13 @@ providing a telecommand and telemetry interface.
 
 Further documentation can be found in the [doc](doc) folder.
 
-## Software
-The software for the C3 card is integrated into the
+## Firmware
+The firmware for the C3 card is integrated into the
 [oresat-firmware](https://github.com/oresat/oresat-firmware) repository.
 This is because the OreSat project is a tightly integrated system with
 several common libraries and multiple subsystems working concurrently.
+Specifically, the firmware application for this project is located
+[here](https://github.com/oresat/oresat-firmware/tree/c3_capstone/src/f4/app_c3_v1).
 
 ## License
 OreSat C3 is licensed under the CERN OHL v1.2. A copy of the license is
