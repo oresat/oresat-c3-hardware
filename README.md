@@ -8,6 +8,14 @@ providing a telecommand and telemetry interface.
 Further documentation can be found in the [doc](doc) folder.
 
 ## Prototype Breadboard
+The current breadboard prototype for the C3 card implements an
+STM32F446RE development board connected to two SPI radios, the OreSat
+FlatSat backplane via a CAN transceiver and I2C for the OPD interface,
+and a SDIO and SPI connected SD/MMC Card. The breadboard implements
+stronger pullups for the I2C lines than the GPIO of the STM32 can
+provide. It is currently capable of interfacing with and activating the
+OPD connected boards.
+
 ![Breadboard Prototype](prototype.jpg)
 
 ## Firmware
