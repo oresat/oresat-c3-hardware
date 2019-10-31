@@ -7,6 +7,9 @@ providing a telecommand and telemetry interface.
 
 Further documentation can be found in the [doc](doc) folder.
 
+## Prototype Breadboard
+![Breadboard Prototype](prototype.jpg)
+
 ## Firmware
 The firmware for the C3 card is integrated into the
 [oresat-firmware](https://github.com/oresat/oresat-firmware) repository.
