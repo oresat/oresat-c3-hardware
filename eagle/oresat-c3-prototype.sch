@@ -22457,6 +22457,7 @@ shrink quad flat pack, square</description>
 <wire x1="299.72" y1="213.36" x2="299.72" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="VBUSP1" gate="G$1" pin="VBUSP"/>
 <wire x1="299.72" y1="213.36" x2="299.72" y2="220.98" width="0.1524" layer="91"/>
+<label x="279.4" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$400" class="0">
@@ -22534,6 +22535,7 @@ shrink quad flat pack, square</description>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <pinref part="TP21" gate="G$1" pin="1"/>
 <junction x="182.88" y="152.4"/>
+<label x="269.24" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$407" class="0">
@@ -22564,6 +22566,7 @@ shrink quad flat pack, square</description>
 <wire x1="264.16" y1="213.36" x2="266.7" y2="213.36" width="0.1524" layer="91"/>
 <junction x="264.16" y="213.36"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
+<label x="264.16" y="213.36" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
