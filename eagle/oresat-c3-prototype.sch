@@ -23341,8 +23341,8 @@ SET2 |SET1 |SET0|  tDELAY     |tWD
 <instance part="VBUSP5" gate="G$1" x="81.28" y="223.52" smashed="yes">
 <attribute name="VALUE" x="81.28" y="226.314" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="TP2" gate="G$1" x="193.04" y="177.8" smashed="yes" rot="MR0">
-<attribute name="NAME" x="190.5" y="177.8" size="1.778" layer="95" font="vector" rot="MR0"/>
+<instance part="TP2" gate="G$1" x="185.42" y="177.8" smashed="yes" rot="MR0">
+<attribute name="NAME" x="185.42" y="180.34" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="R24" gate="G$1" x="304.8" y="170.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="308.61" y="171.6786" size="1.778" layer="95" rot="MR0"/>
@@ -23788,15 +23788,16 @@ SET2 |SET1 |SET0|  tDELAY     |tWD
 <label x="195.58" y="137.16" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
-<net name="N$401" class="0">
+<net name="NRST" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="NRST"/>
-<wire x1="193.04" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
 <pinref part="J7" gate="A" pin="!RESET"/>
-<wire x1="193.04" y1="177.8" x2="193.04" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="213.36" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
-<junction x="193.04" y="177.8"/>
+<wire x1="185.42" y1="177.8" x2="177.8" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="177.8" x2="177.8" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="213.36" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
+<label x="195.58" y="177.8" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -24091,7 +24092,7 @@ SET2 |SET1 |SET0|  tDELAY     |tWD
 <label x="241.3" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PB10/OPD_POUT" class="0">
+<net name="OPD_POUT_IN" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB10"/>
 <wire x1="241.3" y1="172.72" x2="271.78" y2="172.72" width="0.1524" layer="91"/>
