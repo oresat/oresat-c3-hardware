@@ -5774,8 +5774,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="62.57" y="79.765" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="62.23" y="84.455" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="TP2" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="44.5" y="42.9" smashed="yes">
-<attribute name="NAME" x="42.9" y="44.4" size="0.8" layer="25" font="vector" ratio="20"/>
+<element name="TP2" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="41.31" y="46.62" smashed="yes">
+<attribute name="NAME" x="39.71" y="48.12" size="0.8" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="TP3" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="39.6" y="69.6" smashed="yes">
 <attribute name="NAME" x="38" y="71.1" size="0.8" layer="25" font="vector" ratio="20"/>
@@ -5972,10 +5972,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="45.18" y1="45.43" x2="45.18" y2="46.58" width="0.25" layer="1"/>
 <wire x1="45.18" y1="46.58" x2="45.305" y2="46.705" width="0.25" layer="1"/>
 <contactref element="U$2" pad="6"/>
-<wire x1="17.92685625" y1="57.6018" x2="17.939328125" y2="57.589328125" width="0.1524" layer="1"/>
 <wire x1="48.4" y1="47.15" x2="45.75" y2="47.15" width="0.254" layer="1"/>
 <wire x1="45.75" y1="47.15" x2="45.305" y2="46.705" width="0.254" layer="1"/>
-<wire x1="17.939328125" y1="57.589328125" x2="45.305" y2="46.705" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CAN1_TX">
 <contactref element="U$2" pad="45"/>
@@ -6085,9 +6083,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C5" pad="1"/>
 <contactref element="U4" pad="1"/>
 <wire x1="40.6404" y1="67.875" x2="39.175" y2="67.875" width="0.3" layer="1"/>
-<via x="48.8" y="62.4" extent="1-16" drill="0.254"/>
-<wire x1="48.8" y1="62.4" x2="40.21" y2="62.4" width="0.2" layer="16"/>
-<wire x1="40.2" y1="62.4" x2="38.8" y2="63.8" width="0.2" layer="16"/>
 <wire x1="38.8" y1="63.8" x2="38.8" y2="66.3" width="0.2" layer="16"/>
 <wire x1="38.8" y1="66.3" x2="39.7" y2="67.2" width="0.2" layer="16"/>
 <via x="39.7" y="67.2" extent="1-16" drill="0.254"/>
@@ -6129,12 +6124,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="51.26" y1="42.78" x2="51.26" y2="40.31" width="0.1524" layer="1"/>
 <wire x1="51.26" y1="40.31" x2="51.25" y2="40.3" width="0.1524" layer="1"/>
 <wire x1="48.4" y1="49.65" x2="48.4032" y2="49.6532" width="0.1524" layer="1"/>
-<wire x1="50.36" y1="43.65" x2="50.36" y2="48.81736875" width="0.1524" layer="1"/>
 <wire x1="57.75" y1="40.3" x2="57.6032" y2="40.4468" width="0.1524" layer="1"/>
 <wire x1="57.6032" y1="40.4468" x2="57.6032" y2="41.18416875" width="0.1524" layer="1"/>
 <wire x1="57.6032" y1="41.18416875" x2="56.00736875" y2="42.78" width="0.1524" layer="1"/>
 <wire x1="56.00736875" y1="42.78" x2="51.26" y2="42.78" width="0.1524" layer="1"/>
-<wire x1="59.6" y1="49.65" x2="51.06903125" y2="49.65" width="0.1524" layer="1"/>
 <wire x1="58.6168" y1="70.6132" x2="58.97" y2="70.26" width="0.1524" layer="1"/>
 <wire x1="57.7118" y1="70.6132" x2="58.6168" y2="70.6132" width="0.1524" layer="1"/>
 <wire x1="58.97" y1="70.26" x2="58.92" y2="70.21" width="0.1524" layer="1"/>
@@ -6150,10 +6143,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="51.2332" y1="40.2832" x2="51.25" y2="40.3" width="0.1524" layer="1"/>
 <wire x1="44.3956" y1="36.5306" x2="48.36796875" y2="36.5306" width="0.1524" layer="1"/>
 <wire x1="48.36796875" y1="36.5306" x2="51.2332" y2="39.39583125" width="0.1524" layer="1"/>
-<wire x1="40.21" y1="62.4" x2="40.21" y2="59.69" width="0.1524" layer="16"/>
-<wire x1="49.720484375" y1="50.179515625" x2="40.21" y2="59.69" width="0.1524" layer="16"/>
-<wire x1="49.720484375" y1="50.179515625" x2="49.720484375" y2="49.939515625" width="0.1524" layer="16"/>
-<via x="49.720484375" y="49.939515625" extent="1-16" drill="0.35"/>
 <wire x1="10.525" y1="72.0604" x2="10.525" y2="70.955" width="0.3" layer="1"/>
 <wire x1="10.525" y1="70.955" x2="10.16" y2="70.59" width="0.3" layer="1"/>
 <polygon width="0.254" layer="1">
@@ -6167,15 +6156,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="61.79" y1="65.45" x2="64.15" y2="67.74" width="0" layer="19" extent="1-1"/>
 <wire x1="56.8682" y1="67.43083125" x2="61.79" y2="65.45" width="0" layer="19" extent="1-1"/>
 <wire x1="48.4" y1="67.9" x2="56.8682" y2="67.43083125" width="0" layer="19" extent="1-1"/>
-<wire x1="48.8" y1="62.4" x2="48.4" y2="67.9" width="0" layer="19" extent="1-1"/>
-<wire x1="50.36" y1="48.81736875" x2="49.720484375" y2="49.939515625" width="0" layer="19" extent="1-1"/>
-<wire x1="51.06903125" y1="49.65" x2="50.36" y2="48.81736875" width="0" layer="19" extent="1-1"/>
-<wire x1="48.4" y1="49.65" x2="49.720484375" y2="49.939515625" width="0" layer="19" extent="1-1"/>
-<wire x1="47.89" y1="50.28" x2="48.4" y2="49.65" width="0" layer="19" extent="1-1"/>
-<wire x1="50.25" y1="51.5" x2="49.720484375" y2="49.939515625" width="0" layer="19" extent="1-1"/>
-<wire x1="49.62" y1="52" x2="50.25" y2="51.5" width="0" layer="19" extent="1-1"/>
 <wire x1="40.6404" y1="67.875" x2="48.4" y2="67.9" width="0" layer="19" extent="1-1"/>
-<wire x1="32.8" y1="64.5" x2="38.8" y2="66.2" width="0" layer="19" extent="1-1"/>
+<wire x1="32.8" y1="64.5" x2="38.8" y2="63.8" width="0" layer="19" extent="1-16"/>
 <wire x1="29.6" y1="63.225" x2="32.8" y2="64.5" width="0" layer="19" extent="1-1"/>
 <wire x1="26.3" y1="62.9" x2="29.6" y2="63.225" width="0" layer="19" extent="1-1"/>
 <wire x1="25.4" y1="62.9" x2="26.3" y2="62.9" width="0" layer="19" extent="1-1"/>
@@ -6186,6 +6168,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.53" y1="70.42" x2="25.64" y2="70.42" width="0" layer="19" extent="1-1"/>
 <wire x1="27.625" y1="70.425" x2="26.53" y2="70.42" width="0" layer="19" extent="1-1"/>
 <wire x1="25.4" y1="55.88" x2="25.4" y2="62.9" width="0" layer="19" extent="1-1"/>
+<wire x1="26.4" y1="30.7" x2="26.5" y2="43" width="0" layer="19" extent="1-1"/>
+<wire x1="48.4" y1="49.65" x2="48.4" y2="43.65" width="0" layer="19" extent="1-1"/>
+<wire x1="47.89" y1="50.28" x2="48.4" y2="49.65" width="0" layer="19" extent="1-1"/>
+<wire x1="49.62" y1="52" x2="47.89" y2="50.28" width="0" layer="19" extent="1-1"/>
+<wire x1="50.25" y1="51.5" x2="49.62" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="59.6" y1="49.65" x2="57.75" y2="40.3" width="0" layer="19" extent="1-1"/>
 <wire x1="69.27" y1="35.3" x2="57.75" y2="40.3" width="0" layer="19" extent="1-1"/>
 <wire x1="10.525" y1="72.0604" x2="25.64" y2="70.42" width="0" layer="19" extent="1-1"/>
 </signal>
@@ -6220,7 +6208,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="64.725" y1="69.265" x2="64.55" y2="69.44" width="0.3" layer="1"/>
 <wire x1="64.55" y1="69.44" x2="64.15" y2="69.44" width="0.3" layer="1"/>
 <via x="64.93" y="71.26" extent="1-16" drill="0.254"/>
-<via x="7.52" y="58.17" extent="1-16" drill="0.254"/>
 <via x="3.5" y="4.5" extent="1-16" drill="0.254"/>
 <via x="66.85" y="68.94" extent="1-16" drill="0.254"/>
 <contactref element="D1" pad="C"/>
@@ -6246,11 +6233,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J3" pad="2"/>
 <contactref element="J2" pad="1"/>
 <contactref element="J2" pad="2"/>
-<via x="14.82" y="57.97" extent="1-16" drill="0.254"/>
-<via x="13.52" y="57.17" extent="1-16" drill="0.254"/>
-<via x="12.72" y="56.37" extent="1-16" drill="0.254"/>
-<via x="11.42" y="56.07" extent="1-16" drill="0.254"/>
-<via x="8.72" y="59.07" extent="1-16" drill="0.254"/>
 <contactref element="J5" pad="P$6"/>
 <via x="96" y="4.5" extent="1-16" drill="0.254"/>
 <via x="10" y="4.5" extent="1-16" drill="0.254"/>
@@ -6375,9 +6357,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="25.9" y="65.5" extent="1-16" drill="0.254"/>
 <via x="26.4" y="62" extent="1-16" drill="0.254"/>
 <via x="24.4" y="67.8" extent="1-16" drill="0.254"/>
-<via x="21.47" y="61.86" extent="1-16" drill="0.254"/>
-<via x="16.98" y="59.37" extent="1-16" drill="0.254"/>
-<via x="16.98" y="55.67" extent="1-16" drill="0.254"/>
 <via x="24.18" y="44.4" extent="1-16" drill="0.254"/>
 <via x="24.18" y="34.1" extent="1-16" drill="0.254"/>
 <via x="26.48" y="15.9" extent="1-16" drill="0.254"/>
@@ -6460,16 +6439,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="0" y="94.6"/>
 </polygon>
 <via x="50.44" y="54.32" extent="1-16" drill="0.254"/>
-<via x="9.8" y="59.17" extent="1-16" drill="0.254"/>
 <contactref element="D4" pad="C"/>
 <via x="64.02" y="71.7" extent="1-16" drill="0.254"/>
-<via x="52.2" y="63.9" extent="1-16" drill="0.254"/>
 <via x="55.7" y="65.8" extent="1-16" drill="0.254"/>
 <via x="54.5" y="64.8" extent="1-16" drill="0.254"/>
 <via x="48.6" y="66.6" extent="1-16" drill="0.254"/>
 <via x="36.6" y="72.8" extent="1-16" drill="0.254"/>
 <via x="28.2" y="75.2" extent="1-16" drill="0.254"/>
-<via x="18.13" y="52.75" extent="1-16" drill="0.254"/>
 <via x="16.2" y="7.2" extent="1-16" drill="0.254"/>
 <via x="16.8" y="5.1" extent="1-16" drill="0.254"/>
 <via x="23.04" y="8.2" extent="1-16" drill="0.254"/>
@@ -6484,7 +6460,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="51.28" y="73.51" extent="1-16" drill="0.254"/>
 <via x="49.74" y="69.5" extent="1-16" drill="0.254"/>
 <via x="45.9" y="65.2" extent="1-16" drill="0.254"/>
-<via x="10.2" y="51.7" extent="1-16" drill="0.254"/>
 <contactref element="U1" pad="EPAD"/>
 <contactref element="U1" pad="7"/>
 <contactref element="D5" pad="C"/>
@@ -6591,8 +6566,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="55.6" y1="73" x2="56.8" y2="73.1" width="0" layer="19" extent="1-1"/>
 <wire x1="55.7" y1="65.8" x2="58.75" y2="64.3" width="0" layer="19" extent="1-1"/>
 <wire x1="54.5" y1="64.8" x2="55.7" y2="65.8" width="0" layer="19" extent="1-1"/>
-<wire x1="52.2" y1="63.9" x2="54.5" y2="64.8" width="0" layer="19" extent="1-1"/>
-<wire x1="52.35" y1="66.65" x2="52.2" y2="63.9" width="0" layer="19" extent="1-1"/>
+<wire x1="52.35" y1="66.65" x2="54.5" y2="64.8" width="0" layer="19" extent="1-1"/>
 <wire x1="51.4525" y1="66.657" x2="52.35" y2="66.65" width="0" layer="19" extent="1-1"/>
 <wire x1="50.5" y1="66.7" x2="51.4525" y2="66.657" width="0" layer="19" extent="1-1"/>
 <wire x1="51.45" y1="67.65" x2="51.4525" y2="66.657" width="0" layer="19" extent="1-1"/>
@@ -6658,22 +6632,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="34.98" y1="77" x2="34.9" y2="76.1" width="0" layer="19" extent="1-1"/>
 <wire x1="48.5" y1="80.1" x2="50.9" y2="76.75" width="0" layer="19" extent="1-1"/>
 <wire x1="39.6" y1="76.5" x2="34.98" y2="77" width="0" layer="19" extent="1-1"/>
-<wire x1="21.47" y1="61.86" x2="26.4" y2="62" width="0" layer="19" extent="1-1"/>
 <wire x1="43" y1="80.1" x2="39.6" y2="76.5" width="0" layer="19" extent="1-1"/>
 <wire x1="40.6" y1="82.4" x2="43" y2="80.1" width="0" layer="19" extent="1-1"/>
-<wire x1="16.98" y1="59.37" x2="21.47" y2="61.86" width="0" layer="19" extent="1-1"/>
-<wire x1="14.82" y1="57.97" x2="16.98" y2="59.37" width="0" layer="19" extent="1-1"/>
-<wire x1="13.52" y1="57.17" x2="14.82" y2="57.97" width="0" layer="19" extent="1-1"/>
-<wire x1="12.72" y1="56.37" x2="13.52" y2="57.17" width="0" layer="19" extent="1-1"/>
-<wire x1="11.42" y1="56.07" x2="12.72" y2="56.37" width="0" layer="19" extent="1-1"/>
-<wire x1="16.98" y1="55.67" x2="14.82" y2="57.97" width="0" layer="19" extent="1-1"/>
-<wire x1="18.13" y1="52.75" x2="16.98" y2="55.67" width="0" layer="19" extent="1-1"/>
-<wire x1="9.8" y1="59.17" x2="11.42" y2="56.07" width="0" layer="19" extent="1-1"/>
-<wire x1="8.72" y1="59.07" x2="9.8" y2="59.17" width="0" layer="19" extent="1-1"/>
-<wire x1="7.52" y1="58.17" x2="8.72" y2="59.07" width="0" layer="19" extent="1-1"/>
-<wire x1="10.2" y1="51.7" x2="11.42" y2="56.07" width="0" layer="19" extent="1-1"/>
-<wire x1="6" y1="52" x2="10.2" y2="51.7" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="52" x2="6" y2="52" width="0" layer="19" extent="1-1"/>
 <wire x1="39.105" y1="87.359" x2="40.6" y2="82.4" width="0" layer="19" extent="1-1"/>
 <wire x1="39.105" y1="88.629" x2="39.105" y2="87.359" width="0" layer="19" extent="1-1"/>
 <wire x1="42.915" y1="88.629" x2="39.105" y2="88.629" width="0" layer="19" extent="1-1"/>
@@ -6707,7 +6667,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="1" y1="88" x2="1" y2="82" width="0" layer="19" extent="1-1"/>
 <wire x1="1" y1="70" x2="1" y2="76" width="0" layer="19" extent="1-1"/>
 <wire x1="1" y1="64" x2="1" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="58" x2="1" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="58" x2="1" y2="64" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="52" x2="1" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="6" y1="52" x2="1" y2="52" width="0" layer="19" extent="1-1"/>
 <wire x1="6" y1="46" x2="6" y2="52" width="0" layer="19" extent="1-1"/>
 <wire x1="1" y1="46" x2="6" y2="46" width="0" layer="19" extent="1-1"/>
 <wire x1="6" y1="40" x2="6" y2="46" width="0" layer="19" extent="1-1"/>
@@ -6770,7 +6732,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="15.18" y1="86.9" x2="11.97" y2="78.85" width="0" layer="19" extent="1-1"/>
 <wire x1="20.58" y1="42.1" x2="24.18" y2="34.1" width="0" layer="19" extent="1-1"/>
 <wire x1="24.18" y1="44.4" x2="20.58" y2="42.1" width="0" layer="19" extent="1-1"/>
-<wire x1="51.24" y1="54.32" x2="52.2" y2="63.9" width="0" layer="19" extent="1-1"/>
+<wire x1="51.24" y1="54.32" x2="54.5" y2="64.8" width="0" layer="19" extent="1-1"/>
 <wire x1="50.44" y1="54.32" x2="51.24" y2="54.32" width="0" layer="19" extent="1-1"/>
 <wire x1="49.62" y1="53" x2="50.44" y2="54.32" width="0" layer="19" extent="1-1"/>
 <wire x1="50.75" y1="51.5" x2="49.62" y2="53" width="0" layer="19" extent="1-1"/>
@@ -7892,7 +7854,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.72" y1="46.65" x2="49.72" y2="10.69" width="0.1524" layer="16"/>
 <wire x1="49.72" y1="10.69" x2="44.74" y2="5.71" width="0.1524" layer="16"/>
 <via x="44.74" y="5.71" extent="1-16" drill="0.35"/>
-<wire x1="48.4" y1="46.65" x2="44.5" y2="42.9" width="0" layer="19" extent="1-1"/>
+<wire x1="48.4" y1="46.65" x2="41.31" y2="46.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SWCLK">
 <contactref element="U$2" pad="49"/>
