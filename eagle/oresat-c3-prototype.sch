@@ -21092,7 +21092,7 @@ time of 5-μs (typical)&lt;/li&gt;
 </part>
 <part name="C1" library="oresat-rcl" deviceset="C-EU" device="0805-B-NOSILK" value="1u"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R6" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="4.7k">
+<part name="R6" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="3.1k">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
