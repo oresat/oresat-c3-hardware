@@ -21870,11 +21870,11 @@ time of 5-μs (typical)&lt;/li&gt;
 <wire x1="317.5" y1="29.21" x2="193.04" y2="29.21" width="0.1524" layer="97"/>
 <wire x1="193.04" y1="29.21" x2="193.04" y2="101.6" width="0.1524" layer="97"/>
 <text x="416.56" y="6.35" size="3.81" layer="94">3.1</text>
-<text x="161.29" y="218.44" size="2.54" layer="97">Vbus = (6.0,7.2,8.4)V</text>
-<wire x1="142.24" y1="236.22" x2="284.48" y2="236.22" width="0.1524" layer="97"/>
+<text x="184.15" y="218.44" size="2.54" layer="97">Vbus = (6.0,7.2,8.4)V</text>
+<wire x1="162.56" y1="236.22" x2="284.48" y2="236.22" width="0.1524" layer="97"/>
 <wire x1="284.48" y1="236.22" x2="284.48" y2="144.78" width="0.1524" layer="97"/>
-<wire x1="284.48" y1="144.78" x2="142.24" y2="144.78" width="0.1524" layer="97"/>
-<wire x1="142.24" y1="144.78" x2="142.24" y2="236.22" width="0.1524" layer="97"/>
+<wire x1="284.48" y1="144.78" x2="162.56" y2="144.78" width="0.1524" layer="97"/>
+<wire x1="162.56" y1="144.78" x2="162.56" y2="236.22" width="0.1524" layer="97"/>
 <text x="205.74" y="228.6" size="3.81" layer="97">Card Circuit Breaker</text>
 </plain>
 <instances>
@@ -22000,8 +22000,8 @@ time of 5-μs (typical)&lt;/li&gt;
 <instance part="VBUSP1" gate="G$1" x="259.08" y="210.82" smashed="yes">
 <attribute name="VALUE" x="259.08" y="213.614" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="VBUS1" gate="1" x="162.56" y="213.36" smashed="yes">
-<attribute name="VALUE" x="162.56" y="213.614" size="1.778" layer="96" align="bottom-center"/>
+<instance part="VBUS1" gate="1" x="185.42" y="213.36" smashed="yes">
+<attribute name="VALUE" x="185.42" y="213.614" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="259.08" y="185.42" smashed="yes">
 <attribute name="NAME" x="255.651" y="180.848" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -22100,11 +22100,8 @@ time of 5-μs (typical)&lt;/li&gt;
 </segment>
 <segment>
 <pinref part="GND26" gate="1" pin="GND"/>
-<pinref part="C1" gate="CE" pin="1"/>
-<pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="R9" gate="R" pin="1"/>
 <wire x1="185.42" y1="180.34" x2="185.42" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="177.8" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
@@ -22115,6 +22112,11 @@ time of 5-μs (typical)&lt;/li&gt;
 <pinref part="R6" gate="R" pin="1"/>
 <pinref part="GND44" gate="1" pin="GND"/>
 <wire x1="238.76" y1="182.88" x2="238.76" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="CE" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+<wire x1="195.58" y1="180.34" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -22212,23 +22214,6 @@ time of 5-μs (typical)&lt;/li&gt;
 <pinref part="U$3" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
-<segment>
-<pinref part="VBUS1" gate="1" pin="VBUS"/>
-<wire x1="195.58" y1="203.2" x2="185.42" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="203.2" x2="162.56" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="210.82" x2="162.56" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="R5" gate="R" pin="2"/>
-<wire x1="185.42" y1="203.2" x2="185.42" y2="200.66" width="0.1524" layer="91"/>
-<junction x="185.42" y="203.2"/>
-<pinref part="C1" gate="CE" pin="2"/>
-<wire x1="195.58" y1="203.2" x2="195.58" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VIN"/>
-<wire x1="195.58" y1="200.66" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="200.66" x2="195.58" y2="200.66" width="0.1524" layer="91"/>
-<junction x="195.58" y="200.66"/>
-</segment>
-</net>
 <net name="N$270" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
@@ -22256,6 +22241,22 @@ time of 5-μs (typical)&lt;/li&gt;
 <wire x1="238.76" y1="193.04" x2="248.92" y2="193.04" width="0.1524" layer="91"/>
 <junction x="238.76" y="193.04"/>
 <label x="233.68" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<wire x1="195.58" y1="203.2" x2="185.42" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="R5" gate="R" pin="2"/>
+<wire x1="185.42" y1="203.2" x2="185.42" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="C1" gate="CE" pin="2"/>
+<wire x1="195.58" y1="203.2" x2="195.58" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="VIN"/>
+<wire x1="195.58" y1="200.66" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="200.66" x2="195.58" y2="200.66" width="0.1524" layer="91"/>
+<junction x="195.58" y="200.66"/>
+<pinref part="VBUS1" gate="1" pin="VBUS"/>
+<wire x1="185.42" y1="210.82" x2="185.42" y2="203.2" width="0.1524" layer="91"/>
+<junction x="185.42" y="203.2"/>
 </segment>
 </net>
 </nets>
@@ -22576,6 +22577,14 @@ time of 5-μs (typical)&lt;/li&gt;
 <pinref part="R38" gate="R" pin="2"/>
 <wire x1="287.02" y1="168.91" x2="287.02" y2="167.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R27" gate="R" pin="2"/>
+<wire x1="127" y1="182.88" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="Q4" gate="G$1" pin="S"/>
+<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
+<wire x1="127" y1="182.88" x2="127" y2="186.69" width="0.1524" layer="91"/>
+<junction x="127" y="182.88"/>
+</segment>
 </net>
 <net name="N$590" class="0">
 <segment>
@@ -22758,16 +22767,6 @@ time of 5-μs (typical)&lt;/li&gt;
 <pinref part="D4" gate="G$1" pin="A"/>
 <pinref part="R12" gate="R" pin="1"/>
 <wire x1="128.27" y1="137.16" x2="130.81" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$385" class="0">
-<segment>
-<pinref part="R27" gate="R" pin="2"/>
-<wire x1="127" y1="186.69" x2="127" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="127" y1="182.88" x2="129.54" y2="182.88" width="0.1524" layer="91"/>
-<junction x="127" y="182.88"/>
-<pinref part="Q4" gate="G$1" pin="S"/>
-<pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="OPD_PWR" class="0">
@@ -23038,19 +23037,19 @@ ARM SWD connector</text>
 <attribute name="VALUE" x="313.69" y="140.97" size="1.778" layer="96"/>
 <attribute name="NAME" x="313.69" y="146.05" size="1.778" layer="95"/>
 </instance>
-<instance part="R8" gate="G$1" x="309.88" y="193.04" smashed="yes" rot="MR270">
-<attribute name="NAME" x="308.3814" y="196.85" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="313.182" y="196.85" size="1.778" layer="96" rot="MR270"/>
+<instance part="R8" gate="G$1" x="309.88" y="195.58" smashed="yes" rot="MR270">
+<attribute name="NAME" x="308.3814" y="199.39" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="313.182" y="199.39" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="R11" gate="G$1" x="337.82" y="187.96" smashed="yes" rot="MR270">
-<attribute name="NAME" x="336.3214" y="191.77" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="341.122" y="191.77" size="1.778" layer="96" rot="MR270"/>
+<instance part="R11" gate="G$1" x="317.5" y="195.58" smashed="yes" rot="MR270">
+<attribute name="NAME" x="316.0014" y="199.39" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="320.802" y="199.39" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="309.88" y="200.66" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="309.88" y="203.454" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY11" gate="G$1" x="337.82" y="198.12" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="337.82" y="200.914" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY11" gate="G$1" x="317.5" y="200.66" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="317.5" y="203.454" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="U6" gate="A" x="375.92" y="238.76" smashed="yes">
 <attribute name="NAME" x="366.1156" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -23275,12 +23274,10 @@ ARM SWD connector</text>
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="309.88" y1="200.66" x2="309.88" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
-<wire x1="337.82" y1="198.12" x2="337.82" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -23547,12 +23544,13 @@ ARM SWD connector</text>
 <pinref part="U$2" gate="G$1" pin="PB8"/>
 <wire x1="241.3" y1="177.8" x2="289.56" y2="177.8" width="0.1524" layer="91"/>
 <label x="241.3" y="177.8" size="1.778" layer="95"/>
-<label x="312.42" y="187.96" size="1.778" layer="95" xref="yes"/>
-<wire x1="309.88" y1="187.96" x2="312.42" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<junction x="309.88" y="187.96"/>
+<label x="322.58" y="187.96" size="1.778" layer="95" xref="yes"/>
 <wire x1="289.56" y1="177.8" x2="289.56" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="187.96" x2="309.88" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="309.88" y1="187.96" x2="322.58" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="190.5" x2="309.88" y2="187.96" width="0.1524" layer="91"/>
+<junction x="309.88" y="187.96"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
@@ -23560,12 +23558,13 @@ ARM SWD connector</text>
 <pinref part="U$2" gate="G$1" pin="PB9"/>
 <wire x1="241.3" y1="175.26" x2="292.1" y2="175.26" width="0.1524" layer="91"/>
 <label x="241.3" y="175.26" size="1.778" layer="95"/>
-<label x="340.36" y="182.88" size="1.778" layer="95" xref="yes"/>
+<label x="322.58" y="182.88" size="1.778" layer="95" xref="yes"/>
 <wire x1="292.1" y1="175.26" x2="292.1" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="182.88" x2="337.82" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="182.88" x2="317.5" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="337.82" y1="182.88" x2="340.36" y2="182.88" width="0.1524" layer="91"/>
-<junction x="337.82" y="182.88"/>
+<wire x1="317.5" y1="190.5" x2="317.5" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="182.88" x2="322.58" y2="182.88" width="0.1524" layer="91"/>
+<junction x="317.5" y="182.88"/>
 </segment>
 </net>
 <net name="OPD_POUT" class="0">
@@ -23732,11 +23731,11 @@ ARM SWD connector</text>
 <net name="OPD_POUT_IN" class="0">
 <segment>
 <pinref part="U$2" gate="G$1" pin="PB10"/>
-<wire x1="241.3" y1="172.72" x2="271.78" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="172.72" x2="292.1" y2="172.72" width="0.1524" layer="91"/>
 <label x="241.3" y="172.72" size="1.778" layer="95"/>
-<wire x1="271.78" y1="172.72" x2="271.78" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="172.72" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="170.18" x2="299.72" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="170.18" x2="299.72" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!SD" class="0">
@@ -23809,24 +23808,12 @@ ARM SWD connector</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,4,281.94,187.96,X1,SHIELD,GND,,,"/>
-<approved hash="104,4,134.62,193.04,U2,VCC,3.3V,,,"/>
-<approved hash="104,4,226.06,205.74,U6,VDD,3.3V,,,"/>
-<approved hash="104,4,218.44,205.74,U6,VDDA,3.3V,,,"/>
-<approved hash="104,4,218.44,154.94,U6,VSS,GND,,,"/>
-<approved hash="104,4,210.82,205.74,U6,VDDIO2,3.3V,,,"/>
-<approved hash="104,2,127,149.86,U3,V+,VPD,,,"/>
-<approved hash="104,2,279.4,185.42,U4,VCC,MAX4211-3V3,,,"/>
 <approved hash="104,2,236.22,73.66,U5,VIN,VBUSP,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
-<approved hash="113,4,219.668,99.2861,JP4,,,,,"/>
 <approved hash="113,1,251.697,82.7761,JP5,,,,,"/>
 <approved hash="113,1,251.697,64.9961,JP6,,,,,"/>
-<approved hash="113,4,132.673,65.9723,J5,,,,,"/>
-<approved hash="113,4,139.463,86.5861,JP8,,,,,"/>
 <approved hash="113,1,223.757,78.9661,JP9,,,,,"/>
 <approved hash="113,1,223.478,128.496,JP10,,,,,"/>
-<approved hash="113,1,269.477,122.146,JP1,,,,,"/>
 <approved hash="113,1,268.207,85.3161,JP3,,,,,"/>
 <approved hash="113,4,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
