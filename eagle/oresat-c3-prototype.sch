@@ -21349,6 +21349,11 @@ time of 5-μs (typical)&lt;/li&gt;
 <junction x="248.92" y="198.12"/>
 <pinref part="JP2" gate="A" pin="7"/>
 <wire x1="248.92" y1="198.12" x2="241.3" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="10"/>
+<wire x1="248.92" y1="198.12" x2="248.92" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="JP2" gate="A" pin="9"/>
+<wire x1="248.92" y1="195.58" x2="241.3" y2="195.58" width="0.1524" layer="91"/>
+<junction x="248.92" y="195.58"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -23030,8 +23035,8 @@ ARM SWD connector</text>
 <attribute name="VALUE" x="378.46" y="213.36" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="Q1" gate="G$1" x="307.34" y="144.78" smashed="yes">
-<attribute name="VALUE" x="295.91" y="140.97" size="1.778" layer="96"/>
-<attribute name="NAME" x="295.91" y="143.51" size="1.778" layer="95"/>
+<attribute name="VALUE" x="313.69" y="140.97" size="1.778" layer="96"/>
+<attribute name="NAME" x="313.69" y="146.05" size="1.778" layer="95"/>
 </instance>
 <instance part="R8" gate="G$1" x="309.88" y="193.04" smashed="yes" rot="MR270">
 <attribute name="NAME" x="308.3814" y="196.85" size="1.778" layer="95" rot="MR270"/>
@@ -23782,7 +23787,7 @@ ARM SWD connector</text>
 <label x="241.3" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="MMC_VDD" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="VDD"/>
 <wire x1="317.5" y1="134.62" x2="309.88" y2="134.62" width="0.1524" layer="91"/>
@@ -23790,11 +23795,14 @@ ARM SWD connector</text>
 <wire x1="309.88" y1="134.62" x2="309.88" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SD_PWR_CYC" class="0">
+<net name="MMC_PWR" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="304.8" y1="147.32" x2="294.64" y2="147.32" width="0.1524" layer="91"/>
-<label x="294.64" y="147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="294.64" y1="147.32" x2="294.64" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="PC8"/>
+<wire x1="294.64" y1="132.08" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
+<label x="241.3" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
