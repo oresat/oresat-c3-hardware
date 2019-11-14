@@ -1,0 +1,33 @@
+X1.watchdog chip; open drain version, way better. (pull up resistor will be needed to shutdown)
+
+X2.be able to powercycle card
+	-pchannel mosfet to pin 4 of J8
+
+X3.Remove text in schematic for watchdog, put into design notes.
+X4.change watchdog schematic picture.
+
+X5.value display is broken on symbol for chip; need to fix.
+
+
+X6.keep jp2 , Kill aux connector J1 and JP9; maybe kill JP 5,6,3
+
+X7.RX and TX need to be switched for UART FTDI cable
+
+X8. SDA/SCL pullups 4.7k, ESD protection, or such thing as an I2C driver chip.(protect from rest of circuit)
+
+9.sheet 3, line needs 4V, but supply is only 3.3V
+	1. V bus to different 3.3 powerbus
+	2. or replace chip
+
+10.radios schemic
+	2 radios to add
+
+11.
+	** finish board this week ** 4 layer... needs more time.
+
+
+**need value for pull up in 1
+**pin for 2
+**I think 6 is done
+**Mile's says 7 is right
+** need ESD
