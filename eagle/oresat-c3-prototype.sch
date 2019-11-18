@@ -21213,7 +21213,7 @@ P-Channel Switch with Thermal Shutdown</description>
 <attribute name="MPN" value="TCAN330GDCNT"/>
 </part>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="U$2" library="U-ST-STM32F446RE-uC" deviceset="STM32F446RE" device=""/>
+<part name="U7" library="U-ST-STM32F446RE-uC" deviceset="STM32F446RE" device=""/>
 <part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="SD_CARD_SOCKET" device="" package3d_urn="urn:adsk.eagle:package:38262/1"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -21243,7 +21243,7 @@ P-Channel Switch with Thermal Shutdown</description>
 <part name="U6" library="MAXIM" deviceset="MAX6373KA+" device="21-0078H-L"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="U$3" library="Robins_Parts" deviceset="TPS2596XX" device=""/>
+<part name="U4" library="Robins_Parts" deviceset="TPS2596XX" device="" value="TPS259621 - eFuse"/>
 <part name="Q2" library="Q-MOSFET-PCH-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="">
 <attribute name="MFR" value="Diodes Inc"/>
 <attribute name="MPN" value="DMP3050LVT-7"/>
@@ -21280,6 +21280,14 @@ P-Channel Switch with Thermal Shutdown</description>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="TP1" library="Tova" deviceset="TEST-POINT" device=""/>
+<part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="R15" library="rcl_custom" deviceset="R-US_" device="0402-B-NOSILK" value="10k">
+<attribute name="DIS" value="Digi-Key"/>
+<attribute name="DPN" value="1276-4275-1-ND"/>
+<attribute name="MFR" value="Samsung"/>
+<attribute name="MPN" value="RC1005F6653CS"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -22513,8 +22521,8 @@ P-Channel Switch with Thermal Shutdown</description>
 <instance part="GND26" gate="1" x="68.58" y="190.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="71.12" y="187.96" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="TP10" gate="G$1" x="132.08" y="210.82" smashed="yes">
-<attribute name="NAME" x="129.54" y="207.01" size="1.778" layer="95" font="vector"/>
+<instance part="TP10" gate="G$1" x="129.54" y="205.74" smashed="yes">
+<attribute name="NAME" x="127" y="201.93" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP20" gate="G$1" x="142.24" y="215.9" smashed="yes">
 <attribute name="NAME" x="143.51" y="215.9" size="1.778" layer="95" font="vector"/>
@@ -22555,20 +22563,23 @@ P-Channel Switch with Thermal Shutdown</description>
 <instance part="GND3" gate="1" x="78.74" y="190.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="81.28" y="187.96" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R6" gate="R" x="121.92" y="205.74" smashed="yes" rot="R90">
-<attribute name="DIS" x="121.92" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="121.92" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="121.92" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="121.92" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="120.65" y="200.66" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="120.65" y="205.74" size="1.778" layer="96" rot="R90"/>
+<instance part="R6" gate="R" x="121.92" y="200.66" smashed="yes" rot="R90">
+<attribute name="DIS" x="121.92" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="121.92" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="121.92" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="121.92" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="120.65" y="195.58" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.65" y="200.66" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND44" gate="1" x="121.92" y="193.04" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="124.46" y="190.5" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND44" gate="1" x="121.92" y="187.96" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="124.46" y="185.42" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="U$3" gate="G$1" x="96.52" y="208.28" smashed="yes">
+<instance part="U4" gate="G$1" x="96.52" y="208.28" smashed="yes">
 <attribute name="NAME" x="88.9" y="223.52" size="1.778" layer="95"/>
 <attribute name="VALUE" x="88.9" y="220.98" size="1.778" layer="96"/>
+</instance>
+<instance part="TP1" gate="G$1" x="119.38" y="210.82" smashed="yes">
+<attribute name="NAME" x="116.84" y="207.01" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -22618,7 +22629,7 @@ P-Channel Switch with Thermal Shutdown</description>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
 <wire x1="111.76" y1="190.5" x2="111.76" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="U4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="GND26" gate="1" pin="GND"/>
@@ -22633,7 +22644,7 @@ P-Channel Switch with Thermal Shutdown</description>
 <segment>
 <pinref part="R6" gate="R" pin="1"/>
 <pinref part="GND44" gate="1" pin="GND"/>
-<wire x1="121.92" y1="200.66" x2="121.92" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="195.58" x2="121.92" y2="190.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="CE" pin="1"/>
@@ -22733,7 +22744,7 @@ P-Channel Switch with Thermal Shutdown</description>
 <label x="121.92" y="218.44" size="1.778" layer="95"/>
 <pinref part="R1" gate="R" pin="2"/>
 <wire x1="142.24" y1="215.9" x2="142.24" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="VOUT"/>
+<pinref part="U4" gate="G$1" pin="VOUT"/>
 </segment>
 </net>
 <net name="N$270" class="0">
@@ -22747,24 +22758,22 @@ P-Channel Switch with Thermal Shutdown</description>
 <segment>
 <pinref part="R9" gate="R" pin="2"/>
 <pinref part="R5" gate="R" pin="1"/>
-<wire x1="83.82" y1="210.82" x2="81.28" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="210.82" x2="73.66" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="210.82" x2="73.66" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="205.74" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
 <junction x="68.58" y="205.74"/>
-<pinref part="U$3" gate="G$1" pin="EN/UVLO"/>
-<junction x="81.28" y="210.82"/>
+<pinref part="U4" gate="G$1" pin="EN/UVLO"/>
 </segment>
 </net>
-<net name="ILIM" class="0">
+<net name="CB_I_OUT" class="0">
 <segment>
 <pinref part="R6" gate="R" pin="2"/>
-<wire x1="111.76" y1="210.82" x2="121.92" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="TP10" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="210.82" x2="132.08" y2="210.82" width="0.1524" layer="91"/>
-<junction x="121.92" y="210.82"/>
-<label x="116.84" y="195.58" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="!FLT"/>
+<label x="116.84" y="190.5" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="ILIM"/>
+<wire x1="111.76" y1="205.74" x2="129.54" y2="205.74" width="0.1524" layer="91"/>
+<junction x="129.54" y="205.74"/>
+<wire x1="129.54" y1="205.74" x2="121.92" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -22775,14 +22784,19 @@ P-Channel Switch with Thermal Shutdown</description>
 <pinref part="C1" gate="CE" pin="2"/>
 <wire x1="78.74" y1="218.44" x2="78.74" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="215.9" x2="78.74" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="215.9" x2="81.28" y2="215.9" width="0.1524" layer="91"/>
 <junction x="78.74" y="215.9"/>
 <pinref part="VBUS1" gate="1" pin="VBUS"/>
 <wire x1="81.28" y1="215.9" x2="78.74" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="226.06" x2="68.58" y2="218.44" width="0.1524" layer="91"/>
 <junction x="68.58" y="218.44"/>
-<pinref part="U$3" gate="G$1" pin="VIN"/>
-<junction x="81.28" y="215.9"/>
+<pinref part="U4" gate="G$1" pin="VIN"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="!FLT"/>
+<pinref part="TP1" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="210.82" x2="119.38" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -22801,19 +22815,19 @@ P-Channel Switch with Thermal Shutdown</description>
 <instance part="GND23" gate="1" x="203.2" y="144.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="205.74" y="142.24" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R27" gate="R" x="127" y="177.8" smashed="yes" rot="R90">
-<attribute name="DIS" x="127" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="127" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="127" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="127" y="177.8" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="125.73" y="172.72" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="125.73" y="179.07" size="1.778" layer="96" rot="R90"/>
+<instance part="R27" gate="R" x="127" y="165.1" smashed="yes" rot="R90">
+<attribute name="DIS" x="127" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="127" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="127" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="127" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="125.73" y="160.02" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="125.73" y="166.37" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND28" gate="1" x="127" y="144.78" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="129.54" y="142.24" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND28" gate="1" x="127" y="132.08" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="129.54" y="129.54" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="TP13" gate="G$1" x="116.84" y="167.64" smashed="yes">
-<attribute name="NAME" x="110.49" y="170.18" size="1.778" layer="95" font="vector"/>
+<instance part="TP13" gate="G$1" x="116.84" y="154.94" smashed="yes">
+<attribute name="NAME" x="110.49" y="157.48" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP14" gate="G$1" x="248.92" y="162.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="246.38" y="158.75" size="1.778" layer="95" font="vector" rot="MR0"/>
@@ -22846,12 +22860,12 @@ P-Channel Switch with Thermal Shutdown</description>
 <instance part="GND46" gate="1" x="149.86" y="144.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="152.4" y="142.24" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="D4" gate="G$1" x="127" y="155.194" smashed="yes">
-<attribute name="NAME" x="123.571" y="150.622" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="128.905" y="150.622" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D4" gate="G$1" x="127" y="142.494" smashed="yes">
+<attribute name="NAME" x="123.571" y="137.922" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="128.905" y="137.922" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="127" y="186.69" smashed="yes">
-<attribute name="VALUE" x="127" y="189.484" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="127" y="194.31" smashed="yes">
+<attribute name="VALUE" x="127" y="197.104" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME4" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -22866,27 +22880,27 @@ P-Channel Switch with Thermal Shutdown</description>
 <instance part="GND11" gate="1" x="231.14" y="144.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="233.68" y="142.24" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R4" gate="R" x="231.14" y="165.1" smashed="yes" rot="R90">
-<attribute name="DIS" x="231.14" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="231.14" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="231.14" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="231.14" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="229.87" y="160.02" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="229.87" y="165.1" size="1.778" layer="96" rot="R90"/>
+<instance part="R4" gate="R" x="231.14" y="167.64" smashed="yes" rot="R90">
+<attribute name="DIS" x="231.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="231.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="231.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="231.14" y="167.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="229.87" y="162.56" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="229.87" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q2" gate="G$1" x="124.46" y="165.1" smashed="yes">
-<attribute name="VALUE" x="130.81" y="171.45" size="1.778" layer="96" rot="R270"/>
-<attribute name="NAME" x="133.35" y="171.45" size="1.778" layer="95" rot="R270"/>
-<attribute name="MFR" x="124.46" y="165.1" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="124.46" y="165.1" size="1.778" layer="96" display="off"/>
+<instance part="Q2" gate="G$1" x="124.46" y="152.4" smashed="yes">
+<attribute name="VALUE" x="130.81" y="158.75" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="133.35" y="158.75" size="1.778" layer="95" rot="R270"/>
+<attribute name="MFR" x="124.46" y="152.4" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="124.46" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R12" gate="R" x="139.7" y="182.88" smashed="yes" rot="R180">
-<attribute name="DIS" x="139.7" y="182.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="DPN" x="139.7" y="182.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MFR" x="139.7" y="182.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="MPN" x="139.7" y="182.88" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="144.78" y="181.61" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="139.7" y="181.61" size="1.778" layer="96" rot="R180"/>
+<instance part="R12" gate="R" x="149.86" y="187.96" smashed="yes" rot="R90">
+<attribute name="DIS" x="149.86" y="187.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="149.86" y="187.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="149.86" y="187.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="149.86" y="187.96" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="148.59" y="182.88" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="148.59" y="190.5" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R14" gate="R" x="241.3" y="182.88" smashed="yes" rot="R180">
 <attribute name="DIS" x="241.3" y="182.88" size="1.778" layer="96" rot="R180" display="off"/>
@@ -22911,6 +22925,17 @@ P-Channel Switch with Thermal Shutdown</description>
 <attribute name="NAME" x="175.1076" y="189.4586" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="175.2346" y="186.9186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
+<instance part="SUPPLY4" gate="G$1" x="149.86" y="194.31" smashed="yes">
+<attribute name="VALUE" x="149.86" y="197.104" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R15" gate="R" x="119.38" y="165.1" smashed="yes" rot="R90">
+<attribute name="DIS" x="119.38" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="119.38" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="119.38" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="119.38" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="118.11" y="160.02" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="118.11" y="166.37" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22934,7 +22959,7 @@ P-Channel Switch with Thermal Shutdown</description>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="GND28" gate="1" pin="GND"/>
-<wire x1="127" y1="150.114" x2="127" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="127" y1="137.414" x2="127" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="213.36" y1="147.32" x2="213.36" y2="163.576" width="0.1524" layer="91"/>
@@ -22952,45 +22977,53 @@ P-Channel Switch with Thermal Shutdown</description>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <pinref part="R27" gate="R" pin="2"/>
-<wire x1="127" y1="182.88" x2="127" y2="186.69" width="0.1524" layer="91"/>
-<junction x="127" y="182.88"/>
-<wire x1="127" y1="182.88" x2="134.62" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R12" gate="R" pin="2"/>
+<wire x1="127" y1="170.18" x2="127" y2="194.31" width="0.1524" layer="91"/>
+<pinref part="R15" gate="R" pin="2"/>
+<wire x1="119.38" y1="170.18" x2="127" y2="170.18" width="0.1524" layer="91"/>
+<junction x="127" y="170.18"/>
 </segment>
 <segment>
 <pinref part="U1" gate="A" pin="IN_2"/>
 <pinref part="U1" gate="A" pin="IN"/>
 <wire x1="162.56" y1="182.88" x2="162.56" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="R12" gate="R" pin="1"/>
-<wire x1="144.78" y1="182.88" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
 <junction x="162.56" y="182.88"/>
 <pinref part="C5" gate="CE" pin="1"/>
 <wire x1="149.86" y1="182.88" x2="162.56" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="170.18" x2="149.86" y2="182.88" width="0.1524" layer="91"/>
-<junction x="149.86" y="182.88"/>
 <label x="152.4" y="185.42" size="1.778" layer="95"/>
+<pinref part="R12" gate="R" pin="1"/>
+<junction x="149.86" y="182.88"/>
+</segment>
+<segment>
+<pinref part="SUPPLY4" gate="G$1" pin="3.3V"/>
+<pinref part="R12" gate="R" pin="2"/>
+<wire x1="149.86" y1="194.31" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_ON/LED_SWITCH" class="0">
 <segment>
 <pinref part="R27" gate="R" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="127" y1="170.18" x2="127" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="127" y1="157.48" x2="127" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_ON/!OFF" class="0">
 <segment>
-<pinref part="TP13" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="160.02" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="167.64" x2="106.68" y2="167.64" width="0.1524" layer="91"/>
-<junction x="116.84" y="167.64"/>
-<label x="106.68" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
-<wire x1="116.84" y1="160.02" x2="139.7" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="160.02" x2="139.7" y2="172.72" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="172.72" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="116.84" y1="167.64" x2="121.92" y2="167.64" width="0.1524" layer="91"/>
+<label x="106.68" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="106.68" y1="172.72" x2="114.3" y2="172.72" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="!ON"/>
+<wire x1="114.3" y1="172.72" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="172.72" x2="114.3" y2="154.94" width="0.1524" layer="91"/>
+<junction x="114.3" y="172.72"/>
+<pinref part="Q2" gate="G$1" pin="G"/>
+<wire x1="119.38" y1="154.94" x2="121.92" y2="154.94" width="0.1524" layer="91"/>
+<pinref part="R15" gate="R" pin="1"/>
+<wire x1="119.38" y1="160.02" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
+<junction x="119.38" y="154.94"/>
+<pinref part="TP13" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="154.94" x2="116.84" y2="154.94" width="0.1524" layer="91"/>
+<junction x="116.84" y="154.94"/>
 </segment>
 </net>
 <net name="OPD_I_SET" class="0">
@@ -23021,7 +23054,7 @@ P-Channel Switch with Thermal Shutdown</description>
 <pinref part="TP9" gate="G$1" pin="1"/>
 <junction x="231.14" y="182.88"/>
 <pinref part="R4" gate="R" pin="2"/>
-<wire x1="231.14" y1="182.88" x2="231.14" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="182.88" x2="231.14" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="182.88" x2="213.36" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="182.88" x2="231.14" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="182.88" x2="236.22" y2="182.88" width="0.1524" layer="91"/>
@@ -23044,13 +23077,13 @@ P-Channel Switch with Thermal Shutdown</description>
 <segment>
 <pinref part="D5" gate="G$1" pin="A"/>
 <pinref part="R4" gate="R" pin="1"/>
-<wire x1="231.14" y1="160.02" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="162.56" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_ON/LED" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="127" y1="160.02" x2="127" y2="157.734" width="0.1524" layer="91"/>
+<wire x1="127" y1="147.32" x2="127" y2="145.034" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
 </segment>
 </net>
@@ -23264,7 +23297,7 @@ ARM SWD connector</text>
 <instance part="SUPPLY12" gate="G$1" x="78.74" y="101.6" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="78.74" y="104.394" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="U$2" gate="G$1" x="218.44" y="152.4" smashed="yes">
+<instance part="U7" gate="G$1" x="218.44" y="152.4" smashed="yes">
 <attribute name="NAME" x="231.14" y="96.52" size="1.778" layer="95"/>
 </instance>
 <instance part="J8" gate="G$1" x="330.2" y="119.38" smashed="yes">
@@ -23349,9 +23382,9 @@ ARM SWD connector</text>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="U$2" gate="G$1" pin="VSSA"/>
+<pinref part="U7" gate="G$1" pin="VSSA"/>
 <wire x1="218.44" y1="96.52" x2="215.9" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VSS"/>
+<pinref part="U7" gate="G$1" pin="VSS"/>
 <wire x1="218.44" y1="96.52" x2="220.98" y2="96.52" width="0.1524" layer="91"/>
 <junction x="218.44" y="96.52"/>
 </segment>
@@ -23441,7 +23474,7 @@ ARM SWD connector</text>
 <wire x1="195.58" y1="190.5" x2="129.54" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="190.5" x2="119.38" y2="190.5" width="0.1524" layer="91"/>
 <junction x="129.54" y="190.5"/>
-<pinref part="U$2" gate="G$1" pin="PH0-OSC_IN"/>
+<pinref part="U7" gate="G$1" pin="PH0-OSC_IN"/>
 </segment>
 </net>
 <net name="CRYSTALOUT" class="0">
@@ -23452,7 +23485,7 @@ ARM SWD connector</text>
 <wire x1="129.54" y1="185.42" x2="134.62" y2="185.42" width="0.1524" layer="91"/>
 <junction x="129.54" y="185.42"/>
 <wire x1="134.62" y1="185.42" x2="134.62" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="PH1-OSC_OUT"/>
+<pinref part="U7" gate="G$1" pin="PH1-OSC_OUT"/>
 <wire x1="134.62" y1="187.96" x2="195.58" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23460,7 +23493,7 @@ ARM SWD connector</text>
 <segment>
 <wire x1="195.58" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
 <label x="195.58" y="129.54" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$2" gate="G$1" pin="PA12"/>
+<pinref part="U7" gate="G$1" pin="PA12"/>
 <pinref part="U2" gate="G$1" pin="TXD"/>
 </segment>
 </net>
@@ -23494,11 +23527,11 @@ ARM SWD connector</text>
 <wire x1="210.82" y1="223.52" x2="210.82" y2="228.6" width="0.1524" layer="91"/>
 <junction x="210.82" y="223.52"/>
 <wire x1="210.82" y1="223.52" x2="210.82" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VBAT"/>
+<pinref part="U7" gate="G$1" pin="VBAT"/>
 <wire x1="218.44" y1="223.52" x2="218.44" y2="208.28" width="0.1524" layer="91"/>
 <junction x="218.44" y="223.52"/>
-<pinref part="U$2" gate="G$1" pin="VDD"/>
-<pinref part="U$2" gate="G$1" pin="VDDA"/>
+<pinref part="U7" gate="G$1" pin="VDD"/>
+<pinref part="U7" gate="G$1" pin="VDDA"/>
 <wire x1="210.82" y1="208.28" x2="213.36" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -23552,7 +23585,7 @@ ARM SWD connector</text>
 <net name="CAN1_RX" class="0">
 <segment>
 <label x="195.58" y="132.08" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$2" gate="G$1" pin="PA11"/>
+<pinref part="U7" gate="G$1" pin="PA11"/>
 <pinref part="U2" gate="G$1" pin="RXD"/>
 <wire x1="93.98" y1="132.08" x2="195.58" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="132.08" x2="93.98" y2="134.62" width="0.1524" layer="91"/>
@@ -23563,21 +23596,21 @@ ARM SWD connector</text>
 <segment>
 <wire x1="195.58" y1="147.32" x2="177.8" y2="147.32" width="0.1524" layer="91"/>
 <label x="195.58" y="147.32" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$2" gate="G$1" pin="PA5"/>
+<pinref part="U7" gate="G$1" pin="PA5"/>
 </segment>
 </net>
 <net name="PA6/SPI1_MISO" class="0">
 <segment>
 <wire x1="195.58" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 <label x="195.58" y="144.78" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$2" gate="G$1" pin="PA6"/>
+<pinref part="U7" gate="G$1" pin="PA6"/>
 </segment>
 </net>
 <net name="PA7/SPI1_MOSI" class="0">
 <segment>
 <wire x1="195.58" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 <label x="195.58" y="142.24" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$2" gate="G$1" pin="PA7"/>
+<pinref part="U7" gate="G$1" pin="PA7"/>
 </segment>
 </net>
 <net name="PA2/USART2_TX" class="0">
@@ -23588,7 +23621,7 @@ ARM SWD connector</text>
 <label x="195.58" y="154.94" size="1.778" layer="95" rot="MR0"/>
 <label x="82.55" y="198.12" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="TXO"/>
-<pinref part="U$2" gate="G$1" pin="PA2"/>
+<pinref part="U7" gate="G$1" pin="PA2"/>
 </segment>
 </net>
 <net name="PA3/USART2_RX" class="0">
@@ -23599,7 +23632,7 @@ ARM SWD connector</text>
 <label x="195.58" y="152.4" size="1.778" layer="95" rot="MR0"/>
 <label x="82.55" y="200.66" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="RXI"/>
-<pinref part="U$2" gate="G$1" pin="PA3"/>
+<pinref part="U7" gate="G$1" pin="PA3"/>
 </segment>
 </net>
 <net name="BOOT0" class="0">
@@ -23609,13 +23642,13 @@ ARM SWD connector</text>
 <pinref part="TP15" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="172.72" x2="144.78" y2="170.18" width="0.1524" layer="91"/>
 <junction x="144.78" y="172.72"/>
-<pinref part="U$2" gate="G$1" pin="BOOT0"/>
+<pinref part="U7" gate="G$1" pin="BOOT0"/>
 </segment>
 </net>
 <net name="WDT" class="0">
 <segment>
 <pinref part="R3" gate="R" pin="2"/>
-<pinref part="U$2" gate="G$1" pin="PA0"/>
+<pinref part="U7" gate="G$1" pin="PA0"/>
 <label x="195.58" y="160.02" size="1.778" layer="95" rot="MR0"/>
 <wire x1="195.58" y1="160.02" x2="162.56" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="160.02" x2="160.02" y2="160.02" width="0.1524" layer="91"/>
@@ -23631,7 +23664,7 @@ ARM SWD connector</text>
 <net name="PA8" class="0">
 <segment>
 <wire x1="195.58" y1="139.7" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="PA8"/>
+<pinref part="U7" gate="G$1" pin="PA8"/>
 <label x="195.58" y="139.7" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
@@ -23639,13 +23672,13 @@ ARM SWD connector</text>
 <segment>
 <wire x1="195.58" y1="149.86" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
 <label x="195.58" y="149.86" size="1.778" layer="95" rot="MR0"/>
-<pinref part="U$2" gate="G$1" pin="PA4"/>
+<pinref part="U7" gate="G$1" pin="PA4"/>
 </segment>
 </net>
 <net name="PA1" class="0">
 <segment>
 <wire x1="195.58" y1="157.48" x2="177.8" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="PA1"/>
+<pinref part="U7" gate="G$1" pin="PA1"/>
 <label x="195.58" y="157.48" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
@@ -23700,7 +23733,7 @@ ARM SWD connector</text>
 </net>
 <net name="CAN1_SHDN" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PA10"/>
+<pinref part="U7" gate="G$1" pin="PA10"/>
 <wire x1="195.58" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="134.62" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="SHDN"/>
@@ -23710,7 +23743,7 @@ ARM SWD connector</text>
 </net>
 <net name="CAN1_SILENT" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PA9"/>
+<pinref part="U7" gate="G$1" pin="PA9"/>
 <wire x1="195.58" y1="137.16" x2="99.06" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="137.16" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="S"/>
@@ -23720,7 +23753,7 @@ ARM SWD connector</text>
 </net>
 <net name="NRST" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="NRST"/>
+<pinref part="U7" gate="G$1" pin="NRST"/>
 <wire x1="185.42" y1="177.8" x2="195.58" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="TP2" gate="G$1" pin="1"/>
 <pinref part="J7" gate="A" pin="!RESET"/>
@@ -23732,7 +23765,7 @@ ARM SWD connector</text>
 </net>
 <net name="SWCLK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PA14"/>
+<pinref part="U7" gate="G$1" pin="PA14"/>
 <wire x1="172.72" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
 <label x="195.58" y="124.46" size="1.778" layer="95" rot="MR0"/>
 <wire x1="172.72" y1="124.46" x2="172.72" y2="228.6" width="0.1524" layer="91"/>
@@ -23742,7 +23775,7 @@ ARM SWD connector</text>
 </net>
 <net name="SWDIO" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PA13"/>
+<pinref part="U7" gate="G$1" pin="PA13"/>
 <wire x1="175.26" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <label x="195.58" y="127" size="1.778" layer="95" rot="MR0"/>
 <wire x1="175.26" y1="127" x2="175.26" y2="233.68" width="0.1524" layer="91"/>
@@ -23752,14 +23785,14 @@ ARM SWD connector</text>
 </net>
 <net name="PA15" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PA15"/>
+<pinref part="U7" gate="G$1" pin="PA15"/>
 <wire x1="177.8" y1="121.92" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
 <label x="195.58" y="121.92" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="OPD_ON/!OFF" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB0"/>
+<pinref part="U7" gate="G$1" pin="PB0"/>
 <wire x1="241.3" y1="198.12" x2="269.24" y2="198.12" width="0.1524" layer="91"/>
 <label x="241.3" y="198.12" size="1.778" layer="95"/>
 <label x="274.32" y="203.2" size="1.778" layer="95" xref="yes"/>
@@ -23769,7 +23802,7 @@ ARM SWD connector</text>
 </net>
 <net name="CAN2_SHDN" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB4"/>
+<pinref part="U7" gate="G$1" pin="PB4"/>
 <wire x1="241.3" y1="187.96" x2="269.24" y2="187.96" width="0.1524" layer="91"/>
 <label x="241.3" y="187.96" size="1.778" layer="95"/>
 <wire x1="269.24" y1="187.96" x2="269.24" y2="81.28" width="0.1524" layer="91"/>
@@ -23781,7 +23814,7 @@ ARM SWD connector</text>
 </net>
 <net name="CAN2_SILENT" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB7"/>
+<pinref part="U7" gate="G$1" pin="PB7"/>
 <wire x1="241.3" y1="180.34" x2="261.62" y2="180.34" width="0.1524" layer="91"/>
 <label x="241.3" y="180.34" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="S"/>
@@ -23791,7 +23824,7 @@ ARM SWD connector</text>
 </net>
 <net name="OPD_SCL" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB8"/>
+<pinref part="U7" gate="G$1" pin="PB8"/>
 <wire x1="241.3" y1="177.8" x2="289.56" y2="177.8" width="0.1524" layer="91"/>
 <label x="241.3" y="177.8" size="1.778" layer="95"/>
 <label x="322.58" y="187.96" size="1.778" layer="95" xref="yes"/>
@@ -23805,7 +23838,7 @@ ARM SWD connector</text>
 </net>
 <net name="OPD_SDA" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB9"/>
+<pinref part="U7" gate="G$1" pin="PB9"/>
 <wire x1="241.3" y1="175.26" x2="292.1" y2="175.26" width="0.1524" layer="91"/>
 <label x="241.3" y="175.26" size="1.778" layer="95"/>
 <label x="322.58" y="182.88" size="1.778" layer="95" xref="yes"/>
@@ -23826,119 +23859,119 @@ ARM SWD connector</text>
 </net>
 <net name="PB12" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB12"/>
+<pinref part="U7" gate="G$1" pin="PB12"/>
 <wire x1="241.3" y1="167.64" x2="259.08" y2="167.64" width="0.1524" layer="91"/>
 <label x="241.3" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI2_SCK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB13"/>
+<pinref part="U7" gate="G$1" pin="PB13"/>
 <wire x1="241.3" y1="165.1" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
 <label x="241.3" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI2_MISO" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB14"/>
+<pinref part="U7" gate="G$1" pin="PB14"/>
 <wire x1="241.3" y1="162.56" x2="259.08" y2="162.56" width="0.1524" layer="91"/>
 <label x="241.3" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI2_MOSI" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB15"/>
+<pinref part="U7" gate="G$1" pin="PB15"/>
 <wire x1="241.3" y1="160.02" x2="259.08" y2="160.02" width="0.1524" layer="91"/>
 <label x="241.3" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC0" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC0"/>
+<pinref part="U7" gate="G$1" pin="PC0"/>
 <wire x1="241.3" y1="152.4" x2="259.08" y2="152.4" width="0.1524" layer="91"/>
 <label x="241.3" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC1" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC1"/>
+<pinref part="U7" gate="G$1" pin="PC1"/>
 <wire x1="241.3" y1="149.86" x2="259.08" y2="149.86" width="0.1524" layer="91"/>
 <label x="241.3" y="149.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC2" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC2"/>
+<pinref part="U7" gate="G$1" pin="PC2"/>
 <wire x1="241.3" y1="147.32" x2="259.08" y2="147.32" width="0.1524" layer="91"/>
 <label x="241.3" y="147.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC3"/>
+<pinref part="U7" gate="G$1" pin="PC3"/>
 <wire x1="241.3" y1="144.78" x2="259.08" y2="144.78" width="0.1524" layer="91"/>
 <label x="241.3" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC4" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC4"/>
+<pinref part="U7" gate="G$1" pin="PC4"/>
 <wire x1="241.3" y1="142.24" x2="259.08" y2="142.24" width="0.1524" layer="91"/>
 <label x="241.3" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC5" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC5"/>
+<pinref part="U7" gate="G$1" pin="PC5"/>
 <wire x1="241.3" y1="139.7" x2="259.08" y2="139.7" width="0.1524" layer="91"/>
 <label x="241.3" y="139.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC6" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC6"/>
+<pinref part="U7" gate="G$1" pin="PC6"/>
 <wire x1="241.3" y1="137.16" x2="259.08" y2="137.16" width="0.1524" layer="91"/>
 <label x="241.3" y="137.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC7" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC7"/>
+<pinref part="U7" gate="G$1" pin="PC7"/>
 <wire x1="241.3" y1="134.62" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
 <label x="241.3" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PC13" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC13"/>
+<pinref part="U7" gate="G$1" pin="PC13"/>
 <wire x1="241.3" y1="119.38" x2="259.08" y2="119.38" width="0.1524" layer="91"/>
 <label x="241.3" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OSC32_IN" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC14-OSC32_IN"/>
+<pinref part="U7" gate="G$1" pin="PC14-OSC32_IN"/>
 <wire x1="241.3" y1="116.84" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
 <label x="241.3" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="OSC32_OUT" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC15-OSC32_OUT"/>
+<pinref part="U7" gate="G$1" pin="PC15-OSC32_OUT"/>
 <wire x1="241.3" y1="114.3" x2="259.08" y2="114.3" width="0.1524" layer="91"/>
 <label x="241.3" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB3"/>
+<pinref part="U7" gate="G$1" pin="PB3"/>
 <wire x1="241.3" y1="190.5" x2="259.08" y2="190.5" width="0.1524" layer="91"/>
 <label x="241.3" y="190.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CAN2_RX" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB5"/>
+<pinref part="U7" gate="G$1" pin="PB5"/>
 <wire x1="241.3" y1="185.42" x2="266.7" y2="185.42" width="0.1524" layer="91"/>
 <label x="241.3" y="185.42" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="RXD"/>
@@ -23950,7 +23983,7 @@ ARM SWD connector</text>
 </net>
 <net name="CAN2_TX" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB6"/>
+<pinref part="U7" gate="G$1" pin="PB6"/>
 <wire x1="241.3" y1="182.88" x2="264.16" y2="182.88" width="0.1524" layer="91"/>
 <label x="241.3" y="182.88" size="1.778" layer="95"/>
 <pinref part="U3" gate="G$1" pin="TXD"/>
@@ -23962,7 +23995,7 @@ ARM SWD connector</text>
 </net>
 <net name="OPD_CB_RESET" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB1"/>
+<pinref part="U7" gate="G$1" pin="PB1"/>
 <wire x1="241.3" y1="195.58" x2="271.78" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="195.58" x2="271.78" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="198.12" x2="274.32" y2="198.12" width="0.1524" layer="91"/>
@@ -23972,7 +24005,7 @@ ARM SWD connector</text>
 </net>
 <net name="OPD_!FAULT" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB2"/>
+<pinref part="U7" gate="G$1" pin="PB2"/>
 <wire x1="241.3" y1="193.04" x2="274.32" y2="193.04" width="0.1524" layer="91"/>
 <label x="274.32" y="193.04" size="1.778" layer="95" xref="yes"/>
 <label x="241.3" y="193.04" size="1.778" layer="95"/>
@@ -23980,7 +24013,7 @@ ARM SWD connector</text>
 </net>
 <net name="OPD_POUT_IN" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PB10"/>
+<pinref part="U7" gate="G$1" pin="PB10"/>
 <wire x1="241.3" y1="172.72" x2="292.1" y2="172.72" width="0.1524" layer="91"/>
 <label x="241.3" y="172.72" size="1.778" layer="95"/>
 <wire x1="292.1" y1="172.72" x2="292.1" y2="170.18" width="0.1524" layer="91"/>
@@ -24000,7 +24033,7 @@ ARM SWD connector</text>
 </net>
 <net name="MMC_CS" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC9"/>
+<pinref part="U7" gate="G$1" pin="PC9"/>
 <wire x1="241.3" y1="129.54" x2="307.34" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="307.34" y1="129.54" x2="307.34" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="J8" gate="G$1" pin="CD/DAT3"/>
@@ -24010,7 +24043,7 @@ ARM SWD connector</text>
 </net>
 <net name="SPI3_SCK" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC10"/>
+<pinref part="U7" gate="G$1" pin="PC10"/>
 <wire x1="241.3" y1="127" x2="309.88" y2="127" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="127" x2="309.88" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J8" gate="G$1" pin="CLK"/>
@@ -24020,7 +24053,7 @@ ARM SWD connector</text>
 </net>
 <net name="SPI3_MISO" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="PC11"/>
+<pinref part="U7" gate="G$1" pin="PC11"/>
 <wire x1="241.3" y1="124.46" x2="304.8" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="304.8" y1="124.46" x2="304.8" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="J8" gate="G$1" pin="DAT0"/>
@@ -24031,7 +24064,7 @@ ARM SWD connector</text>
 <net name="SPI3_MOSI" class="0">
 <segment>
 <pinref part="J8" gate="G$1" pin="CMD"/>
-<pinref part="U$2" gate="G$1" pin="PC12"/>
+<pinref part="U7" gate="G$1" pin="PC12"/>
 <wire x1="317.5" y1="121.92" x2="241.3" y2="121.92" width="0.1524" layer="91"/>
 <label x="241.3" y="121.92" size="1.778" layer="95"/>
 </segment>
@@ -24049,7 +24082,7 @@ ARM SWD connector</text>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="304.8" y1="147.32" x2="294.64" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="147.32" x2="294.64" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="PC8"/>
+<pinref part="U7" gate="G$1" pin="PC8"/>
 <wire x1="294.64" y1="132.08" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
 <label x="241.3" y="132.08" size="1.778" layer="95"/>
 </segment>
