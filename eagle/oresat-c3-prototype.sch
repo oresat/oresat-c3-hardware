@@ -21238,8 +21238,6 @@ P-Channel Switch with Thermal Shutdown</description>
 <part name="Q1" library="Q-MOSFET-PCH-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
 <part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
-<part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="SUPPLY11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="U6" library="MAXIM" deviceset="MAX6373KA+" device="21-0078H-L"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/2" value="4.7k"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -23356,12 +23354,6 @@ ARM SWD connector</text>
 <attribute name="NAME" x="316.0014" y="199.39" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="320.802" y="199.39" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="SUPPLY10" gate="G$1" x="309.88" y="200.66" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="309.88" y="203.454" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY11" gate="G$1" x="317.5" y="200.66" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="317.5" y="203.454" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
-</instance>
 <instance part="U6" gate="A" x="375.92" y="238.76" smashed="yes">
 <attribute name="NAME" x="366.1156" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="378.1806" y="225.0186" size="2.0828" layer="96" ratio="6" rot="SR0"/>
@@ -23646,14 +23638,6 @@ ARM SWD connector</text>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="SUPPLY13" gate="G$1" pin="3.3V"/>
 <wire x1="309.88" y1="152.4" x2="309.88" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-</segment>
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<pinref part="SUPPLY11" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
@@ -24182,6 +24166,18 @@ ARM SWD connector</text>
 <pinref part="U7" gate="G$1" pin="PC8"/>
 <wire x1="302.26" y1="132.08" x2="241.3" y2="132.08" width="0.1524" layer="91"/>
 <label x="241.3" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="OPD_PWR" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="309.88" y1="200.66" x2="309.88" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="203.2" x2="317.5" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="203.2" x2="317.5" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="203.2" x2="317.5" y2="205.74" width="0.1524" layer="91"/>
+<junction x="317.5" y="203.2"/>
+<label x="317.5" y="205.74" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
