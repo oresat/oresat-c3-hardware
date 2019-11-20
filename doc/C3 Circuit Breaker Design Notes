@@ -9,8 +9,8 @@ This information is all from the data sheet.
 
 2. The Voltage divider on pin 3 sets the under voltage set point as follows
 	VIN_(UV) = V_UVLO*(R1+R2)/R2. [p19] Where V_UVLO = 1.2 V [p7], VIN_(UV) is the threshold 
-	at which the IC turns on the power rail and R1 = R2 = 10k With this config the threshold is 
-	2.4 V. 
+	at which the IC turns on the power rail and R1(top resistor) = 10k R2(bottom resistor) = 31.7k.
+	With this config undervoltage lockout is 5V.
 
 3. The resistor at pin 7 sets the limit current according to the equation
 	R_ILM (Ohms) = 903 / (I_LIM (A) - 0.0112) [p22]. With the R_ILM = 3.1k, I_LIM = 0.302 (A).
