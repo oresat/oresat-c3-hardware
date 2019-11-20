@@ -1,0 +1,24 @@
+OPD Circuit breaker design notes
+Part Maxim - MAX892L
+
+This information is all from the data sheet.
+
+1. IC needs an active low on EN pin 3 to turn on.
+
+2. Limiting current is set by R_SET on pin 5 to ground. The resistor value is chosen
+	according to the following equations.
+	I_SET = I_LIMIT / I_RATIO
+	R_SET = 1.240 / I_SET
+	I_RATIO = 965 [p6]
+	As designed I_SET = 50mA so R_SET = 23932.
+
+3. The net OPD_I_SET provides the voltage developed by a replica of I_OUT through R_set
+	to ground. This current is I_OUT / 965. The output current can then be monitored by
+	the MCU on this net.
+	
+4. The fault pin 6 is an open drain active low and is pulled to ground when the IC starts
+	current limiting or when the IC temperature exceeds 135C.
+
+5. This part is an auto retry. If the IC exceeds 135C it turns off and then turns back on
+	after the junction temp drops 10C. This can result in a pulsed output if the fault is
+	not corrected.

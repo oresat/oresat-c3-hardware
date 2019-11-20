@@ -1,0 +1,25 @@
+C3 Main Circuit breaker design notes
+Part TI - TPS259621
+
+This information is all from the data sheet.
+
+1. Pins 2 and 8 are left intentionaly open. Pin 2 is to set a longer inrush
+	slew rate and pin 8 is left open to set 13.7V as the over voltage clamp set
+	point [p21].
+
+2. The Voltage divider on pin 3 sets the under voltage set point as follows
+	VIN_(UV) = V_UVLO*(R1+R2)/R2. [p19] Where V_UVLO = 1.2 V [p7], VIN_(UV) is the threshold 
+	at which the IC turns on the power rail and R1(top resistor) = 10k R2(bottom resistor) = 31.7k.
+	With this config undervoltage lockout is 5V.
+
+3. The resistor at pin 7 sets the limit current according to the equation
+	R_ILM (Ohms) = 903 / (I_LIM (A) - 0.0112) [p22]. With the R_ILM = 3.1k, I_LIM = 0.302 (A).
+	You can also monitor the input current by routing this pin to an analog input 
+	on the MCU.
+
+4. Pin 6 is left open because this is pulled low when the IC cuts power to 
+	the rail. If that happens the MCU wont be there to see this pin go low anyay.
+
+5. This part is an auto retry. If an overvoltage or over current condition 
+	persists, it enters thermal shutdown at 157 C and cuts power to the rail [p7]. It then 
+	restablishes power after it has cooled down 11.5 C and 95 ms have elapsed [p8].
