@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7535,10 +7535,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R9" pad="2"/>
 <contactref element="R5" pad="1"/>
 <contactref element="U4" pad="3"/>
-<wire x1="18.855" y1="76.585" x2="24.993253125" y2="76.585" width="0.2" layer="1"/>
-<wire x1="24.998253125" y1="77.51" x2="24.998253125" y2="76.59" width="0.3048" layer="1"/>
-<wire x1="24.998253125" y1="76.59" x2="24.993253125" y2="76.585" width="0.3048" layer="1"/>
-<wire x1="24.998253125" y1="77.51" x2="25" y2="76.59" width="0" layer="19" extent="1-1"/>
+<wire x1="18.855" y1="76.585" x2="24.995" y2="76.585" width="0.2" layer="1"/>
+<wire x1="24.995" y1="76.585" x2="25" y2="76.59" width="0.2" layer="1"/>
+<wire x1="25" y1="76.59" x2="24.998253125" y2="76.591746875" width="0.2" layer="1"/>
+<wire x1="24.998253125" y1="76.591746875" x2="24.998253125" y2="77.51" width="0.2" layer="1"/>
 </signal>
 <signal name="CB_IOUT">
 <contactref element="R6" pad="2"/>
@@ -8163,8 +8163,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,16,fd6db0c3a8447d44"/>
 <approved hash="4,1,c69fc2f6aa8407eb"/>
 <approved hash="21,19,1d531d531d531d53"/>
-<approved hash="21,19,ec43ee5feda3efa3"/>
-<approved hash="4,1,c3469295a7633b55"/>
+<approved hash="4,1,da742613fe89cf0b"/>
 </errors>
 </board>
 </drawing>
