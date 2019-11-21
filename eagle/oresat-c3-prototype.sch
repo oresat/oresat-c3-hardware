@@ -21607,7 +21607,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <sheet>
 <description>Connectors</description>
 <plain>
-<text x="341.63" y="26.67" size="3.81" layer="94">OreSat Proto-Card</text>
+<text x="341.63" y="26.67" size="3.81" layer="94">oresat-c3-prototype</text>
 <text x="416.56" y="6.35" size="3.81" layer="94">3.1</text>
 <text x="11.43" y="5.08" size="1.778" layer="97">All resistors 0402 +/- 1% unless marked</text>
 <text x="11.43" y="2.54" size="1.778" layer="97">All caps are 0402 ceramic 10% X5R Vw&gt;=16V unless marked</text>
@@ -24763,9 +24763,43 @@ ARM SWD connector</text>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,4,119.38,149.86,X1,SHIELD,GND,,,"/>
+<approved hash="104,4,73.66,114.3,U2,VCC,3.3V,,,"/>
+<approved hash="104,2,254,218.44,U5,VIN,VBUSP,,,"/>
+<approved hash="104,4,73.66,58.42,U3,VCC,3.3V,,,"/>
+<approved hash="104,4,314.96,58.42,J8,VSS1,GND,,,"/>
+<approved hash="104,4,314.96,81.28,J8,VDD,MMC_VDD,,,"/>
+<approved hash="104,4,314.96,55.88,J8,VSS2,GND,,,"/>
+<approved hash="104,4,342.9,246.38,U6,VCC,N$4,,,"/>
+<approved hash="104,4,213.36,170.18,U7,VBAT,3.3V,,,"/>
+<approved hash="104,4,210.82,58.42,U7,VSSA,GND,,,"/>
+<approved hash="104,4,208.28,170.18,U7,VDDA,3.3V,,,"/>
+<approved hash="104,4,215.9,58.42,U7,VSS,GND,,,"/>
+<approved hash="104,4,218.44,170.18,U7,VDD,3.3V,,,"/>
+<approved hash="104,2,81.28,215.9,U4,VIN,VBUS,,,"/>
+<approved hash="104,2,111.76,215.9,U4,VOUT,VBUSP,,,"/>
+<approved hash="104,3,162.56,177.8,U1,IN_2,3.3V,,,"/>
+<approved hash="104,3,162.56,182.88,U1,IN,3.3V,,,"/>
+<approved hash="104,3,198.12,177.8,U1,OUT_2,OPD_PWR,,,"/>
+<approved hash="104,3,198.12,182.88,U1,OUT,OPD_PWR,,,"/>
+<approved hash="106,4,236.22,78.74,OSC32_IN,,,,,"/>
+<approved hash="106,4,236.22,76.2,OSC32_OUT,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
+<approved hash="113,1,162.797,125.956,JP5,,,,,"/>
+<approved hash="113,4,69.1727,157.412,J5,,,,,"/>
+<approved hash="113,4,75.9629,178.026,JP8,,,,,"/>
+<approved hash="113,1,134.857,122.146,JP9,,,,,"/>
+<approved hash="113,1,134.578,171.676,JP10,,,,,"/>
+<approved hash="113,1,179.307,128.496,JP3,,,,,"/>
 <approved hash="113,4,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
+<approved hash="113,1,156.168,245.336,JP2,,,,,"/>
+<approved hash="113,3,215.796,139.596,FRAME4,,,,,"/>
+<approved hash="113,1,134.578,222.476,JP1,,,,,"/>
+<approved hash="113,1,248.683,117.066,JP4,,,,,"/>
+<approved hash="113,1,248.683,218.666,JP7,,,,,"/>
+<approved hash="113,1,154.703,90.3961,JP6,,,,,"/>
+<approved hash="113,4,323.808,131.036,JP11,,,,,"/>
 </errors>
 </schematic>
 </drawing>
