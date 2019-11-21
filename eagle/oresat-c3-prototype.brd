@@ -5907,6 +5907,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="38.3184" y="74.085" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="Maxim Integrated Products" x="41.595" y="74.72" size="1.778" layer="27" display="off"/>
 </element>
+<element name="TP12" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="41.9" y="49.6" smashed="yes">
+<attribute name="NAME" x="40.3" y="51.1" size="0.8" layer="25" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
 <signal name="CRYSTALIN">
@@ -7971,6 +7974,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="PC13">
 <contactref element="U7" pad="2"/>
+<contactref element="TP12" pad="1"/>
+<wire x1="45.54415" y1="50.307" x2="43.81585" y2="50.307" width="0.2" layer="1"/>
+<wire x1="48.385" y1="49.125" x2="46.72615" y2="49.125" width="0.2" layer="1"/>
+<wire x1="43.10885" y1="49.6" x2="41.9" y2="49.6" width="0.2" layer="1"/>
+<wire x1="46.72615" y1="49.125" x2="45.54415" y2="50.307" width="0.2" layer="1"/>
+<wire x1="43.81585" y1="50.307" x2="43.10885" y2="49.6" width="0.2" layer="1"/>
 </signal>
 <signal name="OSC32_IN">
 <contactref element="U7" pad="3"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21601,6 +21601,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="D7" library="SparkFun" deviceset="DIODE" device="SOD" value="1N4148"/>
 <part name="U4" library="Robins_Parts" deviceset="TPS2596XX" device="" value="TPS259621 - eFuse"/>
 <part name="U1" library="Robins_Parts" deviceset="MAX892LEUA+T" device=""/>
+<part name="TP12" library="Tova" deviceset="TEST-POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23421,6 +23422,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <pinref part="U1" gate="A" pin="OUT_2"/>
 <pinref part="U1" gate="A" pin="OUT"/>
 <junction x="198.12" y="182.88"/>
+<label x="210.82" y="182.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="246.38" y1="182.88" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
@@ -23831,6 +23833,9 @@ ARM SWD connector</text>
 <instance part="D7" gate="G$1" x="386.08" y="248.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="383.54" y="248.4374" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="383.54" y="251.2314" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="TP12" gate="G$1" x="254" y="81.28" smashed="yes" rot="MR0">
+<attribute name="NAME" x="261.62" y="81.28" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -24542,6 +24547,7 @@ ARM SWD connector</text>
 <wire x1="236.22" y1="81.28" x2="254" y2="81.28" width="0.1524" layer="91"/>
 <label x="236.22" y="81.28" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="PC13"/>
+<pinref part="TP12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="OSC32_IN" class="0">
