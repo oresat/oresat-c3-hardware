@@ -6356,54 +6356,6 @@ Package for devices meant to mate to an FTDI connector.
 <hole x="-5.08" y="0" drill="1.4"/>
 <hole x="5.08" y="0" drill="1.4"/>
 </package>
-<package name="SD" urn="urn:adsk.eagle:footprint:37922/1" library_version="1">
-<description>&lt;h3&gt;SD/MMC Socket&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:13&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=”https://cdn.sparkfun.com/datasheets/Prototyping/19608.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;SD_CARD_SOCKET&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="1" x="-1" y="6.77" dx="1.8" dy="0.9" layer="1"/>
-<smd name="2" x="-1" y="4.27" dx="1.8" dy="0.9" layer="1"/>
-<smd name="3" x="-1" y="2.52" dx="1.8" dy="0.9" layer="1"/>
-<smd name="CD" x="-1" y="1.02" dx="1.8" dy="0.9" layer="1"/>
-<smd name="4" x="-1" y="-0.73" dx="1.8" dy="0.9" layer="1"/>
-<smd name="5" x="-1" y="-3.23" dx="1.8" dy="0.9" layer="1"/>
-<smd name="6" x="-1" y="-5.73" dx="1.8" dy="0.9" layer="1"/>
-<smd name="7" x="-1" y="-8.15" dx="1.8" dy="0.9" layer="1"/>
-<smd name="8" x="-1" y="-9.85" dx="1.8" dy="0.9" layer="1"/>
-<smd name="SH@1" x="20" y="14.496" dx="2" dy="1.4" layer="1"/>
-<smd name="SH@2" x="21.15" y="-13.589" dx="2" dy="1.527" layer="1"/>
-<smd name="WP" x="-1" y="-13" dx="1.8" dy="1.1" layer="1"/>
-<smd name="9" x="-1" y="9.27" dx="1.8" dy="0.9" layer="1"/>
-<wire x1="0" y1="14.25" x2="28.8" y2="14.25" width="0.127" layer="51"/>
-<wire x1="28.8" y1="14.25" x2="28.8" y2="10" width="0.127" layer="51"/>
-<wire x1="28.8" y1="10" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
-<wire x1="28.8" y1="-10.5" x2="28.8" y2="-14.25" width="0.127" layer="51"/>
-<wire x1="28.8" y1="-14.25" x2="0" y2="-14.25" width="0.127" layer="51"/>
-<wire x1="0" y1="-14.25" x2="0" y2="14.25" width="0.127" layer="51"/>
-<wire x1="-0.095" y1="10.019" x2="-0.095" y2="14.418" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="14.418" x2="5.239" y2="14.418" width="0.254" layer="21"/>
-<wire x1="21.849" y1="14.318" x2="28.888" y2="14.318" width="0.254" layer="21"/>
-<wire x1="28.888" y1="14.318" x2="28.9" y2="12.9" width="0.254" layer="21"/>
-<wire x1="23.011" y1="-14.327" x2="28.888" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="28.888" y1="-14.327" x2="28.888" y2="-13.349" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="-14.238" x2="-0.095" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="-0.095" y1="-14.327" x2="5.239" y2="-14.327" width="0.254" layer="21"/>
-<wire x1="35.6" y1="12" x2="35.6" y2="-13" width="0.127" layer="51"/>
-<wire x1="28.8" y1="10" x2="28" y2="10" width="0.127" layer="51"/>
-<wire x1="28" y1="10" x2="18" y2="0" width="0.127" layer="51" curve="90"/>
-<wire x1="28" y1="-10.5" x2="18" y2="-0.5" width="0.127" layer="51" curve="-90"/>
-<wire x1="18" y1="0" x2="18" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="28" y1="-10.5" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
-<hole x="23.3" y="11.94" drill="1.55"/>
-<hole x="23.3" y="-12.32" drill="1.55"/>
-<text x="0.54" y="12.94" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="0.54" y="11.67" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<text x="34.9" y="-9.3" size="1.27" layer="51" rot="R90">card lock position</text>
-</package>
 </packages>
 <packages3d>
 <package3d name="U.FL" urn="urn:adsk.eagle:package:38237/1" type="box" library_version="1">
@@ -6506,19 +6458,6 @@ Example device(s):
 6_Pin_Serial_Target
 </description>
 </package3d>
-<package3d name="SD" urn="urn:adsk.eagle:package:38262/1" type="box" library_version="1">
-<description>SD/MMC Socket
-Specifications:
-Pin count:13
-
-Datasheet referenced for footprint
-Example device(s):
-SD_CARD_SOCKET
-</description>
-<packageinstances>
-<packageinstance name="SD"/>
-</packageinstances>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="U.FL-1" urn="urn:adsk.eagle:symbol:37988/1" library_version="1">
@@ -6561,27 +6500,6 @@ It is used to mate with our FTDI Basic serial programmers using the Arduino IDE.
 <pin name="VCC" x="5.08" y="2.54" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CTS" x="5.08" y="5.08" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="GND" x="5.08" y="7.62" visible="pin" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="SDCARD-1" urn="urn:adsk.eagle:symbol:37921/1" library_version="1">
-<wire x1="-7.62" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="CD/DAT3" x="-12.7" y="0" length="middle"/>
-<pin name="CMD" x="-12.7" y="2.54" length="middle"/>
-<pin name="VSS1" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
-<pin name="VDD" x="-12.7" y="15.24" length="middle" direction="pwr"/>
-<pin name="CLK" x="-12.7" y="5.08" length="middle"/>
-<pin name="VSS2" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
-<pin name="DAT0" x="-12.7" y="12.7" length="middle"/>
-<pin name="DAT1" x="-12.7" y="10.16" length="middle"/>
-<pin name="DAT2" x="-12.7" y="7.62" length="middle"/>
-<pin name="WP" x="-12.7" y="-5.08" length="middle"/>
-<pin name="CD" x="-12.7" y="-2.54" length="middle"/>
-<pin name="SH@1" x="-12.7" y="-15.24" length="middle"/>
-<pin name="SH@2" x="-12.7" y="-12.7" length="middle"/>
-<text x="-7.366" y="18.288" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-7.112" y="-20.32" size="1.778" layer="96" font="vector">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -6774,55 +6692,6 @@ For reference (or to suit your programming needs) check out these designs:
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-08971" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SD_CARD_SOCKET" urn="urn:adsk.eagle:component:38371/1" prefix="J" library_version="1">
-<description>&lt;h3&gt;SD Memory Card Connector (standard "large" size)&lt;/h3&gt;
-Push-push normal type, CD enable, WP enable.
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12769"&gt;SD/MMC Socket&lt;/a&gt; (PRT-12769)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Prototyping/19608.pdf"&gt;Datasheet&lt;/a&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;b&gt;It is used on these SparkFun products:&lt;/b&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12941"&gt;SparkFun SD/MMC Card Breakout&lt;/a&gt; (BOB-12941)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11468"&gt;SD Sniffer&lt;/a&gt; (TOL-11468)&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="G$1" symbol="SDCARD-1" x="-66.04" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="SD">
-<connects>
-<connect gate="G$1" pin="CD" pad="CD"/>
-<connect gate="G$1" pin="CD/DAT3" pad="1"/>
-<connect gate="G$1" pin="CLK" pad="5"/>
-<connect gate="G$1" pin="CMD" pad="2"/>
-<connect gate="G$1" pin="DAT0" pad="7"/>
-<connect gate="G$1" pin="DAT1" pad="8"/>
-<connect gate="G$1" pin="DAT2" pad="9"/>
-<connect gate="G$1" pin="SH@1" pad="SH@1"/>
-<connect gate="G$1" pin="SH@2" pad="SH@2"/>
-<connect gate="G$1" pin="VDD" pad="4"/>
-<connect gate="G$1" pin="VSS1" pad="3"/>
-<connect gate="G$1" pin="VSS2" pad="6"/>
-<connect gate="G$1" pin="WP" pad="WP"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:38262/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CONN-11976" constant="no"/>
-<attribute name="SF_ID" value="PRT-12769" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -16773,6 +16642,142 @@ time of 5-μs (typical)&lt;/li&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="J-4UCON-SparkfunPN-PRT-12769-SD-MMC-card-socket">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SD">
+<description>&lt;h3&gt;SD/MMC Socket&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:13&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://cdn.sparkfun.com/datasheets/Prototyping/19608.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;SD_CARD_SOCKET&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="-1" y="6.77" dx="1.8" dy="0.9" layer="1"/>
+<smd name="2" x="-1" y="4.27" dx="1.8" dy="0.9" layer="1"/>
+<smd name="3" x="-1" y="2.52" dx="1.8" dy="0.9" layer="1"/>
+<smd name="CD" x="-1" y="1.02" dx="1.8" dy="0.9" layer="1"/>
+<smd name="4" x="-1" y="-0.73" dx="1.8" dy="0.9" layer="1"/>
+<smd name="5" x="-1" y="-3.23" dx="1.8" dy="0.9" layer="1"/>
+<smd name="6" x="-1" y="-5.73" dx="1.8" dy="0.9" layer="1"/>
+<smd name="7" x="-1" y="-8.15" dx="1.8" dy="0.9" layer="1"/>
+<smd name="8" x="-1" y="-9.85" dx="1.8" dy="0.9" layer="1"/>
+<smd name="SH@1" x="20" y="14.496" dx="2" dy="1.4" layer="1"/>
+<smd name="SH@2" x="21.15" y="-13.589" dx="2" dy="1.527" layer="1"/>
+<smd name="WP" x="-1" y="-13" dx="1.8" dy="1.1" layer="1"/>
+<smd name="9" x="-1" y="9.27" dx="1.8" dy="0.9" layer="1"/>
+<wire x1="0" y1="14.25" x2="28.8" y2="14.25" width="0.127" layer="51"/>
+<wire x1="28.8" y1="14.25" x2="28.8" y2="10" width="0.127" layer="51"/>
+<wire x1="28.8" y1="10" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
+<wire x1="28.8" y1="-10.5" x2="28.8" y2="-14.25" width="0.127" layer="51"/>
+<wire x1="28.8" y1="-14.25" x2="0" y2="-14.25" width="0.127" layer="51"/>
+<wire x1="0" y1="-14.25" x2="0" y2="14.25" width="0.127" layer="51"/>
+<hole x="23.3" y="11.94" drill="1.55"/>
+<hole x="23.3" y="-12.32" drill="1.55"/>
+<text x="0.54" y="12.94" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="0.54" y="11.67" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-0.095" y1="10.019" x2="-0.095" y2="14.418" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="14.418" x2="5.239" y2="14.418" width="0.254" layer="21"/>
+<wire x1="21.849" y1="14.318" x2="28.888" y2="14.318" width="0.254" layer="21"/>
+<wire x1="28.888" y1="14.318" x2="28.9" y2="12.9" width="0.254" layer="21"/>
+<wire x1="23.011" y1="-14.327" x2="28.888" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="28.888" y1="-14.327" x2="28.888" y2="-13.349" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="-14.238" x2="-0.095" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="-0.095" y1="-14.327" x2="5.239" y2="-14.327" width="0.254" layer="21"/>
+<wire x1="35.6" y1="12" x2="35.6" y2="-13" width="0.127" layer="51"/>
+<text x="34.9" y="-9.3" size="1.27" layer="51" rot="R90">card lock position</text>
+<wire x1="28.8" y1="10" x2="28" y2="10" width="0.127" layer="51"/>
+<wire x1="28" y1="10" x2="18" y2="0" width="0.127" layer="51" curve="90"/>
+<wire x1="28" y1="-10.5" x2="18" y2="-0.5" width="0.127" layer="51" curve="-90"/>
+<wire x1="18" y1="0" x2="18" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="28" y1="-10.5" x2="28.8" y2="-10.5" width="0.127" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SDCARD-1">
+<wire x1="-7.62" y1="17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<pin name="CD/DAT3" x="-12.7" y="0" length="middle"/>
+<pin name="CMD" x="-12.7" y="2.54" length="middle"/>
+<pin name="VSS1" x="-12.7" y="-7.62" length="middle" direction="pwr"/>
+<pin name="VDD" x="-12.7" y="15.24" length="middle" direction="pwr"/>
+<pin name="CLK" x="-12.7" y="5.08" length="middle"/>
+<pin name="VSS2" x="-12.7" y="-10.16" length="middle" direction="pwr"/>
+<pin name="DAT0" x="-12.7" y="12.7" length="middle"/>
+<pin name="DAT1" x="-12.7" y="10.16" length="middle"/>
+<pin name="DAT2" x="-12.7" y="7.62" length="middle"/>
+<text x="-7.366" y="18.288" size="1.778" layer="95" font="vector">&gt;Name</text>
+<pin name="WP" x="-12.7" y="-5.08" length="middle"/>
+<pin name="CD" x="-12.7" y="-2.54" length="middle"/>
+<text x="-7.112" y="-20.32" size="1.778" layer="96" font="vector">&gt;Value</text>
+<pin name="SH@1" x="-12.7" y="-15.24" length="middle"/>
+<pin name="SH@2" x="-12.7" y="-12.7" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SD_CARD_SOCKET" prefix="J">
+<description>&lt;h3&gt;SD Memory Card Connector (standard "large" size)&lt;/h3&gt;
+Push-push normal type, CD enable, WP enable.
+
+&lt;p&gt;&lt;/p&gt;
+&lt;b&gt;Here is the connector we sell at SparkFun:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12769"&gt;SD/MMC Socket&lt;/a&gt; (PRT-12769)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cdn.sparkfun.com/datasheets/Prototyping/19608.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;b&gt;It is used on these SparkFun products:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12941"&gt;SparkFun SD/MMC Card Breakout&lt;/a&gt; (BOB-12941)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11468"&gt;SD Sniffer&lt;/a&gt; (TOL-11468)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="SDCARD-1" x="-66.04" y="10.16"/>
+</gates>
+<devices>
+<device name="" package="SD">
+<connects>
+<connect gate="G$1" pin="CD" pad="CD"/>
+<connect gate="G$1" pin="CD/DAT3" pad="1"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="2"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="9"/>
+<connect gate="G$1" pin="SH@1" pad="SH@1"/>
+<connect gate="G$1" pin="SH@2" pad="SH@2"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS1" pad="3"/>
+<connect gate="G$1" pin="VSS2" pad="6"/>
+<connect gate="G$1" pin="WP" pad="WP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-11976" constant="no"/>
+<attribute name="SF_ID" value="PRT-12769" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17037,7 +17042,7 @@ time of 5-μs (typical)&lt;/li&gt;
 <attribute name="MPN" value="TCAN330GDCNT"/>
 </part>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="SD_CARD_SOCKET" device="" package3d_urn="urn:adsk.eagle:package:38262/1"/>
+<part name="J8" library="J-4UCON-SparkfunPN-PRT-12769-SD-MMC-card-socket" deviceset="SD_CARD_SOCKET" device=""/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
