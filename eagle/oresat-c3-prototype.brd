@@ -3878,7 +3878,53 @@ shrink quad flat pack, square</description>
 </package>
 </packages>
 </library>
-<library name="MAXIM">
+<library name="2x8x1.27">
+<packages>
+<package name="2X8X1.27">
+<pad name="1" x="-4.445" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="2" x="-4.445" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="3" x="-3.175" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="4" x="-3.175" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="5" x="-1.905" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="6" x="-1.905" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="7" x="-0.635" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="8" x="-0.635" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="9" x="0.635" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="10" x="0.635" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="11" x="1.905" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="12" x="1.905" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="13" x="3.175" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="14" x="3.175" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
+<pad name="15" x="4.445" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
+<pad name="16" x="4.445" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
+<wire x1="-5.715" y1="1.7" x2="5.715" y2="1.7" width="0.2" layer="51"/>
+<wire x1="5.715" y1="1.7" x2="5.715" y2="-1.7" width="0.2" layer="21"/>
+<wire x1="5.715" y1="-1.7" x2="-5.715" y2="-1.7" width="0.2" layer="51"/>
+<wire x1="-5.715" y1="-1.7" x2="-5.715" y2="1.7" width="0.2" layer="21"/>
+<text x="6.35" y="0" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+</package>
+</packages>
+</library>
+<library name="SparkFun">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOD-323">
+<wire x1="-0.9" y1="0.65" x2="-0.5" y2="0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0.65" x2="0.9" y2="0.65" width="0.2032" layer="21"/>
+<wire x1="-0.9" y1="-0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="-0.65" x2="0.9" y2="-0.65" width="0.2032" layer="21"/>
+<wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
+<smd name="1" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<smd name="2" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
+<text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
+<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="U-Maxim-MAX6374-watchdog">
 <packages>
 <package name="21-0078H-L">
 <smd name="1" x="-1.143" y="0.975" dx="1.016" dy="0.381" layer="1"/>
@@ -3964,41 +4010,17 @@ shrink quad flat pack, square</description>
 </package>
 </packages>
 </library>
-<library name="Robins_Parts">
+<library name="U-Maxim-MAX892LEUA+T-power-switch">
 <packages>
-<package name="SO-POWERPAD-8">
-<smd name="1" x="-1.905" y="-2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="2" x="-0.635" y="-2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="3" x="0.635" y="-2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="4" x="1.905" y="-2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="8" x="-1.905" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="7" x="-0.635" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="6" x="0.635" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="5" x="1.905" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="THERMAL" x="0" y="0" dx="3.1" dy="2.4" layer="1" rot="R180"/>
-<circle x="-2.098040625" y="-3.901440625" radius="0.04819375" width="0" layer="21"/>
-<wire x1="-2.49428125" y1="1.996440625" x2="2.499359375" y2="1.996440625" width="0.127" layer="51"/>
-<wire x1="2.499359375" y1="1.996440625" x2="2.499359375" y2="-1.996440625" width="0.127" layer="51"/>
-<wire x1="2.499359375" y1="-1.996440625" x2="-2.499359375" y2="-1.996440625" width="0.127" layer="51"/>
-<wire x1="-2.499359375" y1="-1.996440625" x2="-2.499359375" y2="1.996440625" width="0.127" layer="51"/>
-<wire x1="-2.499359375" y1="1.996440625" x2="-2.49428125" y2="1.996440625" width="0.127" layer="51"/>
-<wire x1="-2.499359375" y1="1.996440625" x2="-2.499359375" y2="-1.996440625" width="0.127" layer="21"/>
-<wire x1="-0.29971875" y1="1.996440625" x2="0.29971875" y2="1.996440625" width="0.127" layer="21"/>
-<wire x1="-1.57988125" y1="1.996440625" x2="-0.9652" y2="1.996440625" width="0.127" layer="21"/>
-<wire x1="0.96011875" y1="1.996440625" x2="1.5748" y2="1.996440625" width="0.127" layer="21"/>
-<wire x1="2.499359375" y1="1.996440625" x2="2.499359375" y2="-1.996440625" width="0.127" layer="21"/>
-<text x="-3.14451875" y="4.26211875" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.2766" y="-5.3594" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-<package name="21-0036K">
-<smd name="1" x="-2.1844" y="0.975" dx="1.3604" dy="0.4156" layer="1"/>
-<smd name="2" x="-2.1844" y="0.325" dx="1.3604" dy="0.4156" layer="1"/>
-<smd name="3" x="-2.1844" y="-0.325" dx="1.3604" dy="0.4156" layer="1"/>
-<smd name="4" x="-2.1844" y="-0.975" dx="1.3604" dy="0.4156" layer="1"/>
-<smd name="5" x="2.1844" y="-0.975" dx="1.3604" dy="0.4156" layer="1"/>
-<smd name="6" x="2.1844" y="-0.325" dx="1.3604" dy="0.4156" layer="1"/>
-<smd name="7" x="2.1844" y="0.325" dx="1.3604" dy="0.4156" layer="1"/>
-<smd name="8" x="2.1844" y="0.975" dx="1.3604" dy="0.4156" layer="1"/>
+<package name="21-0036K-L">
+<smd name="1" x="-2.1344" y="0.975" dx="1.0604" dy="0.3756" layer="1"/>
+<smd name="2" x="-2.1344" y="0.325" dx="1.0604" dy="0.3756" layer="1"/>
+<smd name="3" x="-2.1344" y="-0.325" dx="1.0604" dy="0.3756" layer="1"/>
+<smd name="4" x="-2.1344" y="-0.975" dx="1.0604" dy="0.3756" layer="1"/>
+<smd name="5" x="2.1344" y="-0.975" dx="1.0604" dy="0.3756" layer="1"/>
+<smd name="6" x="2.1344" y="-0.325" dx="1.0604" dy="0.3756" layer="1"/>
+<smd name="7" x="2.1344" y="0.325" dx="1.0604" dy="0.3756" layer="1"/>
+<smd name="8" x="2.1344" y="0.975" dx="1.0604" dy="0.3756" layer="1"/>
 <wire x1="-1.5494" y1="0.7874" x2="-1.5494" y2="1.143" width="0.1524" layer="51"/>
 <wire x1="-1.5494" y1="1.143" x2="-2.5146" y2="1.143" width="0.1524" layer="51"/>
 <wire x1="-2.5146" y1="1.143" x2="-2.5146" y2="0.7874" width="0.1524" layer="51"/>
@@ -4039,88 +4061,70 @@ shrink quad flat pack, square</description>
 <wire x1="-1.5494" y1="1.5494" x2="-1.5494" y2="-1.5494" width="0.1524" layer="51"/>
 <wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="51" curve="-180"/>
 <text x="-1.7526" y="0.2032" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
-<wire x1="-3.1242" y1="-1.4478" x2="-3.1242" y2="1.4478" width="0.1524" layer="39"/>
-<wire x1="-3.1242" y1="1.4478" x2="-1.8034" y2="1.4478" width="0.1524" layer="39"/>
-<wire x1="-1.8034" y1="1.4478" x2="-1.8034" y2="1.8034" width="0.1524" layer="39"/>
-<wire x1="-1.8034" y1="1.8034" x2="1.8034" y2="1.8034" width="0.1524" layer="39"/>
-<wire x1="1.8034" y1="1.8034" x2="1.8034" y2="1.4478" width="0.1524" layer="39"/>
-<wire x1="3.1242" y1="1.4478" x2="1.8034" y2="1.4478" width="0.1524" layer="39"/>
-<wire x1="3.1242" y1="1.4478" x2="3.1242" y2="-1.4478" width="0.1524" layer="39"/>
-<wire x1="3.1242" y1="-1.4478" x2="1.8034" y2="-1.4478" width="0.1524" layer="39"/>
-<wire x1="1.8034" y1="-1.4478" x2="1.8034" y2="-1.8034" width="0.1524" layer="39"/>
-<wire x1="1.8034" y1="-1.8034" x2="-1.8034" y2="-1.8034" width="0.1524" layer="39"/>
-<wire x1="-1.8034" y1="-1.8034" x2="-1.8034" y2="-1.4478" width="0.1524" layer="39"/>
-<wire x1="-3.1242" y1="-1.4478" x2="-1.8034" y2="-1.4478" width="0.1524" layer="39"/>
+<wire x1="-2.7686" y1="-1.27" x2="-2.7686" y2="1.27" width="0.1524" layer="39"/>
+<wire x1="-2.7686" y1="1.27" x2="-1.651" y2="1.27" width="0.1524" layer="39"/>
+<wire x1="-1.651" y1="1.27" x2="-1.651" y2="1.651" width="0.1524" layer="39"/>
+<wire x1="-1.651" y1="1.651" x2="1.651" y2="1.651" width="0.1524" layer="39"/>
+<wire x1="1.651" y1="1.651" x2="1.651" y2="1.27" width="0.1524" layer="39"/>
+<wire x1="2.7686" y1="1.27" x2="1.651" y2="1.27" width="0.1524" layer="39"/>
+<wire x1="2.7686" y1="1.27" x2="2.7686" y2="-1.27" width="0.1524" layer="39"/>
+<wire x1="2.7686" y1="-1.27" x2="1.651" y2="-1.27" width="0.1524" layer="39"/>
+<wire x1="1.651" y1="-1.27" x2="1.651" y2="-1.651" width="0.1524" layer="39"/>
+<wire x1="1.651" y1="-1.651" x2="-1.651" y2="-1.651" width="0.1524" layer="39"/>
+<wire x1="-1.651" y1="-1.651" x2="-1.651" y2="-1.27" width="0.1524" layer="39"/>
+<wire x1="-2.7686" y1="-1.27" x2="-1.651" y2="-1.27" width="0.1524" layer="39"/>
 <polygon width="0.1524" layer="39">
-<vertex x="-3.1186" y="-1.4368"/>
-<vertex x="-3.1186" y="1.4368"/>
-<vertex x="-1.8034" y="1.4368"/>
-<vertex x="-1.8034" y="1.8034"/>
-<vertex x="1.8034" y="1.8034"/>
-<vertex x="1.8034" y="1.4368"/>
-<vertex x="3.1186" y="1.4368"/>
-<vertex x="3.1186" y="-1.4368"/>
-<vertex x="1.8034" y="-1.4368"/>
-<vertex x="1.8034" y="-1.8034"/>
-<vertex x="-1.8034" y="-1.8034"/>
-<vertex x="-1.8034" y="-1.4368"/>
+<vertex x="-2.7662" y="-1.2644"/>
+<vertex x="-2.7662" y="1.2644"/>
+<vertex x="-1.651" y="1.2644"/>
+<vertex x="-1.651" y="1.651"/>
+<vertex x="1.651" y="1.651"/>
+<vertex x="1.651" y="1.2644"/>
+<vertex x="2.7662" y="1.2644"/>
+<vertex x="2.7662" y="-1.2644"/>
+<vertex x="1.651" y="-1.2644"/>
+<vertex x="1.651" y="-1.651"/>
+<vertex x="-1.651" y="-1.651"/>
+<vertex x="-1.651" y="-1.2644"/>
 </polygon>
 <wire x1="-1.6764" y1="-1.6764" x2="1.6764" y2="-1.6764" width="0.1524" layer="21"/>
-<wire x1="1.6764" y1="-1.6764" x2="1.6764" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="1.6764" y1="-1.6764" x2="1.6764" y2="-1.4986" width="0.1524" layer="21"/>
 <wire x1="1.6764" y1="1.6764" x2="-1.6764" y2="1.6764" width="0.1524" layer="21"/>
-<wire x1="-1.6764" y1="1.6764" x2="-1.6764" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="-1.6764" y1="-1.524" x2="-1.6764" y2="-1.6764" width="0.1524" layer="21"/>
-<wire x1="1.6764" y1="1.524" x2="1.6764" y2="1.6764" width="0.1524" layer="21"/>
-<text x="-3.0226" y="1.27" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<wire x1="-1.6764" y1="1.6764" x2="-1.6764" y2="1.4986" width="0.1524" layer="21"/>
+<wire x1="-1.6764" y1="-1.4986" x2="-1.6764" y2="-1.6764" width="0.1524" layer="21"/>
+<wire x1="1.6764" y1="1.4986" x2="1.6764" y2="1.6764" width="0.1524" layer="21"/>
+<text x="-2.9718" y="1.2192" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-0.254" y1="0" x2="0.254" y2="0" width="0.1524" layer="23"/>
 <wire x1="0" y1="-0.254" x2="0" y2="0.254" width="0.1524" layer="23"/>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 </library>
-<library name="2x8x1.27">
+<library name="U-TI-TPS2596XX-eFuse">
 <packages>
-<package name="2X8X1.27">
-<pad name="1" x="-4.445" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="2" x="-4.445" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="3" x="-3.175" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="4" x="-3.175" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="5" x="-1.905" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="6" x="-1.905" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="7" x="-0.635" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="8" x="-0.635" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="9" x="0.635" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="10" x="0.635" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="11" x="1.905" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="12" x="1.905" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="13" x="3.175" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="14" x="3.175" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
-<pad name="15" x="4.445" y="0.635" drill="0.6" diameter="1.016" shape="offset" rot="R90"/>
-<pad name="16" x="4.445" y="-0.635" drill="0.6" diameter="1.016" shape="offset" rot="R270"/>
-<wire x1="-5.715" y1="1.7" x2="5.715" y2="1.7" width="0.2" layer="51"/>
-<wire x1="5.715" y1="1.7" x2="5.715" y2="-1.7" width="0.2" layer="21"/>
-<wire x1="5.715" y1="-1.7" x2="-5.715" y2="-1.7" width="0.2" layer="51"/>
-<wire x1="-5.715" y1="-1.7" x2="-5.715" y2="1.7" width="0.2" layer="21"/>
-<text x="6.35" y="0" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-</package>
-</packages>
-</library>
-<library name="SparkFun">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="SOD-323">
-<wire x1="-0.9" y1="0.65" x2="-0.5" y2="0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0.65" x2="0.9" y2="0.65" width="0.2032" layer="21"/>
-<wire x1="-0.9" y1="-0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="-0.65" x2="0.9" y2="-0.65" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0.65" x2="-0.5" y2="-0.65" width="0.2032" layer="21"/>
-<smd name="1" x="-1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<smd name="2" x="1.15" y="0" dx="0.63" dy="0.83" layer="1"/>
-<text x="-0.889" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.397" size="0.4064" layer="27">&gt;VALUE</text>
+<package name="SO-POWERPAD-8">
+<smd name="1" x="-1.905" y="-2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="2" x="-0.635" y="-2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="3" x="0.635" y="-2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="4" x="1.905" y="-2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="8" x="-1.905" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="7" x="-0.635" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="6" x="0.635" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="5" x="1.905" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
+<smd name="THERMAL" x="0" y="0" dx="3.1" dy="2.4" layer="1" rot="R180"/>
+<circle x="-2.098040625" y="-3.901440625" radius="0.04819375" width="0" layer="21"/>
+<wire x1="-2.49428125" y1="1.996440625" x2="2.499359375" y2="1.996440625" width="0.127" layer="51"/>
+<wire x1="2.499359375" y1="1.996440625" x2="2.499359375" y2="-1.996440625" width="0.127" layer="51"/>
+<wire x1="2.499359375" y1="-1.996440625" x2="-2.499359375" y2="-1.996440625" width="0.127" layer="51"/>
+<wire x1="-2.499359375" y1="-1.996440625" x2="-2.499359375" y2="1.996440625" width="0.127" layer="51"/>
+<wire x1="-2.499359375" y1="1.996440625" x2="-2.49428125" y2="1.996440625" width="0.127" layer="51"/>
+<wire x1="-2.499359375" y1="1.996440625" x2="-2.499359375" y2="-1.996440625" width="0.127" layer="21"/>
+<wire x1="-0.29971875" y1="1.996440625" x2="0.29971875" y2="1.996440625" width="0.127" layer="21"/>
+<wire x1="-1.57988125" y1="1.996440625" x2="-0.9652" y2="1.996440625" width="0.127" layer="21"/>
+<wire x1="0.96011875" y1="1.996440625" x2="1.5748" y2="1.996440625" width="0.127" layer="21"/>
+<wire x1="2.499359375" y1="1.996440625" x2="2.499359375" y2="-1.996440625" width="0.127" layer="21"/>
+<text x="-3.14451875" y="4.26211875" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.2766" y="-5.3594" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -4707,8 +4711,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="59.365" y="75.565" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="61.905" y="75.565" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U6" library="MAXIM" package="21-0078H-L" value="MAX6373KA+21-0078H-L" x="15.11" y="72.69" smashed="yes">
-<attribute name="MANUFACTURER_PART_NUMBER" value="MAX6374KA+" x="15.11" y="72.69" size="1.778" layer="27" display="off"/>
+<element name="U6" library="U-Maxim-MAX6374-watchdog" package="21-0078H-L" value="MAX6374KA-T21-0078H-L" x="15.11" y="72.69" smashed="yes">
+<attribute name="MANUFACTURER_PART_NUMBER" value="max6374kat" x="15.11" y="72.69" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="14.5334" y="70.155" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
 <attribute name="VENDOR" value="Maxim Integrated Products" x="15.11" y="72.69" size="1.778" layer="27" display="off"/>
 </element>
@@ -4842,11 +4846,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="21.011" y="76.016" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="21.397" y="75.184" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="U4" library="Robins_Parts" package="SO-POWERPAD-8" value="TPS259621 - eFuse" x="41.8" y="73.8" smashed="yes" rot="R90">
+<element name="U4" library="U-TI-TPS2596XX-eFuse" package="SO-POWERPAD-8" value="TPS259621 - eFuse" x="41.8" y="73.8" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.5" y="70.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="47.1594" y="70.5234" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U1" library="Robins_Parts" package="21-0036K" value="MAX892LEUA+T" x="42.5" y="66.6" smashed="yes">
+<element name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" package="21-0036K-L" value="MAX892LEUA+T21-0036K-L" x="42.5" y="66.6" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="MAX892LEUA+T" x="42.5" y="66.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="42.1234" y="64.165" size="0.635" layer="25" font="vector" ratio="20" rot="SR0"/>
 <attribute name="VENDOR" value="Maxim Integrated Products" x="42.5" y="66.6" size="1.778" layer="27" display="off"/>
@@ -5998,7 +6002,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R11" pad="1"/>
 <contactref element="U1" pad="7"/>
 <contactref element="U1" pad="8"/>
-<wire x1="44.6844" y1="67.575" x2="44.7194" y2="67.54" width="0.4" layer="1"/>
 <wire x1="60" y1="75.7" x2="57.4" y2="75.7" width="0.4" layer="1"/>
 <wire x1="57.4" y1="75.7" x2="56" y2="75.7" width="0.4" layer="1"/>
 <wire x1="56" y1="75.7" x2="54.88" y2="76.82" width="0.4" layer="1"/>
@@ -6037,7 +6040,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="55.735" y1="45.275" x2="55.735" y2="49.235" width="0.2" layer="1"/>
 <wire x1="55.735" y1="49.235" x2="55.8" y2="49.3" width="0.2" layer="1"/>
 <contactref element="D4" pad="C"/>
-<wire x1="40.3156" y1="66.275" x2="39.175" y2="66.275" width="0.2" layer="1"/>
+<wire x1="40.3656" y1="66.275" x2="39.175" y2="66.275" width="0.2" layer="1"/>
 <wire x1="38.777" y1="65.877" x2="38.2" y2="65.877" width="0.2" layer="1"/>
 <wire x1="39.175" y1="66.275" x2="38.777" y2="65.877" width="0.2" layer="1"/>
 <wire x1="38.2" y1="65.877" x2="37.477" y2="65.877" width="0.2" layer="1"/>
@@ -6053,10 +6056,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R24" pad="1"/>
 <wire x1="47" y1="64.7" x2="47" y2="63" width="0.2" layer="1"/>
 <contactref element="U1" pad="5"/>
-<wire x1="44.6844" y1="65.625" x2="46.075" y2="65.625" width="0.2" layer="1"/>
+<wire x1="44.6344" y1="65.625" x2="46.075" y2="65.625" width="0.2" layer="1"/>
 <wire x1="47" y1="64.7" x2="46.075" y2="65.625" width="0.2" layer="1"/>
 <wire x1="44.7" y1="63.9" x2="44.7" y2="65.6094" width="0.2" layer="1"/>
-<wire x1="44.7" y1="65.6094" x2="44.6844" y2="65.625" width="0.2" layer="1"/>
+<wire x1="44.7" y1="65.6094" x2="44.6344" y2="65.625" width="0.2" layer="1"/>
 </signal>
 <signal name="OPD_!FAULT">
 <contactref element="TP8" pad="1"/>
@@ -6069,7 +6072,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="54.75" y1="54.945728125" x2="54.75" y2="56.46" width="0.2" layer="1"/>
 <contactref element="U1" pad="6"/>
 <wire x1="48.675" y1="66.275" x2="48.7" y2="66.3" width="0.2" layer="1"/>
-<wire x1="44.6844" y1="66.275" x2="48.675" y2="66.275" width="0.2" layer="1"/>
+<wire x1="44.6344" y1="66.275" x2="48.675" y2="66.275" width="0.2" layer="1"/>
 <wire x1="48.7" y1="66.3" x2="48.7" y2="64.7" width="0.2" layer="1"/>
 <wire x1="48.7" y1="60.7940875" x2="48.7" y2="64.7" width="0.2" layer="16"/>
 <wire x1="54.548359375" y1="54.945728125" x2="48.7" y2="60.7940875" width="0.2" layer="16"/>
@@ -6739,8 +6742,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="OPD-3.3V">
 <contactref element="C5" pad="1"/>
 <contactref element="R12" pad="1"/>
-<contactref element="U1" pad="1"/>
 <contactref element="U1" pad="2"/>
+<contactref element="U1" pad="1"/>
 <polygon width="0.2" layer="1" isolate="0.2" thermals="no">
 <vertex x="41.1" y="66.8"/>
 <vertex x="41.1" y="68.1"/>
@@ -6864,13 +6867,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,1,2ce2eada83678633"/>
 <approved hash="4,1,bfad2e72b36b8bb2"/>
 <approved hash="4,1,da742613fe89cf0b"/>
-<approved hash="4,1,e4df0ae3335906c9"/>
 <approved hash="19,1,b1c2b1db4dd34dca"/>
 <approved hash="19,1,3ad23df249fa4eda"/>
 <approved hash="19,1,ea49d63af232ce41"/>
 <approved hash="19,1,39d239da4dd24dda"/>
 <approved hash="19,1,b2c2b5f349fb4eca"/>
 <approved hash="4,1,eccdce1de079b1b0"/>
+<approved hash="4,1,8a6f5ee2039d0cbc"/>
 </errors>
 </board>
 </drawing>
