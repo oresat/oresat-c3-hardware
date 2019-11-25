@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="yes"/>
@@ -33,11 +33,11 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -287,7 +287,7 @@ to VBUS</text>
 <wire x1="51" y1="14" x2="51" y2="20" width="0.1524" layer="21"/>
 <circle x="48" y="26" radius="2.236065625" width="0.1524" layer="21"/>
 <circle x="48" y="17" radius="2.236065625" width="0.1524" layer="21"/>
-<text x="19.7" y="11.8" size="0.635" layer="21" font="vector" ratio="20">NRST</text>
+<text x="24.2" y="11.9" size="0.635" layer="21" font="vector" ratio="20">NRST</text>
 <text x="25.6" y="48.2" size="0.635" layer="21" font="vector" ratio="20">1</text>
 <text x="42" y="44.8" size="0.635" layer="21" font="vector" ratio="20">PA1</text>
 <text x="52.4" y="42.4" size="0.635" layer="21" font="vector" ratio="20">PB10</text>
@@ -4378,7 +4378,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DPN" value="XC2181CT-ND" x="44.7" y="52.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MFR" value="ECS Inc." x="44.7" y="52.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="ECS-160-10-36Q-ES-TR" x="44.7" y="52.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="42.628" y="54.132" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="42.3" y="52.3" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="44.691" y="52.605" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="U2" library="U-TI-TCAN330-CAN-transceiver" package="SOT23-8_TI-DCN" value="TCAN330" x="64.8" y="70.1" smashed="yes" rot="R270">
@@ -4626,7 +4626,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="61.215" y="86.6" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="TP2" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="23" y="12.5" smashed="yes">
-<attribute name="NAME" x="25" y="12.2" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="24.1" y="12.8" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R24" library="oresat-rcl" package=".0402-B-NOSILK" value="10k" x="47" y="62.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.3" y="61.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
@@ -5487,6 +5487,32 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="42" y="42" extent="1-16" drill="0.254"/>
 <via x="9" y="39" extent="1-16" drill="0.254"/>
 <via x="12" y="27" extent="1-16" drill="0.254"/>
+<via x="53.3" y="72.8" extent="1-16" drill="0.254"/>
+<via x="53.4" y="58.6" extent="1-16" drill="0.254"/>
+<via x="59.9" y="59.1" extent="1-16" drill="0.254"/>
+<via x="58.8" y="57.5" extent="1-16" drill="0.254"/>
+<via x="64.1" y="55.6" extent="1-16" drill="0.254"/>
+<via x="64.6" y="62.1" extent="1-16" drill="0.254"/>
+<via x="57.3" y="60.4" extent="1-16" drill="0.254"/>
+<via x="68" y="39.9" extent="1-16" drill="0.254"/>
+<via x="67" y="48.9" extent="1-16" drill="0.254"/>
+<via x="68.8" y="48.4" extent="1-16" drill="0.254"/>
+<via x="72" y="50.3" extent="1-16" drill="0.254"/>
+<via x="58.31" y="41.65" extent="1-16" drill="0.254"/>
+<via x="54.71" y="39.05" extent="1-16" drill="0.254"/>
+<via x="52.01" y="38.95" extent="1-16" drill="0.254"/>
+<via x="51.81" y="31.25" extent="1-16" drill="0.254"/>
+<via x="53.31" y="29.65" extent="1-16" drill="0.254"/>
+<via x="89" y="4.5" extent="1-16" drill="0.254"/>
+<via x="6" y="83" extent="1-16" drill="0.254"/>
+<via x="6" y="69" extent="1-16" drill="0.254"/>
+<via x="6" y="52" extent="1-16" drill="0.254"/>
+<via x="17.7" y="21.7" extent="1-16" drill="0.254"/>
+<via x="22.7" y="21.7" extent="1-16" drill="0.254"/>
+<via x="21.7" y="11.8" extent="1-16" drill="0.254"/>
+<via x="17.6" y="7.7" extent="1-16" drill="0.254"/>
+<via x="6.8" y="17.4" extent="1-16" drill="0.254"/>
+<via x="69" y="10" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="J12" pad="7"/>

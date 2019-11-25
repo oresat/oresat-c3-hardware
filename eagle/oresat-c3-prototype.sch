@@ -20225,10 +20225,10 @@ ARM SWD connector</text>
 <approved hash="104,4,73.66,114.3,U2,VCC,3.3V,,,"/>
 <approved hash="104,2,254,218.44,U5,VIN,VBUSP,,,"/>
 <approved hash="104,4,73.66,58.42,U3,VCC,3.3V,,,"/>
-<approved hash="104,4,314.96,58.42,J8,VSS1,GND,,,"/>
-<approved hash="104,4,314.96,81.28,J8,VDD,MMC_VDD,,,"/>
-<approved hash="104,4,314.96,55.88,J8,VSS2,GND,,,"/>
-<approved hash="104,4,342.9,246.38,U6,VCC,N$4,,,"/>
+<approved hash="104,4,382.27,58.42,J8,VSS1,GND,,,"/>
+<approved hash="104,4,382.27,81.28,J8,VDD,MMC_VDD,,,"/>
+<approved hash="104,4,382.27,55.88,J8,VSS2,GND,,,"/>
+<approved hash="104,4,342.9,246.38,U6,VCC,WDT-PWR,,,"/>
 <approved hash="104,4,213.36,170.18,U7,VBAT,3.3V,,,"/>
 <approved hash="104,4,210.82,58.42,U7,VSSA,GND,,,"/>
 <approved hash="104,4,208.28,170.18,U7,VDDA,3.3V,,,"/>
@@ -20236,8 +20236,8 @@ ARM SWD connector</text>
 <approved hash="104,4,218.44,170.18,U7,VDD,3.3V,,,"/>
 <approved hash="104,2,81.28,215.9,U4,VIN,VBUS,,,"/>
 <approved hash="104,2,111.76,215.9,U4,VOUT,VBUSP,,,"/>
-<approved hash="104,3,162.56,177.8,U1,IN_2,3.3V,,,"/>
-<approved hash="104,3,162.56,182.88,U1,IN,3.3V,,,"/>
+<approved hash="104,3,162.56,177.8,U1,IN_2,OPD-3.3V,,,"/>
+<approved hash="104,3,162.56,182.88,U1,IN,OPD-3.3V,,,"/>
 <approved hash="104,3,198.12,177.8,U1,OUT_2,OPD_PWR,,,"/>
 <approved hash="104,3,198.12,182.88,U1,OUT,OPD_PWR,,,"/>
 <approved hash="106,4,236.22,78.74,OSC32_IN,,,,,"/>
@@ -20254,9 +20254,6 @@ ARM SWD connector</text>
 <approved hash="113,1,156.168,245.336,JP2,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME4,,,,,"/>
 <approved hash="113,1,134.578,222.476,JP1,,,,,"/>
-<approved hash="113,1,248.683,117.066,JP4,,,,,"/>
-<approved hash="113,1,248.683,218.666,JP7,,,,,"/>
-<approved hash="113,1,154.703,90.3961,JP6,,,,,"/>
 <approved hash="113,4,323.808,131.036,JP11,,,,,"/>
 </errors>
 </schematic>
