@@ -1,0 +1,26 @@
+
+Board Breakout pins
+-CS (14)
+-SPI_CLK (15)
+-MISO (16) 
+-MOSI (17)
+-IRQ (19)
+-PWRAMP (20)
+-SYSCLK (13) "TCXO ref out"
+
+
+VCTRL on TCXO is open on actual part (so don't need R4,5 , C9, JP5)
+
+Have plenty of following part - (1.8V LDO)
+							  - (TCXO)
+
+Test Goal: Send and receive a test pattern. could use one to transmit and one to receive. Bit error rate test.
+Figure out how to test radio circuit blocks in succession. (Mini 50 ohm flex lines and terminations?)
+Ask if andrew wants full TX/RX on both radios.
+
+In the future need LDO's separate for UHF and L band LNAs @ 2.7V.
+
+On transmit UHF PA will raise radio power to 2.5 W. May need 0.350 A for radios alone. 
+
+Books: Stability circles - RF Circuit Design 2E (Bowick)
+	   Microwave Transistor Amplifiers: Analysis and Design (G. Gonzalez)
