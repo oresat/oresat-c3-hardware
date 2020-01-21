@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21876,6 +21876,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R29" gate="R" pin="1"/>
 <wire x1="88.9" y1="149.86" x2="85.09" y2="149.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R29" gate="R" pin="2"/>
+<wire x1="50.8" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R30" gate="R" pin="1"/>
+<wire x1="71.12" y1="149.86" x2="74.93" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="148.59" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
+<junction x="71.12" y="149.86"/>
+<pinref part="J14" gate="G$1" pin="SIGNAL"/>
+<label x="50.8" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IRQ1" class="0">
 <segment>
@@ -21994,17 +22004,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C48" gate="CE" pin="1"/>
 <pinref part="J12" gate="G$1" pin="SIGNAL"/>
 <wire x1="19.558" y1="204.47" x2="29.21" y2="204.47" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="REF-OUT1" class="1">
-<segment>
-<pinref part="R29" gate="R" pin="2"/>
-<wire x1="50.8" y1="149.86" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R30" gate="R" pin="1"/>
-<wire x1="71.12" y1="149.86" x2="74.93" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="148.59" x2="71.12" y2="149.86" width="0.1524" layer="91"/>
-<junction x="71.12" y="149.86"/>
-<pinref part="J14" gate="G$1" pin="SIGNAL"/>
 </segment>
 </net>
 <net name="1V1" class="0">
@@ -22258,6 +22257,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R35" gate="R" pin="1"/>
 <wire x1="281.94" y1="149.86" x2="278.13" y2="149.86" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="R35" gate="R" pin="2"/>
+<wire x1="243.84" y1="149.86" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="R37" gate="R" pin="1"/>
+<wire x1="264.16" y1="149.86" x2="267.97" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="264.16" y1="148.59" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
+<junction x="264.16" y="149.86"/>
+<pinref part="J18" gate="G$1" pin="SIGNAL"/>
+<label x="243.84" y="152.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="IRQ2" class="0">
 <segment>
@@ -22376,17 +22385,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C64" gate="CE" pin="1"/>
 <pinref part="J16" gate="G$1" pin="SIGNAL"/>
 <wire x1="217.678" y1="204.47" x2="222.25" y2="204.47" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="REF-OUT2" class="1">
-<segment>
-<pinref part="R35" gate="R" pin="2"/>
-<wire x1="243.84" y1="149.86" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="R37" gate="R" pin="1"/>
-<wire x1="264.16" y1="149.86" x2="267.97" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="264.16" y1="148.59" x2="264.16" y2="149.86" width="0.1524" layer="91"/>
-<junction x="264.16" y="149.86"/>
-<pinref part="J18" gate="G$1" pin="SIGNAL"/>
 </segment>
 </net>
 <net name="1V2" class="0">
