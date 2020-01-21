@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18163,17 +18163,17 @@ Eventually consolidate parts from other libraries here.</description>
 <connect gate="U" pin="D0" pad="A3"/>
 <connect gate="U" pin="D1" pad="A4"/>
 <connect gate="U" pin="D2" pad="A5"/>
-<connect gate="U" pin="D3" pad="A1 B2"/>
+<connect gate="U" pin="D3" pad="A1 B2" route="any"/>
 <connect gate="U" pin="D4" pad="A2 B3"/>
-<connect gate="U" pin="D5" pad="B4 C5"/>
-<connect gate="U" pin="D6" pad="A6 B5"/>
+<connect gate="U" pin="D5" pad="B4 C3 D3"/>
+<connect gate="U" pin="D6" pad="B5 C5"/>
 <connect gate="U" pin="D7" pad="A7 B6"/>
 <connect gate="U" pin="SCK" pad="M6"/>
-<connect gate="U" pin="VDDI" pad="C1 C2"/>
-<connect gate="U" pin="VDDIO" pad="E6 F5 J10 K9"/>
+<connect gate="U" pin="VDDI" pad="C2"/>
+<connect gate="U" pin="VDDIO" pad="E6 F5 J10 K9 P7"/>
 <connect gate="U" pin="VDDQ" pad="C6 M4 N4 P3 P5"/>
-<connect gate="U" pin="VSSIO" pad="E7 G5 H10 K8" route="any"/>
-<connect gate="U" pin="VSSQ" pad="C4 N2 N5 P4 P6"/>
+<connect gate="U" pin="VSSIO" pad="A6 E7 G5 H10 J5 K8"/>
+<connect gate="U" pin="VSSQ" pad="C4 N1 N2 N5 P4 P6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -24028,10 +24028,8 @@ ARM SWD connector</text>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,5,69.1727,157.412,J5,,,,,"/>
 <approved hash="113,5,75.9629,178.026,JP8,,,,,"/>
-<approved hash="113,1,134.857,122.146,JP9,,,,,"/>
 <approved hash="113,5,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,1,156.168,245.336,JP2,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME4,,,,,"/>
 </errors>
 </schematic>
