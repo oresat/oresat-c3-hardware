@@ -21255,6 +21255,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="289.56" y="119.38" size="2.54" layer="97">Device Operating Range:
 400 - 525 MHz
 800 - 1050 MHz</text>
+<text x="417.576" y="6.604" size="5.08" layer="94">v1</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -21657,7 +21658,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <busses>
 </busses>
 <nets>
-<net name="GNDR" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="PGND"/>
 <pinref part="GND69" gate="1" pin="GND"/>

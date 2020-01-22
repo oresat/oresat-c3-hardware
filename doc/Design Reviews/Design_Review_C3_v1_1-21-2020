@@ -1,0 +1,11 @@
+*-get rid of segregated ground planes (just a quick and dirty so we dont care)
+	-we will use the split command to draw a second ground plane for the radios on the next rev
+	-after we move the MCU over to the left of the board.
+--look at the startracker eMMC layout and go with that because it works (oresat-star-tracker)
+*-polygon width set to 0.127 and isolate 0.2
+*-delete polygon on layer 15
+*-change 3.3V layer 15 polygon rank to 2 so it fills (actually just needed to 
+*-delete 3.3V traces on layer 15
+*-no traces on layer 2 its a ground plane
+*-DRC change mask limit to 10 mil
+--add MPN (Manufacturers Part Number) and MFR (Manufacturer) attributes to your parts
