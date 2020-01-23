@@ -1,0 +1,29 @@
+Sheet 4
+--delete test points on sheet 1 and leave the ones on sheet 4
+--delete net stubs on sheet 4
+--delete leds on sheet 4
+--use 3.3V symbol rather than running wires
+--use existing u.fl symbols on sheet 4
+--ground all unused connections on j15 and j19
+--ask vigeli about no connects on AX5043
+--make sure floating callouts are not floating
+--rename nets on either side of 0ohms
+--fix all ERCs (there should be no ERCs before design review)
+
+Sheet 5
+--eMMC
+--delete random 0603 callout
+--ground VSSiO
+--delete net stubs on D4 and D5
+
+Layout
+eMMC
+--move caps over close to their connections
+--move eMMC_vdd power to layer1
+
+
+General
+--change all parts 0603s and call out the usage of alternate parts when necessary
+
+Carryover
+--add MPN (Manufacturers Part Number) and MFR (Manufacturer) attributes to your parts
