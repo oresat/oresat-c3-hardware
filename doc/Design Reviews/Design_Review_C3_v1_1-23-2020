@@ -3,8 +3,8 @@ Sheet 4
 --delete net stubs on sheet 4
 --delete leds on sheet 4
 --use 3.3V symbol rather than running wires
---use existing u.fl symbols on sheet 4
---ground all unused connections on j15 and j19
+*done*--use existing u.fl symbols on sheet 4
+*done*--ground all unused connections on j15 and j19
 --ask vigeli about no connects on AX5043
 --make sure floating callouts are not floating
 --rename nets on either side of 0ohms
@@ -12,14 +12,14 @@ Sheet 4
 
 Sheet 5
 --eMMC
---delete random 0603 callout
---ground VSSiO
---delete net stubs on D4 and D5
+*done*--delete random 0603 callout
+*done*--ground VSSiO
+*done*--delete net stubs on D4 and D5
 
 Layout
 eMMC
---move caps over close to their connections
---move eMMC_vdd power to layer1
+*done*--move caps over close to their connections
+*done*--move eMMC_vdd power to layer1
 
 
 General
