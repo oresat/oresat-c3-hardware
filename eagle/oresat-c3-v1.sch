@@ -24205,7 +24205,8 @@ ARM SWD connector</text>
 <label x="337.82" y="68.58" size="1.778" layer="95"/>
 <pinref part="U9" gate="U" pin="D4"/>
 <wire x1="314.96" y1="68.58" x2="347.98" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="81.1276" x2="314.96" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="R14" gate="A" pin="66"/>
+<wire x1="314.96" y1="68.58" x2="314.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDIO_D5" class="0">
@@ -24294,12 +24295,6 @@ ARM SWD connector</text>
 <pinref part="R14" gate="A" pin="44"/>
 <wire x1="312.42" y1="83.82" x2="312.42" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="63.5" x2="347.98" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R14" gate="A" pin="66"/>
-<wire x1="314.96" y1="83.82" x2="314.96" y2="81.4324" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
