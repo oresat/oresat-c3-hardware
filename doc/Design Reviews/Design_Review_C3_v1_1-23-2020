@@ -1,17 +1,18 @@
 Sheet 4
---delete test points on sheet 1 and leave the ones on sheet 4
---delete net stubs on sheet 4
---delete leds on sheet 4
---use 3.3V symbol rather than running wires
+-Radios
+*done*--delete test points on sheet 1 and leave the ones on sheet 4
+*done*--delete net stubs on sheet 4
+*done*--delete leds on sheet 4
+*done*--use 3.3V symbol rather than running wires
 *done*--use existing u.fl symbols on sheet 4
 *done*--ground all unused connections on j15 and j19
---ask vigeli about no connects on AX5043
---make sure floating callouts are not floating
---rename nets on either side of 0ohms
---fix all ERCs (there should be no ERCs before design review)
+*done*--ask vigeli about no connects on AX5043
+*done*--make sure floating callouts are not floating
+*done*--rename nets on either side of 0ohms
+*done*--fix all ERCs (there should be no ERCs before design review)
 
 Sheet 5
---eMMC
+-eMMC
 *done*--delete random 0603 callout
 *done*--ground VSSiO
 *done*--delete net stubs on D4 and D5
