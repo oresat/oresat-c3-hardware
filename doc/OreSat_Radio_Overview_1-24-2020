@@ -1,0 +1,18 @@
+OreSat Radio Overview
+
+*Frise equation system noise equation
+*Dual 3v3, 2v5 LDO (possibly settable with precision resistors)
+*Keep separate 1V8 LDOs for each L, UHF TCXO
+*Separate SPS @ 5V0 for Radios Td off VBUSP
+*RF choke on power line to 5V0 LDO
+*Use NPO capacitors (Temp compensated)
+*Lucid charts student for access to Vigeley's Block diagrams
+*Ground plane connection under AX5043s (We need a solid connection for Tx PAs current draw)
+*To be implemented for C3-v2
+--Segregate RF and MCU ground planes
+--Move eMMC and compactify non RF components
+--implement all RF power components
+--+5V0 SPS 
+--+3V3,2.5 LDO (dual settable)
+*To be implemented for C3-v3
+--Complete RF front ends (rough is ok)
