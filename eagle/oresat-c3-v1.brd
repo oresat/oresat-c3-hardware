@@ -7947,10 +7947,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="Q1" pad="2"/>
 <contactref element="Q1" pad="6"/>
 <contactref element="Q1" pad="1"/>
-<wire x1="67.25" y1="18.52" x2="68.69" y2="18.52" width="0" layer="19" extent="1-1"/>
+<wire x1="57.65" y1="18.52" x2="68.69" y2="18.52" width="0.6096" layer="1"/>
 <wire x1="65.81" y1="18.52" x2="67.25" y2="18.52" width="0" layer="19" extent="1-1"/>
-<wire x1="58.6" y1="18.52" x2="65.81" y2="18.52" width="0" layer="19" extent="1-1"/>
-<wire x1="57.65" y1="18.52" x2="58.6" y2="18.52" width="0" layer="19" extent="1-1"/>
+<wire x1="68.69" y1="18.52" x2="67.25" y2="18.52" width="0" layer="19" extent="1-1"/>
+<wire x1="58.6" y1="18.52" x2="57.65" y2="18.52" width="0" layer="19" extent="1-1"/>
 <wire x1="58.6" y1="15.92" x2="58.6" y2="18.52" width="0" layer="19" extent="1-1"/>
 <wire x1="57.65" y1="15.92" x2="58.6" y2="15.92" width="0" layer="19" extent="1-1"/>
 </signal>
