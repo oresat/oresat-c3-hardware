@@ -19939,6 +19939,8 @@ Eventually consolidate parts from other libraries here.</description>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device=""/>
 <part name="GND56" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND57" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="TP9" library="Tova" deviceset="TEST-POINT" device=""/>
+<part name="TP11" library="Tova" deviceset="TEST-POINT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -23052,8 +23054,8 @@ ARM SWD connector</text>
 <instance part="SUPPLY17" gate="G$1" x="347.98" y="99.06" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="347.98" y="101.854" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY18" gate="G$1" x="322.326" y="83.058" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="322.326" y="85.852" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+<instance part="SUPPLY18" gate="G$1" x="322.326" y="88.138" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="322.326" y="90.932" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
 <instance part="GND35" gate="1" x="360.68" y="40.64" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="360.68" y="38.1" size="1.778" layer="96" rot="MR0"/>
@@ -23077,6 +23079,12 @@ ARM SWD connector</text>
 </instance>
 <instance part="TP23" gate="G$1" x="152.4" y="111.76" smashed="yes">
 <attribute name="NAME" x="154.94" y="111.76" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="TP9" gate="G$1" x="325.12" y="86.36" smashed="yes" rot="MR0">
+<attribute name="NAME" x="322.58" y="83.82" size="1.778" layer="95" font="vector" rot="MR0"/>
+</instance>
+<instance part="TP11" gate="G$1" x="414.02" y="45.72" smashed="yes" rot="MR0">
+<attribute name="NAME" x="411.48" y="43.18" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -23242,6 +23250,8 @@ ARM SWD connector</text>
 <wire x1="360.68" y1="45.72" x2="360.68" y2="43.18" width="0.1524" layer="91"/>
 <junction x="360.68" y="45.72"/>
 <junction x="363.22" y="45.72"/>
+<pinref part="TP11" gate="G$1" pin="1"/>
+<junction x="414.02" y="45.72"/>
 </segment>
 </net>
 <net name="CRYSTALIN" class="0">
@@ -23370,10 +23380,12 @@ ARM SWD connector</text>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="S"/>
-<wire x1="325.12" y1="93.726" x2="325.12" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="93.726" x2="325.12" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
-<wire x1="325.12" y1="81.28" x2="322.326" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="322.326" y1="81.28" x2="322.326" y2="83.058" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="86.36" x2="322.326" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="322.326" y1="86.36" x2="322.326" y2="88.138" width="0.1524" layer="91"/>
+<pinref part="TP9" gate="G$1" pin="1"/>
+<junction x="325.12" y="86.36"/>
 </segment>
 </net>
 <net name="CAN1_RX" class="0">
@@ -24160,20 +24172,54 @@ ARM SWD connector</text>
 <approved hash="104,3,162.56,182.88,U1,IN,OPD-3.3V,,,"/>
 <approved hash="104,3,198.12,177.8,U1,OUT_2,OPD_PWR,,,"/>
 <approved hash="104,3,198.12,182.88,U1,OUT,OPD_PWR,,,"/>
+<approved hash="104,4,116.84,152.4,U11,PGND,GND,,,"/>
+<approved hash="104,4,116.84,218.44,U11,VDD_IO,VDD_IO-1,,,"/>
+<approved hash="104,4,99.06,213.36,U11,VDD_A1,N$8,,,"/>
+<approved hash="104,4,99.06,205.74,U11,GND1,GND,,,"/>
+<approved hash="104,4,99.06,190.5,U11,GND2,GND,,,"/>
+<approved hash="104,4,99.06,182.88,U11,VDD_A2,N$9,,,"/>
+<approved hash="104,4,185.42,146.05,X3,VDD,1V1,,,"/>
 <approved hash="202,4,185.42,138.43,X3,VCTRL,,,,"/>
+<approved hash="104,4,195.58,189.23,U12,VIN,VIN-1V8-1,,,"/>
+<approved hash="104,4,220.98,189.23,U12,VOUT,1V1,,,"/>
+<approved hash="104,4,220.98,181.61,U12,BYPASS,N$10,,,"/>
+<approved hash="104,4,248.92,48.26,U13,PGND,GND,,,"/>
+<approved hash="104,4,248.92,114.3,U13,VDD_IO,VDD_IO-2,,,"/>
+<approved hash="104,4,231.14,109.22,U13,VDD_A1,N$14,,,"/>
+<approved hash="104,4,231.14,101.6,U13,GND1,GND,,,"/>
+<approved hash="104,4,231.14,86.36,U13,GND2,GND,,,"/>
+<approved hash="104,4,231.14,78.74,U13,VDD_A2,N$15,,,"/>
+<approved hash="104,4,317.5,41.91,X4,VDD,1V2,,,"/>
 <approved hash="202,4,317.5,34.29,X4,VCTRL,,,,"/>
+<approved hash="104,4,327.66,85.09,U14,VIN,VIN-1V8-2,,,"/>
+<approved hash="104,4,353.06,85.09,U14,VOUT,1V2,,,"/>
+<approved hash="104,4,353.06,77.47,U14,BYPASS,N$16,,,"/>
+<approved hash="104,5,360.68,83.82,U9,VDDQ,MMC_VDD,,,"/>
+<approved hash="104,5,358.14,83.82,U9,VDDIO,MMC_VDD,,,"/>
+<approved hash="104,5,360.68,45.72,U9,VSSIO,GND,,,"/>
+<approved hash="104,5,363.22,45.72,U9,VSSQ,GND,,,"/>
 <approved hash="209,4,99.06,162.56,N$7,,,,,"/>
 <approved hash="209,4,99.06,160.02,N$7,,,,,"/>
 <approved hash="209,4,231.14,58.42,N$13,,,,,"/>
 <approved hash="209,4,231.14,55.88,N$13,,,,,"/>
 <approved hash="106,5,236.22,78.74,OSC32_IN,,,,,"/>
 <approved hash="106,5,236.22,76.2,OSC32_OUT,,,,,"/>
+<approved hash="106,4,182.88,220.98,RADIO1_PTT,,,,,"/>
+<approved hash="106,4,314.96,116.84,RADIO2_PTT,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,5,69.1727,157.412,J5,,,,,"/>
 <approved hash="113,5,75.9629,178.026,JP8,,,,,"/>
+<approved hash="113,1,134.857,122.146,JP9,,,,,"/>
+<approved hash="113,1,135.848,171.676,JP10,,,,,"/>
 <approved hash="113,5,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
+<approved hash="113,1,156.168,245.336,JP2,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME4,,,,,"/>
+<approved hash="113,1,135.848,222.476,JP1,,,,,"/>
+<approved hash="113,5,298.408,131.036,JP11,,,,,"/>
+<approved hash="113,4,215.796,139.596,FRAME5,,,,,"/>
+<approved hash="113,1,162.797,157.706,JP4,,,,,"/>
+<approved hash="113,1,162.797,142.466,JP6,,,,,"/>
 </errors>
 </schematic>
 </drawing>
