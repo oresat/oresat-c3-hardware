@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24049,7 +24049,6 @@ ARM SWD connector</text>
 </net>
 <net name="SDIO_D4" class="0">
 <segment>
-<wire x1="345.44" y1="68.58" x2="347.98" y2="68.58" width="0.1524" layer="91"/>
 <label x="337.82" y="68.58" size="1.778" layer="95"/>
 <pinref part="U9" gate="U" pin="D4"/>
 <wire x1="314.96" y1="68.58" x2="347.98" y2="68.58" width="0.1524" layer="91"/>
@@ -24059,7 +24058,6 @@ ARM SWD connector</text>
 </net>
 <net name="SDIO_D5" class="0">
 <segment>
-<wire x1="342.9" y1="66.04" x2="347.98" y2="66.04" width="0.1524" layer="91"/>
 <label x="337.82" y="66.04" size="1.778" layer="95"/>
 <pinref part="U9" gate="U" pin="D5"/>
 <pinref part="R14" gate="A" pin="88"/>
@@ -24118,13 +24116,10 @@ ARM SWD connector</text>
 <pinref part="R14" gate="A" pin="11"/>
 <wire x1="297.18" y1="83.82" x2="297.18" y2="81.28" width="0.1524" layer="91"/>
 <junction x="297.18" y="81.28"/>
-<wire x1="297.18" y1="81.28" x2="314.96" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="81.28" x2="317.5" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="314.96" y1="81.28" x2="316.23" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="96.266" x2="317.5" y2="96.266" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="96.266" x2="317.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="96.266" x2="317.5" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="81.28" x2="316.23" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDIO_D7" class="0">
