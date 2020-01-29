@@ -1710,6 +1710,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.27" y="2.54" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
 </package>
+<package name="6_PIN_SERIAL_TARGET_SIDE_W_SILK" urn="urn:adsk.eagle:footprint:37594/1" library_version="1">
+<description>&lt;h3&gt;6 pin Serial Target - Right Angle  SMT with Silk&lt;/h3&gt;
+Package for devices meant to mate to an FTDI connector.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
+&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;6_Pin_Serial_Target&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="P$1" x="-6.35" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$2" x="-3.81" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$3" x="-1.27" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$4" x="1.27" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$5" x="3.81" y="0" drill="1.016" diameter="1.8796"/>
+<pad name="P$6" x="6.35" y="0" drill="1.016" diameter="1.8796"/>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.127" layer="21"/>
+<text x="-7.874" y="-0.889" size="1.27" layer="21" font="vector" ratio="15" rot="R90">GRN</text>
+<text x="9.144" y="-0.889" size="1.27" layer="21" font="vector" ratio="15" rot="R90">BLK</text>
+<text x="-4.826" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">TXO</text>
+<text x="-2.286" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">RXI</text>
+<text x="0.254" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
+<text x="-7.366" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">DTR</text>
+<text x="5.334" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
+<text x="2.794" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">CTS</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="U.FL" urn="urn:adsk.eagle:package:38237/1" type="box" library_version="1">
@@ -1723,6 +1752,20 @@ U.FL
 </description>
 <packageinstances>
 <packageinstance name="U.FL"/>
+</packageinstances>
+</package3d>
+<package3d name="6_PIN_SERIAL_TARGET_SIDE_W_SILK" urn="urn:adsk.eagle:package:37995/1" type="box" library_version="1">
+<description>6 pin Serial Target - Right Angle  SMT with Silk
+Package for devices meant to mate to an FTDI connector.
+Specifications:
+Pin count:6
+Pin pitch: 0.1"
+
+Example device(s):
+6_Pin_Serial_Target
+</description>
+<packageinstances>
+<packageinstance name="6_PIN_SERIAL_TARGET_SIDE_W_SILK"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4800,39 +4843,6 @@ Eventually consolidate parts from other libraries here.</description>
 </package>
 </packages>
 </library>
-<library name="TrueC3_FTDIlbr">
-<packages>
-<package name="6_PIN_SERIAL_TARGET_SIDE_W_SILK">
-<description>&lt;h3&gt;6 pin Serial Target - Right Angle  SMT with Silk&lt;/h3&gt;
-Package for devices meant to mate to an FTDI connector.
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
-&lt;li&gt;Pin pitch: 0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;6_Pin_Serial_Target&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="P$1" x="-6.35" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="P$2" x="-3.81" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="P$3" x="-1.27" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="P$4" x="1.27" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="P$5" x="3.81" y="0" drill="1.016" diameter="1.8796"/>
-<pad name="P$6" x="6.35" y="0" drill="1.016" diameter="1.8796"/>
-<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="21"/>
-<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.127" layer="21"/>
-<text x="-7.874" y="-0.889" size="1.27" layer="21" font="vector" ratio="15" rot="R90">GRN</text>
-<text x="9.144" y="-0.889" size="1.27" layer="21" font="vector" ratio="15" rot="R90">BLK</text>
-<text x="-2.286" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">TXO</text>
-<text x="-4.826" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">RXI</text>
-<text x="0.254" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">VCC</text>
-<text x="-7.366" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">DTR</text>
-<text x="5.334" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">GND</text>
-<text x="2.794" y="1.524" size="0.8128" layer="21" font="vector" ratio="15">CTS</text>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5166,6 +5176,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SF_ID" value="WRL-09144" x="83.9" y="82.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="86.44" y="80.93" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
+<element name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="6_PIN_SERIAL_TARGET_SIDE_W_SILK" package3d_urn="urn:adsk.eagle:package:37995/1" value="" x="13.5" y="26.8" smashed="yes" rot="R270"/>
 <element name="H1" library="SparkFun-Hardware" library_urn="urn:adsk.eagle:library:519" package="STAND-OFF-TIGHT" package3d_urn="urn:adsk.eagle:package:38629/1" value="STAND-OFFTIGHT" x="93" y="6" locked="yes" smashed="yes">
 <attribute name="VALUE" x="93" y="4.349" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
@@ -5898,7 +5909,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP11" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="72.4" y="15.2" smashed="yes">
 <attribute name="NAME" x="70.8" y="16.7" size="0.8" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="U$2" library="TrueC3_FTDIlbr" package="6_PIN_SERIAL_TARGET_SIDE_W_SILK" value="C3_FTDI_CONN" x="13.51" y="26.76" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="CRYSTALIN">
@@ -6185,6 +6195,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J3" pad="2"/>
 <contactref element="J2" pad="1"/>
 <contactref element="J2" pad="2"/>
+<contactref element="J5" pad="P$6"/>
 <via x="10" y="4.5" extent="1-16" drill="0.254"/>
 <contactref element="J7" pad="9"/>
 <contactref element="J7" pad="5"/>
@@ -7009,7 +7020,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="42.155" y1="18.21" x2="42.23" y2="18.21" width="0.3" layer="1"/>
 <wire x1="38.905" y1="19.255" x2="40.11" y2="19.255" width="0.3" layer="1"/>
 <wire x1="40.11" y1="19.255" x2="40.11" y2="19.29" width="0.3" layer="1"/>
-<contactref element="U$2" pad="P$6"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="U7" pad="21"/>
@@ -7108,20 +7118,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="45.8" y1="44.2" x2="48.385" y2="46.785" width="0.2" layer="1"/>
 <wire x1="48.385" y1="46.785" x2="48.385" y2="47.125" width="0.2" layer="1"/>
 <via x="45.8" y="44.2" extent="1-16" drill="0.254"/>
-<wire x1="31.82" y1="44.2" x2="18.23" y2="30.61" width="0.2" layer="16"/>
-<contactref element="U$2" pad="P$2"/>
-<wire x1="13.51" y1="30.57" x2="18.19" y2="30.57" width="0.2" layer="16"/>
-<wire x1="18.19" y1="30.57" x2="18.23" y2="30.61" width="0.2" layer="16"/>
+<contactref element="J5" pad="P$3"/>
+<wire x1="13.5" y1="28.07" x2="15.69" y2="28.07" width="0.2" layer="16"/>
+<wire x1="31.82" y1="44.2" x2="15.69" y2="28.07" width="0.2" layer="16"/>
 </signal>
 <signal name="USART2_RX">
 <wire x1="50.235" y1="45.275" x2="49.825" y2="45.275" width="0.2" layer="1"/>
 <wire x1="49.825" y1="45.275" x2="41.0606" y2="36.5106" width="0.2" layer="1"/>
+<wire x1="24.8606" y1="36.5106" x2="19.02" y2="30.67" width="0.2" layer="16"/>
 <contactref element="U7" pad="17"/>
 <wire x1="41.0606" y1="36.5106" x2="24.8606" y2="36.5106" width="0.2" layer="16"/>
 <via x="41.0606" y="36.5106" extent="1-16" drill="0.254"/>
-<contactref element="U$2" pad="P$3"/>
-<wire x1="16.38" y1="28.03" x2="13.51" y2="28.03" width="0.2" layer="16"/>
-<wire x1="24.8606" y1="36.5106" x2="16.38" y2="28.03" width="0.2" layer="16"/>
+<contactref element="J5" pad="P$2"/>
+<via x="19.02" y="30.67" extent="1-16" drill="0.254"/>
+<wire x1="19.02" y1="30.67" x2="13.56" y2="30.67" width="0.2" layer="1"/>
+<wire x1="13.56" y1="30.67" x2="13.5" y2="30.61" width="0.2" layer="1"/>
 </signal>
 <signal name="BOOT0">
 <contactref element="R17" pad="2"/>
@@ -7301,10 +7312,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SDAOPT6">
 </signal>
 <signal name="N$406">
+<contactref element="J5" pad="P$4"/>
 <contactref element="JP8" pad="2"/>
-<contactref element="U$2" pad="P$4"/>
-<wire x1="13.51" y1="25.49" x2="17.72" y2="25.49" width="0.508" layer="1"/>
-<wire x1="17.72" y1="25.49" x2="17.73" y2="25.5" width="0.508" layer="1"/>
+<wire x1="13.5" y1="25.53" x2="17.7" y2="25.53" width="0.508" layer="1"/>
+<wire x1="17.7" y1="25.53" x2="17.73" y2="25.5" width="0.508" layer="1"/>
 </signal>
 <signal name="AUX-1">
 <contactref element="J1" pad="1"/>
