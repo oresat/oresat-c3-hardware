@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10,7 +10,7 @@
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,18 +23,18 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="route" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="route" color="14" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,20 +47,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -175,7 +175,7 @@
 <plain>
 <rectangle x1="5.8" y1="8.6" x2="13.8" y2="16.6" layer="21"/>
 <text x="7.02" y="17.97" size="2" layer="21" font="vector" ratio="15" rot="R90">OreSat C3 v1.0</text>
-<text x="11.89" y="18.16" size="2" layer="21" font="vector" ratio="15" rot="R90">2019/11/14</text>
+<text x="10.64" y="17.97" size="2" layer="21" font="vector" ratio="15" rot="R90">2020/01/30</text>
 <text x="19.7" y="65.66" size="2" layer="21" font="vector" ratio="15" rot="R180">+3.3V</text>
 <text x="21.3" y="13.7" size="0.635" layer="21" font="vector" ratio="20">3.3V</text>
 <text x="21.3" y="15.1" size="0.635" layer="21" font="vector" ratio="20">VBUSP</text>
@@ -280,7 +280,6 @@ to VBUS</text>
 <text x="22.6" y="69" size="0.635" layer="21" font="vector" ratio="20">PG</text>
 <text x="31.4" y="75.4" size="0.635" layer="21" font="vector" ratio="20">VBUSP</text>
 <text x="43.2" y="40" size="0.635" layer="21" font="vector" ratio="20">SCK/MISO/MOSI</text>
-<text x="11.88" y="36.9" size="2" layer="21" font="vector" ratio="15" rot="R90">Team 7</text>
 <wire x1="54.63" y1="12.89" x2="54.66" y2="35.74" width="0.1524" layer="21"/>
 <wire x1="54.66" y1="35.74" x2="58" y2="38.5" width="0.1524" layer="21"/>
 <wire x1="58" y1="38.5" x2="58" y2="40" width="0.1524" layer="21"/>
@@ -8910,15 +8909,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,1,408cd95a6f65898c"/>
 <approved hash="4,1,c4ea123cbaddd883"/>
 <approved hash="4,1,e0bf3e94969c7940"/>
-<approved hash="4,1,c69fc2f6aa8407eb"/>
 <approved hash="4,1,a95f741f24bb4a76"/>
 <approved hash="4,1,1312a8451c21ace6"/>
 <approved hash="4,1,45c44457806b81f8"/>
 <approved hash="4,1,b959a437709fb674"/>
 <approved hash="4,1,62f149687c521c6b"/>
 <approved hash="4,1,ec597a71fa9df9a6"/>
-<approved hash="4,1,da742613fe89cf0b"/>
-<approved hash="4,1,8a6f5ee2039d0cbc"/>
 <approved hash="4,1,e84a019cd765194b"/>
 <approved hash="4,1,bc2a4af272d24847"/>
 <approved hash="4,1,687be65cee92298b"/>
@@ -8926,7 +8922,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="4,1,1808e847efaf475b"/>
 <approved hash="4,1,1dc01c5fb863b9fc"/>
 <approved hash="4,1,cfe93ad78017c67c"/>
-<approved hash="4,1,466feee0d39a745f"/>
 <approved hash="4,1,dcaf3d789b6551ae"/>
 <approved hash="4,1,78c8061e3edd18a6"/>
 <approved hash="4,1,631a30ad18c1b0ea"/>
@@ -9332,6 +9327,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="19,1,524d523ada32da45"/>
 <approved hash="19,1,59f45af044f847fc"/>
 <approved hash="19,1,355b36194c114f53"/>
+<approved hash="4,1,e4df0ae3335906c9"/>
+<approved hash="4,1,c3469295a7633b55"/>
+<approved hash="4,1,70db42e21b5c262f"/>
+<approved hash="4,1,bfad2e72b36b8bb2"/>
 </errors>
 </board>
 </drawing>
