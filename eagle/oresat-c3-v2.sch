@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="no"/>
@@ -18749,6 +18749,123 @@ Package for devices meant to mate to an FTDI connector.
 </deviceset>
 </devicesets>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPC1608X90N">
+<description>&lt;b&gt;GRM18_0.10 L=1.6mm W=0.8mm T=0.8mm&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.7" y="0" dx="0.94" dy="0.75" layer="1" rot="R90"/>
+<smd name="2" x="0.7" y="0" dx="0.94" dy="0.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.225" y1="0.62" x2="1.225" y2="0.62" width="0.05" layer="51"/>
+<wire x1="1.225" y1="0.62" x2="1.225" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="1.225" y1="-0.62" x2="-1.225" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="-1.225" y1="-0.62" x2="-1.225" y2="0.62" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+</package>
+<package name="CAPC1608X95N">
+<description>&lt;b&gt;case code 0603_1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.65" y="0" dx="0.98" dy="0.89" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="0" dx="0.98" dy="0.89" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.245" y1="0.64" x2="1.245" y2="0.64" width="0.05" layer="51"/>
+<wire x1="1.245" y1="0.64" x2="1.245" y2="-0.64" width="0.05" layer="51"/>
+<wire x1="1.245" y1="-0.64" x2="-1.245" y2="-0.64" width="0.05" layer="51"/>
+<wire x1="-1.245" y1="-0.64" x2="-1.245" y2="0.64" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="GRM188R60J476ME15D">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+<symbol name="C0603X104K5RAC3316">
+<wire x1="5.588" y1="2.54" x2="5.588" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.112" y1="2.54" x2="7.112" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.588" y2="0" width="0.254" layer="94"/>
+<wire x1="7.112" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<text x="8.89" y="6.35" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="8.89" y="3.81" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" visible="pad" length="middle"/>
+<pin name="2" x="12.7" y="0" visible="pad" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GRM188R60J476ME15D" prefix="C">
+<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476ME15D.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="GRM188R60J476ME15D" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1608X90N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%" constant="no"/>
+<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J476ME15D" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1726834P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C0603X104K5RAC3316" prefix="C">
+<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/C0603X104K5RAC3316.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="C0603X104K5RAC3316" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPC1608X95N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="71763467" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" constant="no"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" constant="no"/>
+<attribute name="HEIGHT" value="0.95mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1881956" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18766,13 +18883,13 @@ Package for devices meant to mate to an FTDI connector.
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="C3" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<part name="C3" library="SamacSys_Parts" deviceset="C0603X104K5RAC3316" device="" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C9" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<part name="C9" library="SamacSys_Parts" deviceset="C0603X104K5RAC3316" device="" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -18790,7 +18907,7 @@ Package for devices meant to mate to an FTDI connector.
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05C200JB51PNC"/>
 </part>
-<part name="C17" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<part name="C17" library="SamacSys_Parts" deviceset="C0603X104K5RAC3316" device="" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19003,7 +19120,7 @@ Package for devices meant to mate to an FTDI connector.
 <part name="TP20" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="VBUSP1" library="oresat-supplies" deviceset="VBUSP" device=""/>
 <part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
-<part name="C6" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<part name="C6" library="SamacSys_Parts" deviceset="C0603X104K5RAC3316" device="" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19052,21 +19169,21 @@ Package for devices meant to mate to an FTDI connector.
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP1" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="C2" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<part name="C2" library="SamacSys_Parts" deviceset="C0603X104K5RAC3316" device="" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<part name="C8" library="SamacSys_Parts" deviceset="C0603X104K5RAC3316" device="" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C13" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<part name="C13" library="SamacSys_Parts" deviceset="C0603X104K5RAC3316" device="" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19081,14 +19198,14 @@ Package for devices meant to mate to an FTDI connector.
 </part>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="U7" library="U-ST-STM32F446RE-uC" deviceset="STM32F446RE" device=""/>
-<part name="C15" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="100n">
+<part name="C15" library="SamacSys_Parts" deviceset="C0603X104K5RAC3316" device="" value="100n">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-6601-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05C200JB51PNC"/>
 </part>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C18" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="47u">
+<part name="C18" library="SamacSys_Parts" deviceset="GRM188R60J476ME15D" device="" value="47u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-6601-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21995,7 +22112,7 @@ ARM SWD connector</text>
 <text x="154.94" y="138.43" size="1.778" layer="97" rot="R90">0603</text>
 </plain>
 <instances>
-<instance part="C3" gate="CE" x="233.68" y="180.34" smashed="yes" rot="MR180">
+<instance part="C3" gate="G$1" x="233.68" y="180.34" smashed="yes" rot="MR180">
 <attribute name="DIS" x="233.68" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="DPN" x="233.68" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="MFR" x="233.68" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -22003,7 +22120,7 @@ ARM SWD connector</text>
 <attribute name="NAME" x="235.204" y="179.959" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="235.204" y="185.039" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="C9" gate="CE" x="208.28" y="180.34" smashed="yes" rot="R180">
+<instance part="C9" gate="G$1" x="208.28" y="180.34" smashed="yes" rot="R180">
 <attribute name="DIS" x="208.28" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="DPN" x="208.28" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFR" x="208.28" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
@@ -22027,7 +22144,7 @@ ARM SWD connector</text>
 <attribute name="NAME" x="115.824" y="142.621" size="1.778" layer="95"/>
 <attribute name="VALUE" x="115.824" y="137.541" size="1.778" layer="96"/>
 </instance>
-<instance part="C17" gate="CE" x="83.82" y="116.84" smashed="yes" rot="MR90">
+<instance part="C17" gate="G$1" x="83.82" y="116.84" smashed="yes" rot="MR90">
 <attribute name="DIS" x="83.82" y="116.84" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="DPN" x="83.82" y="116.84" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MFR" x="83.82" y="116.84" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -22153,7 +22270,7 @@ ARM SWD connector</text>
 <attribute name="NAME" x="273.05" y="171.6786" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="273.05" y="166.878" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C6" gate="CE" x="83.82" y="60.96" smashed="yes" rot="MR90">
+<instance part="C6" gate="G$1" x="83.82" y="60.96" smashed="yes" rot="MR90">
 <attribute name="DIS" x="83.82" y="60.96" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="DPN" x="83.82" y="60.96" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MFR" x="83.82" y="60.96" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -22198,7 +22315,7 @@ ARM SWD connector</text>
 <instance part="SUPPLY15" gate="G$1" x="393.7" y="256.54" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="393.7" y="259.334" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="C2" gate="CE" x="195.58" y="180.34" smashed="yes" rot="R180">
+<instance part="C2" gate="G$1" x="195.58" y="180.34" smashed="yes" rot="R180">
 <attribute name="DIS" x="195.58" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="DPN" x="195.58" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFR" x="195.58" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
@@ -22209,7 +22326,7 @@ ARM SWD connector</text>
 <instance part="GND48" gate="1" x="195.58" y="175.26" smashed="yes">
 <attribute name="VALUE" x="193.04" y="172.72" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="CE" x="182.88" y="180.34" smashed="yes" rot="R180">
+<instance part="C8" gate="G$1" x="182.88" y="180.34" smashed="yes" rot="R180">
 <attribute name="DIS" x="182.88" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="DPN" x="182.88" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
 <attribute name="MFR" x="182.88" y="180.34" size="1.778" layer="96" rot="R180" display="off"/>
@@ -22220,7 +22337,7 @@ ARM SWD connector</text>
 <instance part="GND50" gate="1" x="182.88" y="175.26" smashed="yes">
 <attribute name="VALUE" x="180.34" y="172.72" size="1.778" layer="96"/>
 </instance>
-<instance part="C13" gate="CE" x="246.38" y="180.34" smashed="yes" rot="MR180">
+<instance part="C13" gate="G$1" x="246.38" y="180.34" smashed="yes" rot="MR180">
 <attribute name="DIS" x="246.38" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="DPN" x="246.38" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
 <attribute name="MFR" x="246.38" y="180.34" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -22235,7 +22352,7 @@ ARM SWD connector</text>
 <attribute name="NAME" x="226.06" y="58.42" size="1.778" layer="95"/>
 <attribute name="VALUE" x="226.06" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="CE" x="312.42" y="246.38" smashed="yes">
+<instance part="C15" gate="G$1" x="312.42" y="246.38" smashed="yes">
 <attribute name="DIS" x="312.42" y="246.38" size="1.778" layer="96" display="off"/>
 <attribute name="DPN" x="312.42" y="246.38" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="312.42" y="246.38" size="1.778" layer="96" display="off"/>
@@ -22246,7 +22363,7 @@ ARM SWD connector</text>
 <instance part="GND53" gate="1" x="312.42" y="208.28" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="314.96" y="205.74" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C18" gate="CE" x="363.22" y="246.38" smashed="yes">
+<instance part="C18" gate="G$1" x="363.22" y="246.38" smashed="yes">
 <attribute name="DIS" x="363.22" y="246.38" size="1.778" layer="96" display="off"/>
 <attribute name="DPN" x="363.22" y="246.38" size="1.778" layer="96" display="off"/>
 <attribute name="MFR" x="363.22" y="246.38" size="1.778" layer="96" display="off"/>
@@ -22418,18 +22535,20 @@ ARM SWD connector</text>
 <wire x1="114.3" y1="134.62" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C17" gate="CE" pin="1"/>
-<wire x1="86.36" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="116.84" x2="88.9" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="116.84" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C9" gate="CE" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <pinref part="GND29" gate="1" pin="GND"/>
+<wire x1="208.28" y1="177.8" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C3" gate="CE" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="233.68" y1="177.8" x2="233.68" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
@@ -22476,8 +22595,8 @@ ARM SWD connector</text>
 <junction x="147.32" y="187.96"/>
 </segment>
 <segment>
-<pinref part="C6" gate="CE" pin="1"/>
-<wire x1="86.36" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="60.96" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
@@ -22502,26 +22621,29 @@ ARM SWD connector</text>
 <junction x="325.12" y="231.14"/>
 </segment>
 <segment>
-<pinref part="C2" gate="CE" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="GND48" gate="1" pin="GND"/>
+<wire x1="195.58" y1="177.8" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C8" gate="CE" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="GND50" gate="1" pin="GND"/>
+<wire x1="182.88" y1="177.8" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C13" gate="CE" pin="1"/>
+<pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="GND51" gate="1" pin="GND"/>
+<wire x1="246.38" y1="177.8" x2="246.38" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C15" gate="CE" pin="2"/>
+<pinref part="C15" gate="G$1" pin="2"/>
 <pinref part="GND53" gate="1" pin="GND"/>
-<wire x1="312.42" y1="241.3" x2="312.42" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="246.38" x2="312.42" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C18" gate="CE" pin="2"/>
+<pinref part="C18" gate="G$1" pin="2"/>
 <pinref part="GND54" gate="1" pin="GND"/>
-<wire x1="363.22" y1="241.3" x2="363.22" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="246.38" x2="363.22" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND28" gate="1" pin="GND"/>
@@ -22597,20 +22719,20 @@ ARM SWD connector</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<pinref part="C17" gate="CE" pin="2"/>
+<pinref part="C17" gate="G$1" pin="2"/>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <wire x1="73.66" y1="116.84" x2="73.66" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VCC"/>
 <wire x1="73.66" y1="114.3" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
 <junction x="73.66" y="116.84"/>
-<wire x1="73.66" y1="116.84" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="116.84" x2="83.82" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-<pinref part="C3" gate="CE" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="170.18" x2="228.6" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="170.18" x2="228.6" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="185.42" x2="233.68" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="185.42" x2="246.38" y2="180.34" width="0.1524" layer="91"/>
 <junction x="228.6" y="185.42"/>
 <wire x1="228.6" y1="185.42" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="190.5" x2="213.36" y2="190.5" width="0.1524" layer="91"/>
@@ -22619,25 +22741,25 @@ ARM SWD connector</text>
 <wire x1="213.36" y1="185.42" x2="213.36" y2="190.5" width="0.1524" layer="91"/>
 <junction x="213.36" y="190.5"/>
 <wire x1="213.36" y1="190.5" x2="213.36" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="C9" gate="CE" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="185.42" x2="213.36" y2="170.18" width="0.1524" layer="91"/>
 <junction x="213.36" y="185.42"/>
-<pinref part="C2" gate="CE" pin="2"/>
-<wire x1="200.66" y1="185.42" x2="195.58" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="200.66" y1="185.42" x2="182.88" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="185.42" x2="200.66" y2="190.5" width="0.1524" layer="91"/>
 <junction x="200.66" y="185.42"/>
 <wire x1="200.66" y1="185.42" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="190.5" x2="213.36" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="C8" gate="CE" pin="2"/>
-<wire x1="187.96" y1="185.42" x2="182.88" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="185.42" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="185.42" x2="187.96" y2="190.5" width="0.1524" layer="91"/>
 <junction x="187.96" y="185.42"/>
 <wire x1="187.96" y1="185.42" x2="187.96" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="190.5" x2="200.66" y2="190.5" width="0.1524" layer="91"/>
 <junction x="200.66" y="190.5"/>
-<pinref part="C13" gate="CE" pin="2"/>
+<pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="241.3" y1="170.18" x2="241.3" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="185.42" x2="246.38" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="185.42" x2="259.08" y2="180.34" width="0.1524" layer="91"/>
 <junction x="241.3" y="185.42"/>
 <wire x1="241.3" y1="185.42" x2="241.3" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="190.5" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
@@ -22647,7 +22769,7 @@ ARM SWD connector</text>
 <wire x1="200.66" y1="170.18" x2="208.28" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="170.18" x2="200.66" y2="170.18" width="0.1524" layer="91"/>
 <junction x="200.66" y="170.18"/>
-<wire x1="208.28" y1="185.42" x2="213.36" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="180.34" x2="213.36" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="VBAT"/>
 <pinref part="U7" gate="G$1" pin="VDDA"/>
 <pinref part="U7" gate="G$1" pin="VDD"/>
@@ -22659,13 +22781,13 @@ ARM SWD connector</text>
 <wire x1="147.32" y1="198.12" x2="147.32" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C6" gate="CE" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 <wire x1="73.66" y1="60.96" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="VCC"/>
 <wire x1="73.66" y1="58.42" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 <junction x="73.66" y="60.96"/>
-<wire x1="73.66" y1="60.96" x2="78.74" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="60.96" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R13" gate="R" pin="1"/>
@@ -23220,15 +23342,15 @@ ARM SWD connector</text>
 <wire x1="327.66" y1="236.22" x2="325.12" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="U6" gate="A" pin="VCC"/>
 <wire x1="342.9" y1="248.92" x2="342.9" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="248.92" x2="325.12" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="C15" gate="CE" pin="1"/>
+<wire x1="312.42" y1="246.38" x2="325.12" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="R19" gate="R" pin="1"/>
 <wire x1="325.12" y1="248.92" x2="342.9" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="248.92" x2="363.22" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="248.92" x2="363.22" y2="246.38" width="0.1524" layer="91"/>
 <junction x="342.9" y="248.92"/>
-<pinref part="C18" gate="CE" pin="1"/>
-<wire x1="363.22" y1="248.92" x2="363.22" y2="254" width="0.1524" layer="91"/>
-<junction x="363.22" y="248.92"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="363.22" y1="246.38" x2="363.22" y2="254" width="0.1524" layer="91"/>
+<junction x="363.22" y="246.38"/>
 <wire x1="325.12" y1="236.22" x2="325.12" y2="248.92" width="0.1524" layer="91"/>
 <junction x="325.12" y="248.92"/>
 </segment>

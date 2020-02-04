@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10,7 +10,7 @@
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,8 +23,8 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="route" color="14" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="15" name="route" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -33,7 +33,7 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -54,12 +54,12 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -3037,30 +3037,6 @@ This package is identical to 0402-B, but has its tPlace silkscreen layer removed
 <wire x1="-0.525" y1="-0.275" x2="-0.525" y2="0.275" width="0.05" layer="33"/>
 <text x="0" y="0" size="0.2" layer="33" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name="1206-B">
-<description>&lt;b&gt;1206 (metric 3216) normal 'IPC-B'&lt;/b&gt;
-&lt;br&gt;In house package for nominal spacing based on IPC-7351A. Cross-checked against other packages.</description>
-<wire x1="-0.95" y1="0.8" x2="-0.95" y2="-0.8" width="0.01" layer="51"/>
-<wire x1="0.95" y1="0.8" x2="0.95" y2="-0.8" width="0.01" layer="51"/>
-<wire x1="2.35" y1="1.15" x2="-2.35" y2="1.15" width="0.01" layer="39"/>
-<wire x1="-2.35" y1="1.15" x2="-2.35" y2="-1.15" width="0.01" layer="39"/>
-<wire x1="-2.35" y1="-1.15" x2="2.35" y2="-1.15" width="0.01" layer="39"/>
-<wire x1="2.35" y1="-1.15" x2="2.35" y2="1.15" width="0.01" layer="39"/>
-<wire x1="1.6" y1="0.8" x2="0.95" y2="0.8" width="0.2" layer="51"/>
-<wire x1="0.95" y1="0.8" x2="-0.95" y2="0.8" width="0.2" layer="51"/>
-<wire x1="-0.95" y1="0.8" x2="-1.6" y2="0.8" width="0.2" layer="51"/>
-<wire x1="-1.6" y1="0.8" x2="-1.6" y2="-0.8" width="0.2" layer="51"/>
-<wire x1="-1.6" y1="-0.8" x2="-0.95" y2="-0.8" width="0.2" layer="51"/>
-<wire x1="-0.95" y1="-0.8" x2="0.95" y2="-0.8" width="0.2" layer="51"/>
-<wire x1="0.95" y1="-0.8" x2="1.6" y2="-0.8" width="0.2" layer="51"/>
-<wire x1="1.6" y1="-0.8" x2="1.6" y2="0.8" width="0.2" layer="51"/>
-<wire x1="-0.55" y1="0.8" x2="0.55" y2="0.8" width="0.2" layer="21"/>
-<wire x1="-0.55" y1="-0.8" x2="0.55" y2="-0.8" width="0.2" layer="21"/>
-<smd name="1" x="-1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
-<smd name="2" x="1.5" y="0" dx="1.15" dy="1.8" layer="1"/>
-<text x="-0.8" y="1.25" size="0.8" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-0.8" y="-2.3" size="1" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name=".0402-C-NOSILK">
 <description>&lt;b&gt;0402 (metric 1005) tight 'IPC-C' without silkscreen&lt;/b&gt;
 &lt;br&gt;In house package for minimum spacing based on IPC-7351B.
@@ -4832,6 +4808,43 @@ Package for devices meant to mate to an FTDI connector.
 </package>
 </packages>
 </library>
+<library name="SamacSys_Parts">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CAPC1608X90N">
+<description>&lt;b&gt;GRM18_0.10 L=1.6mm W=0.8mm T=0.8mm&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.7" y="0" dx="0.94" dy="0.75" layer="1" rot="R90"/>
+<smd name="2" x="0.7" y="0" dx="0.94" dy="0.75" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.225" y1="0.62" x2="1.225" y2="0.62" width="0.05" layer="51"/>
+<wire x1="1.225" y1="0.62" x2="1.225" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="1.225" y1="-0.62" x2="-1.225" y2="-0.62" width="0.05" layer="51"/>
+<wire x1="-1.225" y1="-0.62" x2="-1.225" y2="0.62" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+</package>
+<package name="CAPC1608X95N">
+<description>&lt;b&gt;case code 0603_1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.65" y="0" dx="0.98" dy="0.89" layer="1" rot="R90"/>
+<smd name="2" x="0.65" y="0" dx="0.98" dy="0.89" layer="1" rot="R90"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.245" y1="0.64" x2="1.245" y2="0.64" width="0.05" layer="51"/>
+<wire x1="1.245" y1="0.64" x2="1.245" y2="-0.64" width="0.05" layer="51"/>
+<wire x1="1.245" y1="-0.64" x2="-1.245" y2="-0.64" width="0.05" layer="51"/>
+<wire x1="-1.245" y1="-0.64" x2="-1.245" y2="0.64" width="0.05" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5025,23 +5038,43 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="C3" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="49.37" y="57.55" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="49.37" y="57.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="49.37" y="57.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="49.37" y="57.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="49.37" y="57.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="49.02" y="57.55" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
-<attribute name="NAME" x="50.53" y="57.53" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="49.12" y="57.6" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
+<element name="C3" library="SamacSys_Parts" package="CAPC1608X95N" value="100n" x="49.25" y="57.97" smashed="yes" rot="R270">
+<attribute name="ALLIED_NUMBER" value="71763467" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="48.9" y="57.97" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
+<attribute name="NAME" x="50.41" y="57.95" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="RS_PART_NUMBER" value="1881956" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" x="49.25" y="57.97" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="49" y="58.02" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
-<element name="C9" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="46.3" y="49.1" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="46.3" y="49.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="46.3" y="49.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="46.3" y="49.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="46.3" y="49.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.3" y="49.1" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
-<attribute name="NAME" x="45.25" y="48" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="46.2" y="49.1" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
+<element name="C9" library="SamacSys_Parts" package="CAPC1608X95N" value="100n" x="45.56" y="48.58" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="71763467" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.56" y="48.58" size="0.635" layer="33" ratio="20" align="center"/>
+<attribute name="NAME" x="45.47" y="47.93" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="RS_PART_NUMBER" value="1881956" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" x="45.56" y="48.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="45.56" y="48.48" size="0.5" layer="27" ratio="20" align="center"/>
 </element>
 <element name="C11" library="rcl_custom" package=".0402-B-NOSILK" value="20p" x="44.7" y="50.5" smashed="yes" rot="R180">
 <attribute name="DIS" value="Digi-Key" x="44.7" y="50.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5061,14 +5094,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="41.9" y="54.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="44.7" y="54.7" size="0.5" layer="27" ratio="20" align="center"/>
 </element>
-<element name="C17" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="62.62" y="68.58" smashed="yes" rot="R180">
-<attribute name="DIS" value="Digi-Key" x="62.62" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="62.62" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="62.62" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="62.62" y="68.58" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="62.62" y="68.58" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
-<attribute name="NAME" x="63.72" y="68.29" size="0.635" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="62.62" y="68.58" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
+<element name="C17" library="SamacSys_Parts" package="CAPC1608X95N" value="100n" x="62.4" y="67.91" smashed="yes" rot="R90">
+<attribute name="ALLIED_NUMBER" value="71763467" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="62.4" y="67.91" size="0.635" layer="33" ratio="20" rot="R90" align="center"/>
+<attribute name="NAME" x="61.68" y="65.56" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="RS_PART_NUMBER" value="1881956" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" x="62.4" y="67.91" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="62.4" y="67.91" size="0.5" layer="27" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="C22" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="47.2" y="55.5" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="47.2" y="55.5" size="1.778" layer="27" display="off"/>
@@ -5090,7 +5133,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U2" library="U-TI-TCAN330-CAN-transceiver" package="SOT23-8_TI-DCN" value="TCAN330" x="62.37" y="70.69" smashed="yes" rot="R270">
 <attribute name="MFR" value="Texas Instruments" x="62.37" y="70.69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="TCAN330GDCNT" x="62.37" y="70.69" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="61.79" y="68.29" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="63.99" y="68.43" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="62.37" y="70.69" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
 </element>
 <element name="R17" library="oresat-rcl" package=".0402-B-NOSILK" value="10k" x="50.5" y="62.2" smashed="yes" rot="R90">
@@ -5361,14 +5404,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP20" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="35.3" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="35.3" y="77.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="C6" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="58.8" y="70.4" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="54.9" y="70.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="54.9" y="70.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="54.9" y="70.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="54.9" y="70.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="59.05" y="71.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="NAME" x="58.8" y="70.4" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="60.15" y="69.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<element name="C6" library="SamacSys_Parts" package="CAPC1608X95N" value="100n" x="59.03" y="70.36" smashed="yes" rot="R90">
+<attribute name="ALLIED_NUMBER" value="71763467" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="55.13" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="55.13" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="55.13" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="55.13" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="59.65" y="72.78" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="59.03" y="70.36" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1881956" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" x="59.03" y="70.36" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="60.38" y="69.56" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="U3" library="U-TI-TCAN330-CAN-transceiver" package="SOT23-8_TI-DCN" value="TCAN330" x="56.2" y="70.5" smashed="yes" rot="R90">
 <attribute name="MFR" value="Texas Instruments" x="59.7" y="70.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5437,32 +5490,62 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP1" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="35.3" y="74.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="34.2" y="73.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="C2" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="50.9" y="42.75" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="50.9" y="42.75" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="50.9" y="42.75" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="50.9" y="42.75" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="50.9" y="42.75" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.8" y="42.5" size="0.635" layer="25" font="vector" ratio="20"/>
-<attribute name="NAME" x="50.9" y="42.75" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="VALUE" x="50.1" y="41.4" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C2" library="SamacSys_Parts" package="CAPC1608X95N" value="100n" x="50.6" y="42.57" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="71763467" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="48.5" y="42.32" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="50.6" y="42.57" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1881956" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" x="50.6" y="42.57" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="49.8" y="41.22" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C8" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="58.6" y="44.8" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="58.6" y="44.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="58.6" y="44.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="58.6" y="44.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="58.6" y="44.8" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="58.05" y="44" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="NAME" x="58.6" y="44.8" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="VALUE" x="59.95" y="44" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<element name="C8" library="SamacSys_Parts" package="CAPC1608X95N" value="100n" x="58.65" y="44.63" smashed="yes" rot="R90">
+<attribute name="ALLIED_NUMBER" value="71763467" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="59.3" y="45.13" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="58.65" y="44.63" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1881956" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" x="58.65" y="44.63" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="60" y="43.83" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="C13" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="60.03" y="56.35" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="60.03" y="56.35" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="60.03" y="56.35" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="60.03" y="56.35" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="60.03" y="56.35" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="59.38" y="55.55" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="NAME" x="60.03" y="56.35" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
-<attribute name="VALUE" x="58.68" y="57.15" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
+<element name="C13" library="SamacSys_Parts" package="CAPC1608X95N" value="100n" x="60.04" y="56.62" smashed="yes" rot="R270">
+<attribute name="ALLIED_NUMBER" value="71763467" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="59.39" y="55.82" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="60.04" y="56.62" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1881956" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" x="60.04" y="56.62" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="58.69" y="57.42" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R16" library="oresat-rcl" package=".0402-B-NOSILK" value="10k" x="49.2" y="66.3" smashed="yes">
 <attribute name="DIS" value="Digi-Key" x="49.2" y="66.3" size="1.778" layer="27" display="off"/>
@@ -5477,22 +5560,40 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="58.419" y="56.725" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="60.335" y="55.955" size="0.635" layer="27"/>
 </element>
-<element name="C15" library="oresat-rcl" package=".0402-B-NOSILK" value="100n" x="15.7" y="75.1" smashed="yes" rot="R180">
+<element name="C15" library="SamacSys_Parts" package="CAPC1608X95N" value="100n" x="15.7" y="75.1" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="71763467" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/kemet-c0603x104k5rac3316/71763467/" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V .1uF X7R AUTO 5mm Flex VW80808" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DPN" value="1276-6601-1-ND" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.95mm" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Kemet" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0603X104K5RAC3316" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="80-C0603X104K5R3316" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=80-C0603X104K5R3316" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="16" y="75.1" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="12.3" y="75.25" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="RS_PART_NUMBER" value="1881956" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1881956" x="15.7" y="75.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="16.5" y="76.45" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C18" library="oresat-rcl" package="1206-B" value="47u" x="15.85" y="77.1" smashed="yes" rot="R180">
+<element name="C18" library="SamacSys_Parts" package="CAPC1608X90N" value="47u" x="15.85" y="77.1" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIS" value="Digi-Key" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DPN" value="1276-6601-1-ND" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J476ME15D" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MFR" value="Samsung" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="15.85" y="76.95" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="15.05" y="78.25" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="15.85" y="76.95" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="1726834P" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" x="15.85" y="77.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="16.65" y="78.45" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R19" library="oresat-rcl" package=".0402-B-NOSILK" value="10" x="18" y="75.1" smashed="yes">
@@ -5976,18 +6077,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C8" pad="2"/>
 <contactref element="C13" pad="2"/>
 <polygon width="0.15" layer="1" isolate="0.2" thermals="no">
-<vertex x="50.299603125" y="57.4"/>
-<vertex x="48.9" y="57.4"/>
-<vertex x="47.4" y="55.9"/>
+<vertex x="50.299534375" y="57.89"/>
+<vertex x="48.64" y="57.89"/>
+<vertex x="47.4" y="56.65"/>
 <vertex x="47.4" y="54.6"/>
 <vertex x="50.3" y="54.6"/>
 </polygon>
 <via x="49.54" y="56.16" extent="1-16" drill="0.254"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="60.35" y="56.25"/>
-<vertex x="58.85" y="56.25"/>
+<vertex x="60.61" y="56.54"/>
+<vertex x="58.85" y="56.54"/>
 <vertex x="58.85" y="54.55"/>
-<vertex x="60.35" y="54.55"/>
+<vertex x="60.61" y="54.55"/>
 </polygon>
 <contactref element="R16" pad="2"/>
 <contactref element="U7" pad="1"/>
@@ -5999,37 +6100,23 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.3" y1="14" x2="21" y2="14" width="0.3" layer="1"/>
 <via x="21" y="14" extent="1-16" drill="0.254"/>
 <wire x1="51.235" y1="45.275" x2="51.25" y2="45.26" width="0.1524" layer="1"/>
-<wire x1="51.25" y1="45.26" x2="51.25" y2="42.9" width="0.3" layer="1"/>
-<wire x1="51.25" y1="42.9" x2="51.4" y2="42.75" width="0.1524" layer="1"/>
-<via x="51.265" y="42.045" extent="1-16" drill="0.254"/>
-<polygon width="0.2" layer="1" isolate="0.2" thermals="no">
-<vertex x="51.1" y="43.2"/>
-<vertex x="51.1" y="41.75"/>
-<vertex x="52.1" y="41.75"/>
-<vertex x="52.1" y="43.2"/>
-</polygon>
-<via x="51.8" y="42" extent="1-16" drill="0.254"/>
-<wire x1="58.8" y1="70.9" x2="58.725" y2="70.825" width="0.3048" layer="1"/>
-<wire x1="58.725" y1="70.825" x2="57.5" y2="70.825" width="0.2" layer="1"/>
+<via x="51.245" y="41.675" extent="1-16" drill="0.254"/>
+<wire x1="59.03" y1="71.01" x2="58.968334375" y2="70.825" width="0.3048" layer="1"/>
+<wire x1="58.968334375" y1="70.825" x2="57.5" y2="70.825" width="0.2" layer="1"/>
 <via x="32.5" y="65.1" extent="1-16" drill="0.254"/>
 <via x="32.5" y="65.6" extent="1-16" drill="0.254"/>
 <via x="36.9" y="68.2" extent="1-16" drill="0.254"/>
 <via x="25.7" y="72.65" extent="1-16" drill="0.254"/>
 <contactref element="D7" pad="2"/>
-<via x="58.6" y="46" extent="1-16" drill="0.254"/>
+<via x="58.65" y="46.25" extent="1-16" drill="0.254"/>
 <wire x1="48.385" y1="48.625" x2="49.65" y2="48.625" width="0.3" layer="1"/>
 <via x="49.65" y="48.625" extent="1-16" drill="0.254"/>
-<via x="45.5" y="48.6" extent="1-16" drill="0.254"/>
-<via x="59.3" y="55.2" extent="1-16" drill="0.254"/>
+<via x="59.19" y="55.14" extent="1-16" drill="0.254"/>
 <via x="50.4" y="66.3" extent="1-16" drill="0.254"/>
-<via x="59.3" y="55.9" extent="1-16" drill="0.254"/>
-<wire x1="46.325" y1="48.625" x2="46.3" y2="48.6" width="0.2" layer="1"/>
-<wire x1="48.385" y1="48.625" x2="46.325" y2="48.625" width="0.3" layer="1"/>
-<wire x1="45.5" y1="48.6" x2="45.525" y2="48.625" width="0.3" layer="1"/>
-<wire x1="45.525" y1="48.625" x2="46.325" y2="48.625" width="0.3" layer="1"/>
-<wire x1="57.735" y1="45.275" x2="58.575" y2="45.275" width="0.3" layer="1"/>
-<wire x1="58.6" y1="46" x2="58.6" y2="45.3" width="0.3" layer="1"/>
-<wire x1="58.6" y1="45.3" x2="58.575" y2="45.275" width="0.3" layer="1"/>
+<via x="59.19" y="55.82" extent="1-16" drill="0.254"/>
+<wire x1="57.735" y1="45.275" x2="58.649284375" y2="45.275" width="0.3" layer="1"/>
+<wire x1="58.65" y1="46.25" x2="58.65" y2="45.28" width="0.3" layer="1"/>
+<wire x1="58.65" y1="45.28" x2="58.649284375" y2="45.275" width="0.3" layer="1"/>
 <wire x1="50.4" y1="66.3" x2="49.7" y2="66.3" width="0.2" layer="1"/>
 <contactref element="R27" pad="2"/>
 <via x="38.2" y="61.2" extent="1-16" drill="0.254"/>
@@ -6076,10 +6163,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R33" pad="2"/>
 <via x="32.955" y="22.405" extent="1-16" drill="0.5"/>
 <wire x1="34.005" y1="22.405" x2="32.955" y2="22.405" width="0.4" layer="1"/>
-<via x="59.617" y="70.912" extent="1-16" drill="0.254"/>
-<via x="62.083" y="67.691" extent="1-16" drill="0.254"/>
+<via x="59.027" y="71.872" extent="1-16" drill="0.254"/>
 <via x="48.7" y="55.2" extent="1-16" drill="0.254"/>
-<via x="59.95" y="55.19" extent="1-16" drill="0.254"/>
+<via x="60.05" y="55.14" extent="1-16" drill="0.254"/>
 <contactref element="R14" pad="5"/>
 <contactref element="R14" pad="10"/>
 <via x="64.54" y="34.6346" extent="1-16" drill="0.254"/>
@@ -6116,27 +6202,76 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="29.555" y="19.405" extent="1-16" drill="0.5"/>
 <wire x1="29.595" y1="18.445" x2="29.555" y2="18.485" width="0.39" layer="1"/>
 <wire x1="29.555" y1="18.485" x2="29.555" y2="19.405" width="0.39" layer="1"/>
-<wire x1="59.617" y1="70.912" x2="59.605" y2="70.9" width="0.39" layer="1"/>
-<wire x1="59.605" y1="70.9" x2="58.8" y2="70.9" width="0.39" layer="1"/>
+<wire x1="59.027" y1="71.872" x2="59.03" y2="71.869" width="0.39" layer="1"/>
+<wire x1="59.03" y1="71.869" x2="59.03" y2="71.01" width="0.39" layer="1"/>
 <wire x1="28.7" y1="65.425" x2="30.825" y2="65.425" width="0.2" layer="1"/>
 <wire x1="30.825" y1="65.425" x2="31" y2="65.6" width="0.2" layer="1"/>
 <wire x1="32" y1="66.7" x2="32" y2="65.6" width="0.2" layer="1"/>
 <wire x1="48.7" y1="55.2" x2="48.4" y2="55.5" width="0.2" layer="1"/>
 <wire x1="48.4" y1="55.5" x2="47.7" y2="55.5" width="0.2" layer="1"/>
-<wire x1="49.54" y1="56.16" x2="49.37" y2="56.33" width="0.2" layer="1"/>
-<wire x1="49.37" y1="56.33" x2="49.37" y2="57.05" width="0.2" layer="1"/>
+<wire x1="49.54" y1="56.16" x2="49.25" y2="56.45" width="0.2" layer="1"/>
+<wire x1="49.25" y1="56.45" x2="49.25" y2="57.32" width="0.2" layer="1"/>
 <wire x1="48.7" y1="55.2" x2="48.7" y2="54.94" width="0.2" layer="1"/>
 <wire x1="48.7" y1="54.94" x2="48.385" y2="54.625" width="0.2" layer="1"/>
 <wire x1="49.54" y1="56.16" x2="49.855" y2="56.475" width="0.2" layer="1"/>
 <wire x1="49.855" y1="56.475" x2="50.235" y2="56.475" width="0.2" layer="1"/>
-<wire x1="61.07" y1="70.365" x2="61.935" y2="70.365" width="0.35" layer="1"/>
-<wire x1="62.12" y1="70.18" x2="62.12" y2="68.58" width="0.35" layer="1"/>
-<wire x1="61.935" y1="70.365" x2="62.12" y2="70.18" width="0.35" layer="1"/>
-<wire x1="62.083" y1="67.691" x2="62.083" y2="68.543" width="0.35" layer="1"/>
-<wire x1="62.083" y1="68.543" x2="62.12" y2="68.58" width="0.35" layer="1"/>
 <wire x1="72.34" y1="35.6252" x2="72.34" y2="34.6346" width="0.3" layer="1"/>
 <wire x1="26.725" y1="72.625" x2="25.7" y2="72.625" width="0.3" layer="1"/>
 <wire x1="25.7" y1="72.625" x2="25.7" y2="72.65" width="0.3" layer="1"/>
+<wire x1="51.25" y1="41.68" x2="51.245" y2="41.675" width="0.3048" layer="1"/>
+<wire x1="51.235" y1="45.275" x2="51.235" y2="42.585" width="0.3048" layer="1"/>
+<wire x1="51.235" y1="42.585" x2="51.25" y2="42.57" width="0.3048" layer="1"/>
+<wire x1="51.245" y1="41.675" x2="51.245" y2="42.565" width="0.3048" layer="1"/>
+<wire x1="51.245" y1="42.565" x2="51.25" y2="42.57" width="0.3048" layer="1"/>
+<wire x1="48.385" y1="48.625" x2="46.255" y2="48.625" width="0.3048" layer="1"/>
+<wire x1="46.255" y1="48.625" x2="46.21" y2="48.58" width="0.3048" layer="1"/>
+<via x="62.407" y="69.652" extent="1-16" drill="0.254"/>
+<wire x1="84.75" y1="54.83" x2="88.15" y2="57.93" width="0" layer="19" extent="1-1"/>
+<wire x1="67.26" y1="39.7654" x2="83.7" y2="54.83" width="0" layer="19" extent="1-1"/>
+<wire x1="64.54" y1="35.6252" x2="67.26" y2="38.7748" width="0" layer="19" extent="1-1"/>
+<wire x1="72.34" y1="35.6252" x2="67.26" y2="38.7748" width="0" layer="19" extent="1-1"/>
+<wire x1="59.46" y1="38.7748" x2="64.54" y2="35.6252" width="0" layer="19" extent="1-1"/>
+<wire x1="58.65" y1="45.28" x2="59.46" y2="39.7654" width="0" layer="19" extent="1-1"/>
+<wire x1="51.235" y1="45.275" x2="57.735" y2="45.275" width="0" layer="19" extent="1-1"/>
+<wire x1="49.65" y1="48.625" x2="51.235" y2="45.275" width="0" layer="19" extent="1-1"/>
+<wire x1="48.385" y1="54.625" x2="48.385" y2="48.625" width="0" layer="19" extent="1-1"/>
+<wire x1="49.54" y1="56.16" x2="48.7" y2="55.2" width="0" layer="19" extent="1-1"/>
+<wire x1="59.585" y1="54.625" x2="58.65" y2="46.25" width="0" layer="19" extent="1-1"/>
+<wire x1="59.19" y1="55.14" x2="59.585" y2="54.625" width="0" layer="19" extent="1-1"/>
+<wire x1="59.19" y1="55.82" x2="59.19" y2="55.14" width="0" layer="19" extent="1-1"/>
+<wire x1="60.05" y1="55.14" x2="59.585" y2="54.625" width="0" layer="19" extent="1-1"/>
+<wire x1="60.04" y1="55.97" x2="60.05" y2="55.14" width="0" layer="19" extent="1-1"/>
+<wire x1="49.7" y1="66.3" x2="49.25" y2="57.32" width="0" layer="19" extent="1-1"/>
+<wire x1="57.5" y1="70.825" x2="50.4" y2="66.3" width="0" layer="19" extent="1-1"/>
+<wire x1="62.4" y1="68.56" x2="62.407" y2="69.652" width="0" layer="19" extent="1-1"/>
+<wire x1="38.2" y1="61.2" x2="47.7" y2="55.5" width="0" layer="19" extent="1-1"/>
+<wire x1="36.9" y1="66.4" x2="38.2" y2="61.9" width="0" layer="19" extent="1-1"/>
+<wire x1="32.5" y1="65.1" x2="32.5" y2="65.6" width="0" layer="19" extent="1-1"/>
+<wire x1="32" y1="65.1" x2="32.5" y2="65.1" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="65.1" x2="32" y2="65.1" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="65.6" x2="31.5" y2="65.1" width="0" layer="19" extent="1-1"/>
+<wire x1="31" y1="65.1" x2="31.5" y2="65.1" width="0" layer="19" extent="1-1"/>
+<wire x1="32" y1="65.6" x2="32.5" y2="65.6" width="0" layer="19" extent="1-1"/>
+<wire x1="31" y1="65.6" x2="31.5" y2="65.6" width="0" layer="19" extent="1-1"/>
+<wire x1="26.725" y1="72.625" x2="28.7" y2="65.425" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="77.4" x2="25.7" y2="72.65" width="0" layer="19" extent="1-1"/>
+<wire x1="18.9" y1="72" x2="19.1" y2="77.4" width="0" layer="19" extent="1-1"/>
+<wire x1="10.2" y1="66.07" x2="18.9" y2="71.2" width="0" layer="19" extent="1-1"/>
+<wire x1="10.2" y1="63.53" x2="10.2" y2="66.07" width="0" layer="19" extent="1-1"/>
+<wire x1="61.84" y1="15.9" x2="64.54" y2="34.6346" width="0" layer="19" extent="1-1"/>
+<wire x1="61" y1="15.9" x2="61.84" y2="15.9" width="0" layer="19" extent="1-1"/>
+<wire x1="60.17" y1="15.9" x2="61" y2="15.9" width="0" layer="19" extent="1-1"/>
+<wire x1="61.9" y1="14.85" x2="61.84" y2="15.9" width="0" layer="19" extent="1-1"/>
+<wire x1="61.06" y1="14.84" x2="61.9" y2="14.85" width="0" layer="19" extent="1-1"/>
+<wire x1="60.17" y1="14.84" x2="61.06" y2="14.84" width="0" layer="19" extent="1-1"/>
+<wire x1="34.005" y1="22.405" x2="58.4" y2="15.1" width="0" layer="19" extent="1-1"/>
+<wire x1="29.555" y1="19.405" x2="32.955" y2="22.405" width="0" layer="19" extent="1-1"/>
+<wire x1="21" y1="14" x2="29.595" y2="18.445" width="0" layer="19" extent="1-1"/>
+<wire x1="61.07" y1="70.365" x2="62.205" y2="70.365" width="0.3048" layer="1"/>
+<wire x1="62.407" y1="70.163" x2="62.407" y2="69.652" width="0.3048" layer="1"/>
+<wire x1="62.205" y1="70.365" x2="62.407" y2="70.163" width="0.3048" layer="1"/>
+<wire x1="62.407" y1="69.652" x2="62.407" y2="68.567" width="0.3048" layer="1"/>
+<wire x1="62.407" y1="68.567" x2="62.4" y2="68.56" width="0.3048" layer="1"/>
 </signal>
 <signal name="SDAOPT2">
 </signal>
@@ -6241,7 +6376,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="35" y="1" extent="1-16" drill="0.254"/>
 <via x="28.98" y="87.1" extent="1-16" drill="0.254"/>
 <via x="20.5" y="3.85" extent="1-16" drill="0.254"/>
-<via x="58.8" y="69.1" extent="1-16" drill="0.254"/>
 <via x="82.55" y="83.9" extent="1-16" drill="0.254"/>
 <via x="80.25" y="82.175" extent="1-16" drill="0.254"/>
 <via x="79.275" y="83.9" extent="1-16" drill="0.254"/>
@@ -6322,15 +6456,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U4" pad="THERMAL"/>
 <contactref element="U1" pad="4"/>
 <via x="45.9" y="54.7" extent="1-16" drill="0.254"/>
-<via x="45.5" y="49.6" extent="1-16" drill="0.254"/>
+<via x="44.03" y="48.58" extent="1-16" drill="0.254"/>
 <via x="47.1" y="49.2" extent="1-16" drill="0.254"/>
-<via x="58.6" y="43.6" extent="1-16" drill="0.254"/>
+<via x="60.17" y="44.07" extent="1-16" drill="0.254"/>
 <via x="57.4" y="43.9" extent="1-16" drill="0.254"/>
 <via x="57.2" y="46.6" extent="1-16" drill="0.254"/>
 <via x="58.2" y="54.2" extent="1-16" drill="0.254"/>
-<via x="50.4" y="43.6" extent="1-16" drill="0.254"/>
-<via x="50.4" y="41.9" extent="1-16" drill="0.254"/>
-<via x="59.6" y="69.9" extent="1-16" drill="0.254"/>
+<via x="49.66" y="43.8" extent="1-16" drill="0.254"/>
+<via x="49.95" y="41.65" extent="1-16" drill="0.254"/>
+<via x="59.03" y="68.69" extent="1-16" drill="0.254"/>
 <via x="40.9" y="72.6" extent="1-16" drill="0.254"/>
 <via x="40.9" y="75" extent="1-16" drill="0.254"/>
 <via x="42.7" y="75" extent="1-16" drill="0.254"/>
@@ -6342,10 +6476,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="32" y="69.5" extent="1-16" drill="0.254"/>
 <via x="33.1" y="68.5" extent="1-16" drill="0.254"/>
 <via x="30.9" y="68.5" extent="1-16" drill="0.254"/>
-<via x="13.3" y="77.1" extent="1-16" drill="0.254"/>
+<via x="14.35" y="77.1" extent="1-16" drill="0.254"/>
 <via x="14.3" y="78.4" extent="1-16" drill="0.254"/>
 <via x="14.3" y="75.8" extent="1-16" drill="0.254"/>
-<via x="14.5" y="75.1" extent="1-16" drill="0.254"/>
+<via x="14.21" y="75.09" extent="1-16" drill="0.254"/>
 <via x="15.1" y="72.7" extent="1-16" drill="0.254"/>
 <via x="17.2" y="71.7" extent="1-16" drill="0.254"/>
 <via x="16.2" y="71.1" extent="1-16" drill="0.254"/>
@@ -6386,7 +6520,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="9" y="39" extent="1-16" drill="0.254"/>
 <via x="53.4" y="58.6" extent="1-16" drill="0.254"/>
 <via x="59.9" y="59.1" extent="1-16" drill="0.254"/>
-<via x="60.04" y="57.54" extent="1-16" drill="0.254"/>
+<via x="60.04" y="58.11" extent="1-16" drill="0.254"/>
 <via x="62.78" y="55.5" extent="1-16" drill="0.254"/>
 <via x="62.92" y="61.43" extent="1-16" drill="0.254"/>
 <via x="56.85" y="59.6" extent="1-16" drill="0.254"/>
@@ -6400,9 +6534,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="21.7" y="21.9" extent="1-16" drill="0.254"/>
 <via x="21.7" y="11.8" extent="1-16" drill="0.254"/>
 <via x="17.6" y="7.7" extent="1-16" drill="0.254"/>
-<wire x1="58.125" y1="70.175" x2="58.4" y2="69.9" width="0.2" layer="1"/>
+<wire x1="58.125" y1="70.175" x2="58.326" y2="69.974" width="0.2" layer="1"/>
 <wire x1="57.5" y1="70.175" x2="58.125" y2="70.175" width="0.2" layer="1"/>
-<wire x1="58.4" y1="69.9" x2="58.8" y2="69.9" width="0.2" layer="1"/>
+<wire x1="58.326" y1="69.974" x2="59.03" y2="69.71" width="0.2" layer="1"/>
 <wire x1="27.725" y1="73.275" x2="28.7" y2="72.3" width="0.3048" layer="1"/>
 <wire x1="26.725" y1="73.275" x2="27.725" y2="73.275" width="0.3048" layer="1"/>
 <wire x1="28.375" y1="71.975" x2="28.7" y2="72.3" width="0.3048" layer="1"/>
@@ -6420,8 +6554,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.725" y1="71.325" x2="26.75" y2="71.3" width="0.3048" layer="1"/>
 <wire x1="49.425" y1="49.125" x2="49.6" y2="49.3" width="0.3" layer="1"/>
 <wire x1="48.385" y1="49.125" x2="49.425" y2="49.125" width="0.3" layer="1"/>
-<wire x1="46.7" y1="49.6" x2="47.1" y2="49.2" width="0.3" layer="1"/>
-<wire x1="46.3" y1="49.6" x2="46.7" y2="49.6" width="0.3" layer="1"/>
 <via x="93" y="94" extent="1-16" drill="0.254"/>
 <via x="98.8" y="88" extent="1-16" drill="0.254"/>
 <via x="98.8" y="82" extent="1-16" drill="0.254"/>
@@ -6452,7 +6584,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="51.72" y="54.68" extent="1-16" drill="0.254"/>
 <via x="53.15" y="53.53" extent="1-16" drill="0.254"/>
 <via x="98.8" y="10" extent="1-16" drill="0.254"/>
-<via x="48.5" y="58.1" extent="1-16" drill="0.254"/>
+<via x="48.14" y="58.37" extent="1-16" drill="0.254"/>
 <via x="43" y="63.9" extent="1-16" drill="0.254"/>
 <via x="46.7" y="56.3" extent="1-16" drill="0.254"/>
 <via x="40.3" y="64.9" extent="1-16" drill="0.254"/>
@@ -6771,7 +6903,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="90.7" y="62.43" extent="1-16" drill="0.3"/>
 <contactref element="J19" pad="15"/>
 <via x="78.5" y="62.68" extent="1-16" drill="0.3"/>
-<via x="59.27" y="56.88" extent="1-16" drill="0.254"/>
+<via x="59.08" y="57.27" extent="1-16" drill="0.254"/>
 <contactref element="J8" pad="2"/>
 <contactref element="J8" pad="1"/>
 <contactref element="J9" pad="2"/>
@@ -6874,10 +7006,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="35.78" y1="14.23" x2="36.58" y2="14.23" width="0.35" layer="1"/>
 <wire x1="40.3" y1="64.9" x2="40.3" y2="65.5594" width="0.35" layer="1"/>
 <wire x1="40.3" y1="65.5594" x2="40.3656" y2="65.625" width="0.35" layer="1"/>
-<wire x1="59.6" y1="69.9" x2="58.8" y2="69.9" width="0.35" layer="1"/>
-<via x="63.1" y="67.7" extent="1-16" drill="0.254"/>
-<wire x1="14.35" y1="77.1" x2="13.3" y2="77.1" width="0.35" layer="1"/>
-<wire x1="15.2" y1="75.1" x2="14.5" y2="75.1" width="0.35" layer="1"/>
+<wire x1="59.03" y1="69.71" x2="59.03" y2="68.69" width="0.35" layer="1"/>
+<via x="62.41" y="66.45" extent="1-16" drill="0.254"/>
+<wire x1="15.15" y1="77.1" x2="14.35" y2="77.1" width="0.35" layer="1"/>
+<wire x1="15.05" y1="75.1" x2="15.04" y2="75.09" width="0.35" layer="1"/>
+<wire x1="15.04" y1="75.09" x2="14.21" y2="75.09" width="0.35" layer="1"/>
 <wire x1="75.55" y1="63.48" x2="75.55" y2="64.23" width="0.35" layer="1"/>
 <wire x1="75.55" y1="64.23" x2="75.6" y2="64.28" width="0.35" layer="1"/>
 <wire x1="51.72" y1="54.68" x2="51.1" y2="54.68" width="0.2" layer="1"/>
@@ -7009,6 +7142,595 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="38.905" y1="19.255" x2="40.11" y2="19.255" width="0.3" layer="1"/>
 <wire x1="40.11" y1="19.255" x2="40.11" y2="19.29" width="0.3" layer="1"/>
 <contactref element="U$2" pad="P$6"/>
+<wire x1="49.95" y1="42.57" x2="49.95" y2="41.65" width="0.3048" layer="1"/>
+<wire x1="98.8" y1="88" x2="93" y2="94" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="82" x2="98.8" y2="88" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="76" x2="98.8" y2="82" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="70" x2="98.8" y2="76" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="64" x2="98.8" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="58" x2="98.8" y2="64" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="52" x2="98.8" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="46" x2="98.8" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="40" x2="98.8" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="34" x2="98.8" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="28" x2="98.8" y2="34" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="22" x2="98.8" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="16" x2="98.8" y2="22" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="10" x2="98.8" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="96" y1="4.5" x2="98.8" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="89" y1="4.5" x2="96" y2="4.5" width="0" layer="19" extent="1-1"/>
+<wire x1="83" y1="1" x2="89" y2="4.5" width="0" layer="19" extent="1-1"/>
+<wire x1="77" y1="1" x2="83" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="71" y1="1" x2="77" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="65" y1="1" x2="71" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="59" y1="1" x2="65" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="1" x2="59" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="47" y1="1" x2="53" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="41" y1="1" x2="47" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="40.905" y1="4.655" x2="41" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="42.305" y1="5.255" x2="40.905" y2="4.655" width="0" layer="19" extent="1-1"/>
+<wire x1="43.405" y1="6.255" x2="42.305" y2="5.255" width="0" layer="19" extent="1-1"/>
+<wire x1="43.405" y1="7.255" x2="43.405" y2="6.255" width="0" layer="19" extent="1-1"/>
+<wire x1="43.405" y1="8.355" x2="43.405" y2="7.255" width="0" layer="19" extent="1-1"/>
+<wire x1="42.295" y1="7.13" x2="43.405" y2="7.255" width="0" layer="19" extent="1-1"/>
+<wire x1="41.405" y1="6.555" x2="42.295" y2="7.13" width="0" layer="19" extent="1-1"/>
+<wire x1="40.405" y1="6.555" x2="41.405" y2="6.555" width="0" layer="19" extent="1-1"/>
+<wire x1="39.545" y1="7.13" x2="40.405" y2="6.555" width="0" layer="19" extent="1-1"/>
+<wire x1="38.405" y1="7.255" x2="39.545" y2="7.13" width="0" layer="19" extent="1-1"/>
+<wire x1="38.405" y1="6.255" x2="38.405" y2="7.255" width="0" layer="19" extent="1-1"/>
+<wire x1="38.405" y1="8.355" x2="38.405" y2="7.255" width="0" layer="19" extent="1-1"/>
+<wire x1="39.505" y1="5.255" x2="38.405" y2="6.255" width="0" layer="19" extent="1-1"/>
+<wire x1="44.705" y1="9.255" x2="43.405" y2="8.355" width="0" layer="19" extent="1-1"/>
+<wire x1="44.005" y1="9.955" x2="44.705" y2="9.255" width="0" layer="19" extent="1-1"/>
+<wire x1="44.827728125" y1="10.642728125" x2="44.005" y2="9.955" width="0" layer="19" extent="1-1"/>
+<wire x1="45.805" y1="10.955" x2="44.827728125" y2="10.642728125" width="0" layer="19" extent="1-1"/>
+<wire x1="46.505" y1="11.555" x2="45.805" y2="10.955" width="0" layer="19" extent="1-1"/>
+<wire x1="46.77226875" y1="12.58726875" x2="46.505" y2="11.555" width="0" layer="19" extent="1-1"/>
+<wire x1="43.205" y1="10.755" x2="44.005" y2="9.955" width="0" layer="19" extent="1-1"/>
+<wire x1="47.555" y1="13.455" x2="46.77226875" y2="12.58726875" width="0" layer="19" extent="1-1"/>
+<wire x1="48.405" y1="12.655" x2="47.555" y2="13.455" width="0" layer="19" extent="1-1"/>
+<wire x1="43.105" y1="11.955" x2="43.205" y2="10.755" width="0" layer="19" extent="1-1"/>
+<wire x1="42.805" y1="12.705" x2="43.105" y2="11.955" width="0" layer="19" extent="1-1"/>
+<wire x1="42.105" y1="12.955" x2="42.805" y2="12.705" width="0" layer="19" extent="1-1"/>
+<wire x1="42.155" y1="13.755" x2="42.105" y2="12.955" width="0" layer="19" extent="1-1"/>
+<wire x1="46.705" y1="14.355" x2="47.555" y2="13.455" width="0" layer="19" extent="1-1"/>
+<wire x1="42.005" y1="11.155" x2="43.205" y2="10.755" width="0" layer="19" extent="1-1"/>
+<wire x1="42.305" y1="9.855" x2="43.205" y2="10.755" width="0" layer="19" extent="1-1"/>
+<wire x1="45.405" y1="14.355" x2="46.705" y2="14.355" width="0" layer="19" extent="1-1"/>
+<wire x1="48.105" y1="11.355" x2="48.405" y2="12.655" width="0" layer="19" extent="1-1"/>
+<wire x1="46.105" y1="9.255" x2="44.705" y2="9.255" width="0" layer="19" extent="1-1"/>
+<wire x1="47.605" y1="9.855" x2="48.105" y2="11.355" width="0" layer="19" extent="1-1"/>
+<wire x1="45.309971875" y1="16.139971875" x2="45.405" y2="14.355" width="0" layer="19" extent="1-1"/>
+<wire x1="45.705" y1="17.055" x2="45.309971875" y2="16.139971875" width="0" layer="19" extent="1-1"/>
+<wire x1="45.005" y1="17.655" x2="45.705" y2="17.055" width="0" layer="19" extent="1-1"/>
+<wire x1="44.305" y1="18.055" x2="45.005" y2="17.655" width="0" layer="19" extent="1-1"/>
+<wire x1="44.355" y1="19.005" x2="44.305" y2="18.055" width="0" layer="19" extent="1-1"/>
+<wire x1="44.415" y1="16.645" x2="45.309971875" y2="16.139971875" width="0" layer="19" extent="1-1"/>
+<wire x1="46.755" y1="17.755" x2="45.705" y2="17.055" width="0" layer="19" extent="1-1"/>
+<wire x1="47.55433125" y1="17.60693125" x2="46.755" y2="17.755" width="0" layer="19" extent="1-1"/>
+<wire x1="47.142521875" y1="16.719096875" x2="47.55433125" y2="17.60693125" width="0" layer="19" extent="1-1"/>
+<wire x1="48.6850125" y1="17.646415625" x2="47.55433125" y2="17.60693125" width="0" layer="19" extent="1-1"/>
+<wire x1="49.674359375" y1="17.6809625" x2="48.6850125" y2="17.646415625" width="0" layer="19" extent="1-1"/>
+<wire x1="48.6" y1="18.875" x2="48.6850125" y2="17.646415625" width="0" layer="19" extent="1-1"/>
+<wire x1="49.176321875" y1="19.786184375" x2="48.6" y2="18.875" width="0" layer="19" extent="1-1"/>
+<wire x1="49.141771875" y1="20.77553125" x2="49.176321875" y2="19.786184375" width="0" layer="19" extent="1-1"/>
+<wire x1="48.6" y1="21.625" x2="49.141771875" y2="20.77553125" width="0" layer="19" extent="1-1"/>
+<wire x1="48.64866875" y1="22.73941875" x2="48.6" y2="21.625" width="0" layer="19" extent="1-1"/>
+<wire x1="49.638015625" y1="22.773965625" x2="48.64866875" y2="22.73941875" width="0" layer="19" extent="1-1"/>
+<wire x1="47.5861875" y1="22.77306875" x2="48.64866875" y2="22.73941875" width="0" layer="19" extent="1-1"/>
+<wire x1="46.690053125" y1="22.4442375" x2="47.5861875" y2="22.77306875" width="0" layer="19" extent="1-1"/>
+<wire x1="46.15564375" y1="21.768353125" x2="46.690053125" y2="22.4442375" width="0" layer="19" extent="1-1"/>
+<wire x1="45.00424375" y1="21.726515625" x2="46.15564375" y2="21.768353125" width="0" layer="19" extent="1-1"/>
+<wire x1="50.593709375" y1="21.746034375" x2="49.638015625" y2="22.773965625" width="0" layer="19" extent="1-1"/>
+<wire x1="50.624221875" y1="18.84619375" x2="49.674359375" y2="17.6809625" width="0" layer="19" extent="1-1"/>
+<wire x1="51.417940625" y1="20.43049375" x2="50.593709375" y2="21.746034375" width="0" layer="19" extent="1-1"/>
+<wire x1="39.505" y1="9.755" x2="38.405" y2="8.355" width="0" layer="19" extent="1-1"/>
+<wire x1="39.505" y1="10.755" x2="39.505" y2="9.755" width="0" layer="19" extent="1-1"/>
+<wire x1="39.505" y1="11.755" x2="39.505" y2="10.755" width="0" layer="19" extent="1-1"/>
+<wire x1="38.305" y1="11.755" x2="39.505" y2="11.755" width="0" layer="19" extent="1-1"/>
+<wire x1="38.255" y1="10.855" x2="38.305" y2="11.755" width="0" layer="19" extent="1-1"/>
+<wire x1="38.205" y1="12.805" x2="38.305" y2="11.755" width="0" layer="19" extent="1-1"/>
+<wire x1="38.955" y1="13.755" x2="38.125" y2="13.755" width="0" layer="19" extent="1-1"/>
+<wire x1="39.905" y1="14.555" x2="39.655" y2="13.755" width="0" layer="19" extent="1-1"/>
+<wire x1="39.205" y1="14.555" x2="39.905" y2="14.555" width="0" layer="19" extent="1-1"/>
+<wire x1="37.555" y1="14.605" x2="38.125" y2="13.755" width="0" layer="19" extent="1-1"/>
+<wire x1="36.58" y1="14.23" x2="37.555" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="36.555" y1="13.255" x2="36.58" y2="14.23" width="0" layer="19" extent="1-1"/>
+<wire x1="35.655" y1="13.255" x2="36.555" y2="13.255" width="0" layer="19" extent="1-1"/>
+<wire x1="34.855" y1="13.255" x2="35.655" y2="13.255" width="0" layer="19" extent="1-1"/>
+<wire x1="34.005" y1="13.205" x2="34.855" y2="13.255" width="0" layer="19" extent="1-1"/>
+<wire x1="33.155" y1="13.205" x2="34.005" y2="13.205" width="0" layer="19" extent="1-1"/>
+<wire x1="33.155" y1="12.105" x2="33.155" y2="13.205" width="0" layer="19" extent="1-1"/>
+<wire x1="32.505" y1="11.255" x2="33.155" y2="12.105" width="0" layer="19" extent="1-1"/>
+<wire x1="31.505" y1="11.305" x2="32.505" y2="11.255" width="0" layer="19" extent="1-1"/>
+<wire x1="30.605" y1="11.305" x2="31.505" y2="11.305" width="0" layer="19" extent="1-1"/>
+<wire x1="29.705" y1="11.305" x2="30.605" y2="11.305" width="0" layer="19" extent="1-1"/>
+<wire x1="29.105" y1="11.805" x2="29.705" y2="11.305" width="0" layer="19" extent="1-1"/>
+<wire x1="28.955" y1="12.705" x2="29.105" y2="11.805" width="0" layer="19" extent="1-1"/>
+<wire x1="28.105" y1="12.755" x2="28.955" y2="12.705" width="0" layer="19" extent="1-1"/>
+<wire x1="27.155" y1="12.805" x2="28.105" y2="12.755" width="0" layer="19" extent="1-1"/>
+<wire x1="27.005" y1="13.755" x2="27.155" y2="12.805" width="0" layer="19" extent="1-1"/>
+<wire x1="30.005" y1="12.555" x2="28.955" y2="12.705" width="0" layer="19" extent="1-1"/>
+<wire x1="30.805" y1="12.555" x2="30.005" y2="12.555" width="0" layer="19" extent="1-1"/>
+<wire x1="27.005" y1="14.805" x2="27.005" y2="13.755" width="0" layer="19" extent="1-1"/>
+<wire x1="27.905" y1="15.205" x2="27.005" y2="14.805" width="0" layer="19" extent="1-1"/>
+<wire x1="27.955" y1="15.955" x2="27.905" y2="15.205" width="0" layer="19" extent="1-1"/>
+<wire x1="28.555" y1="16.505" x2="27.955" y2="15.955" width="0" layer="19" extent="1-1"/>
+<wire x1="28.505" y1="17.305" x2="28.555" y2="16.505" width="0" layer="19" extent="1-1"/>
+<wire x1="28.555" y1="18.055" x2="28.505" y2="17.305" width="0" layer="19" extent="1-1"/>
+<wire x1="27.155" y1="15.905" x2="27.955" y2="15.955" width="0" layer="19" extent="1-1"/>
+<wire x1="38.305" y1="15.555" x2="37.555" y2="14.605" width="0" layer="19" extent="1-1"/>
+<wire x1="30.905" y1="13.755" x2="30.805" y2="12.555" width="0" layer="19" extent="1-1"/>
+<wire x1="30.905" y1="14.755" x2="30.905" y2="13.755" width="0" layer="19" extent="1-1"/>
+<wire x1="30.905" y1="15.755" x2="30.905" y2="14.755" width="0" layer="19" extent="1-1"/>
+<wire x1="39.755" y1="16.155" x2="38.305" y2="15.555" width="0" layer="19" extent="1-1"/>
+<wire x1="41.2" y1="18.19" x2="40.1" y2="18.21" width="0" layer="19" extent="1-1"/>
+<wire x1="42.23" y1="18.21" x2="41.2" y2="18.19" width="0" layer="19" extent="1-1"/>
+<wire x1="41.155" y1="19.255" x2="41.2" y2="18.19" width="0" layer="19" extent="1-1"/>
+<wire x1="41.17" y1="19.29" x2="41.155" y2="19.255" width="0" layer="19" extent="1-1"/>
+<wire x1="41.17" y1="20.32" x2="41.17" y2="19.29" width="0" layer="19" extent="1-1"/>
+<wire x1="42.2" y1="19.27" x2="41.155" y2="19.255" width="0" layer="19" extent="1-1"/>
+<wire x1="42.25" y1="20.31" x2="42.2" y2="19.27" width="0" layer="19" extent="1-1"/>
+<wire x1="40.11" y1="19.29" x2="41.155" y2="19.255" width="0" layer="19" extent="1-1"/>
+<wire x1="38.905" y1="18.755" x2="38.905" y2="19.255" width="0" layer="19" extent="1-1"/>
+<wire x1="40.11" y1="20.32" x2="40.11" y2="19.29" width="0" layer="19" extent="1-1"/>
+<wire x1="38.905" y1="21.455" x2="40.11" y2="20.32" width="0" layer="19" extent="1-1"/>
+<wire x1="38.905" y1="22.255" x2="38.905" y2="21.455" width="0" layer="19" extent="1-1"/>
+<wire x1="28.605" y1="19.755" x2="28.555" y2="18.055" width="0" layer="19" extent="1-1"/>
+<wire x1="28.955" y1="20.805" x2="28.605" y2="19.755" width="0" layer="19" extent="1-1"/>
+<wire x1="29.805" y1="21.655" x2="28.955" y2="20.805" width="0" layer="19" extent="1-1"/>
+<wire x1="30.605" y1="22.555" x2="29.805" y2="21.655" width="0" layer="19" extent="1-1"/>
+<wire x1="31.755" y1="23.455" x2="30.605" y2="22.555" width="0" layer="19" extent="1-1"/>
+<wire x1="32.905" y1="23.455" x2="31.755" y2="23.455" width="0" layer="19" extent="1-1"/>
+<wire x1="33.955" y1="23.405" x2="32.905" y2="23.455" width="0" layer="19" extent="1-1"/>
+<wire x1="34.905" y1="23.455" x2="33.955" y2="23.405" width="0" layer="19" extent="1-1"/>
+<wire x1="35.955" y1="23.405" x2="34.905" y2="23.455" width="0" layer="19" extent="1-1"/>
+<wire x1="36.705" y1="23.455" x2="35.955" y2="23.405" width="0" layer="19" extent="1-1"/>
+<wire x1="36.805" y1="24.555" x2="36.705" y2="23.455" width="0" layer="19" extent="1-1"/>
+<wire x1="36.705" y1="25.855" x2="36.805" y2="24.555" width="0" layer="19" extent="1-1"/>
+<wire x1="35.205" y1="25.905" x2="36.705" y2="25.855" width="0" layer="19" extent="1-1"/>
+<wire x1="34.155" y1="26.455" x2="35.205" y2="25.905" width="0" layer="19" extent="1-1"/>
+<wire x1="34.105" y1="27.505" x2="34.155" y2="26.455" width="0" layer="19" extent="1-1"/>
+<wire x1="34.105" y1="28.555" x2="34.105" y2="27.505" width="0" layer="19" extent="1-1"/>
+<wire x1="34.105" y1="29.705" x2="34.105" y2="28.555" width="0" layer="19" extent="1-1"/>
+<wire x1="35.005" y1="31.255" x2="34.105" y2="29.705" width="0" layer="19" extent="1-1"/>
+<wire x1="38.705" y1="24.555" x2="36.805" y2="24.555" width="0" layer="19" extent="1-1"/>
+<wire x1="36.51" y1="27.97" x2="36.705" y2="25.855" width="0" layer="19" extent="1-1"/>
+<wire x1="37.78" y1="27.97" x2="36.51" y2="27.97" width="0" layer="19" extent="1-1"/>
+<wire x1="37.78" y1="29.24" x2="37.78" y2="27.97" width="0" layer="19" extent="1-1"/>
+<wire x1="36.51" y1="29.24" x2="36.51" y2="27.97" width="0" layer="19" extent="1-1"/>
+<wire x1="35.605" y1="21.255" x2="35.955" y2="23.405" width="0" layer="19" extent="1-1"/>
+<wire x1="35.605" y1="20.155" x2="35.605" y2="21.255" width="0" layer="19" extent="1-1"/>
+<wire x1="35.605" y1="19.055" x2="35.605" y2="20.155" width="0" layer="19" extent="1-1"/>
+<wire x1="46.805" y1="25.205" x2="47.5861875" y2="22.77306875" width="0" layer="19" extent="1-1"/>
+<wire x1="45.855" y1="25.205" x2="46.805" y2="25.205" width="0" layer="19" extent="1-1"/>
+<wire x1="47.555" y1="25.855" x2="46.805" y2="25.205" width="0" layer="19" extent="1-1"/>
+<wire x1="47.605" y1="26.955" x2="47.555" y2="25.855" width="0" layer="19" extent="1-1"/>
+<wire x1="47.555" y1="28.155" x2="47.605" y2="26.955" width="0" layer="19" extent="1-1"/>
+<wire x1="47.605" y1="29.255" x2="47.555" y2="28.155" width="0" layer="19" extent="1-1"/>
+<wire x1="47.555" y1="30.505" x2="47.605" y2="29.255" width="0" layer="19" extent="1-1"/>
+<wire x1="46.805" y1="31.355" x2="47.555" y2="30.505" width="0" layer="19" extent="1-1"/>
+<wire x1="44.655" y1="24.555" x2="45.855" y2="25.205" width="0" layer="19" extent="1-1"/>
+<wire x1="21.7" y1="11.8" x2="27.155" y2="12.805" width="0" layer="19" extent="1-1"/>
+<wire x1="17.6" y1="7.7" x2="21.7" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="19.23" y1="5.768" x2="17.6" y2="7.7" width="0" layer="19" extent="1-1"/>
+<wire x1="20.5" y1="5.768" x2="19.23" y2="5.768" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="3.9" x2="20.5" y2="3.85" width="0" layer="19" extent="1-1"/>
+<wire x1="24" y1="5.7" x2="23.04" y2="5.768" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="1" x2="23" y2="3.9" width="0" layer="19" extent="1-1"/>
+<wire x1="17" y1="1" x2="19.14" y2="3.85" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="1" x2="41" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="1" x2="23" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="16.123" y1="14" x2="21.7" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="16.123" y1="15.5" x2="16.123" y2="14" width="0" layer="19" extent="1-1"/>
+<wire x1="13.51" y1="20.41" x2="15" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="17.7" y1="21.7" x2="13.51" y2="20.41" width="0" layer="19" extent="1-1"/>
+<wire x1="21.7" y1="21.9" x2="17.7" y2="21.7" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="24.5" x2="21.7" y2="21.9" width="0" layer="19" extent="1-1"/>
+<wire x1="21.3" y1="19.2" x2="21.7" y2="21.9" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="29.5" x2="22" y2="24.5" width="0" layer="19" extent="1-1"/>
+<wire x1="22.1" y1="32.2" x2="22" y2="29.5" width="0" layer="19" extent="1-1"/>
+<wire x1="17.7" y1="27.7" x2="22" y2="29.5" width="0" layer="19" extent="1-1"/>
+<wire x1="12" y1="27" x2="17.7" y2="27.7" width="0" layer="19" extent="1-1"/>
+<wire x1="6.8" y1="17.4" x2="13.51" y2="20.41" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="16" x2="6.8" y2="17.4" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="22" x2="1" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="28" x2="1" y2="22" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="34" x2="1" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="40" x2="1" y2="34" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="46" x2="1" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="52" x2="1" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="6" y1="52" x2="1" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="11.05" y1="52.07" x2="6" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="12.4" y1="57.3" x2="11.05" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="12.5" y1="59.1" x2="12.4" y2="57.3" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="58" x2="1" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="64" x2="1" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="70" x2="1" y2="64" width="0" layer="19" extent="1-1"/>
+<wire x1="6" y1="69" x2="1" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="11.2" y1="67.7" x2="6" y2="69" width="0" layer="19" extent="1-1"/>
+<wire x1="12.4" y1="68.6" x2="11.2" y2="67.7" width="0" layer="19" extent="1-1"/>
+<wire x1="12.4" y1="69.623" x2="12.4" y2="68.6" width="0" layer="19" extent="1-1"/>
+<wire x1="13.967" y1="73.015" x2="12.4" y2="69.623" width="0" layer="19" extent="1-1"/>
+<wire x1="16.253" y1="72.365" x2="15.1" y2="72.7" width="0" layer="19" extent="1-1"/>
+<wire x1="16.253" y1="71.715" x2="16.253" y2="72.365" width="0" layer="19" extent="1-1"/>
+<wire x1="16.2" y1="71.1" x2="16.253" y2="71.715" width="0" layer="19" extent="1-1"/>
+<wire x1="14.21" y1="75.09" x2="13.967" y2="73.015" width="0" layer="19" extent="1-1"/>
+<wire x1="14.3" y1="75.8" x2="14.21" y2="75.09" width="0" layer="19" extent="1-1"/>
+<wire x1="14.35" y1="77.1" x2="14.3" y2="75.8" width="0" layer="19" extent="1-1"/>
+<wire x1="14.3" y1="78.4" x2="14.35" y2="77.1" width="0" layer="19" extent="1-1"/>
+<wire x1="20.2" y1="72" x2="17.2" y2="71.7" width="0" layer="19" extent="1-1"/>
+<wire x1="22.8" y1="75.4" x2="20.2" y2="72" width="0" layer="19" extent="1-1"/>
+<wire x1="25.3" y1="75.4" x2="22.8" y2="75.4" width="0" layer="19" extent="1-1"/>
+<wire x1="25.5" y1="76.1" x2="25.3" y2="75.4" width="0" layer="19" extent="1-1"/>
+<wire x1="26.1" y1="76.3" x2="25.5" y2="76.1" width="0" layer="19" extent="1-1"/>
+<wire x1="26.1" y1="75.4" x2="25.3" y2="75.4" width="0" layer="19" extent="1-1"/>
+<wire x1="25.6" y1="73.3" x2="25.3" y2="75.4" width="0" layer="19" extent="1-1"/>
+<wire x1="26.725" y1="73.275" x2="25.6" y2="73.3" width="0" layer="19" extent="1-1"/>
+<wire x1="26.92" y1="70.785" x2="26.725" y2="71.325" width="0" layer="19" extent="1-1"/>
+<wire x1="30.4" y1="69.8" x2="29.675" y2="70.325" width="0" layer="19" extent="1-1"/>
+<wire x1="27.7" y1="71.3" x2="26.92" y2="70.785" width="0" layer="19" extent="1-1"/>
+<wire x1="29.7" y1="71.3" x2="30.675" y2="71.325" width="0" layer="19" extent="1-1"/>
+<wire x1="27.7" y1="73.3" x2="26.725" y2="73.275" width="0" layer="19" extent="1-1"/>
+<wire x1="25.6" y1="71.3" x2="26.725" y2="71.325" width="0" layer="19" extent="1-1"/>
+<wire x1="25.6" y1="71.9" x2="25.6" y2="71.3" width="0" layer="19" extent="1-1"/>
+<wire x1="31.5" y1="70.5" x2="30.675" y2="71.325" width="0" layer="19" extent="1-1"/>
+<wire x1="32.6" y1="70.5" x2="31.5" y2="70.5" width="0" layer="19" extent="1-1"/>
+<wire x1="32" y1="69.5" x2="32.6" y2="69.5" width="0" layer="19" extent="1-1"/>
+<wire x1="33.7" y1="70.5" x2="32.6" y2="70.5" width="0" layer="19" extent="1-1"/>
+<wire x1="33.1" y1="68.5" x2="32" y2="68.5" width="0" layer="19" extent="1-1"/>
+<wire x1="30.9" y1="68.5" x2="32" y2="68.5" width="0" layer="19" extent="1-1"/>
+<wire x1="29.7" y1="73.3" x2="29.025" y2="74.275" width="0" layer="19" extent="1-1"/>
+<wire x1="36.9" y1="71.5" x2="33.7" y2="70.5" width="0" layer="19" extent="1-1"/>
+<wire x1="36.9" y1="72.2" x2="36.9" y2="71.5" width="0" layer="19" extent="1-1"/>
+<wire x1="40.7" y1="71.8" x2="36.9" y2="71.5" width="0" layer="19" extent="1-1"/>
+<wire x1="40.9" y1="72.6" x2="40.7" y2="71.8" width="0" layer="19" extent="1-1"/>
+<wire x1="41.8" y1="73.8" x2="40.9" y2="72.6" width="0" layer="19" extent="1-1"/>
+<wire x1="40.9" y1="75" x2="41.8" y2="73.8" width="0" layer="19" extent="1-1"/>
+<wire x1="40.7" y1="75.9" x2="40.9" y2="75" width="0" layer="19" extent="1-1"/>
+<wire x1="42.7" y1="75" x2="41.8" y2="73.8" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="76" x2="42.7" y2="75" width="0" layer="19" extent="1-1"/>
+<wire x1="42.7" y1="72.6" x2="41.8" y2="73.8" width="0" layer="19" extent="1-1"/>
+<wire x1="43.2" y1="71.9" x2="42.7" y2="72.6" width="0" layer="19" extent="1-1"/>
+<wire x1="44.675" y1="71.895" x2="43.2" y2="71.9" width="0" layer="19" extent="1-1"/>
+<wire x1="44.7" y1="72.5" x2="44.675" y2="71.895" width="0" layer="19" extent="1-1"/>
+<wire x1="44.7" y1="71.2" x2="44.675" y2="71.895" width="0" layer="19" extent="1-1"/>
+<wire x1="46.9" y1="73.2" x2="46.2" y2="71.9" width="0" layer="19" extent="1-1"/>
+<wire x1="48.7" y1="72.7" x2="46.9" y2="73.2" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="70" x2="43.2" y2="71.9" width="0" layer="19" extent="1-1"/>
+<wire x1="43.3" y1="69.3" x2="42.5" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="41.7" y1="69.3" x2="42.5" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="68.6" x2="43.3" y2="69.3" width="0" layer="19" extent="1-1"/>
+<wire x1="42.5" y1="66.6" x2="42.5" y2="68.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5" y1="65.6" x2="42.5" y2="66.6" width="0" layer="19" extent="1-1"/>
+<wire x1="40.3656" y1="65.625" x2="41.5" y2="65.6" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="63.9" x2="41.5" y2="65.6" width="0" layer="19" extent="1-1"/>
+<wire x1="43.7" y1="63.9" x2="43" y2="63.9" width="0" layer="19" extent="1-1"/>
+<wire x1="51.8" y1="72.8" x2="48.7" y2="72.7" width="0" layer="19" extent="1-1"/>
+<wire x1="53.1" y1="73" x2="51.8" y2="72.8" width="0" layer="19" extent="1-1"/>
+<wire x1="55" y1="75.1" x2="53.1" y2="73" width="0" layer="19" extent="1-1"/>
+<wire x1="56.71" y1="74.055" x2="55" y2="75.1" width="0" layer="19" extent="1-1"/>
+<wire x1="56.3" y1="76.8" x2="55" y2="75.1" width="0" layer="19" extent="1-1"/>
+<wire x1="53.6" y1="76.7" x2="55" y2="75.1" width="0" layer="19" extent="1-1"/>
+<wire x1="58.7" y1="76.5" x2="56.3" y2="76.8" width="0" layer="19" extent="1-1"/>
+<wire x1="59.18" y1="74.42" x2="58.7" y2="76.5" width="0" layer="19" extent="1-1"/>
+<wire x1="51.2" y1="76.2" x2="53.6" y2="76.7" width="0" layer="19" extent="1-1"/>
+<wire x1="60.8" y1="77.8" x2="58.7" y2="76.5" width="0" layer="19" extent="1-1"/>
+<wire x1="42.89" y1="79.55" x2="43" y2="76" width="0" layer="19" extent="1-1"/>
+<wire x1="64.39" y1="77.71" x2="60.8" y2="77.8" width="0" layer="19" extent="1-1"/>
+<wire x1="66.93" y1="77.71" x2="64.39" y2="77.71" width="0" layer="19" extent="1-1"/>
+<wire x1="66.93" y1="75.17" x2="66.93" y2="77.71" width="0" layer="19" extent="1-1"/>
+<wire x1="64.39" y1="75.17" x2="64.39" y2="77.71" width="0" layer="19" extent="1-1"/>
+<wire x1="40.6" y1="82.4" x2="42.89" y2="79.55" width="0" layer="19" extent="1-1"/>
+<wire x1="61.07" y1="71.015" x2="59.18" y2="74.42" width="0" layer="19" extent="1-1"/>
+<wire x1="59.03" y1="69.71" x2="61.07" y2="71.015" width="0" layer="19" extent="1-1"/>
+<wire x1="58.6" y1="67.85" x2="59.03" y2="68.69" width="0" layer="19" extent="1-1"/>
+<wire x1="58.55" y1="66.39" x2="58.6" y2="67.85" width="0" layer="19" extent="1-1"/>
+<wire x1="57.6" y1="66.6" x2="58.55" y2="66.39" width="0" layer="19" extent="1-1"/>
+<wire x1="55.4" y1="65.8" x2="57.6" y2="66.6" width="0" layer="19" extent="1-1"/>
+<wire x1="62.41" y1="66.45" x2="62.4" y2="67.26" width="0" layer="19" extent="1-1"/>
+<wire x1="50.177" y1="68.2" x2="48.7" y2="72" width="0" layer="19" extent="1-1"/>
+<wire x1="51.2" y1="68.2" x2="50.177" y2="68.2" width="0" layer="19" extent="1-1"/>
+<wire x1="47.1" y1="67.1" x2="50.177" y2="68.2" width="0" layer="19" extent="1-1"/>
+<wire x1="70.5" y1="80.525" x2="66.93" y2="77.71" width="0" layer="19" extent="1-1"/>
+<wire x1="70.525" y1="82.2" x2="70.5" y2="80.525" width="0" layer="19" extent="1-1"/>
+<wire x1="70.525" y1="83.9" x2="70.525" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="73.275" y1="83.875" x2="70.525" y2="83.9" width="0" layer="19" extent="1-1"/>
+<wire x1="73.275" y1="82.2" x2="73.275" y2="83.875" width="0" layer="19" extent="1-1"/>
+<wire x1="75.475" y1="82.225" x2="74.325" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="76.525" y1="83.85" x2="76.525" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="73.275" y1="80.5" x2="73.275" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="76.5" y1="80.45" x2="76.525" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="79.275" y1="83.9" x2="76.525" y2="83.85" width="0" layer="19" extent="1-1"/>
+<wire x1="79.275" y1="82.2" x2="79.275" y2="83.9" width="0" layer="19" extent="1-1"/>
+<wire x1="81.425" y1="82.2" x2="80.25" y2="82.175" width="0" layer="19" extent="1-1"/>
+<wire x1="82.55" y1="83.9" x2="82.525" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="82.5" y1="80.475" x2="82.525" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="79.275" y1="80.475" x2="79.275" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="85.25" y1="83.875" x2="82.55" y2="83.9" width="0" layer="19" extent="1-1"/>
+<wire x1="85.275" y1="82.2" x2="85.25" y2="83.875" width="0" layer="19" extent="1-1"/>
+<wire x1="85.275" y1="80.475" x2="85.275" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="85.932" y1="88.922" x2="85.678" y2="85.62" width="0" layer="19" extent="1-16"/>
+<wire x1="81.868" y1="88.922" x2="82.122" y2="85.62" width="0" layer="19" extent="1-16"/>
+<wire x1="79.932" y1="88.922" x2="81.868" y2="88.922" width="0" layer="19" extent="16-16"/>
+<wire x1="73.932" y1="88.922" x2="73.678" y2="85.62" width="0" layer="19" extent="1-16"/>
+<wire x1="75.868" y1="88.922" x2="73.932" y2="88.922" width="0" layer="19" extent="16-16"/>
+<wire x1="69.868" y1="88.922" x2="70.122" y2="85.62" width="0" layer="19" extent="1-16"/>
+<wire x1="28.9" y1="64" x2="30.9" y2="68.5" width="0" layer="19" extent="1-1"/>
+<wire x1="21.8" y1="67.1" x2="20.2" y2="72" width="0" layer="19" extent="1-1"/>
+<wire x1="20.6" y1="66.5" x2="21.8" y2="67.1" width="0" layer="19" extent="1-1"/>
+<wire x1="39.105" y1="87.359" x2="40.6" y2="82.4" width="0" layer="19" extent="1-1"/>
+<wire x1="39.105" y1="88.629" x2="39.105" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="42.915" y1="88.629" x2="39.105" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="44.185" y1="88.629" x2="42.915" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="44.185" y1="87.359" x2="44.185" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="45.455" y1="88.629" x2="44.185" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="45.455" y1="87.359" x2="44.185" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="42.915" y1="87.359" x2="42.915" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="33.3" y1="77.3" x2="29.025" y2="74.275" width="0" layer="19" extent="1-1"/>
+<wire x1="34" y1="77.3" x2="33.3" y2="77.3" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="80.3" x2="34" y2="77.3" width="0" layer="19" extent="1-1"/>
+<wire x1="35.2" y1="82.5" x2="35" y2="80.3" width="0" layer="19" extent="1-1"/>
+<wire x1="22" y1="61.3" x2="20.6" y2="66.5" width="0" layer="19" extent="1-1"/>
+<wire x1="55.1" y1="59.9" x2="55.4" y2="65.8" width="0" layer="19" extent="1-1"/>
+<wire x1="56.85" y1="59.6" x2="55.1" y2="59.9" width="0" layer="19" extent="1-1"/>
+<wire x1="53.4" y1="58.6" x2="55.1" y2="59.9" width="0" layer="19" extent="1-1"/>
+<wire x1="59.9" y1="59.1" x2="56.85" y2="59.6" width="0" layer="19" extent="1-1"/>
+<wire x1="60.04" y1="58.11" x2="59.9" y2="59.1" width="0" layer="19" extent="1-1"/>
+<wire x1="60.04" y1="57.27" x2="60.04" y2="58.11" width="0" layer="19" extent="1-1"/>
+<wire x1="59.08" y1="57.27" x2="60.04" y2="57.27" width="0" layer="19" extent="1-1"/>
+<wire x1="62.72" y1="57.68" x2="60.04" y2="57.27" width="0" layer="19" extent="1-1"/>
+<wire x1="62.78" y1="55.5" x2="62.72" y2="57.68" width="0" layer="19" extent="1-1"/>
+<wire x1="62.83" y1="54.2" x2="62.78" y2="55.5" width="0" layer="19" extent="1-1"/>
+<wire x1="61.92" y1="54.03" x2="62.83" y2="54.2" width="0" layer="19" extent="1-1"/>
+<wire x1="61.79" y1="53.25" x2="61.92" y2="54.03" width="0" layer="19" extent="1-1"/>
+<wire x1="63.91" y1="52.52" x2="62.83" y2="54.2" width="0" layer="19" extent="1-1"/>
+<wire x1="59.585" y1="54.125" x2="61.92" y2="54.03" width="0" layer="19" extent="1-1"/>
+<wire x1="58.2" y1="54.2" x2="59.585" y2="54.125" width="0" layer="19" extent="1-1"/>
+<wire x1="50.735" y1="56.475" x2="53.4" y2="58.6" width="0" layer="19" extent="1-1"/>
+<wire x1="53.15" y1="53.53" x2="51.72" y2="54.68" width="0" layer="19" extent="1-1"/>
+<wire x1="49.25" y1="58.62" x2="50.735" y2="56.475" width="0" layer="19" extent="1-1"/>
+<wire x1="48.14" y1="58.37" x2="49.25" y2="58.62" width="0" layer="19" extent="1-1"/>
+<wire x1="46.7" y1="56.3" x2="48.14" y2="58.37" width="0" layer="19" extent="1-1"/>
+<wire x1="45.9" y1="54.7" x2="46.7" y2="55.5" width="0" layer="19" extent="1-1"/>
+<wire x1="44.075" y1="51.775" x2="45.325" y2="53.425" width="0" layer="19" extent="1-1"/>
+<wire x1="44.03" y1="48.58" x2="43.4" y2="50.2" width="0" layer="19" extent="1-1"/>
+<wire x1="44.91" y1="48.58" x2="44.03" y2="48.58" width="0" layer="19" extent="1-1"/>
+<wire x1="47.1" y1="49.2" x2="44.91" y2="48.58" width="0" layer="19" extent="1-1"/>
+<wire x1="48.385" y1="49.125" x2="47.1" y2="49.2" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="61" x2="49.25" y2="58.62" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="61.7" x2="50.5" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="51.3" y1="46.6" x2="49.6" y2="49.3" width="0" layer="19" extent="1-1"/>
+<wire x1="50.735" y1="45.275" x2="51.3" y2="46.6" width="0" layer="19" extent="1-1"/>
+<wire x1="49.66" y1="43.8" x2="50.7" y2="44" width="0" layer="19" extent="1-1"/>
+<wire x1="49.95" y1="42.57" x2="49.66" y2="43.8" width="0" layer="19" extent="1-1"/>
+<wire x1="49" y1="41" x2="49.95" y2="41.65" width="0" layer="19" extent="1-1"/>
+<wire x1="52.01" y1="39.05" x2="49.95" y2="41.65" width="0" layer="19" extent="1-1"/>
+<wire x1="54.71" y1="39.05" x2="52.01" y2="39.05" width="0" layer="19" extent="1-1"/>
+<wire x1="66.287059375" y1="56.80450625" x2="62.72" y2="57.68" width="0" layer="19" extent="1-1"/>
+<wire x1="67.111290625" y1="55.488965625" x2="66.287059375" y2="56.80450625" width="0" layer="19" extent="1-1"/>
+<wire x1="68.066984375" y1="54.461034375" x2="67.111290625" y2="55.488965625" width="0" layer="19" extent="1-1"/>
+<wire x1="69.05633125" y1="54.49558125" x2="68.066984375" y2="54.461034375" width="0" layer="19" extent="1-1"/>
+<wire x1="70.1188125" y1="54.46193125" x2="69.05633125" y2="54.49558125" width="0" layer="19" extent="1-1"/>
+<wire x1="71.014946875" y1="54.7907625" x2="70.1188125" y2="54.46193125" width="0" layer="19" extent="1-1"/>
+<wire x1="71.54935625" y1="55.466646875" x2="71.014946875" y2="54.7907625" width="0" layer="19" extent="1-1"/>
+<wire x1="69.12" y1="55.625" x2="69.05633125" y2="54.49558125" width="0" layer="19" extent="1-1"/>
+<wire x1="72.70075625" y1="55.508484375" x2="71.54935625" y2="55.466646875" width="0" layer="19" extent="1-1"/>
+<wire x1="68.563228125" y1="56.67946875" x2="69.12" y2="55.625" width="0" layer="19" extent="1-1"/>
+<wire x1="68.528678125" y1="57.448815625" x2="68.563228125" y2="56.67946875" width="0" layer="19" extent="1-1"/>
+<wire x1="69.12" y1="58.375" x2="68.528678125" y2="57.448815625" width="0" layer="19" extent="1-1"/>
+<wire x1="69.0199875" y1="59.588584375" x2="69.12" y2="58.375" width="0" layer="19" extent="1-1"/>
+<wire x1="68.030640625" y1="59.5540375" x2="69.0199875" y2="59.588584375" width="0" layer="19" extent="1-1"/>
+<wire x1="70.15066875" y1="59.62806875" x2="69.0199875" y2="59.588584375" width="0" layer="19" extent="1-1"/>
+<wire x1="70.95" y1="59.48" x2="70.15066875" y2="59.62806875" width="0" layer="19" extent="1-1"/>
+<wire x1="70.562478125" y1="60.515903125" x2="70.15066875" y2="59.62806875" width="0" layer="19" extent="1-1"/>
+<wire x1="71.85" y1="60.34" x2="70.95" y2="59.48" width="0" layer="19" extent="1-1"/>
+<wire x1="72.355025" y1="61.045025" x2="71.85" y2="60.34" width="0" layer="19" extent="1-1"/>
+<wire x1="73.25" y1="60.54" x2="72.355025" y2="61.045025" width="0" layer="19" extent="1-1"/>
+<wire x1="72.7" y1="59.58" x2="73.25" y2="60.54" width="0" layer="19" extent="1-1"/>
+<wire x1="73.4" y1="59.18" x2="72.7" y2="59.58" width="0" layer="19" extent="1-1"/>
+<wire x1="73.37" y1="58.35" x2="73.4" y2="59.18" width="0" layer="19" extent="1-1"/>
+<wire x1="67.080778125" y1="58.38880625" x2="68.030640625" y2="59.5540375" width="0" layer="19" extent="1-1"/>
+<wire x1="72.3" y1="62.88" x2="72.355025" y2="61.045025" width="0" layer="19" extent="1-1"/>
+<wire x1="71" y1="62.88" x2="72.3" y2="62.88" width="0" layer="19" extent="1-1"/>
+<wire x1="70.15" y1="63.78" x2="71" y2="62.88" width="0" layer="19" extent="1-1"/>
+<wire x1="69.3" y1="64.58" x2="70.15" y2="63.78" width="0" layer="19" extent="1-1"/>
+<wire x1="70.937728125" y1="64.657728125" x2="70.15" y2="63.78" width="0" layer="19" extent="1-1"/>
+<wire x1="71.2" y1="65.68" x2="70.937728125" y2="64.657728125" width="0" layer="19" extent="1-1"/>
+<wire x1="71.9" y1="66.28" x2="71.2" y2="65.68" width="0" layer="19" extent="1-1"/>
+<wire x1="72.88226875" y1="66.60226875" x2="71.9" y2="66.28" width="0" layer="19" extent="1-1"/>
+<wire x1="73.7" y1="67.28" x2="72.88226875" y2="66.60226875" width="0" layer="19" extent="1-1"/>
+<wire x1="73" y1="67.98" x2="73.7" y2="67.28" width="0" layer="19" extent="1-1"/>
+<wire x1="74.5" y1="66.48" x2="73.7" y2="67.28" width="0" layer="19" extent="1-1"/>
+<wire x1="74.6" y1="65.28" x2="74.5" y2="66.48" width="0" layer="19" extent="1-1"/>
+<wire x1="74.95" y1="64.61" x2="74.6" y2="65.28" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6" y1="64.28" x2="74.95" y2="64.61" width="0" layer="19" extent="1-1"/>
+<wire x1="75.4" y1="67.38" x2="74.5" y2="66.48" width="0" layer="19" extent="1-1"/>
+<wire x1="75.7" y1="66.08" x2="74.5" y2="66.48" width="0" layer="19" extent="1-1"/>
+<wire x1="69.6" y1="65.88" x2="69.3" y2="64.58" width="0" layer="19" extent="1-1"/>
+<wire x1="71.6" y1="67.98" x2="73" y2="67.98" width="0" layer="19" extent="1-1"/>
+<wire x1="74.3" y1="68.88" x2="73" y2="67.98" width="0" layer="19" extent="1-1"/>
+<wire x1="74.3" y1="69.98" x2="74.3" y2="68.88" width="0" layer="19" extent="1-1"/>
+<wire x1="74.3" y1="70.98" x2="74.3" y2="69.98" width="0" layer="19" extent="1-1"/>
+<wire x1="75.435" y1="70.07" x2="74.3" y2="69.98" width="0" layer="19" extent="1-1"/>
+<wire x1="76.3" y1="70.68" x2="75.435" y2="70.07" width="0" layer="19" extent="1-1"/>
+<wire x1="77.3" y1="70.68" x2="76.3" y2="70.68" width="0" layer="19" extent="1-1"/>
+<wire x1="78.185" y1="70.07" x2="77.3" y2="70.68" width="0" layer="19" extent="1-1"/>
+<wire x1="79.3" y1="69.98" x2="78.185" y2="70.07" width="0" layer="19" extent="1-1"/>
+<wire x1="79.3" y1="70.98" x2="79.3" y2="69.98" width="0" layer="19" extent="1-1"/>
+<wire x1="79.3" y1="68.88" x2="79.3" y2="69.98" width="0" layer="19" extent="1-1"/>
+<wire x1="78.2" y1="71.98" x2="79.3" y2="70.98" width="0" layer="19" extent="1-1"/>
+<wire x1="75.4" y1="71.98" x2="74.3" y2="70.98" width="0" layer="19" extent="1-1"/>
+<wire x1="76.8" y1="72.58" x2="78.2" y2="71.98" width="0" layer="19" extent="1-1"/>
+<wire x1="70.1" y1="67.38" x2="69.6" y2="65.88" width="0" layer="19" extent="1-1"/>
+<wire x1="78.2" y1="67.48" x2="79.3" y2="68.88" width="0" layer="19" extent="1-1"/>
+<wire x1="78.2" y1="66.48" x2="78.2" y2="67.48" width="0" layer="19" extent="1-1"/>
+<wire x1="78.2" y1="65.48" x2="78.2" y2="66.48" width="0" layer="19" extent="1-1"/>
+<wire x1="79.4" y1="65.48" x2="78.2" y2="65.48" width="0" layer="19" extent="1-1"/>
+<wire x1="79.45" y1="66.38" x2="79.4" y2="65.48" width="0" layer="19" extent="1-1"/>
+<wire x1="79.5" y1="64.43" x2="79.4" y2="65.48" width="0" layer="19" extent="1-1"/>
+<wire x1="78.75" y1="63.48" x2="79.35" y2="63.53" width="0" layer="19" extent="1-1"/>
+<wire x1="78.5" y1="62.68" x2="78.75" y2="63.48" width="0" layer="19" extent="1-1"/>
+<wire x1="78.3" y1="62" x2="78.5" y2="62.68" width="0" layer="19" extent="1-1"/>
+<wire x1="77.95" y1="61.08" x2="78.3" y2="62" width="0" layer="19" extent="1-1"/>
+<wire x1="77.61" y1="58.03" x2="77.62" y2="59.05" width="0" layer="19" extent="1-1"/>
+<wire x1="76.55" y1="57.98" x2="77.61" y2="58.03" width="0" layer="19" extent="1-1"/>
+<wire x1="76.54" y1="58" x2="76.55" y2="57.98" width="0" layer="19" extent="1-1"/>
+<wire x1="76.53" y1="59.04" x2="76.54" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="76.56" y1="56.94" x2="76.55" y2="57.98" width="0" layer="19" extent="1-1"/>
+<wire x1="75.5" y1="57.97" x2="76.54" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="75.5" y1="56.94" x2="75.5" y2="57.97" width="0" layer="19" extent="1-1"/>
+<wire x1="77.61" y1="56.96" x2="77.61" y2="58.03" width="0" layer="19" extent="1-1"/>
+<wire x1="75.48" y1="59.04" x2="76.53" y2="59.04" width="0" layer="19" extent="1-1"/>
+<wire x1="79.4" y1="61.68" x2="78.3" y2="62" width="0" layer="19" extent="1-1"/>
+<wire x1="80.15" y1="62.63" x2="79.35" y2="63.53" width="0" layer="19" extent="1-1"/>
+<wire x1="81.125" y1="63.005" x2="80.15" y2="62.63" width="0" layer="19" extent="1-1"/>
+<wire x1="81.95" y1="62.98" x2="81.125" y2="63.005" width="0" layer="19" extent="1-1"/>
+<wire x1="81.15" y1="63.98" x2="81.125" y2="63.005" width="0" layer="19" extent="1-1"/>
+<wire x1="82.05" y1="63.98" x2="81.15" y2="63.98" width="0" layer="19" extent="1-1"/>
+<wire x1="82.85" y1="63.98" x2="82.05" y2="63.98" width="0" layer="19" extent="1-1"/>
+<wire x1="83.7" y1="64.03" x2="82.85" y2="63.98" width="0" layer="19" extent="1-1"/>
+<wire x1="84.55" y1="64.03" x2="83.7" y2="64.03" width="0" layer="19" extent="1-1"/>
+<wire x1="84.55" y1="65.13" x2="84.55" y2="64.03" width="0" layer="19" extent="1-1"/>
+<wire x1="85.2" y1="65.98" x2="84.55" y2="65.13" width="0" layer="19" extent="1-1"/>
+<wire x1="86.2" y1="65.93" x2="85.2" y2="65.98" width="0" layer="19" extent="1-1"/>
+<wire x1="87.1" y1="65.93" x2="86.2" y2="65.93" width="0" layer="19" extent="1-1"/>
+<wire x1="88" y1="65.93" x2="87.1" y2="65.93" width="0" layer="19" extent="1-1"/>
+<wire x1="88.6" y1="65.43" x2="88" y2="65.93" width="0" layer="19" extent="1-1"/>
+<wire x1="88.75" y1="64.53" x2="88.6" y2="65.43" width="0" layer="19" extent="1-1"/>
+<wire x1="89.6" y1="64.48" x2="88.75" y2="64.53" width="0" layer="19" extent="1-1"/>
+<wire x1="90.55" y1="64.43" x2="89.6" y2="64.48" width="0" layer="19" extent="1-1"/>
+<wire x1="90.7" y1="63.48" x2="90.55" y2="64.43" width="0" layer="19" extent="1-1"/>
+<wire x1="87.7" y1="64.68" x2="88.75" y2="64.53" width="0" layer="19" extent="1-1"/>
+<wire x1="90.7" y1="62.43" x2="90.7" y2="63.48" width="0" layer="19" extent="1-1"/>
+<wire x1="89.8" y1="62.03" x2="90.7" y2="62.43" width="0" layer="19" extent="1-1"/>
+<wire x1="89.75" y1="61.28" x2="89.8" y2="62.03" width="0" layer="19" extent="1-1"/>
+<wire x1="90.55" y1="61.33" x2="89.75" y2="61.28" width="0" layer="19" extent="1-1"/>
+<wire x1="89.15" y1="60.73" x2="89.75" y2="61.28" width="0" layer="19" extent="1-1"/>
+<wire x1="89.2" y1="59.93" x2="89.15" y2="60.73" width="0" layer="19" extent="1-1"/>
+<wire x1="89.15" y1="59.18" x2="89.2" y2="59.93" width="0" layer="19" extent="1-1"/>
+<wire x1="89.15" y1="58.33" x2="89.15" y2="59.18" width="0" layer="19" extent="1-1"/>
+<wire x1="89.1" y1="57.48" x2="89.15" y2="58.33" width="0" layer="19" extent="1-1"/>
+<wire x1="88.75" y1="56.43" x2="89.1" y2="57.48" width="0" layer="19" extent="1-1"/>
+<wire x1="87.9" y1="55.58" x2="88.75" y2="56.43" width="0" layer="19" extent="1-1"/>
+<wire x1="86.8" y1="63.48" x2="86.9" y2="64.68" width="0" layer="19" extent="1-1"/>
+<wire x1="86.8" y1="62.48" x2="86.8" y2="63.48" width="0" layer="19" extent="1-1"/>
+<wire x1="86.8" y1="61.48" x2="86.8" y2="62.48" width="0" layer="19" extent="1-1"/>
+<wire x1="87.1" y1="54.68" x2="87.9" y2="55.58" width="0" layer="19" extent="1-1"/>
+<wire x1="85.95" y1="53.78" x2="87.1" y2="54.68" width="0" layer="19" extent="1-1"/>
+<wire x1="84.8" y1="53.78" x2="85.95" y2="53.78" width="0" layer="19" extent="1-1"/>
+<wire x1="83.75" y1="53.83" x2="84.8" y2="53.78" width="0" layer="19" extent="1-1"/>
+<wire x1="82.8" y1="53.78" x2="83.75" y2="53.83" width="0" layer="19" extent="1-1"/>
+<wire x1="81.75" y1="53.83" x2="82.8" y2="53.78" width="0" layer="19" extent="1-1"/>
+<wire x1="81" y1="53.78" x2="81.75" y2="53.83" width="0" layer="19" extent="1-1"/>
+<wire x1="80.9" y1="52.68" x2="81" y2="53.78" width="0" layer="19" extent="1-1"/>
+<wire x1="81" y1="51.38" x2="80.9" y2="52.68" width="0" layer="19" extent="1-1"/>
+<wire x1="82.5" y1="51.33" x2="81" y2="51.38" width="0" layer="19" extent="1-1"/>
+<wire x1="83.55" y1="50.78" x2="82.5" y2="51.33" width="0" layer="19" extent="1-1"/>
+<wire x1="83.6" y1="49.73" x2="83.55" y2="50.78" width="0" layer="19" extent="1-1"/>
+<wire x1="83.6" y1="48.68" x2="83.6" y2="49.73" width="0" layer="19" extent="1-1"/>
+<wire x1="83.6" y1="47.53" x2="83.6" y2="48.68" width="0" layer="19" extent="1-1"/>
+<wire x1="78.8" y1="55.78" x2="77.61" y2="56.96" width="0" layer="19" extent="1-1"/>
+<wire x1="78.8" y1="54.98" x2="78.8" y2="55.78" width="0" layer="19" extent="1-1"/>
+<wire x1="82.7" y1="45.98" x2="83.6" y2="47.53" width="0" layer="19" extent="1-1"/>
+<wire x1="79" y1="52.68" x2="80.9" y2="52.68" width="0" layer="19" extent="1-1"/>
+<wire x1="81.195" y1="49.265" x2="81" y2="51.38" width="0" layer="19" extent="1-1"/>
+<wire x1="79.925" y1="49.265" x2="81.195" y2="49.265" width="0" layer="19" extent="1-1"/>
+<wire x1="79.925" y1="47.995" x2="79.925" y2="49.265" width="0" layer="19" extent="1-1"/>
+<wire x1="81.195" y1="47.995" x2="81.195" y2="49.265" width="0" layer="19" extent="1-1"/>
+<wire x1="82.1" y1="55.98" x2="81.75" y2="53.83" width="0" layer="19" extent="1-1"/>
+<wire x1="83" y1="55.98" x2="82.1" y2="55.98" width="0" layer="19" extent="1-1"/>
+<wire x1="82.1" y1="57.08" x2="82.1" y2="55.98" width="0" layer="19" extent="1-1"/>
+<wire x1="83" y1="57.08" x2="82.1" y2="57.08" width="0" layer="19" extent="1-1"/>
+<wire x1="82.1" y1="58.18" x2="82.1" y2="57.08" width="0" layer="19" extent="1-1"/>
+<wire x1="83" y1="58.18" x2="82.1" y2="58.18" width="0" layer="19" extent="1-1"/>
+<wire x1="83.15" y1="59.28" x2="83" y2="58.18" width="0" layer="19" extent="1-1"/>
+<wire x1="84.36" y1="59.28" x2="83.15" y2="59.28" width="0" layer="19" extent="1-1"/>
+<wire x1="85.54" y1="59.27" x2="84.36" y2="59.28" width="0" layer="19" extent="1-1"/>
+<wire x1="81.35" y1="59.33" x2="82.1" y2="58.18" width="0" layer="19" extent="1-1"/>
+<wire x1="70.9" y1="52.03" x2="70.1188125" y2="54.46193125" width="0" layer="19" extent="1-1"/>
+<wire x1="71.85" y1="52.03" x2="70.9" y2="52.03" width="0" layer="19" extent="1-1"/>
+<wire x1="70.15" y1="51.38" x2="70.9" y2="52.03" width="0" layer="19" extent="1-1"/>
+<wire x1="70.1" y1="50.28" x2="70.15" y2="51.38" width="0" layer="19" extent="1-1"/>
+<wire x1="73.05" y1="52.68" x2="71.85" y2="52.03" width="0" layer="19" extent="1-1"/>
+<wire x1="70.1" y1="47.98" x2="70.1" y2="50.28" width="0" layer="19" extent="1-1"/>
+<wire x1="70.15" y1="46.73" x2="70.1" y2="47.98" width="0" layer="19" extent="1-1"/>
+<wire x1="70.9" y1="45.88" x2="70.15" y2="46.73" width="0" layer="19" extent="1-1"/>
+<wire x1="62.92" y1="61.43" x2="62.72" y2="57.68" width="0" layer="19" extent="1-1"/>
+<wire x1="56.71" y1="50.25" x2="58.2" y2="54.2" width="0" layer="19" extent="1-1"/>
+<wire x1="57.2" y1="46.6" x2="56.71" y2="50.25" width="0" layer="19" extent="1-1"/>
+<wire x1="57.4" y1="43.9" x2="57.235" y2="45.275" width="0" layer="19" extent="1-1"/>
+<wire x1="58.65" y1="43.98" x2="57.4" y2="43.9" width="0" layer="19" extent="1-1"/>
+<wire x1="58.3" y1="42.6" x2="58.65" y2="43.98" width="0" layer="19" extent="1-1"/>
+<wire x1="60.17" y1="44.07" x2="58.65" y2="43.98" width="0" layer="19" extent="1-1"/>
+<wire x1="61.3" y1="40.44" x2="58.31" y2="41.65" width="0" layer="19" extent="1-1"/>
+<wire x1="64.4675" y1="40.44" x2="61.3" y2="40.44" width="0" layer="19" extent="1-1"/>
+<wire x1="67.635" y1="40.44" x2="64.4675" y2="40.44" width="0" layer="19" extent="1-1"/>
+<wire x1="70.8025" y1="40.44" x2="67.635" y2="40.44" width="0" layer="19" extent="1-1"/>
+<wire x1="73.97" y1="40.44" x2="70.8025" y2="40.44" width="0" layer="19" extent="1-1"/>
+<wire x1="61.97" y1="36.86" x2="61.3" y2="40.44" width="0" layer="19" extent="1-1"/>
+<wire x1="65.89" y1="36.04" x2="61.97" y2="36.86" width="0" layer="19" extent="1-1"/>
+<wire x1="67.3" y1="31.7" x2="65.89" y2="36.04" width="0" layer="19" extent="1-1"/>
+<wire x1="66.15" y1="28.85" x2="67.15" y2="29.85" width="0" layer="19" extent="1-1"/>
+<wire x1="67.28" y1="26.86" x2="66.65" y2="26.85" width="0" layer="19" extent="1-1"/>
+<wire x1="67.9" y1="27.3" x2="67.28" y2="26.86" width="0" layer="19" extent="1-1"/>
+<wire x1="67.65" y1="27.85" x2="67.9" y2="27.3" width="0" layer="19" extent="1-1"/>
+<wire x1="67.28" y1="26.01" x2="67.28" y2="26.86" width="0" layer="19" extent="1-1"/>
+<wire x1="66.65" y1="25.85" x2="67.28" y2="26.01" width="0" layer="19" extent="1-1"/>
+<wire x1="68.03" y1="26.01" x2="67.28" y2="26.01" width="0" layer="19" extent="1-1"/>
+<wire x1="68.15" y1="25.35" x2="68.03" y2="26.01" width="0" layer="19" extent="1-1"/>
+<wire x1="68.0038" y1="24.8412" x2="68.15" y2="25.35" width="0" layer="19" extent="1-1"/>
+<wire x1="68.6" y1="26.6" x2="68.03" y2="26.01" width="0" layer="19" extent="1-1"/>
+<wire x1="69.15" y1="26.35" x2="68.6" y2="26.6" width="0" layer="19" extent="1-1"/>
+<wire x1="69.6214" y1="26.643465625" x2="69.15" y2="26.35" width="0" layer="19" extent="1-1"/>
+<wire x1="69.6214" y1="27.59493125" x2="69.6214" y2="26.643465625" width="0" layer="19" extent="1-1"/>
+<wire x1="69.6214" y1="28.346396875" x2="69.6214" y2="27.59493125" width="0" layer="19" extent="1-1"/>
+<wire x1="69.6214" y1="24.892" x2="69.15" y2="26.35" width="0" layer="19" extent="1-1"/>
+<wire x1="66.65" y1="23.85" x2="68.0038" y2="24.8412" width="0" layer="19" extent="1-1"/>
+<wire x1="66.15" y1="23.35" x2="66.65" y2="23.85" width="0" layer="19" extent="1-1"/>
+<wire x1="65.15" y1="23.85" x2="66.15" y2="23.35" width="0" layer="19" extent="1-1"/>
+<wire x1="68.4" y1="22.8" x2="67.16" y2="22.84" width="0" layer="19" extent="1-1"/>
+<wire x1="69.89" y1="22.85" x2="68.4" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="71.7" y1="22.9" x2="69.89" y2="22.85" width="0" layer="19" extent="1-1"/>
+<wire x1="71.7" y1="24.1" x2="71.7" y2="22.9" width="0" layer="19" extent="1-1"/>
+<wire x1="71.7" y1="25.3" x2="71.7" y2="24.1" width="0" layer="19" extent="1-1"/>
+<wire x1="71.7" y1="27.1" x2="71.7" y2="25.3" width="0" layer="19" extent="1-1"/>
+<wire x1="71.7" y1="28.7" x2="71.7" y2="27.1" width="0" layer="19" extent="1-1"/>
+<wire x1="73" y1="28.7" x2="71.7" y2="28.7" width="0" layer="19" extent="1-1"/>
+<wire x1="74.4" y1="28.7" x2="73" y2="28.7" width="0" layer="19" extent="1-1"/>
+<wire x1="75.42" y1="28.71" x2="74.4" y2="28.7" width="0" layer="19" extent="1-1"/>
+<wire x1="71.8" y1="30.6" x2="71.7" y2="28.7" width="0" layer="19" extent="1-1"/>
+<wire x1="70.4" y1="30.6" x2="71.8" y2="30.6" width="0" layer="19" extent="1-1"/>
+<wire x1="68.9" y1="30.6" x2="70.4" y2="30.6" width="0" layer="19" extent="1-1"/>
+<wire x1="63.9" y1="31" x2="66.15" y2="28.85" width="0" layer="19" extent="1-1"/>
+<wire x1="59.2" y1="28.9" x2="63.9" y2="31" width="0" layer="19" extent="1-1"/>
+<wire x1="58.19" y1="28.92" x2="59.2" y2="28.9" width="0" layer="19" extent="1-1"/>
+<wire x1="59.2" y1="27.02" x2="59.2" y2="28.9" width="0" layer="19" extent="1-1"/>
+<wire x1="58.18" y1="27" x2="59.2" y2="27.02" width="0" layer="19" extent="1-1"/>
+<wire x1="69.05" y1="16.9" x2="68.4" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="69.06" y1="15.88" x2="69.05" y2="16.9" width="0" layer="19" extent="1-1"/>
+<wire x1="67.45" y1="15.87" x2="69.06" y2="15.88" width="0" layer="19" extent="1-1"/>
+<wire x1="67.43" y1="16.91" x2="67.45" y2="15.87" width="0" layer="19" extent="1-1"/>
+<wire x1="65.81" y1="16.92" x2="67.43" y2="16.91" width="0" layer="19" extent="1-1"/>
+<wire x1="65.82" y1="15.88" x2="65.81" y2="16.92" width="0" layer="19" extent="1-1"/>
+<wire x1="70.8" y1="16.1" x2="69.06" y2="15.88" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="76" x2="1" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="82" x2="1" y2="76" width="0" layer="19" extent="1-1"/>
+<wire x1="6" y1="83" x2="1" y2="82" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="88" x2="1" y2="82" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="10" x2="1" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="3.5" y1="4.5" x2="1" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="63.4" y1="88.8" x2="69.868" y2="88.922" width="0" layer="19" extent="16-16"/>
+<wire x1="10" y1="4.5" x2="3.5" y2="4.5" width="0" layer="19" extent="1-1"/>
+<wire x1="42" y1="42" x2="44.03" y2="48.58" width="0" layer="19" extent="1-1"/>
+<wire x1="36.55" y1="48.85" x2="43.4" y2="50.2" width="0" layer="19" extent="1-1"/>
+<wire x1="18.9" y1="53.7" x2="12.4" y2="57.3" width="0" layer="19" extent="1-1"/>
+<wire x1="28.98" y1="87.1" x2="35.2" y2="82.5" width="0" layer="19" extent="1-1"/>
+<wire x1="9" y1="39" x2="1" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="94" x2="1" y2="88" width="0" layer="19" extent="1-1"/>
+<wire x1="24" y1="42" x2="22.1" y2="32.2" width="0" layer="19" extent="1-1"/>
+<wire x1="62.4" y1="67.26" x2="62.4" y2="66.46" width="0.3048" layer="1"/>
+<wire x1="62.4" y1="66.46" x2="62.41" y2="66.45" width="0.3048" layer="1"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="U7" pad="21"/>
@@ -8176,6 +8898,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="17.9" y="78"/>
 <vertex x="15.8" y="78"/>
 </polygon>
+<wire x1="16.35" y1="75.1" x2="16.55" y2="77.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.5" y1="75.1" x2="16.35" y2="75.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.1" y1="74.2" x2="17.5" y2="75.1" width="0" layer="19" extent="1-1"/>
+<wire x1="16.253" y1="73.665" x2="17.1" y2="74.2" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CB_IOUT_IN">
 <contactref element="R20" pad="2"/>
