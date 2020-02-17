@@ -176,8 +176,8 @@
 <rectangle x1="0.58" y1="11.88" x2="8.58" y2="19.88" layer="21"/>
 <text x="3.89" y="20.92" size="2" layer="21" font="vector" ratio="15" rot="R90">OreSat C3 v2.0</text>
 <text x="6.94" y="21.14" size="2" layer="21" font="vector" ratio="15" rot="R90">2020/02/06</text>
-<text x="37.53" y="28.41" size="0.635" layer="21" font="vector" ratio="20" rot="R180">3.3V</text>
-<text x="37.67" y="29.9" size="0.635" layer="21" font="vector" ratio="20" rot="R180">VBUSP</text>
+<text x="21.71" y="14.43" size="0.635" layer="21" font="vector" ratio="20" rot="R180">3.3V</text>
+<text x="21.85" y="15.92" size="0.635" layer="21" font="vector" ratio="20" rot="R180">VBUSP</text>
 <wire x1="34.3" y1="2" x2="34.3" y2="0" width="0.1" layer="49"/>
 <wire x1="64.3" y1="2" x2="64.3" y2="0" width="0.1" layer="49"/>
 <wire x1="67.3" y1="2" x2="64.3" y2="2" width="0.1" layer="49"/>
@@ -253,10 +253,10 @@
 <text x="5.82" y="38.34" size="0.635" layer="21" font="vector" ratio="20">NRST</text>
 <text x="69.278365625" y="38.49994375" size="0.635" layer="21" font="vector" ratio="20">PA1</text>
 <text x="17.74" y="35.51" size="0.635" layer="21" font="vector" ratio="20" rot="R180">PB10</text>
-<text x="34.14" y="80.35" size="0.635" layer="21" font="vector" ratio="20" rot="R270">WDT</text>
-<text x="26.14" y="66.01" size="0.635" layer="21" font="vector" ratio="20" rot="R180">3.3V</text>
-<text x="50.05" y="28.83" size="0.635" layer="21" font="vector" ratio="20" rot="R90">PG</text>
-<text x="40.4" y="39.02" size="0.635" layer="21" font="vector" ratio="20" rot="R90">VBUSP</text>
+<text x="39.83" y="81.05" size="0.635" layer="21" font="vector" ratio="20" rot="R270">WDT</text>
+<text x="29.65" y="66.01" size="0.635" layer="21" font="vector" ratio="20" rot="R180">3.3V</text>
+<text x="34.23" y="14.85" size="0.635" layer="21" font="vector" ratio="20" rot="R90">PG</text>
+<text x="24.58" y="25.04" size="0.635" layer="21" font="vector" ratio="20" rot="R90">VBUSP</text>
 <text x="83.735" y="12.785" size="1.4" layer="21" font="vector" ratio="15" rot="SR0">Rx</text>
 <text x="89.115" y="19.375" size="1.4" layer="21" font="vector" ratio="15" rot="SR0">Tx</text>
 <text x="92.973153125" y="24.847565625" size="1" layer="21" font="vector" ratio="15" rot="R89.6">CLK-Out</text>
@@ -307,18 +307,18 @@
 <wire x1="76.8" y1="68.23" x2="76.8" y2="67.68" width="2.1" layer="29" curve="0.25" cap="flat"/>
 <wire x1="73.8" y1="56.98" x2="73.2" y2="56.98" width="2.1" layer="29" curve="0.25" cap="flat"/>
 <wire x1="76.05" y1="60.73" x2="75.57" y2="61.94" width="1.6" layer="29" curve="45.000063" cap="flat"/>
-<wire x1="34.94" y1="80.6" x2="34.94" y2="64.6" width="0.2" layer="21"/>
-<wire x1="34.94" y1="64.6" x2="30.12" y2="64.6" width="0.2" layer="21"/>
-<wire x1="30.12" y1="64.6" x2="30.12" y2="72.47" width="0.2" layer="21"/>
-<wire x1="30.12" y1="72.47" x2="25.88" y2="72.47" width="0.2" layer="21"/>
-<wire x1="25.88" y1="72.47" x2="25.88" y2="80.69" width="0.2" layer="21"/>
-<wire x1="25.88" y1="80.69" x2="34.96" y2="80.69" width="0.2" layer="21"/>
+<wire x1="40.63" y1="81.3" x2="40.63" y2="65.3" width="0.2" layer="21"/>
+<wire x1="40.63" y1="65.3" x2="35.81" y2="65.3" width="0.2" layer="21"/>
+<wire x1="35.81" y1="65.3" x2="35.81" y2="73.17" width="0.2" layer="21"/>
+<wire x1="35.81" y1="73.17" x2="31.57" y2="73.17" width="0.2" layer="21"/>
+<wire x1="31.57" y1="73.17" x2="31.57" y2="81.39" width="0.2" layer="21"/>
+<wire x1="31.57" y1="81.39" x2="40.65" y2="81.39" width="0.2" layer="21"/>
 <text x="69.278365625" y="40.61483125" size="0.6" layer="21" font="vector" ratio="15">SCLK</text>
 <text x="69.278365625" y="42.75471875" size="0.6" layer="21" font="vector" ratio="15">MISO</text>
 <text x="69.278365625" y="44.87460625" size="0.6" layer="21" font="vector" ratio="15">MOSI</text>
-<text x="25.81" y="69.86" size="0.635" layer="21" font="vector" ratio="20" rot="R180">SDIO_CK</text>
+<text x="29.32" y="69.86" size="0.635" layer="21" font="vector" ratio="20" rot="R180">SDIO_CK</text>
 <text x="8.83" y="85.62" size="0.635" layer="21" font="vector" ratio="20">GND</text>
-<text x="19.74" y="77.67" size="0.635" layer="21" font="vector" ratio="20">eMMC</text>
+<text x="22.05" y="77.67" size="0.635" layer="21" font="vector" ratio="20">eMMC</text>
 <text x="13.16" y="57.88" size="0.635" layer="21" font="vector" ratio="20">BOOT0</text>
 </plain>
 <libraries>
@@ -3580,8 +3580,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="11.05" y="53.09" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="11.05" y="53.09" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="11.05" y="53.09" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.7" y="53.09" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
 <attribute name="NAME" x="12.76" y="54.16" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="10.7" y="53.09" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="11.05" y="53.09" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="11.05" y="53.09" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="10.8" y="53.14" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
@@ -3597,8 +3597,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="6.49" y="43.23" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="6.49" y="43.23" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="6.49" y="43.23" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.49" y="43.23" size="0.635" layer="33" ratio="20" align="center"/>
 <attribute name="NAME" x="4.92" y="43.71" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="6.49" y="43.23" size="0.635" layer="33" ratio="20" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.49" y="43.23" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.49" y="43.23" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="6.49" y="43.13" size="0.5" layer="27" ratio="20" align="center"/>
@@ -3614,8 +3614,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" x="6.49" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" x="6.49" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="6.49" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.49" y="44.737665625" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="NAME" x="4.95" y="45.197665625" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="6.49" y="44.737665625" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.49" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.49" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="20pF" x="6.49" y="44.737665625" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
@@ -3631,8 +3631,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" x="6.49" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" x="6.49" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="6.49" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.49" y="49.379996875" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="NAME" x="4.949996875" y="49.86" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="6.49" y="49.379996875" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.49" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.49" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="20pF" x="6.49" y="49.379996875" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
@@ -3648,8 +3648,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="26.01" y="45.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="26.01" y="45.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="26.01" y="45.06" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="26.01" y="45.06" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="NAME" x="27.34" y="44.59" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="26.01" y="45.06" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="26.01" y="45.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="26.01" y="45.06" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="26.01" y="45.06" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
@@ -3665,8 +3665,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="9.03" y="50.83" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="9.03" y="50.83" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="9.03" y="50.83" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="9.03" y="50.83" size="0.635" layer="33" ratio="20" align="center"/>
 <attribute name="NAME" x="9.72" y="52.19" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="9.03" y="50.83" size="0.635" layer="33" ratio="20" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="9.03" y="50.83" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="9.03" y="50.83" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="9.03" y="50.83" size="0.5" layer="27" ratio="20" align="center"/>
@@ -3698,8 +3698,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="14.85" y="54.04" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="14.85" y="54.04" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="14.85" y="54.04" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="14.8" y="53.89" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="17.71" y="54.35" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="14.8" y="53.89" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="14.85" y="54.04" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="14.85" y="54.04" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="10k" x="15.65" y="55.39" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -3707,71 +3707,71 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP15" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="14.15" y="56.12" smashed="yes" rot="R180">
 <attribute name="NAME" x="13.18" y="57.14" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="39.88" y="29.54" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.98" y="30.905" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="" x="39.88" y="29.54" size="2" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="39.88" y="30.175" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="24.06" y="15.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.16" y="16.925" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="" x="24.06" y="15.56" size="2" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="24.06" y="16.195" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="39.88" y="28.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.88" y="27.425" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
-<attribute name="PROD_ID" value="" x="39.88" y="28.16" size="2" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="39.88" y="28.795" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="D2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="24.06" y="14.18" smashed="yes" rot="R180">
+<attribute name="NAME" x="24.06" y="13.445" size="0.635" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
+<attribute name="PROD_ID" value="" x="24.06" y="14.18" size="2" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="24.06" y="14.815" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R1" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="2.7k" x="42.68" y="29.54" smashed="yes">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" x="42.68" y="29.54" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="42.68" y="29.54" size="2" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="42.68" y="29.54" size="2" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="42.68" y="29.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="42.68" y="29.54" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="42.68" y="29.54" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="42.68" y="29.54" size="2" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="42.68" y="29.54" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="42.68" y="29.54" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="42.68" y="29.54" size="2" layer="27" display="off"/>
-<attribute name="NAME" x="42.28" y="30.19" size="0.635" layer="25" font="vector" ratio="20"/>
-<attribute name="NAME" x="42.68" y="29.54" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="42.68" y="29.54" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="42.68" y="29.54" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="41.88" y="28.19" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="R1" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="2.7k" x="26.86" y="15.56" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" x="26.86" y="15.56" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="26.86" y="15.56" size="2" layer="27" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="26.86" y="15.56" size="2" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="26.86" y="15.56" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="26.86" y="15.56" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="26.86" y="15.56" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="26.86" y="15.56" size="2" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="26.86" y="15.56" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="26.86" y="15.56" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="26.86" y="15.56" size="2" layer="27" display="off"/>
+<attribute name="NAME" x="26.86" y="15.56" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="26.46" y="16.21" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="RS_PART_NUMBER" value="" x="26.86" y="15.56" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="26.86" y="15.56" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="26.06" y="14.21" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R2" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="2.7k" x="42.64" y="28.16" smashed="yes">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" x="42.64" y="28.16" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="42.64" y="28.16" size="2" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="42.64" y="28.16" size="2" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="42.64" y="28.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="42.64" y="28.16" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="42.64" y="28.16" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="42.64" y="28.16" size="2" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="42.64" y="28.16" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="42.64" y="28.16" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="42.64" y="28.16" size="2" layer="27" display="off"/>
-<attribute name="NAME" x="42.14" y="26.91" size="0.635" layer="25" font="vector" ratio="20"/>
-<attribute name="NAME" x="42.64" y="28.16" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="42.64" y="28.16" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="42.64" y="28.16" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="41.84" y="26.81" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="R2" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="2.7k" x="26.82" y="14.18" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" x="26.82" y="14.18" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="26.82" y="14.18" size="2" layer="27" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="26.82" y="14.18" size="2" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="26.82" y="14.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="26.82" y="14.18" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="26.82" y="14.18" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="26.82" y="14.18" size="2" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="26.82" y="14.18" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="26.82" y="14.18" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="26.82" y="14.18" size="2" layer="27" display="off"/>
+<attribute name="NAME" x="26.82" y="14.18" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="26.32" y="12.93" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="RS_PART_NUMBER" value="" x="26.82" y="14.18" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="26.82" y="14.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="26.02" y="12.83" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="28.19" y="77.39" smashed="yes" rot="R180">
-<attribute name="NAME" x="26.835" y="78.55" size="0.635" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="DIO-00821" x="27.89" y="73.79" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
-<attribute name="VALUE" x="28.19" y="78.025" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
+<element name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" package="LED-0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN" x="33.88" y="78.09" smashed="yes" rot="R180">
+<attribute name="NAME" x="32.525" y="79.25" size="0.635" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="DIO-00821" x="33.58" y="74.49" size="0.635" layer="27" font="vector" ratio="20" rot="R180" display="off"/>
+<attribute name="VALUE" x="33.88" y="78.725" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="R3" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="2.7k" x="30.88" y="77.4" smashed="yes">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" x="30.88" y="77.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="30.88" y="74" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="30.88" y="74" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="30.88" y="77.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="30.88" y="77.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="30.88" y="77.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="30.88" y="74" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="30.88" y="77.4" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="30.88" y="77.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="30.88" y="74" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="NAME" x="31.27" y="79.25" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="NAME" x="30.88" y="77.4" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="30.88" y="77.4" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="30.88" y="77.4" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="30.08" y="76.05" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="R3" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="2.7k" x="36.57" y="78.1" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" x="36.57" y="78.1" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="36.57" y="74.7" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="36.57" y="74.7" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="36.57" y="78.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="36.57" y="78.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="36.57" y="78.1" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="36.57" y="74.7" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="36.57" y="78.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="36.57" y="78.1" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="36.57" y="74.7" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
+<attribute name="NAME" x="36.57" y="78.1" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="36.96" y="79.95" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="RS_PART_NUMBER" value="" x="36.57" y="78.1" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="36.57" y="78.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="35.77" y="76.75" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="71.9" y="82.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.35" y="79.2" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -3840,8 +3840,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.74" y="51.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="35.84" y="50.45" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="36.74" y="51.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="10k" x="35.04" y="49.3" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -3863,8 +3863,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-2372ELF" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-2372ELF" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.41" y="56.38" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="35.56" y="55.58" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="34.41" y="56.38" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="23.7k" x="35.76" y="55.58" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -3872,104 +3872,104 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP8" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="34.45" y="61.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="36.15" y="60.59" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="U5" library="U-TI-TPS6211x-SPS-buck" package="S-PVQFN-16" value="TPS62111RSA" x="45.28" y="34.78" smashed="yes" rot="R270">
-<attribute name="MFR" value="TI" x="45.28" y="34.78" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="TPS62111RSA" x="45.28" y="34.78" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="43.61" y="31.38" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="U5" library="U-TI-TPS6211x-SPS-buck" package="S-PVQFN-16" value="TPS62111RSA" x="29.46" y="20.8" smashed="yes" rot="R270">
+<attribute name="MFR" value="TI" x="29.46" y="20.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="TPS62111RSA" x="29.46" y="20.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="27.79" y="17.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="TP16" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="47.28" y="30.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="49.19" y="28.68" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="TP16" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="31.46" y="16.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="33.37" y="14.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="TP19" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="39.78" y="35.16" smashed="yes" rot="R270">
-<attribute name="NAME" x="38.6" y="33.85" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="TP19" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="23.96" y="21.18" smashed="yes" rot="R270">
+<attribute name="NAME" x="22.78" y="19.87" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="C7" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="10uF" x="46.06" y="38.68" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" x="46.06" y="38.68" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="46.06" y="38.68" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="46.06" y="38.68" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD106KAT2A" x="46.06" y="38.68" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="46.06" y="38.68" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="46.06" y="38.68" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="46.06" y="38.68" size="0.4" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="48.08" y="38.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="46.06" y="38.68" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="46.06" y="38.68" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10uF" x="44.56" y="36.88" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C7" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="10uF" x="30.24" y="24.7" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" x="30.24" y="24.7" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="30.24" y="24.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="30.24" y="24.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD106KAT2A" x="30.24" y="24.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="30.24" y="24.7" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="30.24" y="24.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.24" y="24.7" size="0.4" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="32.26" y="24.32" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="RS_PART_NUMBER" value="" x="30.24" y="24.7" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="30.24" y="24.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="10uF" x="28.74" y="22.9" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C10" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="10uF" x="42.09" y="32.99" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD106KAT2A" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="41.25" y="31.71" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="NAME" x="42.09" y="32.99" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
-<attribute name="RS_PART_NUMBER" value="" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="42.09" y="32.99" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="10uF" x="40.49" y="34.19" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
+<element name="C10" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="10uF" x="26.27" y="19.01" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD106KAT2A" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="26.27" y="19.01" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="25.43" y="17.73" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="RS_PART_NUMBER" value="" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="26.27" y="19.01" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="10uF" x="24.67" y="20.21" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C12" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="22pF" x="50.47" y="37.85" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="AVX - 06035A220JAT4A - CERAMIC CAPACITOR 22PF 50V, C0G, 5%, 0603, FULL REEL" x="50.47" y="37.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="50.47" y="37.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="50.47" y="37.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="06035A220JAT4A" x="50.47" y="37.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-06035A220JAT4A" x="50.47" y="37.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06035A220JAT4A" x="50.47" y="37.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="50.47" y="37.85" size="0.4" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="NAME" x="49.4" y="38.41" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="50.47" y="37.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="50.47" y="37.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="22pF" x="51.97" y="39.65" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="C12" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="22pF" x="34.65" y="23.87" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="AVX - 06035A220JAT4A - CERAMIC CAPACITOR 22PF 50V, C0G, 5%, 0603, FULL REEL" x="34.65" y="23.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="34.65" y="23.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="34.65" y="23.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06035A220JAT4A" x="34.65" y="23.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-06035A220JAT4A" x="34.65" y="23.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-06035A220JAT4A" x="34.65" y="23.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="34.65" y="23.87" size="0.4" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="33.58" y="24.43" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="RS_PART_NUMBER" value="" x="34.65" y="23.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="34.65" y="23.87" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="22pF" x="36.15" y="25.67" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="TP17" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="25.3" y="63.41" smashed="yes" rot="R90">
-<attribute name="NAME" x="26.13" y="65.08" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<element name="TP17" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="27.61" y="63.41" smashed="yes" rot="R90">
+<attribute name="NAME" x="29.64" y="65.08" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="R7" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10k" x="41.4" y="36.77" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70154687" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41.04" y="37.48" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="NAME" x="41.4" y="36.77" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7408805P" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="41.4" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10k" x="40.6" y="35.42" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="R7" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10k" x="25.58" y="22.79" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70154687" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.58" y="22.79" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="25.22" y="23.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="RS_PART_NUMBER" value="7408805P" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="25.58" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="10k" x="24.78" y="21.44" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R10" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="NP" x="39.08" y="36.77" smashed="yes">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="39.08" y="36.77" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="38.71" y="37.47" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="39.08" y="36.77" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="38.28" y="35.42" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="R10" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="NP" x="23.26" y="22.79" smashed="yes">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="22.89" y="23.49" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="23.26" y="22.79" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="23.26" y="22.79" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="22.46" y="21.44" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="L2" library="L-ECS-MPI4040" package="ECS-MPI4040" value="6.8u" x="50.87" y="34.55" smashed="yes" rot="R90">
-<attribute name="MFR" value="ECS" x="50.87" y="34.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="ECS-MPI4040R4-6R8-R" x="50.87" y="34.55" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="54.2" y="32.68" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="50.87" y="37.55" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
+<element name="L2" library="L-ECS-MPI4040" package="ECS-MPI4040" value="6.8u" x="35.05" y="20.57" smashed="yes" rot="R90">
+<attribute name="MFR" value="ECS" x="35.05" y="20.57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="ECS-MPI4040R4-6R8-R" x="35.05" y="20.57" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="38.38" y="18.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="35.05" y="23.57" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C5" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="28.94" y="53.35" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3982,8 +3982,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.94" y="53.6" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="28.24" y="52.95" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="28.94" y="53.6" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1uF" x="30.54" y="52.15" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4027,36 +4027,36 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="31.05" y="59.33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="31.05" y="59.33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="45.85" y="65.73" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.48" y="60.63" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="31.05" y="59.33" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="31.48" y="60.63" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="RS_PART_NUMBER" value="" x="31.05" y="59.33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="31.05" y="59.33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.7" y="60.13" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R9" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10k" x="45.04" y="54.83" smashed="yes" rot="R180">
-<attribute name="ALLIED_NUMBER" value="70154687" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="50.94" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="50.94" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="50.94" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="50.94" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="45.04" y="54.68" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="NAME" x="45.27" y="55.49" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="7408805P" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="45.04" y="54.83" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="10k" x="45.84" y="56.18" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="R9" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10k" x="29.22" y="40.85" smashed="yes" rot="R180">
+<attribute name="ALLIED_NUMBER" value="70154687" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="35.12" y="35.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="35.12" y="35.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="35.12" y="35.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="35.12" y="35.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="29.45" y="41.51" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="29.22" y="40.7" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="7408805P" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="29.22" y="40.85" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="10k" x="30.02" y="42.2" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="TP10" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="44.78" y="41.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="44.57" y="38.11" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="TP10" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="28.96" y="27.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="28.75" y="24.13" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
-<element name="TP20" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="41.38" y="41.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="39.53" y="39.05" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="TP20" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="25.56" y="27.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.71" y="25.07" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C6" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="0.1uf" x="19.28" y="54.07" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%" x="19.28" y="54.07" size="1.778" layer="27" rot="R180" display="off"/>
@@ -4069,8 +4069,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="19.28" y="54.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="19.28" y="54.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="19.28" y="50.17" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="20.76" y="53.65" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="19.28" y="54.07" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="20.76" y="53.65" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="19.28" y="54.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="19.28" y="54.07" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="20.08" y="55.42" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -4081,39 +4081,39 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="16.66" y="59.04" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="20.02" y="56.25" size="0.635" layer="27" ratio="20"/>
 </element>
-<element name="R5" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="31.6k" x="42.67" y="54.86" smashed="yes" rot="R179.8">
-<attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-3162ELF - RES, 31K6, 1%, 0603, THICK FILM" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-3162ELF" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MFR" value="Samsung" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-3162ELF" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-3162ELF" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="NAME" x="42.67" y="54.86" size="0.2" layer="33" ratio="15" rot="R179.8" align="center"/>
-<attribute name="NAME" x="42.9172125" y="55.491925" size="0.635" layer="25" font="vector" ratio="20" rot="R89.8"/>
-<attribute name="RS_PART_NUMBER" value="" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="42.67" y="54.86" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="VALUE" value="31.6k" x="43.47470625" y="56.207203125" size="0.8" layer="27" font="vector" ratio="15" rot="R179.8"/>
+<element name="R5" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="31.6k" x="26.85" y="40.88" smashed="yes" rot="R179.8">
+<attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-3162ELF - RES, 31K6, 1%, 0603, THICK FILM" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-3162ELF" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="MFR" value="Samsung" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-3162ELF" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-3162ELF" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="NAME" x="27.0972125" y="41.511925" size="0.635" layer="25" font="vector" ratio="20" rot="R89.8"/>
+<attribute name="NAME" x="26.85" y="40.88" size="0.2" layer="33" ratio="15" rot="R179.8" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="26.85" y="40.88" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="VALUE" value="31.6k" x="27.65470625" y="42.227203125" size="0.8" layer="27" font="vector" ratio="15" rot="R179.8"/>
 </element>
-<element name="R6" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="3.1k" x="44.88" y="42.98" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.45mm" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CHP0603-FX-3011ELF" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CHP0603FX3011ELF" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="44.88" y="42.98" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="NAME" x="46.94" y="42.49" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="44.88" y="42.98" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="3.1k" x="45.68" y="44.33" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="R6" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="3.1k" x="29.06" y="29" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-4275-1-ND" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.45mm" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CHP0603-FX-3011ELF" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CHP0603FX3011ELF" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC1005F6653CS" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="31.12" y="28.51" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="29.06" y="29" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="29.06" y="29" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="3.1k" x="29.86" y="30.35" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R8" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="4.7k" x="28.17" y="59.33" smashed="yes" rot="R90">
 <attribute name="ALLIED_NUMBER" value="70408523" x="28.17" y="59.33" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4143,24 +4143,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408877P" x="29.61" y="59.33" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="4.7k" x="31.515" y="58.695" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="U6" library="U-Maxim-MAX6374-watchdog" package="21-0078H-L" value="MAX6374KA-T21-0078H-L" x="32.26" y="74.3" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_PART_NUMBER" value="max6374kat" x="32.26" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="29.725" y="74.8766" size="0.635" layer="25" font="vector" ratio="20" rot="SR270"/>
-<attribute name="VENDOR" value="Maxim Integrated Products" x="32.26" y="74.3" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="U6" library="U-Maxim-MAX6374-watchdog" package="21-0078H-L" value="MAX6374KA-T21-0078H-L" x="37.95" y="75" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER_PART_NUMBER" value="max6374kat" x="37.95" y="75" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="35.415" y="75.5766" size="0.635" layer="25" font="vector" ratio="20" rot="SR270"/>
+<attribute name="VENDOR" value="Maxim Integrated Products" x="37.95" y="75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R13" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="4.7k" x="28.56" y="73.99" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70408523" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-4701elf/70408523/" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 4K7 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 4.7k +/-1% 0.1W +/-100ppm/C" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-4701ELF" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-4701ELF" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-4701ELF" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.725" y="74.615" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="RS_PART_NUMBER" value="7408877P" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408877P" x="28.56" y="73.99" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="4.7k" x="27.925" y="72.085" size="1.27" layer="27"/>
+<element name="R13" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="4.7k" x="34.25" y="74.69" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70408523" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-4701elf/70408523/" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 4K7 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 4.7k +/-1% 0.1W +/-100ppm/C" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-4701ELF" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-4701ELF" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-4701ELF" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="32.415" y="75.315" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="RS_PART_NUMBER" value="7408877P" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408877P" x="34.25" y="74.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="4.7k" x="33.615" y="72.785" size="1.27" layer="27"/>
 </element>
 <element name="R12" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="0" x="30.94" y="50.15" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4173,8 +4173,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.09" y="50.15" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="30.22" y="49.17" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="31.09" y="50.15" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.59" y="50.95" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4190,14 +4190,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28.94" y="56.55" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="28.24" y="56.05" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="28.94" y="56.55" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1uF" x="27.34" y="57.75" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="TP1" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="43.08" y="41.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="42.88" y="38.7" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="TP1" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="27.26" y="27.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="27.06" y="24.72" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C2" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="0.1uf" x="13.16" y="37.34" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%" x="13.16" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4210,8 +4210,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="13.16" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="13.16" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="13.16" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="12.32" y="38.17" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="13.16" y="37.34" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="12.32" y="38.17" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="13.16" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="13.16" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="14.51" y="36.54" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4227,8 +4227,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="20.01" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="20.01" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="20.01" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="21.63" y="36.85" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="20.01" y="37.34" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="21.63" y="36.85" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="20.01" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="20.01" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="21.36" y="36.54" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4244,8 +4244,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="21.97" y="51.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="21.97" y="51.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="21.97" y="51.98" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="24.24" y="53.03" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="21.97" y="51.98" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="24.24" y="53.03" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="21.97" y="51.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="21.97" y="51.98" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="20.62" y="52.78" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4263,8 +4263,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="32.43" y="59.36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="32.43" y="59.36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="32.43" y="59.36" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="32.43" y="59.36" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="32.87" y="60.61" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="32.43" y="59.36" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="32.43" y="59.36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="32.43" y="59.36" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="10k" x="33.78" y="58.56" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4273,68 +4273,68 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="21.281" y="51.975" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="22.265" y="51.085" size="0.635" layer="27"/>
 </element>
-<element name="C15" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="0.1uf" x="32.45" y="69.5" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="32.75" y="69.5" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="NAME" x="34.03" y="70.28" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="RS_PART_NUMBER" value="" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="32.45" y="69.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="0.1uf" x="33.25" y="70.85" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="C15" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="0.1uf" x="38.14" y="70.2" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-6601-1-ND" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL05C200JB51PNC" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.72" y="70.98" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="38.44" y="70.2" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="38.14" y="70.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="0.1uf" x="38.94" y="71.55" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C18" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="47uF" x="32.44" y="71.32" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J476ME15D" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="34.01" y="72.47" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="NAME" x="32.44" y="71.17" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="RS_PART_NUMBER" value="1726834P" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" x="32.44" y="71.32" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="47uF" x="33.24" y="72.67" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="C18" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="47uF" x="38.13" y="72.02" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DPN" value="1276-6601-1-ND" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J476ME15D" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MFR" value="Samsung" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="CL05C200JB51PNC" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="38.13" y="71.87" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="39.7" y="73.17" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="RS_PART_NUMBER" value="1726834P" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" x="38.13" y="72.02" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="47uF" x="38.93" y="73.37" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R19" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10" x="32.56" y="67.49" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10R 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 603 Case 10 +/-1% 0.1W +/-100ppm/C" x="32.56" y="67.49" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="32.56" y="67.49" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="32.56" y="67.49" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-10R0ELF" x="32.56" y="67.49" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-10R0ELF" x="32.56" y="67.49" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-10R0ELF" x="32.56" y="67.49" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="34.035" y="68.215" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="RS_PART_NUMBER" value="7408818P" x="32.56" y="67.49" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408818P" x="32.56" y="67.49" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" value="10" x="33.195" y="69.395" size="1.27" layer="27" rot="R180"/>
+<element name="R19" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10" x="38.25" y="68.19" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10R 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 603 Case 10 +/-1% 0.1W +/-100ppm/C" x="38.25" y="68.19" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="38.25" y="68.19" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="38.25" y="68.19" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-10R0ELF" x="38.25" y="68.19" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-10R0ELF" x="38.25" y="68.19" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-10R0ELF" x="38.25" y="68.19" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="39.725" y="68.915" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="RS_PART_NUMBER" value="7408818P" x="38.25" y="68.19" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408818P" x="38.25" y="68.19" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" value="10" x="38.885" y="70.095" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="TP3" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="33.24" y="77.4" smashed="yes" rot="R270">
-<attribute name="NAME" x="32.03" y="80.08" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<element name="TP3" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="38.93" y="78.1" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.72" y="80.78" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="R20" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10k" x="46.88" y="41.38" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70154687" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="48.685" y="40.725" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="7408805P" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="46.88" y="41.38" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10k" x="46.245" y="39.475" size="1.27" layer="27"/>
+<element name="R20" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10k" x="31.06" y="27.4" smashed="yes">
+<attribute name="ALLIED_NUMBER" value="70154687" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.55mm" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="32.865" y="26.745" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="RS_PART_NUMBER" value="7408805P" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="31.06" y="27.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="10k" x="30.425" y="25.495" size="1.27" layer="27"/>
 </element>
 <element name="TP4" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="17.02" y="37.92" smashed="yes">
 <attribute name="NAME" x="17.73" y="36.58" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
@@ -4345,35 +4345,35 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP6" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="21.88" y="56.07" smashed="yes">
 <attribute name="NAME" x="20.88" y="57.08" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="D7" library="SparkFun" package="SOD-323" value="1N4148" x="32.97" y="65.7" smashed="yes">
-<attribute name="NAME" x="30.566" y="66.439" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="VALUE" x="31.954" y="64.303" size="0.4064" layer="27"/>
+<element name="D7" library="SparkFun" package="SOD-323" value="1N4148" x="38.66" y="66.4" smashed="yes">
+<attribute name="NAME" x="36.256" y="67.139" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="37.644" y="65.003" size="0.4064" layer="27"/>
 </element>
-<element name="U4" library="U-TI-TPS2596XX-eFuse" package="SO-POWERPAD-8" value="TPS259621 - eFuse" x="43.78" y="47.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="46.88" y="44.58" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="VALUE" x="47.0566" y="53.2394" size="1.27" layer="27" rot="R180"/>
+<element name="U4" library="U-TI-TPS2596XX-eFuse" package="SO-POWERPAD-8" value="TPS259621 - eFuse" x="27.96" y="33.9" smashed="yes" rot="R180">
+<attribute name="NAME" x="31.06" y="30.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="VALUE" x="31.2366" y="39.2594" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" package="21-0036K-L" value="MAX892LEUA+T21-0036K-L" x="31.64" y="54.95" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER_PART_NUMBER" value="MAX892LEUA+T" x="31.64" y="54.95" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="34.075" y="54.5734" size="0.635" layer="25" font="vector" ratio="20" rot="SR90"/>
 <attribute name="VENDOR" value="Maxim Integrated Products" x="31.64" y="54.95" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C1" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="42.78" y="52.98" smashed="yes">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.78" y="52.98" size="0.3" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="41.29" y="52.39" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="42.78" y="52.98" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="1uF" x="41.58" y="51.38" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C1" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="26.96" y="39" smashed="yes">
+<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.47" y="38.41" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="26.96" y="39" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="26.96" y="39" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="1uF" x="25.76" y="37.4" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="TP18" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="67.962496875" y="45.494659375" smashed="yes" rot="R180">
 <attribute name="NAME" x="69.302496875" y="45.874659375" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -4395,126 +4395,126 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="18.67" y="37.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="18.67" y="37.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="18.67" y="37.34" size="0.635" layer="27" font="vector" ratio="20" rot="R270" display="off"/>
-<attribute name="NAME" x="18.67" y="37.34" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="19.67" y="35.69" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="18.67" y="37.34" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="18.67" y="37.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="18.67" y="37.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="2.2uF" x="17.07" y="38.54" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C19" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="2.2uF" x="21.38" y="70.58" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10V 2.2uF X7R 20% T: 0.8mm" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.8mm" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7R1A225M080AC" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="21.38" y="70.58" size="0.3" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="22.86" y="70.16" size="0.635" layer="25" font="vector" ratio="15"/>
-<attribute name="RS_PART_NUMBER" value="" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="21.38" y="70.58" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="2.2uF" x="20.18" y="68.98" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C19" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="2.2uF" x="23.69" y="70.58" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10V 2.2uF X7R 20% T: 0.8mm" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.8mm" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TDK" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7R1A225M080AC" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.17" y="70.16" size="0.635" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="23.69" y="70.58" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="23.69" y="70.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="2.2uF" x="22.49" y="68.98" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C21" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="0.1uf" x="21.38" y="72.46" smashed="yes">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%" x="21.38" y="72.46" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="22.78" y="77.16" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="22.78" y="77.16" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="21.38" y="72.46" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="21.38" y="72.46" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="21.38" y="72.46" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="22.78" y="77.16" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="21.38" y="72.46" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="21.38" y="72.46" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="22.78" y="77.16" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.78" y="77.16" size="0.3" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="22.9" y="72.07" size="0.635" layer="25" font="vector" ratio="15"/>
-<attribute name="RS_PART_NUMBER" value="" x="21.38" y="72.46" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="21.38" y="72.46" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="0.1uf" x="21.58" y="75.56" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="C21" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="0.1uf" x="23.69" y="72.46" smashed="yes">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%" x="23.69" y="72.46" size="1.778" layer="27" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="25.09" y="77.16" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="25.09" y="77.16" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="23.69" y="72.46" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="23.69" y="72.46" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="23.69" y="72.46" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Samsung" x="25.09" y="77.16" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="23.69" y="72.46" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="23.69" y="72.46" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="25.09" y="77.16" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="25.21" y="72.07" size="0.635" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="25.09" y="77.16" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="23.69" y="72.46" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="23.69" y="72.46" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" value="0.1uf" x="23.89" y="75.56" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C23" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="5.96" y="72.79" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.96" y="72.79" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
-<attribute name="NAME" x="4.43" y="73.75" size="0.635" layer="25" font="vector" ratio="15" rot="R270"/>
-<attribute name="RS_PART_NUMBER" value="" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="5.96" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="1uF" x="4.36" y="73.99" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
+<element name="C23" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="8.27" y="72.79" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MFR" value="Samsung" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="6.74" y="73.75" size="0.635" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="8.27" y="72.79" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="1uF" x="6.67" y="73.99" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C24" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="15.57" y="81.76" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="15.57" y="81.76" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="NAME" x="16.07" y="83.16" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="15.57" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="1uF" x="17.17" y="80.56" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<element name="C24" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="17.88" y="81.76" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="18.38" y="83.16" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="17.88" y="81.76" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="1uF" x="19.48" y="80.56" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="C25" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="13.95" y="81.77" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.95" y="81.77" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="NAME" x="14.45" y="83.17" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="1uF" x="13.95" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C25" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="1uF" x="16.26" y="81.77" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="1mm" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="16.76" y="83.17" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="16.26" y="81.77" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="1uF" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C26" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="10uF" x="12.33" y="81.78" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD106KAT2A" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="12.33" y="81.78" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
-<attribute name="NAME" x="12.83" y="83.18" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="12.33" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" value="10uF" x="13.93" y="80.58" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
+<element name="C26" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="10uF" x="14.64" y="81.78" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIS" value="Digi-Key" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DPN" value="1276-1001-1-ND" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="0.9mm" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="AVX" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD106KAT2A" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MFR" value="Samsung" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="CL05B104KO5NNNC" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="15.14" y="83.18" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="14.64" y="81.78" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="10uF" x="16.24" y="80.58" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R14" library="R-Panasonic-EXB_A10PXXXJ" package="ARRAY_EXBA-M" value="10k" x="19.38" y="62.28" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_PART_NUMBER" value="EXBA10P391J" x="19.38" y="62.28" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="23.2654" y="63.628" size="0.5" layer="25" font="vector" ratio="15" rot="SR0"/>
-<attribute name="VENDOR" value="Panasonic" x="19.38" y="62.28" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R14" library="R-Panasonic-EXB_A10PXXXJ" package="ARRAY_EXBA-M" value="10k" x="21.69" y="62.28" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER_PART_NUMBER" value="EXBA10P391J" x="21.69" y="62.28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="25.5754" y="63.628" size="0.5" layer="25" font="vector" ratio="15" rot="SR0"/>
+<attribute name="VENDOR" value="Panasonic" x="21.69" y="62.28" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R15" library="R-Panasonic-EXB_A10PXXXJ" package="ARRAY_EXBA-M" value="10k" x="11.58" y="62.28" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER_PART_NUMBER" value="EXBA10P391J" x="11.58" y="62.28" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="6.5854" y="63.558" size="0.5" layer="25" font="vector" ratio="15" rot="SR0"/>
-<attribute name="VENDOR" value="Panasonic" x="11.58" y="62.28" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="R15" library="R-Panasonic-EXB_A10PXXXJ" package="ARRAY_EXBA-M" value="10k" x="13.89" y="62.28" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER_PART_NUMBER" value="EXBA10P391J" x="13.89" y="62.28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="8.8954" y="63.558" size="0.5" layer="25" font="vector" ratio="15" rot="SR0"/>
+<attribute name="VENDOR" value="Panasonic" x="13.89" y="62.28" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q1" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="5.31" y="77" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.963" y="78.768" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<element name="Q1" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="7.62" y="77" smashed="yes" rot="R180">
+<attribute name="NAME" x="5.273" y="78.768" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="C42" library="C3_SamacSys_Parts" package=".0603-B-NOSILK" value="8.2pF" x="82.185" y="19.645" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="Multilayer Ceramic Chip Capacitor WCAP-CSGP Series 0603 8.2pF NP006038R2D100DFCT10000" x="82.185" y="19.645" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5074,10 +5074,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="RS_PRICE-STOCK" value="" x="84.4" y="59.03" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="83.4" y="57.48" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="U9" library="U-C3-eMMC-153pin" package="BGA-153(11.5X13)(EMMC-BA)" value="SFEM016GB1EM1TO-A-HG-111-STD" x="13.48" y="72.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="19.78" y="78.8" size="0.8" layer="25" font="vector" ratio="15"/>
-<attribute name="NAME" x="13.48" y="72.88" size="1.5" layer="33" ratio="15" rot="R180" align="center"/>
-<attribute name="VALUE" x="19.08" y="80.48" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
+<element name="U9" library="U-C3-eMMC-153pin" package="BGA-153(11.5X13)(EMMC-BA)" value="SFEM016GB1EM1TO-A-HG-111-STD" x="15.79" y="72.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.09" y="78.8" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="15.79" y="72.88" size="1.5" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="VALUE" x="21.39" y="80.48" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="U.FL" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL" x="89.23" y="27.73" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.5" y="25.19" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
@@ -5115,11 +5115,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="SF_ID" value="WRL-09144" x="66.1" y="68" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="69.25" y="58.66" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
 </element>
-<element name="TP7" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="25.1" y="67.32" smashed="yes" rot="R270">
-<attribute name="NAME" x="25.81" y="69.11" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<element name="TP7" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="27.41" y="67.32" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.32" y="69.11" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="TP11" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="10.33" y="83.59" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.8" y="84.73" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="TP11" library="Tova" package="2MM-TEST-POINT" value="TEST-POINT" x="12.64" y="83.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.11" y="84.73" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 </elements>
 <signals>
@@ -5127,8 +5127,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C16" pad="1"/>
 <contactref element="X1" pad="1"/>
 <contactref element="U7" pad="5"/>
+<wire x1="7.29" y1="49.379996875" x2="10.315" y2="47.755" width="0" layer="19" extent="1-1"/>
 <wire x1="5.865" y1="47.88383125" x2="7.29" y2="49.379996875" width="0" layer="19" extent="1-1"/>
-<wire x1="10.315" y1="47.755" x2="7.29" y2="49.379996875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CRYSTALOUT">
 <contactref element="C11" pad="1"/>
@@ -5155,10 +5155,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U5" pad="10"/>
 <contactref element="TP17" pad="1"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no">
-<vertex x="50.77" y="33.3"/>
-<vertex x="50.77" y="38.55"/>
-<vertex x="53.07" y="38.55"/>
-<vertex x="53.07" y="33.3"/>
+<vertex x="34.95" y="19.32"/>
+<vertex x="34.95" y="24.57"/>
+<vertex x="37.25" y="24.57"/>
+<vertex x="37.25" y="19.32"/>
 </polygon>
 <contactref element="L2" pad="2"/>
 <polygon width="0.127" layer="15" isolate="0.2" rank="3">
@@ -5219,10 +5219,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C3" pad="2"/>
 <contactref element="C13" pad="2"/>
 <polygon width="0.2" layer="1" thermals="no">
-<vertex x="4.64" y="77.29"/>
-<vertex x="4.64" y="73.84"/>
-<vertex x="2.84" y="73.84"/>
-<vertex x="2.84" y="77.29"/>
+<vertex x="6.95" y="77.29"/>
+<vertex x="6.95" y="73.84"/>
+<vertex x="5.15" y="73.84"/>
+<vertex x="5.15" y="77.29"/>
 </polygon>
 <polygon width="0.127" layer="1">
 <vertex x="19.41" y="41.5"/>
@@ -5231,30 +5231,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="19.39" y="37.29"/>
 <vertex x="19.39" y="41.48"/>
 </polygon>
-<wire x1="14.12" y1="60.7052" x2="16.84" y2="63.8548" width="0" layer="19" extent="1-1"/>
-<wire x1="21.92" y1="60.7052" x2="16.84" y2="63.8548" width="0" layer="19" extent="1-1"/>
-<wire x1="25.3" y1="63.41" x2="21.92" y2="60.7052" width="0" layer="19" extent="1-1"/>
-<wire x1="9.04" y1="63.8548" x2="14.12" y2="60.7052" width="0" layer="19" extent="1-1"/>
-<wire x1="18.445" y1="55.65" x2="21.92" y2="60.7052" width="0" layer="19" extent="1-1"/>
+<wire x1="39.81" y1="66.4" x2="33.55" y2="74.69" width="0" layer="19" extent="1-1"/>
+<wire x1="32.43" y1="60.06" x2="39.81" y2="66.4" width="0" layer="19" extent="1-1"/>
+<wire x1="27.61" y1="63.41" x2="32.43" y2="60.06" width="0" layer="19" extent="1-1"/>
+<wire x1="24.23" y1="60.7052" x2="27.61" y2="63.41" width="0" layer="19" extent="1-1"/>
+<wire x1="19.15" y1="63.8548" x2="24.23" y2="60.7052" width="0" layer="19" extent="1-1"/>
+<wire x1="16.43" y1="60.7052" x2="19.15" y2="63.8548" width="0" layer="19" extent="1-1"/>
+<wire x1="18.445" y1="55.65" x2="16.43" y2="60.7052" width="0" layer="19" extent="1-1"/>
 <wire x1="18.48" y1="54.07" x2="18.445" y2="55.65" width="0" layer="19" extent="1-1"/>
 <wire x1="21.97" y1="51.18" x2="18.48" y2="54.07" width="0" layer="19" extent="1-1"/>
-<wire x1="25.21" y1="45.06" x2="21.515" y2="49.755" width="0" layer="19" extent="1-1"/>
-<wire x1="23.93" y1="46.935" x2="25.21" y2="45.06" width="0" layer="19" extent="1-1"/>
+<wire x1="23.93" y1="46.935" x2="21.515" y2="49.755" width="0" layer="19" extent="1-1"/>
+<wire x1="25.21" y1="45.06" x2="23.93" y2="46.935" width="0" layer="19" extent="1-1"/>
+<wire x1="11.35" y1="63.8548" x2="16.43" y2="60.7052" width="0" layer="19" extent="1-1"/>
 <wire x1="12.165" y1="51.605" x2="18.48" y2="54.07" width="0" layer="19" extent="1-1"/>
 <wire x1="10.315" y1="43.755" x2="10.315" y2="49.755" width="0" layer="19" extent="1-1"/>
 <wire x1="7.29" y1="43.23" x2="10.315" y2="43.755" width="0" layer="19" extent="1-1"/>
 <wire x1="13.165" y1="40.405" x2="10.315" y2="43.755" width="0" layer="19" extent="1-1"/>
 <wire x1="13.16" y1="38.14" x2="13.165" y2="40.405" width="0" layer="19" extent="1-1"/>
 <wire x1="19.665" y1="40.405" x2="13.165" y2="40.405" width="0" layer="19" extent="1-1"/>
-<wire x1="4.36" y1="75.7" x2="9.04" y2="63.8548" width="0" layer="19" extent="1-1"/>
-<wire x1="34.12" y1="65.7" x2="20.01" y2="38.14" width="0" layer="19" extent="1-1"/>
-<wire x1="27.86" y1="73.99" x2="34.12" y2="65.7" width="0" layer="19" extent="1-1"/>
-<wire x1="32.43" y1="60.06" x2="27.86" y2="73.99" width="0" layer="19" extent="1-1"/>
-<wire x1="36.54" y1="50.65" x2="32.43" y2="60.06" width="0" layer="19" extent="1-1"/>
-<wire x1="30.94" y1="49.45" x2="36.54" y2="50.65" width="0" layer="19" extent="1-1"/>
-<wire x1="51.27" y1="37.85" x2="30.94" y2="49.45" width="0" layer="19" extent="1-1"/>
-<wire x1="44.955" y1="32.805" x2="52.445" y2="34.55" width="0" layer="19" extent="1-1"/>
-<wire x1="43.34" y1="28.16" x2="44.955" y2="32.805" width="0" layer="19" extent="1-1"/>
+<wire x1="30.94" y1="49.45" x2="25.21" y2="45.06" width="0" layer="19" extent="1-1"/>
+<wire x1="36.54" y1="50.65" x2="30.94" y2="49.45" width="0" layer="19" extent="1-1"/>
+<wire x1="6.67" y1="75.7" x2="11.35" y2="63.8548" width="0" layer="19" extent="1-1"/>
+<wire x1="35.45" y1="23.87" x2="20.01" y2="38.14" width="0" layer="19" extent="1-1"/>
+<wire x1="29.135" y1="18.825" x2="36.625" y2="20.57" width="0" layer="19" extent="1-1"/>
+<wire x1="27.52" y1="14.18" x2="29.135" y2="18.825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDAOPT2">
 </signal>
@@ -5427,7 +5427,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="29" y="1" extent="1-16" drill="0.254"/>
 <via x="1" y="22" extent="1-16" drill="0.254"/>
 <via x="31.1" y="93.97" extent="1-16" drill="0.254"/>
-<via x="39.71" y="28.06" extent="1-16" drill="0.254"/>
+<via x="23.89" y="14.08" extent="1-16" drill="0.254"/>
 <contactref element="U11" pad="PAD"/>
 <contactref element="L7" pad="1"/>
 <contactref element="C44" pad="2"/>
@@ -5848,34 +5848,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="79.535" y1="26.735" x2="80.74" y2="26.735" width="0.3" layer="1"/>
 <wire x1="80.74" y1="26.735" x2="80.74" y2="26.77" width="0.3" layer="1"/>
 <wire x1="83.015" y1="20.455" x2="82.685" y2="21.455" width="0" layer="19" extent="1-1"/>
-<wire x1="14.73" y1="75.63" x2="14.23" y2="76.13" width="0" layer="19" extent="1-1"/>
+<wire x1="17.04" y1="75.63" x2="16.54" y2="76.13" width="0" layer="19" extent="1-1"/>
 <wire x1="83.1" y1="63.53" x2="83.6" y2="62.38" width="0" layer="19" extent="1-1"/>
-<wire x1="15.23" y1="70.63" x2="14.23" y2="69.63" width="0" layer="19" extent="1-1"/>
-<wire x1="32.787" y1="63.16" x2="23" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.54" y1="70.63" x2="16.54" y2="69.63" width="0" layer="19" extent="1-1"/>
+<wire x1="27.485" y1="20.475" x2="28.485" y2="18.825" width="0" layer="19" extent="1-1"/>
+<wire x1="27.485" y1="21.125" x2="27.485" y2="20.475" width="0" layer="19" extent="1-1"/>
+<wire x1="29.46" y1="20.8" x2="29.785" y2="18.825" width="0" layer="19" extent="1-1"/>
 <wire x1="19.165" y1="40.405" x2="18.67" y2="36.54" width="0" layer="19" extent="1-1"/>
-<wire x1="45.74" y1="54.83" x2="32.787" y2="63.16" width="0" layer="19" extent="1-1"/>
-<wire x1="43.58" y1="52.98" x2="45.74" y2="54.83" width="0" layer="19" extent="1-1"/>
-<wire x1="45.685" y1="50.755" x2="43.58" y2="52.98" width="0" layer="19" extent="1-1"/>
-<wire x1="28.94" y1="55.75" x2="45.685" y2="50.755" width="0" layer="19" extent="1-1"/>
-<wire x1="28.94" y1="54.15" x2="28.94" y2="55.75" width="0" layer="19" extent="1-1"/>
-<wire x1="43.78" y1="47.88" x2="45.685" y2="50.755" width="0" layer="19" extent="1-1"/>
-<wire x1="32.615" y1="52.8156" x2="28.94" y2="54.15" width="0" layer="19" extent="1-1"/>
-<wire x1="34.41" y1="55.68" x2="32.615" y2="52.8156" width="0" layer="19" extent="1-1"/>
-<wire x1="45.58" y1="42.98" x2="43.78" y2="47.88" width="0" layer="19" extent="1-1"/>
-<wire x1="46.86" y1="38.68" x2="45.58" y2="42.98" width="0" layer="19" extent="1-1"/>
-<wire x1="46.255" y1="36.755" x2="46.86" y2="38.68" width="0" layer="19" extent="1-1"/>
-<wire x1="47.255" y1="35.755" x2="46.255" y2="36.755" width="0" layer="19" extent="1-1"/>
-<wire x1="45.28" y1="34.78" x2="46.255" y2="36.755" width="0" layer="19" extent="1-1"/>
-<wire x1="43.305" y1="34.455" x2="45.28" y2="34.78" width="0" layer="19" extent="1-1"/>
-<wire x1="43.305" y1="35.105" x2="43.305" y2="34.455" width="0" layer="19" extent="1-1"/>
-<wire x1="44.305" y1="32.805" x2="43.305" y2="34.455" width="0" layer="19" extent="1-1"/>
-<wire x1="45.605" y1="32.805" x2="44.305" y2="32.805" width="0" layer="19" extent="1-1"/>
-<wire x1="46.255" y1="32.805" x2="45.605" y2="32.805" width="0" layer="19" extent="1-1"/>
-<wire x1="42.09" y1="32.19" x2="44.305" y2="32.805" width="0" layer="19" extent="1-1"/>
-<wire x1="49.67" y1="37.85" x2="46.86" y2="38.68" width="0" layer="19" extent="1-1"/>
-<wire x1="38.38" y1="36.77" x2="43.305" y2="35.105" width="0" layer="19" extent="1-1"/>
-<wire x1="39.003" y1="29.54" x2="42.09" y2="32.19" width="0" layer="19" extent="1-1"/>
-<wire x1="39.003" y1="28.16" x2="39.003" y2="29.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="U7" pad="21"/>
@@ -5922,9 +5901,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U6" pad="1"/>
 <contactref element="U7" pad="14"/>
 <contactref element="TP3" pad="1"/>
-<wire x1="33.235" y1="75.443" x2="10.315" y2="43.255" width="0" layer="19" extent="1-1"/>
-<wire x1="33.24" y1="77.4" x2="33.235" y2="75.443" width="0" layer="19" extent="1-1"/>
-<wire x1="31.58" y1="77.4" x2="33.24" y2="77.4" width="0" layer="19" extent="1-1"/>
+<wire x1="37.27" y1="78.1" x2="38.93" y2="78.1" width="0" layer="19" extent="1-1"/>
+<wire x1="38.925" y1="76.143" x2="38.93" y2="78.1" width="0" layer="19" extent="1-1"/>
+<wire x1="10.315" y1="43.255" x2="38.925" y2="76.143" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPD_SDA">
 <contactref element="J6" pad="12"/>
@@ -5932,25 +5911,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R11" pad="2"/>
 <contactref element="U7" pad="62"/>
 <wire x1="55.615" y1="88.629" x2="55.615" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="13.165" y1="51.605" x2="55.615" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="29.61" y1="60.03" x2="13.165" y2="51.605" width="0" layer="19" extent="1-1"/>
+<wire x1="29.61" y1="60.03" x2="55.615" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="13.165" y1="51.605" x2="29.61" y2="60.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$262">
 </signal>
 <signal name="N$270">
 <contactref element="D1" pad="A"/>
 <contactref element="R1" pad="1"/>
-<wire x1="41.98" y1="29.54" x2="40.757" y2="29.54" width="0" layer="19" extent="1-1"/>
+<wire x1="24.937" y1="15.56" x2="26.16" y2="15.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$271">
 <contactref element="D2" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="41.94" y1="28.16" x2="40.757" y2="28.16" width="0" layer="19" extent="1-1"/>
+<wire x1="24.937" y1="14.18" x2="26.12" y2="14.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="D3" pad="A"/>
 <contactref element="R3" pad="1"/>
-<wire x1="30.18" y1="77.4" x2="29.067" y2="77.39" width="0" layer="19" extent="1-1"/>
+<wire x1="34.757" y1="78.09" x2="35.87" y2="78.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SD">
 <contactref element="J6" pad="39"/>
@@ -5958,8 +5937,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U6" pad="7"/>
 <contactref element="R13" pad="2"/>
 <wire x1="37.835" y1="87.359" x2="37.835" y2="88.629" width="0" layer="19" extent="1-1"/>
-<wire x1="32.585" y1="73.157" x2="37.835" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="29.26" y1="73.99" x2="32.585" y2="73.157" width="0" layer="19" extent="1-1"/>
+<wire x1="34.95" y1="74.69" x2="37.835" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="38.275" y1="73.857" x2="34.95" y2="74.69" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RF2">
 <contactref element="J3" pad="FEED"/>
@@ -5991,9 +5970,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="46.725" y1="88.629" x2="47.995" y2="88.629" width="0" layer="19" extent="1-1"/>
 <wire x1="46.725" y1="87.359" x2="46.725" y2="88.629" width="0" layer="19" extent="1-1"/>
 <wire x1="47.995" y1="87.359" x2="49.265" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="41.970003125" y1="54.86244375" x2="46.725" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="41.98" y1="52.98" x2="41.970003125" y2="54.86244375" width="0" layer="19" extent="1-1"/>
-<wire x1="41.875" y1="50.755" x2="41.98" y2="52.98" width="0" layer="19" extent="1-1"/>
+<wire x1="26.150003125" y1="40.882440625" x2="46.725" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="26.16" y1="39" x2="26.150003125" y2="40.882440625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.055" y1="36.775" x2="26.16" y2="39" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDAOPT5">
 </signal>
@@ -6083,8 +6062,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R8" pad="2"/>
 <contactref element="U7" pad="61"/>
 <wire x1="54.345" y1="87.359" x2="54.345" y2="88.629" width="0" layer="19" extent="1-1"/>
-<wire x1="13.665" y1="51.605" x2="54.345" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="28.17" y1="60.03" x2="13.665" y2="51.605" width="0" layer="19" extent="1-1"/>
+<wire x1="28.17" y1="60.03" x2="54.345" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="13.665" y1="51.605" x2="28.17" y2="60.03" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPD_PWR">
 <contactref element="J6" pad="15"/>
@@ -6114,16 +6093,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="OPD_ISET_IN">
 <contactref element="R24" pad="2"/>
 <contactref element="U7" pad="27"/>
-<wire x1="37.38" y1="60.85" x2="17.165" y2="40.405" width="0" layer="19" extent="1-1"/>
+<wire x1="17.165" y1="40.405" x2="37.38" y2="60.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="!OPD_ENABLE">
 <contactref element="TP13" pad="1"/>
 <contactref element="U7" pad="28"/>
 <contactref element="U1" pad="3"/>
 <contactref element="D4" pad="C"/>
-<wire x1="31.965" y1="52.8156" x2="17.665" y2="40.405" width="0" layer="19" extent="1-1"/>
 <wire x1="32.363" y1="50.65" x2="31.965" y2="52.8156" width="0" layer="19" extent="1-1"/>
 <wire x1="32.35" y1="47.83" x2="32.363" y2="50.65" width="0" layer="19" extent="1-1"/>
+<wire x1="17.665" y1="40.405" x2="32.35" y2="47.83" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OPD_ISET">
 <contactref element="R36" pad="2"/>
@@ -6139,34 +6118,35 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R16" pad="1"/>
 <contactref element="U7" pad="55"/>
 <contactref element="U1" pad="6"/>
-<wire x1="34.45" y1="61.34" x2="16.665" y2="51.605" width="0" layer="19" extent="1-1"/>
 <wire x1="32.43" y1="58.66" x2="34.45" y2="61.34" width="0" layer="19" extent="1-1"/>
 <wire x1="31.965" y1="57.0844" x2="32.43" y2="58.66" width="0" layer="19" extent="1-1"/>
+<wire x1="16.665" y1="51.605" x2="31.965" y2="57.0844" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TPS62111_SW">
 <contactref element="U5" pad="15"/>
 <contactref element="U5" pad="14"/>
 <polygon width="0.3" layer="1" thermals="no">
-<vertex x="47.27" y="34.85"/>
-<vertex x="47.27" y="34.25"/>
-<vertex x="49.47" y="34.25"/>
-<vertex x="49.47" y="34.85"/>
+<vertex x="31.45" y="20.87"/>
+<vertex x="31.45" y="20.27"/>
+<vertex x="33.65" y="20.27"/>
+<vertex x="33.65" y="20.87"/>
 </polygon>
 <contactref element="L2" pad="1"/>
+<wire x1="31.435" y1="20.475" x2="31.435" y2="21.125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TPS62111-PG">
 <contactref element="U5" pad="13"/>
 <contactref element="TP16" pad="1"/>
-<wire x1="47.28" y1="30.02" x2="47.255" y2="33.805" width="0" layer="19" extent="1-1"/>
+<wire x1="31.46" y1="16.04" x2="31.435" y2="19.825" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TPS62111-SYNC">
 <contactref element="TP19" pad="1"/>
 <contactref element="U5" pad="5"/>
 <contactref element="R10" pad="2"/>
 <contactref element="R7" pad="1"/>
-<wire x1="39.78" y1="36.77" x2="39.78" y2="35.16" width="0" layer="19" extent="1-1"/>
-<wire x1="40.7" y1="36.77" x2="39.78" y2="36.77" width="0" layer="19" extent="1-1"/>
-<wire x1="43.305" y1="35.755" x2="40.7" y2="36.77" width="0" layer="19" extent="1-1"/>
+<wire x1="24.88" y1="22.79" x2="27.485" y2="21.775" width="0" layer="19" extent="1-1"/>
+<wire x1="23.96" y1="22.79" x2="24.88" y2="22.79" width="0" layer="19" extent="1-1"/>
+<wire x1="23.96" y1="21.18" x2="23.96" y2="22.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VBUSP">
 <contactref element="U5" pad="3"/>
@@ -6180,18 +6160,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R1" pad="2"/>
 <contactref element="U4" pad="5"/>
 <polygon width="0.127" layer="1" thermals="no">
-<vertex x="43.77" y="33.08"/>
-<vertex x="43.77" y="36.32"/>
-<vertex x="45.92" y="36.32"/>
-<vertex x="45.92" y="39.39"/>
-<vertex x="42.26" y="39.39"/>
-<vertex x="42.26" y="46.3"/>
-<vertex x="40.5" y="46.3"/>
-<vertex x="40.5" y="37.82"/>
-<vertex x="41.36" y="37.82"/>
-<vertex x="41.36" y="33.08"/>
+<vertex x="27.95" y="19.1"/>
+<vertex x="27.95" y="22.34"/>
+<vertex x="30.1" y="22.34"/>
+<vertex x="30.1" y="25.41"/>
+<vertex x="26.44" y="25.41"/>
+<vertex x="26.44" y="32.32"/>
+<vertex x="24.68" y="32.32"/>
+<vertex x="24.68" y="23.84"/>
+<vertex x="25.54" y="23.84"/>
+<vertex x="25.54" y="19.1"/>
 </polygon>
-<wire x1="43.305" y1="33.805" x2="43.38" y2="29.54" width="0" layer="19" extent="1-1"/>
+<wire x1="27.485" y1="19.825" x2="27.56" y2="15.56" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$400">
 <contactref element="D5" pad="A"/>
@@ -6243,17 +6223,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R9" pad="2"/>
 <contactref element="R5" pad="1"/>
 <contactref element="U4" pad="3"/>
-<wire x1="43.36999375" y1="54.857559375" x2="44.34" y2="54.83" width="0" layer="19" extent="1-1"/>
-<wire x1="43.145" y1="50.755" x2="43.36999375" y2="54.857559375" width="0" layer="19" extent="1-1"/>
+<wire x1="27.54999375" y1="40.87755625" x2="28.52" y2="40.85" width="0" layer="19" extent="1-1"/>
+<wire x1="27.325" y1="36.775" x2="27.54999375" y2="40.87755625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CB_IOUT">
 <contactref element="R6" pad="2"/>
 <contactref element="TP10" pad="1"/>
 <contactref element="R20" pad="1"/>
 <contactref element="U4" pad="7"/>
-<wire x1="46.18" y1="41.38" x2="44.78" y2="41.38" width="0" layer="19" extent="1-1"/>
-<wire x1="44.18" y1="42.98" x2="44.78" y2="41.38" width="0" layer="19" extent="1-1"/>
-<wire x1="44.415" y1="45.005" x2="44.18" y2="42.98" width="0" layer="19" extent="1-1"/>
+<wire x1="28.36" y1="29" x2="28.595" y2="31.025" width="0" layer="19" extent="1-1"/>
+<wire x1="28.96" y1="27.4" x2="28.36" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="30.36" y1="27.4" x2="28.96" y2="27.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MMC_VDD">
 <contactref element="C24" pad="1"/>
@@ -6274,25 +6254,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="Q1" pad="6"/>
 <contactref element="Q1" pad="1"/>
 <polygon width="0.1524" layer="1" thermals="no">
-<vertex x="18.7452" y="81.7"/>
-<vertex x="4.98" y="81.7"/>
-<vertex x="4.98" y="72.68"/>
-<vertex x="9.1" y="72.68"/>
-<vertex x="9.1" y="77.09"/>
-<vertex x="18.7452" y="77.09"/>
+<vertex x="21.0552" y="81.7"/>
+<vertex x="7.29" y="81.7"/>
+<vertex x="7.29" y="72.68"/>
+<vertex x="11.41" y="72.68"/>
+<vertex x="11.41" y="77.09"/>
+<vertex x="21.0552" y="77.09"/>
 </polygon>
 <polygon width="0.1524" layer="15" thermals="no">
-<vertex x="19.04" y="81.71"/>
-<vertex x="19.04" y="70.4"/>
-<vertex x="4.93" y="70.4"/>
-<vertex x="4.93" y="81.71"/>
+<vertex x="21.35" y="81.71"/>
+<vertex x="21.35" y="70.4"/>
+<vertex x="7.24" y="70.4"/>
+<vertex x="7.24" y="81.71"/>
 </polygon>
-<wire x1="15.23" y1="75.63" x2="15.73" y2="76.13" width="0" layer="19" extent="1-1"/>
-<wire x1="15.23" y1="75.13" x2="15.23" y2="75.63" width="0" layer="19" extent="1-1"/>
-<wire x1="14.73" y1="76.13" x2="15.23" y2="75.63" width="0" layer="19" extent="1-1"/>
-<wire x1="12.73" y1="74.13" x2="15.23" y2="75.13" width="0" layer="19" extent="1-1"/>
-<wire x1="14.23" y1="70.63" x2="14.23" y2="71.63" width="0" layer="19" extent="1-1"/>
-<wire x1="15.57" y1="80.96" x2="15.73" y2="76.13" width="0" layer="19" extent="1-1"/>
+<wire x1="17.54" y1="75.63" x2="18.04" y2="76.13" width="0" layer="19" extent="1-1"/>
+<wire x1="17.54" y1="75.13" x2="17.54" y2="75.63" width="0" layer="19" extent="1-1"/>
+<wire x1="17.04" y1="76.13" x2="17.54" y2="75.63" width="0" layer="19" extent="1-1"/>
+<wire x1="15.04" y1="74.13" x2="17.54" y2="75.13" width="0" layer="19" extent="1-1"/>
+<wire x1="16.54" y1="70.63" x2="16.54" y2="71.63" width="0" layer="19" extent="1-1"/>
+<wire x1="17.88" y1="80.96" x2="18.04" y2="76.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RADIO2_CS">
 <contactref element="U7" pad="38"/>
@@ -6307,7 +6287,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="!CB_FLT">
 <contactref element="TP1" pad="1"/>
 <contactref element="U4" pad="6"/>
-<wire x1="43.145" y1="45.005" x2="43.08" y2="41.38" width="0" layer="19" extent="1-1"/>
+<wire x1="27.26" y1="27.4" x2="27.325" y2="31.025" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RADIO1_CS">
 <contactref element="U7" pad="37"/>
@@ -6368,7 +6348,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$3">
 <contactref element="R19" pad="2"/>
 <contactref element="D7" pad="1"/>
-<wire x1="31.82" y1="65.7" x2="31.86" y2="67.49" width="0" layer="19" extent="1-1"/>
+<wire x1="37.51" y1="66.4" x2="37.55" y2="68.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="WDT-PWR">
 <contactref element="U6" pad="4"/>
@@ -6377,17 +6357,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R19" pad="1"/>
 <contactref element="C18" pad="1"/>
 <polygon width="0.3048" layer="1">
-<vertex x="32.97" y="73.77"/>
-<vertex x="32.97" y="66.82"/>
-<vertex x="34.11" y="66.82"/>
-<vertex x="34.11" y="73.77"/>
+<vertex x="38.66" y="74.47"/>
+<vertex x="38.66" y="67.52"/>
+<vertex x="39.8" y="67.52"/>
+<vertex x="39.8" y="74.47"/>
 </polygon>
-<wire x1="33.235" y1="73.157" x2="31.285" y2="75.443" width="0" layer="19" extent="1-1"/>
+<wire x1="38.925" y1="73.857" x2="36.975" y2="76.143" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="CB_IOUT_IN">
 <contactref element="R20" pad="2"/>
 <contactref element="U7" pad="26"/>
-<wire x1="47.58" y1="41.38" x2="16.665" y2="40.405" width="0" layer="19" extent="1-1"/>
+<wire x1="16.665" y1="40.405" x2="31.76" y2="27.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB10">
 <contactref element="U7" pad="29"/>
@@ -6423,96 +6403,102 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C21" pad="1"/>
 <contactref element="U9" pad="C1" route="any" routetag="U.VDDI"/>
 <contactref element="U9" pad="C2" route="any" routetag="U.VDDI"/>
-<wire x1="20.58" y1="70.58" x2="20.58" y2="72.46" width="0" layer="19" extent="1-1"/>
-<wire x1="16.73" y1="70.63" x2="20.58" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="22.89" y1="70.58" x2="22.89" y2="72.46" width="0" layer="19" extent="1-1"/>
+<wire x1="19.04" y1="70.63" x2="22.89" y2="70.58" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_D0">
 <contactref element="U7" pad="39"/>
 <contactref element="U9" pad="A3"/>
 <contactref element="R15" pad="1"/>
-<wire x1="14.12" y1="63.8548" x2="15.73" y2="69.63" width="0" layer="19" extent="1-1"/>
-<wire x1="21.515" y1="45.255" x2="14.12" y2="63.8548" width="0" layer="19" extent="1-1"/>
+<wire x1="16.43" y1="63.8548" x2="18.04" y2="69.63" width="0" layer="19" extent="1-1"/>
+<wire x1="21.515" y1="45.255" x2="16.43" y2="63.8548" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_D1">
 <contactref element="U7" pad="40"/>
 <contactref element="U9" pad="A4"/>
 <contactref element="R15" pad="9"/>
-<wire x1="12.85" y1="60.7052" x2="15.23" y2="69.63" width="0" layer="19" extent="1-1"/>
-<wire x1="21.515" y1="45.755" x2="12.85" y2="60.7052" width="0" layer="19" extent="1-1"/>
+<wire x1="15.16" y1="60.7052" x2="17.54" y2="69.63" width="0" layer="19" extent="1-1"/>
+<wire x1="21.515" y1="45.755" x2="15.16" y2="60.7052" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_D2">
 <contactref element="U7" pad="51"/>
 <contactref element="U9" pad="A5"/>
 <contactref element="R15" pad="2"/>
-<wire x1="12.85" y1="63.8548" x2="14.73" y2="69.63" width="0" layer="19" extent="1-1"/>
-<wire x1="18.665" y1="51.605" x2="12.85" y2="63.8548" width="0" layer="19" extent="1-1"/>
+<wire x1="15.16" y1="63.8548" x2="17.04" y2="69.63" width="0" layer="19" extent="1-1"/>
+<wire x1="18.665" y1="51.605" x2="15.16" y2="63.8548" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_D3">
 <contactref element="U7" pad="52"/>
 <contactref element="U9" pad="A1"/>
 <contactref element="U9" pad="B2"/>
 <contactref element="R14" pad="7"/>
-<wire x1="16.23" y1="70.13" x2="16.73" y2="69.63" width="0" layer="19" extent="1-1"/>
-<wire x1="18.11" y1="60.7052" x2="16.73" y2="69.63" width="0" layer="19" extent="1-1"/>
-<wire x1="18.165" y1="51.605" x2="18.11" y2="60.7052" width="0" layer="19" extent="1-1"/>
+<wire x1="18.54" y1="70.13" x2="19.04" y2="69.63" width="0" layer="19" extent="1-1"/>
+<wire x1="20.42" y1="60.7052" x2="19.04" y2="69.63" width="0" layer="19" extent="1-1"/>
+<wire x1="18.165" y1="51.605" x2="20.42" y2="60.7052" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_CK">
 <contactref element="U9" pad="M6"/>
 <contactref element="U7" pad="53"/>
 <contactref element="TP7" pad="1"/>
 <contactref element="R14" pad="2"/>
-<wire x1="20.65" y1="63.8548" x2="25.1" y2="67.32" width="0" layer="19" extent="1-1"/>
-<wire x1="14.23" y1="75.13" x2="20.65" y2="63.8548" width="0" layer="19" extent="1-1"/>
-<wire x1="17.665" y1="51.605" x2="20.65" y2="63.8548" width="0" layer="19" extent="1-1"/>
+<wire x1="22.96" y1="63.8548" x2="27.41" y2="67.32" width="0" layer="19" extent="1-1"/>
+<wire x1="16.54" y1="75.13" x2="22.96" y2="63.8548" width="0" layer="19" extent="1-1"/>
+<wire x1="17.665" y1="51.605" x2="22.96" y2="63.8548" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_CMD">
 <contactref element="U7" pad="54"/>
 <contactref element="U9" pad="M5"/>
 <contactref element="R14" pad="9"/>
-<wire x1="20.65" y1="60.7052" x2="14.73" y2="75.13" width="0" layer="19" extent="1-1"/>
-<wire x1="17.165" y1="51.605" x2="20.65" y2="60.7052" width="0" layer="19" extent="1-1"/>
+<wire x1="22.96" y1="60.7052" x2="17.04" y2="75.13" width="0" layer="19" extent="1-1"/>
+<wire x1="17.165" y1="51.605" x2="22.96" y2="60.7052" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_D4">
 <contactref element="U9" pad="A2"/>
 <contactref element="U9" pad="B3"/>
 <contactref element="R14" pad="6"/>
-<wire x1="15.73" y1="70.13" x2="16.23" y2="69.63" width="0" layer="19" extent="1-1"/>
-<wire x1="16.84" y1="60.7052" x2="16.23" y2="69.63" width="0" layer="19" extent="1-1"/>
+<wire x1="18.04" y1="70.13" x2="18.54" y2="69.63" width="0" layer="19" extent="1-1"/>
+<wire x1="19.15" y1="60.7052" x2="18.54" y2="69.63" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_D5">
 <contactref element="U9" pad="C3"/>
 <contactref element="U9" pad="D3"/>
 <contactref element="U9" pad="B4"/>
 <contactref element="R14" pad="8"/>
-<wire x1="15.73" y1="70.63" x2="15.73" y2="71.13" width="0" layer="19" extent="1-1"/>
-<wire x1="15.23" y1="70.13" x2="15.73" y2="70.63" width="0" layer="19" extent="1-1"/>
-<wire x1="19.38" y1="60.7052" x2="15.23" y2="70.13" width="0" layer="19" extent="1-1"/>
+<wire x1="18.04" y1="70.63" x2="18.04" y2="71.13" width="0" layer="19" extent="1-1"/>
+<wire x1="17.54" y1="70.13" x2="18.04" y2="70.63" width="0" layer="19" extent="1-1"/>
+<wire x1="21.69" y1="60.7052" x2="17.54" y2="70.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_RST">
 <contactref element="U9" pad="K5"/>
 <contactref element="R14" pad="3"/>
-<wire x1="19.38" y1="63.8548" x2="14.73" y2="74.13" width="0" layer="19" extent="1-1"/>
+<wire x1="21.69" y1="63.8548" x2="17.04" y2="74.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MMC_PWR">
 <contactref element="U7" pad="2"/>
 <contactref element="Q1" pad="3"/>
 <contactref element="R15" pad="6"/>
-<wire x1="9.04" y1="60.7052" x2="4.36" y2="78.3" width="0" layer="19" extent="1-1"/>
-<wire x1="10.315" y1="49.255" x2="9.04" y2="60.7052" width="0" layer="19" extent="1-1"/>
+<wire x1="11.35" y1="60.7052" x2="6.67" y2="78.3" width="0" layer="19" extent="1-1"/>
+<wire x1="10.315" y1="49.255" x2="11.35" y2="60.7052" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDIO_D7">
 <contactref element="U9" pad="C7"/>
 <contactref element="U9" pad="B6"/>
 <contactref element="R15" pad="3"/>
-<wire x1="14.23" y1="70.13" x2="13.73" y2="70.63" width="0" layer="19" extent="1-1"/>
-<wire x1="11.58" y1="63.8548" x2="14.23" y2="70.13" width="0" layer="19" extent="1-1"/>
+<wire x1="16.54" y1="70.13" x2="16.04" y2="70.63" width="0.1524" layer="1"/>
+<wire x1="13.89" y1="63.8548" x2="13.89" y2="68.84" width="0.254" layer="1"/>
+<via x="13.89" y="68.84" extent="1-16" drill="0.35"/>
+<wire x1="16.04" y1="70.63" x2="16.04" y2="70.89876875" width="0.254" layer="1"/>
+<wire x1="16.04" y1="70.89876875" x2="15.85236875" y2="71.0864" width="0.254" layer="1"/>
+<via x="15.85236875" y="71.0864" extent="1-16" drill="0.35"/>
+<wire x1="15.85236875" y1="71.0864" x2="13.89" y2="69.12403125" width="0.254" layer="16"/>
+<wire x1="13.89" y1="69.12403125" x2="13.89" y2="68.84" width="0.254" layer="16"/>
 </signal>
 <signal name="SDIO_D6">
 <contactref element="U9" pad="C5"/>
 <contactref element="U9" pad="B5"/>
 <contactref element="R14" pad="4"/>
-<wire x1="14.73" y1="70.13" x2="14.73" y2="70.63" width="0" layer="19" extent="1-1"/>
-<wire x1="18.11" y1="63.8548" x2="14.73" y2="70.13" width="0" layer="19" extent="1-1"/>
+<wire x1="17.04" y1="70.13" x2="17.04" y2="70.63" width="0" layer="19" extent="1-1"/>
+<wire x1="20.42" y1="63.8548" x2="17.04" y2="70.13" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$7">
 <contactref element="U11" pad="10"/>
