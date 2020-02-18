@@ -9614,6 +9614,120 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 </deviceset>
 </devicesets>
 </library>
+<library name="pinhead" urn="urn:adsk.eagle:library:325">
+<description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="1X02" urn="urn:adsk.eagle:footprint:22309/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.27" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="2.54" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="0" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
+</package>
+<package name="1X02/90" urn="urn:adsk.eagle:footprint:22310/1" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="0" y1="0.635" x2="-2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="6.985" x2="-1.27" y2="1.27" width="0.762" layer="21"/>
+<wire x1="0" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0.635" x2="0" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="6.985" x2="1.27" y2="1.27" width="0.762" layer="21"/>
+<pad name="1" x="-1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="1.27" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.175" y="-3.81" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.445" y="-3.81" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.651" y1="0.635" x2="-0.889" y2="1.143" layer="21"/>
+<rectangle x1="0.889" y1="0.635" x2="1.651" y2="1.143" layer="21"/>
+<rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
+<rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
+<package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/2" type="model" library_version="4">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="1X02/90"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PINHD2" urn="urn:adsk.eagle:symbol:22308/1" library_version="4">
+<wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/4" prefix="JP" uservalue="yes" library_version="4">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="PINHD2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X02">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22435/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="98" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="/90" package="1X02/90">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="24" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -10145,6 +10259,8 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <part name="R18" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
 <part name="GND59" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D6" library="D-LittelFuse-Uni-Directional-TVS" deviceset="SZ1SMB5.0AT3G" device="" package3d_urn="urn:adsk.eagle:package:17409861/1"/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="VBUSP3" library="oresat-supplies" deviceset="VBUSP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10240,17 +10356,17 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <instance part="J5" gate="G$1" x="25.4" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="29.5656" y="84.0486" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 </instance>
-<instance part="GND6" gate="1" x="48.26" y="78.74" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="50.8" y="76.2" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND6" gate="1" x="83.82" y="83.82" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="86.36" y="81.28" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND13" gate="1" x="48.26" y="66.04" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="50.8" y="63.5" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND13" gate="1" x="83.82" y="71.12" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="86.36" y="68.58" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND38" gate="1" x="48.26" y="40.64" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="50.8" y="38.1" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND38" gate="1" x="83.82" y="45.72" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="86.36" y="43.18" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND58" gate="1" x="48.26" y="27.94" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="50.8" y="25.4" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND58" gate="1" x="83.82" y="33.02" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="86.36" y="30.48" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -10350,27 +10466,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <junction x="30.48" y="193.04"/>
 <junction x="30.48" y="190.5"/>
 <wire x1="30.48" y1="190.5" x2="58.42" y2="190.5" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="PAD"/>
-<wire x1="33.02" y1="81.28" x2="48.26" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<pinref part="J5" gate="G$1" pin="19"/>
-<pinref part="J5" gate="G$1" pin="20"/>
-<wire x1="33.02" y1="76.2" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="78.74" x2="33.02" y2="81.28" width="0.1524" layer="91"/>
-<junction x="33.02" y="78.74"/>
-<junction x="33.02" y="81.28"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="16"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="33.02" y1="68.58" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="J5" gate="G$1" pin="13"/>
-<wire x1="35.56" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="60.96" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
-<junction x="35.56" y="68.58"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
@@ -10635,6 +10730,22 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <wire x1="30.48" y1="223.52" x2="22.86" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="226.06" x2="55.88" y2="226.06" width="0.1524" layer="91"/>
 <label x="54.61" y="226.06" size="2.1844" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="FTDI_5V" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="19"/>
+<wire x1="33.02" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="18"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<junction x="33.02" y="76.2"/>
+<label x="48.26" y="76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="17"/>
+<wire x1="33.02" y1="71.12" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -12619,7 +12730,7 @@ floating</text>
 <wire x1="396.24" y1="269.24" x2="307.34" y2="269.24" width="0.1524" layer="97"/>
 <text x="332.74" y="264.16" size="3.81" layer="97">Watchdog</text>
 <wire x1="302.26" y1="180.34" x2="302.26" y2="160.02" width="0.1524" layer="97"/>
-<text x="96.52" y="160.02" size="1.778" layer="97">Internal Pull-up Resistor at MCU</text>
+<text x="73.66" y="160.02" size="1.778" layer="97">Internal Pull-up Resistor at MCU</text>
 <wire x1="302.26" y1="180.34" x2="261.62" y2="180.34" width="0.1524" layer="97"/>
 <wire x1="261.62" y1="180.34" x2="261.62" y2="200.66" width="0.1524" layer="97"/>
 <wire x1="261.62" y1="200.66" x2="302.26" y2="200.66" width="0.1524" layer="97"/>
@@ -13012,6 +13123,13 @@ floating</text>
 <attribute name="NAME" x="405.13" y="127" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="402.59" y="127" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="JP1" gate="G$1" x="86.36" y="177.8" smashed="yes">
+<attribute name="NAME" x="80.01" y="183.515" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.01" y="172.72" size="1.778" layer="96"/>
+</instance>
+<instance part="VBUSP3" gate="G$1" x="76.2" y="187.96" smashed="yes">
+<attribute name="VALUE" x="76.2" y="190.754" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13349,11 +13467,11 @@ floating</text>
 <net name="USART2_TX" class="0">
 <segment>
 <wire x1="190.5" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="116.84" x2="162.56" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="116.84" x2="162.56" y2="165.1" width="0.1524" layer="91"/>
 <label x="190.5" y="116.84" size="1.778" layer="95" rot="MR0"/>
-<label x="78.74" y="162.56" size="1.778" layer="95"/>
+<label x="71.12" y="165.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U7" gate="G$1" pin="PA2"/>
-<wire x1="162.56" y1="162.56" x2="71.12" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="165.1" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USART2_RX" class="0">
@@ -13361,7 +13479,7 @@ floating</text>
 <wire x1="165.1" y1="114.3" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
 <label x="190.5" y="114.3" size="1.778" layer="95" rot="MR0"/>
-<label x="78.74" y="160.02" size="1.778" layer="95"/>
+<label x="71.12" y="160.02" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="U7" gate="G$1" pin="PA3"/>
 <wire x1="71.12" y1="160.02" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
 </segment>
@@ -13486,6 +13604,7 @@ floating</text>
 <wire x1="177.8" y1="139.7" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
 <junction x="177.8" y="139.7"/>
 <wire x1="177.8" y1="137.16" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
+<label x="144.78" y="175.26" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -13495,6 +13614,7 @@ floating</text>
 <wire x1="167.64" y1="86.36" x2="167.64" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="190.5" x2="144.78" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="PA14"/>
+<label x="144.78" y="190.5" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -13504,6 +13624,7 @@ floating</text>
 <wire x1="170.18" y1="88.9" x2="170.18" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="195.58" x2="144.78" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="PA13"/>
+<label x="144.78" y="195.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PA15" class="0">
@@ -14005,6 +14126,21 @@ floating</text>
 <pinref part="U7" gate="G$1" pin="PB9"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="386.08" y1="142.24" x2="386.08" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VBUSP" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="180.34" x2="76.2" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="180.34" x2="76.2" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="VBUSP3" gate="G$1" pin="VBUSP"/>
+</segment>
+</net>
+<net name="FTDI_5V" class="0">
+<segment>
+<pinref part="JP1" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="177.8" x2="71.12" y2="177.8" width="0.1524" layer="91"/>
+<label x="71.12" y="177.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
