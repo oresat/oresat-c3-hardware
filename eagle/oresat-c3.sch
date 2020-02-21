@@ -9606,7 +9606,6 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP10" library="Tova" deviceset="TEST-POINT" device=""/>
 <part name="TP20" library="Tova" deviceset="TEST-POINT" device=""/>
-<part name="VBUSP1" library="oresat-supplies" deviceset="VBUSP" device=""/>
 <part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="C6" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
@@ -9898,6 +9897,8 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R21" library="C3_SamacSys_Parts" deviceset="R0603-4.7K-OHMS" device="" value="4.7k"/>
 <part name="J5" library="oresat-edge_connector" deviceset="2-1734592-0" device=""/>
+<part name="TP9" library="Tova" deviceset="TEST-POINT" device="" value="VBUS"/>
+<part name="R22" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10499,10 +10500,10 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <text x="306.07" y="205.74" size="1.778" layer="97">0805</text>
 <text x="275.59" y="223.52" size="1.778" layer="97">ECS-MPI4040R4-6R8-R</text>
 <text x="238.76" y="241.3" size="3.81" layer="97">3.3V Card Switching Supply</text>
-<wire x1="210.82" y1="246.38" x2="335.28" y2="246.38" width="0.1524" layer="97"/>
+<wire x1="208.28" y1="246.38" x2="335.28" y2="246.38" width="0.1524" layer="97"/>
 <wire x1="335.28" y1="246.38" x2="335.28" y2="173.99" width="0.1524" layer="97"/>
-<wire x1="335.28" y1="173.99" x2="210.82" y2="173.99" width="0.1524" layer="97"/>
-<wire x1="210.82" y1="173.99" x2="210.82" y2="246.38" width="0.1524" layer="97"/>
+<wire x1="335.28" y1="173.99" x2="208.28" y2="173.99" width="0.1524" layer="97"/>
+<wire x1="208.28" y1="173.99" x2="208.28" y2="246.38" width="0.1524" layer="97"/>
 <text x="416.56" y="6.35" size="3.81" layer="94">3.1</text>
 <text x="62.23" y="241.046" size="2.54" layer="97">Vbus = (6.0,7.2,8.4)V</text>
 <wire x1="45.72" y1="251.46" x2="167.64" y2="251.46" width="0.1524" layer="97"/>
@@ -10633,29 +10634,26 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <instance part="TP10" gate="G$1" x="121.92" y="205.74" smashed="yes">
 <attribute name="NAME" x="121.92" y="201.93" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="TP20" gate="G$1" x="142.24" y="215.9" smashed="yes">
-<attribute name="NAME" x="143.51" y="215.9" size="1.778" layer="95" font="vector"/>
-</instance>
-<instance part="VBUSP1" gate="G$1" x="142.24" y="223.52" smashed="yes">
-<attribute name="VALUE" x="142.24" y="226.314" size="1.778" layer="96" align="bottom-center"/>
+<instance part="TP20" gate="G$1" x="121.92" y="215.9" smashed="yes">
+<attribute name="NAME" x="123.19" y="215.9" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="VBUS1" gate="1" x="68.58" y="228.6" smashed="yes">
 <attribute name="VALUE" x="68.58" y="228.854" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D1" gate="G$1" x="142.24" y="195.58" smashed="yes">
-<attribute name="NAME" x="138.811" y="191.008" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="144.145" y="191.008" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D1" gate="G$1" x="215.9" y="200.66" smashed="yes">
+<attribute name="NAME" x="212.471" y="196.088" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="217.805" y="196.088" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GND7" gate="1" x="142.24" y="187.96" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="144.78" y="185.42" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND7" gate="1" x="215.9" y="185.42" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="218.44" y="182.88" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R1" gate="G$1" x="142.24" y="203.2" smashed="yes" rot="R90">
-<attribute name="DIS" x="142.24" y="203.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="142.24" y="203.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="142.24" y="203.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="142.24" y="203.2" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="140.97" y="198.12" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="140.97" y="203.2" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="G$1" x="215.9" y="210.82" smashed="yes" rot="R90">
+<attribute name="DIS" x="215.9" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="215.9" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="215.9" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="215.9" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="214.63" y="205.74" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="214.63" y="210.82" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R5" gate="G$1" x="68.58" y="208.28" smashed="yes" rot="R90">
 <attribute name="DIS" x="68.58" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
@@ -10693,6 +10691,13 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <attribute name="MPN" x="78.74" y="198.12" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="80.01" y="198.12" size="1.778" layer="95"/>
 <attribute name="VALUE" x="80.01" y="193.04" size="1.778" layer="96"/>
+</instance>
+<instance part="TP9" gate="G$1" x="60.96" y="223.52" smashed="yes">
+<attribute name="NAME" x="60.96" y="219.71" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="R22" gate="G$1" x="190.5" y="218.44" smashed="yes">
+<attribute name="NAME" x="186.69" y="219.9386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="186.69" y="215.138" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10752,6 +10757,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="215.9" y1="195.58" x2="215.9" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -10826,8 +10832,11 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 </net>
 <net name="VBUSP" class="0">
 <segment>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="218.44" x2="215.9" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="VBUSP2" gate="G$1" pin="VBUSP"/>
 <pinref part="U5" gate="G$1" pin="VIN"/>
+<wire x1="215.9" y1="218.44" x2="223.52" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="254" y1="218.44" x2="251.46" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="EN"/>
 <wire x1="251.46" y1="213.36" x2="254" y2="213.36" width="0.1524" layer="91"/>
@@ -10846,23 +10855,16 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <wire x1="223.52" y1="218.44" x2="223.52" y2="220.98" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="215.9" x2="223.52" y2="218.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="TP20" gate="G$1" pin="1"/>
-<junction x="142.24" y="215.9"/>
-<wire x1="111.76" y1="215.9" x2="142.24" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="VBUSP1" gate="G$1" pin="VBUSP"/>
-<wire x1="142.24" y1="215.9" x2="142.24" y2="223.52" width="0.1524" layer="91"/>
-<label x="121.92" y="218.44" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="215.9" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="VOUT"/>
+<wire x1="215.9" y1="215.9" x2="215.9" y2="218.44" width="0.1524" layer="91"/>
+<junction x="215.9" y="218.44"/>
 </segment>
 </net>
 <net name="N$270" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="215.9" y1="205.74" x2="215.9" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN/UVLO" class="0">
@@ -10899,10 +10901,14 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <junction x="78.74" y="215.9"/>
 <pinref part="VBUS1" gate="1" pin="VBUS"/>
 <wire x1="81.28" y1="215.9" x2="78.74" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="226.06" x2="68.58" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="226.06" x2="68.58" y2="223.52" width="0.1524" layer="91"/>
 <junction x="68.58" y="215.9"/>
 <pinref part="U4" gate="G$1" pin="VIN"/>
 <pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="TP9" gate="G$1" pin="1"/>
+<wire x1="68.58" y1="223.52" x2="68.58" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="223.52" x2="68.58" y2="223.52" width="0.1524" layer="91"/>
+<junction x="68.58" y="223.52"/>
 </segment>
 </net>
 <net name="!CB_FLT" class="0">
@@ -10910,6 +10916,18 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <pinref part="TP1" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="210.82" x2="116.84" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="U4" gate="G$1" pin="!FLT"/>
+</segment>
+</net>
+<net name="VBUSP_OUT" class="0">
+<segment>
+<pinref part="TP20" gate="G$1" pin="1"/>
+<junction x="121.92" y="215.9"/>
+<wire x1="111.76" y1="215.9" x2="121.92" y2="215.9" width="0.1524" layer="91"/>
+<label x="162.56" y="220.98" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="VOUT"/>
+<wire x1="121.92" y1="215.9" x2="121.92" y2="218.44" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="218.44" x2="185.42" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
