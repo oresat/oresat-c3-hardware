@@ -9900,6 +9900,8 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_
 <part name="U8" library="U-COBHAM-UT01VS33D-Voltage-Supervisor" deviceset="UT01VS33D" device="FLATDI_8" package3d_urn="urn:adsk.eagle:package:17466412/1"/>
 <part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND61" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="R21" library="C3_SamacSys_Parts" deviceset="R0603-4.7K-OHMS" device="" value="4.7k"/>
 </parts>
 <sheets>
 <sheet>
@@ -12874,6 +12876,13 @@ floating</text>
 <attribute name="NAME" x="330.5556" y="245.3386" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="330.6826" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
+<instance part="SUPPLY1" gate="G$1" x="322.58" y="248.92" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="322.58" y="251.714" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
+</instance>
+<instance part="R21" gate="G$1" x="322.58" y="241.3" smashed="yes" rot="MR270">
+<attribute name="NAME" x="321.0814" y="245.11" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="325.882" y="245.11" size="1.778" layer="96" rot="MR270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13016,6 +13025,11 @@ floating</text>
 <pinref part="GND59" gate="1" pin="GND"/>
 <wire x1="396.24" y1="121.92" x2="396.24" y2="116.84" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="GND"/>
+<pinref part="GND49" gate="1" pin="GND"/>
+<wire x1="342.9" y1="218.44" x2="342.9" y2="213.36" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CRYSTALIN" class="0">
 <segment>
@@ -13143,6 +13157,11 @@ floating</text>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
 <wire x1="358.14" y1="105.664" x2="358.14" y2="107.95" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
+<pinref part="R21" gate="G$1" pin="1"/>
+<wire x1="322.58" y1="248.92" x2="322.58" y2="246.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_RX" class="0">
@@ -13605,15 +13624,10 @@ floating</text>
 </net>
 <net name="WDT-PWR" class="0">
 <segment>
-<wire x1="327.66" y1="236.22" x2="325.12" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="254" x2="325.12" y2="254" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="236.22" x2="325.12" y2="254" width="0.1524" layer="91"/>
-<pinref part="U8" gate="G$1" pin="!MR"/>
 <pinref part="U8" gate="G$1" pin="VDD"/>
 <wire x1="342.9" y1="246.38" x2="342.9" y2="254" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="254" x2="325.12" y2="254" width="0.1524" layer="91"/>
-<junction x="325.12" y="254"/>
+<wire x1="342.9" y1="254" x2="312.42" y2="254" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="363.22" y1="251.46" x2="363.22" y2="254" width="0.1524" layer="91"/>
@@ -13859,6 +13873,19 @@ floating</text>
 <pinref part="U7" gate="G$1" pin="PB9"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 <wire x1="386.08" y1="142.24" x2="386.08" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="U8" gate="G$1" pin="!R_OD"/>
+<wire x1="356.87" y1="233.68" x2="393.7" y2="233.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R21" gate="G$1" pin="2"/>
+<pinref part="U8" gate="G$1" pin="!MR"/>
+<wire x1="322.58" y1="236.22" x2="327.66" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
