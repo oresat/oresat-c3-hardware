@@ -23446,7 +23446,6 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R18" library="C3_SamacSys_Parts" deviceset="R0603-10-OHMS" device="" value="10"/>
 <part name="U8" library="U-COBHAM-UT01VS33D-Voltage-Supervisor" deviceset="UT01VS33D" device="FLATDI_8" package3d_urn="urn:adsk.eagle:package:17466412/1"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="R21" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
 <part name="R22" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
 <part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="U11" library="U-ON-Semi-AX5043-radio" deviceset="U-ONSEMI-AX5043" device=""/>
@@ -27153,10 +27152,6 @@ All caps are 0603 X5R</text>
 <instance part="SUPPLY1" gate="G$1" x="320.04" y="248.92" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="320.04" y="251.714" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="R21" gate="G$1" x="320.04" y="220.98" smashed="yes" rot="MR270">
-<attribute name="NAME" x="318.5414" y="224.79" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="323.342" y="224.79" size="1.778" layer="96" rot="MR270"/>
-</instance>
 <instance part="D8" gate="G$1" x="381" y="238.76" smashed="yes">
 <attribute name="NAME" x="376.936" y="247.65" size="1.778" layer="95"/>
 </instance>
@@ -27173,9 +27168,9 @@ All caps are 0603 X5R</text>
 <instance part="GND6" gate="1" x="378.46" y="220.98" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="381" y="218.44" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="TP12" gate="G$1" x="383.54" y="208.28" smashed="yes">
-<attribute name="NAME" x="382.27" y="209.55" size="1.778" layer="95"/>
-<attribute name="TP_SIGNAL_NAME" x="384.81" y="207.01" size="1.778" layer="97"/>
+<instance part="TP12" gate="G$1" x="386.08" y="203.2" smashed="yes">
+<attribute name="NAME" x="384.81" y="204.47" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="387.35" y="201.93" size="1.778" layer="97"/>
 </instance>
 <instance part="TP21" gate="G$1" x="271.78" y="137.16" smashed="yes">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
@@ -27487,11 +27482,8 @@ All caps are 0603 X5R</text>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="320.04" y1="248.92" x2="320.04" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="320.04" y1="248.92" x2="325.12" y2="248.92" width="0.1524" layer="91"/>
-<junction x="320.04" y="248.92"/>
 </segment>
 </net>
 <net name="CAN1_RX" class="0">
@@ -27586,8 +27578,8 @@ All caps are 0603 X5R</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <junction x="370.84" y="210.82"/>
 <pinref part="TP12" gate="G$1" pin="TP"/>
-<wire x1="383.54" y1="205.74" x2="391.16" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="205.74" x2="391.16" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="200.66" x2="391.16" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="200.66" x2="391.16" y2="210.82" width="0.1524" layer="91"/>
 <junction x="391.16" y="210.82"/>
 </segment>
 </net>
@@ -27953,21 +27945,22 @@ All caps are 0603 X5R</text>
 <segment>
 <label x="408.94" y="215.9" size="1.778" layer="95" xref="yes"/>
 <pinref part="R13" gate="G$1" pin="2"/>
-<pinref part="U8" gate="G$1" pin="!WDO"/>
 <wire x1="401.32" y1="226.06" x2="401.32" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="215.9" x2="408.94" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="364.49" y1="215.9" x2="368.3" y2="215.9" width="0.1524" layer="91"/>
-<junction x="401.32" y="215.9"/>
+<wire x1="401.32" y1="215.9" x2="401.32" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="B"/>
-<wire x1="368.3" y1="215.9" x2="396.24" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="215.9" x2="401.32" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="241.3" x2="396.24" y2="215.9" width="0.1524" layer="91"/>
-<junction x="396.24" y="215.9"/>
+<wire x1="368.3" y1="213.36" x2="396.24" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="213.36" x2="401.32" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="396.24" y1="241.3" x2="396.24" y2="213.36" width="0.1524" layer="91"/>
+<junction x="396.24" y="213.36"/>
 <pinref part="D8" gate="G$1" pin="A"/>
-<wire x1="368.3" y1="241.3" x2="368.3" y2="215.9" width="0.1524" layer="91"/>
-<junction x="368.3" y="215.9"/>
+<wire x1="368.3" y1="241.3" x2="368.3" y2="213.36" width="0.1524" layer="91"/>
+<junction x="368.3" y="213.36"/>
 <wire x1="370.84" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="241.3" x2="396.24" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="!R_OD"/>
+<wire x1="364.49" y1="213.36" x2="368.3" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="408.94" y1="215.9" x2="401.32" y2="215.9" width="0.1524" layer="91"/>
+<junction x="401.32" y="215.9"/>
 </segment>
 </net>
 <net name="OPD_PWR" class="0">
@@ -28249,9 +28242,13 @@ All caps are 0603 X5R</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="U8" gate="G$1" pin="!MR"/>
-<wire x1="320.04" y1="215.9" x2="335.28" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="U8" gate="G$1" pin="!WDO"/>
+<wire x1="332.74" y1="215.9" x2="335.28" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="364.49" y1="215.9" x2="365.76" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="215.9" x2="365.76" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="365.76" y1="228.6" x2="332.74" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="332.74" y1="228.6" x2="332.74" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_SCL" class="0">
@@ -28284,6 +28281,7 @@ All caps are 0603 X5R</text>
 </nets>
 </sheet>
 <sheet>
+<description>UHF Power Tree</description>
 <plain>
 <text x="129.54" y="139.7" size="1.778" layer="97">SYNC = HIGH: Low-noise mode enabled, fixed-frequency PWM operation is forced
 SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>

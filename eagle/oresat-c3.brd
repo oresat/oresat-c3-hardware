@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0127" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND" color="7" fill="1" visible="yes" active="yes"/>
@@ -6957,21 +6957,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="37.31" y="81.809" size="1.27" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="37.31" y="73.411" size="1.27" layer="27" align="top-center"/>
 </element>
-<element name="R21" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="10k" x="30.96" y="81.03" smashed="yes">
-<attribute name="ALLIED_NUMBER" value="70154687" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.55mm" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="28.06" y="80.86" size="0.5" layer="25" font="vector" ratio="15"/>
-<attribute name="NAME" x="30.96" y="81.03" size="0.3" layer="33" ratio="15" align="center"/>
-<attribute name="RS_PART_NUMBER" value="7408805P" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="30.96" y="81.03" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" value="10k" x="29.96" y="79.48" size="0.8" layer="27" font="vector" ratio="15"/>
-</element>
 <element name="R22" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="0" x="18.22" y="23.07" smashed="yes">
 <attribute name="DESCRIPTION" value="Thick Film Resistors - SMD" x="18.22" y="23.07" size="1.778" layer="27" display="off"/>
 <attribute name="HEIGHT" value="0.55mm" x="18.22" y="23.07" size="1.778" layer="27" display="off"/>
@@ -8031,13 +8016,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="18.568" y1="15.663" x2="19.323" y2="15.663" width="0.3048" layer="1"/>
 <wire x1="19.323" y1="15.663" x2="19.33" y2="15.67" width="0.3048" layer="1"/>
 <via x="19.33" y="15.67" extent="1-16" drill="0.254"/>
-<contactref element="R21" pad="1"/>
-<via x="29.53" y="81.2" extent="1-16" drill="0.254"/>
 <via x="28.27" y="73.08" extent="1-16" drill="0.254"/>
 <via x="25.98" y="72.98" extent="1-16" drill="0.254"/>
 <via x="40.94" y="81.26" extent="1-16" drill="0.254"/>
-<wire x1="29.53" y1="81.2" x2="30.09" y2="81.2" width="0.3048" layer="1"/>
-<wire x1="30.09" y1="81.2" x2="30.26" y2="81.03" width="0.3048" layer="1"/>
 <wire x1="40.94" y1="81.26" x2="41.6" y2="81.26" width="0.3048" layer="1"/>
 <wire x1="41.6" y1="81.26" x2="41.7" y2="81.16" width="0.3048" layer="1"/>
 <contactref element="R34" pad="1"/>
@@ -8162,8 +8143,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <contactref element="J5" pad="11"/>
 <contactref element="TP14" pad="TP"/>
-<wire x1="30.26" y1="81.03" x2="40.94" y2="81.26" width="0" layer="19" extent="1-1"/>
-<wire x1="28.27" y1="73.08" x2="29.53" y2="81.2" width="0" layer="19" extent="1-1"/>
+<wire x1="28.27" y1="73.08" x2="40.94" y2="81.26" width="0" layer="19" extent="1-1"/>
 <wire x1="27.09" y1="73.01" x2="28.27" y2="73.08" width="0" layer="19" extent="1-1"/>
 <wire x1="25.98" y1="72.98" x2="27.09" y2="73.01" width="0" layer="19" extent="1-1"/>
 <wire x1="21.209" y1="61.976" x2="25.98" y2="72.98" width="0" layer="19" extent="1-1"/>
@@ -9609,9 +9589,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J6" pad="39"/>
 <contactref element="J6" pad="40"/>
 <contactref element="R13" pad="2"/>
-<contactref element="U8" pad="8"/>
-<wire x1="42.56" y1="79.515" x2="43.1" y2="80.055" width="0.254" layer="1"/>
-<wire x1="43.1" y1="80.055" x2="43.1" y2="81.16" width="0.254" layer="1"/>
 <wire x1="37.835" y1="88.629" x2="37.835" y2="87.359" width="0.254" layer="1"/>
 <wire x1="37.835" y1="87.359" x2="37.835" y2="84.715" width="0.254" layer="1"/>
 <wire x1="39.36" y1="83.19" x2="42.37" y2="83.19" width="0.254" layer="1"/>
@@ -9621,11 +9598,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="D8" pad="4"/>
 <contactref element="D8" pad="6"/>
 <wire x1="46.31" y1="79.49" x2="44.76" y2="79.49" width="0.254" layer="1"/>
-<wire x1="44.76" y1="79.49" x2="42.585" y2="79.49" width="0.254" layer="1"/>
-<wire x1="42.585" y1="79.49" x2="42.56" y2="79.515" width="0.254" layer="1"/>
 <wire x1="46.31" y1="81.39" x2="45.4" y2="81.39" width="0.254" layer="1"/>
 <wire x1="44.76" y1="80.75" x2="44.76" y2="79.49" width="0.254" layer="1"/>
 <wire x1="45.4" y1="81.39" x2="44.76" y2="80.75" width="0.254" layer="1"/>
+<contactref element="U8" pad="7"/>
+<wire x1="42.56" y1="78.245" x2="44.463" y2="78.245" width="0.254" layer="1"/>
+<wire x1="44.76" y1="78.542" x2="44.76" y2="79.49" width="0.254" layer="1"/>
+<wire x1="44.463" y1="78.245" x2="44.76" y2="78.542" width="0.254" layer="1"/>
+<wire x1="43.1" y1="81.16" x2="44.35" y2="81.16" width="0.254" layer="1"/>
+<wire x1="44.35" y1="81.16" x2="44.76" y2="80.75" width="0.254" layer="1"/>
 </signal>
 <signal name="RF2">
 <contactref element="J3" pad="FEED"/>
@@ -10767,10 +10748,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="29.61" y1="62.9841" x2="29.6418" y2="63.0159" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="R21" pad="2"/>
 <contactref element="U8" pad="1"/>
-<wire x1="31.66" y1="81.03" x2="31.66" y2="79.915" width="0.3048" layer="1"/>
-<wire x1="31.66" y1="79.915" x2="32.06" y2="79.515" width="0.3048" layer="1"/>
+<contactref element="U8" pad="8"/>
+<wire x1="42.56" y1="79.515" x2="40.881" y2="79.515" width="0.254" layer="1"/>
+<wire x1="40.005" y1="80.391" x2="40.005" y2="81.28" width="0.254" layer="1"/>
+<wire x1="40.005" y1="81.28" x2="34.925" y2="81.28" width="0.254" layer="1"/>
+<wire x1="34.925" y1="81.28" x2="34.544" y2="80.899" width="0.254" layer="1"/>
+<wire x1="34.544" y1="80.137" x2="33.909" y2="79.502" width="0.254" layer="1"/>
+<wire x1="33.909" y1="79.502" x2="32.073" y2="79.502" width="0.254" layer="1"/>
+<wire x1="32.073" y1="79.502" x2="32.06" y2="79.515" width="0.254" layer="1"/>
+<wire x1="40.881" y1="79.515" x2="40.005" y2="80.391" width="0.254" layer="1"/>
+<wire x1="34.544" y1="80.899" x2="34.544" y2="80.137" width="0.254" layer="1"/>
 </signal>
 <signal name="VBUSP_OUT">
 <contactref element="U4" pad="5"/>
