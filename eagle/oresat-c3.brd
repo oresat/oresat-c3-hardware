@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -389,6 +389,33 @@ by exp-lbrs.ulp</description>
 <pad name="1" x="0" y="0" drill="0.7366"/>
 <rectangle x1="-0.25" y1="-0.25" x2="0.25" y2="0.25" layer="51"/>
 <text x="-1.6" y="1.5" size="0.8" layer="25" font="vector" ratio="20">&gt;NAME</text>
+</package>
+<package name="SOT23">
+<wire x1="1.4" y1="0.6" x2="-1.4" y2="0.6" width="0.3" layer="51"/>
+<wire x1="-1.4" y1="0.6" x2="-1.4" y2="-0.6" width="0.3" layer="51"/>
+<wire x1="-1.4" y1="-0.6" x2="1.4" y2="-0.6" width="0.3" layer="51"/>
+<wire x1="1.4" y1="-0.6" x2="1.4" y2="0.6" width="0.3" layer="51"/>
+<wire x1="-1.7" y1="-1.6" x2="1.7" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="1.7" y1="-1.6" x2="1.7" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1.7" y1="0.9" x2="1" y2="0.9" width="0.05" layer="39"/>
+<wire x1="1" y1="0.9" x2="1" y2="1.6" width="0.05" layer="39"/>
+<wire x1="1" y1="1.6" x2="-1" y2="1.6" width="0.05" layer="39"/>
+<wire x1="-1" y1="1.6" x2="-1" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1" y1="0.9" x2="-1.7" y2="0.9" width="0.05" layer="39"/>
+<wire x1="-1.7" y1="0.9" x2="-1.7" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="-0.3683" y1="-0.3861" x2="0.3429" y2="-0.3861" width="0.15" layer="21"/>
+<wire x1="-1.3868" y1="-0.3683" x2="-1.3868" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="-1.3868" y1="0.3861" x2="-0.4978" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="1.3868" y1="-0.3683" x2="1.3868" y2="0.3861" width="0.15" layer="21"/>
+<wire x1="1.3868" y1="0.3861" x2="0.5232" y2="0.3861" width="0.15" layer="21"/>
+<smd name="3" x="0" y="1.143" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="2" x="0.9525" y="-1.143" dx="0.7874" dy="0.889" layer="1"/>
+<smd name="1" x="-0.9525" y="-1.143" dx="0.7874" dy="0.889" layer="1"/>
+<text x="-2" y="1.8" size="1" layer="25">&gt;NAME</text>
+<text x="-2" y="-3" size="1" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.25" y1="0.65" x2="0.25" y2="1.3" layer="51"/>
+<rectangle x1="-1.2" y1="-1.3" x2="-0.7" y2="-0.65" layer="51"/>
+<rectangle x1="0.7" y1="-1.3" x2="1.2" y2="-0.65" layer="51"/>
 </package>
 </packages>
 </library>
@@ -3616,6 +3643,1088 @@ This package is identical to 0402-B, but has its tPlace silkscreen layer removed
 </package>
 </packages>
 </library>
+<library name="rcl_custom">
+<description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
+Small local modifications, added multi-size packages R1206-0402, etc. For when you really don't know ;)&lt;br&gt;
+This library is derived from rcl.lbr with SMD inductor packages&lt;br&gt;
+ftp://ftp.cadsoft.de/eagle/userfiles/libraries/rcl.lbr (2007.05.29)&lt;br&gt;
+---
+&lt;br&gt;
+Based on the previous libraries:
+&lt;ul&gt;
+&lt;li&gt;r.lbr
+&lt;li&gt;cap.lbr 
+&lt;li&gt;cap-fe.lbr
+&lt;li&gt;captant.lbr
+&lt;li&gt;polcap.lbr
+&lt;li&gt;ipc-smd.lbr
+&lt;/ul&gt;
+All SMD packages are defined according to the IPC specifications and  CECC&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;p&gt;
+&lt;p&gt;
+for Electrolyt Capacitors see also :&lt;p&gt;
+www.bccomponents.com &lt;p&gt;
+www.panasonic.com&lt;p&gt;
+www.kemet.com&lt;p&gt;
+http://www.secc.co.jp/pdf/os_e/2004/e_os_all.pdf &lt;b&gt;(SANYO)&lt;/b&gt;
+&lt;p&gt;
+for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trimpotcrossref.asp&lt;/u&gt;&lt;p&gt;
+
+&lt;table border=0 cellspacing=0 cellpadding=0 width="100%" cellpaddding=0&gt;
+&lt;tr valign="top"&gt;
+
+&lt;! &lt;td width="10"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td width="90%"&gt;
+
+&lt;b&gt;&lt;font color="#0000FF" size="4"&gt;TRIM-POT CROSS REFERENCE&lt;/font&gt;&lt;/b&gt;
+&lt;P&gt;
+&lt;TABLE BORDER=0 CELLSPACING=1 CELLPADDING=2&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=8&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;RECTANGULAR MULTI-TURN&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;BOURNS&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;BI&amp;nbsp;TECH&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;DALE-VISHAY&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;PHILIPS/MEPCO&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;MURATA&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;PANASONIC&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;SPECTROL&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;B&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL color="#FF0000"&gt;MILSPEC&lt;/FONT&gt;
+      &lt;/B&gt;
+    &lt;/TD&gt;&lt;TD&gt;&amp;nbsp;&lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3 &gt;
+      3005P&lt;BR&gt;
+      3006P&lt;BR&gt;
+      3006W&lt;BR&gt;
+      3006Y&lt;BR&gt;
+      3009P&lt;BR&gt;
+      3009W&lt;BR&gt;
+      3009Y&lt;BR&gt;
+      3057J&lt;BR&gt;
+      3057L&lt;BR&gt;
+      3057P&lt;BR&gt;
+      3057Y&lt;BR&gt;
+      3059J&lt;BR&gt;
+      3059L&lt;BR&gt;
+      3059P&lt;BR&gt;
+      3059Y&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      89P&lt;BR&gt;
+      89W&lt;BR&gt;
+      89X&lt;BR&gt;
+      89PH&lt;BR&gt;
+      76P&lt;BR&gt;
+      89XH&lt;BR&gt;
+      78SLT&lt;BR&gt;
+      78L&amp;nbsp;ALT&lt;BR&gt;
+      56P&amp;nbsp;ALT&lt;BR&gt;
+      78P&amp;nbsp;ALT&lt;BR&gt;
+      T8S&lt;BR&gt;
+      78L&lt;BR&gt;
+      56P&lt;BR&gt;
+      78P&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      T18/784&lt;BR&gt;
+      783&lt;BR&gt;
+      781&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      2199&lt;BR&gt;
+      1697/1897&lt;BR&gt;
+      1680/1880&lt;BR&gt;
+      2187&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      8035EKP/CT20/RJ-20P&lt;BR&gt;
+      -&lt;BR&gt;
+      RJ-20X&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      1211L&lt;BR&gt;
+      8012EKQ&amp;nbsp;ALT&lt;BR&gt;
+      8012EKR&amp;nbsp;ALT&lt;BR&gt;
+      1211P&lt;BR&gt;
+      8012EKJ&lt;BR&gt;
+      8012EKL&lt;BR&gt;
+      8012EKQ&lt;BR&gt;
+      8012EKR&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      2101P&lt;BR&gt;
+      2101W&lt;BR&gt;
+      2101Y&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      2102L&lt;BR&gt;
+      2102S&lt;BR&gt;
+      2102Y&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      EVMCOG&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      43P&lt;BR&gt;
+      43W&lt;BR&gt;
+      43Y&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      40L&lt;BR&gt;
+      40P&lt;BR&gt;
+      40Y&lt;BR&gt;
+      70Y-T602&lt;BR&gt;
+      70L&lt;BR&gt;
+      70P&lt;BR&gt;
+      70Y&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      RT/RTR12&lt;BR&gt;
+      RT/RTR12&lt;BR&gt;
+      RT/RTR12&lt;BR&gt;
+      -&lt;BR&gt;
+      RJ/RJR12&lt;BR&gt;
+      RJ/RJR12&lt;BR&gt;
+      RJ/RJR12&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=8&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=8&gt;
+      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;SQUARE MULTI-TURN&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+   &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;BOURN&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;BI&amp;nbsp;TECH&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;DALE-VISHAY&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;PHILIPS/MEPCO&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;MURATA&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;PANASONIC&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;SPECTROL&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;MILSPEC&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      3250L&lt;BR&gt;
+      3250P&lt;BR&gt;
+      3250W&lt;BR&gt;
+      3250X&lt;BR&gt;
+      3252P&lt;BR&gt;
+      3252W&lt;BR&gt;
+      3252X&lt;BR&gt;
+      3260P&lt;BR&gt;
+      3260W&lt;BR&gt;
+      3260X&lt;BR&gt;
+      3262P&lt;BR&gt;
+      3262W&lt;BR&gt;
+      3262X&lt;BR&gt;
+      3266P&lt;BR&gt;
+      3266W&lt;BR&gt;
+      3266X&lt;BR&gt;
+      3290H&lt;BR&gt;
+      3290P&lt;BR&gt;
+      3290W&lt;BR&gt;
+      3292P&lt;BR&gt;
+      3292W&lt;BR&gt;
+      3292X&lt;BR&gt;
+      3296P&lt;BR&gt;
+      3296W&lt;BR&gt;
+      3296X&lt;BR&gt;
+      3296Y&lt;BR&gt;
+      3296Z&lt;BR&gt;
+      3299P&lt;BR&gt;
+      3299W&lt;BR&gt;
+      3299X&lt;BR&gt;
+      3299Y&lt;BR&gt;
+      3299Z&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      66P&amp;nbsp;ALT&lt;BR&gt;
+      66W&amp;nbsp;ALT&lt;BR&gt;
+      66X&amp;nbsp;ALT&lt;BR&gt;
+      66P&amp;nbsp;ALT&lt;BR&gt;
+      66W&amp;nbsp;ALT&lt;BR&gt;
+      66X&amp;nbsp;ALT&lt;BR&gt;
+      -&lt;BR&gt;
+      64W&amp;nbsp;ALT&lt;BR&gt;
+      -&lt;BR&gt;
+      64P&amp;nbsp;ALT&lt;BR&gt;
+      64W&amp;nbsp;ALT&lt;BR&gt;
+      64X&amp;nbsp;ALT&lt;BR&gt;
+      64P&lt;BR&gt;
+      64W&lt;BR&gt;
+      64X&lt;BR&gt;
+      66X&amp;nbsp;ALT&lt;BR&gt;
+      66P&amp;nbsp;ALT&lt;BR&gt;
+      66W&amp;nbsp;ALT&lt;BR&gt;
+      66P&lt;BR&gt;
+      66W&lt;BR&gt;
+      66X&lt;BR&gt;
+      67P&lt;BR&gt;
+      67W&lt;BR&gt;
+      67X&lt;BR&gt;
+      67Y&lt;BR&gt;
+      67Z&lt;BR&gt;
+      68P&lt;BR&gt;
+      68W&lt;BR&gt;
+      68X&lt;BR&gt;
+      67Y&amp;nbsp;ALT&lt;BR&gt;
+      67Z&amp;nbsp;ALT&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      5050&lt;BR&gt;
+      5091&lt;BR&gt;
+      5080&lt;BR&gt;
+      5087&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      T63YB&lt;BR&gt;
+      T63XB&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      5887&lt;BR&gt;
+      5891&lt;BR&gt;
+      5880&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      T93Z&lt;BR&gt;
+      T93YA&lt;BR&gt;
+      T93XA&lt;BR&gt;
+      T93YB&lt;BR&gt;
+      T93XB&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      8026EKP&lt;BR&gt;
+      8026EKW&lt;BR&gt;
+      8026EKM&lt;BR&gt;
+      8026EKP&lt;BR&gt;
+      8026EKB&lt;BR&gt;
+      8026EKM&lt;BR&gt;
+      1309X&lt;BR&gt;
+      1309P&lt;BR&gt;
+      1309W&lt;BR&gt;
+      8024EKP&lt;BR&gt;
+      8024EKW&lt;BR&gt;
+      8024EKN&lt;BR&gt;
+      RJ-9P/CT9P&lt;BR&gt;
+      RJ-9W&lt;BR&gt;
+      RJ-9X&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      3103P&lt;BR&gt;
+      3103Y&lt;BR&gt;
+      3103Z&lt;BR&gt;
+      3103P&lt;BR&gt;
+      3103Y&lt;BR&gt;
+      3103Z&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      3105P/3106P&lt;BR&gt;
+      3105W/3106W&lt;BR&gt;
+      3105X/3106X&lt;BR&gt;
+      3105Y/3106Y&lt;BR&gt;
+      3105Z/3105Z&lt;BR&gt;
+      3102P&lt;BR&gt;
+      3102W&lt;BR&gt;
+      3102X&lt;BR&gt;
+      3102Y&lt;BR&gt;
+      3102Z&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      EVMCBG&lt;BR&gt;
+      EVMCCG&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      55-1-X&lt;BR&gt;
+      55-4-X&lt;BR&gt;
+      55-3-X&lt;BR&gt;
+      55-2-X&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      50-2-X&lt;BR&gt;
+      50-4-X&lt;BR&gt;
+      50-3-X&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      64P&lt;BR&gt;
+      64W&lt;BR&gt;
+      64X&lt;BR&gt;
+      64Y&lt;BR&gt;
+      64Z&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      RT/RTR22&lt;BR&gt;
+      RT/RTR22&lt;BR&gt;
+      RT/RTR22&lt;BR&gt;
+      RT/RTR22&lt;BR&gt;
+      RJ/RJR22&lt;BR&gt;
+      RJ/RJR22&lt;BR&gt;
+      RJ/RJR22&lt;BR&gt;
+      RT/RTR26&lt;BR&gt;
+      RT/RTR26&lt;BR&gt;
+      RT/RTR26&lt;BR&gt;
+      RJ/RJR26&lt;BR&gt;
+      RJ/RJR26&lt;BR&gt;
+      RJ/RJR26&lt;BR&gt;
+      RJ/RJR26&lt;BR&gt;
+      RJ/RJR26&lt;BR&gt;
+      RJ/RJR26&lt;BR&gt;
+      RT/RTR24&lt;BR&gt;
+      RT/RTR24&lt;BR&gt;
+      RT/RTR24&lt;BR&gt;
+      RJ/RJR24&lt;BR&gt;
+      RJ/RJR24&lt;BR&gt;
+      RJ/RJR24&lt;BR&gt;
+      RJ/RJR24&lt;BR&gt;
+      RJ/RJR24&lt;BR&gt;
+      RJ/RJR24&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=8&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=8&gt;
+      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;SINGLE TURN&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;BOURN&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;BI&amp;nbsp;TECH&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;DALE-VISHAY&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;PHILIPS/MEPCO&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;MURATA&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;PANASONIC&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;SPECTROL&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD ALIGN=CENTER&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;MILSPEC&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      3323P&lt;BR&gt;
+      3323S&lt;BR&gt;
+      3323W&lt;BR&gt;
+      3329H&lt;BR&gt;
+      3329P&lt;BR&gt;
+      3329W&lt;BR&gt;
+      3339H&lt;BR&gt;
+      3339P&lt;BR&gt;
+      3339W&lt;BR&gt;
+      3352E&lt;BR&gt;
+      3352H&lt;BR&gt;
+      3352K&lt;BR&gt;
+      3352P&lt;BR&gt;
+      3352T&lt;BR&gt;
+      3352V&lt;BR&gt;
+      3352W&lt;BR&gt;
+      3362H&lt;BR&gt;
+      3362M&lt;BR&gt;
+      3362P&lt;BR&gt;
+      3362R&lt;BR&gt;
+      3362S&lt;BR&gt;
+      3362U&lt;BR&gt;
+      3362W&lt;BR&gt;
+      3362X&lt;BR&gt;
+      3386B&lt;BR&gt;
+      3386C&lt;BR&gt;
+      3386F&lt;BR&gt;
+      3386H&lt;BR&gt;
+      3386K&lt;BR&gt;
+      3386M&lt;BR&gt;
+      3386P&lt;BR&gt;
+      3386S&lt;BR&gt;
+      3386W&lt;BR&gt;
+      3386X&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      25P&lt;BR&gt;
+      25S&lt;BR&gt;
+      25RX&lt;BR&gt;
+      82P&lt;BR&gt;
+      82M&lt;BR&gt;
+      82PA&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      91E&lt;BR&gt;
+      91X&lt;BR&gt;
+      91T&lt;BR&gt;
+      91B&lt;BR&gt;
+      91A&lt;BR&gt;
+      91V&lt;BR&gt;
+      91W&lt;BR&gt;
+      25W&lt;BR&gt;
+      25V&lt;BR&gt;
+      25P&lt;BR&gt;
+      -&lt;BR&gt;
+      25S&lt;BR&gt;
+      25U&lt;BR&gt;
+      25RX&lt;BR&gt;
+      25X&lt;BR&gt;
+      72XW&lt;BR&gt;
+      72XL&lt;BR&gt;
+      72PM&lt;BR&gt;
+      72RX&lt;BR&gt;
+      -&lt;BR&gt;
+      72PX&lt;BR&gt;
+      72P&lt;BR&gt;
+      72RXW&lt;BR&gt;
+      72RXL&lt;BR&gt;
+      72X&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      T7YB&lt;BR&gt;
+      T7YA&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      TXD&lt;BR&gt;
+      TYA&lt;BR&gt;
+      TYP&lt;BR&gt;
+      -&lt;BR&gt;
+      TYD&lt;BR&gt;
+      TX&lt;BR&gt;
+      -&lt;BR&gt;
+      150SX&lt;BR&gt;
+      100SX&lt;BR&gt;
+      102T&lt;BR&gt;
+      101S&lt;BR&gt;
+      190T&lt;BR&gt;
+      150TX&lt;BR&gt;
+      101&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      101SX&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      ET6P&lt;BR&gt;
+      ET6S&lt;BR&gt;
+      ET6X&lt;BR&gt;
+      RJ-6W/8014EMW&lt;BR&gt;
+      RJ-6P/8014EMP&lt;BR&gt;
+      RJ-6X/8014EMX&lt;BR&gt;
+      TM7W&lt;BR&gt;
+      TM7P&lt;BR&gt;
+      TM7X&lt;BR&gt;
+      -&lt;BR&gt;
+      8017SMS&lt;BR&gt;
+      -&lt;BR&gt;
+      8017SMB&lt;BR&gt;
+      8017SMA&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      CT-6W&lt;BR&gt;
+      CT-6H&lt;BR&gt;
+      CT-6P&lt;BR&gt;
+      CT-6R&lt;BR&gt;
+      -&lt;BR&gt;
+      CT-6V&lt;BR&gt;
+      CT-6X&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      8038EKV&lt;BR&gt;
+      -&lt;BR&gt;
+      8038EKX&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      8038EKP&lt;BR&gt;
+      8038EKZ&lt;BR&gt;
+      8038EKW&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      3321H&lt;BR&gt;
+      3321P&lt;BR&gt;
+      3321N&lt;BR&gt;
+      1102H&lt;BR&gt;
+      1102P&lt;BR&gt;
+      1102T&lt;BR&gt;
+      RVA0911V304A&lt;BR&gt;
+      -&lt;BR&gt;
+      RVA0911H413A&lt;BR&gt;
+      RVG0707V100A&lt;BR&gt;
+      RVA0607V(H)306A&lt;BR&gt;
+      RVA1214H213A&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      3104B&lt;BR&gt;
+      3104C&lt;BR&gt;
+      3104F&lt;BR&gt;
+      3104H&lt;BR&gt;
+      -&lt;BR&gt;
+      3104M&lt;BR&gt;
+      3104P&lt;BR&gt;
+      3104S&lt;BR&gt;
+      3104W&lt;BR&gt;
+      3104X&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      EVMQ0G&lt;BR&gt;
+      EVMQIG&lt;BR&gt;
+      EVMQ3G&lt;BR&gt;
+      EVMS0G&lt;BR&gt;
+      EVMQ0G&lt;BR&gt;
+      EVMG0G&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      EVMK4GA00B&lt;BR&gt;
+      EVM30GA00B&lt;BR&gt;
+      EVMK0GA00B&lt;BR&gt;
+      EVM38GA00B&lt;BR&gt;
+      EVMB6&lt;BR&gt;
+      EVLQ0&lt;BR&gt;
+      -&lt;BR&gt;
+      EVMMSG&lt;BR&gt;
+      EVMMBG&lt;BR&gt;
+      EVMMAG&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      EVMMCS&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      EVMM1&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      EVMM0&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      EVMM3&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      62-3-1&lt;BR&gt;
+      62-1-2&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      67R&lt;BR&gt;
+      -&lt;BR&gt;
+      67P&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      67X&lt;BR&gt;
+      63V&lt;BR&gt;
+      63S&lt;BR&gt;
+      63M&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      63H&lt;BR&gt;
+      63P&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      63X&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      RJ/RJR50&lt;BR&gt;
+      RJ/RJR50&lt;BR&gt;
+      RJ/RJR50&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;P&gt;
+&lt;TABLE BORDER=0 CELLSPACING=1 CELLPADDING=3&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;
+      &lt;FONT color="#0000FF" SIZE=4 FACE=ARIAL&gt;&lt;B&gt;SMD TRIM-POT CROSS REFERENCE&lt;/B&gt;&lt;/FONT&gt;
+      &lt;P&gt;
+      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;MULTI-TURN&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;BOURNS&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;BI&amp;nbsp;TECH&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;DALE-VISHAY&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;PHILIPS/MEPCO&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;PANASONIC&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;TOCOS&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;AUX/KYOCERA&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      3224G&lt;BR&gt;
+      3224J&lt;BR&gt;
+      3224W&lt;BR&gt;
+      3269P&lt;BR&gt;
+      3269W&lt;BR&gt;
+      3269X&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      44G&lt;BR&gt;
+      44J&lt;BR&gt;
+      44W&lt;BR&gt;
+      84P&lt;BR&gt;
+      84W&lt;BR&gt;
+      84X&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      ST63Z&lt;BR&gt;
+      ST63Y&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      ST5P&lt;BR&gt;
+      ST5W&lt;BR&gt;
+      ST5X&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;
+      &lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;SINGLE TURN&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;BOURNS&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;BI&amp;nbsp;TECH&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;DALE-VISHAY&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;PHILIPS/MEPCO&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;PANASONIC&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;TOCOS&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD&gt;
+      &lt;FONT SIZE=3 FACE=ARIAL&gt;&lt;B&gt;AUX/KYOCERA&lt;/B&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  &lt;TR&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      3314G&lt;BR&gt;
+      3314J&lt;BR&gt;
+      3364A/B&lt;BR&gt;
+      3364C/D&lt;BR&gt;
+      3364W/X&lt;BR&gt;
+      3313G&lt;BR&gt;
+      3313J&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      23B&lt;BR&gt;
+      23A&lt;BR&gt;
+      21X&lt;BR&gt;
+      21W&lt;BR&gt;
+      -&lt;BR&gt;
+      22B&lt;BR&gt;
+      22A&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      ST5YL/ST53YL&lt;BR&gt;
+      ST5YJ/5T53YJ&lt;BR&gt;
+      ST-23A&lt;BR&gt;
+      ST-22B&lt;BR&gt;
+      ST-22&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      ST-4B&lt;BR&gt;
+      ST-4A&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      ST-3B&lt;BR&gt;
+      ST-3A&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      EVM-6YS&lt;BR&gt;
+      EVM-1E&lt;BR&gt;
+      EVM-1G&lt;BR&gt;
+      EVM-1D&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      G4B&lt;BR&gt;
+      G4A&lt;BR&gt;
+      TR04-3S1&lt;BR&gt;
+      TRG04-2S1&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;
+      DVR-43A&lt;BR&gt;
+      CVR-42C&lt;BR&gt;
+      CVR-42A/C&lt;BR&gt;
+      -&lt;BR&gt;
+      -&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+&lt;/TABLE&gt;
+&lt;P&gt;
+&lt;FONT SIZE=4 FACE=ARIAL&gt;&lt;B&gt;ALT =&amp;nbsp;ALTERNATE&lt;/B&gt;&lt;/FONT&gt;
+&lt;P&gt;
+
+&amp;nbsp;
+&lt;P&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</description>
+<packages>
+<package name=".0402-B-NOSILK">
+<description>&lt;b&gt;e0402 (metric 1005) normal 'IPC-B' without silkscreen&lt;/b&gt;
+&lt;br&gt;In house package for nominal spacing based on IPC-7351B.
+This package is identical to 0402-B, but has its tPlace silkscreen layer removed.</description>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1" roundness="17" stop="no"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1" roundness="17" stop="no"/>
+<wire x1="0.945" y1="0.495" x2="-0.945" y2="0.495" width="0.01" layer="39"/>
+<wire x1="-0.945" y1="0.495" x2="-0.945" y2="-0.495" width="0.01" layer="39"/>
+<wire x1="-0.945" y1="-0.495" x2="0.945" y2="-0.495" width="0.01" layer="39"/>
+<wire x1="0.945" y1="-0.495" x2="0.945" y2="0.495" width="0.01" layer="39"/>
+<text x="-0.8" y="0.55" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-0.8" y="-1.35" size="0.8" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<rectangle x1="-0.86" y1="-0.41" x2="-0.14" y2="0.41" layer="29"/>
+<rectangle x1="0.14" y1="-0.41" x2="0.86" y2="0.41" layer="29"/>
+<wire x1="-0.525" y1="0.275" x2="0.525" y2="0.275" width="0.05" layer="51"/>
+<wire x1="0.525" y1="0.275" x2="0.525" y2="-0.275" width="0.05" layer="51"/>
+<wire x1="0.525" y1="-0.275" x2="-0.525" y2="-0.275" width="0.05" layer="51"/>
+<wire x1="-0.525" y1="-0.275" x2="-0.525" y2="0.275" width="0.05" layer="51"/>
+<rectangle x1="0.2" y1="-0.275" x2="0.35" y2="0.275" layer="51"/>
+<rectangle x1="-0.35" y1="-0.275" x2="-0.2" y2="0.275" layer="51"/>
+<wire x1="-0.525" y1="0.275" x2="0.525" y2="0.275" width="0.05" layer="33"/>
+<wire x1="0.525" y1="0.275" x2="0.525" y2="-0.275" width="0.05" layer="33"/>
+<wire x1="0.525" y1="-0.275" x2="-0.525" y2="-0.275" width="0.05" layer="33"/>
+<wire x1="-0.525" y1="-0.275" x2="-0.525" y2="0.275" width="0.05" layer="33"/>
+<text x="0" y="0" size="0.2" layer="33" ratio="15" align="center">&gt;NAME</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3824,8 +4933,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="11.14" y="53.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="11.14" y="53.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="11.14" y="53.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.79" y="53.2" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
 <attribute name="NAME" x="12.85" y="54.27" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="10.79" y="53.2" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="11.14" y="53.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="11.14" y="53.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="100nF" x="10.89" y="53.25" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
@@ -3841,8 +4950,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="6.998" y="43.23" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="6.998" y="43.23" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="6.998" y="43.23" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.998" y="43.23" size="0.635" layer="33" ratio="20" align="center"/>
 <attribute name="NAME" x="5.428" y="43.71" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="6.998" y="43.23" size="0.635" layer="33" ratio="20" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.998" y="43.23" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.998" y="43.23" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100nF" x="6.998" y="43.13" size="0.5" layer="27" ratio="20" align="center"/>
@@ -3858,8 +4967,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" x="6.998" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" x="6.998" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="6.998" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.998" y="44.737665625" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="NAME" x="5.458" y="45.197665625" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="6.998" y="44.737665625" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.998" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.998" y="44.737665625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="20pF" x="6.998" y="44.737665625" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
@@ -3875,8 +4984,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" x="6.998" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" x="6.998" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="6.998" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.998" y="49.379996875" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="NAME" x="5.457996875" y="49.86" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="6.998" y="49.379996875" size="0.635" layer="33" ratio="20" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.998" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.998" y="49.379996875" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="20pF" x="6.998" y="49.379996875" size="0.5" layer="27" ratio="20" rot="R180" align="center"/>
@@ -3892,8 +5001,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="25.679" y="51.918" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="25.679" y="51.918" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="25.679" y="51.918" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="25.679" y="51.918" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
 <attribute name="NAME" x="25.0286" y="53.353" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="25.679" y="51.918" size="0.635" layer="33" ratio="20" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="25.679" y="51.918" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="25.679" y="51.918" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="100nF" x="25.679" y="51.918" size="0.5" layer="27" ratio="20" rot="R270" align="center"/>
@@ -3909,8 +5018,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="8.98" y="50.91" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="8.98" y="50.91" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="8.98" y="50.91" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="8.98" y="50.91" size="0.635" layer="33" ratio="20" align="center"/>
 <attribute name="NAME" x="9.67" y="52.27" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="8.98" y="50.91" size="0.635" layer="33" ratio="20" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="8.98" y="50.91" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="8.98" y="50.91" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100nF" x="8.98" y="50.91" size="0.5" layer="27" ratio="20" align="center"/>
@@ -3942,8 +5051,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="13.6646" y="54.1454" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="13.6646" y="54.1454" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="13.6646" y="54.1454" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="13.7146" y="54.2954" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="14.8302" y="55.322" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="13.7146" y="54.2954" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="13.6646" y="54.1454" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="13.6646" y="54.1454" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="10k" x="12.8646" y="52.7954" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -3969,8 +5078,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="17.908" y="17.043" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="17.908" y="17.043" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="17.908" y="17.043" size="2" layer="27" display="off"/>
-<attribute name="NAME" x="17.508" y="17.693" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="17.908" y="17.043" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="17.508" y="17.693" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="17.908" y="17.043" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="17.908" y="17.043" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="17.108" y="15.693" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -3986,8 +5095,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="17.868" y="15.663" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="17.868" y="15.663" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="17.868" y="15.663" size="2" layer="27" display="off"/>
-<attribute name="NAME" x="17.368" y="14.413" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="17.868" y="15.663" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="17.368" y="14.413" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="17.868" y="15.663" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="17.868" y="15.663" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="17.068" y="14.313" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4008,8 +5117,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="30.761" y="72.665" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="30.761" y="72.665" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="30.761" y="69.265" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="NAME" x="28.395" y="72.311" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="30.761" y="72.665" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="28.395" y="72.311" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="30.761" y="72.665" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="30.761" y="72.665" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="29.961" y="71.315" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4064,8 +5173,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.74" y="51.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="35.84" y="50.45" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="36.74" y="51.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="35.84" y="50.65" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="10k" x="35.04" y="49.3" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4081,8 +5190,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-2372ELF" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-2372ELF" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="34.41" y="56.38" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="35.56" y="55.58" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="34.41" y="56.38" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="34.41" y="56.38" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="23.7k" x="35.76" y="55.58" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4116,8 +5225,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM188R61E106KA3D" x="18.9" y="20.688" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R61E106KA3D" x="18.9" y="20.688" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="18.9" y="20.688" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.3954" y="20.3474" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="18.9" y="20.688" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="16.3954" y="20.3474" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="18.9" y="20.688" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="18.9" y="20.688" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10uF" x="18.9" y="20.688" size="1.778" layer="27" rot="R270" display="off"/>
@@ -4148,8 +5257,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="18.2054" y="24.4271" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="18.2054" y="24.4271" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="18.2054" y="24.4271" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="17.1996" y="25.1187" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="18.2054" y="24.4271" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="17.1996" y="25.1187" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="18.2054" y="24.4271" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="18.2054" y="24.4271" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="10k" x="17.4054" y="23.0771" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4165,8 +5274,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="15.627" y="24.4271" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="15.627" y="24.4271" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="15.627" y="24.4271" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="15.627" y="24.4271" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="14.6078" y="25.1531" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="15.627" y="24.4271" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="15.627" y="24.4271" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="15.627" y="24.4271" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="14.827" y="23.0771" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4188,8 +5297,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="28.94" y="53.6" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="28.24" y="52.95" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="28.94" y="53.6" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="28.94" y="53.35" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1uF" x="30.54" y="52.15" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4230,8 +5339,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="31.05" y="59.584" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="31.05" y="59.584" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="45.85" y="65.984" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.48" y="60.884" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="31.05" y="59.584" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="31.48" y="60.884" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="RS_PART_NUMBER" value="" x="31.05" y="59.584" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="31.05" y="59.584" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.7" y="60.384" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4249,8 +5358,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="22.5452" y="28.9726" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="22.5452" y="28.9726" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="17.2452" y="23.0726" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="22.3952" y="28.9726" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="22.0888" y="27.1738" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="22.3952" y="28.9726" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="22.5452" y="28.9726" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="22.5452" y="28.9726" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="10k" x="23.8952" y="28.1726" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4266,8 +5375,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="7.898" y="53.626" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="7.898" y="53.626" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="7.898" y="57.526" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.7519" y="52.3292" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="7.898" y="53.626" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="6.7519" y="52.3292" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="7.898" y="53.626" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="7.898" y="53.626" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100nF" x="7.098" y="52.276" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4289,8 +5398,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-3162ELF" x="22.537" y="31.520196875" size="1.778" layer="27" rot="R89.8" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-3162ELF" x="22.537" y="31.520196875" size="1.778" layer="27" rot="R89.8" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="22.537" y="31.520196875" size="1.778" layer="27" rot="R89.8" display="off"/>
-<attribute name="NAME" x="22.537" y="31.520196875" size="0.2" layer="33" ratio="15" rot="R89.8" align="center"/>
 <attribute name="NAME" x="23.380928125" y="30.5569875" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
+<attribute name="NAME" x="22.537" y="31.520196875" size="0.2" layer="33" ratio="15" rot="R89.8" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="22.537" y="31.520196875" size="1.778" layer="27" rot="R89.8" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="22.537" y="31.520196875" size="1.778" layer="27" rot="R89.8" display="off"/>
 <attribute name="VALUE" value="31.6k" x="23.884203125" y="30.715490625" size="0.8" layer="27" font="vector" ratio="15" rot="R89.8"/>
@@ -4306,8 +5415,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CHP0603FX3011ELF" x="10.84" y="28.706" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="10.84" y="28.706" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="10.84" y="28.706" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="10.84" y="28.706" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="10.0452" y="26.7984" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="10.84" y="28.706" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="10.84" y="28.706" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="10.84" y="28.706" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="3.1k" x="12.19" y="27.906" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4365,8 +5474,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.09" y="50.15" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="30.22" y="49.17" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="31.09" y="50.15" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="30.94" y="50.15" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="29.59" y="50.95" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4382,8 +5491,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28.94" y="56.55" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="28.24" y="56.05" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="28.94" y="56.55" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="28.94" y="56.55" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1uF" x="27.34" y="57.75" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4399,8 +5508,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="12.194" y="37.894" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="12.194" y="37.894" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="12.194" y="37.894" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.8464" y="38.6142" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="12.194" y="37.894" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="10.8464" y="38.6142" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="12.194" y="37.894" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="12.194" y="37.894" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100nF" x="11.394" y="36.544" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4416,8 +5525,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="20.31" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="20.31" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="20.31" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="20.72" y="35.33" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="20.31" y="37.34" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="20.72" y="35.33" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="20.31" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="20.31" y="37.34" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100nF" x="21.66" y="36.54" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4433,8 +5542,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="21.97" y="52.107" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="21.97" y="52.107" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="21.97" y="52.107" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="21.3403" y="53.5992" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="21.97" y="52.107" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="21.3403" y="53.5992" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="21.97" y="52.107" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="21.97" y="52.107" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="100nF" x="20.62" y="52.907" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4452,8 +5561,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="32.43" y="59.5886" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="32.43" y="59.5886" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="32.43" y="59.5886" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="32.43" y="59.5886" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="32.87" y="60.8386" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="32.43" y="59.5886" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="32.43" y="59.5886" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="32.43" y="59.5886" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="10k" x="33.78" y="58.7886" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4473,8 +5582,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="27.75" y="78.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="27.75" y="78.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="27.75" y="78.29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="28.05" y="78.29" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="24.54" y="77.55" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="28.05" y="78.29" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="27.75" y="78.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="27.75" y="78.29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="100nF" x="28.55" y="79.64" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -4490,8 +5599,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" x="27.76" y="79.85" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" x="27.76" y="79.85" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="27.76" y="79.85" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="24.55" y="79.18" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="27.76" y="79.7" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="24.55" y="79.18" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="1726834P" x="27.76" y="79.85" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" x="27.76" y="79.85" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="47uF" x="28.56" y="81.2" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -4546,8 +5655,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="20.7206" y="34.361" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="20.7206" y="34.361" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="20.7206" y="34.361" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.7206" y="34.361" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="19.5724" y="33.0172" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="20.7206" y="34.361" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="20.7206" y="34.361" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="20.7206" y="34.361" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="1uF" x="19.5206" y="32.761" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4572,8 +5681,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="18.67" y="37.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="18.67" y="37.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="18.67" y="37.34" size="0.635" layer="27" font="vector" ratio="20" rot="R270" display="off"/>
-<attribute name="NAME" x="18.67" y="37.34" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="19.67" y="35.69" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="18.67" y="37.34" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="18.67" y="37.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="18.67" y="37.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="2.2uF" x="17.07" y="38.54" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4589,8 +5698,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="23.6773" y="70.6308" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="23.6773" y="70.6308" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="23.6773" y="70.6308" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.6773" y="70.6308" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="25.1973" y="69.6608" size="0.635" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="23.6773" y="70.6308" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="23.6773" y="70.6308" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="23.6773" y="70.6308" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="2.2uF" x="22.4773" y="69.0308" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4606,8 +5715,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="23.69" y="69.087" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="23.69" y="69.087" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="25.09" y="73.787" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="25.09" y="73.787" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="25.21" y="68.047" size="0.635" layer="25" font="vector" ratio="15"/>
+<attribute name="NAME" x="25.09" y="73.787" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="23.69" y="69.087" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="23.69" y="69.087" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="100nF" x="23.89" y="72.187" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -4623,8 +5732,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="8.27" y="72.79" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="6.74" y="73.75" size="0.635" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="8.27" y="72.79" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="8.27" y="72.79" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1uF" x="6.67" y="73.99" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -4640,8 +5749,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="17.88" y="81.76" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="18.38" y="83.16" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="17.88" y="81.76" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="17.88" y="81.76" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1uF" x="19.48" y="80.56" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -4657,8 +5766,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="16.26" y="81.77" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="16.76" y="83.17" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="16.26" y="81.77" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1uF" x="16.26" y="81.77" size="1.778" layer="27" rot="R90" display="off"/>
@@ -4674,8 +5783,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="14.64" y="81.78" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="15.14" y="83.18" size="0.635" layer="25" font="vector" ratio="15" rot="R90"/>
+<attribute name="NAME" x="14.64" y="81.78" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="14.64" y="81.78" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="10uF" x="16.24" y="80.58" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5247,9 +6356,75 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="76.669" y="28.8606" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="75.969" y="27.6106" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
+<element name="R32" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="-37.1348" y="-13.5382" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-42.3672" y="-6.7818" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="-42.3672" y="-6.7818" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Yageo" x="-42.3672" y="-6.7818" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="-42.3672" y="-6.7818" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.1348" y="-13.5382" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="-37.9348" y="-12.9882" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-37.9348" y="-14.8882" size="0.8" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="R33" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="-42.3672" y="-17.5768" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-42.3672" y="-10.287" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="-42.3672" y="-10.287" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Yageo" x="-42.3672" y="-10.287" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="-42.3672" y="-10.287" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-42.3672" y="-17.5768" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="-43.1672" y="-17.0268" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-43.1672" y="-18.9268" size="0.8" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="Q4" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="-41.7322" y="-13.9192" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-41.7322" y="-14.1732" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="-41.7322" y="-14.1732" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Inc" x="-41.7322" y="-14.1732" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DMP3050LVT-7" x="-41.7322" y="-14.1732" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-39.8302" y="-14.2362" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="Q5" library="Tova" package="SOT23" value="PMV45EN" x="-41.1734" y="-8.382" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-47.498" y="-12.6492" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1727-2307-1-ND" x="-47.498" y="-12.6492" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Nexperia" x="-47.498" y="-12.6492" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PMV45EN2R" x="-47.498" y="-12.6492" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.1734" y="-6.582" size="1" layer="25"/>
+<attribute name="VALUE" x="-43.1734" y="-11.382" size="1" layer="27"/>
+</element>
+<element name="R39" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="-37.1348" y="-27.8384" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-42.3672" y="-21.082" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="-42.3672" y="-21.082" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Yageo" x="-42.3672" y="-21.082" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="-42.3672" y="-21.082" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-37.1348" y="-27.8384" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="-37.9348" y="-27.2884" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-37.9348" y="-29.1884" size="0.8" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="R40" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="-42.3672" y="-31.877" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-42.3672" y="-24.5872" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="311-10.0KLRCT-ND" x="-42.3672" y="-24.5872" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Yageo" x="-42.3672" y="-24.5872" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0402FR-0710KL" x="-42.3672" y="-24.5872" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-42.3672" y="-31.877" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="-43.1672" y="-31.327" size="0.8" layer="25" font="vector" ratio="15"/>
+<attribute name="VALUE" x="-43.1672" y="-33.227" size="0.8" layer="27" font="vector" ratio="15"/>
+</element>
+<element name="Q2" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="-41.7322" y="-28.2194" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-41.7322" y="-28.4734" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="DMP3050LVT-7DICT-ND" x="-41.7322" y="-28.4734" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Diodes Inc" x="-41.7322" y="-28.4734" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="DMP3050LVT-7" x="-41.7322" y="-28.4734" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-39.8302" y="-28.5364" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="Q3" library="Tova" package="SOT23" value="PMV45EN" x="-41.1734" y="-22.6822" smashed="yes">
+<attribute name="DIS" value="Digi-Key" x="-47.498" y="-26.9494" size="1.778" layer="27" display="off"/>
+<attribute name="DPN" value="1727-2307-1-ND" x="-47.498" y="-26.9494" size="1.778" layer="27" display="off"/>
+<attribute name="MFR" value="Nexperia" x="-47.498" y="-26.9494" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="PMV45EN2R" x="-47.498" y="-26.9494" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-43.1734" y="-20.8822" size="1" layer="25"/>
+<attribute name="VALUE" x="-43.1734" y="-25.6822" size="1" layer="27"/>
+</element>
 </elements>
 <signals>
-<signal name="CRYSTALIN">
+<signal name="OSC_IN">
 <contactref element="C16" pad="1"/>
 <contactref element="X1" pad="1"/>
 <contactref element="U7" pad="5"/>
@@ -6310,6 +7485,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="17.0434" y="30.1752" extent="1-16" drill="0.254"/>
 <via x="15.0114" y="64.8716" extent="1-16" drill="0.254"/>
 <contactref element="TP25" pad="TP"/>
+<contactref element="Q5" pad="2"/>
+<contactref element="R33" pad="1"/>
+<contactref element="Q3" pad="2"/>
+<contactref element="R40" pad="1"/>
 <wire x1="98.8" y1="88" x2="93" y2="94" width="0" layer="19" extent="1-1"/>
 <wire x1="98.8" y1="82" x2="98.8" y2="88" width="0" layer="19" extent="1-1"/>
 <wire x1="98.8" y1="76" x2="98.8" y2="82" width="0" layer="19" extent="1-1"/>
@@ -6741,6 +7920,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="39.105" y1="87.359" x2="39.105" y2="88.629" width="0" layer="19" extent="1-1"/>
 <wire x1="31.1" y1="93.97" x2="39.105" y2="88.629" width="0" layer="19" extent="1-1"/>
 <wire x1="31.9024" y1="34.4424" x2="23.6" y2="28.3" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.2209" y1="-9.525" x2="1" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.8672" y1="-17.5768" x2="-40.2209" y2="-9.525" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.2209" y1="-23.8252" x2="-42.8672" y2="-17.5768" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.8672" y1="-31.877" x2="-40.2209" y2="-23.8252" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="U7" pad="21"/>
@@ -6987,6 +8170,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="TP5" pad="TP"/>
 <wire x1="23.4696" y1="34.544" x2="37.8316" y2="48.906" width="2.54" layer="15"/>
 <wire x1="37.8316" y1="48.906" x2="37.846" y2="48.906" width="2.54" layer="15"/>
+<contactref element="R32" pad="2"/>
+<contactref element="Q4" pad="4"/>
+<contactref element="R39" pad="2"/>
+<contactref element="Q2" pad="4"/>
+<wire x1="49.265" y1="87.359" x2="49.265" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="47.995" y1="88.629" x2="49.265" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="46.725" y1="88.629" x2="47.995" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="46.725" y1="87.359" x2="46.725" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="47.995" y1="87.359" x2="49.265" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="23.749" y1="33.02" x2="23.4696" y2="34.544" width="0" layer="19" extent="1-1"/>
+<wire x1="23.749" y1="32.004" x2="23.749" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="22.539440625" y1="32.220190625" x2="23.749" y2="32.004" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="32.004" x2="22.539440625" y2="32.220190625" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="33.02" x2="21.59" y2="32.004" width="0" layer="19" extent="1-1"/>
+<wire x1="19.921" y1="32.078" x2="21.59" y2="32.004" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="33.02" x2="19.921" y2="32.078" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="34.417" x2="19.05" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="19.9206" y1="34.361" x2="19.05" y2="34.417" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6348" y1="-13.5382" x2="19.05" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.7822" y1="-12.6192" x2="-36.6348" y2="-13.5382" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.7822" y1="-26.9194" x2="-36.6348" y2="-13.5382" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6348" y1="-27.8384" x2="-40.7822" y2="-26.9194" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDAOPT5">
 </signal>
@@ -7629,34 +8834,87 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="24.4846" y1="55.5" x2="24.4856" y2="55.499" width="0.254" layer="1"/>
 <wire x1="20.28" y1="55.5" x2="24.4846" y2="55.5" width="0.254" layer="1"/>
 </signal>
-<signal name="PB12">
+<signal name="!SEN">
 <contactref element="U7" pad="33"/>
+<contactref element="U10" pad="25"/>
+<wire x1="67.8226" y1="22.9056" x2="67.8226" y2="23.61335" width="0.2" layer="1"/>
+<contactref element="R26" pad="2"/>
+<contactref element="TP10" pad="TP"/>
+<via x="66.5988" y="24.5618" extent="1-16" drill="0.35"/>
+<wire x1="66.87415" y1="24.5618" x2="66.5988" y2="24.5618" width="0.2" layer="1"/>
+<wire x1="67.8226" y1="23.61335" x2="66.87415" y2="24.5618" width="0.2" layer="1"/>
+<wire x1="21.515" y1="42.255" x2="66.5988" y2="24.5618" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.735" y1="5.9436" x2="21.515" y2="42.255" width="0" layer="19" extent="1-1"/>
+<wire x1="-38.7604" y1="3.9242" x2="-38.735" y2="5.9436" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SPI2_SCK">
+<signal name="SCLK">
 <contactref element="U7" pad="34"/>
+<contactref element="U10" pad="26"/>
+<wire x1="67.3226" y1="22.9056" x2="67.3226" y2="23.509475" width="0.2" layer="1"/>
+<contactref element="R29" pad="2"/>
+<contactref element="TP15" pad="TP"/>
+<via x="65.9638" y="24.1046" extent="1-16" drill="0.35"/>
+<wire x1="66.773875" y1="24.0582" x2="66.3902" y2="24.0582" width="0.2" layer="1"/>
+<wire x1="66.3902" y1="24.0582" x2="66.3438" y2="24.1046" width="0.2" layer="1"/>
+<wire x1="66.3438" y1="24.1046" x2="65.9638" y2="24.1046" width="0.2" layer="1"/>
+<wire x1="67.3226" y1="23.509475" x2="66.773875" y2="24.0582" width="0.2" layer="1"/>
+<wire x1="21.515" y1="42.755" x2="65.9638" y2="24.1046" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.783" y1="6.7818" x2="21.515" y2="42.755" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.8084" y1="3.9242" x2="-41.783" y2="6.7818" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SPI2_MISO">
+<signal name="SDATA">
 <contactref element="U7" pad="35"/>
+<contactref element="U10" pad="27"/>
+<wire x1="66.8226" y1="22.9056" x2="66.8226" y2="23.4056" width="0.2" layer="1"/>
+<wire x1="66.8226" y1="23.4056" x2="66.6226" y2="23.6056" width="0.2" layer="1"/>
+<contactref element="R28" pad="2"/>
+<contactref element="TP16" pad="TP"/>
+<via x="65.024" y="23.6728" extent="1-16" drill="0.35"/>
+<wire x1="66.1724" y1="23.601" x2="65.7552" y2="23.601" width="0.2" layer="1"/>
+<wire x1="65.7552" y1="23.601" x2="65.6834" y2="23.6728" width="0.2" layer="1"/>
+<wire x1="65.6834" y1="23.6728" x2="65.024" y2="23.6728" width="0.2" layer="1"/>
+<wire x1="66.6226" y1="23.6056" x2="66.177" y2="23.6056" width="0.2" layer="1"/>
+<wire x1="66.177" y1="23.6056" x2="66.1724" y2="23.601" width="0.2" layer="1"/>
+<wire x1="21.515" y1="43.255" x2="65.024" y2="23.6728" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.2082" y1="5.7912" x2="21.515" y2="43.255" width="0" layer="19" extent="1-1"/>
+<wire x1="-40.259" y1="4.0258" x2="-40.2082" y2="5.7912" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SPI2_MOSI">
+<signal name="AUXOUT">
 <contactref element="U7" pad="36"/>
+<contactref element="R58" pad="2"/>
+<contactref element="U10" pad="12"/>
+<contactref element="TP1" pad="TP"/>
+<via x="68.707" y="17.399" extent="1-16" drill="0.35"/>
+<wire x1="68.3226" y1="17.7834" x2="68.707" y2="17.399" width="0.3" layer="1"/>
+<wire x1="68.3226" y1="18.5056" x2="68.3226" y2="17.7834" width="0.3" layer="1"/>
+<wire x1="64.4652" y1="17.4498" x2="68.3226" y2="18.5056" width="0" layer="19" extent="1-1"/>
+<wire x1="21.515" y1="43.755" x2="64.4652" y2="17.4498" width="0" layer="19" extent="1-1"/>
+<wire x1="-31.6734" y1="-2.5186" x2="21.515" y2="43.755" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PC0">
+<signal name="DEP_TURN">
 <contactref element="U7" pad="8"/>
+<contactref element="R40" pad="2"/>
+<contactref element="Q3" pad="1"/>
+<wire x1="-42.1259" y1="-23.8252" x2="-41.8672" y2="-31.877" width="0" layer="19" extent="1-1"/>
+<wire x1="10.315" y1="46.255" x2="-42.1259" y2="-23.8252" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PC1">
+<signal name="DEP_HELI">
 <contactref element="U7" pad="9"/>
+<contactref element="R33" pad="2"/>
+<contactref element="Q5" pad="1"/>
+<wire x1="-42.1259" y1="-9.525" x2="10.315" y2="45.755" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.8672" y1="-17.5768" x2="-42.1259" y2="-9.525" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PC2">
+<signal name="DEP_TURN_FB">
 <contactref element="U7" pad="10"/>
 </signal>
-<signal name="PC3">
+<signal name="DEP_HELI_FB">
 <contactref element="U7" pad="11"/>
 </signal>
-<signal name="PC4">
+<signal name="RADIO_ANALOG1">
 <contactref element="U7" pad="24"/>
 </signal>
-<signal name="PC5">
+<signal name="RADIO_ANALOG2">
 <contactref element="U7" pad="25"/>
 </signal>
 <signal name="OSC32_IN">
@@ -8977,55 +10235,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="28.17" y1="60.296" x2="28.164" y2="60.29" width="0.254" layer="1"/>
 <wire x1="28.17" y1="61.18" x2="28.17" y2="60.296" width="0.3048" layer="1"/>
 </signal>
-<signal name="/SEN1">
-<contactref element="U10" pad="25"/>
-<wire x1="67.8226" y1="22.9056" x2="67.8226" y2="23.61335" width="0.2" layer="1"/>
-<contactref element="R26" pad="2"/>
-<contactref element="TP10" pad="TP"/>
-<via x="66.5988" y="24.5618" extent="1-16" drill="0.35"/>
-<wire x1="66.87415" y1="24.5618" x2="66.5988" y2="24.5618" width="0.2" layer="1"/>
-<wire x1="67.8226" y1="23.61335" x2="66.87415" y2="24.5618" width="0.2" layer="1"/>
-<wire x1="-38.7604" y1="3.9242" x2="66.5988" y2="24.5618" width="0" layer="19" extent="1-1"/>
-<wire x1="-38.735" y1="5.9436" x2="-38.7604" y2="3.9242" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SCLK3">
-<contactref element="U10" pad="26"/>
-<wire x1="67.3226" y1="22.9056" x2="67.3226" y2="23.509475" width="0.2" layer="1"/>
-<contactref element="R29" pad="2"/>
-<contactref element="TP15" pad="TP"/>
-<via x="65.9638" y="24.1046" extent="1-16" drill="0.35"/>
-<wire x1="66.773875" y1="24.0582" x2="66.3902" y2="24.0582" width="0.2" layer="1"/>
-<wire x1="66.3902" y1="24.0582" x2="66.3438" y2="24.1046" width="0.2" layer="1"/>
-<wire x1="66.3438" y1="24.1046" x2="65.9638" y2="24.1046" width="0.2" layer="1"/>
-<wire x1="67.3226" y1="23.509475" x2="66.773875" y2="24.0582" width="0.2" layer="1"/>
-<wire x1="-41.783" y1="6.7818" x2="65.9638" y2="24.1046" width="0" layer="19" extent="1-1"/>
-<wire x1="-41.8084" y1="3.9242" x2="-41.783" y2="6.7818" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SDATA1">
-<contactref element="U10" pad="27"/>
-<wire x1="66.8226" y1="22.9056" x2="66.8226" y2="23.4056" width="0.2" layer="1"/>
-<wire x1="66.8226" y1="23.4056" x2="66.6226" y2="23.6056" width="0.2" layer="1"/>
-<contactref element="R28" pad="2"/>
-<contactref element="TP16" pad="TP"/>
-<via x="65.024" y="23.6728" extent="1-16" drill="0.35"/>
-<wire x1="66.1724" y1="23.601" x2="65.7552" y2="23.601" width="0.2" layer="1"/>
-<wire x1="65.7552" y1="23.601" x2="65.6834" y2="23.6728" width="0.2" layer="1"/>
-<wire x1="65.6834" y1="23.6728" x2="65.024" y2="23.6728" width="0.2" layer="1"/>
-<wire x1="66.6226" y1="23.6056" x2="66.177" y2="23.6056" width="0.2" layer="1"/>
-<wire x1="66.177" y1="23.6056" x2="66.1724" y2="23.601" width="0.2" layer="1"/>
-<wire x1="-40.2082" y1="5.7912" x2="65.024" y2="23.6728" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.259" y1="4.0258" x2="-40.2082" y2="5.7912" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="AUX1">
-<contactref element="R58" pad="2"/>
-<contactref element="U10" pad="12"/>
-<contactref element="TP1" pad="TP"/>
-<via x="68.707" y="17.399" extent="1-16" drill="0.35"/>
-<wire x1="68.3226" y1="17.7834" x2="68.707" y2="17.399" width="0.3" layer="1"/>
-<wire x1="68.3226" y1="18.5056" x2="68.3226" y2="17.7834" width="0.3" layer="1"/>
-<wire x1="64.4652" y1="17.4498" x2="-31.6734" y2="-2.5186" width="0" layer="19" extent="1-1"/>
-<wire x1="68.707" y1="17.399" x2="64.4652" y2="17.4498" width="0" layer="19" extent="1-1"/>
-</signal>
 <signal name="IF_OUT1" class="1">
 <contactref element="U16" pad="10"/>
 <wire x1="71.736" y1="34.3332" x2="71.736" y2="31.8932" width="0.39" layer="1"/>
@@ -9204,6 +10413,61 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="75.469" y1="30.4606" x2="75.469" y2="30.1106" width="0.38" layer="1"/>
 <wire x1="75.469" y1="30.1106" x2="75.469" y2="29.7606" width="0.38" layer="1"/>
 <wire x1="74.719" y1="30.1106" x2="75.469" y2="30.1106" width="0.38" layer="1"/>
+</signal>
+<signal name="TURN_DEPLOY">
+<contactref element="J6" pad="9"/>
+<contactref element="J6" pad="10"/>
+<contactref element="Q2" pad="5"/>
+<contactref element="Q2" pad="6"/>
+<contactref element="Q2" pad="1"/>
+<contactref element="Q2" pad="2"/>
+<wire x1="56.885" y1="87.359" x2="56.885" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.7322" y1="-26.9194" x2="56.885" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.6822" y1="-26.9194" x2="-41.7322" y2="-26.9194" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.6822" y1="-29.5194" x2="-42.6822" y2="-26.9194" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.7322" y1="-29.5194" x2="-42.6822" y2="-29.5194" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="HELI_DEPLOY">
+<contactref element="J6" pad="7"/>
+<contactref element="J6" pad="8"/>
+<contactref element="Q4" pad="5"/>
+<contactref element="Q4" pad="6"/>
+<contactref element="Q4" pad="1"/>
+<contactref element="Q4" pad="2"/>
+<wire x1="58.155" y1="87.359" x2="58.155" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.7322" y1="-12.6192" x2="58.155" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.6822" y1="-12.6192" x2="-41.7322" y2="-12.6192" width="0" layer="19" extent="1-1"/>
+<wire x1="-42.6822" y1="-15.2192" x2="-42.6822" y2="-12.6192" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.7322" y1="-15.2192" x2="-42.6822" y2="-15.2192" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SPARE3">
+<contactref element="J6" pad="5"/>
+<contactref element="J6" pad="6"/>
+<wire x1="59.425" y1="87.359" x2="59.425" y2="88.629" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SPARE4">
+<contactref element="J6" pad="3"/>
+<contactref element="J6" pad="4"/>
+<wire x1="60.695" y1="87.359" x2="60.695" y2="88.629" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SPARE5">
+<contactref element="J6" pad="1"/>
+<contactref element="J6" pad="2"/>
+<wire x1="61.965" y1="87.359" x2="61.965" y2="88.629" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$590">
+<contactref element="R32" pad="1"/>
+<contactref element="Q4" pad="3"/>
+<contactref element="Q5" pad="3"/>
+<wire x1="-37.6348" y1="-13.5382" x2="-40.7822" y2="-15.2192" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.1734" y1="-7.239" x2="-37.6348" y2="-13.5382" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$2">
+<contactref element="R39" pad="1"/>
+<contactref element="Q2" pad="3"/>
+<contactref element="Q3" pad="3"/>
+<wire x1="-37.6348" y1="-27.8384" x2="-40.7822" y2="-29.5194" width="0" layer="19" extent="1-1"/>
+<wire x1="-41.1734" y1="-21.5392" x2="-37.6348" y2="-27.8384" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
