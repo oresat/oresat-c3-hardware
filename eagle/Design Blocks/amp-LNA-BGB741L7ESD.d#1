@@ -8556,7 +8556,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <plain>
 <text x="176.53" y="26.67" size="5.08" layer="94">Infineon LNA BGB741L7ESD</text>
 <text x="265.43" y="6.35" size="3.81" layer="94">1</text>
-<text x="52.07" y="143.51" size="1.778" layer="97" align="top-left">L band 2nd Stage / IF Stage
+<text x="69.85" y="74.93" size="1.778" layer="97" align="top-left">L band 2nd Stage / IF Stage
 --------------------------
 Vce = ~2.5V
 Ic = 6mA
@@ -8569,7 +8569,7 @@ R3 = 22k
 R4 = 0
 L1 = 22n
 L2 = 22n</text>
-<text x="85.09" y="143.51" size="1.778" layer="97" align="top-left">UHF - L band LNA (used as preamp)
+<text x="118.11" y="74.93" size="1.778" layer="97" align="top-left">UHF - L band LNA (used as preamp)
 --------------------------
 Vce = ~2.5V
 Ic = 8.0mA

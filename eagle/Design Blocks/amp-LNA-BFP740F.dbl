@@ -5,8 +5,8 @@
 <description></description>
 <attributes>
 <attribute name="AIRWIRES" value="YES"/>
-<attribute name="BOARDSIZE" value="28.6 x 20.8 mm"/>
-<attribute name="LAYERS" value="4: 1, 2, 15, 16"/>
+<attribute name="BOARDSIZE" value="15.5 x 14.6 mm"/>
+<attribute name="LAYERS" value="2: 1, 15"/>
 </attributes>
 <drawings>
 <drawing>
@@ -8527,7 +8527,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q1" library="Q-Infineon-BFPXXX-RF-BJT" deviceset="BFPXXXF" device="" value="BFPXXXF"/>
 <part name="R3" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="45.3k"/>
-<part name="L1" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK"/>
+<part name="L1" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="2.0n"/>
 <part name="R1" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="39"/>
 <part name="L3" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="10n"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -8540,7 +8540,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <plain>
 <text x="176.53" y="26.67" size="5.08" layer="94">Infineon LNA BFPxxxF</text>
 <text x="265.43" y="6.35" size="3.81" layer="94">2</text>
-<text x="85.09" y="176.53" size="1.778" layer="97" align="top-left">L band 1st Stage - BFP740F
+<text x="77.47" y="168.91" size="1.778" layer="97" align="top-left">L band 1st Stage - BFP740F
 --------------------------
 Vce = 2.0V
 Ic = 10mA
@@ -8562,26 +8562,6 @@ L4 = 0 ohm
 R4 = 220</text>
 <text x="140.97" y="82.55" size="1.778" layer="97">Emitter
 Degeneration</text>
-<text x="130.81" y="72.39" size="1.778" layer="97" align="top-left">VHF - S band LNA - BFP843F (used as preamp)
---------------------------
-Vce = 1.5V
-Ic = 15mA
-Gain = 21.9 dB @ 1265MHz
-NF = 1.0 dB
-Unconditionally Stable
---------------------------
-Q1 = BFP843F
-R1 = 39
-R2 = 39
-R3 = 22k
-C1 = 100p
-C2 = 100p
-C7 = 560p
-L1 = 0 ohm
-L2 = 91n
-L3 = 91n
-L4 = 0 ohm
-R4 = open</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -8700,7 +8680,7 @@ R4 = open</text>
 <pinref part="R4" gate="R" pin="1"/>
 </segment>
 </net>
-<net name="RF_OUT" class="2">
+<net name="L-BFP-LNA-RF_OUT" class="2">
 <segment>
 <pinref part="C2" gate="CE" pin="2"/>
 <wire x1="210.82" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
@@ -8708,6 +8688,7 @@ R4 = open</text>
 <wire x1="195.58" y1="102.87" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 <junction x="195.58" y="104.14"/>
 <pinref part="R4" gate="R" pin="2"/>
+<label x="210.82" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CAPS" class="0">
@@ -8770,10 +8751,11 @@ R4 = open</text>
 <junction x="119.38" y="121.92"/>
 </segment>
 </net>
-<net name="RF_IN" class="2">
+<net name="L-BFP-LNA-RF_IN" class="2">
 <segment>
 <pinref part="C1" gate="CE" pin="1"/>
 <wire x1="76.2" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
+<label x="76.2" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8974,36 +8956,12 @@ R4 = open</text>
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="18" x2="0" y2="2" width="0" layer="20"/>
-<wire x1="0" y1="2" x2="2" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="2" y1="0" x2="24" y2="0" width="0" layer="20"/>
-<wire x1="24" y1="0" x2="26" y2="2" width="0" layer="20" curve="90"/>
-<wire x1="26" y1="2" x2="26" y2="18" width="0" layer="20"/>
-<wire x1="26" y1="18" x2="24" y2="20" width="0" layer="20" curve="90"/>
-<wire x1="24" y1="20" x2="2" y2="20" width="0" layer="20"/>
-<wire x1="2" y1="20" x2="0" y2="18" width="0" layer="20" curve="90"/>
-<text x="6.6" y="3.8" size="1.2" layer="21" font="vector" ratio="15">PWR</text>
-<text x="14.6" y="13.9" size="1.2" layer="21" font="vector" ratio="15">2V7</text>
-<wire x1="0" y1="10.5" x2="9.8" y2="10.5" width="1.8" layer="29"/>
-<wire x1="26" y1="9.5" x2="14.2" y2="9.5" width="1.8" layer="29"/>
-<wire x1="0" y1="10.5" x2="3" y2="10.5" width="2" layer="30"/>
-<wire x1="26" y1="9.5" x2="23" y2="9.5" width="2" layer="30"/>
-<text x="20.6" y="5.6" size="1" layer="22" font="vector" ratio="15" rot="MR0">Infineon LNA BFPxxxF
-PSAS / OreSat
-2019-12-29  v2.0
-E.M.  KJ7AOG</text>
-<text x="14.4" y="18.9" size="1" layer="21" font="vector" ratio="15">+</text>
-<text x="16.9" y="18.9" size="1" layer="21" font="vector" ratio="15">-</text>
-<text x="6.5" y="14.4" size="1.2" layer="21" font="vector" ratio="15" rot="R180">IN</text>
-<text x="21" y="13.4" size="1.2" layer="21" font="vector" ratio="15" rot="R180">OUT</text>
 <polygon width="0.3" layer="29">
 <vertex x="11.1" y="10.6"/>
 <vertex x="12.9" y="10.6"/>
 <vertex x="12.9" y="9.4"/>
 <vertex x="11.1" y="9.4"/>
 </polygon>
-<text x="6.5" y="18.6" size="1.2" layer="21" font="vector" ratio="15" align="top-left">Infineon
-LNA</text>
 </plain>
 <libraries>
 <library name="oresat-rcl">
@@ -10367,7 +10325,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="13.9" y="11.05" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="14.3" y="8.8" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 </element>
-<element name="L1" library="oresat-rcl" package=".0402-C-NOSILK" value="" x="8.3" y="10.5" smashed="yes">
+<element name="L1" library="oresat-rcl" package=".0402-C-NOSILK" value="2.0n" x="8.3" y="10.5" smashed="yes">
 <attribute name="NAME" x="7.8" y="8.65" size="0.6" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="8.3" y="10.5" size="0.2" layer="33" ratio="15" align="center"/>
 </element>
@@ -10405,80 +10363,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="Q1" pad="2"/>
 <contactref element="Q1" pad="4"/>
 <contactref element="R4" pad="1"/>
-<polygon width="0.3" layer="1" rank="2">
-<vertex x="0" y="20"/>
-<vertex x="26" y="20"/>
-<vertex x="26" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-<polygon width="0.3" layer="16">
-<vertex x="0" y="20"/>
-<vertex x="26" y="20"/>
-<vertex x="26" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-<polygon width="0.3" layer="2">
-<vertex x="0" y="20"/>
-<vertex x="26" y="20"/>
-<vertex x="26" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
-<polygon width="0.3" layer="1" thermals="no">
-<vertex x="0" y="16"/>
-<vertex x="5" y="16"/>
-<vertex x="5" y="5"/>
-<vertex x="0" y="5"/>
-</polygon>
-<polygon width="0.3" layer="1" thermals="no">
-<vertex x="21" y="15"/>
-<vertex x="26" y="15"/>
-<vertex x="26" y="4"/>
-<vertex x="21" y="4"/>
-</polygon>
-<polygon width="0.3" layer="16" thermals="no">
-<vertex x="21" y="15"/>
-<vertex x="26" y="15"/>
-<vertex x="26" y="4"/>
-<vertex x="21" y="4"/>
-</polygon>
-<polygon width="0.3" layer="16" thermals="no">
-<vertex x="0" y="16"/>
-<vertex x="5" y="16"/>
-<vertex x="5" y="5"/>
-<vertex x="0" y="5"/>
-</polygon>
-<via x="1" y="14.7" extent="1-16" drill="0.5"/>
-<via x="2" y="14.7" extent="1-16" drill="0.5"/>
-<via x="3" y="14.7" extent="1-16" drill="0.5"/>
-<via x="4" y="14.7" extent="1-16" drill="0.5"/>
-<via x="1" y="13.4" extent="1-16" drill="0.5"/>
-<via x="2" y="13.4" extent="1-16" drill="0.5"/>
-<via x="3" y="13.4" extent="1-16" drill="0.5"/>
-<via x="4" y="13.4" extent="1-16" drill="0.5"/>
-<via x="1" y="6.3" extent="1-16" drill="0.5"/>
-<via x="2" y="6.3" extent="1-16" drill="0.5"/>
-<via x="3" y="6.3" extent="1-16" drill="0.5"/>
-<via x="4" y="6.3" extent="1-16" drill="0.5"/>
-<via x="1" y="7.6" extent="1-16" drill="0.5"/>
-<via x="2" y="7.6" extent="1-16" drill="0.5"/>
-<via x="3" y="7.6" extent="1-16" drill="0.5"/>
-<via x="4" y="7.6" extent="1-16" drill="0.5"/>
-<via x="22" y="13.7" extent="1-16" drill="0.5"/>
-<via x="23" y="13.7" extent="1-16" drill="0.5"/>
-<via x="24" y="13.7" extent="1-16" drill="0.5"/>
-<via x="25" y="13.7" extent="1-16" drill="0.5"/>
-<via x="22" y="12.4" extent="1-16" drill="0.5"/>
-<via x="23" y="12.4" extent="1-16" drill="0.5"/>
-<via x="24" y="12.4" extent="1-16" drill="0.5"/>
-<via x="25" y="12.4" extent="1-16" drill="0.5"/>
-<via x="25" y="5.3" extent="1-16" drill="0.5"/>
-<via x="24" y="5.3" extent="1-16" drill="0.5"/>
-<via x="23" y="5.3" extent="1-16" drill="0.5"/>
-<via x="22" y="5.3" extent="1-16" drill="0.5"/>
-<via x="22" y="6.6" extent="1-16" drill="0.5"/>
-<via x="23" y="6.6" extent="1-16" drill="0.5"/>
-<via x="24" y="6.6" extent="1-16" drill="0.5"/>
-<via x="25" y="6.6" extent="1-16" drill="0.5"/>
 <via x="17.1" y="4.6" extent="1-16" drill="0.5"/>
 <via x="17.1" y="3.3" extent="1-16" drill="0.5"/>
 <via x="16.3" y="5.6" extent="1-16" drill="0.5"/>
@@ -10497,50 +10381,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="12.65" y="11.45" extent="1-16" drill="0.3"/>
 <wire x1="12.65" y1="10.5" x2="12.65" y2="11.45" width="0.2" layer="1"/>
 <wire x1="11.35" y1="9.5" x2="11.35" y2="8.55" width="0.2" layer="1"/>
-<via x="3" y="11.9" extent="1-16" drill="0.3"/>
-<via x="5" y="11.9" extent="1-16" drill="0.3"/>
-<via x="3" y="9.1" extent="1-16" drill="0.3"/>
-<via x="5" y="9.1" extent="1-16" drill="0.3"/>
 <via x="10.5" y="9.1" extent="1-16" drill="0.3"/>
 <via x="10.6" y="11.8" extent="1-16" drill="0.3"/>
 <via x="11.7" y="11.8" extent="1-16" drill="0.3"/>
 <via x="13.4" y="8.2" extent="1-16" drill="0.3"/>
 <via x="12.4" y="8.2" extent="1-16" drill="0.3"/>
-<via x="23" y="10.9" extent="1-16" drill="0.3"/>
-<via x="21" y="10.9" extent="1-16" drill="0.3"/>
 <via x="17" y="10.9" extent="1-16" drill="0.3"/>
 <via x="15" y="10.9" extent="1-16" drill="0.3"/>
 <via x="13.5" y="10.9" extent="1-16" drill="0.3"/>
 <via x="15.2" y="8.1" extent="1-16" drill="0.3"/>
-<via x="23" y="8.1" extent="1-16" drill="0.3"/>
-<via x="21" y="8.1" extent="1-16" drill="0.3"/>
-<via x="1" y="2" extent="1-16" drill="0.3"/>
-<via x="1" y="4" extent="1-16" drill="0.3"/>
-<via x="2" y="1" extent="1-16" drill="0.3"/>
-<via x="4" y="1" extent="1-16" drill="0.3"/>
-<via x="6" y="1" extent="1-16" drill="0.3"/>
-<via x="8" y="1" extent="1-16" drill="0.3"/>
-<via x="10" y="1" extent="1-16" drill="0.3"/>
-<via x="12" y="1" extent="1-16" drill="0.3"/>
-<via x="14" y="1" extent="1-16" drill="0.3"/>
-<via x="16" y="1" extent="1-16" drill="0.3"/>
-<via x="18" y="1" extent="1-16" drill="0.3"/>
-<via x="20" y="1" extent="1-16" drill="0.3"/>
-<via x="22" y="1" extent="1-16" drill="0.3"/>
-<via x="24" y="1" extent="1-16" drill="0.3"/>
-<via x="25" y="2" extent="1-16" drill="0.3"/>
-<via x="25" y="18" extent="1-16" drill="0.3"/>
-<via x="25" y="16" extent="1-16" drill="0.3"/>
-<via x="24" y="19" extent="1-16" drill="0.3"/>
-<via x="22" y="19" extent="1-16" drill="0.3"/>
-<via x="20" y="19" extent="1-16" drill="0.3"/>
-<via x="12" y="19" extent="1-16" drill="0.3"/>
-<via x="10" y="19" extent="1-16" drill="0.3"/>
-<via x="8" y="19" extent="1-16" drill="0.3"/>
-<via x="2" y="19" extent="1-16" drill="0.3"/>
-<via x="4" y="19" extent="1-16" drill="0.3"/>
-<via x="6" y="19" extent="1-16" drill="0.3"/>
-<via x="1" y="18" extent="1-16" drill="0.3"/>
 <via x="11.5" y="4.6" extent="1-16" drill="0.5"/>
 <via x="12.3" y="5.6" extent="1-16" drill="0.5"/>
 <via x="19.9" y="7.3" extent="1-16" drill="0.5"/>
@@ -10560,21 +10409,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="9" y="9.1" extent="1-16" drill="0.3"/>
 <via x="7" y="11.9" extent="1-16" drill="0.3"/>
 <via x="8.8" y="11.9" extent="1-16" drill="0.3"/>
-<wire x1="24" y1="19" x2="25" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="25" y1="16" x2="25" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="22" y1="19" x2="24" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="20" y1="19" x2="22" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="25" y1="13.7" x2="25" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="24" y1="13.7" x2="25" y2="13.7" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="13.7" x2="24" y2="13.7" width="0" layer="19" extent="1-1"/>
-<wire x1="22" y1="13.7" x2="23" y2="13.7" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="12.4" x2="23" y2="13.7" width="0" layer="19" extent="1-1"/>
-<wire x1="24" y1="12.4" x2="23" y2="12.4" width="0" layer="19" extent="1-1"/>
-<wire x1="25" y1="12.4" x2="24" y2="12.4" width="0" layer="19" extent="1-1"/>
-<wire x1="22" y1="12.4" x2="23" y2="12.4" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="10.9" x2="23" y2="12.4" width="0" layer="19" extent="1-1"/>
-<wire x1="21" y1="10.9" x2="22" y2="12.4" width="0" layer="19" extent="1-1"/>
-<wire x1="19" y1="10.9" x2="21" y2="10.9" width="0" layer="19" extent="1-1"/>
 <wire x1="17" y1="10.9" x2="19" y2="10.9" width="0" layer="19" extent="1-1"/>
 <wire x1="15" y1="10.9" x2="17" y2="10.9" width="0" layer="19" extent="1-1"/>
 <wire x1="13.5" y1="10.9" x2="15" y2="10.9" width="0" layer="19" extent="1-1"/>
@@ -10590,77 +10424,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="17" y1="8.1" x2="15.2" y2="8.1" width="0" layer="19" extent="1-1"/>
 <wire x1="18.8" y1="8.1" x2="17" y2="8.1" width="0" layer="19" extent="1-1"/>
 <wire x1="19.9" y1="8.1" x2="18.8" y2="8.1" width="0" layer="19" extent="1-1"/>
-<wire x1="21" y1="8.1" x2="19.9" y2="8.1" width="0" layer="19" extent="1-1"/>
-<wire x1="22" y1="6.6" x2="21" y2="8.1" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="6.6" x2="22" y2="6.6" width="0" layer="19" extent="1-1"/>
-<wire x1="24" y1="6.6" x2="23" y2="6.6" width="0" layer="19" extent="1-1"/>
-<wire x1="25" y1="6.6" x2="24" y2="6.6" width="0" layer="19" extent="1-1"/>
-<wire x1="25" y1="5.3" x2="25" y2="6.6" width="0" layer="19" extent="1-1"/>
-<wire x1="24" y1="5.3" x2="25" y2="5.3" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="5.3" x2="24" y2="5.3" width="0" layer="19" extent="1-1"/>
-<wire x1="22" y1="5.3" x2="23" y2="5.3" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="8.1" x2="23" y2="6.6" width="0" layer="19" extent="1-1"/>
 <wire x1="8.8" y1="11.9" x2="10.6" y2="11.8" width="0" layer="19" extent="1-1"/>
 <wire x1="7" y1="11.9" x2="8.8" y2="11.9" width="0" layer="19" extent="1-1"/>
-<wire x1="5" y1="11.9" x2="7" y2="11.9" width="0" layer="19" extent="1-1"/>
-<wire x1="4" y1="13.4" x2="5" y2="11.9" width="0" layer="19" extent="1-1"/>
-<wire x1="3" y1="13.4" x2="4" y2="13.4" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="13.4" x2="3" y2="13.4" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="13.4" x2="2" y2="13.4" width="0" layer="19" extent="1-1"/>
-<wire x1="3" y1="14.7" x2="3" y2="13.4" width="0" layer="19" extent="1-1"/>
-<wire x1="4" y1="14.7" x2="3" y2="14.7" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="14.7" x2="3" y2="14.7" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="14.7" x2="2" y2="14.7" width="0" layer="19" extent="1-1"/>
-<wire x1="3" y1="11.9" x2="3" y2="13.4" width="0" layer="19" extent="1-1"/>
 <wire x1="7" y1="9.1" x2="9" y2="9.1" width="0" layer="19" extent="1-1"/>
-<wire x1="5" y1="9.1" x2="7" y2="9.1" width="0" layer="19" extent="1-1"/>
-<wire x1="4" y1="7.6" x2="5" y2="9.1" width="0" layer="19" extent="1-1"/>
-<wire x1="3" y1="7.6" x2="4" y2="7.6" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="7.6" x2="3" y2="7.6" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="7.6" x2="2" y2="7.6" width="0" layer="19" extent="1-1"/>
-<wire x1="3" y1="6.3" x2="3" y2="7.6" width="0" layer="19" extent="1-1"/>
-<wire x1="4" y1="6.3" x2="3" y2="6.3" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="6.3" x2="3" y2="6.3" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="6.3" x2="2" y2="6.3" width="0" layer="19" extent="1-1"/>
-<wire x1="3" y1="9.1" x2="3" y2="7.6" width="0" layer="19" extent="1-1"/>
 <wire x1="8.8" y1="14.1" x2="8.8" y2="11.9" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="4" x2="1" y2="6.3" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="2" x2="1" y2="4" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="1" x2="1" y2="2" width="0" layer="19" extent="1-1"/>
-<wire x1="4" y1="1" x2="2" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="6" y1="1" x2="4" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="8" y1="1" x2="6" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="1" x2="8" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="1" x2="10" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="14" y1="1" x2="12" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="16" y1="1" x2="14" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="16.3" y1="2.3" x2="16" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="17.1" y1="4.6" x2="17.1" y2="3.3" width="0" layer="19" extent="1-1"/>
-<wire x1="18" y1="1" x2="16" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="20" y1="1" x2="18" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="22" y1="1" x2="20" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="24" y1="1" x2="22" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="25" y1="2" x2="24" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="16.3" y1="5.6" x2="17" y2="8.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.1" y1="3.3" x2="17.1" y2="4.6" width="0" layer="19" extent="1-1"/>
 <wire x1="12.3" y1="5.6" x2="12.4" y2="8.2" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="18" x2="1" y2="14.7" width="0" layer="19" extent="1-1"/>
-<wire x1="2" y1="19" x2="1" y2="18" width="0" layer="19" extent="1-1"/>
-<wire x1="4" y1="19" x2="2" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="6" y1="19" x2="4" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="8" y1="19" x2="6" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="19" x2="8" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="19" x2="10" y2="19" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="RF_OUT" class="2">
+<signal name="L-BFP-LNA-RF_OUT" class="2">
 <contactref element="C2" pad="2"/>
 <contactref element="R4" pad="2"/>
 <wire x1="17.85" y1="9.5" x2="19.9" y2="9.5" width="0.38" layer="1"/>
-<polygon width="0.2" layer="1">
-<vertex x="24.3" y="9.7"/>
-<vertex x="24.1" y="9.7"/>
-<vertex x="23.9" y="9.5"/>
-<vertex x="24.1" y="9.3"/>
-<vertex x="24.3" y="9.3"/>
-</polygon>
 </signal>
 <signal name="CAPS">
 <contactref element="R2" pad="2"/>
@@ -10704,15 +10479,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="9.7" y1="12.7" x2="9.7" y2="11.9" width="0.6" layer="1"/>
 <wire x1="10.8" y1="12.7" x2="9.7" y2="12.7" width="0.6" layer="1"/>
 </signal>
-<signal name="RF_IN" class="2">
+<signal name="L-BFP-LNA-RF_IN" class="2">
 <contactref element="C1" pad="1"/>
-<polygon width="0.2" layer="1">
-<vertex x="1.7" y="10.7"/>
-<vertex x="1.9" y="10.7"/>
-<vertex x="2.1" y="10.5"/>
-<vertex x="1.9" y="10.3"/>
-<vertex x="1.7" y="10.3"/>
-</polygon>
 </signal>
 <signal name="N$3">
 <contactref element="R2" pad="1"/>
@@ -10723,14 +10491,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C1" pad="2"/>
 <contactref element="L1" pad="1"/>
 <wire x1="7.05" y1="10.5" x2="7.85" y2="10.5" width="0.38" layer="1"/>
-</signal>
-<signal name="2V7">
-<polygon width="0.6" layer="15">
-<vertex x="0" y="20"/>
-<vertex x="26" y="20"/>
-<vertex x="26" y="0"/>
-<vertex x="0" y="0"/>
-</polygon>
 </signal>
 <signal name="N$1" class="2">
 <contactref element="L4" pad="2"/>
