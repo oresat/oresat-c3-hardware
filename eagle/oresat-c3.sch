@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4648,7 +4648,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="100nF" constant="no"/>
+<attribute name="VALUE" value="0.1uf" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -4788,7 +4788,6 @@ Source: &lt;a href="https://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -5065,7 +5064,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/RN73R1JTTD100
 <pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
 <pin name="PFI" x="-15.24" y="-2.54" length="middle" direction="in"/>
 <pin name="!PFO" x="13.97" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="WDI" x="13.97" y="0" length="middle" direction="out" rot="R180"/>
+<pin name="WDI" x="-15.269465625" y="2.474721875" length="middle" direction="out"/>
 <pin name="!R_OD" x="13.97" y="2.54" length="middle" direction="out" rot="R180"/>
 <pin name="!WDO" x="13.97" y="5.08" length="middle" direction="out" rot="R180"/>
 <wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
@@ -18951,13 +18950,13 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 </classes>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="C3" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C3" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C9" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C9" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -18975,7 +18974,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05C200JB51PNC"/>
 </part>
-<part name="C17" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C17" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -18990,7 +18989,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C22" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C22" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19105,7 +19104,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="R10" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0">
+<part name="R10" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19151,7 +19150,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 </part>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
-<part name="C6" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C6" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19181,7 +19180,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <part name="GND44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R8" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
 <part name="R11" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
-<part name="R12" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0">
+<part name="R12" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-4275-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19195,21 +19194,21 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 </part>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="C2" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C2" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C8" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C13" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C13" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19224,7 +19223,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 </part>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="U7" library="U-ST-STM32F446RE-uC" deviceset="STM32F446RE" device=""/>
-<part name="C15" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C15" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-6601-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19261,7 +19260,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C21" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100nF">
+<part name="C21" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -19304,7 +19303,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <part name="R18" library="C3_SamacSys_Parts" deviceset="R0603-10-OHMS" device="" value="10"/>
 <part name="U8" library="U-COBHAM-UT01VS33D-Voltage-Supervisor" deviceset="UT01VS33D" device="FLATDI_8" package3d_urn="urn:adsk.eagle:package:17466412/1"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="R22" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
+<part name="R22" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
 <part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="U11" library="U-ON-Semi-AX5043-radio" deviceset="U-ONSEMI-AX5043" device=""/>
 <part name="GND67" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -19399,11 +19398,9 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <part name="GND104" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R43" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0"/>
 <part name="J5" library="oresat-edge_connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-CARD"/>
-<part name="D8" library="D-TI-SN65220-Pair-SOT23-6" deviceset="SN65220" device=""/>
 <part name="D11" library="D-TI-SN65220-Pair-SOT23-6" deviceset="SN65220" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R23" library="C3_SamacSys_Parts" deviceset="R0603-10-OHMS" device="" value="10"/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP12" library="oresat-misc" deviceset="TP" device="1MM-TP" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP21" library="oresat-misc" deviceset="TP" device="1MM-TP" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="TP24" library="oresat-misc" deviceset="TP" device="1MM-TP" package3d_urn="urn:adsk.eagle:package:27946/1"/>
@@ -19535,7 +19532,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <part name="GND137" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R64" library="C3_SamacSys_Parts" deviceset="R0603-3.1K-OHMS" device="" value="3.1k"/>
 <part name="GND138" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R65" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
+<part name="R65" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
 <part name="GND139" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND140" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND141" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -19546,7 +19543,7 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <part name="C89" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF"/>
 <part name="TP20" library="oresat-misc" deviceset="TP" device="1MM-TP" package3d_urn="urn:adsk.eagle:package:27946/1" value="PG"/>
 <part name="C90" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF-10VDC" device="" value="22uF-10VDC"/>
-<part name="R67" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
+<part name="R67" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
 <part name="R68" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
 <part name="GND143" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND144" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -19615,12 +19612,12 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <part name="3V-7" library="oresat-supplies" deviceset="2.8V" device=""/>
 <part name="GND64" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U21" library="U-AVX-BP0805-BPF" deviceset="BP0805" device=""/>
-<part name="R13" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
-<part name="R44" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
-<part name="R51" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
-<part name="R52" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
-<part name="R54" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
-<part name="R55" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
+<part name="R13" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
+<part name="R44" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
+<part name="R51" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
+<part name="R52" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
+<part name="R54" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
+<part name="R55" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
 <part name="UHF_5V1" library="oresat-supplies" deviceset="UHF_5V" device=""/>
 <part name="UHF_5V2" library="oresat-supplies" deviceset="UHF_5V" device=""/>
 <part name="UHF_5V3" library="oresat-supplies" deviceset="UHF_5V" device=""/>
@@ -20197,7 +20194,6 @@ All caps are 0603 X5R</text>
 <attribute name="MFR" x="241.3" y="195.58" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="241.3" y="195.58" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="240.03" y="190.5" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="240.03" y="196.85" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND43" gate="1" x="241.3" y="185.42" smashed="yes">
 <attribute name="VALUE" x="238.76" y="182.88" size="1.778" layer="96"/>
@@ -20280,7 +20276,6 @@ All caps are 0603 X5R</text>
 </instance>
 <instance part="R22" gate="G$1" x="190.5" y="220.98" smashed="yes">
 <attribute name="NAME" x="186.69" y="222.4786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.69" y="217.678" size="1.778" layer="96"/>
 </instance>
 <instance part="TP5" gate="G$1" x="60.96" y="226.06" smashed="yes">
 <attribute name="NAME" x="59.69" y="227.33" size="1.778" layer="95"/>
@@ -20616,7 +20611,6 @@ All caps are 0603 X5R</text>
 <attribute name="MFR" x="149.86" y="187.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="149.86" y="187.96" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="142.24" y="189.23" size="1.778" layer="95"/>
-<attribute name="VALUE" x="142.24" y="186.69" size="1.778" layer="96"/>
 </instance>
 <instance part="C4" gate="G$1" x="213.36" y="154.94" smashed="yes">
 <attribute name="DIS" x="213.36" y="154.94" size="1.778" layer="96" display="off"/>
@@ -22792,27 +22786,21 @@ intentionally left floating.</text>
 </instance>
 <instance part="R13" gate="G$1" x="-139.7" y="256.54" smashed="yes">
 <attribute name="NAME" x="-143.51" y="258.0386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-143.51" y="253.238" size="1.778" layer="96"/>
 </instance>
 <instance part="R44" gate="G$1" x="-139.7" y="248.92" smashed="yes">
 <attribute name="NAME" x="-143.51" y="250.4186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-143.51" y="245.618" size="1.778" layer="96"/>
 </instance>
 <instance part="R51" gate="G$1" x="-139.7" y="241.3" smashed="yes">
 <attribute name="NAME" x="-143.51" y="242.7986" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-143.51" y="237.998" size="1.778" layer="96"/>
 </instance>
 <instance part="R52" gate="G$1" x="-139.7" y="233.68" smashed="yes">
 <attribute name="NAME" x="-143.51" y="235.1786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-143.51" y="230.378" size="1.778" layer="96"/>
 </instance>
 <instance part="R54" gate="G$1" x="-139.7" y="226.06" smashed="yes">
 <attribute name="NAME" x="-143.51" y="227.5586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-143.51" y="222.758" size="1.778" layer="96"/>
 </instance>
 <instance part="R55" gate="G$1" x="-139.7" y="218.44" smashed="yes">
 <attribute name="NAME" x="-143.51" y="219.9386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-143.51" y="215.138" size="1.778" layer="96"/>
 </instance>
 <instance part="UHF_3.3V2" gate="G$1" x="-238.76" y="284.48" smashed="yes">
 <attribute name="VALUE" x="-238.76" y="284.734" size="1.778" layer="96" align="bottom-center"/>
@@ -23333,20 +23321,20 @@ All caps are 0603 X5R</text>
 <instance part="SUPPLY7" gate="G$1" x="73.66" y="119.38" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="73.66" y="122.174" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="D3" gate="G$1" x="370.84" y="195.58" smashed="yes">
-<attribute name="NAME" x="367.411" y="191.008" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="372.745" y="191.008" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D3" gate="G$1" x="322.58" y="198.12" smashed="yes">
+<attribute name="NAME" x="319.151" y="193.548" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="324.485" y="193.548" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="GND9" gate="1" x="370.84" y="187.96" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="373.38" y="185.42" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND9" gate="1" x="322.58" y="190.5" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="325.12" y="187.96" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R3" gate="G$1" x="370.84" y="205.74" smashed="yes" rot="R90">
-<attribute name="DIS" x="370.84" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="370.84" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="370.84" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="370.84" y="205.74" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="372.3386" y="204.47" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="367.03" y="201.93" size="1.778" layer="96" rot="MR90"/>
+<instance part="R3" gate="G$1" x="322.58" y="208.28" smashed="yes" rot="R90">
+<attribute name="DIS" x="322.58" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DPN" x="322.58" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MFR" x="322.58" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="322.58" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="324.0786" y="207.01" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="318.77" y="204.47" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -23557,9 +23545,6 @@ All caps are 0603 X5R</text>
 <instance part="SUPPLY1" gate="G$1" x="320.04" y="248.92" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="320.04" y="251.714" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
 </instance>
-<instance part="D8" gate="G$1" x="381" y="238.76" smashed="yes">
-<attribute name="NAME" x="376.936" y="247.65" size="1.778" layer="95"/>
-</instance>
 <instance part="D11" gate="G$1" x="375.92" y="129.54" smashed="yes">
 <attribute name="NAME" x="373.38" y="139.7" size="1.778" layer="95"/>
 </instance>
@@ -23570,11 +23555,8 @@ All caps are 0603 X5R</text>
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="392.43" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="378.46" y="220.98" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="381" y="218.44" size="1.778" layer="96" rot="MR0"/>
-</instance>
-<instance part="TP12" gate="G$1" x="386.08" y="203.2" smashed="yes">
-<attribute name="NAME" x="384.81" y="204.47" size="1.778" layer="95"/>
+<instance part="TP12" gate="G$1" x="325.12" y="218.44" smashed="yes">
+<attribute name="NAME" x="323.85" y="219.71" size="1.778" layer="95"/>
 </instance>
 <instance part="TP21" gate="G$1" x="271.78" y="137.16" smashed="yes">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
@@ -23755,14 +23737,6 @@ All caps are 0603 X5R</text>
 <wire x1="340.36" y1="231.14" x2="327.66" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND53" gate="1" pin="GND"/>
 <junction x="327.66" y="231.14"/>
-</segment>
-<segment>
-<pinref part="D8" gate="G$1" pin="GND2"/>
-<pinref part="D8" gate="G$1" pin="GND1"/>
-<wire x1="384.556" y1="223.52" x2="382.016" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="382.016" y1="223.52" x2="378.46" y2="223.52" width="0.1524" layer="91"/>
-<junction x="382.016" y="223.52"/>
 </segment>
 </net>
 <net name="OSC_IN" class="0">
@@ -23971,17 +23945,17 @@ All caps are 0603 X5R</text>
 <pinref part="U7" gate="G$1" pin="PA0"/>
 </segment>
 <segment>
-<label x="408.94" y="210.82" size="1.778" layer="95" xref="yes"/>
-<wire x1="408.94" y1="210.82" x2="391.16" y2="210.82" width="0.1524" layer="91"/>
+<label x="309.88" y="213.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="309.88" y1="213.36" x2="322.58" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="WDI"/>
-<wire x1="391.16" y1="210.82" x2="370.84" y2="210.82" width="0.1524" layer="91"/>
-<wire x1="364.49" y1="210.82" x2="370.84" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="213.36" x2="325.12" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="325.12" y1="213.36" x2="322.58" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="335.250534375" y1="213.294721875" x2="322.58" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<junction x="370.84" y="210.82"/>
+<junction x="322.58" y="213.36"/>
 <pinref part="TP12" gate="G$1" pin="TP"/>
-<wire x1="386.08" y1="200.66" x2="391.16" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="200.66" x2="391.16" y2="210.82" width="0.1524" layer="91"/>
-<junction x="391.16" y="210.82"/>
+<wire x1="325.12" y1="215.9" x2="325.12" y2="213.36" width="0.1524" layer="91"/>
+<junction x="325.12" y="213.36"/>
 </segment>
 </net>
 <net name="RADIO2_IRQ" class="0">
@@ -24017,7 +23991,7 @@ All caps are 0603 X5R</text>
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="370.84" y1="198.12" x2="370.84" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="322.58" y1="200.66" x2="322.58" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_L" class="0">
@@ -24346,18 +24320,8 @@ All caps are 0603 X5R</text>
 <segment>
 <label x="408.94" y="215.9" size="1.778" layer="95" xref="yes"/>
 <wire x1="401.32" y1="215.9" x2="401.32" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="D8" gate="G$1" pin="B"/>
-<wire x1="368.3" y1="213.36" x2="396.24" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="213.36" x2="401.32" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="241.3" x2="396.24" y2="213.36" width="0.1524" layer="91"/>
-<junction x="396.24" y="213.36"/>
-<pinref part="D8" gate="G$1" pin="A"/>
-<wire x1="368.3" y1="241.3" x2="368.3" y2="213.36" width="0.1524" layer="91"/>
-<junction x="368.3" y="213.36"/>
-<wire x1="370.84" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="241.3" x2="396.24" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="364.49" y1="213.36" x2="401.32" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="!R_OD"/>
-<wire x1="364.49" y1="213.36" x2="368.3" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="408.94" y1="215.9" x2="401.32" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -24594,10 +24558,10 @@ All caps are 0603 X5R</text>
 <label x="236.22" y="81.28" size="1.778" layer="95"/>
 <wire x1="236.22" y1="81.28" x2="347.98" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="353.06" y1="103.124" x2="353.06" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="103.124" x2="449.58" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="R15" gate="A" pin="66"/>
 <wire x1="347.98" y1="83.82" x2="347.98" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="83.82" x2="353.06" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="83.82" x2="449.58" y2="30.48" width="0.1524" layer="91"/>
 <junction x="347.98" y="83.82"/>
 </segment>
 </net>
@@ -24733,7 +24697,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 </instance>
 <instance part="R65" gate="G$1" x="93.98" y="187.96" smashed="yes">
 <attribute name="NAME" x="90.17" y="189.4586" size="1.778" layer="95"/>
-<attribute name="VALUE" x="90.17" y="184.658" size="1.778" layer="96"/>
 </instance>
 <instance part="GND139" gate="1" x="160.02" y="152.4" smashed="yes">
 <attribute name="VALUE" x="157.48" y="149.86" size="1.778" layer="96"/>
@@ -24771,7 +24734,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 </instance>
 <instance part="R67" gate="G$1" x="137.16" y="165.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="135.6614" y="161.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="140.462" y="161.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R68" gate="G$1" x="137.16" y="182.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="135.6614" y="179.07" size="1.778" layer="95" rot="R90"/>
