@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -3161,6 +3161,12 @@ This package is identical to 0402-B, but has its tPlace silkscreen layer removed
 <text x="-1.32" y="1.343" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <pad name="TP" x="0" y="0" drill="0.75"/>
 </package>
+<package name="TEST-POINT-SMALL">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
+<circle x="0" y="0" radius="0.381" width="0.1524" layer="21"/>
+<text x="-1.32" y="1.343" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<pad name="TP" x="0" y="0" drill="0.0254"/>
+</package>
 </packages>
 </library>
 <library name="U-Silicon-Labs-Si4133-synthesizer">
@@ -5025,8 +5031,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.8" y="38.5" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="14.781" y="38.95" size="0.635" layer="33" ratio="20" rot="R270"/>
+<attribute name="NAME" x="10.8" y="38.5" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="14.027" y="38.95" size="0.5" layer="27" ratio="20" rot="R270"/>
@@ -5042,8 +5048,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.4" y="43.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="28.3" y="45.831" size="0.635" layer="33" ratio="20"/>
+<attribute name="NAME" x="31.4" y="43.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="28.3" y="45.077" size="0.5" layer="27" ratio="20"/>
@@ -5059,8 +5065,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="33.1" y="42" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="30" y="43.931" size="0.635" layer="33" ratio="20"/>
+<attribute name="NAME" x="33.1" y="42" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="20pF" x="30" y="43.177" size="0.5" layer="27" ratio="20"/>
@@ -5076,8 +5082,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" x="31.4" y="37.3" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" x="31.4" y="37.3" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="31.4" y="37.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.940003125" y="36.819996875" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="29.9" y="38.931" size="0.635" layer="33" ratio="20"/>
+<attribute name="NAME" x="32.940003125" y="36.819996875" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="31.4" y="37.3" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="31.4" y="37.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="20pF" x="29.9" y="38.177" size="0.5" layer="27" ratio="20"/>
@@ -5093,8 +5099,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="35.2" y="58.1" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="35.2" y="58.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="35.2" y="58.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="36.8" y="57.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="37.581" y="58.85" size="0.635" layer="33" ratio="20" rot="R270"/>
+<attribute name="NAME" x="36.8" y="57.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="35.2" y="58.1" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="35.2" y="58.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="36.827" y="58.85" size="0.5" layer="27" ratio="20" rot="R270"/>
@@ -5110,8 +5116,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="23.2" y="49.9" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="23.2" y="49.9" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="23.2" y="49.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.5" y="50.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="24.7" y="48.269" size="0.635" layer="33" ratio="20" rot="R180"/>
+<attribute name="NAME" x="22.5" y="50.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="23.2" y="49.9" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="23.2" y="49.9" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="24.7" y="49.023" size="0.5" layer="27" ratio="20" rot="R180"/>
@@ -5143,8 +5149,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.4344" y="31.6234" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="22.5" y="34.531" size="0.2" layer="33" ratio="15"/>
+<attribute name="NAME" x="22.4344" y="31.6234" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="10k" x="22.5" y="33.477" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5170,8 +5176,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="22.5" y="79.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="22.5" y="79.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="22.5" y="79.9" size="2" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.5" y="79.9" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="22.116" y="80.717" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="22.5" y="79.9" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="22.5" y="79.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="22.5" y="79.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="23.6" y="79.223" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -5187,8 +5193,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="6.3" y="81.7" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="6.3" y="81.7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="5.731" y="82.926" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="6.3" y="81.7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="5.623" y="80.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5209,8 +5215,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="12.2" y="83.1" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="12.2" y="83.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="12.2" y="79.7" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="NAME" x="12.2" y="83.1" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="11.7" y="83.9" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="12.2" y="83.1" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="12.2" y="83.1" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="12.2" y="83.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.1" y="83.777" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5253,8 +5259,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="34.2" y="90.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="34.2" y="90.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="34.2" y="90.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="34" y="90.2" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="33.8" y="91.631" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="34" y="90.2" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="34.2" y="90.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="34.2" y="90.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10k" x="34.877" y="91.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -5270,8 +5276,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-2372ELF" x="22.4" y="90.2" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-2372ELF" x="22.4" y="90.2" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="22.4" y="90.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.4" y="90.2" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="21.4" y="90.931" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="22.4" y="90.2" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="22.4" y="90.2" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="22.4" y="90.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="21.3" y="90.877" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5305,8 +5311,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="19.7" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="19.7" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="19.7" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.7" y="81.7" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="19.3" y="83.2" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="19.7" y="81.7" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="19.7" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="19.7" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1uF" x="19.7" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5337,8 +5343,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="17.8" y="81.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="17.8" y="81.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="17.8" y="81.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="17.8" y="81.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="17.4" y="82.6" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="17.8" y="81.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="17.8" y="81.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="17.8" y="81.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10k" x="18.477" y="82.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -5354,8 +5360,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="16.3" y="82.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="16.3" y="82.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="16.3" y="82.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="15.9" y="84" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="16.977" y="83.8" size="0.2" layer="33" ratio="15" rot="R270"/>
+<attribute name="NAME" x="15.9" y="84" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="16.3" y="82.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="16.3" y="82.7" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -5376,8 +5382,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="31.4" y="88.8" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="31.4" y="88.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="31.4" y="88.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.9" y="88.331" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="29.9" y="90.731" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="32.9" y="88.331" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="31.4" y="88.8" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="31.4" y="88.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="1uF" x="29.9" y="89.677" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5417,8 +5423,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="25.6" y="83.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="25.6" y="83.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="32" y="68.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="24.5" y="84.831" size="0.2" layer="33" ratio="15"/>
 <attribute name="NAME" x="24.3" y="83.469" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="24.5" y="84.831" size="0.2" layer="33" ratio="15"/>
 <attribute name="RS_PART_NUMBER" value="" x="25.6" y="83.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="25.6" y="83.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="24.5" y="83.777" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5436,8 +5442,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="38.5" y="75.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="38.5" y="75.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="33.2" y="69.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="38.0436" y="73.6012" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="37.95" y="77.681" size="0.2" layer="33" ratio="15"/>
+<attribute name="NAME" x="38.0436" y="73.6012" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="38.5" y="75.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="38.5" y="75.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="10k" x="37.95" y="76.627" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5453,8 +5459,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="35.2" y="64" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="35.2" y="64" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="35.2" y="67.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="35.2" y="64" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="36.8" y="63.8" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="35.2" y="64" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="35.2" y="64" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="35.2" y="64" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="36.7" y="63.123" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -5476,8 +5482,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-3162ELF" x="37.8" y="77.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-3162ELF" x="37.8" y="77.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="37.8" y="77.3" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="NAME" x="39.543928125" y="77.236790625" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="NAME" x="35.51710625" y="76.746178125" size="0.2" layer="33" ratio="15" rot="R90"/>
+<attribute name="NAME" x="39.543928125" y="77.236790625" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="RS_PART_NUMBER" value="" x="37.8" y="77.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="37.8" y="77.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="VALUE" value="31.6k" x="36.57110625" y="76.746178125" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5493,8 +5499,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CHP0603FX3011ELF" x="26.5" y="74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="26.5" y="74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="26.5" y="74" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="24.9052" y="73.0924" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="25.95" y="76.281" size="0.2" layer="33" ratio="15"/>
+<attribute name="NAME" x="24.9052" y="73.0924" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="26.5" y="74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="26.5" y="74" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="3.1k" x="25.95" y="75.227" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5538,8 +5544,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="31.4" y="87.5" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="31.4" y="87.5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="31.4" y="87.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.38" y="87.88" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="30.173" y="86.95" size="0.2" layer="33" ratio="15" rot="R90"/>
+<attribute name="NAME" x="34.38" y="87.88" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="31.4" y="87.5" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="31.4" y="87.5" size="1.778" layer="27" display="off"/>
 </element>
@@ -5554,8 +5560,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="21.8" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="21.8" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="21.8" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="20.5" y="83.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="19.869" y="84.3" size="0.3" layer="33" ratio="15" rot="R90"/>
+<attribute name="NAME" x="20.5" y="83.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="21.8" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="21.8" y="85.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1uF" x="20.923" y="84.3" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5571,8 +5577,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="16.6" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="16.6" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="16.6" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.6" y="50.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="15.7" y="52.1" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="16.6" y="50.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="16.6" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="16.6" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="15.723" y="49.1" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5588,8 +5594,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="29.76" y="35.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="29.76" y="35.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="29.76" y="35.91" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="29.76" y="35.91" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="28.74" y="36.741" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="29.76" y="35.91" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="29.76" y="35.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="29.76" y="35.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="31.387" y="36.66" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -5605,8 +5611,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="25.9" y="33.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="26.8" y="32.1" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="25.9" y="33.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="25.15" y="35.127" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5624,8 +5630,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="22.4" y="88.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="22.4" y="88.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="22.4" y="88.9" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="21.4" y="87.631" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="23.5" y="87.169" size="0.2" layer="33" ratio="15" rot="R180"/>
+<attribute name="NAME" x="21.4" y="87.631" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="22.4" y="88.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="22.4" y="88.9" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="10k" x="23.5" y="88.223" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -5645,8 +5651,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="5.4" y="89.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="5.4" y="89.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="5.4" y="89.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="3.26" y="90.21" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="3.9" y="91.431" size="0.2" layer="33" ratio="15"/>
+<attribute name="NAME" x="3.26" y="90.21" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="5.4" y="89.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="5.4" y="89.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="3.9" y="90.377" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5662,8 +5668,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" x="5.4" y="90.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" x="5.4" y="90.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="5.4" y="90.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="5.4" y="90.65" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="6.4" y="92.269" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="5.4" y="90.65" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1726834P" x="5.4" y="90.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" x="5.4" y="90.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="47uF" x="3.9" y="91.677" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5718,8 +5724,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="37.9206" y="78.761" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="37.9206" y="78.761" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="37.9206" y="78.761" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="39.4724" y="78.5172" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="36.4206" y="80.692" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="39.4724" y="78.5172" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="37.9206" y="78.761" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="37.9206" y="78.761" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="1uF" x="36.4206" y="79.638" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5735,8 +5741,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="18.4" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="18.4" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="18.4" y="50.6" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
-<attribute name="NAME" x="17.5" y="52.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="17.65" y="53.281" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="17.5" y="52.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="18.4" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="18.4" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="2.2uF" x="17.65" y="52.227" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5752,8 +5758,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="6.2227" y="19.4692" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="6.2227" y="19.4692" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="6.2227" y="19.4692" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="4.7027" y="20.4392" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="4.7227" y="21.4002" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="4.7027" y="20.4392" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.2227" y="19.4692" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.2227" y="19.4692" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="2.2uF" x="4.7227" y="20.3462" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5769,8 +5775,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="6.21" y="21.013" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="6.21" y="21.013" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="4.81" y="16.313" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="4.69" y="22.053" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="4.71" y="22.944" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="4.69" y="22.053" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.21" y="21.013" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.21" y="21.013" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1uf" x="4.71" y="21.89" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5786,8 +5792,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="21.63" y="17.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="21.63" y="17.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="21.63" y="17.31" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="23.16" y="16.35" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="20.88" y="19.991" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="23.16" y="16.35" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="RS_PART_NUMBER" value="" x="21.63" y="17.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="21.63" y="17.31" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1uF" x="20.88" y="18.937" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5803,8 +5809,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="12.02" y="8.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="12.02" y="8.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="12.02" y="8.34" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="11.52" y="6.94" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="11.27" y="11.021" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="11.52" y="6.94" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="12.02" y="8.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="12.02" y="8.34" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1uF" x="11.27" y="9.967" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5820,8 +5826,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="13.64" y="8.33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="13.64" y="8.33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="13.64" y="8.33" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="13.14" y="6.93" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="12.89" y="9.957" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="13.14" y="6.93" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="13.64" y="8.33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="13.64" y="8.33" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1uF" x="13.64" y="8.33" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5837,8 +5843,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="15.26" y="8.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="15.26" y="8.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="15.26" y="8.32" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="14.76" y="6.92" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="14.51" y="11.001" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="14.76" y="6.92" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="15.26" y="8.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="15.26" y="8.32" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10uF" x="14.51" y="9.947" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -6700,6 +6706,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="67.78" y="3.755" size="1.27" layer="27"/>
 </element>
 <element name="U$1" library="oresat-c3-v1" package="ORESAT-CARD-V1.1-3XRF" value="" x="0" y="0" smashed="yes"/>
+<element name="DEBUG-0" library="oresat-misc" package="TEST-POINT-SMALL" value="TEST-POINT-SMALL" x="26.8" y="7.9" smashed="yes">
+<attribute name="NAME" x="27.257" y="9.48" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="DEBUG-1" library="oresat-misc" package="TEST-POINT-SMALL" value="TEST-POINT-SMALL" x="26.2" y="8.7" smashed="yes">
+<attribute name="NAME" x="26.557" y="9.48" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="DEBUG-2" library="oresat-misc" package="TEST-POINT-SMALL" value="TEST-POINT-SMALL" x="25.6" y="7.9" smashed="yes">
+<attribute name="NAME" x="25.857" y="9.48" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+</element>
+<element name="DEBUG-3" library="oresat-misc" package="TEST-POINT-SMALL" value="TEST-POINT-SMALL" x="25" y="8.7" smashed="yes">
+<attribute name="NAME" x="25.157" y="9.48" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+</element>
 </elements>
 <signals>
 <signal name="OSC_IN">
@@ -7519,10 +7537,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J5" pad="6"/>
 <contactref element="J5" pad="PAD1"/>
 <contactref element="J5" pad="PAD2"/>
-<contactref element="J5" pad="17"/>
-<contactref element="J5" pad="18"/>
-<contactref element="J5" pad="19"/>
-<contactref element="J5" pad="20"/>
 <contactref element="D11" pad="2"/>
 <contactref element="D11" pad="5"/>
 <contactref element="C15" pad="2"/>
@@ -7763,18 +7777,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.63" y1="6.2906625" x2="33.63" y2="5.33" width="0.3048" layer="1"/>
 <wire x1="33.63" y1="5.33" x2="33.6" y2="5.3" width="0.3048" layer="1"/>
 <via x="33.6" y="5.3" extent="1-16" drill="0.254"/>
-<wire x1="25.13" y1="6.2906625" x2="25.13" y2="5.33" width="0.3048" layer="1"/>
-<wire x1="25.13" y1="5.33" x2="25.1" y2="5.3" width="0.3048" layer="1"/>
-<via x="25.1" y="5.3" extent="1-16" drill="0.254"/>
-<wire x1="25.63" y1="6.2906625" x2="25.63" y2="5.33" width="0.3048" layer="1"/>
-<wire x1="25.63" y1="5.33" x2="25.6" y2="5.3" width="0.3048" layer="1"/>
-<via x="25.6" y="5.3" extent="1-16" drill="0.254"/>
-<wire x1="26.13" y1="6.2906625" x2="26.13" y2="5.33" width="0.3048" layer="1"/>
-<wire x1="26.13" y1="5.33" x2="26.1" y2="5.3" width="0.3048" layer="1"/>
-<via x="26.1" y="5.3" extent="1-16" drill="0.254"/>
-<wire x1="26.63" y1="6.2906625" x2="26.63" y2="5.33" width="0.3048" layer="1"/>
-<wire x1="26.63" y1="5.33" x2="26.6" y2="5.3" width="0.3048" layer="1"/>
-<via x="26.6" y="5.3" extent="1-16" drill="0.254"/>
 <via x="31.4" y="35.9" extent="1-16" drill="0.254"/>
 <via x="30.6" y="35" extent="1-16" drill="0.254"/>
 <wire x1="98.8" y1="88" x2="93" y2="94" width="0" layer="19" extent="1-1"/>
@@ -7868,25 +7870,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.13" y1="6.2906625" x2="33.63" y2="6.2906625" width="0" layer="19" extent="1-1"/>
 <wire x1="30.63" y1="6.2906625" x2="32.13" y2="6.2906625" width="0" layer="19" extent="1-1"/>
 <wire x1="36.3" y1="4.5906625" x2="36.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="26.63" y1="6.2906625" x2="30.63" y2="6.2906625" width="0" layer="19" extent="1-1"/>
-<wire x1="26.13" y1="6.2906625" x2="26.63" y2="6.2906625" width="0" layer="19" extent="1-1"/>
-<wire x1="25.63" y1="6.2906625" x2="26.13" y2="6.2906625" width="0" layer="19" extent="1-1"/>
-<wire x1="25.13" y1="6.2906625" x2="25.63" y2="6.2906625" width="0" layer="19" extent="1-1"/>
-<wire x1="24.4" y1="6.6206625" x2="25.13" y2="6.2906625" width="0" layer="19" extent="1-1"/>
-<wire x1="23.4" y1="6.6206625" x2="24.4" y2="6.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="22.4" y1="6.6206625" x2="23.4" y2="6.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="21.4" y1="5.6206625" x2="22.4" y2="6.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="21.4" y1="4.6206625" x2="21.4" y2="5.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="21.4" y1="3.6206625" x2="21.4" y2="4.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="21.4" y1="2.6206625" x2="21.4" y2="3.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="22.4" y1="2.6206625" x2="21.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="23.4" y1="2.6206625" x2="22.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="24.4" y1="2.6206625" x2="23.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="25.4" y1="2.6206625" x2="24.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="1" x2="30.6" y2="5.3" width="0" layer="19" extent="1-1"/>
+<wire x1="25.4" y1="2.6206625" x2="29" y2="1" width="0" layer="19" extent="1-1"/>
 <wire x1="25.4" y1="3.6206625" x2="25.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="24.4" y1="2.6206625" x2="25.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="23.4" y1="2.6206625" x2="24.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="22.4" y1="2.6206625" x2="23.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="2.6206625" x2="22.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="3.6206625" x2="21.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="4.6206625" x2="21.4" y2="3.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="21.4" y1="5.6206625" x2="21.4" y2="4.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="22.4" y1="6.6206625" x2="21.4" y2="5.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="23.4" y1="6.6206625" x2="22.4" y2="6.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="24.4" y1="6.6206625" x2="23.4" y2="6.6206625" width="0" layer="19" extent="1-1"/>
 <wire x1="23" y1="1" x2="23.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
-<wire x1="23.46" y1="4.5906625" x2="25.1" y2="5.3" width="0" layer="19" extent="1-1"/>
-<wire x1="29" y1="1" x2="25.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
+<wire x1="23.46" y1="4.5906625" x2="23.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
 <wire x1="17.07" y1="0.95" x2="21.4" y2="2.6206625" width="0" layer="19" extent="1-1"/>
 <wire x1="16.323" y1="7.525" x2="21.4" y2="5.6206625" width="0" layer="19" extent="1-1"/>
 <wire x1="15.26" y1="7.52" x2="16.323" y2="7.525" width="0" layer="19" extent="1-1"/>
@@ -11912,6 +11910,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$30">
 <contactref element="JP1" pad="11"/>
+</signal>
+<signal name="DEBUG-0">
+<contactref element="J5" pad="17"/>
+<contactref element="DEBUG-0" pad="TP"/>
+<wire x1="26.63" y1="6.2906625" x2="26.63" y2="7.73" width="0.3048" layer="1"/>
+<wire x1="26.63" y1="7.73" x2="26.8" y2="7.9" width="0.3048" layer="1"/>
+</signal>
+<signal name="DEBUG-1">
+<contactref element="J5" pad="18"/>
+<contactref element="DEBUG-1" pad="TP"/>
+<wire x1="26.13" y1="6.2906625" x2="26.13" y2="8.63" width="0.3048" layer="1"/>
+<wire x1="26.13" y1="8.63" x2="26.2" y2="8.7" width="0.3048" layer="1"/>
+</signal>
+<signal name="DEBUG-2">
+<contactref element="J5" pad="19"/>
+<contactref element="DEBUG-2" pad="TP"/>
+<wire x1="25.63" y1="6.2906625" x2="25.63" y2="7.87" width="0.3048" layer="1"/>
+<wire x1="25.63" y1="7.87" x2="25.6" y2="7.9" width="0.3048" layer="1"/>
+</signal>
+<signal name="DEBUG-3">
+<contactref element="J5" pad="20"/>
+<contactref element="DEBUG-3" pad="TP"/>
+<wire x1="25.13" y1="6.2906625" x2="25.13" y2="8.57" width="0.3048" layer="1"/>
+<wire x1="25.13" y1="8.57" x2="25" y2="8.7" width="0.3048" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
