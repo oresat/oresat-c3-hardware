@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -877,6 +877,13 @@ LED</description>
 <text x="-2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2.5V-U" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
 </symbol>
+<symbol name="3.3V-L">
+<description>&lt;h3&gt;V Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.762" y2="-1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="0" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="3.3V-L" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="VBUSP" prefix="VBUSP">
@@ -1013,6 +1020,19 @@ LED</description>
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="2.5V-U" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3.3V-L" prefix="3.3V-L">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="3.3V-L" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -21567,6 +21587,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND-U22" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U23" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U24" library="oresat-supplies" deviceset="GND-U" device=""/>
+<part name="3.3V-L1" library="oresat-supplies" deviceset="3.3V-L" device=""/>
+<part name="3.3V-L2" library="oresat-supplies" deviceset="3.3V-L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22272,25 +22294,25 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="R22" gate="G$1" x="144.78" y="243.84" smashed="yes">
 <attribute name="NAME" x="140.97" y="245.3386" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="20.32" y="248.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="20.32" y="248.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="19.05" y="250.19" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="73.66" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="73.66" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="72.39" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="73.66" y="246.38" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP-OUT" gate="G$1" x="73.66" y="246.38" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="72.39" y="247.65" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="81.28" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ILIM-OUT" gate="G$1" x="81.28" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="80.01" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="193.04" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="193.04" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="191.77" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="228.6" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="228.6" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="227.33" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="246.38" y="243.84" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="246.38" y="243.84" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="245.11" y="245.11" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="360.68" y="200.66" smashed="yes" rot="MR0">
@@ -22384,13 +22406,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="NAME" x="327.5076" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="325.0946" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="375.92" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="375.92" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="374.65" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="361.95" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U24" gate="G$1" x="281.94" y="86.36" smashed="yes">
@@ -22459,7 +22481,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="NAME" x="136.144" y="84.201" size="1.778" layer="95"/>
 <attribute name="VALUE" x="136.144" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="205.74" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="204.47" y="77.47" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="83.82" smashed="yes">
@@ -23904,6 +23926,12 @@ Diplexer</text>
 <instance part="GND1" gate="G$1" x="251.46" y="154.94" smashed="yes">
 <attribute name="VALUE" x="248.92" y="152.4" size="1.778" layer="96"/>
 </instance>
+<instance part="3.3V-L1" gate="G$1" x="152.4" y="116.84" smashed="yes">
+<attribute name="VALUE" x="149.86" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="3.3V-L2" gate="G$1" x="215.9" y="68.58" smashed="yes">
+<attribute name="VALUE" x="213.36" y="68.58" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23978,12 +24006,13 @@ Diplexer</text>
 <net name="CLKN1" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="CLK16N"/>
-<wire x1="149.86" y1="27.94" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="27.94" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R31" gate="R" pin="1"/>
 <pinref part="C44" gate="CE" pin="1"/>
 <wire x1="157.48" y1="22.86" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
 <junction x="157.48" y="25.4"/>
+<wire x1="149.86" y1="27.94" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="27.94" x2="152.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="25.4" x2="157.48" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLKP1" class="0">
@@ -24141,35 +24170,6 @@ Diplexer</text>
 <wire x1="132.08" y1="124.46" x2="132.08" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R37" gate="R" pin="2"/>
 <wire x1="114.3" y1="127" x2="114.3" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<junction x="226.06" y="58.42"/>
-<wire x1="226.06" y1="58.42" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="EN"/>
-<wire x1="226.06" y1="50.8" x2="228.6" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="R35" gate="R" pin="2"/>
-<wire x1="226.06" y1="66.04" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="C57" gate="CE" pin="1"/>
-<wire x1="223.52" y1="58.42" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U12" gate="G$1" pin="VIN"/>
-<wire x1="226.06" y1="58.42" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C54" gate="CE" pin="1"/>
-<wire x1="144.78" y1="106.68" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="C53" gate="CE" pin="1"/>
-<wire x1="137.16" y1="106.68" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
-<junction x="137.16" y="109.22"/>
-<wire x1="132.08" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
-<junction x="132.08" y="109.22"/>
-<wire x1="132.08" y1="88.9" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="U11" gate="G$1" pin="VDD_IO"/>
-<pinref part="R37" gate="R" pin="1"/>
-<pinref part="C55" gate="CE" pin="1"/>
-<wire x1="152.4" y1="109.22" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
-<junction x="144.78" y="109.22"/>
 </segment>
 <segment>
 <pinref part="C37" gate="CE" pin="1"/>
@@ -24890,6 +24890,43 @@ Diplexer</text>
 <pinref part="U11" gate="G$1" pin="PGND"/>
 <pinref part="GND67" gate="1" pin="GND"/>
 <wire x1="132.08" y1="20.32" x2="132.08" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="3.3V-L" class="0">
+<segment>
+<pinref part="C54" gate="CE" pin="1"/>
+<wire x1="144.78" y1="106.68" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="C53" gate="CE" pin="1"/>
+<wire x1="137.16" y1="106.68" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<junction x="137.16" y="109.22"/>
+<wire x1="132.08" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<junction x="132.08" y="109.22"/>
+<wire x1="132.08" y1="88.9" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="VDD_IO"/>
+<pinref part="R37" gate="R" pin="1"/>
+<pinref part="C55" gate="CE" pin="1"/>
+<junction x="144.78" y="109.22"/>
+<pinref part="3.3V-L1" gate="G$1" pin="3.3V-L"/>
+<wire x1="152.4" y1="114.3" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="109.22" x2="152.4" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="109.22" x2="152.4" y2="109.22" width="0.1524" layer="91"/>
+<junction x="152.4" y="109.22"/>
+</segment>
+<segment>
+<pinref part="R35" gate="R" pin="2"/>
+<wire x1="226.06" y1="66.04" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U12" gate="G$1" pin="VIN"/>
+<wire x1="226.06" y1="58.42" x2="228.6" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C57" gate="CE" pin="1"/>
+<wire x1="226.06" y1="58.42" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
+<junction x="226.06" y="58.42"/>
+<pinref part="U12" gate="G$1" pin="EN"/>
+<wire x1="228.6" y1="50.8" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="50.8" x2="226.06" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="3.3V-L2" gate="G$1" pin="3.3V-L"/>
+<wire x1="215.9" y1="66.04" x2="226.06" y2="66.04" width="0.1524" layer="91"/>
+<junction x="226.06" y="66.04"/>
 </segment>
 </net>
 </nets>
@@ -26493,37 +26530,37 @@ All caps are 0603 X5R</text>
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="392.43" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="WDT" gate="G$1" x="360.68" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="WDT" gate="G$1" x="360.68" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="359.41" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="273.05" y="57.15" size="1.778" layer="95"/>
 </instance>
-<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="420.37" y="62.23" size="1.778" layer="95"/>
 </instance>
-<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="123.19" size="1.778" layer="95"/>
 </instance>
 <instance part="BOOT0" gate="G$1" x="129.54" y="137.16" smashed="yes" grouprefs="TP">
 <attribute name="NAME" x="128.27" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="143.51" size="1.778" layer="95"/>
 </instance>
-<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="77.47" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="69.85" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="62.23" size="1.778" layer="95"/>
 </instance>
 <instance part="VBUS2" gate="1" x="73.66" y="223.52" smashed="yes">
@@ -27764,11 +27801,17 @@ All caps are 0603 X5R</text>
 </sheet>
 </sheets>
 <errors>
+<approved hash="104,5,137.16,165.1,X1,SHIELD,GND,,,"/>
+<approved hash="104,5,93.98,114.3,U2,VCC,3.3V,,,"/>
+<approved hash="104,2,198.12,241.3,U5,VIN,VBUSP,,,"/>
+<approved hash="104,5,91.44,58.42,U3,VCC,3.3V,,,"/>
 <approved hash="104,5,213.36,170.18,U7,VBAT,3.3V,,,"/>
 <approved hash="104,5,210.82,58.42,U7,VSSA,GND,,,"/>
 <approved hash="104,5,208.28,170.18,U7,VDDA,3.3V,,,"/>
 <approved hash="104,5,215.9,58.42,U7,VSS,GND,,,"/>
 <approved hash="104,5,218.44,170.18,U7,VDD,3.3V,,,"/>
+<approved hash="104,2,50.8,254,U4,VIN,VBUS,,,"/>
+<approved hash="104,2,71.12,243.84,U4,VOUT,VBUSP_OUT,,,"/>
 <approved hash="104,2,322.58,233.68,U1,IN_2,OPD-3.3V,,,"/>
 <approved hash="104,2,322.58,238.76,U1,IN,OPD-3.3V,,,"/>
 <approved hash="104,2,358.14,233.68,U1,OUT_2,OPD_PWR,,,"/>
@@ -27777,21 +27820,61 @@ All caps are 0603 X5R</text>
 <approved hash="104,5,358.14,83.82,U9,VDDIO,MMC_VDD,,,"/>
 <approved hash="104,5,360.68,45.72,U9,VSSIO,GND,,,"/>
 <approved hash="104,5,363.22,45.72,U9,VSSQ,GND,,,"/>
+<approved hash="104,5,386.08,228.6,U8,VDD,WDT-PWR,,,"/>
 <approved hash="104,3,132.08,22.86,U11,PGND,GND,,,"/>
-<approved hash="104,3,132.08,88.9,U11,VDD_IO,3.3V,,,"/>
+<approved hash="104,3,132.08,88.9,U11,VDD_IO,3.3V-L,,,"/>
 <approved hash="104,3,114.3,83.82,U11,VDD_A1,N$10,,,"/>
 <approved hash="104,3,114.3,76.2,U11,GND1,GND-L,,,"/>
 <approved hash="104,3,114.3,60.96,U11,GND2,GND-L,,,"/>
 <approved hash="104,3,114.3,53.34,U11,VDD_A2,N$11,,,"/>
-<approved hash="104,3,228.6,58.42,U12,VIN,3.3V,,,"/>
-<approved hash="104,3,254,58.42,U12,VOUT,1V1,,,"/>
+<approved hash="104,3,203.2,43.18,X3,VDD,1V8,,,"/>
+<approved hash="104,3,228.6,58.42,U12,VIN,3.3V-L,,,"/>
+<approved hash="104,3,254,58.42,U12,VOUT,1V8,,,"/>
 <approved hash="104,3,254,50.8,U12,BYPASS,N$12,,,"/>
+<approved hash="104,4,-127,73.66,U13,PGND,GND,,,"/>
+<approved hash="104,4,-127,139.7,U13,VDD_IO,3.3V-U2,,,"/>
+<approved hash="104,4,-144.78,134.62,U13,VDD_A1,N$16,,,"/>
+<approved hash="104,4,-144.78,127,U13,GND1,GND-U,,,"/>
+<approved hash="104,4,-144.78,111.76,U13,GND2,GND-U,,,"/>
+<approved hash="104,4,-144.78,104.14,U13,VDD_A2,N$17,,,"/>
+<approved hash="104,4,-40.64,119.38,X4,VDD,1.8V-U,,,"/>
 <approved hash="104,3,360.68,109.22,U10,VDDI,3.3V,,,"/>
 <approved hash="104,3,360.68,53.34,U10,GNDI,GND-L,,,"/>
 <approved hash="104,3,365.76,53.34,U10,GNDD,GND-L,,,"/>
 <approved hash="104,3,365.76,109.22,U10,VDDD,3.3V,,,"/>
+<approved hash="104,3,289.56,157.48,U16,GND,GND-L,,,"/>
+<approved hash="104,3,335.28,157.48,U15,GND,GND-L,,,"/>
+<approved hash="104,2,269.24,91.44,U24,VIN,5V-U,,,"/>
+<approved hash="104,2,294.64,91.44,U24,VOUT,3.3V-U,,,"/>
+<approved hash="104,2,157.48,91.44,U26,VIN,UHF_VBUSP,,,"/>
+<approved hash="104,2,58.42,101.6,U27,VIN,VBUS,,,"/>
+<approved hash="104,2,78.74,91.44,U27,VOUT,UHF_VBUS_OUT,,,"/>
 <approved hash="104,3,325.12,205.74,Q7,E,GND-L,,,"/>
+<approved hash="104,3,45.72,167.64,U18,GND,GND-L,,,"/>
+<approved hash="104,3,78.74,157.48,U19,GND,GND-L,,,"/>
+<approved hash="104,3,132.08,177.8,U20,VCC,2.5V-L,,,"/>
+<approved hash="104,3,160.02,177.8,U20,ADJ,N$38,,,"/>
+<approved hash="104,3,144.78,160.02,U20,GND,GND-L,,,"/>
+<approved hash="104,3,231.14,157.48,U21,GND,GND-L,,,"/>
+<approved hash="104,4,-20.32,134.62,U14,VIN,3.3V-U1,,,"/>
+<approved hash="104,4,5.08,134.62,U14,VOUT,1.8V-U,,,"/>
+<approved hash="104,4,5.08,127,U14,BYPASS,N$46,,,"/>
+<approved hash="104,3,175.26,246.38,U17,GND,GND-L,,,"/>
+<approved hash="104,2,35.56,152.4,U6,VIN,3.3V,,,"/>
+<approved hash="104,2,60.96,152.4,U6,VOUT,2.5V-L,,,"/>
+<approved hash="104,2,45.72,139.7,U6,GND,GND-L,,,"/>
+<approved hash="104,2,60.96,144.78,U6,BYPASS,N$25,,,"/>
+<approved hash="104,2,345.44,83.82,U23,VIN,3.3V-U,,,"/>
+<approved hash="104,2,370.84,83.82,U23,VOUT,2.5V-U,,,"/>
+<approved hash="104,2,355.6,71.12,U23,GND,GND-U,,,"/>
+<approved hash="104,2,370.84,76.2,U23,BYPASS,N$8,,,"/>
+<approved hash="104,4,-335.28,250.19,U25,GND,GND-U,,,"/>
+<approved hash="104,4,-340.36,278.13,U25,VDD,3.3V-U,,,"/>
 <approved hash="104,4,-144.78,228.6,Q9,E,GND-U,,,"/>
+<approved hash="104,4,-182.88,312.42,U22,VCC,2.5V-U,,,"/>
+<approved hash="104,4,-182.88,302.26,U22,GND,GND-U,,,"/>
+<approved hash="106,5,236.22,106.68,DEP_HELI_FB,,,,,"/>
+<approved hash="106,5,236.22,109.22,DEP_TURN_FB,,,,,"/>
 <approved hash="106,1,201.93,157.48,DEVICE-D+,,,,,"/>
 <approved hash="106,1,201.93,154.94,DEVICE-D-,,,,,"/>
 <approved hash="106,1,201.93,149.86,HOST_D+,,,,,"/>
@@ -27802,7 +27885,17 @@ All caps are 0603 X5R</text>
 <approved hash="209,4,-144.78,81.28,N$15,,,,,"/>
 <approved hash="106,5,236.22,78.74,OSC32_IN,,,,,"/>
 <approved hash="106,5,236.22,76.2,OSC32_OUT,,,,,"/>
+<approved hash="106,5,236.22,104.14,RADIO_ANALOG1,,,,,"/>
+<approved hash="106,5,236.22,101.6,RADIO_ANALOG2,,,,,"/>
 <approved hash="106,1,201.93,170.18,SWO,,,,,"/>
+<approved hash="110,2,386.08,218.44,OPD_ISET,N$400,,,,"/>
+<approved hash="110,2,386.08,218.44,OPD_ISET,N$400,,,,"/>
+<approved hash="110,2,386.08,218.44,OPD_ISET,N$400,,,,"/>
+<approved hash="110,2,386.08,228.6,OPD_!FAULT,OPD_PWR,,,,"/>
+<approved hash="111,2,386.08,228.6,OPD_!FAULT,,,,,"/>
+<approved hash="111,2,386.08,218.44,OPD_ISET,,,,,"/>
+<approved hash="111,2,386.08,218.44,OPD_ISET,,,,,"/>
+<approved hash="111,2,386.08,218.44,OPD_ISET,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,5,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
