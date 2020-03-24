@@ -74,7 +74,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -2341,13 +2341,12 @@ P-Channel Switch with Thermal Shutdown</description>
 <smd name="7" x="-0.635" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
 <smd name="6" x="0.635" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
 <smd name="5" x="1.905" y="2.875" dx="2.2" dy="0.5" layer="1" rot="R90"/>
-<smd name="THERMAL" x="0" y="0" dx="3.1" dy="2.4" layer="1" rot="R180"/>
+<smd name="THERMAL" x="0" y="0" dx="3.1" dy="2.4" layer="1" rot="R180" cream="no"/>
 <circle x="-2.098040625" y="-3.901440625" radius="0.04819375" width="0" layer="21"/>
-<wire x1="-2.49428125" y1="1.996440625" x2="2.499359375" y2="1.996440625" width="0.127" layer="51"/>
+<wire x1="-2.499359375" y1="1.996440625" x2="2.499359375" y2="1.996440625" width="0.127" layer="51"/>
 <wire x1="2.499359375" y1="1.996440625" x2="2.499359375" y2="-1.996440625" width="0.127" layer="51"/>
 <wire x1="2.499359375" y1="-1.996440625" x2="-2.499359375" y2="-1.996440625" width="0.127" layer="51"/>
 <wire x1="-2.499359375" y1="-1.996440625" x2="-2.499359375" y2="1.996440625" width="0.127" layer="51"/>
-<wire x1="-2.499359375" y1="1.996440625" x2="-2.49428125" y2="1.996440625" width="0.127" layer="51"/>
 <wire x1="-2.499359375" y1="1.996440625" x2="-2.499359375" y2="-1.996440625" width="0.127" layer="21"/>
 <wire x1="-0.29971875" y1="1.996440625" x2="0.29971875" y2="1.996440625" width="0.127" layer="21"/>
 <wire x1="-1.57988125" y1="1.996440625" x2="-0.9652" y2="1.996440625" width="0.127" layer="21"/>
@@ -2355,6 +2354,10 @@ P-Channel Switch with Thermal Shutdown</description>
 <wire x1="2.499359375" y1="1.996440625" x2="2.499359375" y2="-1.996440625" width="0.127" layer="21"/>
 <text x="-3.14451875" y="4.26211875" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.2766" y="-5.3594" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.524" y1="0.127" x2="-0.127" y2="1.143" layer="31"/>
+<rectangle x1="0.127" y1="0.127" x2="1.524" y2="1.143" layer="31"/>
+<rectangle x1="-1.524" y1="-1.143" x2="-0.127" y2="-0.127" layer="31"/>
+<rectangle x1="0.127" y1="-1.143" x2="1.524" y2="-0.127" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -3430,7 +3433,7 @@ Eventually consolidate parts from other libraries here.</description>
 <library name="C3_SamacSys_Parts">
 <description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name=".0603-B-NOSILK">
+<package name=".0603-B-NOSILK-CAP">
 <description>&lt;b&gt;0603 (metric 1608) normal 'IPC-B' without silkscreen&lt;/b&gt;
 &lt;br&gt;In house package for nominal spacing based on IPC-7351B.
 This package is identical to 0603-B, but has its tPlace silkscreen layer removed.</description>
@@ -3466,7 +3469,7 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <wire x1="0.79" y1="-0.4" x2="-0.79" y2="-0.4" width="0.1" layer="33"/>
 <text x="0" y="0" size="0.3" layer="33" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name=".0603-C-NOSILK">
+<package name=".0603-C-NOSILK-RESISTOR">
 <description>&lt;b&gt;0603 (metric 1608) tight 'IPC-C' without silkscreen&lt;/b&gt;
 &lt;br&gt;In house package for minimum spacing based on IPC-7351B.
 This package is identical to 0603-C, but has its tPlace silkscreen layer removed.</description>
@@ -3534,7 +3537,7 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R61E106K
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK">
+<device name="" package=".0603-B-NOSILK-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3549,7 +3552,7 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R61E106K
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R61E106KA3D" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="10uF-25VDC" constant="no"/>
+<attribute name="VALUE" value="10u" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3562,7 +3565,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK">
+<device name="" package=".0603-B-NOSILK-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3577,7 +3580,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="10uF" constant="no"/>
+<attribute name="VALUE" value="10u" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3590,7 +3593,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1958513.pdf"&gt; Datasheet
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK">
+<device name="" package=".0603-B-NOSILK-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3605,7 +3608,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1958513.pdf"&gt; Datasheet
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="1uF" constant="no"/>
+<attribute name="VALUE" value="1u" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3618,7 +3621,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK">
+<device name="" package=".0603-B-NOSILK-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3633,7 +3636,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="0.1uf" constant="no"/>
+<attribute name="VALUE" value="0.1u" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3646,7 +3649,7 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200J
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK">
+<device name="" package=".0603-B-NOSILK-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3661,7 +3664,7 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200J
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="20pF" constant="no"/>
+<attribute name="VALUE" value="20p" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3674,7 +3677,7 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK">
+<device name="" package=".0603-B-NOSILK-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3689,7 +3692,7 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VALUE" value="2.2u" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3702,7 +3705,7 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476M
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK">
+<device name="" package=".0603-B-NOSILK-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3717,35 +3720,7 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476M
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="1726834P" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" constant="no"/>
-<attribute name="VALUE" value="47uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CAP0603-22UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 22uF 6.3volts *Derate Voltage/Temp&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/GRM188R60J226MEA0#.html"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="C-EU" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package=".0603-B-NOSILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 22uF 6.3volts *Derate Voltage/Temp" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J226MEA0D" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J226ME0D" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J226ME0D" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="8847251P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8847251P" constant="no"/>
-<attribute name="VALUE" value="22uF" constant="no"/>
+<attribute name="VALUE" value="47u" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3758,7 +3733,7 @@ Source: &lt;a href="https://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK">
+<device name="" package=".0603-C-NOSILK-RESISTOR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3785,7 +3760,7 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK">
+<device name="" package=".0603-C-NOSILK-RESISTOR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3812,7 +3787,7 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/54/chp-1649060.pdf"&gt; D
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK">
+<device name="" package=".0603-C-NOSILK-RESISTOR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3840,7 +3815,7 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK">
+<device name="" package=".0603-C-NOSILK-RESISTOR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3868,7 +3843,7 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK">
+<device name="" package=".0603-C-NOSILK-RESISTOR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3898,7 +3873,7 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK">
+<device name="" package=".0603-C-NOSILK-RESISTOR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3926,7 +3901,7 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-C-NOSILK">
+<device name="" package=".0603-C-NOSILK-RESISTOR">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3947,14 +3922,14 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP0603-22UF-10VDC" prefix="C" uservalue="yes">
+<deviceset name="CAP0603-22UF" prefix="C" uservalue="yes">
 <description>&lt;b&gt;Murata 0603 B 22uF Ceramic Multilayer Capacitor, 10 V dc, +85C, X5R Dielectric, +/-20%&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b8145fcdd.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package=".0603-B-NOSILK">
+<device name="" package=".0603-B-NOSILK-CAP">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3969,7 +3944,7 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-ZRB18AR61A226ME1L" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="9015339P" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9015339P" constant="no"/>
-<attribute name="VALUE" value="22uF-10VDC" constant="no"/>
+<attribute name="VALUE" value="22u" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3979,7 +3954,7 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 </library>
 <library name="U-COBHAM-UT01VS33D-Voltage-Supervisor">
 <packages>
-<package name="SOIC127P1250X260-9T460X650N" urn="urn:adsk.eagle:footprint:17482076/1">
+<package name="SOIC127P1250X260-9T460X650N" urn="urn:adsk.eagle:footprint:17482076/1" locally_modified="yes">
 <description>8-SOIC, 1.27 mm pitch, 12.50 mm span, 6.50 X 6.50 X 2.60 mm body, 6.50 X 4.60 mm thermal pad
 &lt;p&gt;8-pin SOIC package with 1.27 mm pitch, 12.50 mm span with body size 6.50 X 6.50 X 2.60 mm and thermal pad size 6.50 X 4.60 mm&lt;/p&gt;</description>
 <circle x="-4.953" y="2.7076" radius="0.25" width="0" layer="21"/>
@@ -4001,7 +3976,6 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 <smd name="6" x="5.25" y="-0.635" dx="2.8118" dy="0.5972" layer="1"/>
 <smd name="7" x="5.25" y="0.635" dx="2.8118" dy="0.5972" layer="1"/>
 <smd name="8" x="5.25" y="1.905" dx="2.8118" dy="0.5972" layer="1"/>
-<smd name="9" x="0" y="0" dx="4.6" dy="6.5" layer="1" thermals="no"/>
 <text x="0" y="4.199" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-4.199" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
@@ -4017,20 +3991,20 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 </packages3d>
 <symbols>
 <symbol name="AT24C04C-XHM-T">
-<pin name="VDD" x="0" y="12.7" length="middle" direction="pwr" rot="R270"/>
-<pin name="GND" x="0" y="-12.7" length="middle" direction="pwr" rot="R90"/>
-<pin name="PFI" x="-15.24" y="-5.08" length="middle" direction="in"/>
-<pin name="!PFO" x="15.24" y="-2.54" length="middle" direction="out" rot="R180"/>
-<pin name="WDI" x="-15.24" y="2.54" length="middle" direction="out"/>
-<pin name="!R_OD" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
-<pin name="!WDO" x="15.24" y="5.08" length="middle" direction="out" rot="R180"/>
+<pin name="VDD" x="0" y="10.16" length="short" direction="pwr" rot="R270"/>
+<pin name="GND" x="0" y="-10.16" length="short" direction="pwr" rot="R90"/>
+<pin name="PFI" x="-12.7" y="-5.08" length="short" direction="in"/>
+<pin name="!PFO" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="WDI" x="-12.7" y="2.54" length="short" direction="out"/>
+<pin name="!R_OD" x="12.7" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="!WDO" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
 <text x="-12.3444" y="14.1986" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-12.2174" y="11.6586" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
-<pin name="!MR" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="!MR" x="-12.7" y="5.08" length="short" direction="in"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4045,7 +4019,7 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 <connect gate="G$1" pin="!PFO" pad="5"/>
 <connect gate="G$1" pin="!R_OD" pad="7"/>
 <connect gate="G$1" pin="!WDO" pad="8"/>
-<connect gate="G$1" pin="GND" pad="3 9"/>
+<connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="PFI" pad="4"/>
 <connect gate="G$1" pin="VDD" pad="2"/>
 <connect gate="G$1" pin="WDI" pad="6"/>
@@ -12750,17 +12724,16 @@ Source: &lt;a href="http://www.ti.com/product/LP2985LV-N?qgpn=lp2985lv-n"&gt;Dat
 <symbols>
 <symbol name="DUAL-USB-TVS">
 <wire x1="-5.08" y1="-10.16" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<pin name="A" x="-10.16" y="2.54" length="middle" direction="in"/>
-<pin name="B" x="12.7" y="2.54" length="middle" direction="in" rot="R180"/>
-<pin name="GND1" x="1.016" y="-15.24" length="middle" rot="R90"/>
-<pin name="GND2" x="3.556" y="-15.24" length="middle" rot="R90"/>
-<pin name="NC1" x="10.16" y="-2.54" visible="off" length="short" direction="nc" rot="R180"/>
-<pin name="NC2" x="10.16" y="0" visible="off" length="short" direction="nc" rot="R180"/>
-<text x="-2.54" y="10.16" size="1.778" layer="95">&gt;Name</text>
-<text x="-2.54" y="5.08" size="1.016" layer="94">DUAL-TVS </text>
+<wire x1="-5.08" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<pin name="A" x="-7.62" y="2.54" length="short" direction="in"/>
+<pin name="B" x="7.62" y="2.54" length="short" direction="in" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="short" rot="R90"/>
+<pin name="NC1" x="7.62" y="-7.62" visible="off" length="short" direction="nc" rot="R180"/>
+<pin name="NC2" x="7.62" y="-5.08" visible="off" length="short" direction="nc" rot="R180"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95">&gt;Name</text>
+<text x="-3.556" y="5.08" size="1.016" layer="94">DUAL-TVS </text>
 </symbol>
 </symbols>
 <devicesets>
@@ -12773,8 +12746,7 @@ Source: &lt;a href="http://www.ti.com/product/LP2985LV-N?qgpn=lp2985lv-n"&gt;Dat
 <connects>
 <connect gate="G$1" pin="A" pad="6"/>
 <connect gate="G$1" pin="B" pad="4"/>
-<connect gate="G$1" pin="GND1" pad="2"/>
-<connect gate="G$1" pin="GND2" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2 5"/>
 <connect gate="G$1" pin="NC1" pad="1"/>
 <connect gate="G$1" pin="NC2" pad="3"/>
 </connects>
@@ -19891,69 +19863,6 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </deviceset>
 </devicesets>
 </library>
-<library name="U-TI-LP38692-linear-reg">
-<packages>
-<package name="SOT223-5">
-<smd name="5" x="0" y="6.3" dx="3.3" dy="1.5" layer="1" cream="no"/>
-<smd name="1" x="-2.275" y="0" dx="1" dy="1.5" layer="1" cream="no"/>
-<smd name="2" x="-0.775" y="0" dx="1" dy="1.5" layer="1" cream="no"/>
-<smd name="3" x="0.725" y="0" dx="1" dy="1.5" layer="1" cream="no"/>
-<smd name="4" x="2.225" y="0" dx="1" dy="1.5" layer="1" cream="no"/>
-<wire x1="-3.3" y1="1.4" x2="-3.3" y2="5" width="0.127" layer="21"/>
-<wire x1="-3.3" y1="5" x2="3.3" y2="5" width="0.127" layer="21"/>
-<wire x1="3.3" y1="5" x2="3.3" y2="1.4" width="0.127" layer="21"/>
-<wire x1="3.3" y1="1.4" x2="-3.3" y2="1.4" width="0.127" layer="21"/>
-<text x="3.6" y="3.6" size="0.6096" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="3.6" y="2.8" size="0.6096" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<rectangle x1="-1.3" y1="5.7" x2="1.4" y2="6.9" layer="31"/>
-<rectangle x1="-2.6" y1="-0.6" x2="-1.9" y2="0.6" layer="31"/>
-<rectangle x1="-1.1" y1="-0.6" x2="-0.4" y2="0.6" layer="31"/>
-<rectangle x1="0.4" y1="-0.6" x2="1.1" y2="0.6" layer="31"/>
-<rectangle x1="1.9" y1="-0.6" x2="2.6" y2="0.6" layer="31"/>
-</package>
-</packages>
-<symbols>
-<symbol name="LP38692">
-<pin name="VIN" x="-12.7" y="5.08" length="short" direction="pwr"/>
-<pin name="EN" x="-12.7" y="-2.54" length="short" direction="in"/>
-<pin name="VOUT" x="12.7" y="5.08" length="short" direction="pwr" rot="R180"/>
-<pin name="GND" x="0" y="-7.62" length="short" direction="pwr" rot="R90"/>
-<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<text x="5.08" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="ADJ" x="12.7" y="-2.54" length="short" direction="in" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LP38692" prefix="U">
-<description>&lt;b&gt;TI 1A LDO Regulators&lt;/b&gt;&lt;p&gt;
-LP38692 Fixed&lt;br&gt;
-Source: &lt;a href="http://www.ti.com/product/LP38692?qgpn=lp38692"&gt;Datasheet&lt;/a&gt;&lt;p&gt;
-LP38692 Adjustable&lt;br&gt;
-Source: &lt;a href="http://www.ti.com/product/LP38692-ADJ?qgpn=lp38692-adj"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="LP38692" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT223-5">
-<connects>
-<connect gate="G$1" pin="ADJ" pad="2"/>
-<connect gate="G$1" pin="EN" pad="1"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="VIN" pad="4"/>
-<connect gate="G$1" pin="VOUT" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="U-AVX-BP0805-BPF">
 <packages>
 <package name="BP0805">
@@ -20759,8 +20668,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="INA" x="-10.16" y="0" visible="pad" length="middle" direction="in"/>
 <pin name="OUT" x="10.16" y="0" visible="pad" length="middle" direction="out" function="dot" rot="R180"/>
-<pin name="VCC" x="0" y="5.08" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="GND" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
+<pin name="VCC" x="0" y="5.08" visible="pad" length="short" rot="R270"/>
+<pin name="GND" x="0" y="-5.08" visible="pad" length="short" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -20778,6 +20687,158 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="U-TI-LP2985AIM5-2.5_NOPB-2.5V-Fixed-LDO">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT-23">
+<smd name="2" x="-1.3" y="0" dx="1.1" dy="0.6" layer="1" cream="no"/>
+<smd name="1" x="-1.3" y="0.95" dx="1.1" dy="0.6" layer="1" cream="no"/>
+<smd name="3" x="-1.3" y="-0.95" dx="1.1" dy="0.6" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="1.3" y="0.95" dx="1.1" dy="0.6" layer="1" cream="no"/>
+<smd name="4" x="1.3" y="-0.95" dx="1.1" dy="0.6" layer="1" rot="R180" cream="no"/>
+<wire x1="-0.8" y1="1.5" x2="0.8" y2="1.5" width="0.127" layer="51"/>
+<wire x1="0.8" y1="1.5" x2="0.8" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-1.5" x2="-0.8" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-1.5" x2="-0.8" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="1.4" x2="-0.8" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.5" x2="0.8" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1.5" x2="0.8" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.4" x2="-0.8" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.5" x2="0.8" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-1.5" x2="0.8" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.5" x2="0.8" y2="-0.5" width="0.127" layer="21"/>
+<rectangle x1="-1.74" y1="0.73" x2="-0.84" y2="1.18" layer="31" rot="R180"/>
+<rectangle x1="-1.74" y1="-1.17" x2="-0.84" y2="-0.72" layer="31" rot="R180"/>
+<rectangle x1="0.84" y1="-1.18" x2="1.74" y2="-0.73" layer="31"/>
+<rectangle x1="0.84" y1="0.72" x2="1.74" y2="1.17" layer="31"/>
+<rectangle x1="-1.72" y1="-0.22" x2="-0.82" y2="0.23" layer="31"/>
+<text x="-0.5" y="-2.5" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-0.5" y="-3.5" size="0.8" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LP2985XX-N">
+<pin name="VIN" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="EN" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="VOUT" x="12.7" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-2.54" y="-7.62" length="short" direction="pwr" rot="R90"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="5.08" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="BYPASS" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LP2985AIM5-2.5_NOPB" prefix="U">
+<description>&lt;b&gt;Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 packages&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LP2985XX-N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="BYPASS" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 packages" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LP2985AIM5-2.5/NOPB" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="926-2985AIM52.5/NOPB" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=926-2985AIM53.3%2FNOPB" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="U-TI-LP2985AIM5-3.3_NOPB-3.3V-Fixed-LDO">
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="SOT-23">
+<smd name="2" x="-1.3" y="0" dx="1.1" dy="0.6" layer="1" cream="no"/>
+<smd name="1" x="-1.3" y="0.95" dx="1.1" dy="0.6" layer="1" cream="no"/>
+<smd name="3" x="-1.3" y="-0.95" dx="1.1" dy="0.6" layer="1" rot="R180" cream="no"/>
+<smd name="5" x="1.3" y="0.95" dx="1.1" dy="0.6" layer="1" cream="no"/>
+<smd name="4" x="1.3" y="-0.95" dx="1.1" dy="0.6" layer="1" rot="R180" cream="no"/>
+<wire x1="-0.8" y1="1.5" x2="0.8" y2="1.5" width="0.127" layer="51"/>
+<wire x1="0.8" y1="1.5" x2="0.8" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-1.5" x2="-0.8" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-1.5" x2="-0.8" y2="1.5" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="1.4" x2="-0.8" y2="1.5" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="1.5" x2="0.8" y2="1.5" width="0.127" layer="21"/>
+<wire x1="0.8" y1="1.5" x2="0.8" y2="1.4" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.4" x2="-0.8" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-1.5" x2="0.8" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="0.8" y1="-1.5" x2="0.8" y2="-1.4" width="0.127" layer="21"/>
+<wire x1="0.8" y1="0.5" x2="0.8" y2="-0.5" width="0.127" layer="21"/>
+<rectangle x1="-1.74" y1="0.73" x2="-0.84" y2="1.18" layer="31" rot="R180"/>
+<rectangle x1="-1.74" y1="-1.17" x2="-0.84" y2="-0.72" layer="31" rot="R180"/>
+<rectangle x1="0.84" y1="-1.18" x2="1.74" y2="-0.73" layer="31"/>
+<rectangle x1="0.84" y1="0.72" x2="1.74" y2="1.17" layer="31"/>
+<rectangle x1="-1.72" y1="-0.22" x2="-0.82" y2="0.23" layer="31"/>
+<text x="-0.5" y="-2.5" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-0.5" y="-3.5" size="0.8" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="LP2985XX-N">
+<pin name="VIN" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="EN" x="-12.7" y="-2.54" length="short" direction="in"/>
+<pin name="VOUT" x="12.7" y="5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-2.54" y="-7.62" length="short" direction="pwr" rot="R90"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="5.08" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="BYPASS" x="12.7" y="-2.54" length="short" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LP2985AIM5-3.3_NOPB" prefix="U">
+<description>&lt;b&gt;Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 packages&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LP2985XX-N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="BYPASS" pad="4"/>
+<connect gate="G$1" pin="EN" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 packages" constant="no"/>
+<attribute name="HEIGHT" value="1.45mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LP2985AIM5-3.3/NOPB" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="926-2985AIM53.3/NOPB" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=926-2985AIM53.3%2FNOPB" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="6520033P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/6520033P" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -20809,31 +20870,31 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </groups>
 <parts>
 <part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
-<part name="C3" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C3" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C9" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C9" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C11" library="C3_SamacSys_Parts" deviceset="CAP0603-20PF" device="" value="20pF">
+<part name="C11" library="C3_SamacSys_Parts" deviceset="CAP0603-20PF" device="" value="20p">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-6601-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05C200JB51PNC"/>
 </part>
-<part name="C16" library="C3_SamacSys_Parts" deviceset="CAP0603-20PF" device="" value="20pF">
+<part name="C16" library="C3_SamacSys_Parts" deviceset="CAP0603-20PF" device="" value="20p">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-6601-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05C200JB51PNC"/>
 </part>
-<part name="C17" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C17" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -20848,7 +20909,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C22" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C22" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -20941,8 +21002,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MPN" value="TPS62111RSA"/>
 </part>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C7" library="C3_SamacSys_Parts" deviceset="CAP0603-10UF-25VDC" device="" value="10uF-25VDC"/>
-<part name="C10" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C7" library="C3_SamacSys_Parts" deviceset="CAP0603-10UF-25VDC" device="" value="10u"/>
+<part name="C10" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -20951,7 +21012,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C12" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF" device="" value="22uF"/>
+<part name="C12" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF" device="" value="22u"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R7" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k">
 <attribute name="DIS" value="Digi-Key"/>
@@ -20971,7 +21032,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MFR" value="ECS"/>
 <attribute name="MPN" value="ECS-MPI4040R4-6R8-R"/>
 </part>
-<part name="C5" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C5" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21003,7 +21064,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUS1" library="oresat-supplies" deviceset="VBUS" device=""/>
-<part name="C6" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C6" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21039,7 +21100,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="RC1005F6653CS"/>
 </part>
-<part name="C4" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C4" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21047,21 +21108,21 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
-<part name="C2" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C2" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C8" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C8" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C13" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C13" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21076,14 +21137,14 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 </part>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="U7" library="U-ST-STM32F446RE-uC" deviceset="STM32F446RE" device=""/>
-<part name="C15" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C15" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-6601-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05C200JB51PNC"/>
 </part>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C18" library="C3_SamacSys_Parts" deviceset="CAP0603-47UF" device="" value="47uF">
+<part name="C18" library="C3_SamacSys_Parts" deviceset="CAP0603-47UF" device="" value="47u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-6601-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21094,50 +21155,50 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="D7" library="SparkFun" deviceset="DIODE" device="SOD" value="1N4148"/>
 <part name="U4" library="U-TI-TPS2596XX-eFuse" deviceset="TPS2596XX" device="" value="TPS259621 - eFuse"/>
 <part name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" deviceset="MAX892LEUA+T" device="21-0036K-L"/>
-<part name="C1" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C1" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C14" library="C3_SamacSys_Parts" deviceset="CAP0603-2.2UF" device="" value="2.2uF">
+<part name="C14" library="C3_SamacSys_Parts" deviceset="CAP0603-2.2UF" device="" value="2.2u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C19" library="C3_SamacSys_Parts" deviceset="CAP0603-2.2UF" device="" value="2.2uF">
+<part name="C19" library="C3_SamacSys_Parts" deviceset="CAP0603-2.2UF" device="" value="2.2u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C21" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1uf">
+<part name="C21" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C23" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C23" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C24" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C24" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C25" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C25" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
 <attribute name="MPN" value="CL05B104KO5NNNC"/>
 </part>
-<part name="C26" library="C3_SamacSys_Parts" deviceset="CAP0603-10UF" device="" value="10uF">
+<part name="C26" library="C3_SamacSys_Parts" deviceset="CAP0603-10UF" device="" value="10u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21347,11 +21408,10 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <attribute name="MFR" value="Nexperia"/>
 <attribute name="MPN" value="PMV45EN2R"/>
 </part>
-<part name="U24" library="U-TI-LP38692-linear-reg" deviceset="LP38692" device=""/>
 <part name="U26" library="U-TI-TPS6211x-SPS-buck" deviceset="TPS6211X" device="" value="TPS62112"/>
 <part name="U27" library="U-TI-TPS2596XX-eFuse" deviceset="TPS2596XX" device=""/>
 <part name="R63" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
-<part name="C87" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF"/>
+<part name="C87" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u"/>
 <part name="GND135" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND136" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND137" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -21364,18 +21424,18 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="VBUS6" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="L17" library="L-ECS-MPI4040" deviceset="L-ECS-MPI4040" device="" value="6.8uH"/>
 <part name="GND142" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C88" library="C3_SamacSys_Parts" deviceset="CAP0603-10UF-25VDC" device="" value="10uF-25VDC"/>
-<part name="C89" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF"/>
+<part name="C88" library="C3_SamacSys_Parts" deviceset="CAP0603-10UF-25VDC" device="" value="10u"/>
+<part name="C89" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u"/>
 <part name="PG-U" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
-<part name="C90" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF-10VDC" device="" value="22uF-10VDC"/>
+<part name="C90" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF" device="" value="22u"/>
 <part name="R67" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="R0603-0-OHMS"/>
 <part name="R68" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
 <part name="GND143" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND144" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R69" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
-<part name="C91" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF"/>
+<part name="C91" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u"/>
 <part name="GND145" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C92" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF"/>
+<part name="C92" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u"/>
 <part name="GND146" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SPI1-SCK" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
 <part name="SPI1-MISO" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
@@ -21477,11 +21537,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND-L2" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="UHF_3.3V3" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="GND1" library="oresat-supplies" deviceset="GND-L" device=""/>
-<part name="U6" library="U-TI-LP2985XX-N-linear-reg" deviceset="LP2985XX-N" device=""/>
-<part name="C20" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF"/>
+<part name="U6" library="U-TI-LP2985AIM5-2.5_NOPB-2.5V-Fixed-LDO" deviceset="LP2985AIM5-2.5_NOPB" device=""/>
+<part name="C20" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u"/>
 <part name="R13" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
-<part name="C27" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF-10VDC" device="" value="22uF-10VDC"/>
-<part name="C28" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C27" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF" device="" value="22u"/>
+<part name="C28" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21492,11 +21552,11 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND-L3" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND-L4" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND-L5" library="oresat-supplies" deviceset="GND-L" device=""/>
-<part name="U23" library="U-TI-LP2985XX-N-linear-reg" deviceset="LP2985XX-N" device=""/>
-<part name="C93" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF"/>
+<part name="U23" library="U-TI-LP2985AIM5-2.5_NOPB-2.5V-Fixed-LDO" deviceset="LP2985AIM5-2.5_NOPB" device=""/>
+<part name="C93" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u"/>
 <part name="R42" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
-<part name="C94" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF-10VDC" device="" value="22uF-10VDC"/>
-<part name="C95" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1uF">
+<part name="C94" library="C3_SamacSys_Parts" deviceset="CAP0603-22UF" device="" value="22u"/>
+<part name="C95" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF" device="" value="1u">
 <attribute name="DIS" value="Digi-Key"/>
 <attribute name="DPN" value="1276-1001-1-ND"/>
 <attribute name="MFR" value="Samsung"/>
@@ -21567,6 +21627,7 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <part name="GND-U22" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U23" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U24" library="oresat-supplies" deviceset="GND-U" device=""/>
+<part name="U28" library="U-TI-LP2985AIM5-3.3_NOPB-3.3V-Fixed-LDO" deviceset="LP2985AIM5-3.3_NOPB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21578,8 +21639,8 @@ Source: http://www.semiconductors.philips.com/acrobat_download/datasheets/74HC_H
 <text x="307.34" y="186.69" size="3.81" layer="97">RF connections and test points</text>
 <text x="116.84" y="180.34" size="1.778" layer="97">OreSat Power Domain signals
 (See power sheet)</text>
-<text x="10.16" y="5.08" size="2.54" layer="97">All resistors 0603
-All caps are 0603 X5R</text>
+<text x="10.16" y="5.08" size="2.54" layer="97">All resistors 0603 1%
+All caps are 0603 and 10V DC or greater</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -21880,41 +21941,6 @@ All caps are 0603 X5R</text>
 <wire x1="201.93" y1="177.8" x2="231.14" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SWO" class="0">
-<segment>
-<label x="213.36" y="170.18" size="1.778" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="SWO"/>
-<wire x1="201.93" y1="170.18" x2="213.36" y2="170.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DEVICE-D+" class="0">
-<segment>
-<label x="213.36" y="157.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="DEVICE-D+"/>
-<wire x1="201.93" y1="157.48" x2="213.36" y2="157.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DEVICE-D-" class="0">
-<segment>
-<label x="231.14" y="154.94" size="1.778" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="DEVICE-D-"/>
-<wire x1="201.93" y1="154.94" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="HOST_D+" class="0">
-<segment>
-<label x="213.36" y="149.86" size="1.778" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="HOST-D+"/>
-<wire x1="201.93" y1="149.86" x2="213.36" y2="149.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="HOST_D-" class="0">
-<segment>
-<label x="228.6" y="147.32" size="1.778" layer="95" xref="yes"/>
-<pinref part="J5" gate="G$1" pin="HOST-D-"/>
-<wire x1="201.93" y1="147.32" x2="228.6" y2="147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
 <segment>
 <label x="213.36" y="180.34" size="1.778" layer="95" xref="yes"/>
@@ -22087,8 +22113,8 @@ All caps are 0603 X5R</text>
 <text x="45.72" y="269.24" size="3.81" layer="97">Card Power Supply</text>
 <text x="21.59" y="260.35" size="2.54" layer="97">Switch is off for VBUS &lt; 5 V (undervoltage lock out)</text>
 <text x="21.336" y="256.54" size="2.54" layer="97">VBUSP is limited to 302mA by R6</text>
-<text x="10.16" y="7.62" size="2.54" layer="97">All resistors 0603
-All caps are 0603 X5R</text>
+<text x="10.16" y="7.62" size="2.54" layer="97">All resistors 0603 1%
+All caps are 0603 and 10V DC or greater</text>
 <text x="311.15" y="215.9" size="1.778" layer="97">0603</text>
 <wire x1="294.64" y1="271.78" x2="403.86" y2="271.78" width="0.1524" layer="97"/>
 <wire x1="403.86" y1="271.78" x2="403.86" y2="167.64" width="0.1524" layer="97"/>
@@ -22272,25 +22298,25 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="R22" gate="G$1" x="144.78" y="243.84" smashed="yes">
 <attribute name="NAME" x="140.97" y="245.3386" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="20.32" y="248.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="20.32" y="248.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="19.05" y="250.19" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="73.66" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="73.66" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="72.39" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="73.66" y="246.38" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP-OUT" gate="G$1" x="73.66" y="246.38" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="72.39" y="247.65" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="81.28" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ILIM-OUT" gate="G$1" x="81.28" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="80.01" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="193.04" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="193.04" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="191.77" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="228.6" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="228.6" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="227.33" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="246.38" y="243.84" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="246.38" y="243.84" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="245.11" y="245.11" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="360.68" y="200.66" smashed="yes" rot="MR0">
@@ -22384,18 +22410,14 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="NAME" x="327.5076" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="325.0946" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="375.92" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="375.92" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="374.65" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="361.95" y="224.79" size="1.778" layer="95"/>
-</instance>
-<instance part="U24" gate="G$1" x="281.94" y="86.36" smashed="yes">
-<attribute name="NAME" x="287.02" y="78.74" size="1.778" layer="95"/>
-<attribute name="VALUE" x="287.02" y="76.2" size="1.778" layer="96"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="83.82" smashed="yes">
 <attribute name="NAME" x="160.02" y="99.06" size="1.778" layer="95"/>
@@ -22459,7 +22481,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="NAME" x="136.144" y="84.201" size="1.778" layer="95"/>
 <attribute name="VALUE" x="136.144" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="205.74" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="204.47" y="77.47" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="83.82" smashed="yes">
@@ -22476,8 +22498,8 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="GND143" gate="1" x="147.32" y="55.88" smashed="yes">
 <attribute name="VALUE" x="144.78" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="GND144" gate="1" x="281.94" y="68.58" smashed="yes">
-<attribute name="VALUE" x="279.4" y="66.04" size="1.778" layer="96"/>
+<instance part="GND144" gate="1" x="279.4" y="68.58" smashed="yes">
+<attribute name="VALUE" x="276.86" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="R69" gate="G$1" x="261.62" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="260.1214" y="82.55" size="1.778" layer="95" rot="R90"/>
@@ -22490,12 +22512,12 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="GND145" gate="1" x="248.92" y="68.58" smashed="yes">
 <attribute name="VALUE" x="246.38" y="66.04" size="1.778" layer="96"/>
 </instance>
-<instance part="C92" gate="G$1" x="304.8" y="81.28" smashed="yes">
-<attribute name="NAME" x="306.324" y="81.661" size="1.778" layer="95"/>
-<attribute name="VALUE" x="306.324" y="76.581" size="1.778" layer="96"/>
+<instance part="C92" gate="G$1" x="299.72" y="81.28" smashed="yes">
+<attribute name="NAME" x="301.244" y="81.661" size="1.778" layer="95"/>
+<attribute name="VALUE" x="301.244" y="76.581" size="1.778" layer="96"/>
 </instance>
-<instance part="GND146" gate="1" x="304.8" y="68.58" smashed="yes">
-<attribute name="VALUE" x="302.26" y="66.04" size="1.778" layer="96"/>
+<instance part="GND146" gate="1" x="299.72" y="68.58" smashed="yes">
+<attribute name="VALUE" x="297.18" y="66.04" size="1.778" layer="96"/>
 </instance>
 <instance part="UHF_5V1" gate="G$1" x="223.52" y="99.06" smashed="yes">
 <attribute name="VALUE" x="223.52" y="99.314" size="1.778" layer="96" align="bottom-center"/>
@@ -22503,8 +22525,8 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="UHF_5V3" gate="G$1" x="243.84" y="93.98" smashed="yes">
 <attribute name="VALUE" x="243.84" y="94.234" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="UHF_3.3V1" gate="G$1" x="312.42" y="93.98" smashed="yes">
-<attribute name="VALUE" x="312.42" y="94.234" size="1.778" layer="96" align="bottom-center"/>
+<instance part="UHF_3.3V1" gate="G$1" x="304.8" y="93.98" smashed="yes">
+<attribute name="VALUE" x="304.8" y="94.234" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="ILIM-OUT-U" gate="G$1" x="86.36" y="71.12" smashed="yes">
 <attribute name="NAME" x="85.09" y="72.39" size="1.778" layer="95"/>
@@ -22519,8 +22541,8 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="NAME" x="151.13" y="85.09" size="1.778" layer="95"/>
 </instance>
 <instance part="U6" gate="G$1" x="48.26" y="147.32" smashed="yes">
-<attribute name="NAME" x="48.26" y="139.7" size="1.778" layer="95"/>
-<attribute name="VALUE" x="48.26" y="137.16" size="1.778" layer="96"/>
+<attribute name="NAME" x="38.1" y="160.02" size="1.778" layer="95"/>
+<attribute name="VALUE" x="38.1" y="157.48" size="1.778" layer="96"/>
 </instance>
 <instance part="C20" gate="G$1" x="25.4" y="144.78" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.876" y="144.399" size="1.778" layer="95" rot="R180"/>
@@ -22558,8 +22580,8 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="71.12" y="127" size="1.778" layer="96"/>
 </instance>
 <instance part="U23" gate="G$1" x="358.14" y="78.74" smashed="yes">
-<attribute name="NAME" x="358.14" y="71.12" size="1.778" layer="95"/>
-<attribute name="VALUE" x="358.14" y="68.58" size="1.778" layer="96"/>
+<attribute name="NAME" x="347.98" y="91.44" size="1.778" layer="95"/>
+<attribute name="VALUE" x="347.98" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="C93" gate="G$1" x="335.28" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="333.756" y="75.819" size="1.778" layer="95" rot="R180"/>
@@ -22595,6 +22617,10 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 </instance>
 <instance part="2.5V-U1" gate="G$1" x="401.32" y="101.6" smashed="yes">
 <attribute name="VALUE" x="398.78" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="U28" gate="G$1" x="281.94" y="86.36" smashed="yes">
+<attribute name="NAME" x="271.78" y="99.06" size="1.778" layer="95"/>
+<attribute name="VALUE" x="271.78" y="96.52" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22747,11 +22773,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <wire x1="147.32" y1="63.5" x2="147.32" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U24" gate="G$1" pin="GND"/>
-<pinref part="GND144" gate="1" pin="GND"/>
-<wire x1="281.94" y1="78.74" x2="281.94" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="C91" gate="G$1" pin="2"/>
 <pinref part="GND145" gate="1" pin="GND"/>
 <wire x1="248.92" y1="81.28" x2="248.92" y2="71.12" width="0.1524" layer="91"/>
@@ -22759,7 +22780,12 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <segment>
 <pinref part="C92" gate="G$1" pin="2"/>
 <pinref part="GND146" gate="1" pin="GND"/>
-<wire x1="304.8" y1="76.2" x2="304.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="76.2" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND144" gate="1" pin="GND"/>
+<pinref part="U28" gate="G$1" pin="GND"/>
+<wire x1="279.4" y1="71.12" x2="279.4" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -23124,16 +23150,16 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <wire x1="223.52" y1="96.52" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U24" gate="G$1" pin="VIN"/>
-<wire x1="269.24" y1="91.44" x2="261.62" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R69" gate="G$1" pin="2"/>
 <wire x1="261.62" y1="91.44" x2="248.92" y2="91.44" width="0.1524" layer="91"/>
-<junction x="261.62" y="91.44"/>
 <pinref part="C91" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="91.44" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="91.44" x2="248.92" y2="88.9" width="0.1524" layer="91"/>
 <junction x="248.92" y="91.44"/>
 <pinref part="UHF_5V3" gate="G$1" pin="5V-U"/>
+<pinref part="U28" gate="G$1" pin="VIN"/>
+<wire x1="261.62" y1="91.44" x2="269.24" y2="91.44" width="0.1524" layer="91"/>
+<junction x="261.62" y="91.44"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -23158,27 +23184,18 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <junction x="152.4" y="81.28"/>
 </segment>
 </net>
-<net name="N$45" class="0">
-<segment>
-<pinref part="R69" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="81.28" x2="266.7" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="81.28" x2="266.7" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U24" gate="G$1" pin="EN"/>
-<wire x1="266.7" y1="83.82" x2="269.24" y2="83.82" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="3.3V-U" class="0">
 <segment>
 <pinref part="UHF_3.3V1" gate="G$1" pin="3.3V-U"/>
-<pinref part="U24" gate="G$1" pin="VOUT"/>
-<wire x1="312.42" y1="91.44" x2="304.8" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="U24" gate="G$1" pin="ADJ"/>
+<wire x1="304.8" y1="91.44" x2="299.72" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C92" gate="G$1" pin="1"/>
-<wire x1="304.8" y1="91.44" x2="294.64" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="83.82" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="91.44" x2="304.8" y2="83.82" width="0.1524" layer="91"/>
-<junction x="304.8" y="91.44"/>
-<junction x="304.8" y="83.82"/>
+<wire x1="299.72" y1="91.44" x2="299.72" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U28" gate="G$1" pin="BYPASS"/>
+<wire x1="299.72" y1="83.82" x2="294.64" y2="83.82" width="0.1524" layer="91"/>
+<junction x="299.72" y="83.82"/>
+<pinref part="U28" gate="G$1" pin="VOUT"/>
+<wire x1="299.72" y1="91.44" x2="294.64" y2="91.44" width="0.1524" layer="91"/>
+<junction x="299.72" y="91.44"/>
 </segment>
 <segment>
 <wire x1="340.36" y1="99.06" x2="340.36" y2="96.52" width="0.1524" layer="91"/>
@@ -23297,6 +23314,15 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <wire x1="370.84" y1="76.2" x2="375.92" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="C95" gate="G$1" pin="1"/>
 <wire x1="375.92" y1="76.2" x2="375.92" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="U28" gate="G$1" pin="EN"/>
+<wire x1="269.24" y1="83.82" x2="266.7" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="83.82" x2="266.7" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R69" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="81.28" x2="261.62" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -26149,8 +26175,8 @@ Transceiver</text>
 <text x="297.18" y="182.88" size="1.778" layer="97" rot="MR0">Signal is analog voltage 0-1.2V</text>
 <wire x1="302.26" y1="200.66" x2="302.26" y2="180.34" width="0.1524" layer="97"/>
 <text x="365.76" y="50.8" size="1.778" layer="97">0603</text>
-<text x="10.16" y="2.54" size="2.54" layer="97">All resistors 0603
-All caps are 0603 X5R</text>
+<text x="10.16" y="2.54" size="2.54" layer="97">All resistors 0603 1%
+All caps are 0603 and 10V DC or greater</text>
 <wire x1="33.02" y1="271.78" x2="106.68" y2="271.78" width="0.1524" layer="97"/>
 <wire x1="106.68" y1="271.78" x2="106.68" y2="177.8" width="0.1524" layer="97"/>
 <wire x1="106.68" y1="177.8" x2="33.02" y2="177.8" width="0.1524" layer="97"/>
@@ -26491,44 +26517,44 @@ All caps are 0603 X5R</text>
 <instance part="D11" gate="G$1" x="375.92" y="129.54" smashed="yes">
 <attribute name="NAME" x="373.38" y="139.7" size="1.778" layer="95"/>
 </instance>
-<instance part="GND5" gate="1" x="373.38" y="111.76" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="373.38" y="109.22" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND5" gate="1" x="375.92" y="111.76" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="375.92" y="109.22" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R23" gate="G$1" x="396.24" y="154.94" smashed="yes">
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="392.43" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="WDT" gate="G$1" x="360.68" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="WDT" gate="G$1" x="360.68" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="359.41" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="273.05" y="57.15" size="1.778" layer="95"/>
 </instance>
-<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="420.37" y="62.23" size="1.778" layer="95"/>
 </instance>
-<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="123.19" size="1.778" layer="95"/>
 </instance>
 <instance part="BOOT0" gate="G$1" x="129.54" y="137.16" smashed="yes" grouprefs="TP">
 <attribute name="NAME" x="128.27" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="143.51" size="1.778" layer="95"/>
 </instance>
-<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="77.47" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="69.85" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="62.23" size="1.778" layer="95"/>
 </instance>
 <instance part="VBUS2" gate="1" x="73.66" y="223.52" smashed="yes">
@@ -26750,7 +26776,7 @@ All caps are 0603 X5R</text>
 <segment>
 <pinref part="U8" gate="G$1" pin="GND"/>
 <pinref part="GND49" gate="1" pin="GND"/>
-<wire x1="386.08" y1="203.2" x2="386.08" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="205.74" x2="386.08" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -26781,11 +26807,8 @@ All caps are 0603 X5R</text>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="D11" gate="G$1" pin="GND1"/>
-<wire x1="373.38" y1="114.3" x2="376.936" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="D11" gate="G$1" pin="GND2"/>
-<wire x1="376.936" y1="114.3" x2="379.476" y2="114.3" width="0.1524" layer="91"/>
-<junction x="376.936" y="114.3"/>
+<pinref part="D11" gate="G$1" pin="GND"/>
+<wire x1="375.92" y1="114.3" x2="375.92" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OSC_IN" class="0">
@@ -26994,7 +27017,7 @@ All caps are 0603 X5R</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="WDT" gate="G$1" pin="TP"/>
 <pinref part="U8" gate="G$1" pin="WDI"/>
-<wire x1="370.84" y1="218.44" x2="360.68" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="218.44" x2="360.68" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="360.68" y1="218.44" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="218.44" x2="358.14" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="358.14" y1="218.44" x2="350.52" y2="218.44" width="0.1524" layer="91"/>
@@ -27382,7 +27405,7 @@ All caps are 0603 X5R</text>
 <net name="!SD" class="0">
 <segment>
 <label x="414.02" y="218.44" size="1.778" layer="95" xref="yes"/>
-<wire x1="401.32" y1="218.44" x2="414.02" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="218.44" x2="414.02" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="!R_OD"/>
 </segment>
 </net>
@@ -27409,13 +27432,12 @@ All caps are 0603 X5R</text>
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
 <pinref part="U8" gate="G$1" pin="VDD"/>
-<wire x1="386.08" y1="228.6" x2="386.08" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="226.06" x2="386.08" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="C18" gate="G$1" pin="1"/>
 <wire x1="386.08" y1="243.84" x2="375.92" y2="243.84" width="0.1524" layer="91"/>
 <junction x="375.92" y="243.84"/>
 <wire x1="375.92" y1="243.84" x2="363.22" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="238.76" x2="386.08" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="381" y1="254" x2="386.08" y2="254" width="0.1524" layer="91"/>
 <wire x1="386.08" y1="254" x2="386.08" y2="243.84" width="0.1524" layer="91"/>
 <junction x="386.08" y="243.84"/>
@@ -27666,7 +27688,7 @@ All caps are 0603 X5R</text>
 <pinref part="D11" gate="G$1" pin="B"/>
 <junction x="391.16" y="144.78"/>
 <wire x1="391.16" y1="144.78" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="132.08" x2="388.62" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="132.08" x2="383.54" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="144.78" x2="391.16" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="147.32" x2="383.54" y2="147.32" width="0.1524" layer="91"/>
 </segment>
@@ -27675,10 +27697,10 @@ All caps are 0603 X5R</text>
 <segment>
 <pinref part="U8" gate="G$1" pin="!MR"/>
 <pinref part="U8" gate="G$1" pin="!WDO"/>
-<wire x1="368.3" y1="220.98" x2="370.84" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="220.98" x2="373.38" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="233.68" x2="368.3" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="368.3" y1="233.68" x2="368.3" y2="220.98" width="0.1524" layer="91"/>
-<wire x1="401.32" y1="220.98" x2="403.86" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="220.98" x2="403.86" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="403.86" y1="220.98" x2="403.86" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="WDO-OUT" gate="G$1" pin="TP"/>
 <junction x="403.86" y="233.68"/>
@@ -27703,7 +27725,7 @@ All caps are 0603 X5R</text>
 <wire x1="375.92" y1="152.4" x2="375.92" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="PB8"/>
 <pinref part="D11" gate="G$1" pin="A"/>
-<wire x1="365.76" y1="132.08" x2="363.22" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="368.3" y1="132.08" x2="363.22" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="132.08" x2="363.22" y2="149.86" width="0.1524" layer="91"/>
 <junction x="363.22" y="149.86"/>
 <pinref part="R23" gate="G$1" pin="1"/>
