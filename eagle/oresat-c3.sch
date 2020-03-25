@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21534,7 +21534,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="L24" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n"/>
 <part name="C106" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="560p"/>
 <part name="Q10" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="PMOS"/>
-<part name="R60" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="47k"/>
 <part name="2.5V-U3" library="oresat-supplies" deviceset="2.5V-U" device=""/>
 <part name="TP3" library="oresat-misc" deviceset="TP" device="1MM-TP" package3d_urn="urn:adsk.eagle:package:27946/1"/>
 <part name="GND-U10" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -21567,7 +21566,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="R21" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="1.5k"/>
 <part name="GND10" library="oresat-supplies" deviceset="GND" device=""/>
-<part name="2.5V-U4" library="oresat-supplies" deviceset="2.5V-U" device=""/>
 <part name="UHF_3.3V5" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="GND-U4" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-L6" library="oresat-supplies" deviceset="GND-L" device=""/>
@@ -22073,7 +22071,7 @@ All caps are 0603 and 10V DC or greater</text>
 <text x="139.7" y="43.18" size="1.778" layer="97">SYNC = HIGH: Low-noise mode enabled, fixed-frequency PWM operation is forced
 SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <text x="172.72" y="96.52" size="1.778" layer="97">5V Fixed</text>
-<text x="152.4" y="111.76" size="3.81" layer="97">UHF Power</text>
+<text x="210.82" y="111.76" size="3.81" layer="97">UHF Power</text>
 <wire x1="421.64" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="97"/>
 <wire x1="421.64" y1="116.84" x2="421.64" y2="40.64" width="0.1524" layer="97"/>
 <wire x1="22.86" y1="40.64" x2="22.86" y2="116.84" width="0.1524" layer="97"/>
@@ -22090,6 +22088,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <text x="43.18" y="198.12" size="1.778" layer="97">DV/DT 
 open = highest slew rate</text>
 <text x="274.32" y="58.42" size="1.778" layer="97"></text>
+<text x="27.94" y="43.18" size="1.778" layer="97">!FLT-U Should be connected the MCU in V3 so that if it faults the MCU can know.</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -22249,25 +22248,25 @@ open = highest slew rate</text>
 <instance part="R22" gate="G$1" x="144.78" y="243.84" smashed="yes">
 <attribute name="NAME" x="140.97" y="245.3386" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="20.32" y="248.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="20.32" y="248.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="19.05" y="250.19" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="73.66" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="73.66" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="72.39" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="73.66" y="246.38" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP-OUT" gate="G$1" x="73.66" y="246.38" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="72.39" y="247.65" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="81.28" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ILIM-OUT" gate="G$1" x="81.28" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="80.01" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="193.04" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="193.04" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="191.77" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="228.6" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="228.6" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="227.33" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="246.38" y="243.84" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="246.38" y="243.84" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="245.11" y="245.11" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="360.68" y="200.66" smashed="yes" rot="MR0">
@@ -22361,13 +22360,13 @@ open = highest slew rate</text>
 <attribute name="NAME" x="327.5076" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="325.0946" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="375.92" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="375.92" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="374.65" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="361.95" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="83.82" smashed="yes">
@@ -22432,7 +22431,7 @@ open = highest slew rate</text>
 <attribute name="NAME" x="136.144" y="84.201" size="1.778" layer="95"/>
 <attribute name="VALUE" x="136.144" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="205.74" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="204.47" y="77.47" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="83.82" smashed="yes">
@@ -23999,7 +23998,7 @@ Diplexer</text>
 <pinref part="C45" gate="CE" pin="1"/>
 </segment>
 </net>
-<net name="ANTN1" class="0">
+<net name="ANTN1" class="1">
 <segment>
 <pinref part="L7" gate="L" pin="2"/>
 <pinref part="C42" gate="CE" pin="2"/>
@@ -24460,7 +24459,7 @@ Diplexer</text>
 <pinref part="U10" gate="G$1" pin="IFLB"/>
 </segment>
 </net>
-<net name="N$33" class="2">
+<net name="N$33" class="1">
 <segment>
 <pinref part="L5" gate="L" pin="1"/>
 <wire x1="378.46" y1="86.36" x2="381" y2="86.36" width="0.1524" layer="91"/>
@@ -24588,7 +24587,7 @@ Diplexer</text>
 <junction x="340.36" y="220.98"/>
 </segment>
 </net>
-<net name="B1" class="2">
+<net name="B1" class="1">
 <segment>
 <pinref part="L20" gate="L" pin="1"/>
 <pinref part="Q7" gate="G$1" pin="B"/>
@@ -24609,7 +24608,7 @@ Diplexer</text>
 <junction x="304.8" y="236.22"/>
 </segment>
 </net>
-<net name="L-BFP-LNA-RF_IN" class="2">
+<net name="L-BFP-LNA-RF_IN" class="1">
 <segment>
 <pinref part="C79" gate="CE" pin="1"/>
 <wire x1="238.76" y1="213.36" x2="271.78" y2="213.36" width="0.1524" layer="91"/>
@@ -24975,6 +24974,9 @@ Transceiver</text>
 CTRL Logic low (default)
 UHF Tx - RF1
 CTRL Logic high</text>
+<text x="-203.2" y="304.8" size="1.778" layer="97">On V3 UHF-PTT will go to !Rx-EN-U. This
+will be a congtrol signal from the MCU to
+ independently turn on this LNA.</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="-403.86" y="48.26" smashed="yes"/>
@@ -25251,10 +25253,6 @@ CTRL Logic high</text>
 <attribute name="NAME" x="-137.16" y="299.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-137.16" y="297.18" size="1.778" layer="96"/>
 </instance>
-<instance part="R60" gate="R" x="-154.94" y="307.34" smashed="yes">
-<attribute name="NAME" x="-158.75" y="308.8386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-158.75" y="304.038" size="1.778" layer="96"/>
-</instance>
 <instance part="2.5V-U3" gate="G$1" x="-139.7" y="307.34" smashed="yes">
 <attribute name="VALUE" x="-142.24" y="307.34" size="1.778" layer="96"/>
 </instance>
@@ -25346,9 +25344,6 @@ CTRL Logic high</text>
 <instance part="GND-U24" gate="G$1" x="-233.68" y="284.48" smashed="yes">
 <attribute name="VALUE" x="-236.22" y="281.94" size="1.778" layer="96"/>
 </instance>
-<instance part="2.5V-U4" gate="G$1" x="-162.56" y="312.42" smashed="yes">
-<attribute name="VALUE" x="-165.1" y="312.42" size="1.778" layer="96"/>
-</instance>
 <instance part="R13" gate="G$1" x="-25.4" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="-26.8986" y="125.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-22.098" y="125.73" size="1.778" layer="96" rot="R90"/>
@@ -25427,7 +25422,7 @@ CTRL Logic high</text>
 <pinref part="C61" gate="CE" pin="1"/>
 </segment>
 </net>
-<net name="ANTN2" class="0">
+<net name="ANTN2" class="1">
 <segment>
 <pinref part="L11" gate="L" pin="2"/>
 <pinref part="C58" gate="CE" pin="2"/>
@@ -25478,7 +25473,7 @@ CTRL Logic high</text>
 <wire x1="-147.32" y1="104.14" x2="-144.78" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$19" class="2">
+<net name="N$19" class="1">
 <segment>
 <pinref part="C64" gate="CE" pin="2"/>
 <pinref part="L10" gate="L" pin="1"/>
@@ -25498,12 +25493,8 @@ CTRL Logic high</text>
 </segment>
 <segment>
 <label x="-208.28" y="302.26" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="R60" gate="R" pin="2"/>
-<wire x1="-149.86" y1="307.34" x2="-149.86" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="Q10" gate="G$1" pin="G"/>
-<wire x1="-144.78" y1="302.26" x2="-149.86" y2="302.26" width="0.1524" layer="91"/>
-<junction x="-149.86" y="302.26"/>
-<wire x1="-208.28" y1="302.26" x2="-149.86" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="-208.28" y1="302.26" x2="-144.78" y2="302.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R55" gate="R" pin="2"/>
@@ -25890,7 +25881,7 @@ CTRL Logic high</text>
 <junction x="-139.7" y="279.4"/>
 </segment>
 </net>
-<net name="C2" class="2">
+<net name="C2" class="1">
 <segment>
 <pinref part="Q9" gate="G$1" pin="C"/>
 <wire x1="-144.78" y1="243.84" x2="-129.54" y2="243.84" width="0.1524" layer="91"/>
@@ -25900,7 +25891,7 @@ CTRL Logic high</text>
 <wire x1="-129.54" y1="243.84" x2="-104.14" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="B2" class="2">
+<net name="B2" class="1">
 <segment>
 <pinref part="L23" gate="L" pin="1"/>
 <pinref part="Q9" gate="G$1" pin="B"/>
@@ -25933,12 +25924,6 @@ CTRL Logic high</text>
 <pinref part="Q10" gate="G$1" pin="S"/>
 <pinref part="2.5V-U3" gate="G$1" pin="2.5V-U"/>
 </segment>
-<segment>
-<pinref part="2.5V-U4" gate="G$1" pin="2.5V-U"/>
-<wire x1="-162.56" y1="309.88" x2="-162.56" y2="307.34" width="0.1524" layer="91"/>
-<pinref part="R60" gate="R" pin="1"/>
-<wire x1="-162.56" y1="307.34" x2="-160.02" y2="307.34" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="N$22" class="1">
 <segment>
@@ -25961,7 +25946,7 @@ CTRL Logic high</text>
 <junction x="-60.96" y="243.84"/>
 </segment>
 </net>
-<net name="U-BFP-LNA-RF_IN" class="2">
+<net name="U-BFP-LNA-RF_IN" class="1">
 <segment>
 <pinref part="L27" gate="L" pin="2"/>
 <pinref part="L28" gate="L" pin="2"/>
@@ -26428,37 +26413,37 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="392.43" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="WDT" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="WDT" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="361.95" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="273.05" y="57.15" size="1.778" layer="95"/>
 </instance>
-<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="420.37" y="62.23" size="1.778" layer="95"/>
 </instance>
-<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="123.19" size="1.778" layer="95"/>
 </instance>
 <instance part="BOOT0" gate="G$1" x="129.54" y="137.16" smashed="yes" grouprefs="TP">
 <attribute name="NAME" x="128.27" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="143.51" size="1.778" layer="95"/>
 </instance>
-<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="77.47" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="69.85" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="62.23" size="1.778" layer="95"/>
 </instance>
 <instance part="VBUS2" gate="1" x="73.66" y="223.52" smashed="yes">
