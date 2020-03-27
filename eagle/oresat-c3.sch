@@ -19991,32 +19991,22 @@ Source: &lt;a href="https://www.infineon.com/cms/en/product/rf-wireless-control/
 <library name="U-RF360-B8666-GPS-diplexer">
 <packages>
 <package name="1.7X1.3">
-<smd name="1" x="-0.675" y="-0.4625" dx="0.25" dy="0.275" layer="1" cream="no"/>
-<smd name="2" x="-0.225" y="-0.4625" dx="0.25" dy="0.275" layer="1" cream="no"/>
-<smd name="3" x="0.225" y="-0.4625" dx="0.25" dy="0.275" layer="1" cream="no"/>
-<smd name="4" x="0.675" y="-0.4625" dx="0.25" dy="0.275" layer="1" cream="no"/>
-<rectangle x1="-0.78" y1="-0.58" x2="-0.58" y2="-0.36" layer="31"/>
-<rectangle x1="-0.33" y1="-0.58" x2="-0.13" y2="-0.36" layer="31"/>
-<rectangle x1="0.12" y1="-0.58" x2="0.32" y2="-0.36" layer="31"/>
-<rectangle x1="0.57" y1="-0.58" x2="0.77" y2="-0.36" layer="31"/>
-<smd name="6" x="0.675" y="0.4625" dx="0.25" dy="0.275" layer="1" rot="R180" cream="no"/>
-<smd name="7" x="0.225" y="0.4625" dx="0.25" dy="0.275" layer="1" rot="R180" cream="no"/>
-<smd name="8" x="-0.225" y="0.4625" dx="0.25" dy="0.275" layer="1" rot="R180" cream="no"/>
-<smd name="9" x="-0.675" y="0.4625" dx="0.25" dy="0.275" layer="1" rot="R180" cream="no"/>
-<rectangle x1="0.58" y1="0.36" x2="0.78" y2="0.58" layer="31" rot="R180"/>
-<rectangle x1="0.13" y1="0.36" x2="0.33" y2="0.58" layer="31" rot="R180"/>
-<rectangle x1="-0.32" y1="0.36" x2="-0.12" y2="0.58" layer="31" rot="R180"/>
-<rectangle x1="-0.77" y1="0.36" x2="-0.57" y2="0.58" layer="31" rot="R180"/>
-<smd name="10" x="-0.5" y="0" dx="0.6" dy="0.25" layer="1" cream="no"/>
-<smd name="5" x="0.55" y="0" dx="0.5" dy="0.25" layer="1" rot="R180" cream="no"/>
-<rectangle x1="-0.75" y1="-0.1" x2="-0.25" y2="0.1" layer="31"/>
-<rectangle x1="0.35" y1="-0.1" x2="0.75" y2="0.1" layer="31"/>
+<smd name="1" x="-0.675" y="-0.4625" dx="0.25" dy="0.275" layer="1"/>
+<smd name="2" x="-0.225" y="-0.4625" dx="0.25" dy="0.275" layer="1"/>
+<smd name="3" x="0.225" y="-0.4625" dx="0.25" dy="0.275" layer="1"/>
+<smd name="4" x="0.675" y="-0.4625" dx="0.25" dy="0.275" layer="1"/>
+<smd name="6" x="0.675" y="0.4625" dx="0.25" dy="0.275" layer="1" rot="R180"/>
+<smd name="7" x="0.225" y="0.4625" dx="0.25" dy="0.275" layer="1" rot="R180"/>
+<smd name="8" x="-0.225" y="0.4625" dx="0.25" dy="0.275" layer="1" rot="R180"/>
+<smd name="9" x="-0.675" y="0.4625" dx="0.25" dy="0.275" layer="1" rot="R180"/>
+<smd name="10" x="-0.5" y="0" dx="0.6" dy="0.25" layer="1"/>
+<smd name="5" x="0.55" y="0" dx="0.5" dy="0.25" layer="1" rot="R180"/>
 <wire x1="-0.9" y1="0.7" x2="-0.9" y2="-0.7" width="0.1016" layer="21"/>
 <wire x1="-0.9" y1="-0.7" x2="0.9" y2="-0.7" width="0.1016" layer="21"/>
 <wire x1="0.9" y1="-0.7" x2="0.9" y2="0.7" width="0.1016" layer="21"/>
 <wire x1="0.9" y1="0.7" x2="-0.9" y2="0.7" width="0.1016" layer="21"/>
 <circle x="-1.2" y="-0.5" radius="0.14141875" width="0.1016" layer="21"/>
-<text x="1.8" y="-1.5" size="0.6096" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
+<text x="2.54" y="-1.27" size="0.6096" layer="25" font="vector" ratio="15" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -22318,25 +22308,25 @@ open = highest slew rate</text>
 <instance part="R22" gate="G$1" x="144.78" y="243.84" smashed="yes">
 <attribute name="NAME" x="140.97" y="245.3386" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="20.32" y="248.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="20.32" y="248.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="19.05" y="250.19" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="73.66" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="73.66" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="72.39" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="73.66" y="246.38" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP-OUT" gate="G$1" x="73.66" y="246.38" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="72.39" y="247.65" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="81.28" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ILIM-OUT" gate="G$1" x="81.28" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="80.01" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="193.04" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="193.04" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="191.77" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="228.6" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="228.6" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="227.33" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="246.38" y="243.84" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="246.38" y="243.84" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="245.11" y="245.11" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="360.68" y="200.66" smashed="yes" rot="MR0">
@@ -22430,13 +22420,13 @@ open = highest slew rate</text>
 <attribute name="NAME" x="327.5076" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="325.0946" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="375.92" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="375.92" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="374.65" y="234.95" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="361.95" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="83.82" smashed="yes">
@@ -22501,7 +22491,7 @@ open = highest slew rate</text>
 <attribute name="NAME" x="136.144" y="84.201" size="1.778" layer="95"/>
 <attribute name="VALUE" x="136.144" y="79.121" size="1.778" layer="96"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="205.74" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="204.47" y="77.47" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="83.82" smashed="yes">
@@ -26529,37 +26519,37 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="392.43" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="WDT" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="WDT" gate="G$1" x="363.22" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="361.95" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="273.05" y="57.15" size="1.778" layer="95"/>
 </instance>
-<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="420.37" y="62.23" size="1.778" layer="95"/>
 </instance>
-<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="123.19" size="1.778" layer="95"/>
 </instance>
 <instance part="BOOT0" gate="G$1" x="129.54" y="137.16" smashed="yes" grouprefs="TP">
 <attribute name="NAME" x="128.27" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="143.51" size="1.778" layer="95"/>
 </instance>
-<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="77.47" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="69.85" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="62.23" size="1.778" layer="95"/>
 </instance>
 <instance part="VBUS2" gate="1" x="73.66" y="223.52" smashed="yes">
