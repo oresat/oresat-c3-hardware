@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12730,12 +12730,30 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 <text x="-1.27" y="-2.54" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <pad name="TP" x="0" y="0" drill="0.75"/>
 </package>
+<package name="TESTPOINT_SMD-10SN" urn="urn:adsk.eagle:footprint:15662223/1">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.0 mm, Square</description>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="-0.635" width="0.0508" layer="51"/>
+<wire x1="-0.635" y1="-0.635" x2="0.635" y2="-0.635" width="0.0508" layer="51"/>
+<wire x1="0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.0508" layer="51"/>
+<wire x1="0.635" y1="0.635" x2="-0.635" y2="0.635" width="0.0508" layer="51"/>
+<smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="P1-13" urn="urn:adsk.eagle:package:27946/1" type="box">
 <description>TEST PAD</description>
 <packageinstances>
 <packageinstance name="TP"/>
+</packageinstances>
+</package3d>
+<package3d name="TESTPOINT_SMD-10SN" urn="urn:adsk.eagle:package:15662280/2" type="empty">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+1.0 mm, Square</description>
+<packageinstances>
+<packageinstance name="TESTPOINT_SMD-10SN"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -12764,6 +12782,17 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
 <text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TESTPOINT_TPS">
+<rectangle x1="-0.635" y1="-0.635" x2="0.635" y2="0.635" layer="94"/>
+<wire x1="-0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="0.635" y2="0.635" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0.635" x2="0.635" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-0.635" x2="0" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.635" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<pin name="TP" x="0" y="-2.54" visible="off" length="point" direction="pas" rot="R90"/>
+<text x="-1.905" y="1.5875" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -12814,6 +12843,28 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 <technology name="">
 <attribute name="POPULARITY" value="12" constant="no"/>
 <attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT_SMD" prefix="TP">
+<description>&lt;b&gt;TEST POINT PAD&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TESTPOINT_TPS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-10SN" package="TESTPOINT_SMD-10SN">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15662280/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -21588,6 +21639,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="R37" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
 <part name="R41" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
 <part name="R42" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
+<part name="L1" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="0"/>
+<part name="L3" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="0"/>
+<part name="L25" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="0"/>
+<part name="TP2" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
+<part name="TP4" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -25361,6 +25417,24 @@ will be a congtrol signal from the MCU to
 <attribute name="NAME" x="-26.8986" y="125.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-22.098" y="125.73" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="L1" gate="L" x="-299.72" y="259.08" smashed="yes">
+<attribute name="NAME" x="-300.99" y="255.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-300.99" y="261.112" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="L3" gate="L" x="-299.72" y="269.24" smashed="yes">
+<attribute name="NAME" x="-300.99" y="265.43" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-300.99" y="271.272" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="L25" gate="L" x="-363.22" y="264.16" smashed="yes">
+<attribute name="NAME" x="-364.49" y="260.35" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-364.49" y="266.192" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="TP2" gate="G$1" x="-327.66" y="243.84" smashed="yes">
+<attribute name="NAME" x="-329.565" y="245.4275" size="1.778" layer="95"/>
+</instance>
+<instance part="TP4" gate="G$1" x="-322.58" y="243.84" smashed="yes">
+<attribute name="NAME" x="-324.485" y="245.4275" size="1.778" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25557,6 +25631,14 @@ will be a congtrol signal from the MCU to
 <pinref part="U25" gate="U" pin="GND"/>
 <wire x1="-335.28" y1="246.38" x2="-335.28" y2="250.19" width="0.1524" layer="91"/>
 <pinref part="GND-U11" gate="G$1" pin="GND-U"/>
+<wire x1="-335.28" y1="246.38" x2="-330.2" y2="246.38" width="0.1524" layer="91"/>
+<junction x="-335.28" y="246.38"/>
+<wire x1="-330.2" y1="246.38" x2="-330.2" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<wire x1="-327.66" y1="241.3" x2="-322.58" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="TP4" gate="G$1" pin="TP"/>
+<wire x1="-330.2" y1="241.3" x2="-327.66" y2="241.3" width="0.1524" layer="91"/>
+<junction x="-327.66" y="241.3"/>
 </segment>
 <segment>
 <pinref part="R54" gate="R" pin="1"/>
@@ -25853,8 +25935,6 @@ will be a congtrol signal from the MCU to
 </net>
 <net name="UHF-RX" class="1">
 <segment>
-<pinref part="U25" gate="U" pin="RF2"/>
-<wire x1="-316.23" y1="269.24" x2="-287.02" y2="269.24" width="0.1524" layer="91"/>
 <wire x1="-287.02" y1="269.24" x2="-287.02" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="C101" gate="CE" pin="1"/>
 <pinref part="L26" gate="L" pin="2"/>
@@ -25866,13 +25946,15 @@ will be a congtrol signal from the MCU to
 <junction x="-269.24" y="302.26"/>
 <wire x1="-287.02" y1="302.26" x2="-274.32" y2="302.26" width="0.1524" layer="91"/>
 <junction x="-274.32" y="302.26"/>
+<wire x1="-294.64" y1="269.24" x2="-287.02" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="L3" gate="L" pin="2"/>
 </segment>
 </net>
 <net name="UHF-BAND-ANT" class="1">
 <segment>
-<pinref part="U25" gate="U" pin="RF_COM"/>
-<wire x1="-354.33" y1="264.16" x2="-375.92" y2="264.16" width="0.1524" layer="91"/>
 <label x="-375.92" y="264.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-370.84" y1="264.16" x2="-375.92" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="L25" gate="L" pin="1"/>
 </segment>
 </net>
 <net name="CAPS2" class="0">
@@ -26006,8 +26088,8 @@ will be a congtrol signal from the MCU to
 <pinref part="C65" gate="CE" pin="1"/>
 <wire x1="-182.88" y1="96.52" x2="-259.08" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-259.08" y1="96.52" x2="-259.08" y2="259.08" width="0.1524" layer="91"/>
-<pinref part="U25" gate="U" pin="RF1"/>
-<wire x1="-259.08" y1="259.08" x2="-316.23" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="-259.08" y1="259.08" x2="-294.64" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="L1" gate="L" pin="2"/>
 </segment>
 </net>
 <net name="1.8V-U" class="0">
@@ -26048,6 +26130,27 @@ will be a congtrol signal from the MCU to
 <wire x1="-25.4" y1="124.46" x2="-20.32" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U14" gate="G$1" pin="EN"/>
 <wire x1="-20.32" y1="124.46" x2="-20.32" y2="127" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$50" class="1">
+<segment>
+<pinref part="U25" gate="U" pin="RF1"/>
+<wire x1="-307.34" y1="259.08" x2="-316.23" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="L1" gate="L" pin="1"/>
+</segment>
+</net>
+<net name="N$51" class="1">
+<segment>
+<pinref part="U25" gate="U" pin="RF2"/>
+<wire x1="-316.23" y1="269.24" x2="-307.34" y2="269.24" width="0.1524" layer="91"/>
+<pinref part="L3" gate="L" pin="1"/>
+</segment>
+</net>
+<net name="N$52" class="1">
+<segment>
+<pinref part="U25" gate="U" pin="RF_COM"/>
+<wire x1="-354.33" y1="264.16" x2="-358.14" y2="264.16" width="0.1524" layer="91"/>
+<pinref part="L25" gate="L" pin="2"/>
 </segment>
 </net>
 </nets>
