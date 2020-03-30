@@ -12739,6 +12739,17 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 <text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
 <text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
 </package>
+<package name="TESTPOINT_SMD-0.5MM">
+<description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
+0.5 mm, Square</description>
+<smd name="TP" x="0" y="0" dx="0.5" dy="0.5" layer="1" cream="no"/>
+<text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
+<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
+<wire x1="-0.381" y1="-0.381" x2="-0.381" y2="0.381" width="0.0508" layer="51"/>
+<wire x1="-0.381" y1="0.381" x2="0.381" y2="0.381" width="0.0508" layer="51"/>
+<wire x1="0.381" y1="0.381" x2="0.381" y2="-0.381" width="0.0508" layer="51"/>
+<wire x1="0.381" y1="-0.381" x2="-0.381" y2="-0.381" width="0.0508" layer="51"/>
+</package>
 <package name="TESTPOINT_SMD-CIRCLE-1MM">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;&lt;p&gt;
 1.0 mm, Circle</description>
@@ -12880,6 +12891,33 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 <attribute name="BOM" value="EXCLUDE" constant="no"/>
 <attribute name="LABEL" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST-POINT-SMD-0.5MM" prefix="TP">
+<description>&lt;b&gt;TEST PAD 0.5mm &lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="TESTPOINT_TPS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-SMD-10SN" package="TESTPOINT_SMD-0.5MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+<attribute name="LABEL" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="TESTPOINT_SMD-0.5MM">
+<connects>
+<connect gate="G$1" pin="TP" pad="TP"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -21687,7 +21725,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="TP14" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="TP17" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="TP18" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
-<part name="TP19" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
+<part name="TP19" library="oresat-misc" deviceset="TEST-POINT-SMD-0.5MM" device=""/>
 <part name="TP20" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 </parts>
 <sheets>
