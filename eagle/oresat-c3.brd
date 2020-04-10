@@ -47,7 +47,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -5286,8 +5286,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.8" y="38.5" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="14.781" y="38.95" size="0.635" layer="33" ratio="20" rot="R270"/>
+<attribute name="NAME" x="10.8" y="38.5" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1u" x="14.027" y="38.95" size="0.5" layer="27" ratio="20" rot="R270"/>
@@ -5303,8 +5303,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="31.4" y="43.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="28.3" y="45.831" size="0.635" layer="33" ratio="20"/>
+<attribute name="NAME" x="31.4" y="43.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1u" x="28.3" y="45.077" size="0.5" layer="27" ratio="20"/>
@@ -5320,8 +5320,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="33.1" y="42" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="30" y="43.931" size="0.635" layer="33" ratio="20"/>
+<attribute name="NAME" x="33.1" y="42" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="20p" x="30" y="43.177" size="0.5" layer="27" ratio="20"/>
@@ -5337,8 +5337,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="32.940003125" y="36.919996875" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="29.9" y="39.031" size="0.635" layer="33" ratio="20"/>
+<attribute name="NAME" x="32.940003125" y="36.919996875" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="20p" x="29.9" y="38.277" size="0.5" layer="27" ratio="20"/>
@@ -5354,8 +5354,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="39.6" y="53.2" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="39.45" y="50.919" size="0.635" layer="33" ratio="20" rot="R180"/>
+<attribute name="NAME" x="39.6" y="53.2" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="0.1u" x="39.45" y="51.673" size="0.5" layer="27" ratio="20" rot="R180"/>
@@ -5371,8 +5371,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="22.5" y="50.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="24.7" y="48.169" size="0.635" layer="33" ratio="20" rot="R180"/>
+<attribute name="NAME" x="22.5" y="50.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1u" x="24.7" y="48.923" size="0.5" layer="27" ratio="20" rot="R180"/>
@@ -5404,8 +5404,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="22.4344" y="31.6234" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="22.5" y="34.531" size="0.2" layer="33" ratio="15"/>
+<attribute name="NAME" x="22.4344" y="31.6234" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="10k" x="22.5" y="33.477" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5431,8 +5431,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="21.8" y="76.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="21.8" y="76.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="21.8" y="76.8" size="2" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="21.8" y="76.8" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="21.416" y="77.617" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="21.8" y="76.8" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="21.8" y="76.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="21.8" y="76.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="22.9" y="76.123" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -5448,8 +5448,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="6.3" y="81.7" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="6.3" y="81.7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="5.731" y="82.926" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="6.3" y="81.7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="5.623" y="80.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5470,8 +5470,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="12.2" y="83.1" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="12.2" y="83.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="12.2" y="79.7" size="0.635" layer="27" font="vector" ratio="20" display="off"/>
-<attribute name="NAME" x="12.2" y="83.1" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="11.7" y="83.9" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="12.2" y="83.1" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="12.2" y="83.1" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="12.2" y="83.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="11.1" y="83.777" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5508,8 +5508,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35.2" y="84.7" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="36.5" y="84.331" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="35.2" y="84.7" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="10k" x="36.3" y="83.823" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -5525,8 +5525,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-2372ELF" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-2372ELF" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.7" y="84.7" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="24.9" y="85.231" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="26.7" y="84.7" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="25.6" y="85.377" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5560,8 +5560,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="19.8" y="77.7" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="20.3" y="79.1" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="19.8" y="77.7" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1u" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5592,8 +5592,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="17.9" y="77.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="17.5" y="78.6" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="17.9" y="77.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10k" x="18.577" y="78.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -5609,8 +5609,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16" y="80" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="17.077" y="79.8" size="0.2" layer="33" ratio="15" rot="R270"/>
+<attribute name="NAME" x="16" y="80" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="0" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5632,8 +5632,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.2" y="81.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="35.2" y="84.031" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="38.2" y="81.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="1u" x="35.2" y="82.977" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5673,8 +5673,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" x="29.9" y="77.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" x="29.9" y="77.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="36.3" y="62.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="28.8" y="79.131" size="0.2" layer="33" ratio="15"/>
 <attribute name="NAME" x="28.6" y="77.569" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="28.8" y="79.131" size="0.2" layer="33" ratio="15"/>
 <attribute name="RS_PART_NUMBER" value="" x="29.9" y="77.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="29.9" y="77.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="28.8" y="78.077" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5692,8 +5692,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="38.6" y="71.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="38.6" y="71.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="33.3" y="65.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="39.2436" y="71.1012" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="38.05" y="73.681" size="0.2" layer="33" ratio="15"/>
+<attribute name="NAME" x="39.2436" y="71.1012" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="38.6" y="71.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="38.6" y="71.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="10k" x="38.05" y="72.627" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5709,8 +5709,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="35.3" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="35.3" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="35.3" y="63.9" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="35.3" y="60" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="35.2" y="60.8" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="35.3" y="60" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="35.3" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="35.3" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="0.1u" x="36.8" y="59.123" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -5732,8 +5732,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-3162ELF" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-3162ELF" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="NAME" x="39.2" y="72.9" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="NAME" x="35.61710625" y="72.746178125" size="0.2" layer="33" ratio="15" rot="R90"/>
+<attribute name="NAME" x="39.2" y="72.9" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="RS_PART_NUMBER" value="" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="VALUE" value="31.6k" x="36.67110625" y="72.746178125" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5749,8 +5749,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CHP0603FX3011ELF" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="26.0052" y="71.1924" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="25.85" y="72.281" size="0.2" layer="33" ratio="15"/>
+<attribute name="NAME" x="26.0052" y="71.1924" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="3.1k" x="25.85" y="71.227" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5794,8 +5794,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="36.52" y="83.22" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="36.427" y="83.95" size="0.2" layer="33" ratio="15" rot="R270"/>
+<attribute name="NAME" x="36.52" y="83.22" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5811,8 +5811,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="26.8" y="80.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="24.169" y="78.8" size="0.3" layer="33" ratio="15" rot="R90"/>
+<attribute name="NAME" x="26.8" y="80.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1u" x="25.223" y="78.8" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5828,8 +5828,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="16.3" y="50.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="15.4" y="52.1" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="16.3" y="50.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="0.1u" x="15.423" y="49.1" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5845,8 +5845,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="29.76" y="35.81" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="28.74" y="36.641" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="29.76" y="35.81" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1u" x="31.387" y="36.56" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -5862,8 +5862,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="25.9" y="33.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="26.8" y="32.1" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="25.9" y="33.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="0.1u" x="25.15" y="35.127" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5881,8 +5881,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="RC1005F6653CS" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="25.7" y="82.131" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="27.8" y="81.669" size="0.2" layer="33" ratio="15" rot="R180"/>
+<attribute name="NAME" x="25.7" y="82.131" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="7408805P" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="10k" x="27.8" y="82.723" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -5925,8 +5925,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="37.3724" y="75.5172" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="36.5206" y="76.692" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="37.3724" y="75.5172" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="1u" x="36.5206" y="75.638" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5942,8 +5942,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="18.1" y="50.6" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
-<attribute name="NAME" x="17.2" y="52.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="17.35" y="53.281" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="17.2" y="52.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="RS_PART_NUMBER" value="" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="2.2u" x="17.35" y="52.227" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5959,8 +5959,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="4.68" y="20.47" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="4.7" y="21.431" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="4.68" y="20.47" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="2.2u" x="4.7" y="20.377" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5976,8 +5976,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="4.8" y="16.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="4.68" y="22.04" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="4.7" y="22.931" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="4.68" y="22.04" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="RS_PART_NUMBER" value="" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="0.1u" x="4.7" y="21.877" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5993,8 +5993,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="23.23" y="16.34" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="20.95" y="19.981" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="23.23" y="16.34" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="RS_PART_NUMBER" value="" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="1u" x="20.95" y="18.927" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -6010,8 +6010,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="11.3" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="11.05" y="10.981" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="11.3" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1u" x="11.05" y="9.927" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -6027,8 +6027,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="12.9" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="12.65" y="9.927" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="12.9" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1u" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6044,8 +6044,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="14.5" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="14.25" y="10.981" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="14.5" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="10u" x="14.25" y="9.927" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -6417,14 +6417,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="BOM" value="EXCLUDE" x="43.9994" y="18.38583125" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="43.1612" y="19.35103125" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="TP10" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="33.9" y="25.3" smashed="yes">
-<attribute name="NAME" x="35.1" y="26.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<element name="TP10" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="33.8" y="25.3" smashed="yes">
+<attribute name="NAME" x="35" y="26.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="TP15" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="33.9" y="23.5" smashed="yes">
-<attribute name="NAME" x="33" y="23.7" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<element name="TP15" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="33.8" y="23.5" smashed="yes">
+<attribute name="NAME" x="32.9" y="23.7" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="TP16" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="33.9" y="21.7" smashed="yes">
-<attribute name="NAME" x="34.9382" y="20.7348" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<element name="TP16" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="33.8" y="21.7" smashed="yes">
+<attribute name="NAME" x="34.8382" y="20.7348" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="U16" library="U-MiniCirc-Mac-24+-mixer" package="MAC-24+" value="MAC-24+" x="41.796" y="36.5832" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.9098" y="31.9864" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -6952,8 +6952,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05B104KO5NNNC" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="92.3" y="30.4" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="91.5" y="29.2" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="92.3" y="30.4" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="RS_PART_NUMBER" value="" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="1u" x="89.9" y="30.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -7125,8 +7125,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value=" RN731JTTD1013F100" x="90.5" y="23.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" x="90.5" y="23.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" x="90.5" y="23.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="90.6" y="24.65" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="90.5" y="23.5" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="90.6" y="24.65" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" value="100k" x="88.95" y="24.5" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R35" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="100k" x="61.4" y="23.1" smashed="yes" rot="R270">
@@ -7136,8 +7136,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value=" RN731JTTD1013F100" x="61.4" y="23.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" x="61.4" y="23.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" x="61.4" y="23.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="60.9" y="24.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="61.4" y="23.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="60.9" y="24.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" value="100k" x="59.85" y="24.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="R37" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="100k" x="54.5" y="28.2" smashed="yes" rot="R180">
@@ -7147,8 +7147,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value=" RN731JTTD1013F100" x="54.5" y="28.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" x="54.5" y="28.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" x="54.5" y="28.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="55.5" y="27.45" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="54.5" y="28.2" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="55.5" y="27.45" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" value="100k" x="55.5" y="29.75" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R41" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="100k" x="86" y="29" smashed="yes" rot="R180">
@@ -7158,8 +7158,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value=" RN731JTTD1013F100" x="86" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" x="86" y="29" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" x="86" y="29" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87" y="28.25" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="86" y="29" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="87" y="28.25" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" value="100k" x="87" y="30.55" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R42" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="100k" x="86.4" y="12.1" smashed="yes" rot="R180">
@@ -7169,8 +7169,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value=" RN731JTTD1013F100" x="86.4" y="12.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" x="86.4" y="12.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" x="86.4" y="12.1" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="87.4" y="11.35" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="86.4" y="12.1" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="87.4" y="11.35" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="87.4" y="13.65" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="R34" library="oresat-rcl" package=".0402-B-NOSILK" value="0" x="88" y="76.7" smashed="yes">
@@ -7288,8 +7288,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="POPULARITY" value="12" x="7.2" y="58.6" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="" x="7.2" y="58.6" size="1.778" layer="27" display="off"/>
 </element>
-<element name="3.3V-U" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="88.1" y="18.3" smashed="yes">
-<attribute name="NAME" x="86.78" y="19.643" size="0.635" layer="25" font="vector" ratio="20"/>
+<element name="3.3V-U" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="88.4" y="18.3" smashed="yes">
+<attribute name="NAME" x="87.08" y="19.643" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="2.5V-U" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="89.3" y="35.5" smashed="yes">
 <attribute name="NAME" x="87.98" y="36.843" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -7355,8 +7355,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="15.6" y="85.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="12.6" y="85.95" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="15.6" y="85.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="0.1u" x="14.25" y="86.2" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -7372,8 +7372,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="CL05C200JB51PNC" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="17.25" y="85.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="16.9" y="83.15" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="17.25" y="85.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="RS_PART_NUMBER" value="1726834P" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="47u" x="15.75" y="86.2" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -7442,7 +7442,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="36.7" y1="53.175" x2="36.7" y2="54.1794" width="0.3048" layer="1"/>
 <wire x1="36.7" y1="54.1794" x2="14.958075" y2="54.1794" width="0.3048" layer="1"/>
 </signal>
-<signal name="3.3V" airwireshidden="yes">
+<signal name="3.3V">
 <contactref element="C17" pad="2"/>
 <contactref element="U2" pad="3"/>
 <contactref element="R2" pad="2"/>
@@ -7488,7 +7488,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="8.691" y="28.124" extent="1-16" drill="0.254"/>
 <wire x1="8.718" y1="29.3948" x2="7.8028" y2="29.3948" width="0.3048" layer="1"/>
 <wire x1="7.8028" y1="29.3948" x2="7.802" y2="29.394" width="0.3048" layer="1"/>
-<wire x1="8.3108" y1="29.3948" x2="8.718" y2="29.3948" width="0.3048" layer="1"/>
 <wire x1="8.691" y1="28.124" x2="8.691" y2="29.3678" width="0.3048" layer="1"/>
 <wire x1="8.691" y1="29.3678" x2="8.718" y2="29.3948" width="0.3048" layer="1"/>
 <via x="22.153" y="27.362" extent="1-16" drill="0.254"/>
@@ -7551,7 +7550,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <via x="6.3" y="83.2" extent="1-16" drill="0.254"/>
 <wire x1="6.3" y1="83.2" x2="6.3" y2="82.4" width="0.4064" layer="1"/>
-<wire x1="12.725" y1="75.125" x2="12.7" y2="75.1" width="0.3048" layer="1"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="4">
 <vertex x="13" y="71.9"/>
 <vertex x="13" y="68.6"/>
@@ -7590,7 +7588,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="15.6" y1="38.15" x2="14.35" y2="38.15" width="0.3048" layer="1"/>
 <wire x1="14.35" y1="38.15" x2="14.3" y2="38.1" width="0.3048" layer="1"/>
 <via x="14.3" y="38.1" extent="1-16" drill="0.254"/>
-<wire x1="13.2" y1="38.2" x2="13.25" y2="38.15" width="0.3048" layer="1"/>
 <wire x1="17.45" y1="47.5" x2="17.45" y2="48.486" width="0.3048" layer="1"/>
 <wire x1="17.45" y1="48.486" x2="17.197" y2="48.739" width="0.3048" layer="1"/>
 <via x="17.197" y="48.739" extent="1-16" drill="0.254"/>
@@ -7657,22 +7654,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C40" pad="1"/>
 <contactref element="C74" pad="1"/>
 <contactref element="U10" pad="24"/>
-<wire x1="39.9226" y1="24.6524" x2="39.9226" y2="25.3056" width="0.3" layer="1"/>
-<wire x1="39.9226" y1="24.6524" x2="40.9226" y2="23.6524" width="0.3" layer="1"/>
-<wire x1="40.9226" y1="23.6524" x2="40.9226" y2="22.8056" width="0.3" layer="1"/>
 <wire x1="17.197" y1="48.739" x2="16.3" y2="49.636" width="0.4064" layer="1"/>
 <wire x1="16.3" y1="49.636" x2="16.3" y2="49.8" width="0.4064" layer="1"/>
 <contactref element="U11" pad="23"/>
 <contactref element="U12" pad="1"/>
 <contactref element="C57" pad="1"/>
-<wire x1="59.56" y1="21.59" x2="59.5" y2="21.65" width="0.3048" layer="1"/>
-<wire x1="61.35" y1="21.65" x2="61.4" y2="21.6" width="0.4064" layer="1"/>
 <contactref element="U6" pad="1"/>
 <contactref element="C20" pad="2"/>
-<wire x1="61.4" y1="21.6" x2="61.4188" y2="21.6188" width="0.4064" layer="1"/>
-<wire x1="61.4" y1="21.6" x2="61.5" y2="21.7" width="0.4064" layer="1"/>
-<wire x1="59.55" y1="21.6" x2="59.5" y2="21.65" width="0.4064" layer="1"/>
-<wire x1="41.4" y1="16.1" x2="41.4" y2="13.6" width="1.27" layer="15"/>
 <via x="41.4" y="15.6" extent="1-16" drill="0.254"/>
 <via x="41.4" y="15.1" extent="1-16" drill="0.254"/>
 <via x="51.6" y="17.8" extent="1-16" drill="0.254"/>
@@ -7697,8 +7685,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="53.1" y="29.2" extent="1-16" drill="0.254"/>
 <via x="53.1" y="29.8" extent="1-16" drill="0.254"/>
 <via x="53.1" y="30.4" extent="1-16" drill="0.254"/>
-<wire x1="53.1" y1="30.4" x2="53.1" y2="25.6" width="1.27" layer="15"/>
-<wire x1="39.9512" y1="24.39831875" x2="39.9512" y2="30.85135" width="1.016" layer="15"/>
 <contactref element="R35" pad="2"/>
 <contactref element="R37" pad="2"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="4">
@@ -7740,8 +7726,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C54" pad="1"/>
 <contactref element="C53" pad="1"/>
 <contactref element="C55" pad="1"/>
-<wire x1="51.59" y1="17.11" x2="51.6" y2="17.1" width="0.3048" layer="1"/>
-<wire x1="37.40556875" y1="30.85135" x2="39.9512" y2="30.85135" width="1.016" layer="15"/>
+<wire x1="39.9512" y1="30.85135" x2="37.40556875" y2="30.85135" width="1.016" layer="15"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="3">
 <vertex x="43.1" y="20.4"/>
 <vertex x="43.1" y="19.8"/>
@@ -7754,10 +7739,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="44.8" y="19.8"/>
 <vertex x="44.8" y="20.4"/>
 </polygon>
-<wire x1="43.4" y1="20.1" x2="42.6282" y2="20.1" width="0.3048" layer="1"/>
-<wire x1="42.6282" y1="20.1" x2="42.6226" y2="20.1056" width="0.3048" layer="1"/>
-<wire x1="43.9" y1="20.1" x2="43.9" y2="20.44951875" width="1.016" layer="15"/>
-<wire x1="43.9" y1="20.44951875" x2="39.9512" y2="24.39831875" width="1.016" layer="15"/>
 <wire x1="37.7" y1="52.5" x2="37.675" y2="52.525" width="0.3048" layer="1"/>
 <wire x1="37.675" y1="52.525" x2="36.7" y2="52.525" width="0.3048" layer="1"/>
 <wire x1="38.7" y1="52.5" x2="37.7" y2="52.5" width="0.3048" layer="1"/>
@@ -7777,112 +7758,44 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="12.7" y="86.9" extent="1-16" drill="0.254"/>
 <via x="20.6" y="87.6" extent="1-16" drill="0.254"/>
 <via x="19.7" y="86.9" extent="1-16" drill="0.254"/>
-<wire x1="33.8" y1="83.4" x2="33.8" y2="84.5" width="0" layer="19" extent="1-1"/>
-<wire x1="26" y1="83.4" x2="33.8" y2="83.4" width="0" layer="19" extent="1-1"/>
-<wire x1="20.6" y1="87.6" x2="25.3" y2="83.4" width="0" layer="19" extent="1-1"/>
-<wire x1="19.7" y1="87.6" x2="20.6" y2="87.6" width="0" layer="19" extent="1-1"/>
-<wire x1="19.7" y1="86.9" x2="19.7" y2="87.6" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="87.8" x2="19.7" y2="87.6" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="87.8" x2="12.7" y2="87.8" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="86.9" x2="12.7" y2="87.8" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="88.7" x2="12.7" y2="87.8" width="0" layer="19" extent="1-1"/>
-<wire x1="6.3" y1="83.2" x2="12" y2="87.8" width="0" layer="19" extent="1-1"/>
-<wire x1="9.3" y1="75.1" x2="6.3" y2="82.4" width="0" layer="19" extent="1-1"/>
-<wire x1="10.4" y1="75.1" x2="9.3" y2="75.1" width="0" layer="19" extent="1-1"/>
-<wire x1="10.4" y1="74.4" x2="10.4" y2="75.1" width="0" layer="19" extent="1-1"/>
-<wire x1="10.4" y1="73.7" x2="10.4" y2="74.4" width="0" layer="19" extent="1-1"/>
-<wire x1="11.3" y1="75.1" x2="10.4" y2="75.1" width="0" layer="19" extent="1-1"/>
-<wire x1="9.9" y1="72.8" x2="10.4" y2="73.7" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="75.1" x2="11.3" y2="75.1" width="0" layer="19" extent="1-1"/>
-<wire x1="11.2" y1="71.5" x2="9.9" y2="72.8" width="0" layer="19" extent="1-1"/>
-<wire x1="12" y1="71.5" x2="11.2" y2="71.5" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="70.6" x2="12" y2="71.5" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="69.9" x2="12.7" y2="70.6" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="69.2" x2="12.7" y2="69.9" width="0" layer="19" extent="1-1"/>
-<wire x1="11.625" y1="70" x2="12.7" y2="69.9" width="0" layer="19" extent="1-1"/>
-<wire x1="10.3" y1="70.6" x2="11.2" y2="71.5" width="0" layer="19" extent="1-1"/>
-<wire x1="10.3" y1="69.9" x2="10.3" y2="70.6" width="0" layer="19" extent="1-1"/>
-<wire x1="10.3" y1="69.2" x2="10.3" y2="69.9" width="0" layer="19" extent="1-1"/>
-<wire x1="15.4" y1="49.809" x2="12.7" y2="69.2" width="0" layer="19" extent="1-1"/>
-<wire x1="23.95" y1="47.5" x2="17.45" y2="47.5" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8" y1="44.15" x2="23.95" y2="47.5" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8" y1="38.15" x2="29" y2="43.3" width="0" layer="19" extent="1-1"/>
-<wire x1="27.9" y1="37.7" x2="26.8" y2="38.15" width="0" layer="19" extent="1-1"/>
-<wire x1="28.4" y1="37.2" x2="27.9" y2="37.7" width="0" layer="19" extent="1-1"/>
-<wire x1="28.9" y1="36.8" x2="28.4" y2="37.2" width="0" layer="19" extent="1-1"/>
-<wire x1="28.96" y1="35.81" x2="28.9" y2="36.8" width="0" layer="19" extent="1-1"/>
-<wire x1="24.95" y1="36.3" x2="26.8" y2="38.15" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="35.1" x2="24.95" y2="36.3" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="34.3" x2="25.9" y2="35.1" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8" y1="34.3" x2="25.9" y2="34.3" width="0" layer="19" extent="1-1"/>
-<wire x1="25" y1="34.3" x2="25.9" y2="34.3" width="0" layer="19" extent="1-1"/>
-<wire x1="31.9" y1="32.2" x2="28.96" y2="35.81" width="0" layer="19" extent="1-1"/>
-<wire x1="33.4" y1="32.2" x2="33.9" y2="32.2" width="0" layer="19" extent="1-1"/>
-<wire x1="44.4" y1="20.1" x2="43.9" y2="20.1" width="0" layer="19" extent="1-1"/>
-<wire x1="32.9" y1="32.2" x2="33.4" y2="32.2" width="0" layer="19" extent="1-1"/>
-<wire x1="32.4" y1="32.2" x2="31.9" y2="32.2" width="0" layer="19" extent="1-1"/>
-<wire x1="43.4" y1="20.1" x2="43.9" y2="20.1" width="0" layer="19" extent="1-1"/>
-<wire x1="33.2" y1="31.4" x2="33.4" y2="32.2" width="0" layer="19" extent="1-1"/>
-<wire x1="31.7" y1="31.4" x2="31.9" y2="32.2" width="0" layer="19" extent="1-1"/>
-<wire x1="34.7" y1="31.4" x2="33.9" y2="32.2" width="0" layer="19" extent="1-1"/>
-<wire x1="40.4226" y1="18.4056" x2="42.6226" y2="20.1056" width="0" layer="19" extent="1-1"/>
-<wire x1="41.4" y1="16.1" x2="40.4226" y2="16.3056" width="0" layer="19" extent="1-1"/>
-<wire x1="41.4" y1="15.6" x2="41.4" y2="16.1" width="0" layer="19" extent="1-1"/>
-<wire x1="41.4" y1="15.1" x2="41.4" y2="15.6" width="0" layer="19" extent="1-1"/>
-<wire x1="42.5262" y1="15.7878" x2="41.4" y2="15.6" width="0" layer="19" extent="1-1"/>
-<wire x1="40.9226" y1="22.8056" x2="42.6226" y2="20.1056" width="0" layer="19" extent="1-1"/>
-<wire x1="39.9226" y1="26.8056" x2="39.9226" y2="25.3056" width="0" layer="19" extent="1-1"/>
-<wire x1="39.9226" y1="28.3056" x2="39.9226" y2="26.8056" width="0" layer="19" extent="1-1"/>
-<wire x1="39.9288" y1="29.808" x2="39.9226" y2="28.3056" width="0" layer="19" extent="1-1"/>
-<wire x1="40.1" y1="30.7" x2="39.9288" y2="29.808" width="0" layer="19" extent="1-1"/>
-<wire x1="39.6" y1="30.7" x2="40.1" y2="30.7" width="0" layer="19" extent="1-1"/>
-<wire x1="39.1" y1="30.7" x2="39.6" y2="30.7" width="0" layer="19" extent="1-1"/>
-<wire x1="50.06" y1="17.11" x2="44.4" y2="20.1" width="0" layer="19" extent="1-1"/>
-<wire x1="51.59" y1="17.11" x2="50.06" y2="17.11" width="0" layer="19" extent="1-1"/>
-<wire x1="51.6" y1="17.8" x2="51.59" y2="17.11" width="0" layer="19" extent="1-1"/>
-<wire x1="52.7" y1="17.8" x2="51.6" y2="17.8" width="0" layer="19" extent="1-1"/>
-<wire x1="52.7" y1="17.1" x2="52.7" y2="17.8" width="0" layer="19" extent="1-1"/>
-<wire x1="53.8" y1="17.8" x2="52.7" y2="17.8" width="0" layer="19" extent="1-1"/>
-<wire x1="53.8" y1="17.1" x2="53.8" y2="17.8" width="0" layer="19" extent="1-1"/>
-<wire x1="54.7" y1="17.1" x2="53.8" y2="17.1" width="0" layer="19" extent="1-1"/>
-<wire x1="59.5" y1="20.9" x2="54.7" y2="17.1" width="0" layer="19" extent="1-1"/>
-<wire x1="59.56" y1="21.59" x2="59.5" y2="20.9" width="0" layer="19" extent="1-1"/>
-<wire x1="60.5" y1="21.6" x2="59.56" y2="21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="61.35" y1="21.65" x2="60.5" y2="21.6" width="0" layer="19" extent="1-1"/>
-<wire x1="61.4" y1="22.4" x2="61.5" y2="21.7" width="0" layer="19" extent="1-1"/>
-<wire x1="62.3" y1="21.7" x2="61.5" y2="21.7" width="0" layer="19" extent="1-1"/>
-<wire x1="63.1" y1="22.5" x2="62.3" y2="21.7" width="0" layer="19" extent="1-1"/>
-<wire x1="64.1" y1="21.7" x2="63.1" y2="22.5" width="0" layer="19" extent="1-1"/>
-<wire x1="22.153" y1="27.362" x2="25" y2="34.3" width="0" layer="19" extent="1-1"/>
-<wire x1="16.946" y1="27.997" x2="22.153" y2="27.362" width="0" layer="19" extent="1-1"/>
-<wire x1="14.7" y1="26.2" x2="16.946" y2="27.997" width="0" layer="19" extent="1-1"/>
-<wire x1="8.691" y1="28.124" x2="13.798" y2="26.2452" width="0" layer="19" extent="1-1"/>
-<wire x1="53.1" y1="25.6" x2="59.5" y2="21.65" width="0" layer="19" extent="1-15"/>
-<wire x1="53.1" y1="29.8" x2="53.1" y2="30.4" width="0" layer="19" extent="1-1"/>
-<wire x1="53.1" y1="29.2" x2="53.1" y2="29.8" width="0" layer="19" extent="1-1"/>
-<wire x1="53.1" y1="28.5" x2="53.1" y2="29.2" width="0" layer="19" extent="1-1"/>
-<wire x1="53.1" y1="27.9" x2="53.1" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="53.8" y1="28.2" x2="53.1" y2="28.5" width="0" layer="19" extent="1-1"/>
-<wire x1="53.6" y1="31.3" x2="53.1" y2="30.4" width="0" layer="19" extent="1-1"/>
-<wire x1="55.2" y1="31.15" x2="53.6" y2="31.3" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2" y1="37.3" x2="15.93" y2="29.394" width="0" layer="19" extent="1-1"/>
-<wire x1="13.25" y1="38.15" x2="13.2" y2="37.3" width="0" layer="19" extent="1-1"/>
-<wire x1="13.1" y1="39.1" x2="13.2" y2="38.2" width="0" layer="19" extent="1-1"/>
-<wire x1="23.3" y1="15.6" x2="22.026" y2="25.076" width="0" layer="19" extent="1-1"/>
-<wire x1="24.1" y1="15.6" x2="23.3" y2="15.6" width="0" layer="19" extent="1-1"/>
-<wire x1="23.25" y1="14.4" x2="23.3" y2="15.6" width="0" layer="19" extent="1-1"/>
-<wire x1="24.1" y1="14.4" x2="23.25" y2="14.4" width="0" layer="19" extent="1-1"/>
-<wire x1="24.1" y1="13.3" x2="24.1" y2="14.4" width="0" layer="19" extent="1-1"/>
-<wire x1="23.3" y1="13.3" x2="24.1" y2="13.3" width="0" layer="19" extent="1-1"/>
-<wire x1="29.53" y1="9.5906625" x2="24.1" y2="13.3" width="0" layer="19" extent="1-1"/>
-<wire x1="36.7" y1="52.525" x2="29" y2="45.1" width="0" layer="19" extent="1-1"/>
-<wire x1="39" y1="58.425" x2="38.7" y2="52.5" width="0" layer="19" extent="1-1"/>
+<wire x1="19.7" y1="86.9" x2="19.7" y2="87.6" width="0.3048" layer="1"/>
+<wire x1="20.6" y1="87.6" x2="19.7" y2="87.6" width="0.3048" layer="1"/>
+<wire x1="12" y1="87.8" x2="12.7" y2="87.8" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="86.9" x2="12.7" y2="87.8" width="0.3048" layer="1"/>
+<wire x1="12.7" y1="88.7" x2="12.7" y2="87.8" width="0.3048" layer="1"/>
+<wire x1="42.6226" y1="20.1056" x2="43.3944" y2="20.1056" width="0.3048" layer="1"/>
+<wire x1="43.3944" y1="20.1056" x2="43.4" y2="20.1" width="0.3048" layer="1"/>
+<wire x1="40.9226" y1="22.8056" x2="40.9226" y2="23.6774" width="0.3" layer="1"/>
+<wire x1="39.9226" y1="24.6774" x2="39.9226" y2="25.3056" width="0.3" layer="1"/>
+<wire x1="40.9226" y1="23.6774" x2="39.9226" y2="24.6774" width="0.3" layer="1"/>
+<wire x1="44.4" y1="20.1" x2="44.14951875" y2="20.1" width="1.016" layer="15"/>
+<wire x1="39.9512" y1="24.29831875" x2="39.9512" y2="30.85135" width="1.016" layer="15"/>
+<wire x1="44.14951875" y1="20.1" x2="39.9512" y2="24.29831875" width="1.016" layer="15"/>
+<polygon width="0.127" layer="15" isolate="0.2" thermals="no" rank="3">
+<vertex x="38.8" y="30.1"/>
+<vertex x="38.8" y="31"/>
+<vertex x="40.4" y="31"/>
+<vertex x="40.4" y="30.1"/>
+</polygon>
+<polygon width="0.127" layer="15" isolate="0.2" thermals="no" rank="3">
+<vertex x="41.9" y="16.7"/>
+<vertex x="40.8" y="16.7"/>
+<vertex x="40.8" y="13.4"/>
+<vertex x="42" y="13.4"/>
+<vertex x="42" y="16.7"/>
+</polygon>
+<polygon width="0.127" layer="15" isolate="0.2" thermals="no" rank="3">
+<vertex x="53.8" y="30.9"/>
+<vertex x="52.4" y="30.9"/>
+<vertex x="52.4" y="26"/>
+<vertex x="53.8" y="26"/>
+</polygon>
 </signal>
 <signal name="SDAOPT2">
 </signal>
 <signal name="SDAOPT1">
 </signal>
-<signal name="GND" airwireshidden="yes">
+<signal name="GND">
 <contactref element="C11" pad="2"/>
 <contactref element="C16" pad="2"/>
 <contactref element="C17" pad="1"/>
@@ -8359,10 +8272,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="85.6" y="18.7" extent="1-16" drill="0.254"/>
 <via x="86.7" y="18.7" extent="1-16" drill="0.254"/>
 <via x="87.6" y="19.4" extent="1-16" drill="0.254"/>
-<via x="83.2" y="19" extent="1-16" drill="0.254"/>
+<via x="81.5" y="18.5" extent="1-16" drill="0.254"/>
 <via x="82.1" y="18.5" extent="1-16" drill="0.254"/>
+<via x="81" y="18.5" extent="1-16" drill="0.254"/>
 <via x="80.4" y="18.5" extent="1-16" drill="0.254"/>
-<via x="80.2" y="17.9" extent="1-16" drill="0.254"/>
 <via x="80.2" y="15.7" extent="1-16" drill="0.254"/>
 <via x="81.1" y="15" extent="1-16" drill="0.254"/>
 <via x="82.2" y="15" extent="1-16" drill="0.254"/>
@@ -8424,15 +8337,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="7.2" y="78" extent="1-16" drill="0.254"/>
 <via x="25.3" y="77.7" extent="1-16" drill="0.254"/>
 <via x="25.3" y="75.9" extent="1-16" drill="0.254"/>
-<wire x1="79.5" y1="18.63" x2="79.5" y2="18.13" width="0.36" layer="1"/>
-<wire x1="79.5" y1="18.13" x2="79.518" y2="18.112" width="0.36" layer="1"/>
-<wire x1="79.518" y1="18.112" x2="79.9521625" y2="18.112" width="0.36" layer="1"/>
-<wire x1="80.1641625" y1="17.9" x2="80.2" y2="17.9" width="0.36" layer="1"/>
-<wire x1="79.9521625" y1="18.112" x2="80.1641625" y2="17.9" width="0.36" layer="1"/>
-<wire x1="79.5" y1="18.63" x2="79.965125" y2="18.63" width="0.36" layer="1"/>
-<wire x1="79.965125" y1="18.63" x2="80.002125" y2="18.593" width="0.36" layer="1"/>
-<wire x1="80.002125" y1="18.593" x2="80.307" y2="18.593" width="0.36" layer="1"/>
-<wire x1="80.307" y1="18.593" x2="80.4" y2="18.5" width="0.36" layer="1"/>
 <wire x1="50.06" y1="18.61" x2="50.555125" y2="18.61" width="0.36" layer="1"/>
 <wire x1="50.555125" y1="18.61" x2="50.562125" y2="18.603" width="0.36" layer="1"/>
 <wire x1="50.562125" y1="18.603" x2="50.94" y2="18.603" width="0.36" layer="1"/>
@@ -8459,440 +8363,62 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="17.1" y="83.8" extent="1-16" drill="0.254"/>
 <via x="14.7" y="84.6" extent="1-16" drill="0.254"/>
 <via x="18" y="84.6" extent="1-16" drill="0.254"/>
-<wire x1="98.8" y1="88" x2="93" y2="94" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="82" x2="98.8" y2="88" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="76" x2="98.8" y2="82" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="70" x2="98.8" y2="76" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="64" x2="98.8" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="58" x2="98.8" y2="64" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="52" x2="98.8" y2="58" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="46" x2="98.8" y2="52" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="40" x2="98.8" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="34" x2="98.8" y2="40" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="28" x2="98.8" y2="34" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="22" x2="98.8" y2="28" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="16" x2="98.8" y2="22" width="0" layer="19" extent="1-1"/>
-<wire x1="93.3" y1="17.1" x2="98.8" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="92.4" y1="17.123" x2="93.3" y2="17.1" width="0" layer="19" extent="1-1"/>
-<wire x1="91.5" y1="17.1" x2="92.4" y2="17.123" width="0" layer="19" extent="1-1"/>
-<wire x1="92.4" y1="16.2" x2="92.4" y2="17.123" width="0" layer="19" extent="1-1"/>
-<wire x1="90.7" y1="16" x2="91.5" y2="17.1" width="0" layer="19" extent="1-1"/>
-<wire x1="89.9" y1="16" x2="90.7" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="89.9" y1="15.1" x2="89.9" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="89.9" y1="17" x2="89.9" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="90.5" y1="19.7" x2="91.5" y2="17.1" width="0" layer="19" extent="1-1"/>
-<wire x1="90.5" y1="20.4" x2="90.5" y2="19.7" width="0" layer="19" extent="1-1"/>
-<wire x1="89.6" y1="20.4" x2="90.5" y2="20.4" width="0" layer="19" extent="1-1"/>
-<wire x1="91.4" y1="20.4" x2="90.5" y2="20.4" width="0" layer="19" extent="1-1"/>
-<wire x1="87.6" y1="19.4" x2="89.6" y2="20.4" width="0" layer="19" extent="1-1"/>
-<wire x1="86.7" y1="19.4" x2="87.6" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="86.7" y1="18.7" x2="86.7" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="85.6" y1="19.4" x2="86.7" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="85.6" y1="18.7" x2="85.6" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="84.5" y1="19.4" x2="85.6" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="84.5" y1="18.7" x2="84.5" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="83.2" y1="19" x2="84.5" y2="18.7" width="0" layer="19" extent="1-1"/>
-<wire x1="83.2" y1="19.8" x2="83.2" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="82.05" y1="19.2" x2="83.2" y2="19" width="0" layer="19" extent="1-1"/>
-<wire x1="82.1" y1="18.5" x2="82.05" y2="19.2" width="0" layer="19" extent="1-1"/>
-<wire x1="80.4" y1="18.5" x2="82.1" y2="18.5" width="0" layer="19" extent="1-1"/>
-<wire x1="78.52" y1="17.49" x2="79.5" y2="18.13" width="0" layer="19" extent="1-1"/>
-<wire x1="78.51" y1="16.82" x2="78.52" y2="17.49" width="0" layer="19" extent="1-1"/>
-<wire x1="77.8" y1="16.82" x2="78.51" y2="16.82" width="0" layer="19" extent="1-1"/>
-<wire x1="77.8" y1="17.48" x2="77.8" y2="16.82" width="0" layer="19" extent="1-1"/>
-<wire x1="77.25" y1="18.13" x2="77.8" y2="17.48" width="0" layer="19" extent="1-1"/>
-<wire x1="78.546209375" y1="19.43" x2="79.5" y2="18.63" width="0" layer="19" extent="1-1"/>
-<wire x1="80.9" y1="20.9" x2="82.7" y2="20.8" width="0" layer="19" extent="1-1"/>
-<wire x1="80.2" y1="15.7" x2="78.51" y2="16.82" width="0" layer="19" extent="1-1"/>
-<wire x1="81.1" y1="15.7" x2="80.2" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="81.1" y1="15" x2="81.1" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="82.2" y1="15.7" x2="81.1" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="82.2" y1="15" x2="82.2" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="83.4" y1="15.7" x2="82.2" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="83.4" y1="15" x2="83.4" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="84.3" y1="15.7" x2="83.4" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="83" y1="12.9" x2="83.4" y2="15" width="0" layer="19" extent="1-1"/>
-<wire x1="83" y1="12" x2="83" y2="12.9" width="0" layer="19" extent="1-1"/>
-<wire x1="82.1" y1="12" x2="83" y2="12" width="0" layer="19" extent="1-1"/>
-<wire x1="86.1" y1="14.4" x2="84.3" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="86.1" y1="13.4" x2="86.1" y2="14.4" width="0" layer="19" extent="1-1"/>
-<wire x1="81.3" y1="23.2" x2="80.9" y2="20.9" width="0" layer="19" extent="1-1"/>
-<wire x1="82.075" y1="23.225" x2="81.3" y2="23.2" width="0" layer="19" extent="1-1"/>
-<wire x1="82.9" y1="23.2" x2="82.075" y2="23.225" width="0" layer="19" extent="1-1"/>
-<wire x1="82.1" y1="24.1" x2="82.075" y2="23.225" width="0" layer="19" extent="1-1"/>
-<wire x1="88.6" y1="22.8" x2="89.6" y2="20.4" width="0" layer="19" extent="1-1"/>
-<wire x1="87.4" y1="24.1" x2="87.6" y2="22.8" width="0" layer="19" extent="1-1"/>
-<wire x1="87.4" y1="25" x2="87.4" y2="24.1" width="0" layer="19" extent="1-1"/>
-<wire x1="88.2" y1="25" x2="87.4" y2="25" width="0" layer="19" extent="1-1"/>
-<wire x1="87.4" y1="25.9" x2="87.4" y2="25" width="0" layer="19" extent="1-1"/>
-<wire x1="77.6" y1="12.1" x2="80.2" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="74.8" y1="12.1" x2="77.6" y2="12.1" width="0" layer="19" extent="1-1"/>
-<wire x1="98.8" y1="10" x2="98.8" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="96" y1="4.5" x2="98.8" y2="10" width="0" layer="19" extent="1-1"/>
-<wire x1="89" y1="4.5" x2="96" y2="4.5" width="0" layer="19" extent="1-1"/>
-<wire x1="83" y1="1" x2="89" y2="4.5" width="0" layer="19" extent="1-1"/>
-<wire x1="77" y1="1" x2="83" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="71" y1="1" x2="77" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="67.3" y1="4" x2="71" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="65" y1="1" x2="67.3" y2="4" width="0" layer="19" extent="1-1"/>
-<wire x1="59" y1="1" x2="65" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="53" y1="1" x2="59" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="47" y1="1" x2="53" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="41" y1="1" x2="47" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="35" y1="1" x2="41" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="35.3" y1="5.9" x2="35" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="35.9" y1="5.9" x2="35.3" y2="5.9" width="0" layer="19" extent="1-1"/>
-<wire x1="36.5" y1="5.9" x2="35.9" y2="5.9" width="0" layer="19" extent="1-1"/>
-<wire x1="37.1" y1="5.9" x2="36.5" y2="5.9" width="0" layer="19" extent="1-1"/>
-<wire x1="36.2" y1="7.8906625" x2="35.9" y2="5.9" width="0" layer="19" extent="1-1"/>
-<wire x1="36" y1="9.8" x2="36.2" y2="7.8906625" width="0" layer="19" extent="1-1"/>
-<wire x1="36.6" y1="9.8" x2="36" y2="9.8" width="0" layer="19" extent="1-1"/>
-<wire x1="35.4" y1="9.8" x2="36" y2="9.8" width="0" layer="19" extent="1-1"/>
-<wire x1="33.53" y1="9.5906625" x2="35.4" y2="9.8" width="0" layer="19" extent="1-1"/>
-<wire x1="33.3" y1="10.6" x2="33.53" y2="9.5906625" width="0" layer="19" extent="1-1"/>
-<wire x1="32.03" y1="9.5906625" x2="33.53" y2="9.5906625" width="0" layer="19" extent="1-1"/>
-<wire x1="32" y1="8.6" x2="32.03" y2="9.5906625" width="0" layer="19" extent="1-1"/>
-<wire x1="30.53" y1="9.5906625" x2="32.03" y2="9.5906625" width="0" layer="19" extent="1-1"/>
-<wire x1="38.3" y1="13.8" x2="36.6" y2="9.8" width="0" layer="19" extent="1-1"/>
-<wire x1="39.3" y1="13.8" x2="38.3" y2="13.8" width="0" layer="19" extent="1-1"/>
-<wire x1="40.3" y1="13.8" x2="39.3" y2="13.8" width="0" layer="19" extent="1-1"/>
-<wire x1="42.6" y1="13.8" x2="40.3" y2="13.8" width="0" layer="19" extent="1-1"/>
-<wire x1="45.3" y1="11.9" x2="42.6" y2="13.8" width="0" layer="19" extent="1-1"/>
-<wire x1="48.2" y1="11.9" x2="45.3" y2="11.9" width="0" layer="19" extent="1-1"/>
-<wire x1="50.5" y1="11.9" x2="48.2" y2="11.9" width="0" layer="19" extent="1-1"/>
-<wire x1="51.6" y1="15" x2="50.5" y2="11.9" width="0" layer="19" extent="1-1"/>
-<wire x1="51.6" y1="15.7" x2="51.6" y2="15" width="0" layer="19" extent="1-1"/>
-<wire x1="50.7" y1="15.7" x2="51.6" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="52.7" y1="15.7" x2="51.6" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="52.7" y1="15" x2="52.7" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="53.8" y1="15.7" x2="52.7" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="53.8" y1="15" x2="53.8" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="54.7" y1="15.7" x2="53.8" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="49.1" y1="16.83" x2="50.7" y2="15.7" width="0" layer="19" extent="1-1"/>
-<wire x1="49.09" y1="17.46" x2="49.1" y2="16.83" width="0" layer="19" extent="1-1"/>
-<wire x1="48.4" y1="16.83" x2="49.1" y2="16.83" width="0" layer="19" extent="1-1"/>
-<wire x1="48.36" y1="17.46" x2="48.4" y2="16.83" width="0" layer="19" extent="1-1"/>
-<wire x1="47.81" y1="18.11" x2="48.36" y2="17.46" width="0" layer="19" extent="1-1"/>
-<wire x1="50.06" y1="18.11" x2="49.09" y2="17.46" width="0" layer="19" extent="1-1"/>
-<wire x1="50.06" y1="18.61" x2="50.06" y2="18.11" width="0" layer="19" extent="1-1"/>
-<wire x1="52.5" y1="18.4" x2="51.001" y2="18.542" width="0" layer="19" extent="1-1"/>
-<wire x1="52.65" y1="19.1" x2="52.5" y2="18.4" width="0" layer="19" extent="1-1"/>
-<wire x1="53.3" y1="19.1" x2="52.65" y2="19.1" width="0" layer="19" extent="1-1"/>
-<wire x1="54" y1="19.4" x2="53.3" y2="19.1" width="0" layer="19" extent="1-1"/>
-<wire x1="54.9" y1="19.4" x2="54" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="54.9" y1="18.7" x2="54.9" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="56" y1="19.4" x2="54.9" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="56" y1="18.7" x2="56" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="57.1" y1="19.4" x2="56" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="57.1" y1="18.7" x2="57.1" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="58" y1="19.4" x2="57.1" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="51.7" y1="21" x2="52.65" y2="19.1" width="0" layer="19" extent="1-1"/>
-<wire x1="51.9" y1="23.2" x2="51.7" y2="21" width="0" layer="19" extent="1-1"/>
-<wire x1="52.675" y1="23.225" x2="51.9" y2="23.2" width="0" layer="19" extent="1-1"/>
-<wire x1="53.5" y1="23.2" x2="52.675" y2="23.225" width="0" layer="19" extent="1-1"/>
-<wire x1="52.7" y1="24.1" x2="52.675" y2="23.225" width="0" layer="19" extent="1-1"/>
-<wire x1="60.5" y1="20.2" x2="58" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="61.4" y1="20.2" x2="60.5" y2="20.2" width="0" layer="19" extent="1-1"/>
-<wire x1="61.4" y1="19.4" x2="61.4" y2="20.2" width="0" layer="19" extent="1-1"/>
-<wire x1="62.3" y1="20.2" x2="61.4" y2="20.2" width="0" layer="19" extent="1-1"/>
-<wire x1="62.3" y1="17.2" x2="61.4" y2="19.4" width="0" layer="19" extent="1-1"/>
-<wire x1="63.2" y1="16.2" x2="62.3" y2="17.2" width="0" layer="19" extent="1-1"/>
-<wire x1="64.1" y1="17.2" x2="63.2" y2="16.2" width="0" layer="19" extent="1-1"/>
-<wire x1="59.5" y1="22.6" x2="60.5" y2="20.2" width="0" layer="19" extent="1-1"/>
-<wire x1="58.5" y1="22.6" x2="59.5" y2="22.6" width="0" layer="19" extent="1-1"/>
-<wire x1="58.36" y1="23.81" x2="58.5" y2="22.6" width="0" layer="19" extent="1-1"/>
-<wire x1="58.3" y1="24.7" x2="58.36" y2="23.81" width="0" layer="19" extent="1-1"/>
-<wire x1="59" y1="24.7" x2="58.3" y2="24.7" width="0" layer="19" extent="1-1"/>
-<wire x1="58.3" y1="25.6" x2="58.3" y2="24.7" width="0" layer="19" extent="1-1"/>
-<wire x1="29" y1="1" x2="35" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="23" y1="1" x2="29" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="23.1" y1="5.9" x2="23" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="23.7" y1="5.9" x2="23.1" y2="5.9" width="0" layer="19" extent="1-1"/>
-<wire x1="24.3" y1="5.9" x2="23.7" y2="5.9" width="0" layer="19" extent="1-1"/>
-<wire x1="22.5" y1="5.9" x2="23.1" y2="5.9" width="0" layer="19" extent="1-1"/>
-<wire x1="23.36" y1="7.8906625" x2="23.1" y2="5.9" width="0" layer="19" extent="1-1"/>
-<wire x1="23.7" y1="9.8" x2="23.36" y2="7.8906625" width="0" layer="19" extent="1-1"/>
-<wire x1="24.3" y1="9.8" x2="23.7" y2="9.8" width="0" layer="19" extent="1-1"/>
-<wire x1="23.1" y1="9.8" x2="23.7" y2="9.8" width="0" layer="19" extent="1-1"/>
-<wire x1="22.5" y1="9.8" x2="23.1" y2="9.8" width="0" layer="19" extent="1-1"/>
-<wire x1="17.07" y1="0.95" x2="23" y2="1" width="0" layer="19" extent="1-1"/>
-<wire x1="15" y1="6.7" x2="17.07" y2="0.95" width="0" layer="19" extent="1-1"/>
-<wire x1="15" y1="7.5" x2="15" y2="6.7" width="0" layer="19" extent="1-1"/>
-<wire x1="15.9" y1="7.5" x2="15" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="13.4" y1="7.5" x2="15" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="13.4" y1="6.7" x2="13.4" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="11.8" y1="7.5" x2="13.4" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="11.8" y1="6.7" x2="11.8" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="10.9" y1="7.5" x2="11.8" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="4.5" x2="11.8" y2="6.7" width="0" layer="19" extent="1-1"/>
-<wire x1="14.1" y1="12.5" x2="13.4" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="12.35" y1="13.95" x2="12.85" y2="14.45" width="0" layer="19" extent="1-1"/>
-<wire x1="11.35" y1="14.45" x2="12.35" y2="13.95" width="0" layer="19" extent="1-1"/>
-<wire x1="10.85" y1="14.45" x2="11.35" y2="14.45" width="0" layer="19" extent="1-1"/>
-<wire x1="14.6" y1="15.5" x2="13.35" y2="13.95" width="0" layer="19" extent="1-1"/>
-<wire x1="14.35" y1="15.95" x2="14.6" y2="15.5" width="0" layer="19" extent="1-1"/>
-<wire x1="13.667178125" y1="16.670821875" x2="14.35" y2="15.95" width="0" layer="19" extent="1-1"/>
-<wire x1="12.85" y1="17.45" x2="12.85" y2="17.447171875" width="0" layer="19" extent="1-1"/>
-<wire x1="12.85" y1="16.45" x2="13.667178125" y2="16.670821875" width="0" layer="19" extent="1-1"/>
-<wire x1="13.35" y1="20.45" x2="12.35" y2="19.45" width="0" layer="19" extent="1-1"/>
-<wire x1="13.85" y1="18.45" x2="12.85" y2="17.447171875" width="0" layer="19" extent="1-1"/>
-<wire x1="15.35" y1="16.95" x2="14.8164" y2="17.82004375" width="0" layer="19" extent="1-1"/>
-<wire x1="9.9" y1="21.1" x2="12.35" y2="19.45" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="22.68" x2="9.9" y2="21.1" width="0" layer="19" extent="1-1"/>
-<wire x1="5.7" y1="22.1" x2="7" y2="22.68" width="0" layer="19" extent="1-1"/>
-<wire x1="5.4" y1="21" x2="5.7" y2="22.1" width="0" layer="19" extent="1-1"/>
-<wire x1="5.4" y1="19.5" x2="5.4" y2="21" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="18.4" x2="5.4" y2="19.5" width="0" layer="19" extent="1-1"/>
-<wire x1="5.6" y1="17.7" x2="5.6" y2="18.4" width="0" layer="19" extent="1-1"/>
-<wire x1="17.9" y1="21.1" x2="15.8564" y2="17.22763125" width="0" layer="19" extent="1-1"/>
-<wire x1="20.9" y1="21.1" x2="17.9" y2="21.1" width="0" layer="19" extent="1-1"/>
-<wire x1="21.645" y1="18.98" x2="20.9" y2="21.1" width="0" layer="19" extent="1-1"/>
-<wire x1="21.7" y1="18.1" x2="21.645" y2="18.98" width="0" layer="19" extent="1-1"/>
-<wire x1="22.661" y1="18.091" x2="21.7" y2="18.1" width="0" layer="19" extent="1-1"/>
-<wire x1="20.629" y1="18.091" x2="21.7" y2="18.1" width="0" layer="19" extent="1-1"/>
-<wire x1="20.9" y1="24.1" x2="20.9" y2="21.1" width="0" layer="19" extent="1-1"/>
-<wire x1="22.9" y1="24.1" x2="20.9" y2="24.1" width="0" layer="19" extent="1-1"/>
-<wire x1="24.006" y1="21.846" x2="22.9" y2="24.1" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="22" x2="5.4" y2="21" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="16" x2="5.6" y2="17.7" width="0" layer="19" extent="1-1"/>
-<wire x1="14.8886" y1="25.2284" x2="13.35" y2="20.45" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="28" x2="1" y2="22" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="34" x2="1" y2="28" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="40" x2="1" y2="34" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="46" x2="1" y2="40" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="52" x2="1" y2="46" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="58" x2="1" y2="52" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="64" x2="1" y2="58" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="70" x2="1" y2="64" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="76" x2="1" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="6.3" y1="78.023" x2="1" y2="76" width="0" layer="19" extent="1-1"/>
-<wire x1="7.2" y1="78" x2="6.3" y2="78.023" width="0" layer="19" extent="1-1"/>
-<wire x1="10.4" y1="77.2" x2="7.2" y2="78" width="0" layer="19" extent="1-1"/>
-<wire x1="11.3" y1="77.6" x2="10.4" y2="77.2" width="0" layer="19" extent="1-1"/>
-<wire x1="11.3" y1="76.7" x2="11.3" y2="77.6" width="0" layer="19" extent="1-1"/>
-<wire x1="12.2" y1="76.7" x2="11.3" y2="76.7" width="0" layer="19" extent="1-1"/>
-<wire x1="12.7" y1="76.4" x2="12.2" y2="76.7" width="0" layer="19" extent="1-1"/>
-<wire x1="12.725" y1="75.775" x2="12.7" y2="76.4" width="0" layer="19" extent="1-1"/>
-<wire x1="13.8" y1="75.7" x2="12.725" y2="75.775" width="0" layer="19" extent="1-1"/>
-<wire x1="14.375" y1="76.775" x2="13.8" y2="75.7" width="0" layer="19" extent="1-1"/>
-<wire x1="15.025" y1="76.775" x2="14.375" y2="76.775" width="0" layer="19" extent="1-1"/>
-<wire x1="15.6" y1="75.7" x2="15.025" y2="76.775" width="0" layer="19" extent="1-1"/>
-<wire x1="14.7" y1="74.8" x2="13.8" y2="75.7" width="0" layer="19" extent="1-1"/>
-<wire x1="15.6" y1="73.9" x2="14.7" y2="74.8" width="0" layer="19" extent="1-1"/>
-<wire x1="15.675" y1="72.825" x2="15.6" y2="73.9" width="0" layer="19" extent="1-1"/>
-<wire x1="16.675" y1="73.825" x2="15.6" y2="73.9" width="0" layer="19" extent="1-1"/>
-<wire x1="17.6" y1="73.8" x2="17.2" y2="73.1" width="0" layer="19" extent="1-1"/>
-<wire x1="13.8" y1="73.9" x2="14.7" y2="74.8" width="0" layer="19" extent="1-1"/>
-<wire x1="12.725" y1="73.825" x2="13.8" y2="73.9" width="0" layer="19" extent="1-1"/>
-<wire x1="12.725" y1="74.475" x2="12.725" y2="73.825" width="0" layer="19" extent="1-1"/>
-<wire x1="11.9" y1="74.2" x2="12.725" y2="74.475" width="0" layer="19" extent="1-1"/>
-<wire x1="11.9" y1="73.5" x2="11.9" y2="74.2" width="0" layer="19" extent="1-1"/>
-<wire x1="16.4" y1="79.4" x2="15.1" y2="77.7" width="0" layer="19" extent="1-1"/>
-<wire x1="16.4" y1="80.2" x2="16.4" y2="79.4" width="0" layer="19" extent="1-1"/>
-<wire x1="17.3" y1="79.3" x2="16.4" y2="79.4" width="0" layer="19" extent="1-1"/>
-<wire x1="18.9" y1="78.5" x2="17.3" y2="79.3" width="0" layer="19" extent="1-1"/>
-<wire x1="19.8" y1="78.5" x2="18.9" y2="78.5" width="0" layer="19" extent="1-1"/>
-<wire x1="19.8" y1="79.3" x2="19.8" y2="78.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20.7" y1="78.5" x2="19.8" y2="78.5" width="0" layer="19" extent="1-1"/>
-<wire x1="19.9" y1="74.2" x2="17.6" y2="73.8" width="0" layer="19" extent="1-1"/>
-<wire x1="19.9" y1="75.1" x2="19.9" y2="74.2" width="0" layer="19" extent="1-1"/>
-<wire x1="20.7" y1="75.1" x2="19.9" y2="75.1" width="0" layer="19" extent="1-1"/>
-<wire x1="19.9" y1="76" x2="19.9" y2="75.1" width="0" layer="19" extent="1-1"/>
-<wire x1="17.1" y1="83.8" x2="16.4" y2="80.2" width="0" layer="19" extent="1-1"/>
-<wire x1="17.1" y1="84.6" x2="17.1" y2="83.8" width="0" layer="19" extent="1-1"/>
-<wire x1="18" y1="84.6" x2="17.1" y2="84.6" width="0" layer="19" extent="1-1"/>
-<wire x1="15.6" y1="84.6" x2="17.1" y2="84.6" width="0" layer="19" extent="1-1"/>
-<wire x1="15.6" y1="83.8" x2="15.6" y2="84.6" width="0" layer="19" extent="1-1"/>
-<wire x1="14.7" y1="84.6" x2="15.6" y2="84.6" width="0" layer="19" extent="1-1"/>
-<wire x1="18.1" y1="87" x2="18" y2="84.6" width="0" layer="19" extent="1-1"/>
-<wire x1="17.843" y1="87.725" x2="18.1" y2="87" width="0" layer="19" extent="1-1"/>
-<wire x1="17.843" y1="88.375" x2="17.843" y2="87.725" width="0" layer="19" extent="1-1"/>
-<wire x1="18.8" y1="88.4" x2="17.843" y2="88.375" width="0" layer="19" extent="1-1"/>
-<wire x1="18.8" y1="87.7" x2="18.8" y2="88.4" width="0" layer="19" extent="1-1"/>
-<wire x1="15.557" y1="89.025" x2="17.843" y2="88.375" width="0" layer="19" extent="1-1"/>
-<wire x1="14.5" y1="89" x2="15.557" y2="89.025" width="0" layer="19" extent="1-1"/>
-<wire x1="8.5" y1="82.1" x2="7.2" y2="78" width="0" layer="19" extent="1-1"/>
-<wire x1="8.523" y1="83.1" x2="8.5" y2="82.1" width="0" layer="19" extent="1-1"/>
-<wire x1="8.5" y1="84.1" x2="8.523" y2="83.1" width="0" layer="19" extent="1-1"/>
-<wire x1="7.5" y1="83.1" x2="8.523" y2="83.1" width="0" layer="19" extent="1-1"/>
-<wire x1="25.2" y1="79.5" x2="20.7" y2="78.5" width="0" layer="19" extent="1-1"/>
-<wire x1="26.1" y1="79.5" x2="25.2" y2="79.5" width="0" layer="19" extent="1-1"/>
-<wire x1="26.1" y1="78.7" x2="26.1" y2="79.5" width="0" layer="19" extent="1-1"/>
-<wire x1="27" y1="79.5" x2="26.1" y2="79.5" width="0" layer="19" extent="1-1"/>
-<wire x1="25.3" y1="77.7" x2="26.1" y2="78.7" width="0" layer="19" extent="1-1"/>
-<wire x1="25.277" y1="76.8" x2="25.3" y2="77.7" width="0" layer="19" extent="1-1"/>
-<wire x1="25.3" y1="75.9" x2="25.277" y2="76.8" width="0" layer="19" extent="1-1"/>
-<wire x1="28.723" y1="75.9" x2="25.3" y2="75.9" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="72.5" x2="28.723" y2="75.9" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="71.4" x2="31" y2="72.5" width="0" layer="19" extent="1-1"/>
-<wire x1="31.8" y1="71.4" x2="31" y2="71.4" width="0" layer="19" extent="1-1"/>
-<wire x1="32.6" y1="71.4" x2="31.8" y2="71.4" width="0" layer="19" extent="1-1"/>
-<wire x1="32.6" y1="72.5" x2="32.6" y2="71.4" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="70.3" x2="31" y2="71.4" width="0" layer="19" extent="1-1"/>
-<wire x1="32.6" y1="70.3" x2="32.6" y2="71.4" width="0" layer="19" extent="1-1"/>
-<wire x1="34.2" y1="68.8" x2="32.6" y2="70.3" width="0" layer="19" extent="1-1"/>
-<wire x1="34.675" y1="69.495" x2="34.2" y2="68.8" width="0" layer="19" extent="1-1"/>
-<wire x1="35.3" y1="68.8" x2="34.675" y2="69.495" width="0" layer="19" extent="1-1"/>
-<wire x1="36.2" y1="68.8" x2="35.3" y2="68.8" width="0" layer="19" extent="1-1"/>
-<wire x1="36.2" y1="69.5" x2="36.2" y2="68.8" width="0" layer="19" extent="1-1"/>
-<wire x1="37.7" y1="70.7" x2="36.2" y2="69.5" width="0" layer="19" extent="1-1"/>
-<wire x1="38.6" y1="70.7" x2="37.7" y2="70.7" width="0" layer="19" extent="1-1"/>
-<wire x1="38.6" y1="70" x2="38.6" y2="70.7" width="0" layer="19" extent="1-1"/>
-<wire x1="39.5" y1="70.7" x2="38.6" y2="70.7" width="0" layer="19" extent="1-1"/>
-<wire x1="39" y1="68.7" x2="38.6" y2="70" width="0" layer="19" extent="1-1"/>
-<wire x1="39.9" y1="68.4" x2="39" y2="68.7" width="0" layer="19" extent="1-1"/>
-<wire x1="39.9" y1="67.7" x2="39.9" y2="68.4" width="0" layer="19" extent="1-1"/>
-<wire x1="39.0126375" y1="67.651490625" x2="39.9" y2="67.7" width="0" layer="19" extent="1-1"/>
-<wire x1="32.6" y1="65.7" x2="34.2" y2="68.8" width="0" layer="19" extent="1-1"/>
-<wire x1="32.6" y1="64.6" x2="32.6" y2="65.7" width="0" layer="19" extent="1-1"/>
-<wire x1="31.8" y1="64.6" x2="32.6" y2="64.6" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="64.6" x2="31.8" y2="64.6" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="63.5" x2="31" y2="64.6" width="0" layer="19" extent="1-1"/>
-<wire x1="32.6" y1="63.5" x2="32.6" y2="64.6" width="0" layer="19" extent="1-1"/>
-<wire x1="31" y1="65.7" x2="31" y2="64.6" width="0" layer="19" extent="1-1"/>
-<wire x1="34.2" y1="62" x2="32.6" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="35" y1="62" x2="34.2" y2="62" width="0" layer="19" extent="1-1"/>
-<wire x1="34.675" y1="62.695" x2="35" y2="62" width="0" layer="19" extent="1-1"/>
-<wire x1="35.9" y1="62" x2="35" y2="62" width="0" layer="19" extent="1-1"/>
-<wire x1="36.4" y1="62.7" x2="35.9" y2="62" width="0" layer="19" extent="1-1"/>
-<wire x1="34.5" y1="60.9" x2="34.2" y2="62" width="0" layer="19" extent="1-1"/>
-<wire x1="34.5" y1="60" x2="34.5" y2="60.9" width="0" layer="19" extent="1-1"/>
-<wire x1="34.5" y1="59.1" x2="34.5" y2="60" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="63.9" x2="36.4" y2="62.7" width="0" layer="19" extent="1-1"/>
-<wire x1="38.9" y1="63.9" x2="38" y2="63.9" width="0" layer="19" extent="1-1"/>
-<wire x1="38.9" y1="62.9" x2="38.9" y2="63.9" width="0" layer="19" extent="1-1"/>
-<wire x1="38" y1="57.7" x2="34.5" y2="59.1" width="0" layer="19" extent="1-1"/>
-<wire x1="39" y1="57.775" x2="38" y2="57.7" width="0" layer="19" extent="1-1"/>
-<wire x1="38.7" y1="55" x2="38" y2="57.7" width="0" layer="19" extent="1-1"/>
-<wire x1="38.7" y1="54.1" x2="38.7" y2="55" width="0" layer="19" extent="1-1"/>
-<wire x1="37.8" y1="54.1" x2="38.7" y2="54.1" width="0" layer="19" extent="1-1"/>
-<wire x1="37.7" y1="51.8" x2="37.8" y2="54.1" width="0" layer="19" extent="1-1"/>
-<wire x1="36.7" y1="51.875" x2="37.7" y2="51.8" width="0" layer="19" extent="1-1"/>
-<wire x1="38.8206" y1="74.761" x2="38.6" y2="70.7" width="0" layer="19" extent="1-1"/>
-<wire x1="39.7" y1="74.8" x2="38.8206" y2="74.761" width="0" layer="19" extent="1-1"/>
-<wire x1="38.8" y1="75.8" x2="38.8206" y2="74.761" width="0" layer="19" extent="1-1"/>
-<wire x1="37.4" y1="78.4" x2="38.8" y2="75.8" width="0" layer="19" extent="1-1"/>
-<wire x1="35.1" y1="78.4" x2="37.4" y2="78.4" width="0" layer="19" extent="1-1"/>
-<wire x1="33.4" y1="79.3" x2="35.1" y2="78.4" width="0" layer="19" extent="1-1"/>
-<wire x1="32.5" y1="78.4" x2="33.4" y2="79.3" width="0" layer="19" extent="1-1"/>
-<wire x1="31.6" y1="79.3" x2="32.5" y2="78.4" width="0" layer="19" extent="1-1"/>
-<wire x1="37.5" y1="82.1" x2="37.4" y2="78.4" width="0" layer="19" extent="1-1"/>
-<wire x1="37.5" y1="83.1" x2="37.5" y2="82.1" width="0" layer="19" extent="1-1"/>
-<wire x1="36.6" y1="84.5" x2="37.5" y2="83.1" width="0" layer="19" extent="1-1"/>
-<wire x1="32.9" y1="84.7" x2="36.6" y2="84.5" width="0" layer="19" extent="1-1"/>
-<wire x1="32.8344" y1="84.075" x2="32.9" y2="84.7" width="0" layer="19" extent="1-1"/>
-<wire x1="39.105" y1="87.359" x2="36.6" y2="84.5" width="0" layer="19" extent="1-1"/>
-<wire x1="42.915" y1="87.359" x2="39.105" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="44.185" y1="87.359" x2="42.915" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="45.455" y1="87.359" x2="44.185" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="26.620078125" y1="62.59891875" x2="31" y2="63.5" width="0" layer="19" extent="1-1"/>
-<wire x1="26.2" y1="61.8" x2="26.620078125" y2="62.59891875" width="0" layer="19" extent="1-1"/>
-<wire x1="25.6" y1="62.6" x2="26.620078125" y2="62.59891875" width="0" layer="19" extent="1-1"/>
-<wire x1="26.4" y1="69.3" x2="31" y2="70.3" width="0" layer="19" extent="1-1"/>
-<wire x1="26.4" y1="68.6" x2="26.4" y2="69.3" width="0" layer="19" extent="1-1"/>
-<wire x1="24.8" y1="68.4" x2="26.4" y2="68.6" width="0" layer="19" extent="1-1"/>
-<wire x1="20.8" y1="62.5" x2="25.6" y2="62.6" width="0" layer="19" extent="1-1"/>
-<wire x1="20" y1="62.5" x2="20.8" y2="62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20" y1="63.4" x2="20" y2="62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="20" y1="64.3" x2="20" y2="63.4" width="0" layer="19" extent="1-1"/>
-<wire x1="20.8" y1="64.3" x2="20" y2="64.3" width="0" layer="19" extent="1-1"/>
-<wire x1="20" y1="65.2" x2="20" y2="64.3" width="0" layer="19" extent="1-1"/>
-<wire x1="19.8" y1="61.6" x2="20" y2="62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="17.4" y1="61.4" x2="19.8" y2="61.6" width="0" layer="19" extent="1-1"/>
-<wire x1="17.2" y1="60.9" x2="17.4" y2="61.4" width="0" layer="19" extent="1-1"/>
-<wire x1="15.5" y1="61.6" x2="16.575" y2="61.525" width="0" layer="19" extent="1-1"/>
-<wire x1="15.575" y1="60.525" x2="15.5" y2="61.6" width="0" layer="19" extent="1-1"/>
-<wire x1="14.6" y1="62.5" x2="15.5" y2="61.6" width="0" layer="19" extent="1-1"/>
-<wire x1="15.5" y1="63.4" x2="14.6" y2="62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="14.925" y1="64.475" x2="15.5" y2="63.4" width="0" layer="19" extent="1-1"/>
-<wire x1="14.275" y1="64.475" x2="14.925" y2="64.475" width="0" layer="19" extent="1-1"/>
-<wire x1="14.2" y1="66.3" x2="14.3" y2="65.4" width="0" layer="19" extent="1-1"/>
-<wire x1="13.5" y1="66.3" x2="14.2" y2="66.3" width="0" layer="19" extent="1-1"/>
-<wire x1="14.2" y1="67.2" x2="14.2" y2="66.3" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="63.4" x2="14.275" y2="64.475" width="0" layer="19" extent="1-1"/>
-<wire x1="12.625" y1="63.475" x2="13.7" y2="63.4" width="0" layer="19" extent="1-1"/>
-<wire x1="12.6" y1="64.1" x2="12.625" y2="63.475" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="61.6" x2="14.6" y2="62.5" width="0" layer="19" extent="1-1"/>
-<wire x1="12.625" y1="61.525" x2="13.7" y2="61.6" width="0" layer="19" extent="1-1"/>
-<wire x1="11.8" y1="62.1" x2="11.8" y2="61.5" width="0" layer="19" extent="1-1"/>
-<wire x1="14.7" y1="93.9" x2="14.5" y2="89" width="0" layer="19" extent="1-1"/>
-<wire x1="19.3" y1="94" x2="14.7" y2="93.9" width="0" layer="19" extent="1-1"/>
-<wire x1="23.5" y1="94" x2="19.3" y2="94" width="0" layer="19" extent="1-1"/>
-<wire x1="27.7" y1="93.9" x2="23.5" y2="94" width="0" layer="19" extent="1-1"/>
-<wire x1="31.1" y1="93.97" x2="27.7" y2="93.9" width="0" layer="19" extent="1-1"/>
-<wire x1="26" y1="84.7" x2="26.1" y2="79.5" width="0" layer="19" extent="1-1"/>
-<wire x1="25.3" y1="84.7" x2="26" y2="84.7" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="82" x2="1" y2="76" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="88" x2="1" y2="82" width="0" layer="19" extent="1-1"/>
-<wire x1="3.8" y1="88.8" x2="1" y2="88" width="0" layer="19" extent="1-1"/>
-<wire x1="3.78" y1="90.11" x2="3.8" y2="88.8" width="0" layer="19" extent="1-1"/>
-<wire x1="3.8" y1="90.8" x2="3.78" y2="90.11" width="0" layer="19" extent="1-1"/>
-<wire x1="4.6" y1="91.4" x2="3.8" y2="90.8" width="0" layer="19" extent="1-1"/>
-<wire x1="7" y1="94" x2="4.6" y2="91.4" width="0" layer="19" extent="1-1"/>
-<wire x1="1" y1="10" x2="1" y2="16" width="0" layer="19" extent="1-1"/>
-<wire x1="3.5" y1="4.5" x2="1" y2="10" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="55.5" x2="11.8" y2="61.5" width="0" layer="19" extent="1-1"/>
-<wire x1="9.1" y1="55.5" x2="10" y2="55.5" width="0" layer="19" extent="1-1"/>
-<wire x1="9.1" y1="54.7" x2="9.1" y2="55.5" width="0" layer="19" extent="1-1"/>
-<wire x1="8.2" y1="55.5" x2="9.1" y2="55.5" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="18.9" x2="38.3" y2="13.8" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="19.6" x2="34" y2="18.9" width="0" layer="19" extent="1-1"/>
-<wire x1="34" y1="20.3" x2="34" y2="19.6" width="0" layer="19" extent="1-1"/>
-<wire x1="15.401" y1="51.409" x2="10" y2="55.5" width="0" layer="19" extent="1-1"/>
-<wire x1="16.3" y1="51.4" x2="15.401" y2="51.409" width="0" layer="19" extent="1-1"/>
-<wire x1="16.3" y1="52.2" x2="16.3" y2="51.4" width="0" layer="19" extent="1-1"/>
-<wire x1="17.2" y1="51.4" x2="16.3" y2="51.4" width="0" layer="19" extent="1-1"/>
-<wire x1="18.1" y1="51.4" x2="17.2" y2="51.4" width="0" layer="19" extent="1-1"/>
-<wire x1="18.1" y1="52.2" x2="18.1" y2="51.4" width="0" layer="19" extent="1-1"/>
-<wire x1="19" y1="51.4" x2="18.1" y2="51.4" width="0" layer="19" extent="1-1"/>
-<wire x1="17.858" y1="48.8" x2="18.1" y2="51.4" width="0" layer="19" extent="1-1"/>
-<wire x1="21.6" y1="49.8" x2="19" y2="51.4" width="0" layer="19" extent="1-1"/>
-<wire x1="22.4" y1="49.8" x2="21.6" y2="49.8" width="0" layer="19" extent="1-1"/>
-<wire x1="22.4" y1="48.9" x2="22.4" y2="49.8" width="0" layer="19" extent="1-1"/>
-<wire x1="24.4842" y1="48.9" x2="22.4" y2="48.9" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8" y1="43.65" x2="24.45" y2="47.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30.6" y1="43.3" x2="28.1" y2="43.6" width="0" layer="19" extent="1-1"/>
-<wire x1="30.6" y1="44.2" x2="30.6" y2="43.3" width="0" layer="19" extent="1-1"/>
-<wire x1="31.4" y1="44.2" x2="30.6" y2="44.2" width="0" layer="19" extent="1-1"/>
-<wire x1="30.6" y1="45.1" x2="30.6" y2="44.2" width="0" layer="19" extent="1-1"/>
-<wire x1="32.3" y1="43.2" x2="31.4" y2="44.2" width="0" layer="19" extent="1-1"/>
-<wire x1="32.3" y1="42.3" x2="32.3" y2="43.2" width="0" layer="19" extent="1-1"/>
-<wire x1="33.1" y1="42.3" x2="32.3" y2="42.3" width="0" layer="19" extent="1-1"/>
-<wire x1="32.3" y1="41.4" x2="32.3" y2="42.3" width="0" layer="19" extent="1-1"/>
-<wire x1="31.3" y1="40.8" x2="32.3" y2="41.4" width="0" layer="19" extent="1-1"/>
-<wire x1="31.3" y1="40.2" x2="31.3" y2="40.8" width="0" layer="19" extent="1-1"/>
-<wire x1="30.525" y1="40.525" x2="31.3" y2="40.8" width="0" layer="19" extent="1-1"/>
-<wire x1="30.5" y1="41.4" x2="30.525" y2="40.525" width="0" layer="19" extent="1-1"/>
-<wire x1="29.275" y1="38.875" x2="30.525" y2="40.525" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5" y1="39.1" x2="29.275" y2="38.875" width="0" layer="19" extent="1-1"/>
-<wire x1="28.5" y1="38.5" x2="28.5" y2="39.1" width="0" layer="19" extent="1-1"/>
-<wire x1="29.3" y1="38" x2="29.275" y2="38.875" width="0" layer="19" extent="1-1"/>
-<wire x1="32.2" y1="38.3" x2="31.3" y2="40.2" width="0" layer="19" extent="1-1"/>
-<wire x1="32.2" y1="37.4" x2="32.2" y2="38.3" width="0" layer="19" extent="1-1"/>
-<wire x1="33" y1="37.4" x2="32.2" y2="37.4" width="0" layer="19" extent="1-1"/>
-<wire x1="32.2" y1="36.5" x2="32.2" y2="37.4" width="0" layer="19" extent="1-1"/>
-<wire x1="31.4" y1="35.8" x2="32.2" y2="36.5" width="0" layer="19" extent="1-1"/>
-<wire x1="30.56" y1="35.81" x2="31.4" y2="35.8" width="0" layer="19" extent="1-1"/>
-<wire x1="30.6" y1="34.9" x2="30.56" y2="35.81" width="0" layer="19" extent="1-1"/>
-<wire x1="26.8" y1="32.7" x2="30.6" y2="34.9" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="32.7" x2="26.8" y2="32.7" width="0" layer="19" extent="1-1"/>
-<wire x1="25.9" y1="31.9" x2="25.9" y2="32.7" width="0" layer="19" extent="1-1"/>
-<wire x1="25" y1="32.7" x2="25.9" y2="32.7" width="0" layer="19" extent="1-1"/>
-<wire x1="24.3" y1="32.8" x2="25" y2="32.7" width="0" layer="19" extent="1-1"/>
-<wire x1="24.3" y1="33.7" x2="24.3" y2="32.8" width="0" layer="19" extent="1-1"/>
-<wire x1="24.3907875" y1="34.9907875" x2="24.3" y2="33.7" width="0" layer="19" extent="1-1"/>
-<wire x1="15.5" y1="33.1" x2="14.8886" y2="25.2284" width="0" layer="19" extent="1-1"/>
-<wire x1="14.3" y1="33.1" x2="15.5" y2="33.1" width="0" layer="19" extent="1-1"/>
-<wire x1="13.2" y1="33.1" x2="14.3" y2="33.1" width="0" layer="19" extent="1-1"/>
-<wire x1="11.6" y1="37.3" x2="13.2" y2="33.1" width="0" layer="19" extent="1-1"/>
-<wire x1="11.6" y1="38.2" x2="11.6" y2="37.3" width="0" layer="19" extent="1-1"/>
-<wire x1="10.8" y1="38.2" x2="11.6" y2="38.2" width="0" layer="19" extent="1-1"/>
-<wire x1="11.6" y1="39.1" x2="11.6" y2="38.2" width="0" layer="19" extent="1-1"/>
-<wire x1="14.3" y1="38.708" x2="11.6" y2="39.1" width="0" layer="19" extent="1-1"/>
-<wire x1="51.4" y1="79.3" x2="45.455" y2="87.359" width="0" layer="19" extent="1-1"/>
-<wire x1="55.0525" y1="78.257" x2="51.4" y2="79.3" width="0" layer="19" extent="1-1"/>
-<wire x1="59.6" y1="79.6" x2="55.0525" y2="78.257" width="0" layer="19" extent="1-1"/>
-<wire x1="63.4525" y1="78.557" x2="59.6" y2="79.6" width="0" layer="19" extent="1-1"/>
+<wire x1="33.53" y1="9.5906625" x2="33.53" y2="10.37" width="0.3048" layer="1"/>
+<wire x1="33.53" y1="10.37" x2="33.3" y2="10.6" width="0.3048" layer="1"/>
+<wire x1="32.03" y1="9.5906625" x2="32.03" y2="8.63" width="0.3048" layer="1"/>
+<wire x1="32.03" y1="8.63" x2="32" y2="8.6" width="0.3048" layer="1"/>
+<via x="30.8" y="10.6" extent="1-16" drill="0.254"/>
+<wire x1="30.53" y1="9.5906625" x2="30.53" y2="10.33" width="0.3048" layer="1"/>
+<wire x1="30.53" y1="10.33" x2="30.8" y2="10.6" width="0.3048" layer="1"/>
+<polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="3">
+<vertex x="47.8" y="16.3"/>
+<vertex x="47.8" y="18"/>
+<vertex x="49.5" y="18"/>
+<vertex x="49.5" y="16.3"/>
+</polygon>
+<polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="3">
+<vertex x="77.2" y="18.2"/>
+<vertex x="77.2" y="16.3"/>
+<vertex x="79.2" y="16.3"/>
+<vertex x="79.2" y="18.2"/>
+</polygon>
+<wire x1="79.5" y1="18.63" x2="80.00415625" y2="18.63" width="0.3048" layer="1"/>
+<wire x1="80.00415625" y1="18.63" x2="80.01355625" y2="18.6206" width="0.3048" layer="1"/>
+<wire x1="80.01355625" y1="18.6206" x2="80.2794" y2="18.6206" width="0.3048" layer="1"/>
+<wire x1="80.2794" y1="18.6206" x2="80.4" y2="18.5" width="0.3048" layer="1"/>
+<wire x1="79.5" y1="18.13" x2="80.03" y2="18.13" width="0.3048" layer="1"/>
+<wire x1="80.03" y1="18.13" x2="80.4" y2="18.5" width="0.3048" layer="1"/>
+<polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="3">
+<vertex x="79" y="19"/>
+<vertex x="79" y="17.8"/>
+<vertex x="82.4" y="17.8"/>
+<vertex x="82.4" y="19.2"/>
+<vertex x="83.6" y="19.2"/>
+<vertex x="84.5" y="18.3"/>
+<vertex x="86.7" y="18.3"/>
+<vertex x="87.7" y="19.3"/>
+<vertex x="87.7" y="20.2"/>
+<vertex x="82.5" y="20.2"/>
+<vertex x="82.5" y="19.7"/>
+<vertex x="81.6" y="19.7"/>
+<vertex x="81.6" y="19"/>
+</polygon>
+<polygon width="0.127" layer="2" isolate="0.2" thermals="no" rank="3">
+<vertex x="79" y="19"/>
+<vertex x="79" y="17.8"/>
+<vertex x="82.4" y="17.8"/>
+<vertex x="82.4" y="19.2"/>
+<vertex x="83.6" y="19.2"/>
+<vertex x="84.5" y="18.3"/>
+<vertex x="86.7" y="18.3"/>
+<vertex x="87.7" y="19.3"/>
+<vertex x="87.7" y="20.2"/>
+<vertex x="82.5" y="20.2"/>
+<vertex x="82.5" y="19.7"/>
+<vertex x="81.6" y="19.7"/>
+<vertex x="81.6" y="19"/>
+</polygon>
+<wire x1="79.5" y1="18.63" x2="78.546209375" y2="19.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="U7" pad="21"/>
@@ -9114,7 +8640,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.95" y1="75.71" x2="65.57" y2="75.69" width="0.38" layer="1"/>
 <wire x1="48.5625" y1="74.3225" x2="49.95" y2="75.71" width="0.38" layer="1" curve="-90"/>
 <wire x1="48.5625" y1="72.475" x2="48.5625" y2="73.08" width="0.254" layer="1"/>
-<wire x1="48.5625" y1="73.08" x2="48.567" y2="73.08" width="0.254" layer="1"/>
 <wire x1="48.5625" y1="73.08" x2="48.5625" y2="74.3225" width="0.38" layer="1"/>
 </signal>
 <signal name="L-BAND-ANT" class="1">
@@ -9887,13 +9412,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.9133375" y1="31.4908" x2="21.273175" y2="31.4908" width="0.3048" layer="16"/>
 <wire x1="40.4226" y1="22.8056" x2="40.4226" y2="23.5374" width="0.3048" layer="1"/>
 <wire x1="40.4226" y1="23.5374" x2="39.41" y2="24.55" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="25.3" x2="33" y2="24.4" width="0.3048" layer="16"/>
-<wire x1="33" y1="24.4" x2="31.0041375" y2="24.4" width="0.3048" layer="16"/>
+<wire x1="33.8" y1="25.3" x2="32.9" y2="24.4" width="0.3048" layer="16"/>
+<wire x1="32.9" y1="24.4" x2="31.0041375" y2="24.4" width="0.3048" layer="16"/>
 <wire x1="31.0041375" y1="24.4" x2="23.9133375" y2="31.4908" width="0.3048" layer="16"/>
-<wire x1="34.65" y1="24.55" x2="33.9" y2="25.3" width="0.3048" layer="1"/>
-<wire x1="39.41" y1="24.55" x2="34.65" y2="24.55" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="25.3" x2="33.9" y2="26" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="26" x2="34.7" y2="26.8" width="0.3048" layer="1"/>
+<wire x1="34.55" y1="24.55" x2="33.8" y2="25.3" width="0.3048" layer="1"/>
+<wire x1="39.41" y1="24.55" x2="34.55" y2="24.55" width="0.3048" layer="1"/>
+<wire x1="33.8" y1="25.3" x2="33.8" y2="25.9" width="0.3048" layer="1"/>
+<wire x1="33.8" y1="25.9" x2="34.7" y2="26.8" width="0.3048" layer="1"/>
 <wire x1="34.7" y1="26.8" x2="34.7" y2="29.8" width="0.3048" layer="1"/>
 </signal>
 <signal name="LO-SCLK">
@@ -9910,17 +9435,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.8" y1="44.7" x2="19.8" y2="32.3533125" width="0.3048" layer="16"/>
 <wire x1="23.734475" y1="31.059" x2="21.0943125" y2="31.059" width="0.3048" layer="16"/>
 <wire x1="39.9226" y1="23.4167375" x2="39.9226" y2="22.8056" width="0.3048" layer="1"/>
-<wire x1="39.9226" y1="23.4167375" x2="39.2211375" y2="24.1182" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="23.5" x2="31.293475" y2="23.5" width="0.3048" layer="16"/>
+<wire x1="39.2211375" y1="24.1182" x2="39.9226" y2="23.4167375" width="0.3048" layer="1"/>
+<wire x1="33.8" y1="23.5" x2="31.293475" y2="23.5" width="0.3048" layer="16"/>
 <wire x1="31.293475" y1="23.5" x2="23.734475" y2="31.059" width="0.3048" layer="16"/>
-<wire x1="39.2211375" y1="24.1182" x2="36.5182" y2="24.1182" width="0.3048" layer="1"/>
+<wire x1="36.5182" y1="24.1182" x2="39.2211375" y2="24.1182" width="0.3048" layer="1"/>
 <wire x1="36.5182" y1="24.1182" x2="35.9" y2="23.5" width="0.3048" layer="1"/>
-<wire x1="35.9" y1="23.5" x2="33.9" y2="23.5" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="23.5" x2="33.9" y2="24.10936875" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="24.10936875" x2="33.0581" y2="24.95126875" width="0.3048" layer="1"/>
-<wire x1="33.0581" y1="26.8581" x2="33.2" y2="27" width="0.3048" layer="1"/>
+<wire x1="35.9" y1="23.5" x2="33.8" y2="23.5" width="0.3048" layer="1"/>
+<wire x1="33.8" y1="23.5" x2="33.8" y2="23.50936875" width="0.3048" layer="1"/>
+<wire x1="33.8" y1="23.50936875" x2="32.7581" y2="24.55126875" width="0.3048" layer="1"/>
+<wire x1="32.7581" y1="26.5581" x2="33.2" y2="27" width="0.3048" layer="1"/>
 <wire x1="33.2" y1="27" x2="33.2" y2="29.8" width="0.3048" layer="1"/>
-<wire x1="33.0581" y1="24.95126875" x2="33.0581" y2="26.8581" width="0.3048" layer="1"/>
+<wire x1="32.7581" y1="24.55126875" x2="32.7581" y2="26.5581" width="0.3048" layer="1"/>
 </signal>
 <signal name="LO-SDATA">
 <contactref element="U7" pad="35"/>
@@ -9937,15 +9462,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.5464125" y1="21.6364" x2="23.5556125" y2="30.6272" width="0.3048" layer="16"/>
 <wire x1="39.4226" y1="23.306075" x2="39.042275" y2="23.6864" width="0.3048" layer="1"/>
 <wire x1="39.4226" y1="23.306075" x2="39.4226" y2="22.8056" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="21.7" x2="33.8364" y2="21.6364" width="0.3048" layer="16"/>
-<wire x1="33.8364" y1="21.6364" x2="32.5464125" y2="21.6364" width="0.3048" layer="16"/>
+<wire x1="33.8" y1="21.7" x2="33.7364" y2="21.6364" width="0.3048" layer="16"/>
+<wire x1="33.7364" y1="21.6364" x2="32.5464125" y2="21.6364" width="0.3048" layer="16"/>
 <wire x1="39.042275" y1="23.6864" x2="36.9864" y2="23.6864" width="0.3048" layer="1"/>
-<wire x1="35" y1="21.7" x2="33.9" y2="21.7" width="0.3048" layer="1"/>
+<wire x1="35" y1="21.7" x2="33.8" y2="21.7" width="0.3048" layer="1"/>
 <wire x1="36.9864" y1="23.6864" x2="35" y2="21.7" width="0.3048" layer="1"/>
-<wire x1="32.6263" y1="26.8737" x2="31.7" y2="27.8" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="21.7" x2="33.9" y2="22.30936875" width="0.3048" layer="1"/>
-<wire x1="33.9" y1="22.30936875" x2="32.6263" y2="23.58306875" width="0.3048" layer="1"/>
-<wire x1="32.6263" y1="23.58306875" x2="32.6263" y2="26.8737" width="0.3048" layer="1"/>
+<wire x1="32.3263" y1="27.1737" x2="31.7" y2="27.8" width="0.3048" layer="1"/>
+<wire x1="33.8" y1="21.7" x2="33.8" y2="21.70936875" width="0.3048" layer="1"/>
+<wire x1="33.8" y1="21.70936875" x2="32.3263" y2="23.18306875" width="0.3048" layer="1"/>
+<wire x1="32.3263" y1="23.18306875" x2="32.3263" y2="27.1737" width="0.3048" layer="1"/>
 <wire x1="31.7" y1="27.8" x2="31.7" y2="29.8" width="0.3048" layer="1"/>
 </signal>
 <signal name="LO-PLL">
@@ -10648,8 +10173,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="76.8" y="16.4"/>
 <vertex x="77.1" y="16.7"/>
 <vertex x="77.1" y="18.3"/>
-<vertex x="79.1" y="18.3"/>
-<vertex x="79.1" y="20"/>
+<vertex x="79" y="18.3"/>
+<vertex x="79" y="19.9"/>
 <vertex x="80.9" y="21.8"/>
 <vertex x="80.9" y="26.8"/>
 <vertex x="94" y="26.8"/>
@@ -10665,8 +10190,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="76.8" y="16.4"/>
 <vertex x="77.1" y="16.7"/>
 <vertex x="77.1" y="18.3"/>
-<vertex x="79.1" y="18.3"/>
-<vertex x="79.1" y="20"/>
+<vertex x="79" y="18.3"/>
+<vertex x="79" y="19.9"/>
 <vertex x="80.9" y="21.8"/>
 <vertex x="80.9" y="26.8"/>
 <vertex x="94" y="26.8"/>
@@ -10682,8 +10207,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="76.8" y="16.4"/>
 <vertex x="77.1" y="16.7"/>
 <vertex x="77.1" y="18.3"/>
-<vertex x="79.1" y="18.3"/>
-<vertex x="79.1" y="20"/>
+<vertex x="79" y="18.3"/>
+<vertex x="79" y="19.9"/>
 <vertex x="80.9" y="21.8"/>
 <vertex x="80.9" y="26.8"/>
 <vertex x="94" y="26.8"/>
@@ -11061,7 +10586,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="89.477" y1="64.548" x2="88.777" y2="64.548" width="0.4" layer="1"/>
 <wire x1="89.477" y1="64.548" x2="89.477" y2="65.348" width="0.4" layer="1"/>
 <wire x1="89.477" y1="67.048" x2="89.477" y2="66.248" width="0.4" layer="1"/>
-<wire x1="88.777" y1="67.048" x2="89.227" y2="67.048" width="0.4" layer="1"/>
 <wire x1="89.477" y1="67.848" x2="89.477" y2="67.048" width="0.4" layer="1"/>
 <via x="93.477" y="64.548" extent="1-16" drill="0.254"/>
 <wire x1="92.777" y1="64.548" x2="93.477" y2="64.548" width="0.4" layer="1"/>
@@ -11100,6 +10624,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="85.258" y="50.994" extent="1-16" drill="0.254"/>
 <via x="83.858" y="50.994" extent="1-16" drill="0.254"/>
 <via x="91.7" y="50.7" extent="1-16" drill="0.254"/>
+<wire x1="88.777" y1="67.048" x2="89.232" y2="67.048" width="0.39" layer="1"/>
 </signal>
 <signal name="GND-L">
 <contactref element="C46" pad="2"/>
@@ -11813,13 +11338,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="59" y="27.6" extent="1-16" drill="0.254"/>
 <wire x1="49.3584" y1="39.3986" x2="49.3584" y2="38.1036" width="0.4" layer="1"/>
 <wire x1="49.3584" y1="38.1036" x2="49.2434" y2="37.9886" width="0.4" layer="1"/>
-<wire x1="49.2434" y1="37.9886" x2="49.3934" y2="37.8386" width="0.4" layer="1"/>
 <wire x1="46.8184" y1="39.3986" x2="46.8184" y2="38.1286" width="0.4" layer="1"/>
 <wire x1="46.8184" y1="38.1286" x2="46.6784" y2="37.9886" width="0.4" layer="1"/>
 <wire x1="46.8184" y1="36.5786" x2="46.8184" y2="37.8486" width="0.4" layer="1"/>
 <wire x1="46.8184" y1="37.8486" x2="46.6784" y2="37.9886" width="0.4" layer="1"/>
-<wire x1="49.3584" y1="36.5786" x2="49.3584" y2="37.8736" width="0.4" layer="1"/>
-<wire x1="49.3584" y1="37.8736" x2="49.2434" y2="37.9886" width="0.4" layer="1"/>
 <via x="49.365" y="35.479" extent="1-16" drill="0.254"/>
 <via x="46.8" y="35.5" extent="1-16" drill="0.254"/>
 <wire x1="49.3584" y1="36.5786" x2="49.3584" y2="35.4856" width="0.4" layer="1"/>
@@ -11852,6 +11374,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C111" pad="2"/>
 <contactref element="C112" pad="2"/>
 <contactref element="C113" pad="2"/>
+<wire x1="49.3584" y1="36.5786" x2="49.3584" y2="37.8736" width="0.4" layer="1"/>
+<wire x1="49.3584" y1="37.8736" x2="49.2434" y2="37.9886" width="0.4" layer="1"/>
 </signal>
 <signal name="OPD_SCL_P">
 <contactref element="R8" pad="2"/>
@@ -11926,11 +11450,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C30" pad="2"/>
 <contactref element="L14" pad="1"/>
 <wire x1="45.046" y1="42.0832" x2="45.046" y2="43.8832" width="0.39" layer="1"/>
-<wire x1="45.046" y1="42.0832" x2="46.45339375" y2="42.09660625" width="0.38" layer="1"/>
-<wire x1="46.45339375" y1="42.09660625" x2="48.09999375" y2="40.450003125" width="0.38" layer="1" curve="-90"/>
-<wire x1="48.09999375" y1="40.450003125" x2="48.099996875" y2="39.4" width="0.39" layer="1"/>
 <contactref element="U15" pad="2"/>
-<wire x1="48.0884" y1="39.3986" x2="48.099996875" y2="39.4" width="0" layer="19" extent="1-1"/>
+<wire x1="48.0884" y1="39.3986" x2="48.0884" y2="40.2432" width="0.39" layer="1"/>
+<wire x1="48.0884" y1="40.2432" x2="46.2484" y2="42.0832" width="0.39" layer="1" curve="90"/>
+<wire x1="46.2484" y1="42.0832" x2="45.046" y2="42.0832" width="0.39" layer="1"/>
 </signal>
 <signal name="IF-SAW-OUT" class="1">
 <contactref element="L38" pad="1"/>
@@ -12191,7 +11714,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="89.605" y="32.71" extent="1-16" drill="0.254"/>
 <via x="90.28" y="32.71" extent="1-16" drill="0.254"/>
 <polygon width="0.127" layer="15" isolate="0.2" rank="4">
-<vertex x="81.1" y="90.7"/>
+<vertex x="81.1" y="91"/>
 <vertex x="81.1" y="77.3"/>
 <vertex x="66.3" y="62.5"/>
 <vertex x="66.3" y="14.3"/>
@@ -12200,13 +11723,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="76.8" y="16.4"/>
 <vertex x="77.1" y="16.7"/>
 <vertex x="77.1" y="18.3"/>
-<vertex x="79.1" y="18.3"/>
-<vertex x="79.1" y="20"/>
+<vertex x="79" y="18.3"/>
+<vertex x="79" y="19.9"/>
 <vertex x="80.9" y="21.8"/>
 <vertex x="80.9" y="26.8"/>
 <vertex x="94" y="26.8"/>
 <vertex x="94" y="91"/>
-<vertex x="81.1" y="91"/>
 </polygon>
 <contactref element="Q10" pad="2"/>
 <via x="80.802" y="55.245" extent="1-16" drill="0.254"/>
@@ -12229,7 +11751,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="R60" pad="2"/>
 <wire x1="55.05" y1="63.1" x2="53.674146875" y2="63.116384375" width="0.39" layer="1"/>
 <wire x1="48.5625" y1="71.125" x2="49.135" y2="71.125" width="0.254" layer="1"/>
-<wire x1="49.135" y1="71.125" x2="49.135" y2="71.124" width="0.254" layer="1"/>
 <wire x1="49.135" y1="71.125" x2="49.735" y2="71.125" width="0.38" layer="1"/>
 </signal>
 <signal name="CAPS1">
@@ -12311,7 +11832,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="44.84" y1="69.085" x2="44.84" y2="69.825" width="0.38" layer="1"/>
 <wire x1="46.14" y1="71.125" x2="44.84" y2="69.825" width="0.38" layer="1" curve="90"/>
 <wire x1="47.6375" y1="71.125" x2="47.07" y2="71.125" width="0.254" layer="1"/>
-<wire x1="47.07" y1="71.125" x2="47.07" y2="71.124" width="0.254" layer="1"/>
 <wire x1="47.07" y1="71.125" x2="46.14" y2="71.125" width="0.38" layer="1"/>
 </signal>
 <signal name="L-BGB-LNA-RF_IN" class="1">
@@ -12321,7 +11841,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="L-BGB-LNA-RF_OUT" class="1">
 <contactref element="U21" pad="1"/>
-<wire x1="44.9380625" y1="53.484365625" x2="44.9" y2="53.522428125" width="0.39" layer="1"/>
 <contactref element="C81" pad="2"/>
 <wire x1="44.9" y1="55.35" x2="44.9380625" y2="55.3119375" width="0.38" layer="1"/>
 <wire x1="44.9380625" y1="55.3119375" x2="44.9380625" y2="53.484365625" width="0.38" layer="1"/>
@@ -12532,27 +12051,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="85.3" y1="29.5" x2="85.3" y2="31.5" width="1.27" layer="15"/>
 <wire x1="89.6" y1="25.2" x2="85.3" y2="29.5" width="1.27" layer="15"/>
 <wire x1="89.6" y1="21.6" x2="89.6" y2="25.2" width="1.27" layer="15"/>
-<polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="4">
-<vertex x="84.6" y="15.2"/>
-<vertex x="84.6" y="16.4"/>
-<vertex x="80.6" y="16.4"/>
-<vertex x="80.1" y="16.9"/>
-<vertex x="79.1" y="16.9"/>
-<vertex x="79.1" y="17.4"/>
-<vertex x="80.3" y="17.4"/>
-<vertex x="80.7" y="17.8"/>
-<vertex x="86.8" y="17.8"/>
-<vertex x="88" y="19"/>
-<vertex x="88" y="23.3"/>
-<vertex x="93.2" y="23.3"/>
-<vertex x="93.2" y="21"/>
-<vertex x="89.6" y="21"/>
-<vertex x="89.2" y="20.6"/>
-<vertex x="89.2" y="18.7"/>
-<vertex x="87.3" y="16.8"/>
-<vertex x="85.7" y="16.8"/>
-<vertex x="85.7" y="15.2"/>
-</polygon>
 <wire x1="85.3" y1="32.1" x2="85.3" y2="31.5" width="1.27" layer="15"/>
 <via x="85.6" y="30" extent="1-16" drill="0.254"/>
 <via x="84.9" y="30" extent="1-16" drill="0.254"/>
@@ -12573,11 +12071,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="85.3" y="32.8" extent="1-16" drill="0.254"/>
 <contactref element="3.3V-U" pad="1"/>
 <contactref element="C29" pad="1"/>
-<polygon width="0.127" layer="1" thermals="no">
-<vertex x="82.6" y="18.6"/>
-<vertex x="82.6" y="17.6"/>
-<vertex x="83.7" y="17.6"/>
-<vertex x="83.7" y="18.6"/>
+<wire x1="79.5" y1="17.13" x2="81.07" y2="17.13" width="0.3048" layer="1"/>
+<wire x1="81.07" y1="17.13" x2="81.1" y2="17.1" width="0.3048" layer="1"/>
+<polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="3">
+<vertex x="80.5" y="16.4"/>
+<vertex x="80.5" y="17.5"/>
+<vertex x="82.7" y="17.5"/>
+<vertex x="82.7" y="18.8"/>
+<vertex x="83.6" y="18.8"/>
+<vertex x="84.4" y="18"/>
+<vertex x="86.8" y="18"/>
+<vertex x="88" y="19.2"/>
+<vertex x="88" y="23.3"/>
+<vertex x="93.2" y="23.3"/>
+<vertex x="93.2" y="21"/>
+<vertex x="89.3" y="21"/>
+<vertex x="89.3" y="17.7"/>
+<vertex x="88.5" y="16.9"/>
+<vertex x="86.1" y="16.9"/>
+<vertex x="85.7" y="16.5"/>
+<vertex x="85.7" y="15.3"/>
+<vertex x="84.7" y="15.3"/>
+<vertex x="84.7" y="16.4"/>
 </polygon>
 </signal>
 <signal name="N$18" class="1">
@@ -12913,9 +12428,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$63" class="1">
 <contactref element="U21" pad="2"/>
 <contactref element="R56" pad="1"/>
-<wire x1="44.89816875" y1="50.85" x2="44.89816875" y2="51.889071875" width="0.39" layer="1"/>
-<wire x1="44.943471875" y1="51.934375" x2="44.89816875" y2="51.889071875" width="0.39" layer="1"/>
-<wire x1="44.89816875" y1="50.85" x2="44.9" y2="50.85" width="0" layer="19" extent="1-1"/>
+<wire x1="44.9" y1="50.85" x2="44.9" y2="51.890903125" width="0.39" layer="1"/>
+<wire x1="44.9" y1="51.890903125" x2="44.943471875" y2="51.934375" width="0.39" layer="1" curve="-90"/>
 </signal>
 <signal name="N$62" class="1">
 <contactref element="U15" pad="6"/>
@@ -12972,10 +12486,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="21,19,c21b3c1b3e673e1e"/>
-<approved hash="21,19,53105310511050e8"/>
-<approved hash="21,19,a3a1a3a1a1a3a2a0"/>
-<approved hash="21,19,2354235421562257"/>
 <approved hash="5,1,eef9f90639fc5d86"/>
 <approved hash="5,1,c5f2c64edab2c64e"/>
 <approved hash="5,1,ca7e1f17797f9a14"/>
@@ -12990,6 +12500,1141 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <approved hash="5,1,c5cac746db3ac776"/>
 <approved hash="5,1,e48960daea8c9515"/>
 <approved hash="5,1,cfaca9514b64dddb"/>
+<approved hash="5,1,9c5942e8b0612031"/>
+<approved hash="5,1,cede8ce519e32c81"/>
+<approved hash="5,1,3a99e111693c8011"/>
+<approved hash="5,1,68690fe51007eb3e"/>
+<approved hash="5,1,a7892f91b5dfc728"/>
+<approved hash="5,1,d61b09bffb366a57"/>
+<approved hash="5,1,c8c986a5c1321234"/>
+<approved hash="5,1,125a3af1f28102f5"/>
+<approved hash="5,1,96bf7843b0875b87"/>
+<approved hash="5,1,02a56120b6924609"/>
+<approved hash="5,1,300f44b80fa6d630"/>
+<approved hash="5,1,4e2115590c7fd8c4"/>
+<approved hash="5,1,601c0703279b8794"/>
+<approved hash="5,1,a6bbfe734c2d2ded"/>
+<approved hash="5,1,8af61e3dc66bc7a1"/>
+<approved hash="5,1,c08950b98cfe183d"/>
+<approved hash="5,1,971ddb81a78f56b9"/>
+<approved hash="5,1,0a86bd84880308c2"/>
+<approved hash="5,1,a03b6ad224b3e6f7"/>
+<approved hash="5,1,2e508822b8eb8273"/>
+<approved hash="5,1,7561d39a874ad9d8"/>
+<approved hash="5,1,122fe1b7c60a33d4"/>
+<approved hash="5,1,03466461b437b79a"/>
+<approved hash="5,1,8ae556c99f4ebde7"/>
+<approved hash="5,1,e55714c1722c442a"/>
+<approved hash="5,1,ccd33a49907f7865"/>
+<approved hash="5,1,e6f87cac7efcf145"/>
+<approved hash="5,1,565f60dd7502fc2c"/>
+<approved hash="5,1,a098a16770c2a39a"/>
+<approved hash="5,1,188fe4bbc7e13bcd"/>
+<approved hash="5,1,b9d4c8154f2146cf"/>
+<approved hash="5,1,d69822e9a30fcf63"/>
+<approved hash="5,1,f0811b0aafbce479"/>
+<approved hash="5,1,31eb0015ef21c6f3"/>
+<approved hash="5,1,9848d3287555c79c"/>
+<approved hash="5,1,8a756c918cbde746"/>
+<approved hash="5,1,809bc21039335de0"/>
+<approved hash="5,1,60793f9266786149"/>
+<approved hash="5,1,7ec7811aadc9515a"/>
+<approved hash="5,1,c3a939d06bec0e1d"/>
+<approved hash="5,1,f395491bf9f3f77b"/>
+<approved hash="5,1,99eacac2f32d9fe6"/>
+<approved hash="5,1,a03a176d2d9edab3"/>
+<approved hash="5,1,7b0c741006474ed5"/>
+<approved hash="5,1,50755a586bef4242"/>
+<approved hash="5,1,28f5522379f57909"/>
+<approved hash="5,1,45f0a08d76757d69"/>
+<approved hash="5,1,a7d883c4f1ed2331"/>
+<approved hash="5,1,471ea69a6cae7d4d"/>
+<approved hash="5,1,a07984ad86c576c5"/>
+<approved hash="5,1,4f8da1bd2cbf2a7f"/>
+<approved hash="5,1,5e911a69c88dbcf2"/>
+<approved hash="5,1,5d84fed5825dacf2"/>
+<approved hash="5,1,9293e60e621248cd"/>
+<approved hash="5,1,3d14564db09c86fa"/>
+<approved hash="5,1,007bec3ad037f5da"/>
+<approved hash="5,1,9c02be56be909be0"/>
+<approved hash="5,1,abae82492f9ef8ba"/>
+<approved hash="5,1,e7eb9de4e3d79d23"/>
+<approved hash="5,1,4d23fabeeaf869f9"/>
+<approved hash="5,1,b33abbffbb4ba37a"/>
+<approved hash="5,1,65bd427e6e4aa57d"/>
+<approved hash="5,1,e83702ff2748cd74"/>
+<approved hash="5,1,0a543a6dc2590906"/>
+<approved hash="5,1,87ac89d451392c31"/>
+<approved hash="5,1,bf9e3f6c0baeeff0"/>
+<approved hash="5,1,7db77844d4d12f6e"/>
+<approved hash="5,1,b99b27b4b8c9222e"/>
+<approved hash="5,1,8b528ad0e7ba1ec6"/>
+<approved hash="5,1,92a7dbe00f44e01d"/>
+<approved hash="5,1,ffc0c00d2aaf4c43"/>
+<approved hash="5,1,0d77dbfd469c6091"/>
+<approved hash="5,1,fb9535ab3539e81a"/>
+<approved hash="5,1,67442676867488d9"/>
+<approved hash="5,1,966ef0a13e65d094"/>
+<approved hash="5,1,8d8c964056c6a029"/>
+<approved hash="5,1,825bf9f1346a67a7"/>
+<approved hash="5,1,8f2a996968796f90"/>
+<approved hash="5,1,ae4454a2beb2f1dc"/>
+<approved hash="5,1,e7424c163f06d8ee"/>
+<approved hash="5,1,ed7fd68d3f9f7d0d"/>
+<approved hash="5,1,80a0ed3c59601d92"/>
+<approved hash="5,1,8e47403d5f0e7143"/>
+<approved hash="5,1,4bc6b9db48c7503f"/>
+<approved hash="5,1,9e07df372f4ae922"/>
+<approved hash="5,1,273a641e708798a1"/>
+<approved hash="5,1,c88f8a621c0c3988"/>
+<approved hash="5,1,2d0645b4e2404b89"/>
+<approved hash="5,1,fc1ece64ebc06e7f"/>
+<approved hash="5,1,297c7528757b62e3"/>
+<approved hash="5,1,b32b1aa83a5b250c"/>
+<approved hash="5,1,93ca1623c475c677"/>
+<approved hash="5,1,9c9509aa4a4e141d"/>
+<approved hash="5,1,d6a327f96af361c5"/>
+<approved hash="5,1,c24ad0da43b1e54c"/>
+<approved hash="5,1,618fbbf818fabea5"/>
+<approved hash="5,1,67531d092803c2c9"/>
+<approved hash="5,1,e2a5b7664608dac3"/>
+<approved hash="5,1,71b2add5783ebac5"/>
+<approved hash="5,1,2b52d2b99a50bef6"/>
+<approved hash="5,1,17d29c894597d882"/>
+<approved hash="5,1,8cd612198e61dde7"/>
+<approved hash="5,1,2e960f3f6cedaae1"/>
+<approved hash="5,1,6f89c551e842ede0"/>
+<approved hash="5,1,ba019e6b04104691"/>
+<approved hash="5,1,c774cd9ad9a4afbc"/>
+<approved hash="5,1,8a975025370d32d8"/>
+<approved hash="5,1,0c12c1888d8a0bca"/>
+<approved hash="5,1,5f48f7b23dc96388"/>
+<approved hash="5,1,1e248f91295b8e2f"/>
+<approved hash="5,1,992ca3f6a1d26001"/>
+<approved hash="5,1,b86bb5016593131a"/>
+<approved hash="5,1,34b7cabdfe7bd026"/>
+<approved hash="5,1,88b5fe81a6475824"/>
+<approved hash="5,1,8cf2f3b2c6226281"/>
+<approved hash="5,1,8d00d3188d68e02d"/>
+<approved hash="5,1,25fb5032cfe4cc23"/>
+<approved hash="5,1,98268eb61b3d3778"/>
+<approved hash="5,1,6db4c5f2ef8f7a1c"/>
+<approved hash="5,1,0a17c488ce26ff47"/>
+<approved hash="5,1,97f3d35b76accf0d"/>
+<approved hash="5,1,ec8004646f0eec37"/>
+<approved hash="5,1,352756ecc429723d"/>
+<approved hash="5,1,4aa2761f86014597"/>
+<approved hash="5,1,ccb488b63c9aaa47"/>
+<approved hash="5,1,682bac1564d1f1c3"/>
+<approved hash="5,1,2099b51c17bd2f6f"/>
+<approved hash="5,1,03db2581ea072c81"/>
+<approved hash="5,1,c5e9ebb8c8b93d3a"/>
+<approved hash="5,1,28de926796e4480c"/>
+<approved hash="5,1,13d6406c0a9b157f"/>
+<approved hash="5,1,d1922c88a1063fb6"/>
+<approved hash="5,1,417d8de61c1db843"/>
+<approved hash="5,1,07d72a6c17e5f0ad"/>
+<approved hash="5,1,f9739337b7e5d9bb"/>
+<approved hash="5,1,ddd70dfeb54f068c"/>
+<approved hash="5,1,6c8de8ff50689ccb"/>
+<approved hash="5,1,e56d0616abe67a5e"/>
+<approved hash="5,1,de9eddcb7a213812"/>
+<approved hash="5,1,48716ed8c94befab"/>
+<approved hash="5,1,aaed29b908e52c39"/>
+<approved hash="5,1,59775326724e6f9e"/>
+<approved hash="5,1,51ee5c1f6214c2bc"/>
+<approved hash="5,1,1d16c4ac8aee32d4"/>
+<approved hash="5,1,7a6c462795f52fbf"/>
+<approved hash="5,1,9a724bfbd970c15f"/>
+<approved hash="5,1,c0f9281229823291"/>
+<approved hash="5,1,d59ea04fc579b8af"/>
+<approved hash="5,1,cb868f1cdd215427"/>
+<approved hash="5,1,449d7d435adaf380"/>
+<approved hash="5,1,d259850243342243"/>
+<approved hash="5,1,5ba389f83aef38ea"/>
+<approved hash="5,1,120a4c97d2964bf7"/>
+<approved hash="5,1,9c2b89116df48edd"/>
+<approved hash="5,1,1090da070c6b603d"/>
+<approved hash="5,1,68cd461eaea85751"/>
+<approved hash="5,1,bdd38e6fb754a88c"/>
+<approved hash="5,1,668de749d8be59b4"/>
+<approved hash="5,1,aa4867a025a5ecef"/>
+<approved hash="5,1,bf6ace4b9cd1798d"/>
+<approved hash="5,1,8861d27c9bf4799c"/>
+<approved hash="5,1,a9bbb13496af83d1"/>
+<approved hash="5,1,257ffa4e7a25d47f"/>
+<approved hash="5,1,9be8c885477c50bc"/>
+<approved hash="5,1,bceb02e87af08c54"/>
+<approved hash="5,1,8b88efa09796628f"/>
+<approved hash="5,1,535b88a53c81a72b"/>
+<approved hash="5,1,d4c2ea65f0aac432"/>
+<approved hash="5,1,b7429ef9c9987b0d"/>
+<approved hash="5,1,bf9dd9743357f08b"/>
+<approved hash="5,1,35977f61126b0ebf"/>
+<approved hash="5,1,9c9b28d75201c28c"/>
+<approved hash="5,1,33778b2dcc19adde"/>
+<approved hash="5,1,4d8ccbc05c5626f3"/>
+<approved hash="5,1,afedd06570d36b38"/>
+<approved hash="5,1,195cc41e3e1a9fa5"/>
+<approved hash="5,1,4d7751f09da063e8"/>
+<approved hash="5,1,92774917d8d765a6"/>
+<approved hash="5,1,1d33d1f38567235a"/>
+<approved hash="5,1,4b7bd51308f5172f"/>
+<approved hash="5,1,4fd5ad048a9e65be"/>
+<approved hash="5,1,c90396f5db026bff"/>
+<approved hash="5,1,6c5fc63a6877934d"/>
+<approved hash="5,1,f8312f13bac318ff"/>
+<approved hash="5,1,e0e700a567b5c9e6"/>
+<approved hash="5,1,12f3c7c00fdb22d1"/>
+<approved hash="5,1,53462a4ef66e2554"/>
+<approved hash="5,1,73f965c692c90815"/>
+<approved hash="5,1,c8402f56318aaa37"/>
+<approved hash="5,1,0f028d1f8221f50f"/>
+<approved hash="5,1,a14a2311d5112950"/>
+<approved hash="5,1,66e68201d2942a6c"/>
+<approved hash="5,1,56c43f12b4d7cc9d"/>
+<approved hash="5,1,42ca67f3c1a46f9f"/>
+<approved hash="5,1,d5fcf01d16ac924f"/>
+<approved hash="5,1,e585df9dd22dacfb"/>
+<approved hash="5,1,2a9fd3e798045ce7"/>
+<approved hash="5,1,9f5d082f0f72aeef"/>
+<approved hash="5,1,a79d782c8aa51bfd"/>
+<approved hash="5,1,faecca98c4aac125"/>
+<approved hash="5,1,eb8b7be0e3b81f3e"/>
+<approved hash="5,1,c6c973089bb5b7e7"/>
+<approved hash="5,1,494483157839805f"/>
+<approved hash="5,1,520c74d7ba69a1da"/>
+<approved hash="5,1,db42c87341f890b3"/>
+<approved hash="5,1,781b8cc7d46543cf"/>
+<approved hash="5,1,2083373f05b1eeea"/>
+<approved hash="5,1,9b0cf0ff4bc3090c"/>
+<approved hash="5,1,51b947aeac57dc60"/>
+<approved hash="5,1,54125c1bd6ed69bd"/>
+<approved hash="5,1,bf25c3a904ab9e58"/>
+<approved hash="5,1,e02bc5a069af155f"/>
+<approved hash="5,1,1f31d8befce1ea4d"/>
+<approved hash="5,1,dc8e8e9f12ecac57"/>
+<approved hash="5,1,a1ef97d02e52bc6e"/>
+<approved hash="5,1,6ef11b2f4d86b4d1"/>
+<approved hash="5,1,7a6b8d1e5e80b270"/>
+<approved hash="5,1,bfaf8c369dd8e233"/>
+<approved hash="5,1,1e0147e793bc57da"/>
+<approved hash="5,1,d7c73f9b86ad7d05"/>
+<approved hash="5,1,14cc2397724c89a4"/>
+<approved hash="5,1,ab2fec41e1e1a576"/>
+<approved hash="5,1,85418bca3d608673"/>
+<approved hash="5,1,73cc9a105124c01d"/>
+<approved hash="5,1,44a99bda4b664c9a"/>
+<approved hash="5,1,12d667badd3478a3"/>
+<approved hash="5,1,fd036cd25344925b"/>
+<approved hash="5,1,398d4617705076ca"/>
+<approved hash="5,1,511099fd8bd561fb"/>
+<approved hash="5,1,e4e79171ca188cb8"/>
+<approved hash="5,1,7e03bf011bfea3b3"/>
+<approved hash="5,1,094a7e037e9970d0"/>
+<approved hash="5,1,9cdd868ce8c5eebb"/>
+<approved hash="5,1,755d10fd91e3ca46"/>
+<approved hash="5,1,569fa3720d55167b"/>
+<approved hash="5,1,846df857783b0bae"/>
+<approved hash="5,1,b54f8de61fc45ac4"/>
+<approved hash="5,1,fa42a61b56186a96"/>
+<approved hash="5,1,2ca97b9ad2cc3473"/>
+<approved hash="5,1,d0f2edf5286e28d5"/>
+<approved hash="5,1,c9a2f876f7b6038d"/>
+<approved hash="5,1,2fafcca24cb1865d"/>
+<approved hash="5,1,1541887be15db33a"/>
+<approved hash="5,1,97da55a8df9b1d13"/>
+<approved hash="5,1,db3769d860fdc691"/>
+<approved hash="5,1,f73298a023ff2791"/>
+<approved hash="5,1,54ec741e23aee875"/>
+<approved hash="5,1,80260e0c0d8cc3a2"/>
+<approved hash="5,1,ba69ce1ec7fe189b"/>
+<approved hash="5,1,0c0fc6fdad038e4f"/>
+<approved hash="5,1,ed3b5ec127a17345"/>
+<approved hash="5,1,fb284d1a79ff1d5e"/>
+<approved hash="5,1,92766d08244aeec1"/>
+<approved hash="5,1,9a7cd3dee7e859a6"/>
+<approved hash="5,1,5ec046454646583b"/>
+<approved hash="5,1,2f9247efbb52f749"/>
+<approved hash="5,1,c556f8c6e2fd25d7"/>
+<approved hash="5,1,4045efef2f7674be"/>
+<approved hash="5,1,c37873e96c6583f5"/>
+<approved hash="5,1,b2c575e874e3fa65"/>
+<approved hash="5,1,c203a7171a156f8a"/>
+<approved hash="5,1,d67e91a74319c5fd"/>
+<approved hash="5,1,3d93a5d1eb4c15e3"/>
+<approved hash="5,1,0dd0ac890924a076"/>
+<approved hash="5,1,3a22dbf2eca92327"/>
+<approved hash="5,1,1ee529017fa09960"/>
+<approved hash="5,1,632480b124277434"/>
+<approved hash="5,1,7100a1eee554b99d"/>
+<approved hash="5,1,ef6bb8d7c18167c7"/>
+<approved hash="5,1,ea051983be09837b"/>
+<approved hash="5,1,a0316b8781ab2e55"/>
+<approved hash="5,1,cc481c124d73bdcd"/>
+<approved hash="5,1,64def017b16ed2ab"/>
+<approved hash="5,1,29c4392d370282db"/>
+<approved hash="5,1,d5273a7db4bebe69"/>
+<approved hash="5,1,efb2216c9156ac56"/>
+<approved hash="5,1,5d7c2dc9a974a63a"/>
+<approved hash="5,1,df7bfa7afe2f1aa0"/>
+<approved hash="5,1,2b9cd6f0fb948619"/>
+<approved hash="5,1,42bf1da2124c80a5"/>
+<approved hash="5,1,8fbf50888623b8f5"/>
+<approved hash="5,1,4af1541596bd562b"/>
+<approved hash="5,1,dfd55e5cae689087"/>
+<approved hash="5,1,f7ebf583487aabc9"/>
+<approved hash="5,1,58e93a5287633881"/>
+<approved hash="5,1,49e25cd12aeb63d4"/>
+<approved hash="5,1,dcf0ecac142ac5a7"/>
+<approved hash="5,1,7ff5d137a75b0518"/>
+<approved hash="5,1,d19a0dea5d97a9ec"/>
+<approved hash="5,1,50788d554b30d84b"/>
+<approved hash="5,1,af7f020493bca0c2"/>
+<approved hash="5,1,2ee58b89f072f1c1"/>
+<approved hash="5,1,4f4ed197ca976801"/>
+<approved hash="5,1,35a2bd3ca1656a1a"/>
+<approved hash="5,1,c72b08e5736c8a16"/>
+<approved hash="5,1,dac1bbf1b6018b68"/>
+<approved hash="5,1,ba266e32e7d44421"/>
+<approved hash="5,1,886370acfcf00a72"/>
+<approved hash="5,1,869f29d1848ea1ce"/>
+<approved hash="5,1,f97abaf8853c7924"/>
+<approved hash="5,1,63012dc7ed22a852"/>
+<approved hash="5,1,73d0e11da427dd9b"/>
+<approved hash="5,1,a62c85ceb655d5d8"/>
+<approved hash="5,1,1beb2046e94ffe2a"/>
+<approved hash="5,1,6f296114970a1fc5"/>
+<approved hash="5,1,0d06034f657d85b6"/>
+<approved hash="5,1,5214f6357f892e6b"/>
+<approved hash="5,1,a3897d801a4ae4eb"/>
+<approved hash="5,1,4027da19a670cdb8"/>
+<approved hash="5,1,9617f6e70340b580"/>
+<approved hash="5,1,a518695ffbd96457"/>
+<approved hash="5,1,2342e97ae97eaf96"/>
+<approved hash="5,1,a0565ad5b755cda4"/>
+<approved hash="5,1,577154075d225643"/>
+<approved hash="5,1,1348669f1949c784"/>
+<approved hash="5,1,c7707ca0135b5b13"/>
+<approved hash="5,1,cb1e5ed1beb86ecc"/>
+<approved hash="5,1,4bf2870960d4423e"/>
+<approved hash="5,1,7e228ad4b2f51723"/>
+<approved hash="5,1,5fcbd3085d6a905f"/>
+<approved hash="5,1,f46aa11081a7532b"/>
+<approved hash="5,1,7b302319e26d1e44"/>
+<approved hash="5,1,b972f16758dd4030"/>
+<approved hash="5,1,3bdcc688d584dc5d"/>
+<approved hash="5,1,c407addc3c9cffee"/>
+<approved hash="5,1,a0af3f54783ce5d5"/>
+<approved hash="5,1,15db2a9d16b50b26"/>
+<approved hash="5,1,35d18c9f5e7f1b31"/>
+<approved hash="5,1,04b1f9fe38564b8f"/>
+<approved hash="5,1,ccd9099ee0328416"/>
+<approved hash="5,1,174bc4a1d787c51e"/>
+<approved hash="5,1,2e452d5ea334d0bd"/>
+<approved hash="5,1,06531427c502bcf8"/>
+<approved hash="5,1,e16b95f071d4f6e4"/>
+<approved hash="5,1,b4d661f502e605b2"/>
+<approved hash="5,1,97ca9b3f5c9d8271"/>
+<approved hash="5,1,c5dc4edcafb4d9a6"/>
+<approved hash="5,1,5ab5d0cc40c0af87"/>
+<approved hash="5,1,4f40fb00fa749543"/>
+<approved hash="5,1,dc60a049461ff68a"/>
+<approved hash="5,1,88dfed5dcf4960a5"/>
+<approved hash="5,1,3479019b7a0233df"/>
+<approved hash="5,1,550d86e1d05869f0"/>
+<approved hash="5,1,ebe1235a48e85ef1"/>
+<approved hash="5,1,316d763b81ab31f8"/>
+<approved hash="5,1,7e6d729e629c1507"/>
+<approved hash="5,1,f9afd489b7df16d9"/>
+<approved hash="5,1,e46ff18b61544049"/>
+<approved hash="5,1,017a0573176d1d71"/>
+<approved hash="5,1,7154efbf61a80846"/>
+<approved hash="5,1,fd37ed1d2352c79e"/>
+<approved hash="5,1,6beedc66004296a6"/>
+<approved hash="5,1,19e3be19902801d3"/>
+<approved hash="5,1,8d2ca000c6521e67"/>
+<approved hash="5,1,9a9af91666a250a6"/>
+<approved hash="5,1,41702d23bb8e09d6"/>
+<approved hash="5,1,92b4ce48895d65e5"/>
+<approved hash="5,1,b0fdff8746f3d57a"/>
+<approved hash="5,1,ee138c4d13d35d56"/>
+<approved hash="5,1,9f5057cd3ebd2f2e"/>
+<approved hash="5,1,e559b15ffd7e6c2f"/>
+<approved hash="5,1,cfe1c6833ba1a08c"/>
+<approved hash="5,1,142396fadfa8cea2"/>
+<approved hash="5,1,b5775f7536485b3a"/>
+<approved hash="5,1,9e4f432ecc7df9da"/>
+<approved hash="5,1,35475d74b410d9fa"/>
+<approved hash="5,1,eb8e778e48f90364"/>
+<approved hash="5,1,bc73c662123116e4"/>
+<approved hash="5,1,a0af633159cea66a"/>
+<approved hash="5,1,ebf9441d67472f5f"/>
+<approved hash="5,1,a0cd1f2624fba726"/>
+<approved hash="5,1,9ea2319813882ccb"/>
+<approved hash="5,1,e503b53b56327c45"/>
+<approved hash="5,1,a0aaa1125e21902e"/>
+<approved hash="5,1,142b4f93b4b05351"/>
+<approved hash="5,1,99c6c92e2bb57d45"/>
+<approved hash="5,1,14ab3a3ec1c950c5"/>
+<approved hash="5,1,7f5f14546e55e9a2"/>
+<approved hash="5,1,6f9f6d0e04fa192f"/>
+<approved hash="5,1,93bd5881842d7a53"/>
+<approved hash="5,1,973b36f26a721ca7"/>
+<approved hash="5,1,3f3cd9fad3ac7e36"/>
+<approved hash="5,1,8a6e03200e76d9d0"/>
+<approved hash="5,1,f9dfc906b0f5f7a5"/>
+<approved hash="5,1,c4f4166d19f5cf20"/>
+<approved hash="5,1,fb1b15bb190bee94"/>
+<approved hash="5,1,69cc504f62c23b0e"/>
+<approved hash="5,1,6a18d5fd6db76a3a"/>
+<approved hash="5,1,e911320315506984"/>
+<approved hash="5,1,b34f499b1d79e84f"/>
+<approved hash="5,1,363f087adb9c0fd0"/>
+<approved hash="5,1,e96ee67ff0809d70"/>
+<approved hash="5,1,fed20aa7b1ef1542"/>
+<approved hash="5,1,8b08077ee0e0c3d6"/>
+<approved hash="5,1,337960b8c2495281"/>
+<approved hash="5,1,1a74d34ee8cf4ccc"/>
+<approved hash="5,1,18aa126c9cce51ca"/>
+<approved hash="5,1,26eaf2bd4f6834e0"/>
+<approved hash="5,1,c1de05e115141b8f"/>
+<approved hash="5,1,3690954c202a3781"/>
+<approved hash="5,1,51181567543518bc"/>
+<approved hash="5,1,bba5dd4013202c0d"/>
+<approved hash="5,1,956d9fd95904a380"/>
+<approved hash="5,1,67d37a86553c09e3"/>
+<approved hash="5,1,a0682d8ab49fd8b6"/>
+<approved hash="5,1,2391d9464424d05a"/>
+<approved hash="5,1,4a503bbfd4ff1ae5"/>
+<approved hash="5,1,08a7cd8db7eac314"/>
+<approved hash="5,1,df53115710bcccad"/>
+<approved hash="5,1,6d406bafbe74acc7"/>
+<approved hash="5,1,13d7dceae651cb58"/>
+<approved hash="5,1,2b465ce950f19a2a"/>
+<approved hash="5,1,b0ab9dc2129c9a38"/>
+<approved hash="5,1,4642eee9adc9f872"/>
+<approved hash="5,1,66fdb99a9f5a4877"/>
+<approved hash="5,1,f0d07dc9baace887"/>
+<approved hash="5,1,dde2afcd2f3c8e86"/>
+<approved hash="5,1,c8eb8e9797c7f82b"/>
+<approved hash="5,1,bd6d20cda2cbe40d"/>
+<approved hash="5,1,e886c7092bf8f919"/>
+<approved hash="5,1,1de69864aafc1c08"/>
+<approved hash="5,1,f6191fb0f71bdf99"/>
+<approved hash="5,1,e252ed5c2a35c41b"/>
+<approved hash="5,1,0c6b1a5607af2019"/>
+<approved hash="5,1,83c061527736062d"/>
+<approved hash="5,1,eae1f64d7ac5ad1d"/>
+<approved hash="5,1,80e02b4975b4c936"/>
+<approved hash="5,1,d01b9a6b4c36e17c"/>
+<approved hash="5,1,be1798c48425bd78"/>
+<approved hash="5,1,a88ad7b4650fe556"/>
+<approved hash="5,1,9067aaf8b8b51e02"/>
+<approved hash="5,1,622c5599793291da"/>
+<approved hash="5,1,035bed699d6048eb"/>
+<approved hash="5,1,de7548529ae0a0eb"/>
+<approved hash="5,1,462ea7e4e16863fe"/>
+<approved hash="5,1,9067abc9bbbb4637"/>
+<approved hash="5,1,652c5598793391da"/>
+<approved hash="5,1,8bc0a3e62a5f4a74"/>
+<approved hash="5,1,fc86b12dbf2d873a"/>
+<approved hash="5,1,194f46d7b434b76d"/>
+<approved hash="5,1,3786bf71da906578"/>
+<approved hash="5,1,0217e07303c67724"/>
+<approved hash="5,1,4e7df25ca5185e5f"/>
+<approved hash="5,1,72a29296899efb25"/>
+<approved hash="5,1,1f9bf2d6f31b6385"/>
+<approved hash="5,1,59a4fd04ee928d8f"/>
+<approved hash="5,1,2f935ae3156cfa78"/>
+<approved hash="5,1,b4a034a4c3c5944b"/>
+<approved hash="5,1,fe78e58efcd15786"/>
+<approved hash="5,1,7cd7f819545eae86"/>
+<approved hash="5,1,97c7e63b2de54a87"/>
+<approved hash="5,1,5d1fe2767dbc6021"/>
+<approved hash="5,1,d94f997c702ed688"/>
+<approved hash="5,1,d471ed6d214f9a1d"/>
+<approved hash="5,1,feb97f6f0b3eee5b"/>
+<approved hash="5,1,07afe196c7447575"/>
+<approved hash="5,1,59599c430ceedadc"/>
+<approved hash="5,1,09709b80eda3eec9"/>
+<approved hash="5,1,4d8e35a8964e072f"/>
+<approved hash="5,1,40975e1aaafd6873"/>
+<approved hash="5,1,3d26507bad774b9c"/>
+<approved hash="5,1,94c2a39c59a1e410"/>
+<approved hash="5,1,44096e16c6420ed3"/>
+<approved hash="5,1,945f702c33639b82"/>
+<approved hash="5,1,a4fc5335e6191f69"/>
+<approved hash="5,1,2f29105cc981a9cf"/>
+<approved hash="5,1,981cb3f90247fe80"/>
+<approved hash="5,1,73b59beec23dfa3d"/>
+<approved hash="5,1,fab9a30db970056c"/>
+<approved hash="5,1,0bbdba05c2c88b99"/>
+<approved hash="5,1,032aac1b04b7ab0e"/>
+<approved hash="5,1,8d781262c3e13391"/>
+<approved hash="5,1,0aed9a9bf4464ce9"/>
+<approved hash="5,1,a9e106e2e8ba78c3"/>
+<approved hash="5,1,de4fae216eea4d8b"/>
+<approved hash="5,1,3cf2a045e3602427"/>
+<approved hash="5,1,31be3f4c7adaea3f"/>
+<approved hash="5,1,40ca21f22de05bff"/>
+<approved hash="5,1,23353276d1767ca5"/>
+<approved hash="5,1,57abc9ae97d7703d"/>
+<approved hash="5,1,678284f2bd1625f0"/>
+<approved hash="5,1,d0cb98bdb19732c0"/>
+<approved hash="5,1,73988208a9911258"/>
+<approved hash="5,1,d7eed1aa20aa5549"/>
+<approved hash="5,1,cb829925d69a016b"/>
+<approved hash="5,1,7d441bd993a97171"/>
+<approved hash="5,1,1d1253077f9bdb5a"/>
+<approved hash="5,1,33008b72bb9cb7ef"/>
+<approved hash="5,1,e3638680262706a0"/>
+<approved hash="5,1,a8fcc92828de77ca"/>
+<approved hash="5,1,3b48759f06c04d2c"/>
+<approved hash="5,1,0756ac3cbd2cff95"/>
+<approved hash="5,1,496e9ac83b07383f"/>
+<approved hash="5,1,5581fa5901073c60"/>
+<approved hash="5,1,771eccefc7893285"/>
+<approved hash="5,1,3b5c2034b8c404c9"/>
+<approved hash="5,1,9572f1d573b25b87"/>
+<approved hash="5,1,f3dc3b9655adb5b8"/>
+<approved hash="5,1,2f775a66d4c23a6e"/>
+<approved hash="5,1,1850bd2b6d7b0c7f"/>
+<approved hash="5,1,55cc6bcc2cb9f561"/>
+<approved hash="5,1,f2f593a989337b59"/>
+<approved hash="5,1,5e60336f326f22f3"/>
+<approved hash="5,1,76687e891b67a486"/>
+<approved hash="5,1,bfbdb0c83eff06fb"/>
+<approved hash="5,1,a9aff3ca5443d2cf"/>
+<approved hash="5,1,0a2921792ace4a1c"/>
+<approved hash="5,1,00208e5f8cb80eff"/>
+<approved hash="5,1,3b4e5265607deb47"/>
+<approved hash="5,1,a2ae54fd2ec5f1f4"/>
+<approved hash="5,1,e23b7350eb08168e"/>
+<approved hash="5,1,0aed24df7ef16fac"/>
+<approved hash="5,1,f75e4317c52c461e"/>
+<approved hash="5,1,a5d166548bdd3c37"/>
+<approved hash="5,1,c9b992add139e7f4"/>
+<approved hash="5,1,57e7ce369afb12dd"/>
+<approved hash="5,1,06e7fd3a73c561a2"/>
+<approved hash="5,1,7d643f303e9cd9fb"/>
+<approved hash="5,1,63b77828b64eae2d"/>
+<approved hash="5,1,96c082452c98e44a"/>
+<approved hash="5,1,29b25d9a55cc5430"/>
+<approved hash="5,1,245a517a592c57e8"/>
+<approved hash="5,1,ddaf4d13c5ba9b9a"/>
+<approved hash="5,1,1f98a823bcc4b30a"/>
+<approved hash="5,1,8f5b24ceefd0ce4f"/>
+<approved hash="5,1,ec926ec66edbf87a"/>
+<approved hash="5,1,2a40595c510a560a"/>
+<approved hash="5,1,ff6d6a1b99a25b18"/>
+<approved hash="5,1,f9fa698bf1df0d4f"/>
+<approved hash="5,1,970566f2ccf0cf14"/>
+<approved hash="5,1,fc638469d13a2ca4"/>
+<approved hash="5,1,67aa5da89faa9f6b"/>
+<approved hash="5,1,3d8158eee446b957"/>
+<approved hash="5,1,659c67fccdfecfae"/>
+<approved hash="5,1,aa93a8ada9c66b19"/>
+<approved hash="5,1,d34c1468c43ec791"/>
+<approved hash="5,1,693cf9c3864fed2a"/>
+<approved hash="5,1,113a0ceca27fccb5"/>
+<approved hash="5,1,fbd2af14321f4997"/>
+<approved hash="5,1,ebc0cd332237da7a"/>
+<approved hash="5,1,201346f87705f53d"/>
+<approved hash="5,1,e1cdc8d7e5720ea6"/>
+<approved hash="5,1,c3ce38d46b7b8eae"/>
+<approved hash="5,1,dcaae647d32e6b6b"/>
+<approved hash="5,1,80019c7c689428e6"/>
+<approved hash="5,1,e513ff47fea0f1b0"/>
+<approved hash="5,1,0c607b5211707919"/>
+<approved hash="5,1,ca767703e129c9e4"/>
+<approved hash="5,1,6e679c55b74bfef5"/>
+<approved hash="5,1,dcaf7a90732a7617"/>
+<approved hash="5,1,e2edb6127fd9e2ba"/>
+<approved hash="5,1,150f203a379d3cfb"/>
+<approved hash="5,1,7e04b08e58371625"/>
+<approved hash="5,1,1d1240563b640e00"/>
+<approved hash="5,1,73e19b9243d1fa19"/>
+<approved hash="5,1,5405ef12e08ed9e2"/>
+<approved hash="5,1,8372643bb46db72b"/>
+<approved hash="5,1,2df8c228c3a9013f"/>
+<approved hash="5,1,e173baf779afe044"/>
+<approved hash="5,1,80b554cc3c893087"/>
+<approved hash="5,1,d08c4e90e0e70dd8"/>
+<approved hash="5,1,d9e7f28d43febf35"/>
+<approved hash="5,1,db7998d2309d950c"/>
+<approved hash="5,1,eac7f7a1b8b1ee30"/>
+<approved hash="5,1,8a3155331f9ebd43"/>
+<approved hash="5,1,02ff797a13b4755a"/>
+<approved hash="5,1,1f69a1f5fdcbe25e"/>
+<approved hash="5,1,e5de143173dd843c"/>
+<approved hash="5,1,a002cdd162b3b97f"/>
+<approved hash="5,1,7b07ced9cff7a09e"/>
+<approved hash="5,1,8f895460ce6058cb"/>
+<approved hash="5,1,2703b31ccaba2c70"/>
+<approved hash="5,1,efbbc0c848c3dfaa"/>
+<approved hash="5,1,4011b16d2190887f"/>
+<approved hash="5,1,f7a479e96c808ae4"/>
+<approved hash="5,1,d3008abd91dab034"/>
+<approved hash="5,1,ffbbdb77a94e6d94"/>
+<approved hash="5,1,d19a6b7aa79f36bc"/>
+<approved hash="5,1,4f4ed197ca976801"/>
+<approved hash="5,1,f0134ed0a62aedfb"/>
+<approved hash="5,1,d01cf36462ee56d1"/>
+<approved hash="5,1,6047110661717a8c"/>
+<approved hash="5,1,6ea021e9472e6931"/>
+<approved hash="5,1,cae74e3aa19294dd"/>
+<approved hash="5,1,245257fa6fd23967"/>
+<approved hash="5,1,0909ae6cde54340d"/>
+<approved hash="5,1,ab9612f4f42a9af2"/>
+<approved hash="5,1,b0c84143eff13129"/>
+<approved hash="5,1,d1688fa6a0deba31"/>
+<approved hash="5,1,786b3cdb0f537ff4"/>
+<approved hash="5,1,3799814f1b28afc7"/>
+<approved hash="5,1,1aecd4d400142a4d"/>
+<approved hash="5,1,108f2adc5fb3a03a"/>
+<approved hash="5,1,58ccea18ac89d385"/>
+<approved hash="5,1,c031ebfe319741ad"/>
+<approved hash="5,1,a899d4d91d59828a"/>
+<approved hash="5,1,4f79a8365e09f801"/>
+<approved hash="5,1,dccfe654388d79dd"/>
+<approved hash="5,1,d7be97b8a0a6a488"/>
+<approved hash="5,1,f973a505db153d18"/>
+<approved hash="5,1,43cb922e10dda9a5"/>
+<approved hash="5,1,ba266e32e7d44421"/>
+<approved hash="5,1,f780b3b21c50fd89"/>
+<approved hash="5,1,c72b08e5736c8a16"/>
+<approved hash="5,1,a172dbcf5c0f6159"/>
+<approved hash="5,1,a983bce800737cb8"/>
+<approved hash="5,1,c7d133d4217eb610"/>
+<approved hash="5,1,460ffa63760f204e"/>
+<approved hash="5,1,7b41a35a9cc4b13b"/>
+<approved hash="5,1,c612b60c4c0c727d"/>
+<approved hash="5,1,993a35b18de6675b"/>
+<approved hash="5,1,dd6feda900ec7b8b"/>
+<approved hash="5,1,5d8eb06fd955ce69"/>
+<approved hash="5,1,7bd1d8e710b3ab1b"/>
+<approved hash="5,1,dac1bbf1b6018b68"/>
+<approved hash="5,1,35a2bd3ca1656a1a"/>
+<approved hash="5,1,1bcae10cf4de6ef6"/>
+<approved hash="5,1,5b4cf8d0d4989c18"/>
+<approved hash="5,1,bd79e379d4ad2168"/>
+<approved hash="5,1,a64c25c8a389ee31"/>
+<approved hash="5,1,a3d752c543460a01"/>
+<approved hash="5,1,f034238d182243ab"/>
+<approved hash="5,1,b45c4160c936d7e6"/>
+<approved hash="5,1,33ee11228fef2998"/>
+<approved hash="5,1,fef19d28f80b2dc5"/>
+<approved hash="5,1,0fdff647a9a7b14f"/>
+<approved hash="5,1,078a0488850e860c"/>
+<approved hash="5,1,d42660f4bf92feb1"/>
+<approved hash="5,1,b78d8da9213b06e7"/>
+<approved hash="5,1,2e951c7574c0a6cb"/>
+<approved hash="5,1,51937d62e823d7b0"/>
+<approved hash="5,1,e7dac0e7142aba90"/>
+<approved hash="5,1,857925315d65952b"/>
+<approved hash="5,1,a41c5160d936d786"/>
+<approved hash="5,1,02a8414544f1f2b9"/>
+<approved hash="5,1,69098b17ee318b73"/>
+<approved hash="5,1,8139f937d65eeeb2"/>
+<approved hash="5,1,84391e33e3fbc517"/>
+<approved hash="5,1,845b929f4ff0b13c"/>
+<approved hash="5,1,d0cb78b816a187aa"/>
+<approved hash="5,1,29717ef21dbdccf6"/>
+<approved hash="5,1,d87f955c9e2c3175"/>
+<approved hash="5,1,3c0108ee960f8723"/>
+<approved hash="5,1,cbe60fa5837e38a9"/>
+<approved hash="5,1,d575cd35a7b6d0fe"/>
+<approved hash="5,1,f233cb7555696cbf"/>
+<approved hash="5,1,675c29f25ee41b6c"/>
+<approved hash="5,1,61064b9cbc2fe3a5"/>
+<approved hash="5,1,b6064a9f269dd8b2"/>
+<approved hash="5,1,32d79bcd61dce0a9"/>
+<approved hash="5,1,0476bc7495542322"/>
+<approved hash="5,1,9b17f3f12105bd44"/>
+<approved hash="5,1,56f8aa3c131bf137"/>
+<approved hash="5,1,687c26333a8adfe4"/>
+<approved hash="5,1,f7c6a1a2d6168c78"/>
+<approved hash="5,1,0ddb4b1ce27698ae"/>
+<approved hash="5,1,06552e50a6c1561c"/>
+<approved hash="5,1,4ace8831227ab628"/>
+<approved hash="5,1,984b68670c27eb04"/>
+<approved hash="5,1,f12130dad16323f2"/>
+<approved hash="5,1,d9188970b5358164"/>
+<approved hash="5,1,ef86871ab9f77134"/>
+<approved hash="5,1,1ac9933b14bbf69c"/>
+<approved hash="5,1,91af58898caf5b96"/>
+<approved hash="5,1,afebdf96c3d63757"/>
+<approved hash="5,1,bbe8909ac547acfe"/>
+<approved hash="5,1,93a6aeace15ce7e2"/>
+<approved hash="5,1,d5d76671b10447ef"/>
+<approved hash="5,1,b5dd5177f4b5f01f"/>
+<approved hash="5,1,ea00554b7c16974c"/>
+<approved hash="5,1,2d674674e9a40ede"/>
+<approved hash="5,1,edf5a28445799f0f"/>
+<approved hash="5,1,f09f6659809a6082"/>
+<approved hash="5,1,d5b22451d5f36987"/>
+<approved hash="5,1,12d667badd3478a3"/>
+<approved hash="5,1,fd036cd25344925b"/>
+<approved hash="5,1,770e769ffda2eea0"/>
+<approved hash="5,1,30ff2c9d4aac2463"/>
+<approved hash="5,1,8e5b10a6feeb8d9c"/>
+<approved hash="5,1,c4f8caf8c4aaff51"/>
+<approved hash="5,1,e34525930fc0861d"/>
+<approved hash="5,1,831f4978a274f8ec"/>
+<approved hash="5,1,460146870cd00b6a"/>
+<approved hash="5,1,6db6232322f06df9"/>
+<approved hash="5,1,3707c3fe6dc377f9"/>
+<approved hash="5,1,2aa69d7bf72f1a79"/>
+<approved hash="5,1,1177b093baab0ca9"/>
+<approved hash="5,1,22061f841bed372f"/>
+<approved hash="5,1,66df915870d0a183"/>
+<approved hash="5,1,99ef3c9d22e9ad39"/>
+<approved hash="5,1,be036d1a49730bb7"/>
+<approved hash="5,1,f8845d110f2cb13a"/>
+<approved hash="5,1,7192a9915b264110"/>
+<approved hash="5,1,7a5cb44dc8699dad"/>
+<approved hash="5,1,3d4fb429626d6f8b"/>
+<approved hash="5,1,e5afb6c5c9607e2c"/>
+<approved hash="5,1,da84d1cd399baeb7"/>
+<approved hash="5,1,049e4a0754946e73"/>
+<approved hash="5,1,cc3691dc4f8a4e41"/>
+<approved hash="5,1,13983e6fd4058f31"/>
+<approved hash="5,1,9417184fae29b0b9"/>
+<approved hash="5,1,aeefca26b4450518"/>
+<approved hash="5,1,0599c23a2cba5df5"/>
+<approved hash="5,1,7592137e91e5dbb3"/>
+<approved hash="5,1,b3d0a9bf1e6dd00e"/>
+<approved hash="5,1,cde46f0b0d53820e"/>
+<approved hash="5,1,08ec3dca44570414"/>
+<approved hash="5,1,4808d5d7d3916ae7"/>
+<approved hash="5,1,e19e0a2b329ac96b"/>
+<approved hash="5,1,821150c8fa4a7d6b"/>
+<approved hash="5,1,fe6f27368cb59cf9"/>
+<approved hash="5,1,fb76577f1aae3ed8"/>
+<approved hash="5,1,7cf6028c0bffc9fe"/>
+<approved hash="5,1,fdaaccfec03be791"/>
+<approved hash="5,1,e2a5b9dcc7db315d"/>
+<approved hash="5,1,b881f287fd5405ef"/>
+<approved hash="5,1,016f2060993e2c0e"/>
+<approved hash="5,1,ee126c466ca3fbb2"/>
+<approved hash="5,1,8fa38fbabe5a856a"/>
+<approved hash="5,1,a0cd6cdae6fcc627"/>
+<approved hash="5,1,46ac04f804d8e267"/>
+<approved hash="5,1,73d34a03c443c788"/>
+<approved hash="5,1,2b725e3a566c5730"/>
+<approved hash="5,1,f813f67331f32303"/>
+<approved hash="5,1,964949d8bb512a21"/>
+<approved hash="5,1,c12883a500f1519e"/>
+<approved hash="5,1,80a32bb5f5644936"/>
+<approved hash="5,1,5508828502460312"/>
+<approved hash="5,1,70efaeb63b83b7ef"/>
+<approved hash="5,1,e27bae4c2cbd5aba"/>
+<approved hash="5,1,f8276f3f04f9b677"/>
+<approved hash="5,1,c67bb64c14bd22a7"/>
+<approved hash="5,1,f42643c5387fddd3"/>
+<approved hash="5,1,60ef8eb61b83c7ef"/>
+<approved hash="5,1,fdbfae0613bbba7f"/>
+<approved hash="5,1,f8512337c6328a30"/>
+<approved hash="5,1,666d5f7e1d7c1fd1"/>
+<approved hash="5,1,f70b133d1b082e88"/>
+<approved hash="5,1,32609d72e308ec75"/>
+<approved hash="5,1,cc12071c8b4a6425"/>
+<approved hash="5,1,614335c8e92211f4"/>
+<approved hash="5,1,70b3b2e341a8a3f4"/>
+<approved hash="5,1,fddb62f1e88d017c"/>
+<approved hash="5,1,a74b0f5d5824794d"/>
+<approved hash="5,1,aa7b9e4c0cbc9a44"/>
+<approved hash="5,1,2ed30d18cca03e10"/>
+<approved hash="5,1,a6f8bcacbefcb146"/>
+<approved hash="5,1,ab0b6c89f2b7b8ca"/>
+<approved hash="5,1,2e2ec31103f4c1bc"/>
+<approved hash="5,1,80c4030503b2d31a"/>
+<approved hash="5,1,cca8ca98c52af6e1"/>
+<approved hash="5,1,83969b93262778ba"/>
+<approved hash="5,1,284d124195e83047"/>
+<approved hash="5,1,d2a94d60ce55abdd"/>
+<approved hash="5,1,694ec41d5a360579"/>
+<approved hash="5,1,e7b3c37e89c0127f"/>
+<approved hash="5,1,171175f83705913f"/>
+<approved hash="5,1,3bcf46f495711caf"/>
+<approved hash="5,1,76b2cc7595c5567c"/>
+<approved hash="5,1,f11a67f83b045935"/>
+<approved hash="5,1,c9ecff534b05f21c"/>
+<approved hash="5,1,d8b68a78f1c71e78"/>
+<approved hash="5,1,07b77f466998ab0b"/>
+<approved hash="5,1,3dfe8cca89cb64d9"/>
+<approved hash="5,1,8214f8f8fb05753a"/>
+<approved hash="5,1,80bf3c30d65c17ea"/>
+<approved hash="5,1,044e6f9b46c08d2a"/>
+<approved hash="5,1,e54e3589e392c8ce"/>
+<approved hash="5,1,425690f34a89dc76"/>
+<approved hash="5,1,616c4bc710933fc1"/>
+<approved hash="5,1,78ef96b7b3820fef"/>
+<approved hash="5,1,86442ac8df5896b3"/>
+<approved hash="5,1,3da9f90a178a65c5"/>
+<approved hash="5,1,47e7149fb2c094f1"/>
+<approved hash="5,1,f5f9c0aaecfceda1"/>
+<approved hash="5,1,38a29aa0f4c67cc0"/>
+<approved hash="5,1,bc6b93429f814255"/>
+<approved hash="5,1,2eaf1fe754d3c4ba"/>
+<approved hash="5,1,2d314f3e77261444"/>
+<approved hash="5,1,f20d171937d1eab5"/>
+<approved hash="5,1,83fdf2dfdc33a6a3"/>
+<approved hash="5,1,169607f465660b5e"/>
+<approved hash="5,1,349dd49e0bf9ef36"/>
+<approved hash="5,1,274b6549b4381b1b"/>
+<approved hash="5,1,19d711eb3e9edab4"/>
+<approved hash="5,1,2513bf47bea131b1"/>
+<approved hash="5,1,6e665f79b2c55cc0"/>
+<approved hash="5,1,df3d40fbed5601a3"/>
+<approved hash="5,1,aebcd1ae887d6822"/>
+<approved hash="5,1,fe9ca715bdb79493"/>
+<approved hash="5,1,d3698c84798180ca"/>
+<approved hash="5,1,6022485762611614"/>
+<approved hash="5,1,886370acfcf00a72"/>
+<approved hash="5,1,d3c6515362a8f8fc"/>
+<approved hash="5,1,ccc4f592119396cd"/>
+<approved hash="5,1,5f2c6eed1e31a9c6"/>
+<approved hash="5,1,518b2d5303a47a9c"/>
+<approved hash="5,1,3510bb53f6e3d800"/>
+<approved hash="5,1,dfb2bb1a5c05dbee"/>
+<approved hash="5,1,d88cad287f473d20"/>
+<approved hash="5,1,2883103d5422f25a"/>
+<approved hash="5,1,abf36e12b32e7824"/>
+<approved hash="5,1,1ee1000dade0c31c"/>
+<approved hash="5,1,e20a37b8bfeaa3ac"/>
+<approved hash="5,1,e98e2e829fe8c8e3"/>
+<approved hash="5,1,463ba4f4893ed777"/>
+<approved hash="5,1,22aa23f859c7c280"/>
+<approved hash="5,1,cd3ce47b37a068d3"/>
+<approved hash="5,1,08fdf0d56f3a3f58"/>
+<approved hash="5,1,a1beebf3698941c8"/>
+<approved hash="5,1,7078b4acb6c516c5"/>
+<approved hash="5,1,c9f51c22d9f4da09"/>
+<approved hash="5,1,e62587473cc54532"/>
+<approved hash="5,1,36a6a045aa96f012"/>
+<approved hash="5,1,641262175ce0b8aa"/>
+<approved hash="5,1,29e84ad64ae91e07"/>
+<approved hash="5,1,06ace5bdb0fbc815"/>
+<approved hash="5,1,98365ca1996caf67"/>
+<approved hash="5,1,ab105cecd4bad75a"/>
+<approved hash="5,1,3d15d1056c9e0a5a"/>
+<approved hash="5,1,22777d9aba2bcca4"/>
+<approved hash="5,1,d56c18f441d0bddb"/>
+<approved hash="5,1,b15f6eb80c91cb15"/>
+<approved hash="5,1,4b55ba5e5d06ecad"/>
+<approved hash="5,1,9745c5da74738e4a"/>
+<approved hash="5,1,eb3d7056d54dda76"/>
+<approved hash="5,1,6dc3c14646c250ec"/>
+<approved hash="5,1,b7c0f169dd12bb79"/>
+<approved hash="5,1,c8351e22dbf4db29"/>
+<approved hash="5,1,6b0184c4114c84e6"/>
+<approved hash="5,1,7b07a267a378dfb0"/>
+<approved hash="5,1,c5b12640c3edac5d"/>
+<approved hash="5,1,0ba146ec49707b87"/>
+<approved hash="5,1,c90a8660988b252e"/>
+<approved hash="5,1,22262a59c75be99f"/>
+<approved hash="5,1,84ffb328ef0b3e25"/>
+<approved hash="5,1,5b7447239d71651f"/>
+<approved hash="5,1,9cc79c8000a12a0c"/>
+<approved hash="5,1,b30dc7d14a4773b9"/>
+<approved hash="5,1,d7ecb751feec596d"/>
+<approved hash="5,1,c60b677e0e785f64"/>
+<approved hash="5,1,3348b7d3eaf8d85c"/>
+<approved hash="5,1,d37a943044664723"/>
+<approved hash="5,1,aabee722d426ce2c"/>
+<approved hash="5,1,621c12b284d6f21b"/>
+<approved hash="5,1,238aac626985c57c"/>
+<approved hash="5,1,d5091bac3a5b48cd"/>
+<approved hash="5,1,19f75e218edfdbc7"/>
+<approved hash="5,1,896e9ac7ac08af3e"/>
+<approved hash="5,1,5e8bc5c6a8f42a5e"/>
+<approved hash="5,1,e18b869df79074b7"/>
+<approved hash="5,1,1d25d27dbe711a9c"/>
+<approved hash="5,1,94a2b6f6b4d89178"/>
+<approved hash="5,1,f2c4ca04c44d46b0"/>
+<approved hash="5,1,3fdc652c0321b381"/>
+<approved hash="5,1,a8e38c378c7b7c7b"/>
+<approved hash="5,1,283576fc5cf70900"/>
+<approved hash="5,1,9f5e5f34e26aebe8"/>
+<approved hash="5,1,775e545e9c145842"/>
+<approved hash="5,1,ee7c836d29333792"/>
+<approved hash="5,1,a2b65379446b3173"/>
+<approved hash="5,1,c0723a59907f740c"/>
+<approved hash="5,1,e1f83b1fbbfca3f2"/>
+<approved hash="5,1,5fe803d0fbfdcf2f"/>
+<approved hash="5,1,ab68e7c1946f0ee7"/>
+<approved hash="5,1,64a166f564d87178"/>
+<approved hash="5,1,7eb01d7390d20e57"/>
+<approved hash="5,1,16386c299aabde8c"/>
+<approved hash="5,1,2b48f7e5f331f286"/>
+<approved hash="5,1,ac3dcf3ae3401c59"/>
+<approved hash="5,1,2665e8e53e691da4"/>
+<approved hash="5,1,3e6e7314d2aa6d6d"/>
+<approved hash="5,1,6f67a541d492c26c"/>
+<approved hash="5,1,662aec47771da713"/>
+<approved hash="5,1,ab6bacee62b4bede"/>
+<approved hash="5,1,a336cea36339f996"/>
+<approved hash="5,1,bc7af176187517ac"/>
+<approved hash="5,1,57254b275f461540"/>
+<approved hash="5,1,37e70cca172657ed"/>
+<approved hash="5,1,b080a79e3b93d8bc"/>
+<approved hash="5,1,6f1ec1f7eb0f1236"/>
+<approved hash="5,1,754f43b42d5646f8"/>
+<approved hash="5,1,e1a149d7e5e78e15"/>
+<approved hash="5,1,d68db59e379390b1"/>
+<approved hash="5,1,a6eb03c60b2993e0"/>
+<approved hash="5,1,e8570b4daaee76d1"/>
+<approved hash="5,1,86357178028be453"/>
+<approved hash="5,1,44e53dc57f2b93ef"/>
+<approved hash="5,1,3d824a9e7f93fcbe"/>
+<approved hash="5,1,50c9aed1a50a24e6"/>
+<approved hash="5,1,83a18dd9a3e98e1b"/>
+<approved hash="5,1,df9f1ae9abfbf4e8"/>
+<approved hash="5,1,438f389e7b93f4b3"/>
+<approved hash="5,1,49709b8f7aac79c9"/>
+<approved hash="5,1,9ede0f97e027026c"/>
+<approved hash="5,1,4160b1a7479c80df"/>
+<approved hash="5,1,7b3d2743dc63d5c5"/>
+<approved hash="5,1,720477d41c3340ea"/>
+<approved hash="5,1,e12071260e8d68d1"/>
+<approved hash="5,1,1351fdd4685cfcb6"/>
+<approved hash="5,1,d3de14ffdb699aa2"/>
+<approved hash="5,1,16300d43571706cd"/>
+<approved hash="5,1,c739d9deee7ecad9"/>
+<approved hash="5,1,9b72ed45cf9386ba"/>
+<approved hash="5,1,8e32ab9decce7b90"/>
+<approved hash="5,1,24b8dd1b47775674"/>
+<approved hash="5,1,69c39f40acd8518e"/>
+<approved hash="5,1,7e92b06db8738e98"/>
+<approved hash="5,1,ab7955e1e965b96e"/>
+<approved hash="5,1,b6de7a17a42c7d9e"/>
+<approved hash="5,1,3438913f6c62fc87"/>
+<approved hash="5,1,764ef7b045b8d9e2"/>
+<approved hash="5,1,d5ed423212794c45"/>
+<approved hash="5,1,0b0a9ee446b24756"/>
+<approved hash="5,1,517206fb5f287040"/>
+<approved hash="5,1,78e2bc36bc7b1c7b"/>
+<approved hash="5,1,32044fa057ec301e"/>
+<approved hash="5,1,76c603a302197040"/>
+<approved hash="5,1,28765d29c57fc42c"/>
+<approved hash="5,1,460146870cd00b6a"/>
+<approved hash="5,1,1da128d765c7c2d6"/>
+<approved hash="5,1,2bb65c69c43fc70c"/>
+<approved hash="5,1,a359994589f7e0c8"/>
+<approved hash="5,1,8b0b8b5941f5c1c3"/>
+<approved hash="5,1,58fa2357c92817ec"/>
+<approved hash="5,1,10e8ecec35d01526"/>
+<approved hash="5,1,6c016e556e907be0"/>
+<approved hash="5,1,60343a4754173649"/>
+<approved hash="5,1,16cc5b92ac10df0a"/>
+<approved hash="5,1,178dcbfeccf4f1a6"/>
+<approved hash="5,1,342eb454c2315456"/>
+<approved hash="5,1,1067619217519af0"/>
+<approved hash="5,1,aa1c8eb321ca5814"/>
+<approved hash="5,1,2883386b45cbef60"/>
+<approved hash="5,1,61c509d15eac2368"/>
+<approved hash="5,1,ed9c0a02664ba789"/>
+<approved hash="5,1,82583efb48e3d824"/>
+<approved hash="5,1,119ac0af942f8eff"/>
+<approved hash="5,1,e7418b1c438f676d"/>
+<approved hash="5,1,0d88f37296c36e01"/>
+<approved hash="5,1,cd94ab1adbf2a970"/>
+<approved hash="5,1,fd78fcf45de5caab"/>
+<approved hash="5,1,180010343e8aa047"/>
+<approved hash="5,1,d333a9d53aff5579"/>
+<approved hash="5,1,034b141c2685ac6e"/>
+<approved hash="5,1,08fb1a7a334d9294"/>
+<approved hash="5,1,ec7705af10f04807"/>
+<approved hash="5,1,b9e3136876c2d44b"/>
+<approved hash="5,1,db628337634c023f"/>
+<approved hash="5,1,9299628607c1c8fc"/>
+<approved hash="5,1,469959731bad91a7"/>
+<approved hash="5,1,6b7c6b73b555b461"/>
+<approved hash="5,1,5867cebce076e741"/>
+<approved hash="5,1,78984c8eb9eefa47"/>
+<approved hash="5,1,d66e55d91bcc4d47"/>
+<approved hash="5,1,d1ef504a1d7b4ada"/>
+<approved hash="5,1,12d474d2e97434e3"/>
+<approved hash="5,1,a1887521d09fca8c"/>
+<approved hash="5,1,35584cc9be064eef"/>
+<approved hash="4,1,0addbbf0b45d6add"/>
+<approved hash="4,1,613f9292c81eab41"/>
+<approved hash="4,1,fd1e368f001ccb60"/>
+<approved hash="4,1,43108b16a705a5fd"/>
+<approved hash="4,1,d3d47ae9402a5e5e"/>
+<approved hash="4,1,c5c2c45f706371fe"/>
+<approved hash="4,1,687be65cee92298b"/>
+<approved hash="4,1,4622706e7a90af75"/>
+<approved hash="4,1,680b88441788a35a"/>
+<approved hash="4,1,78c8061e3edd18a6"/>
+<approved hash="4,1,631a30ad18c1b0ea"/>
+<approved hash="4,1,8ff48f12f7046d1a"/>
+<approved hash="4,1,c762e99f44b4ed50"/>
+<approved hash="4,1,ee3d2f1080bd363e"/>
+<approved hash="4,1,dcaf3d789b6551ae"/>
+<approved hash="4,1,094654cadc66b26c"/>
+<approved hash="4,1,a9fb9a88d81bdb84"/>
+<approved hash="4,1,fd6db0c3a8447d44"/>
+<approved hash="4,1,2cca2e1af87f51b6"/>
+<approved hash="4,1,3615f58de851648f"/>
+<approved hash="4,1,e0bf3e94969c7940"/>
+<approved hash="4,1,c4ea123cbaddd883"/>
+<approved hash="4,1,3bd22315370d153e"/>
+<approved hash="4,1,a218c336ac9b721a"/>
+<approved hash="4,1,408cd95a6f65898c"/>
+<approved hash="4,1,a31e588df4e5f4eb"/>
+<approved hash="4,1,a760b19dacb7dd53"/>
+<approved hash="4,1,d809584b674d0b55"/>
+<approved hash="4,1,45c44457806b81f8"/>
+<approved hash="4,1,0beaead090130e9d"/>
+<approved hash="4,1,462470a4d26cc773"/>
+<approved hash="4,1,bc2a4af272d24847"/>
+<approved hash="4,1,b959a437709fb674"/>
+<approved hash="4,1,8188d42684a189a3"/>
+<approved hash="4,1,eccdce1de079b1b0"/>
+<approved hash="4,1,62f149687c521c6b"/>
+<approved hash="4,1,ec597a71fa9df9a6"/>
+<approved hash="4,1,1312a8451c21ace6"/>
+<approved hash="4,1,c5aa2805308df580"/>
+<approved hash="4,1,2ccf3e1ea879a1b1"/>
+<approved hash="4,1,ded2bd4ac052b448"/>
+<approved hash="4,1,a95f741f24bb4a76"/>
+<approved hash="4,1,e84a019cd765194b"/>
+<approved hash="4,1,e767e19aecb0cd54"/>
+<approved hash="4,1,cfe93ad78017c67c"/>
+<approved hash="4,1,a622f049768c7b74"/>
+<approved hash="4,1,1808e847efaf475b"/>
+<approved hash="4,1,1dc01c5fb863b9fc"/>
+<approved hash="4,16,0addbbf0b45d6add"/>
+<approved hash="4,16,613f9292c81eab41"/>
+<approved hash="4,16,43108b16a705a5fd"/>
+<approved hash="4,16,fd1e368f001ccb60"/>
+<approved hash="4,16,8cc9edd0dab369f6"/>
+<approved hash="4,16,7ce4ba0834e436f7"/>
+<approved hash="4,16,cfd93048e4c3873b"/>
+<approved hash="4,16,687be65cee92298b"/>
+<approved hash="4,16,78c8061e3edd18a6"/>
+<approved hash="4,16,c4ea123cbaddd883"/>
+<approved hash="4,16,3bd22315370d153e"/>
+<approved hash="4,16,a218c336ac9b721a"/>
+<approved hash="4,16,c71c188ffcc097ff"/>
+<approved hash="4,16,408cd95a6f65898c"/>
+<approved hash="4,16,b7c79534442d23c4"/>
+<approved hash="4,16,bc2a4af272d24847"/>
+<approved hash="4,16,f7c775fd3ce6fbc5"/>
+<approved hash="4,16,e84a019cd765194b"/>
+<approved hash="4,16,4cc9fdd1fa7461f6"/>
+<approved hash="4,16,c5aa2805308df580"/>
+<approved hash="4,16,69b3050c99eb6f4c"/>
+<approved hash="4,16,0fc4c513a80cffc1"/>
+<approved hash="4,16,ded2bd4ac052b448"/>
+<approved hash="4,16,71b02d2efdc9134f"/>
+<approved hash="4,16,d4eb7a0964e5563e"/>
+<approved hash="4,16,07b4fe1f2bbc426e"/>
+<approved hash="4,16,8188d42684a189a3"/>
+<approved hash="4,16,b1ae2df7e510ab51"/>
+<approved hash="4,16,1f7226d6e3b1e2ab"/>
+<approved hash="4,16,a9fb9a88d81bdb84"/>
+<approved hash="4,16,fd6db0c3a8447d44"/>
+<approved hash="4,16,3615f58de851648f"/>
+<approved hash="4,16,e0bf3e94969c7940"/>
+<approved hash="4,16,8ff48f12f7046d1a"/>
+<approved hash="4,16,0b3ac4ac08c467da"/>
+<approved hash="4,16,ee3d2f1080bd363e"/>
+<approved hash="4,16,eccb55d73a94edf4"/>
+<approved hash="4,16,dcaf3d789b6551ae"/>
+<approved hash="4,16,80e2c20854e2e615"/>
+<approved hash="4,16,62f149687c521c6b"/>
+<approved hash="4,16,ec597a71fa9df9a6"/>
+<approved hash="4,16,9397ba331fb5ea4d"/>
+<approved hash="19,1,ce76ce65c067c074"/>
+<approved hash="19,1,bc4cbb63556b5244"/>
+<approved hash="19,1,ffcbc034ca3cf5c3"/>
+<approved hash="19,1,fc4bfb64f16cf643"/>
+<approved hash="19,1,012b2534d54737a1"/>
+<approved hash="19,1,ccf6cd62fb60faf4"/>
+<approved hash="19,1,0e030e0f700d7001"/>
+<approved hash="19,1,cefecfa2f9a0f8fc"/>
+<approved hash="19,1,8f64b29344917966"/>
+<approved hash="19,1,cdf0cac5c4c7c3f2"/>
+<approved hash="19,1,ffcbffbcf5b4f5c3"/>
+<approved hash="19,1,3c4f3b634d6b4a47"/>
+<approved hash="19,1,bfccbfbb51b351c4"/>
+<approved hash="19,1,bfcc80336e3b51c4"/>
+<approved hash="19,1,cd7ef38ac588fb7c"/>
+<approved hash="19,1,d57f6564398c5e89"/>
+<approved hash="19,1,7fbc5a18d572b628"/>
+<approved hash="19,1,cdc2cccffacdfbc0"/>
+<approved hash="19,1,50c95315db1dd8c1"/>
+<approved hash="19,1,145011bb4bb34e58"/>
+<approved hash="19,1,fcc9fffacff2ccc1"/>
+<approved hash="19,1,fd43f0a0c0a8cd4b"/>
+<approved hash="19,1,1d731aaa4aa24d7b"/>
+<approved hash="19,1,fd41fa96ca9ecd49"/>
+<approved hash="19,1,82438320b328b24b"/>
+<approved hash="19,1,6271631c33143279"/>
+<approved hash="19,1,1e711ea44eac4e79"/>
+<approved hash="19,1,fe43fe98ce90ce4b"/>
+<approved hash="19,1,6ec26f634f6b4eca"/>
+<approved hash="19,1,5ec95fdad7d2d6c1"/>
+<approved hash="19,1,50c951fad9f2d8c1"/>
+<approved hash="19,1,b076b6b84ab04c7e"/>
+<approved hash="19,1,fd49f8bac8b2cd41"/>
+<approved hash="19,1,b2d1b1144d1c4ed9"/>
+<approved hash="19,1,14849bd4f903df10"/>
+<approved hash="19,1,5c8c6960d4f1bfe7"/>
+<approved hash="19,1,c635c3c9fe247c28"/>
+<approved hash="19,1,0df30ac774c573f1"/>
+<approved hash="19,1,1e711e044e0c4e79"/>
+<approved hash="19,1,fe43fe38ce30ce4b"/>
+<approved hash="19,1,fec1f9f6c9fecec9"/>
+<approved hash="19,1,1ef319ca49c24efb"/>
+<approved hash="19,1,1d71109c40944d79"/>
+<approved hash="19,1,facbf9e4c9eccac3"/>
+<approved hash="19,1,ed33eef8ccf0cf3b"/>
+<approved hash="19,1,fc43fd43c94bc84b"/>
+<approved hash="19,1,144615414949484e"/>
+<approved hash="19,1,134a12954e9d4f42"/>
+<approved hash="19,1,fb4ffa97ce9fcf47"/>
+<approved hash="19,1,3fcf3fbb49b349c7"/>
+<approved hash="19,1,3fcf0033763b49c7"/>
+<approved hash="19,1,ed32e9fcc9f4cd3a"/>
+<approved hash="19,1,f2cbf3d8c3d0c2c3"/>
+<approved hash="19,1,fccbfdf8cdf0ccc3"/>
+<approved hash="19,1,8e738e6570677071"/>
+<approved hash="19,1,ce7ace0ff80df878"/>
+<approved hash="19,1,8cfb8d15731772f9"/>
+<approved hash="19,1,cffacc27fa25f9f8"/>
+<approved hash="5,1,672d9738682500d0"/>
+<approved hash="5,1,cba42d1d52350f2c"/>
+<approved hash="5,1,25e51d490aa51d4f"/>
+<approved hash="5,1,eda5fb44e53a9558"/>
+<approved hash="5,1,6ca146e1ec445b99"/>
+<approved hash="5,1,e825c73fbdb4305c"/>
+<approved hash="4,1,010dd1f4c6127c01"/>
+<approved hash="4,1,de872932d01e6fc6"/>
+<approved hash="4,1,e4df0ae3335906c9"/>
+<approved hash="4,1,466feee0d39a745f"/>
+<approved hash="4,1,460cdb174e0d45e3"/>
+<approved hash="4,1,c69fc2f6aa8407eb"/>
+<approved hash="4,1,0254fedf339f0c78"/>
+<approved hash="4,1,190e961b99ff9a67"/>
+<approved hash="4,1,da742613fe89cf0b"/>
+<approved hash="4,1,5905061831d89e61"/>
+<approved hash="4,1,8e599a3cf28e672a"/>
+<approved hash="4,1,9609831096e821e6"/>
+<approved hash="19,1,f637b11b59dc4bbe"/>
+<approved hash="19,1,17862a9344917984"/>
+<approved hash="19,1,325883588f4880ef"/>
+<approved hash="19,1,a2c99683d4b73e07"/>
+<approved hash="19,1,13e2849a9a9cf14b"/>
+<approved hash="19,1,19d5ada87eb03363"/>
+<approved hash="5,1,3c18da65101330ff"/>
+<approved hash="5,1,7eac0ff18bf7e791"/>
+<approved hash="5,1,321685e7d1ca5b57"/>
+<approved hash="5,1,6d6381b0f0b6f7c3"/>
 </errors>
 </board>
 </drawing>
