@@ -3151,7 +3151,6 @@ This package is identical to 0402-B, but has its tPlace silkscreen layer removed
 1.0 mm, Circle</description>
 <smd name="TP" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 <text x="1.016" y="0.127" size="0.8128" layer="25" ratio="21">&gt;NAME</text>
-<text x="1.016" y="-0.889" size="0.8128" layer="25" ratio="21">&gt;LABEL</text>
 <circle x="0" y="0" radius="0.635" width="0.0508" layer="21"/>
 </package>
 <package name="NO-CONNECT-FOOTPRINT" urn="urn:adsk.eagle:footprint:27902/1" locally_modified="yes">
