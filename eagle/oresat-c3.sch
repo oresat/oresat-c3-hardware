@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -22529,23 +22529,23 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="26.924" y="228.981" size="1.778" layer="96"/>
 <attribute name="VDC" x="26.924" y="226.568" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TESTPOINTS TP"/>
-<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TP TESTPOINTS"/>
+<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="217.17" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="164.592" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="201.93" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="222.25" y="234.95" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="345.44" y="205.74" smashed="yes" rot="MR0">
@@ -22631,13 +22631,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="NAME" x="332.5876" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="330.1746" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="295.91" y="222.25" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="295.91" y="229.87" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="387.35" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="66.04" smashed="yes">
@@ -22695,7 +22695,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="136.144" y="61.341" size="1.778" layer="96"/>
 <attribute name="VDC" x="136.144" y="58.928" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="204.47" y="59.69" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="66.04" smashed="yes">
@@ -24414,7 +24414,7 @@ Diplexer</text>
 <wire x1="243.84" y1="63.5" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$13" class="2">
+<net name="N$13" class="1">
 <segment>
 <pinref part="C48" gate="CE" pin="2"/>
 <pinref part="L6" gate="L" pin="1"/>
@@ -24881,7 +24881,7 @@ Diplexer</text>
 <wire x1="304.8" y1="251.46" x2="330.2" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="C1" class="2">
+<net name="C1" class="1">
 <segment>
 <pinref part="Q7" gate="G$1" pin="C"/>
 <wire x1="325.12" y1="220.98" x2="340.36" y2="220.98" width="0.1524" layer="91"/>
@@ -24928,7 +24928,7 @@ Diplexer</text>
 <pinref part="L22" gate="L" pin="1"/>
 </segment>
 </net>
-<net name="N$29" class="2">
+<net name="N$29" class="1">
 <segment>
 <pinref part="C79" gate="CE" pin="2"/>
 <pinref part="L21" gate="L" pin="1"/>
@@ -26814,37 +26814,37 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="392.43" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="WDT" gate="G$1" x="287.02" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="WDT" gate="G$1" x="287.02" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="285.75" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="273.05" y="57.15" size="1.778" layer="95"/>
 </instance>
-<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="420.37" y="62.23" size="1.778" layer="95"/>
 </instance>
-<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="128.27" y="123.19" size="1.778" layer="95"/>
 </instance>
 <instance part="BOOT0" gate="G$1" x="129.54" y="137.16" smashed="yes" grouprefs="TP">
 <attribute name="NAME" x="128.27" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="143.51" size="1.778" layer="95"/>
 </instance>
-<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="128.27" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="77.47" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="69.85" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="62.23" size="1.778" layer="95"/>
 </instance>
 <instance part="VBUS2" gate="1" x="73.66" y="223.52" smashed="yes">
@@ -28178,6 +28178,7 @@ All caps are 0603 and 10V DC or greater</text>
 <approved hash="104,5,215.9,58.42,U7,VSS,GND,,,"/>
 <approved hash="104,5,218.44,170.18,U7,VDD,3.3V,,,"/>
 <approved hash="104,2,55.88,236.22,U4,VIN,VBUS,,,"/>
+<approved hash="104,2,68.58,226.06,U4,VOUT,VBUSP,,,"/>
 <approved hash="104,2,332.74,236.22,U1,IN_2,OPD-3.3V,,,"/>
 <approved hash="104,2,332.74,238.76,U1,IN,OPD-3.3V,,,"/>
 <approved hash="104,2,358.14,236.22,U1,OUT_2,OPD_PWR,,,"/>
@@ -28209,6 +28210,9 @@ All caps are 0603 and 10V DC or greater</text>
 <approved hash="104,3,365.76,109.22,U10,VDDD,3.3V,,,"/>
 <approved hash="104,3,289.56,157.48,U16,GND,GND-L,,,"/>
 <approved hash="104,3,330.2,157.48,U15,GND,GND-L,,,"/>
+<approved hash="104,2,157.48,73.66,U26,VIN,UHF_VBUSP,,,"/>
+<approved hash="104,2,63.5,81.28,U27,VIN,VBUS,,,"/>
+<approved hash="104,2,76.2,71.12,U27,VOUT,UHF_VBUSP,,,"/>
 <approved hash="104,3,325.12,205.74,Q7,E,GND-L,,,"/>
 <approved hash="104,3,33.02,167.64,U18,GND,GND-L,,,"/>
 <approved hash="104,3,66.04,157.48,U19,GND,GND-L,,,"/>
@@ -28224,9 +28228,16 @@ All caps are 0603 and 10V DC or greater</text>
 <approved hash="104,2,60.96,152.4,U6,VOUT,2.5V-L,,,"/>
 <approved hash="104,2,45.72,139.7,U6,GND,GND-L,,,"/>
 <approved hash="104,2,60.96,144.78,U6,BYPASS,N$25,,,"/>
+<approved hash="104,2,353.06,73.66,U23,VIN,3.3V-U,,,"/>
+<approved hash="104,2,378.46,73.66,U23,VOUT,2.5V-U,,,"/>
+<approved hash="104,2,363.22,60.96,U23,GND,GND-U,,,"/>
+<approved hash="104,2,378.46,66.04,U23,BYPASS,N$8,,,"/>
 <approved hash="104,4,-335.28,250.19,U25,GND,GND-U,,,"/>
 <approved hash="104,4,-340.36,278.13,U25,VDD,3.3V-U,,,"/>
 <approved hash="104,4,-121.92,228.6,Q9,E,GND-U,,,"/>
+<approved hash="104,2,269.24,73.66,U28,VIN,5V-U,,,"/>
+<approved hash="104,2,294.64,73.66,U28,VOUT,3.3V-U,,,"/>
+<approved hash="104,2,294.64,66.04,U28,BYPASS,N$49,,,"/>
 <approved hash="104,5,335.28,251.46,U32,VCC,N$3,,,"/>
 <approved hash="106,5,236.22,78.74,OSC32_IN,,,,,"/>
 <approved hash="106,5,236.22,76.2,OSC32_OUT,,,,,"/>
@@ -28237,6 +28248,8 @@ All caps are 0603 and 10V DC or greater</text>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
 <approved hash="113,3,215.796,139.596,FRAME5,,,,,"/>
 <approved hash="113,4,-188.064,187.856,FRAME6,,,,,"/>
+<approved hash="113,4,-77.4277,152.626,JP1,,,,,"/>
+<approved hash="113,3,179.07,109.415,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>
