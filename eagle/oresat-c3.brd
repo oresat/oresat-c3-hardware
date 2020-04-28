@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -35,7 +35,7 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
@@ -2799,6 +2799,32 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 &lt;/tr&gt;
 &lt;/table&gt;</description>
 <packages>
+<package name=".0201-C-NOSILK">
+<description>&lt;b&gt;0201 (metric 0603) tight 'IPC-C' without silkscreen&lt;/b&gt;
+&lt;br&gt;In house package for minimum spacing based on IPC-7351B.
+ This package is identical to 0201-C, but has its tPlace silkscreen layer removed.</description>
+<smd name="1" x="-0.3" y="0" dx="0.35" dy="0.3" layer="1" roundness="16" stop="no"/>
+<smd name="2" x="0.3" y="0" dx="0.35" dy="0.3" layer="1" roundness="16" stop="no"/>
+<wire x1="0.575" y1="0.245" x2="-0.575" y2="0.245" width="0.01" layer="39"/>
+<wire x1="-0.575" y1="0.245" x2="-0.575" y2="-0.245" width="0.01" layer="39"/>
+<wire x1="-0.575" y1="-0.245" x2="0.575" y2="-0.245" width="0.01" layer="39"/>
+<wire x1="0.575" y1="-0.245" x2="0.575" y2="0.245" width="0.01" layer="39"/>
+<text x="-0.5" y="0.3" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-0.5" y="-1.1" size="0.8" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-0.3" y1="0.15" x2="-0.3" y2="-0.15" width="0.015" layer="51"/>
+<wire x1="-0.3" y1="-0.15" x2="0.3" y2="-0.15" width="0.015" layer="51"/>
+<wire x1="0.3" y1="-0.15" x2="0.3" y2="0.15" width="0.015" layer="51"/>
+<wire x1="0.3" y1="0.15" x2="-0.3" y2="0.15" width="0.015" layer="51"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.23" y2="0.15" layer="51"/>
+<rectangle x1="-0.23" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
+<rectangle x1="-0.54" y1="-0.21" x2="-0.06" y2="0.21" layer="29"/>
+<rectangle x1="0.06" y1="-0.21" x2="0.54" y2="0.21" layer="29"/>
+<wire x1="-0.3" y1="0.15" x2="-0.3" y2="-0.15" width="0.015" layer="33"/>
+<wire x1="-0.3" y1="-0.15" x2="0.3" y2="-0.15" width="0.015" layer="33"/>
+<wire x1="0.3" y1="-0.15" x2="0.3" y2="0.15" width="0.015" layer="33"/>
+<wire x1="0.3" y1="0.15" x2="-0.3" y2="0.15" width="0.015" layer="33"/>
+<text x="0" y="0" size="0.15" layer="33" ratio="15" align="center">&gt;NAME</text>
+</package>
 <package name=".0402-C-NOSILK">
 <description>&lt;b&gt;0402 (metric 1005) tight 'IPC-C' without silkscreen&lt;/b&gt;
 &lt;br&gt;In house package for minimum spacing based on IPC-7351B.
@@ -4457,42 +4483,6 @@ This package is identical to 0603-B, but has its tPlace silkscreen layer removed
 <wire x1="0.79" y1="-0.4" x2="-0.79" y2="-0.4" width="0.1" layer="33"/>
 <text x="0" y="0" size="0.3" layer="33" ratio="15" align="center">&gt;NAME</text>
 </package>
-<package name=".0805-B-NOSILK">
-<description>&lt;b&gt;0805 (metric 2012) normal 'IPC-B' without silkscreen&lt;/b&gt;
-&lt;br&gt;In house package for nominal spacing based on IPC-7351B.
-This package is identical to 0805-B, but has its tPlace silkscreen layer removed.</description>
-<smd name="1" x="-0.9" y="0" dx="1.15" dy="1.45" layer="1" roundness="35" stop="no"/>
-<smd name="2" x="0.9" y="0" dx="1.15" dy="1.45" layer="1" roundness="35" stop="no"/>
-<wire x1="1.745" y1="0.995" x2="-1.745" y2="0.995" width="0.01" layer="39"/>
-<wire x1="-1.745" y1="0.995" x2="-1.745" y2="-0.995" width="0.01" layer="39"/>
-<wire x1="-1.745" y1="-0.995" x2="1.745" y2="-0.995" width="0.01" layer="39"/>
-<wire x1="1.745" y1="-0.995" x2="1.745" y2="0.995" width="0.01" layer="39"/>
-<text x="-1.5" y="1" size="0.8" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="-1.5" y="-1.8" size="0.8" layer="27" font="vector" ratio="15">&gt;VALUE</text>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.15" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.15" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.15" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.15" layer="51"/>
-<rectangle x1="0.425" y1="-0.6" x2="0.8" y2="0.6" layer="51"/>
-<rectangle x1="-0.8" y1="-0.6" x2="-0.425" y2="0.6" layer="51"/>
-<polygon width="0.52" layer="29">
-<vertex x="1.28" y="0.53"/>
-<vertex x="0.52" y="0.53"/>
-<vertex x="0.52" y="-0.53"/>
-<vertex x="1.28" y="-0.53"/>
-</polygon>
-<polygon width="0.52" layer="29">
-<vertex x="-0.52" y="0.53"/>
-<vertex x="-1.28" y="0.53"/>
-<vertex x="-1.28" y="-0.53"/>
-<vertex x="-0.52" y="-0.53"/>
-</polygon>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.15" layer="33"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.15" layer="33"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.15" layer="33"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.15" layer="33"/>
-<text x="0" y="0" size="0.4" layer="33" ratio="15" align="center">&gt;NAME</text>
-</package>
 </packages>
 </library>
 <library name="U-AVX-BP0805-BPF">
@@ -6106,90 +6096,197 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="53.375" y="23.9905" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C58" library="oresat-rcl" package=".0402-C-NOSILK" value="8.2p" x="77.1" y="25.03" smashed="yes" rot="R270">
-<attribute name="NAME" x="74.743" y="26.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V" x="77.1" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="‎1276-1729-1-ND" x="77.1" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="77.1" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="6" x="77.1" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="77.1" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C8R2CB5NNNC" x="77.1" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="77.1" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="77.1" y="25.03" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="74.743" y="26.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C66" library="oresat-rcl" package=".0603-C-NOSILK" value="22n" x="86.7" y="20.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="88" y="19.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="C - 0603, 22n, X7R, 25V" x="86.7" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1999-1-ND" x="86.7" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="86.7" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="87" x="86.7" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="86.7" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10B223KA8NNNC" x="86.7" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="86.7" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="86.7" y="20.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="88" y="19.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C67" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="85.6" y="20.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.9" y="17" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="85.6" y="20.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="85.9" y="17" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C68" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7u" x="84.5" y="20.1" smashed="yes" rot="R270">
-<attribute name="NAME" x="83.9" y="19.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="C - 0603, 4.7u, X5R, 16V" x="84.5" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1784-1-ND" x="84.5" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="84.5" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="6" x="84.5" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="84.5" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A475KO8NNNC" x="84.5" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="84.5" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="84.5" y="20.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="83.9" y="19.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C69" library="oresat-rcl" package=".0603-C-NOSILK" value="22n" x="81.2" y="17" smashed="yes" rot="R90">
-<attribute name="NAME" x="81.6" y="14.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="C - 0603, 22n, X7R, 25V" x="81.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1999-1-ND" x="81.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="81.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="INVENTORY" value="87" x="81.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="81.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10B223KA8NNNC" x="81.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="81.2" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="81.2" y="17" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="81.6" y="14.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C70" library="oresat-rcl" package=".0603-C-NOSILK" value="NP" x="83.4" y="17" smashed="yes" rot="R90">
-<attribute name="NAME" x="83.63" y="14.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="INVENTORY" value="" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="83.4" y="17" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="83.63" y="14.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C71" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7u" x="82.3" y="17" smashed="yes" rot="R90">
-<attribute name="NAME" x="82.53" y="14.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="C - 0603, 4.7u, X5R, 16V" x="82.3" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1784-1-ND" x="82.3" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="82.3" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="INVENTORY" value="6" x="82.3" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="82.3" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A475KO8NNNC" x="82.3" y="17" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="82.3" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="82.3" y="17" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="82.53" y="14.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C59" library="oresat-rcl" package=".0402-C-NOSILK" value="8.2p" x="78.3" y="23.63" smashed="yes" rot="R180">
-<attribute name="NAME" x="79" y="22.457" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V" x="78.3" y="23.63" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="‎1276-1729-1-ND" x="78.3" y="23.63" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="78.3" y="23.63" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INVENTORY" value="6" x="78.3" y="23.63" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="78.3" y="23.63" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C8R2CB5NNNC" x="78.3" y="23.63" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="78.3" y="23.63" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="78.3" y="23.63" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="79" y="22.457" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C60" library="oresat-rcl" package=".0402-C-NOSILK" value="1n" x="81.7" y="19.2" smashed="yes">
-<attribute name="DESCRIPTION" value="1000pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1635-1-ND" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 1000PF 50V C0G/NP0 0402" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1635-1-ND" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="6" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C102JB5NNNC" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="81" y="18.1" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="81.7" y="19.2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="81.7" y="19.2" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="81" y="18.1" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C61" library="oresat-rcl" package=".0402-C-NOSILK" value="1n" x="81.7" y="20.1" smashed="yes">
-<attribute name="DESCRIPTION" value="1000pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1635-1-ND" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 1000PF 50V C0G/NP0 0402" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1635-1-ND" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="6" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C102JB5NNNC" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="81.1" y="20.5" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="81.7" y="20.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="81.7" y="20.1" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="81.1" y="20.5" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C62" library="oresat-rcl" package=".0402-C-NOSILK" value="82p" x="79.1" y="21.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.3" y="21.727" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="C - 0402, 82p, C0G, 50V" x="79.1" y="21.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="‎1276-1726-1-ND" x="79.1" y="21.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="79.1" y="21.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INVENTORY" value="6" x="79.1" y="21.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="79.1" y="21.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C820JB5NNNC" x="79.1" y="21.3" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="79.1" y="21.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="79.1" y="21.3" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="79.3" y="21.727" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C63" library="oresat-rcl" package=".0402-C-NOSILK" value="82p" x="75.1" y="21.4" smashed="yes" rot="R180">
-<attribute name="NAME" x="72.5" y="19.727" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="C - 0402, 82p, C0G, 50V" x="75.1" y="21.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="‎1276-1726-1-ND" x="75.1" y="21.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="75.1" y="21.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INVENTORY" value="6" x="75.1" y="21.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="75.1" y="21.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C820JB5NNNC" x="75.1" y="21.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="75.1" y="21.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="75.1" y="21.4" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="72.5" y="19.727" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C64" library="oresat-rcl" package=".0402-C-NOSILK" value="22p" x="77.5" y="26.83" smashed="yes" rot="R270">
-<attribute name="NAME" x="79.843" y="26.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="CAP CER 22PF 50V C0G/NP0 0402" x="77.5" y="26.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1116-1-ND" x="77.5" y="26.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="77.5" y="26.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="77.5" y="26.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="77.5" y="26.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="77.5" y="26.83" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="CL05C220JB5NNNC" x="77.5" y="26.83" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="77.5" y="26.83" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="79.843" y="26.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C65" library="oresat-rcl" package=".0402-C-NOSILK" value="22p" x="74.15" y="23.93" smashed="yes" rot="R315">
-<attribute name="NAME" x="70.6" y="24.4" size="0.635" layer="25" font="vector" ratio="20" rot="R315"/>
+<attribute name="DESCRIPTION" value="CAP CER 22PF 50V C0G/NP0 0402" x="74.15" y="23.93" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1116-1-ND" x="74.15" y="23.93" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="74.15" y="23.93" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="INVENTORY" value="" x="74.15" y="23.93" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="74.15" y="23.93" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="CL05C220JB5NNNC" x="74.15" y="23.93" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="NAME" x="74.15" y="23.83" size="0.2" layer="33" ratio="15" rot="R315" align="center"/>
+<attribute name="NAME" x="70.6" y="24.4" size="0.635" layer="25" font="vector" ratio="20" rot="R315"/>
 </element>
 <element name="L10" library="oresat-rcl" package=".0402-C-NOSILK" value="43n" x="77.9" y="25.03" smashed="yes" rot="R270">
-<attribute name="NAME" x="75.743" y="26.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="L - 0402, 43n, 515mA, 516mohm, +/-2%" x="77.9" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-15447-1-ND" x="77.9" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="77.9" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="6" x="77.9" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata" x="77.9" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW15AN43NG8ZD" x="77.9" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="77.9" y="25.03" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="77.9" y="25.03" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="75.743" y="26.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="L11" library="oresat-rcl" package=".0402-C-NOSILK" value="43n" x="76.7" y="23.63" smashed="yes">
-<attribute name="NAME" x="74.4" y="25.157" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="L - 0402, 43n, 515mA, 516mohm, +/-2%" x="76.7" y="23.63" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-15447-1-ND" x="76.7" y="23.63" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="76.7" y="23.63" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="6" x="76.7" y="23.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata" x="76.7" y="23.63" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW15AN43NG8ZD" x="76.7" y="23.63" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="76.7" y="23.63" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="76.7" y="23.63" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="74.4" y="25.157" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="L12" library="oresat-rcl" package=".0603-C-NOSILK" value="91n" x="79.5" y="24.58" smashed="yes">
-<attribute name="DESCRIPTION" value="" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="L - 0603, 91n, 520mA, 540mohm, +/-2%" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="L - 0603, 91n, 520mA, 540mohm, +/-2%" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="5" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW18AN91NG8ZD" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="79.5" y="24.58" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="80.9" y="24.957" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="79.5" y="24.58" size="0.3" layer="33" ratio="15" align="center"/>
 </element>
 <element name="L13" library="oresat-rcl" package=".0603-C-NOSILK" value="91n" x="72.9" y="22.03" smashed="yes" rot="R45">
-<attribute name="DESCRIPTION" value="" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MANUFACTURER" value="" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DESCRIPTION" value="L - 0603, 91n, 520mA, 540mohm, +/-2%" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="L - 0603, 91n, 520mA, 540mohm, +/-2%" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="INVENTORY" value="5" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW18AN91NG8ZD" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="72.9" y="22.03" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="NAME" x="71.588346875" y="19.27534375" size="0.635" layer="25" font="vector" ratio="20" rot="R42.5"/>
 <attribute name="NAME" x="72.9" y="22.03" size="0.2" layer="33" ratio="15" rot="R45" align="center"/>
 </element>
@@ -6413,8 +6510,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Stackpole" x="34.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎" x="34.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="34.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="34.7" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="35.04" y="27.44" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="34.7" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="33.95" y="32.227" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R28" library="oresat-rcl" package=".0603-B-NOSILK" value="47k" x="31.7" y="30.6" smashed="yes" rot="R270">
@@ -6425,8 +6522,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Stackpole" x="31.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎" x="31.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="31.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="31.7" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="32" y="27.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="31.7" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="30.95" y="32.227" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R29" library="oresat-rcl" package=".0603-B-NOSILK" value="47k" x="33.2" y="30.6" smashed="yes" rot="R270">
@@ -6437,8 +6534,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Stackpole" x="33.2" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎" x="33.2" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="33.2" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.2" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="33.54" y="27.44" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="33.2" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="32.45" y="32.227" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R30" library="oresat-rcl" package=".0603-B-NOSILK" value="47k" x="42.4" y="16.4" smashed="yes">
@@ -6449,8 +6546,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Stackpole" x="42.4" y="16.4" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎" x="42.4" y="16.4" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="42.4" y="16.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.4" y="16.4" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="41.5884" y="15.095" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="42.4" y="16.4" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="44.027" y="17.15" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="TP1" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="33.7" y="19.9" smashed="yes">
@@ -6498,8 +6595,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Coilcraft" x="45" y="43.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-18NXGL" x="45" y="43.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-18NXGLU" x="45" y="43.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="45" y="43.6" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="46.054" y="44.5168" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="45" y="43.6" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="46.35" y="42.8" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C31" library="oresat-rcl" package=".0402-B-NOSILK" value="3p" x="38.751171875" y="41.149609375" smashed="yes" rot="R359.8">
@@ -6510,8 +6607,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C030CB5NNNC " x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
-<attribute name="NAME" x="38.751171875" y="41.149609375" size="0.2" layer="33" ratio="15" rot="R359.8" align="center"/>
 <attribute name="NAME" x="36.2" y="41.6" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
+<attribute name="NAME" x="38.751171875" y="41.149609375" size="0.2" layer="33" ratio="15" rot="R359.8" align="center"/>
 <attribute name="VALUE" x="37.9464625" y="39.802409375" size="0.8" layer="27" font="vector" ratio="15" rot="R359.8"/>
 </element>
 <element name="U15" library="U-Qorvo-856930-SAW" package="3.8X3.8" value="Qorvo 856930" x="48.1" y="38" smashed="yes" rot="R270">
@@ -6747,7 +6844,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="55.7" y="68.8" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="57.05" y="68.827" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="C76" library="oresat-rcl" package=".0603-C-NOSILK" value="47n" x="55.714" y="69.933" smashed="yes">
+<element name="C76" library="oresat-rcl" package=".0603-C-NOSILK" value="0.047u" x="55.714" y="69.933" smashed="yes">
 <attribute name="DESCRIPTION" value="C - 0603, 47n, X7R, 50V" x="55.714" y="69.933" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND" x="55.714" y="69.933" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR" value="Digikey" x="55.714" y="69.933" size="1.778" layer="27" display="off"/>
@@ -6769,7 +6866,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="55.734" y="71.953" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="54.653" y="72.573" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="C80" library="oresat-rcl" package=".0603-C-NOSILK" value="47n" x="63.3" y="71.3" smashed="yes">
+<element name="C80" library="oresat-rcl" package=".0603-C-NOSILK" value="0.047u" x="63.3" y="71.3" smashed="yes">
 <attribute name="DESCRIPTION" value="C - 0603, 47n, X7R, 50V" x="63.3" y="71.3" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND" x="63.3" y="71.3" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR" value="Digikey" x="63.3" y="71.3" size="1.778" layer="27" display="off"/>
@@ -6780,7 +6877,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="63.24" y="71.18" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="64.1" y="69.777" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="L20" library="oresat-rcl" package=".0603-C-NOSILK" value="47n" x="61" y="71.3" smashed="yes">
+<element name="L20" library="oresat-rcl" package=".0603-C-NOSILK" value="0.047u" x="61" y="71.3" smashed="yes">
 <attribute name="DESCRIPTION" value="L - 0402, 47n" x="61" y="71.3" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="" x="61" y="71.3" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR" value="Mouser" x="61" y="71.3" size="1.778" layer="27" display="off"/>
@@ -6892,8 +6989,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="44.9" y="63.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C220JB5NNNC‎" x="44.9" y="63.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="44.9" y="63.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="44.9" y="63.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="43.5" y="62.9" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="44.9" y="63.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="43.65" y="64.5" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C81" library="oresat-rcl" package=".0402-C-NOSILK" value="22p" x="44.9" y="55.4" smashed="yes" rot="R270">
@@ -6904,11 +7001,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="44.9" y="55.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C220JB5NNNC‎" x="44.9" y="55.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="44.9" y="55.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="44.9" y="55.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="43.4" y="54.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="44.9" y="55.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="43.65" y="56.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="C84" library="oresat-rcl" package=".0603-B-NOSILK" value="47n" x="50" y="60.7" smashed="yes">
+<element name="C84" library="oresat-rcl" package=".0603-B-NOSILK" value="0.047u" x="50" y="60.7" smashed="yes">
 <attribute name="DESCRIPTION" value="C - 0603, 47n, X7R, 50V" x="50" y="60.7" size="1.778" layer="27" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND" x="50" y="60.7" size="1.778" layer="27" display="off"/>
 <attribute name="DISTRIBUTOR" value="Digikey" x="50" y="60.7" size="1.778" layer="27" display="off"/>
@@ -6941,7 +7038,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="50" y="59.2" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="51.9" y="58.877" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="C86" library="oresat-rcl" package=".0603-B-NOSILK" value="47n" x="47.5" y="63.2" smashed="yes" rot="R90">
+<element name="C86" library="oresat-rcl" package=".0603-B-NOSILK" value="0.047u" x="47.5" y="63.2" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="C - 0603, 47n, X7R, 50V" x="47.5" y="63.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND" x="47.5" y="63.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" value="Digikey" x="47.5" y="63.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7029,19 +7126,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="87.8" y="26.3" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C72" library="oresat-rcl" package=".0603-C-NOSILK" value="10n" x="86.7" y="25.1" smashed="yes">
+<attribute name="DESCRIPTION" value="C - 0603, 10n, C0G, 25V" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-2172-1-ND" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="8" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10C103JA8NNNC" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="85.9" y="25.75" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="86.7" y="25.1" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="85.7" y="23.55" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C73" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="90.5" y="21.1" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1859-2-ND" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="CL10A105KA8NFNC" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="Samsung Electro-Mechanics" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1859-1-ND" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="86" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NFNC" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="90.5" y="21.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="89.85" y="19.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="88.95" y="22.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
-<attribute name="VDC" value="25V" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X06" package3d_urn="urn:adsk.eagle:package:22474/2" value="" x="77.4" y="8.2" smashed="yes">
 <attribute name="DESCRIPTION" value="Connector Header Through Hole 12 position 0.100&quot; (2.54mm)" x="77.4" y="8.2" size="1.778" layer="27" display="off"/>
@@ -7156,22 +7262,37 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="91.5" y="29.2" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VDC" value="25V" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C97" library="rcl_custom" package=".0402-B-NOSILK" value="100n" x="86.3" y="74.6" smashed="yes">
+<element name="C97" library="oresat-rcl" package=".0603-C-NOSILK" value="0.1u" x="86.3" y="74.6" smashed="yes">
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 25V X5R 0603" x="86.3" y="74.6" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1857-1-ND" x="86.3" y="74.6" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="86.3" y="74.6" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="" x="86.3" y="74.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="86.3" y="74.6" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A104KA8NNNC" x="86.3" y="74.6" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="86.3" y="74.6" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="87.205" y="74.0682" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="C98" library="rcl_custom" package=".0402-B-NOSILK" value="100p" x="87.7" y="73" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="C - 0402 100p, C0G, 50V" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="INVENTORY" value="" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="87.7" y="73" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="86.586" y="73.76" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="87.7" y="73" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 </element>
 <element name="C99" library="rcl_custom" package=".0402-B-NOSILK" value="100p" x="83.751" y="74.672" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DESCRIPTION" value="C - 0402 100p, C0G, 50V" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INVENTORY" value="" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="84.573" y="75.922" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="83.751" y="74.672" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 </element>
@@ -7189,7 +7310,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="86.593940625" y="75.813340625" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="84.102790625" y="77.69333125" size="0.254" layer="27" rot="R270"/>
 </element>
-<element name="C100" library="rcl_custom" package=".0805-B-NOSILK" value="1u" x="85.8" y="69" smashed="yes" rot="R270">
+<element name="C100" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="85.8" y="69" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603" x="85.8" y="69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1859-1-ND" x="85.8" y="69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="85.8" y="69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="85.8" y="69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="85.8" y="69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NFNC" x="85.8" y="69" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="85.8" y="69" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="85.8" y="69" size="0.4" layer="33" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="R54" library="rcl_custom" package=".0603-B-NOSILK" value="6.8k" x="83.447" y="73.168" smashed="yes">
@@ -7201,30 +7329,46 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="83.447" y="71.644" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="C105" library="oresat-rcl" package=".0402-C-NOSILK" value="100p" x="91.1" y="60.4" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="C - 0402 100p, C0G, 50V" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="89.336" y="59.22" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="91.1" y="60.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 </element>
 <element name="C102" library="oresat-rcl" package=".0402-C-NOSILK" value="100p" x="90.107" y="51.89" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="Yageo" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="C - 0402 100p, C0G, 50V" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC" x="90.107" y="51.89" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="92.643" y="51.11" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="90.107" y="51.89" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 </element>
-<element name="C104" library="oresat-rcl" package=".0603-C-NOSILK" value="47n" x="85.207" y="52.49" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.593" y="48.41" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="C104" library="oresat-rcl" package=".0603-C-NOSILK" value="0.047u" x="85.207" y="52.49" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="CAP CER 0.047UF 50V X7R 0603" x="85.207" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND" x="85.207" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="85.207" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="85.207" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="85.207" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10B473KB8NNNC" x="85.207" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="85.207" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="85.207" y="52.49" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="85.593" y="48.41" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="C103" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="83.907" y="52.49" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1859-2-ND" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="CL10A105KA8NFNC" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="Samsung Electro-Mechanics" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NFNC" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="83.293" y="51.31" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="83.907" y="52.49" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VDC" value="25V" x="83.907" y="52.49" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7232,18 +7376,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="L23" library="oresat-rcl" package=".0603-C-NOSILK" value="91n" x="91.8" y="58.5" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="87.803" y="58.167" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="91.8" y="58.5" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="91.8" y="58.5" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="87.803" y="58.167" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="L24" library="oresat-rcl" package=".0603-C-NOSILK" value="91n" x="89.407" y="53.89" smashed="yes">
 <attribute name="DESCRIPTION" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="91.21" y="53.557" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="89.407" y="53.89" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.407" y="53.89" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="91.21" y="53.557" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="Q9" library="Q-Infineon-BFPXXX-RF-BJT" package="TSFP4" value="BFPXXXF" x="90.6" y="56.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="87.803" y="56.117" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -7261,10 +7415,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="86.907" y="53.89" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
 </element>
 <element name="C106" library="oresat-rcl" package=".0402-B-NOSILK" value="560p" x="87.607" y="52.19" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="560pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="399-14462-1-ND" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" value="KEMET" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C0402C561J3GAC7867" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="C - 0402, 560p, C0G, 50V" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1709-1-ND" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="96" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C561JB5NNNC" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="87.807" y="52.19" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="88.257" y="52.69" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="86.357" y="52.89" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -7278,63 +7435,147 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="85.81" y="56.507" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="L26" library="oresat-rcl" package=".0402-C-NOSILK" value="5.6n" x="92.35" y="67.05" smashed="yes" rot="R180">
-<attribute name="NAME" x="95.223" y="66.702" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INVENTORY" value="" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="92.35" y="67.05" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="95.223" y="66.702" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="93.05" y="68.3" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="L27" library="oresat-rcl" package=".0402-C-NOSILK" value="68n" x="91.1" y="64.9" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.773" y="63.802" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="91.1" y="64.9" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="94.773" y="63.802" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="91.45" y="66.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C96" library="oresat-rcl" package=".0402-C-NOSILK" value="24p" x="89.85" y="67.05" smashed="yes" rot="R180">
-<attribute name="NAME" x="86.721" y="66.775" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1670-1-ND" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INVENTORY" value="" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="89.85" y="67.05" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="86.721" y="66.775" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="90.55" y="68.3" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C101" library="oresat-rcl" package=".0402-C-NOSILK" value="2.0p" x="91.1" y="66.6" smashed="yes" rot="R270">
-<attribute name="NAME" x="94.796" y="65.904" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="C101" library="oresat-rcl" package=".0201-C-NOSILK" value="2.0p" x="91.1" y="66.6" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="CAP CER 2PF 25V C0G/NP0 0201" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-11291-1-ND" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM0335C1E2R0CA01D" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="91.1" y="66.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="94.796" y="65.904" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="89.85" y="67.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C107" library="oresat-rcl" package=".0402-C-NOSILK" value="24p" x="92.35" y="64.45" smashed="yes">
-<attribute name="NAME" x="94.923" y="64.102" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1670-1-ND" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="92.35" y="64.45" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="94.923" y="64.102" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="91.65" y="63.2" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="L28" library="oresat-rcl" package=".0402-C-NOSILK" value="5.6n" x="89.85" y="64.45" smashed="yes">
-<attribute name="NAME" x="86.623" y="64.202" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="89.85" y="64.45" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="86.623" y="64.202" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="89.15" y="63.2" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="L29" library="oresat-rcl" package=".0402-C-NOSILK" value="5.6n" x="91.308" y="47.594" smashed="yes" rot="R180">
-<attribute name="NAME" x="92.9" y="47.3" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INVENTORY" value="" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="91.308" y="47.594" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="92.9" y="47.3" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="92.008" y="48.844" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="L30" library="oresat-rcl" package=".0402-C-NOSILK" value="68n" x="90.108" y="45.544" smashed="yes" rot="R270">
-<attribute name="NAME" x="85.658" y="44.744" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="DESCRIPTION" value="" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="90.108" y="45.544" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="85.658" y="44.744" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="88.858" y="46.244" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C108" library="oresat-rcl" package=".0402-C-NOSILK" value="24p" x="88.908" y="47.594" smashed="yes" rot="R180">
-<attribute name="NAME" x="85.144" y="47.192" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1670-1-ND" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="INVENTORY" value="" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="88.908" y="47.594" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="85.144" y="47.192" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="89.608" y="48.844" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C109" library="oresat-rcl" package=".0402-C-NOSILK" value="2.0p" x="90.108" y="47.144" smashed="yes" rot="R270">
-<attribute name="NAME" x="93.5" y="45" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<element name="C109" library="oresat-rcl" package=".0201-C-NOSILK" value="2.0p" x="90.108" y="47.144" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="CAP CER 2PF 25V C0G/NP0 0201" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-11291-1-ND" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="INVENTORY" value="" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM0335C1E2R0CA01D" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="90.108" y="47.144" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="93.5" y="45" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="88.858" y="47.844" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C110" library="oresat-rcl" package=".0402-C-NOSILK" value="24p" x="91.308" y="45.094" smashed="yes">
-<attribute name="NAME" x="91.508" y="43.344" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1670-1-ND" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="Digikey" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="91.308" y="45.094" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="91.508" y="43.344" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="90.608" y="43.844" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="L31" library="oresat-rcl" package=".0402-C-NOSILK" value="5.6n" x="88.908" y="45.094" smashed="yes">
-<attribute name="NAME" x="86" y="44.8" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="DESCRIPTION" value="" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="DISTRIBUTOR" value="" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="INVENTORY" value="" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="88.908" y="45.094" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="86" y="44.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="88.208" y="43.844" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="U28" library="U-TI-LP2985AIM5-3.3_NOPB-3.3V-Fixed-LDO" package="SOT-23" value="LP2985AIM5-3.3_NOPB" x="87.3" y="15.3" smashed="yes" rot="R90">
@@ -7548,8 +7789,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Coilcraft" x="48.1" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-15NXGLW" x="48.1" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-15NXGLW" x="48.1" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="48.1" y="32.5" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="46.6" y="32.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="48.1" y="32.5" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="46.85" y="33.2" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="L39" library="oresat-rcl" package=".0402-C-NOSILK" value="15.0n" x="48.1" y="30.7" smashed="yes" rot="R270">
@@ -7560,8 +7801,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Coilcraft" x="48.1" y="30.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-15NXGLW" x="48.1" y="30.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-15NXGLW" x="48.1" y="30.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="48.1" y="30.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="46.55" y="29.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="48.1" y="30.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="46.85" y="31.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C111" library="oresat-rcl" package=".0402-C-NOSILK" value="18.0p" x="49.4" y="32.95" smashed="yes">
@@ -7572,8 +7813,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="49.4" y="32.95" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C180JB5NNNC" x="49.4" y="32.95" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="49.4" y="32.95" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.4" y="32.95" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="50.4" y="32.7" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="49.4" y="32.95" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="48.7" y="31.7" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C112" library="oresat-rcl" package=".0402-C-NOSILK" value="12.0p" x="46.8" y="31.6" smashed="yes" rot="R180">
@@ -7584,8 +7825,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="46.8" y="31.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C120JB5NNNC" x="46.8" y="31.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="46.8" y="31.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="46.8" y="31.6" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="49.5" y="31.3" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="46.8" y="31.6" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="47.5" y="32.85" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C113" library="oresat-rcl" package=".0402-C-NOSILK" value="18.0p" x="49.5" y="30.25" smashed="yes">
@@ -7596,8 +7837,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="49.5" y="30.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C180JB5NNNC" x="49.5" y="30.25" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="49.5" y="30.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="49.5" y="30.25" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="50.2" y="30.5" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="49.5" y="30.25" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="48.8" y="29" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="2.5V-L" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="62.8" y="31.2" smashed="yes">
@@ -11470,6 +11711,326 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="78.9" y="22.7" extent="1-16" drill="0.254"/>
 <wire x1="78.75" y1="23.63" x2="78.75" y2="23.15" width="0.3" layer="1"/>
 <wire x1="78.75" y1="23.15" x2="79.2" y2="22.7" width="0.3" layer="1"/>
+<wire x1="86.3" y1="90" x2="93.765" y2="90.762" width="0" layer="19" extent="1-1"/>
+<wire x1="85.932" y1="88.922" x2="86.3" y2="90" width="0" layer="19" extent="16-16"/>
+<wire x1="86.3" y1="88" x2="85.932" y2="88.922" width="0" layer="19" extent="16-16"/>
+<wire x1="86.3" y1="86" x2="86.3" y2="88" width="0" layer="19" extent="1-1"/>
+<wire x1="85.678" y1="85.62" x2="86.3" y2="86" width="0" layer="19" extent="1-1"/>
+<wire x1="85.065" y1="84.162" x2="85.678" y2="85.62" width="0" layer="19" extent="1-1"/>
+<wire x1="85.3" y1="82.9" x2="85.065" y2="84.162" width="0" layer="19" extent="1-1"/>
+<wire x1="85.961" y1="81.571" x2="85.3" y2="82.9" width="0" layer="19" extent="1-1"/>
+<wire x1="86.509" y1="79.825" x2="85.961" y2="81.571" width="0" layer="19" extent="1-1"/>
+<wire x1="88" y1="79.3" x2="86.509" y2="79.825" width="0" layer="19" extent="1-1"/>
+<wire x1="88" y1="78.3" x2="88" y2="79.3" width="0" layer="19" extent="1-1"/>
+<wire x1="87.025" y1="78.349" x2="88" y2="78.3" width="0" layer="19" extent="1-1"/>
+<wire x1="86.5" y1="78" x2="87.025" y2="78.349" width="0" layer="19" extent="1-1"/>
+<wire x1="85.275" y1="76.704" x2="85.675" y2="77.104" width="0" layer="19" extent="1-1"/>
+<wire x1="89" y1="78.3" x2="88" y2="78.3" width="0" layer="19" extent="1-1"/>
+<wire x1="90" y1="77.8" x2="89" y2="78.3" width="0" layer="19" extent="1-1"/>
+<wire x1="83.935" y1="79.115" x2="83.88" y2="77.87" width="0" layer="19" extent="1-1"/>
+<wire x1="91.2" y1="77.1" x2="90" y2="77.8" width="0" layer="19" extent="1-1"/>
+<wire x1="92" y1="76" x2="91.2" y2="77.1" width="0" layer="19" extent="1-1"/>
+<wire x1="92.3" y1="75" x2="92" y2="76" width="0" layer="19" extent="1-1"/>
+<wire x1="92.3" y1="74" x2="92.3" y2="75" width="0" layer="19" extent="1-1"/>
+<wire x1="92.3" y1="73" x2="92.3" y2="74" width="0" layer="19" extent="1-1"/>
+<wire x1="92.3" y1="72" x2="92.3" y2="73" width="0" layer="19" extent="1-1"/>
+<wire x1="92.3" y1="71" x2="92.3" y2="72" width="0" layer="19" extent="1-1"/>
+<wire x1="92.3" y1="70" x2="92.3" y2="71" width="0" layer="19" extent="1-1"/>
+<wire x1="92.3" y1="69" x2="92.3" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="92.8" y1="67.848" x2="92.3" y2="69" width="0" layer="19" extent="1-1"/>
+<wire x1="92.777" y1="65.248" x2="92.8" y2="66.248" width="0" layer="19" extent="1-1"/>
+<wire x1="92.8" y1="62.8" x2="92.777" y2="63.648" width="0" layer="19" extent="1-1"/>
+<wire x1="92.727" y1="61.798" x2="92.8" y2="62.8" width="0" layer="19" extent="1-1"/>
+<wire x1="92.6" y1="60.8" x2="92.727" y2="61.798" width="0" layer="19" extent="1-1"/>
+<wire x1="92.6" y1="59.9" x2="92.6" y2="60.8" width="0" layer="19" extent="1-1"/>
+<wire x1="93.3" y1="59.2" x2="92.6" y2="59.9" width="0" layer="19" extent="1-1"/>
+<wire x1="83.604" y1="80.493" x2="83.935" y2="79.115" width="0" layer="19" extent="1-1"/>
+<wire x1="82.426" y1="77.919" x2="83.88" y2="77.87" width="0" layer="19" extent="1-1"/>
+<wire x1="81.6" y1="77.4" x2="82.426" y2="77.919" width="0" layer="19" extent="1-1"/>
+<wire x1="80.704" y1="76.596" x2="81.6" y2="77.4" width="0" layer="19" extent="1-1"/>
+<wire x1="80.004" y1="75.896" x2="80.704" y2="76.596" width="0" layer="19" extent="1-1"/>
+<wire x1="79.304" y1="75.296" x2="80.004" y2="75.896" width="0" layer="19" extent="1-1"/>
+<wire x1="78.541" y1="74.515" x2="79.304" y2="75.296" width="0" layer="19" extent="1-1"/>
+<wire x1="77.91" y1="73.885" x2="78.541" y2="74.515" width="0" layer="19" extent="1-1"/>
+<wire x1="77.246" y1="73.22" x2="77.91" y2="73.885" width="0" layer="19" extent="1-1"/>
+<wire x1="76.483" y1="72.456" x2="77.246" y2="73.22" width="0" layer="19" extent="1-1"/>
+<wire x1="75.935" y1="71.892" x2="76.483" y2="72.456" width="0" layer="19" extent="1-1"/>
+<wire x1="75.255" y1="71.211" x2="75.935" y2="71.892" width="0" layer="19" extent="1-1"/>
+<wire x1="74.573" y1="70.58" x2="75.255" y2="71.211" width="0" layer="19" extent="1-1"/>
+<wire x1="73.893" y1="69.883" x2="74.573" y2="70.58" width="0" layer="19" extent="1-1"/>
+<wire x1="73.212" y1="69.169" x2="73.893" y2="69.883" width="0" layer="19" extent="1-1"/>
+<wire x1="72.515" y1="68.488" x2="73.212" y2="69.169" width="0" layer="19" extent="1-1"/>
+<wire x1="71.785" y1="67.725" x2="72.515" y2="68.488" width="0" layer="19" extent="1-1"/>
+<wire x1="71.054" y1="66.995" x2="71.785" y2="67.725" width="0" layer="19" extent="1-1"/>
+<wire x1="70.356" y1="66.314" x2="71.054" y2="66.995" width="0" layer="19" extent="1-1"/>
+<wire x1="69.709" y1="65.616" x2="70.356" y2="66.314" width="0" layer="19" extent="1-1"/>
+<wire x1="69.062" y1="64.803" x2="69.709" y2="65.616" width="0" layer="19" extent="1-1"/>
+<wire x1="68.497" y1="64.006" x2="69.062" y2="64.803" width="0" layer="19" extent="1-1"/>
+<wire x1="68.042" y1="63.174" x2="68.497" y2="64.006" width="0" layer="19" extent="1-1"/>
+<wire x1="67.783" y1="62.158" x2="68.042" y2="63.174" width="0" layer="19" extent="1-1"/>
+<wire x1="67.743" y1="61.082" x2="67.783" y2="62.158" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="60.146" x2="67.743" y2="61.082" width="0" layer="19" extent="1-1"/>
+<wire x1="82.841" y1="81.788" x2="83.604" y2="80.493" width="0" layer="19" extent="1-1"/>
+<wire x1="82.708" y1="82.916" x2="82.841" y2="81.788" width="0" layer="19" extent="1-1"/>
+<wire x1="82.558" y1="84.446" x2="82.708" y2="82.916" width="0" layer="19" extent="1-1"/>
+<wire x1="82.122" y1="85.62" x2="82.558" y2="84.446" width="0" layer="19" extent="1-1"/>
+<wire x1="81.5" y1="86" x2="82.122" y2="85.62" width="0" layer="19" extent="1-1"/>
+<wire x1="67.715" y1="58.601" x2="67.744" y2="60.146" width="0" layer="19" extent="1-1"/>
+<wire x1="67.715" y1="57.401" x2="67.715" y2="58.601" width="0" layer="19" extent="1-1"/>
+<wire x1="67.715" y1="56.201" x2="67.715" y2="57.401" width="0" layer="19" extent="1-1"/>
+<wire x1="67.715" y1="55.001" x2="67.715" y2="56.201" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="54.054" x2="67.715" y2="55.001" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="52.854" x2="67.744" y2="54.054" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="51.654" x2="67.744" y2="52.854" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="50.454" x2="67.744" y2="51.654" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="49.254" x2="67.744" y2="50.454" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="48.054" x2="67.744" y2="49.254" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="46.854" x2="67.744" y2="48.054" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="45.654" x2="67.744" y2="46.854" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="44.454" x2="67.744" y2="45.654" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="43.254" x2="67.744" y2="44.454" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="42.054" x2="67.744" y2="43.254" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="40.854" x2="67.744" y2="42.054" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="39.654" x2="67.744" y2="40.854" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="38.454" x2="67.744" y2="39.654" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="37.254" x2="67.744" y2="38.454" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="36.054" x2="67.744" y2="37.254" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="34.854" x2="67.744" y2="36.054" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="33.654" x2="67.744" y2="34.854" width="0" layer="19" extent="1-1"/>
+<wire x1="67.744" y1="32.454" x2="67.744" y2="33.654" width="0" layer="19" extent="1-1"/>
+<wire x1="67.6" y1="31.5" x2="67.744" y2="32.454" width="0" layer="19" extent="1-1"/>
+<wire x1="67.6" y1="30.3" x2="67.6" y2="31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="67.8" y1="29.2" x2="67.6" y2="30.3" width="0" layer="19" extent="1-1"/>
+<wire x1="68.2" y1="28.4" x2="67.8" y2="29.2" width="0" layer="19" extent="1-1"/>
+<wire x1="68.8" y1="27.6" x2="68.2" y2="28.4" width="0" layer="19" extent="1-1"/>
+<wire x1="69.4" y1="26.9" x2="68.8" y2="27.6" width="0" layer="19" extent="1-1"/>
+<wire x1="70.1" y1="26.2" x2="69.4" y2="26.9" width="0" layer="19" extent="1-1"/>
+<wire x1="70.8" y1="25.5" x2="70.1" y2="26.2" width="0" layer="19" extent="1-1"/>
+<wire x1="71.5" y1="24.8" x2="70.8" y2="25.5" width="0" layer="19" extent="1-1"/>
+<wire x1="72.2" y1="24.2" x2="71.5" y2="24.8" width="0" layer="19" extent="1-1"/>
+<wire x1="72.419" y1="23.532" x2="72.2" y2="24.2" width="0" layer="19" extent="1-1"/>
+<wire x1="71.81" y1="22.134" x2="72.419" y2="23.532" width="0" layer="19" extent="1-1"/>
+<wire x1="74" y1="21.2" x2="72.997" y2="20.958" width="0" layer="19" extent="1-1"/>
+<wire x1="74.386" y1="20.493" x2="74" y2="21.2" width="0" layer="19" extent="1-1"/>
+<wire x1="74.171" y1="19.513" x2="74.386" y2="20.493" width="0" layer="19" extent="1-1"/>
+<wire x1="74.171" y1="18.413" x2="74.171" y2="19.513" width="0" layer="19" extent="1-1"/>
+<wire x1="74.195" y1="17.456" x2="74.171" y2="18.413" width="0" layer="19" extent="1-1"/>
+<wire x1="74.195" y1="16.715" x2="74.195" y2="17.456" width="0" layer="19" extent="1-1"/>
+<wire x1="75.55" y1="21.4" x2="74.386" y2="20.493" width="0" layer="19" extent="1-1"/>
+<wire x1="76.55" y1="18.73" x2="75.95" y2="19.43" width="0" layer="19" extent="1-1"/>
+<wire x1="75.95" y1="18.13" x2="76.55" y2="18.73" width="0" layer="19" extent="1-1"/>
+<wire x1="76.55" y1="17.63" x2="75.95" y2="18.13" width="0" layer="19" extent="1-1"/>
+<wire x1="75.95" y1="16.83" x2="76.55" y2="17.63" width="0" layer="19" extent="1-1"/>
+<wire x1="77.85" y1="18.73" x2="76.55" y2="18.73" width="0" layer="19" extent="1-1"/>
+<wire x1="78.5" y1="19.4" x2="77.85" y2="18.73" width="0" layer="19" extent="1-1"/>
+<wire x1="78.9" y1="22.7" x2="78.843" y2="22.07" width="0" layer="19" extent="1-1"/>
+<wire x1="79.2" y1="22.7" x2="78.9" y2="22.7" width="0" layer="19" extent="1-1"/>
+<wire x1="80.2" y1="24.58" x2="80.2" y2="23.7" width="0" layer="19" extent="1-1"/>
+<wire x1="80.2" y1="25.5" x2="80.2" y2="24.58" width="0" layer="19" extent="1-1"/>
+<wire x1="80.203" y1="21.788" x2="79.2" y2="22.7" width="0" layer="19" extent="1-1"/>
+<wire x1="78.9" y1="26.4" x2="80.2" y2="25.5" width="0" layer="19" extent="1-1"/>
+<wire x1="78.822" y1="27.397" x2="78.9" y2="26.4" width="0" layer="19" extent="1-1"/>
+<wire x1="78.9" y1="28.3" x2="78.822" y2="27.397" width="0" layer="19" extent="1-1"/>
+<wire x1="78.9" y1="29.3" x2="78.9" y2="28.3" width="0" layer="19" extent="1-1"/>
+<wire x1="78.9" y1="30.2" x2="78.9" y2="29.3" width="0" layer="19" extent="1-1"/>
+<wire x1="92.407" y1="57.59" x2="93.3" y2="59.2" width="0" layer="19" extent="1-1"/>
+<wire x1="92.407" y1="56.49" x2="92.407" y2="57.59" width="0" layer="19" extent="1-1"/>
+<wire x1="92.057" y1="55.54" x2="92.407" y2="56.49" width="0" layer="19" extent="1-1"/>
+<wire x1="91.507" y1="54.69" x2="91.1" y2="55.55" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5" y1="53.2" x2="91.507" y2="54.69" width="0" layer="19" extent="1-1"/>
+<wire x1="91.507" y1="52.29" x2="91.5" y2="53.2" width="0" layer="19" extent="1-1"/>
+<wire x1="91.6" y1="51.5" x2="91.507" y2="52.29" width="0" layer="19" extent="1-1"/>
+<wire x1="91.7" y1="50.7" x2="91.6" y2="51.5" width="0" layer="19" extent="1-1"/>
+<wire x1="91.7" y1="49.7" x2="91.7" y2="50.7" width="0" layer="19" extent="1-1"/>
+<wire x1="92.7" y1="49.7" x2="91.7" y2="49.7" width="0" layer="19" extent="1-1"/>
+<wire x1="91.758" y1="48.394" x2="91.7" y2="49.7" width="0" layer="19" extent="1-1"/>
+<wire x1="91.759" y1="45.826" x2="91.753" y2="46.712" width="0" layer="19" extent="1-1"/>
+<wire x1="91.3" y1="42.9" x2="91.758" y2="44.294" width="0" layer="19" extent="1-1"/>
+<wire x1="90.7" y1="42" x2="91.3" y2="42.9" width="0" layer="19" extent="1-1"/>
+<wire x1="90" y1="41.3" x2="90.7" y2="42" width="0" layer="19" extent="1-1"/>
+<wire x1="89.246" y1="40.747" x2="90" y2="41.3" width="0" layer="19" extent="1-1"/>
+<wire x1="88.499" y1="39.984" x2="89.246" y2="40.747" width="0" layer="19" extent="1-1"/>
+<wire x1="87.736" y1="39.253" x2="88.499" y2="39.984" width="0" layer="19" extent="1-1"/>
+<wire x1="86.956" y1="38.472" x2="87.736" y2="39.253" width="0" layer="19" extent="1-1"/>
+<wire x1="86.292" y1="37.825" x2="86.956" y2="38.472" width="0" layer="19" extent="1-1"/>
+<wire x1="90.1" y1="56.85" x2="91.1" y2="55.55" width="0" layer="19" extent="1-1"/>
+<wire x1="89.3" y1="57.8" x2="89.157" y2="56.84" width="0" layer="19" extent="1-1"/>
+<wire x1="89.7" y1="58.5" x2="89.3" y2="57.8" width="0" layer="19" extent="1-1"/>
+<wire x1="89.7" y1="59.5" x2="89.7" y2="58.5" width="0" layer="19" extent="1-1"/>
+<wire x1="89.7" y1="60.5" x2="89.7" y2="59.5" width="0" layer="19" extent="1-1"/>
+<wire x1="89.5" y1="61.6" x2="89.7" y2="60.5" width="0" layer="19" extent="1-1"/>
+<wire x1="89.5" y1="62.6" x2="89.5" y2="61.6" width="0" layer="19" extent="1-1"/>
+<wire x1="88.5" y1="62.6" x2="89.5" y2="62.6" width="0" layer="19" extent="1-1"/>
+<wire x1="89.2" y1="63.6" x2="89.5" y2="62.6" width="0" layer="19" extent="1-1"/>
+<wire x1="88.6" y1="64.45" x2="89.4" y2="64.45" width="0" layer="19" extent="1-1"/>
+<wire x1="89.45" y1="66.248" x2="89.2" y2="65.3" width="0" layer="19" extent="1-1"/>
+<wire x1="89.4" y1="67.05" x2="89.45" y2="66.248" width="0" layer="19" extent="1-1"/>
+<wire x1="89.232" y1="67.048" x2="89.4" y2="67.05" width="0" layer="19" extent="1-1"/>
+<wire x1="88.807" y1="55.79" x2="89.157" y2="56.84" width="0" layer="19" extent="1-1"/>
+<wire x1="88.807" y1="54.79" x2="88.807" y2="55.79" width="0" layer="19" extent="1-1"/>
+<wire x1="89.9" y1="68.9" x2="89.45" y2="67.848" width="0" layer="19" extent="1-1"/>
+<wire x1="89.9" y1="70.4" x2="89.9" y2="68.9" width="0" layer="19" extent="1-1"/>
+<wire x1="89.9" y1="71.8" x2="89.9" y2="70.4" width="0" layer="19" extent="1-1"/>
+<wire x1="89.9" y1="73.3" x2="89.9" y2="71.8" width="0" layer="19" extent="1-1"/>
+<wire x1="89" y1="74.1" x2="89.9" y2="73.3" width="0" layer="19" extent="1-1"/>
+<wire x1="89.974" y1="74.795" x2="89" y2="74.1" width="0" layer="19" extent="1-1"/>
+<wire x1="89.278" y1="75.495" x2="89.974" y2="74.795" width="0" layer="19" extent="1-1"/>
+<wire x1="88" y1="75.4" x2="89.278" y2="75.495" width="0" layer="19" extent="1-1"/>
+<wire x1="87.711" y1="74.628" x2="88" y2="75.4" width="0" layer="19" extent="1-1"/>
+<wire x1="87" y1="74.6" x2="87.711" y2="74.628" width="0" layer="19" extent="1-1"/>
+<wire x1="86.799" y1="73.856" x2="87" y2="74.6" width="0" layer="19" extent="1-1"/>
+<wire x1="86.725" y1="75.495" x2="87" y2="74.6" width="0" layer="19" extent="1-1"/>
+<wire x1="87.7" y1="73.5" x2="86.799" y2="73.856" width="0" layer="19" extent="1-1"/>
+<wire x1="88.808" y1="52.944" x2="88.807" y2="54.79" width="0" layer="19" extent="1-1"/>
+<wire x1="88.707" y1="52.29" x2="88.808" y2="52.944" width="0" layer="19" extent="1-1"/>
+<wire x1="88.558" y1="51.194" x2="88.707" y2="52.29" width="0" layer="19" extent="1-1"/>
+<wire x1="88.558" y1="50.194" x2="88.558" y2="51.194" width="0" layer="19" extent="1-1"/>
+<wire x1="88.558" y1="49.194" x2="88.558" y2="50.194" width="0" layer="19" extent="1-1"/>
+<wire x1="88.458" y1="48.394" x2="88.558" y2="49.194" width="0" layer="19" extent="1-1"/>
+<wire x1="88.458" y1="45.894" x2="88.458" y2="46.794" width="0" layer="19" extent="1-1"/>
+<wire x1="88.55" y1="43.365" x2="88.458" y2="44.294" width="0" layer="19" extent="1-1"/>
+<wire x1="87.891" y1="42.677" x2="88.55" y2="43.365" width="0" layer="19" extent="1-1"/>
+<wire x1="87.173" y1="42.016" x2="87.891" y2="42.677" width="0" layer="19" extent="1-1"/>
+<wire x1="86.485" y1="41.27" x2="87.173" y2="42.016" width="0" layer="19" extent="1-1"/>
+<wire x1="87.607" y1="50.79" x2="88.558" y2="51.194" width="0" layer="19" extent="1-1"/>
+<wire x1="86.758" y1="51.694" x2="87.607" y2="51.69" width="0" layer="19" extent="1-1"/>
+<wire x1="86.158" y1="51.794" x2="86.758" y2="51.694" width="0" layer="19" extent="1-1"/>
+<wire x1="85.207" y1="51.79" x2="86.158" y2="51.794" width="0" layer="19" extent="1-1"/>
+<wire x1="85.258" y1="50.994" x2="85.207" y2="51.79" width="0" layer="19" extent="1-1"/>
+<wire x1="83.907" y1="51.79" x2="85.207" y2="51.79" width="0" layer="19" extent="1-1"/>
+<wire x1="83.858" y1="50.994" x2="83.907" y2="51.79" width="0" layer="19" extent="1-1"/>
+<wire x1="87.999" y1="71.556" x2="89.9" y2="71.8" width="0" layer="19" extent="1-1"/>
+<wire x1="86.5" y1="70.9" x2="87.999" y2="71.556" width="0" layer="19" extent="1-1"/>
+<wire x1="81.5" y1="88" x2="81.5" y2="86" width="0" layer="19" extent="1-1"/>
+<wire x1="81.868" y1="88.922" x2="81.5" y2="88" width="0" layer="19" extent="16-16"/>
+<wire x1="81.5" y1="90" x2="81.868" y2="88.922" width="0" layer="19" extent="16-16"/>
+<wire x1="87" y1="68.1" x2="88.777" y2="67.048" width="0" layer="19" extent="1-1"/>
+<wire x1="85.8" y1="68.3" x2="87" y2="68.1" width="0" layer="19" extent="1-1"/>
+<wire x1="84.6" y1="68.1" x2="85.8" y2="68.3" width="0" layer="19" extent="1-1"/>
+<wire x1="86.1" y1="67" x2="85.8" y2="68.3" width="0" layer="19" extent="1-1"/>
+<wire x1="85.5" y1="67" x2="86.1" y2="67" width="0" layer="19" extent="1-1"/>
+<wire x1="80.265" y1="31.731" x2="78.9" y2="30.2" width="0" layer="19" extent="1-1"/>
+<wire x1="80.796" y1="32.311" x2="80.265" y2="31.731" width="0" layer="19" extent="1-1"/>
+<wire x1="81.494" y1="33.025" x2="80.796" y2="32.311" width="0" layer="19" extent="1-1"/>
+<wire x1="82.208" y1="33.723" x2="81.494" y2="33.025" width="0" layer="19" extent="1-1"/>
+<wire x1="82.888" y1="34.387" x2="82.208" y2="33.723" width="0" layer="19" extent="1-1"/>
+<wire x1="83.585" y1="35.084" x2="82.888" y2="34.387" width="0" layer="19" extent="1-1"/>
+<wire x1="84.249" y1="35.782" x2="83.585" y2="35.084" width="0" layer="19" extent="1-1"/>
+<wire x1="81.1" y1="31.1" x2="80.265" y2="31.731" width="0" layer="19" extent="1-1"/>
+<wire x1="81.1" y1="30.2" x2="81.1" y2="31.1" width="0" layer="19" extent="1-1"/>
+<wire x1="81.6" y1="29.4" x2="81.1" y2="30.2" width="0" layer="19" extent="1-1"/>
+<wire x1="82.2" y1="28.7" x2="81.6" y2="29.4" width="0" layer="19" extent="1-1"/>
+<wire x1="81.7" y1="28" x2="82.2" y2="28.7" width="0" layer="19" extent="1-1"/>
+<wire x1="81.1" y1="28.4" x2="81.7" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="82.7" y1="29.5" x2="82.2" y2="28.7" width="0" layer="19" extent="1-1"/>
+<wire x1="83.3" y1="75.5" x2="84.875" y2="77.104" width="0" layer="19" extent="1-1"/>
+<wire x1="83.251" y1="74.672" x2="83.3" y2="75.5" width="0" layer="19" extent="1-1"/>
+<wire x1="82.555" y1="74.843" x2="83.251" y2="74.672" width="0" layer="19" extent="1-1"/>
+<wire x1="81.7" y1="74" x2="82.555" y2="74.843" width="0" layer="19" extent="1-1"/>
+<wire x1="81.1" y1="73.6" x2="81.7" y2="74" width="0" layer="19" extent="1-1"/>
+<wire x1="80.5" y1="73.1" x2="81.1" y2="73.6" width="0" layer="19" extent="1-1"/>
+<wire x1="81.783" y1="73.176" x2="81.1" y2="73.6" width="0" layer="19" extent="1-1"/>
+<wire x1="82.647" y1="73.168" x2="81.783" y2="73.176" width="0" layer="19" extent="1-1"/>
+<wire x1="79.8" y1="72.4" x2="80.5" y2="73.1" width="0" layer="19" extent="1-1"/>
+<wire x1="79.2" y1="71.8" x2="79.8" y2="72.4" width="0" layer="19" extent="1-1"/>
+<wire x1="78.5" y1="71.1" x2="79.2" y2="71.8" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8" y1="70.4" x2="78.5" y2="71.1" width="0" layer="19" extent="1-1"/>
+<wire x1="77" y1="69.6" x2="77.8" y2="70.4" width="0" layer="19" extent="1-1"/>
+<wire x1="76.247" y1="68.935" x2="77" y2="69.6" width="0" layer="19" extent="1-1"/>
+<wire x1="75.6" y1="68.2" x2="76.247" y2="68.935" width="0" layer="19" extent="1-1"/>
+<wire x1="74.9" y1="67.5" x2="75.6" y2="68.2" width="0" layer="19" extent="1-1"/>
+<wire x1="74.2" y1="66.8" x2="74.9" y2="67.5" width="0" layer="19" extent="1-1"/>
+<wire x1="73.4" y1="66" x2="74.2" y2="66.8" width="0" layer="19" extent="1-1"/>
+<wire x1="72.7" y1="65.3" x2="73.4" y2="66" width="0" layer="19" extent="1-1"/>
+<wire x1="72" y1="64.5" x2="72.7" y2="65.3" width="0" layer="19" extent="1-1"/>
+<wire x1="71.367" y1="63.77" x2="72" y2="64.5" width="0" layer="19" extent="1-1"/>
+<wire x1="70.8" y1="63" x2="71.367" y2="63.77" width="0" layer="19" extent="1-1"/>
+<wire x1="70.37" y1="62.01" x2="70.8" y2="63" width="0" layer="19" extent="1-1"/>
+<wire x1="70.154" y1="61.097" x2="70.37" y2="62.01" width="0" layer="19" extent="1-1"/>
+<wire x1="70.105" y1="60.151" x2="70.154" y2="61.097" width="0" layer="19" extent="1-1"/>
+<wire x1="70.072" y1="59.188" x2="70.105" y2="60.151" width="0" layer="19" extent="1-1"/>
+<wire x1="70.11" y1="58.078" x2="70.072" y2="59.188" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="57.042" x2="70.11" y2="58.078" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="55.842" x2="70.03" y2="57.042" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="54.642" x2="70.03" y2="55.842" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="53.442" x2="70.03" y2="54.642" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="52.242" x2="70.03" y2="53.442" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="51.042" x2="70.03" y2="52.242" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="49.842" x2="70.03" y2="51.042" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="48.642" x2="70.03" y2="49.842" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="47.442" x2="70.03" y2="48.642" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="46.242" x2="70.03" y2="47.442" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="45.042" x2="70.03" y2="46.242" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="43.842" x2="70.03" y2="45.042" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="42.642" x2="70.03" y2="43.842" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="41.442" x2="70.03" y2="42.642" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="40.242" x2="70.03" y2="41.442" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="39.042" x2="70.03" y2="40.242" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="37.842" x2="70.03" y2="39.042" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="36.642" x2="70.03" y2="37.842" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="35.442" x2="70.03" y2="36.642" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="34.242" x2="70.03" y2="35.442" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="33.042" x2="70.03" y2="34.242" width="0" layer="19" extent="1-1"/>
+<wire x1="70.03" y1="31.842" x2="70.03" y2="33.042" width="0" layer="19" extent="1-1"/>
+<wire x1="70.041" y1="30.944" x2="70.03" y2="31.842" width="0" layer="19" extent="1-1"/>
+<wire x1="70.279" y1="29.928" x2="70.041" y2="30.944" width="0" layer="19" extent="1-1"/>
+<wire x1="70.798" y1="29.171" x2="70.279" y2="29.928" width="0" layer="19" extent="1-1"/>
+<wire x1="71.515" y1="28.493" x2="70.798" y2="29.171" width="0" layer="19" extent="1-1"/>
+<wire x1="72.232" y1="27.776" x2="71.515" y2="28.493" width="0" layer="19" extent="1-1"/>
+<wire x1="72.93" y1="27.099" x2="72.232" y2="27.776" width="0" layer="19" extent="1-1"/>
+<wire x1="73.7" y1="26.4" x2="72.93" y2="27.099" width="0" layer="19" extent="1-1"/>
+<wire x1="74.321" y1="25.623" x2="73.7" y2="26.4" width="0" layer="19" extent="1-1"/>
+<wire x1="75.021" y1="24.823" x2="74.321" y2="25.623" width="0" layer="19" extent="1-1"/>
+<wire x1="75.796" y1="24.363" x2="75.021" y2="24.823" width="0" layer="19" extent="1-1"/>
+<wire x1="75.815" y1="25.425" x2="75.021" y2="24.823" width="0" layer="19" extent="1-1"/>
+<wire x1="76.05" y1="26.298" x2="75.815" y2="25.425" width="0" layer="19" extent="1-1"/>
+<wire x1="76.192" y1="27.128" x2="76.05" y2="26.298" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9" y1="28" x2="76.192" y2="27.128" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9" y1="29" x2="75.9" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="75.9" y1="30" x2="75.9" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="74.9" y1="29" x2="75.9" y2="29" width="0" layer="19" extent="1-1"/>
+<wire x1="76.4" y1="30.9" x2="75.9" y2="30" width="0" layer="19" extent="1-1"/>
+<wire x1="77.084" y1="31.843" x2="76.4" y2="30.9" width="0" layer="19" extent="1-1"/>
+<wire x1="77.787" y1="32.512" x2="77.084" y2="31.843" width="0" layer="19" extent="1-1"/>
+<wire x1="78.478" y1="33.192" x2="77.787" y2="32.512" width="0" layer="19" extent="1-1"/>
+<wire x1="78.9" y1="33.6" x2="78.478" y2="33.192" width="0" layer="19" extent="1-1"/>
+<wire x1="80.1" y1="34.9" x2="78.9" y2="33.6" width="0" layer="19" extent="1-1"/>
+<wire x1="80.9" y1="35.6" x2="80.1" y2="34.9" width="0" layer="19" extent="1-1"/>
+<wire x1="81.521" y1="36.248" x2="80.9" y2="35.6" width="0" layer="19" extent="1-1"/>
+<wire x1="82.152" y1="36.965" x2="81.521" y2="36.248" width="0" layer="19" extent="1-1"/>
+<wire x1="82.84" y1="37.625" x2="82.152" y2="36.965" width="0" layer="19" extent="1-1"/>
+<wire x1="83.529" y1="38.343" x2="82.84" y2="37.625" width="0" layer="19" extent="1-1"/>
+<wire x1="84.275" y1="39.032" x2="83.529" y2="38.343" width="0" layer="19" extent="1-1"/>
+<wire x1="86.5" y1="35.2" x2="84.249" y2="35.782" width="0" layer="19" extent="1-1"/>
+<wire x1="87.284" y1="35.174" x2="86.5" y2="35.2" width="0" layer="19" extent="1-1"/>
+<wire x1="87.377" y1="34.421" x2="87.284" y2="35.174" width="0" layer="19" extent="1-1"/>
+<wire x1="87.3" y1="33.8" x2="87.377" y2="34.421" width="0" layer="19" extent="1-1"/>
+<wire x1="87.818" y1="33.274" x2="87.3" y2="33.8" width="0" layer="19" extent="1-1"/>
+<wire x1="86.5" y1="34.3" x2="87.377" y2="34.421" width="0" layer="19" extent="1-1"/>
+<wire x1="88.989" y1="33.722" x2="87.818" y2="33.274" width="0" layer="19" extent="1-1"/>
+<wire x1="90.022" y1="34.238" x2="88.989" y2="33.722" width="0" layer="19" extent="1-1"/>
+<wire x1="90.854" y1="34.497" x2="90.022" y2="34.238" width="0" layer="19" extent="1-1"/>
+<wire x1="91.556" y1="34.537" x2="90.854" y2="34.497" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5" y1="33.5" x2="91.556" y2="34.537" width="0" layer="19" extent="1-1"/>
+<wire x1="92.675" y1="33.533" x2="91.5" y2="33.5" width="0" layer="19" extent="1-1"/>
+<wire x1="92.733" y1="32.212" x2="92.675" y2="33.533" width="0" layer="19" extent="1-1"/>
+<wire x1="92.778" y1="31.035" x2="92.733" y2="32.212" width="0" layer="19" extent="1-1"/>
+<wire x1="92.571" y1="29.313" x2="92.778" y2="31.035" width="0" layer="19" extent="1-1"/>
+<wire x1="92.471" y1="28.438" x2="92.571" y2="29.313" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5" y1="28.5" x2="92.471" y2="28.438" width="0" layer="19" extent="1-1"/>
+<wire x1="90.529" y1="28.4" x2="91.5" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="90.402" y1="29.175" x2="90.529" y2="28.4" width="0" layer="19" extent="1-1"/>
+<wire x1="91.473" y1="27.48" x2="91.5" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="88.922" y1="28.934" x2="90.402" y2="29.175" width="0" layer="19" extent="1-1"/>
+<wire x1="88.2" y1="28.9" x2="88.922" y2="28.934" width="0" layer="19" extent="1-1"/>
+<wire x1="87.5" y1="28.9" x2="88.2" y2="28.9" width="0" layer="19" extent="1-1"/>
+<wire x1="87.7" y1="31" x2="87.5" y2="28.9" width="0" layer="19" extent="1-1"/>
+<wire x1="86.7" y1="31" x2="87.7" y2="31" width="0" layer="19" extent="1-1"/>
+<wire x1="66.5" y1="24.5" x2="69.4" y2="26.9" width="0" layer="19" extent="1-1"/>
+<wire x1="80.1" y1="54.5" x2="83.907" y2="51.79" width="0" layer="19" extent="1-1"/>
+<wire x1="80.107" y1="57.19" x2="80.1" y2="54.5" width="0" layer="19" extent="1-1"/>
+<wire x1="80.207" y1="59.59" x2="80.107" y2="57.19" width="0" layer="19" extent="1-1"/>
+<wire x1="66.5" y1="14.5" x2="74.195" y2="16.715" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND-L">
 <contactref element="C46" pad="2"/>
@@ -13249,7 +13810,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U25" pad="7"/>
 <contactref element="C97" pad="1"/>
 <contactref element="C100" pad="1"/>
-<wire x1="85.8" y1="75.417" x2="85.8" y2="74.6" width="0.2" layer="1"/>
+<wire x1="85.8" y1="75.417" x2="85.6" y2="74.6" width="0.2" layer="1"/>
 <wire x1="85.8" y1="75.417" x2="85.675" y2="75.542" width="0.2" layer="1"/>
 <wire x1="85.675" y1="75.542" x2="85.675" y2="76.304" width="0.2" layer="1"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no">
@@ -13316,7 +13877,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="89.7" y="18.5"/>
 <vertex x="87.2" y="16"/>
 </polygon>
-<wire x1="85.8" y1="74.6" x2="85.8" y2="69.9" width="0.5" layer="1"/>
+<wire x1="85.6" y1="74.6" x2="85.8" y2="69.7" width="0.5" layer="1"/>
 <wire x1="79.45" y1="17.2" x2="80.2" y2="17.2" width="0.3" layer="1"/>
 <wire x1="80.2" y1="17.2" x2="80.3" y2="17.1" width="0.3" layer="1"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no">
@@ -13357,6 +13918,37 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <via x="85.6" y="16.6" extent="1-16" drill="0.254"/>
 <via x="87.1" y="16.6" extent="1-16" drill="0.254"/>
+<wire x1="87.7" y1="69.4" x2="89" y2="69.5" width="0" layer="19" extent="1-1"/>
+<wire x1="89.6" y1="22.2" x2="89.6" y2="21.6" width="0" layer="19" extent="1-1"/>
+<wire x1="89.6" y1="22.8" x2="89.6" y2="22.2" width="0" layer="19" extent="1-1"/>
+<wire x1="85.3" y1="32.8" x2="85.3" y2="32.1" width="0" layer="19" extent="1-1"/>
+<wire x1="90.5" y1="22.8" x2="89.6" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="90.5" y1="21.8" x2="89.6" y2="21.6" width="0" layer="19" extent="1-1"/>
+<wire x1="85.6" y1="30.6" x2="85.3" y2="31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="85.6" y1="30" x2="85.6" y2="30.6" width="0" layer="19" extent="1-1"/>
+<wire x1="84.9" y1="30.6" x2="85.6" y2="30.6" width="0" layer="19" extent="1-1"/>
+<wire x1="84.9" y1="30" x2="84.9" y2="30.6" width="0" layer="19" extent="1-1"/>
+<wire x1="91.5" y1="22.8" x2="90.5" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="92.1" y1="22.8" x2="91.5" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="92.7" y1="22.8" x2="92.1" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="92.4" y1="21.9" x2="92.1" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="85.3" y1="29" x2="85.6" y2="30" width="0" layer="19" extent="1-1"/>
+<wire x1="88.6" y1="21.85" x2="89.6" y2="21.6" width="0" layer="19" extent="1-1"/>
+<wire x1="86.5" y1="32.9" x2="85.3" y2="32.8" width="0" layer="19" extent="1-1"/>
+<wire x1="86.7" y1="31.95" x2="86.5" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="85.8" y1="69.7" x2="87.7" y2="69.9" width="0" layer="19" extent="1-1"/>
+<wire x1="87.1" y1="16.6" x2="88.6" y2="21.85" width="0" layer="19" extent="1-1"/>
+<wire x1="86.35" y1="16.6" x2="87.1" y2="16.6" width="0" layer="19" extent="1-1"/>
+<wire x1="85.6" y1="16.6" x2="86.35" y2="16.6" width="0" layer="19" extent="1-1"/>
+<wire x1="84.7" y1="16.7" x2="85.6" y2="16.6" width="0" layer="19" extent="1-1"/>
+<wire x1="83.4" y1="17" x2="84.7" y2="16.7" width="0" layer="19" extent="1-1"/>
+<wire x1="83.4" y1="16.3" x2="83.4" y2="17" width="0" layer="19" extent="1-1"/>
+<wire x1="82.3" y1="16.3" x2="83.4" y2="16.3" width="0" layer="19" extent="1-1"/>
+<wire x1="82.3" y1="17" x2="82.3" y2="16.3" width="0" layer="19" extent="1-1"/>
+<wire x1="81.2" y1="16.3" x2="82.3" y2="16.3" width="0" layer="19" extent="1-1"/>
+<wire x1="81.2" y1="17" x2="81.2" y2="16.3" width="0" layer="19" extent="1-1"/>
+<wire x1="80.3" y1="17.1" x2="81.2" y2="17" width="0" layer="19" extent="1-1"/>
+<wire x1="80.3" y1="16.6" x2="80.3" y2="17.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18" class="1">
 <contactref element="C31" pad="2"/>
@@ -13458,12 +14050,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="L26" pad="2"/>
 <contactref element="C96" pad="1"/>
 <wire x1="91.1" y1="74.52691875" x2="89.206696875" y2="76.714" width="0.38" layer="1" curve="92.531365"/>
-<wire x1="91.1" y1="67.05" x2="91.1" y2="74.52691875" width="0.38" layer="1"/>
+<wire x1="91.1" y1="66.9" x2="91.1" y2="74.52691875" width="0.38" layer="1"/>
 <contactref element="R34" pad="2"/>
 <wire x1="88.714" y1="76.714" x2="88.5" y2="76.7" width="0.38" layer="1"/>
 <wire x1="89.206696875" y1="76.714" x2="88.714" y2="76.714" width="0.38" layer="1"/>
-<wire x1="91.9" y1="67.05" x2="91.1" y2="67.05" width="0.38" layer="1"/>
-<wire x1="91.1" y1="67.05" x2="90.3" y2="67.05" width="0.38" layer="1"/>
+<wire x1="91.9" y1="67.05" x2="91.1" y2="66.9" width="0.38" layer="1"/>
+<wire x1="91.1" y1="66.9" x2="90.3" y2="67.05" width="0.38" layer="1"/>
 </signal>
 <signal name="UHF-BAND-ANT" class="1">
 <contactref element="CM1" pad="RF"/>
@@ -13527,16 +14119,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$22" class="1">
 <contactref element="C101" pad="2"/>
 <contactref element="L27" pad="1"/>
-<wire x1="91.1" y1="66.15" x2="91.1" y2="65.35" width="0.38" layer="1"/>
+<wire x1="91.1" y1="66.3" x2="91.1" y2="65.35" width="0.38" layer="1"/>
 </signal>
 <signal name="U-BFP-LNA-RF_OUT" class="1">
 <contactref element="C109" pad="1"/>
 <contactref element="L29" pad="2"/>
 <contactref element="C108" pad="1"/>
-<wire x1="90.858" y1="47.594" x2="90.108" y2="47.594" width="0.38" layer="1"/>
-<wire x1="89.358" y1="47.594" x2="90.108" y2="47.594" width="0.38" layer="1"/>
+<wire x1="90.858" y1="47.594" x2="90.108" y2="47.444" width="0.38" layer="1"/>
+<wire x1="89.358" y1="47.594" x2="90.108" y2="47.444" width="0.38" layer="1"/>
 <contactref element="R69" pad="2"/>
-<wire x1="90.108" y1="47.594" x2="90.1" y2="49.1" width="0.39" layer="1"/>
+<wire x1="90.108" y1="47.444" x2="90.1" y2="49.1" width="0.39" layer="1"/>
 </signal>
 <signal name="U-BFP-LNA-RF_IN" class="1">
 <contactref element="L27" pad="2"/>
@@ -13550,7 +14142,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$47" class="1">
 <contactref element="C109" pad="2"/>
 <contactref element="L30" pad="1"/>
-<wire x1="90.108" y1="46.694" x2="90.108" y2="45.994" width="0.38" layer="1"/>
+<wire x1="90.108" y1="46.844" x2="90.108" y2="45.994" width="0.38" layer="1"/>
 </signal>
 <signal name="RX2" class="1">
 <contactref element="L30" pad="2"/>

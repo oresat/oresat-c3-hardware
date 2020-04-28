@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21306,10 +21306,42 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="P+2" library="oresat-supplies" deviceset="3.3V" device=""/>
 <part name="U13" library="U-ON-Semi-AX5043-radio" deviceset="U-ONSEMI-AX5043" device=""/>
-<part name="C58" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p"/>
-<part name="L10" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="43n"/>
-<part name="L11" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="43n"/>
-<part name="C59" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p"/>
+<part name="C58" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p">
+<attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="‎1276-1729-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C8R2CB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="L10" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="43n">
+<attribute name="DESCRIPTION" value="L - 0402, 43n, 515mA, 516mohm, +/-2%"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-15447-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW15AN43NG8ZD"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="L11" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="43n">
+<attribute name="DESCRIPTION" value="L - 0402, 43n, 515mA, 516mohm, +/-2%"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-15447-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW15AN43NG8ZD"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C59" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p">
+<attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="‎1276-1729-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C8R2CB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
 <part name="GND89" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND90" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="R38" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="150">
@@ -21319,44 +21351,133 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-07150RL"/>
 </part>
 <part name="C60" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n">
-<attribute name="DESCRIPTION" value="1000pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1635-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="DESCRIPTION" value="CAP CER 1000PF 50V C0G/NP0 0402"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1635-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C102JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="C61" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n">
-<attribute name="DESCRIPTION" value="1000pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1635-1-ND"/>
-<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="DESCRIPTION" value="CAP CER 1000PF 50V C0G/NP0 0402"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1635-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C102JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="X4" library="X-Taitien-TY-TCXO" deviceset="TAITIEN-TY" device="">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="C62" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p"/>
-<part name="C63" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p"/>
+<part name="C62" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p">
+<attribute name="DESCRIPTION" value="C - 0402, 82p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="‎1276-1726-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C820JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C63" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p">
+<attribute name="DESCRIPTION" value="C - 0402, 82p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="‎1276-1726-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C820JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
 <part name="L12" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
-<attribute name="DESCRIPTION" value=""/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="L - 0603, 91n, 520mA, 540mohm, +/-2%"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="L - 0603, 91n, 520mA, 540mohm, +/-2%"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="5"/>
+<attribute name="MANUFACTURER_NAME" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW18AN91NG8ZD"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="L13" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
-<attribute name="DESCRIPTION" value=""/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="L - 0603, 91n, 520mA, 540mohm, +/-2%"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="L - 0603, 91n, 520mA, 540mohm, +/-2%"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="5"/>
+<attribute name="MANUFACTURER_NAME" value="Murata"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LQW18AN91NG8ZD"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
-<part name="C64" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="22p"/>
-<part name="C65" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="22p"/>
+<part name="C64" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="22p">
+<attribute name="DESCRIPTION" value="CAP CER 22PF 50V C0G/NP0 0402"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1116-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value="CL05C220JB5NNNC"/>
+</part>
+<part name="C65" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="22p">
+<attribute name="DESCRIPTION" value="CAP CER 22PF 50V C0G/NP0 0402"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1116-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MOUSER_PART_NUMBER" value="CL05C220JB5NNNC"/>
+</part>
 <part name="GND94" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND95" library="oresat-supplies" deviceset="GND-U" device=""/>
-<part name="C66" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="22n"/>
-<part name="C67" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP"/>
-<part name="C68" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u"/>
-<part name="C69" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="22n"/>
-<part name="C70" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP"/>
-<part name="C71" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u"/>
+<part name="C66" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="22n">
+<attribute name="DESCRIPTION" value="C - 0603, 22n, X7R, 25V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1999-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="87"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10B223KA8NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C67" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C68" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u">
+<attribute name="DESCRIPTION" value="C - 0603, 4.7u, X5R, 16V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1784-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A475KO8NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C69" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="22n">
+<attribute name="DESCRIPTION" value="C - 0603, 22n, X7R, 25V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1999-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="87"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10B223KA8NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C70" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C71" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u">
+<attribute name="DESCRIPTION" value="C - 0603, 4.7u, X5R, 16V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1784-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="6"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A475KO8NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
 <part name="GND104" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="J5" library="oresat-edge_connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-CARD"/>
 <part name="D11" library="D-TI-SN65220-Pair-SOT23-6" deviceset="SN65220" device=""/>
@@ -21673,7 +21794,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
-<part name="C76" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="47n">
+<part name="C76" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="0.047u">
 <attribute name="DESCRIPTION" value="C - 0603, 47n, X7R, 50V"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
@@ -21700,7 +21821,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C220JB5NNNC‎"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
-<part name="L20" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="47n">
+<part name="L20" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="0.047u">
 <attribute name="DESCRIPTION" value="L - 0402, 47n"/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
 <attribute name="DISTRIBUTOR" value="Mouser"/>
@@ -21712,7 +21833,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND80" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND96" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND108" library="oresat-supplies" deviceset="GND-L" device=""/>
-<part name="C80" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="47n">
+<part name="C80" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="0.047u">
 <attribute name="DESCRIPTION" value="C - 0603, 47n, X7R, 50V"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
@@ -21832,7 +21953,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value=""/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
-<part name="C84" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="47n">
+<part name="C84" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="0.047u">
 <attribute name="DESCRIPTION" value="C - 0603, 47n, X7R, 50V"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
@@ -21871,7 +21992,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND114" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND116" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND117" library="oresat-supplies" deviceset="GND-L" device=""/>
-<part name="C86" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="47n">
+<part name="C86" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="0.047u">
 <attribute name="DESCRIPTION" value="C - 0603, 47n, X7R, 50V"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
@@ -21917,13 +22038,23 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="VBUSP-OUT-U" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
 <part name="SYNC-U" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
 <part name="U14" library="U-TI-LP2985AIM5-1.8_NOPB-1.8V-Fixed-LDO" deviceset="LP2985AIM5-1.8_NOPB" device=""/>
-<part name="C72" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10n"/>
+<part name="C72" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10n">
+<attribute name="DESCRIPTION" value="C - 0603, 10n, C0G, 25V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-2172-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="8"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10C103JA8NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
 <part name="C73" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
-<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1859-2-ND"/>
-<attribute name="MANUFACTURER" value="CL10A105KA8NFNC"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="Samsung Electro-Mechanics"/>
-<attribute name="VDC" value="25V"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1859-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="86"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NFNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2">
 <attribute name="DESCRIPTION" value="Connector Header Through Hole 12 position 0.100&quot; (2.54mm)"/>
@@ -21998,22 +22129,44 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND-U3" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="2.5V-U1" library="oresat-supplies" deviceset="2.5V-U" device=""/>
 <part name="U25" library="U-Qorvo-QPC1022-RF-SPDT-switch" deviceset="QPC1022" device=""/>
-<part name="C97" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
+<part name="C97" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="0.1u">
+<attribute name="DESCRIPTION" value="CAP CER 0.1UF 25V X5R 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1857-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A104KA8NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
 <part name="C98" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100p">
-<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101"/>
+<attribute name="DESCRIPTION" value="C - 0402 100p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="C99" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100p">
-<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101"/>
+<attribute name="DESCRIPTION" value="C - 0402 100p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="R52" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5,6k"/>
 <part name="R53" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k"/>
-<part name="C100" library="rcl_custom" deviceset="C-EU" device="0805-B-NOSILK" value="1u"/>
+<part name="C100" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1859-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NFNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
 <part name="R54" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k"/>
 <part name="R55" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5.6k"/>
 <part name="3.3V-U2" library="oresat-supplies" deviceset="3.3V-U" device=""/>
@@ -22025,30 +22178,51 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND-U16" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U17" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="C102" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100p">
-<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101"/>
+<attribute name="DESCRIPTION" value="C - 0402 100p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC"/>
 </part>
 <part name="C103" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
-<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1859-2-ND"/>
-<attribute name="MANUFACTURER" value="CL10A105KA8NFNC"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="Samsung Electro-Mechanics"/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NFNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 <attribute name="VDC" value="25V"/>
 </part>
-<part name="C104" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="47n"/>
+<part name="C104" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="0.047u">
+<attribute name="DESCRIPTION" value="CAP CER 0.047UF 50V X7R 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1063-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL10B473KB8NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
 <part name="C105" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100p">
-<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101"/>
+<attribute name="DESCRIPTION" value="C - 0402 100p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1025-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="L23" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
 <attribute name="DESCRIPTION" value=""/>
 <attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="INVENTORY" value=""/>
 <attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER_NAME" value=""/>
 <attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="R57" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="39"/>
 <part name="Q9" library="Q-Infineon-BFPXXX-RF-BJT" deviceset="BFPXXXF" device="" value="BFPXXXF"/>
@@ -22057,14 +22231,22 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="L24" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
 <attribute name="DESCRIPTION" value=""/>
 <attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="INVENTORY" value=""/>
 <attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER_NAME" value=""/>
 <attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="C106" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="560p">
-<attribute name="DESCRIPTION" value="560pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="399-14462-1-ND"/>
-<attribute name="MANUFACTURER" value="KEMET"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="C0402C561J3GAC7867"/>
+<attribute name="DESCRIPTION" value="C - 0402, 560p, C0G, 50V"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1709-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value="96"/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C561JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="Q10" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="PMOS"/>
 <part name="2.5V-U3" library="oresat-supplies" deviceset="2.5V-U" device=""/>
@@ -22073,18 +22255,114 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND-U18" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U19" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U20" library="oresat-supplies" deviceset="GND-U" device=""/>
-<part name="L26" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n"/>
-<part name="L27" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="68n"/>
-<part name="C96" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p"/>
-<part name="C101" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="2.0p"/>
-<part name="C107" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p"/>
-<part name="L28" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n"/>
-<part name="L29" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n"/>
-<part name="L30" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="68n"/>
-<part name="C108" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p"/>
-<part name="C109" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="2.0p"/>
-<part name="C110" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p"/>
-<part name="L31" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n"/>
+<part name="L26" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="L27" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="68n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C96" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
+<attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1670-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C101" library="oresat-rcl" deviceset="C-EU" device="0201-C-NOSILK" value="2.0p">
+<attribute name="DESCRIPTION" value="CAP CER 2PF 25V C0G/NP0 0201"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-11291-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM0335C1E2R0CA01D"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C107" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
+<attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1670-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="L28" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="L29" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="L30" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="68n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C108" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
+<attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1670-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C109" library="oresat-rcl" deviceset="C-EU" device="0201-C-NOSILK" value="2.0p">
+<attribute name="DESCRIPTION" value="CAP CER 2PF 25V C0G/NP0 0201"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="490-11291-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Murata Electronics"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM0335C1E2R0CA01D"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="C110" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
+<attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="1276-1670-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Samsung"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC"/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
+<part name="L31" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGIKEY_PART_NUMBER" value=""/>
+<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="INVENTORY" value=""/>
+<attribute name="MANUFACTURER_NAME" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value=""/>
+</part>
 <part name="GND-U5" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U6" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U7" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -22952,23 +23230,23 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="26.924" y="228.981" size="1.778" layer="96"/>
 <attribute name="VDC" x="26.924" y="226.568" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TESTPOINTS TP"/>
-<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TP TESTPOINTS"/>
+<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="217.17" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="164.592" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="201.93" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="222.25" y="234.95" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="345.44" y="205.74" smashed="yes" rot="MR0">
@@ -23023,13 +23301,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="NAME" x="332.5876" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="330.1746" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="295.91" y="222.25" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="295.91" y="229.87" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="387.35" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="66.04" smashed="yes">
@@ -23122,7 +23400,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="136.144" y="61.341" size="1.778" layer="96"/>
 <attribute name="VDC" x="136.144" y="58.928" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="204.47" y="59.69" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="66.04" smashed="yes">
@@ -26457,18 +26735,46 @@ will be a congtrol signal from the MCU to
 <instance part="C58" gate="CE" x="-193.04" y="121.92" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-193.421" y="119.126" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-189.611" y="119.126" size="1.778" layer="96" rot="MR270"/>
+<attribute name="MOUSER_PART_NUMBER" x="-193.04" y="121.92" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-193.04" y="121.92" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="INVENTORY" x="-193.04" y="121.92" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DISTRIBUTOR" x="-193.04" y="121.92" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-193.04" y="121.92" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" x="-193.04" y="121.92" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-193.04" y="121.92" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="L10" gate="L" x="-190.5" y="129.54" smashed="yes">
 <attribute name="NAME" x="-196.85" y="132.08" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-187.96" y="132.08" size="1.778" layer="96" rot="R180" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="-190.5" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-190.5" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-190.5" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-190.5" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-190.5" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-190.5" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-190.5" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="L11" gate="L" x="-180.34" y="116.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-177.8" y="110.49" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-177.8" y="119.38" size="1.778" layer="96" rot="R270" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="-180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-180.34" y="116.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C59" gate="CE" x="-180.34" y="134.62" smashed="yes">
 <attribute name="NAME" x="-177.546" y="135.001" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-177.546" y="131.191" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-180.34" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-180.34" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-180.34" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-180.34" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-180.34" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-180.34" y="134.62" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-180.34" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND89" gate="G$1" x="-180.34" y="104.14" smashed="yes">
 <attribute name="VALUE" x="-182.88" y="101.6" size="1.778" layer="96"/>
@@ -26487,17 +26793,25 @@ will be a congtrol signal from the MCU to
 <instance part="C60" gate="CE" x="-101.6" y="73.66" smashed="yes">
 <attribute name="NAME" x="-100.076" y="74.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-100.076" y="68.961" size="1.778" layer="96"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C61" gate="CE" x="-91.44" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="-91.821" y="87.884" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-86.741" y="87.884" size="1.778" layer="96" rot="R90"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="X4" gate="G$1" x="-35.56" y="109.22" smashed="yes" rot="MR0">
@@ -26507,34 +26821,77 @@ will be a congtrol signal from the MCU to
 <instance part="C62" gate="CE" x="-147.32" y="132.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-150.114" y="132.461" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-150.114" y="128.651" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MOUSER_PART_NUMBER" x="-147.32" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-147.32" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="INVENTORY" x="-147.32" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DISTRIBUTOR" x="-147.32" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-147.32" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="-147.32" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-147.32" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="C63" gate="CE" x="-147.32" y="109.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-150.114" y="108.331" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-148.844" y="104.521" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MOUSER_PART_NUMBER" x="-147.32" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-147.32" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="INVENTORY" x="-147.32" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DISTRIBUTOR" x="-147.32" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-147.32" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="-147.32" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-147.32" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="L12" gate="L" x="-170.18" y="137.16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-167.64" y="130.81" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="-167.64" y="139.7" size="1.778" layer="96" rot="MR270" align="top-left"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="INVENTORY" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="L13" gate="L" x="-165.1" y="91.44" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-162.56" y="85.09" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="-162.56" y="93.98" size="1.778" layer="96" rot="MR270" align="top-left"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="DESCRIPTION" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="INVENTORY" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="C64" gate="CE" x="-208.28" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="-208.661" y="129.794" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-204.851" y="129.794" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER_PART_NUMBER" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-208.28" y="127" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C65" gate="CE" x="-180.34" y="96.52" smashed="yes" rot="MR270">
 <attribute name="NAME" x="-180.721" y="93.726" size="1.778" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="-176.911" y="93.726" size="1.778" layer="96" rot="MR270"/>
+<attribute name="MOUSER_PART_NUMBER" x="-180.34" y="96.52" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-180.34" y="96.52" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="INVENTORY" x="-180.34" y="96.52" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DISTRIBUTOR" x="-180.34" y="96.52" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-180.34" y="96.52" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="DESCRIPTION" x="-180.34" y="96.52" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
 <instance part="GND94" gate="G$1" x="-157.48" y="109.22" smashed="yes">
 <attribute name="VALUE" x="-160.02" y="106.68" size="1.778" layer="96"/>
@@ -26545,26 +26902,66 @@ will be a congtrol signal from the MCU to
 <instance part="C66" gate="CE" x="-17.78" y="104.14" smashed="yes">
 <attribute name="NAME" x="-16.256" y="104.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-16.256" y="99.441" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-17.78" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-17.78" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-17.78" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-17.78" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-17.78" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-17.78" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-17.78" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C67" gate="CE" x="-10.16" y="104.14" smashed="yes">
 <attribute name="NAME" x="-8.636" y="104.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-8.636" y="99.441" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-10.16" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-10.16" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-10.16" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-10.16" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-10.16" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-10.16" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C68" gate="CE" x="-2.54" y="104.14" smashed="yes">
 <attribute name="NAME" x="-1.016" y="104.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-1.016" y="99.441" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-2.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-2.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-2.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-2.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-2.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-2.54" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-2.54" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C69" gate="CE" x="-121.92" y="147.32" smashed="yes">
 <attribute name="NAME" x="-120.396" y="147.701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-120.396" y="142.621" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-121.92" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-121.92" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-121.92" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-121.92" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-121.92" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-121.92" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-121.92" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C70" gate="CE" x="-114.3" y="147.32" smashed="yes">
 <attribute name="NAME" x="-112.776" y="147.701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-112.776" y="142.621" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-114.3" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-114.3" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-114.3" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-114.3" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-114.3" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-114.3" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C71" gate="CE" x="-106.68" y="147.32" smashed="yes">
 <attribute name="NAME" x="-105.156" y="147.701" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-105.156" y="142.621" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-106.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-106.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-106.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-106.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-106.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-106.68" y="147.32" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-106.68" y="147.32" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND104" gate="G$1" x="-157.48" y="124.46" smashed="yes">
 <attribute name="VALUE" x="-160.02" y="121.92" size="1.778" layer="96"/>
@@ -26579,15 +26976,25 @@ will be a congtrol signal from the MCU to
 <instance part="C72" gate="CE" x="12.7" y="124.46" smashed="yes">
 <attribute name="NAME" x="14.224" y="124.841" size="1.778" layer="95"/>
 <attribute name="VALUE" x="14.224" y="119.761" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="12.7" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="12.7" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="12.7" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="12.7" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="12.7" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="12.7" y="124.46" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="12.7" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C73" gate="CE" x="-33.02" y="132.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-34.544" y="132.461" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-34.544" y="127.381" size="1.778" layer="96" rot="MR0"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="VDC" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="INVENTORY" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DISTRIBUTOR" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="JP1" gate="A" x="-76.2" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-69.85" y="160.655" size="1.778" layer="95" rot="MR0"/>
@@ -26646,22 +27053,45 @@ will be a congtrol signal from the MCU to
 <instance part="C97" gate="CE" x="-368.3" y="279.4" smashed="yes">
 <attribute name="NAME" x="-366.776" y="279.781" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-366.776" y="274.701" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-368.3" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-368.3" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-368.3" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-368.3" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-368.3" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-368.3" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-368.3" y="279.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C98" gate="CE" x="-330.2" y="304.8" smashed="yes">
 <attribute name="NAME" x="-328.676" y="305.181" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-328.676" y="300.101" size="1.778" layer="96"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C99" gate="CE" x="-312.42" y="284.48" smashed="yes">
 <attribute name="NAME" x="-310.896" y="284.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-310.896" y="279.781" size="1.778" layer="96"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R52" gate="R" x="-337.82" y="309.88" smashed="yes">
 <attribute name="NAME" x="-341.63" y="311.3786" size="1.778" layer="95"/>
@@ -26674,6 +27104,13 @@ will be a congtrol signal from the MCU to
 <instance part="C100" gate="CE" x="-358.14" y="279.4" smashed="yes">
 <attribute name="NAME" x="-356.616" y="279.781" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-356.616" y="274.701" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-358.14" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-358.14" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-358.14" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-358.14" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-358.14" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-358.14" y="279.4" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-358.14" y="279.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R54" gate="R" x="-299.72" y="281.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="-301.2186" y="278.13" size="1.778" layer="95" rot="R90"/>
@@ -26710,31 +27147,52 @@ will be a congtrol signal from the MCU to
 <instance part="C102" gate="CE" x="-86.36" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-86.741" y="245.364" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-81.661" y="245.364" size="1.778" layer="96" rot="R90"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C103" gate="CE" x="-86.36" y="276.86" smashed="yes">
 <attribute name="NAME" x="-84.836" y="277.241" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-84.836" y="272.161" size="1.778" layer="96"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
 <attribute name="VDC" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C104" gate="CE" x="-96.52" y="276.86" smashed="yes">
 <attribute name="NAME" x="-94.996" y="277.241" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-94.996" y="272.161" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-96.52" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-96.52" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-96.52" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-96.52" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-96.52" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-96.52" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-96.52" y="276.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C105" gate="CE" x="-154.94" y="236.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="-155.321" y="237.744" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-151.003" y="237.744" size="1.778" layer="96" rot="R90"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L23" gate="L" x="-142.24" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-138.43" y="242.57" size="1.778" layer="95" rot="R180"/>
@@ -26743,6 +27201,13 @@ will be a congtrol signal from the MCU to
 <attribute name="MANUFACTURER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R57" gate="R" x="-106.68" y="271.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="-108.1786" y="267.97" size="1.778" layer="95" rot="R90"/>
@@ -26767,13 +27232,25 @@ will be a congtrol signal from the MCU to
 <attribute name="MANUFACTURER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DISTRIBUTOR" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="INVENTORY" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C106" gate="CE" x="-99.06" y="259.08" smashed="yes">
 <attribute name="NAME" x="-97.536" y="259.461" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-97.536" y="254.381" size="1.778" layer="96"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q10" gate="G$1" x="-116.84" y="299.72" smashed="yes">
@@ -26801,50 +27278,134 @@ will be a congtrol signal from the MCU to
 <instance part="L26" gate="L" x="-274.32" y="294.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="-276.86" y="289.56" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-278.13" y="294.64" size="1.778" layer="96" rot="R90" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="-274.32" y="294.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-274.32" y="294.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-274.32" y="294.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-274.32" y="294.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-274.32" y="294.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-274.32" y="294.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-274.32" y="294.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L27" gate="L" x="-248.92" y="302.26" smashed="yes">
 <attribute name="NAME" x="-254" y="304.8" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-247.65" y="306.07" size="1.778" layer="96" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="-248.92" y="302.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-248.92" y="302.26" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-248.92" y="302.26" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-248.92" y="302.26" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-248.92" y="302.26" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-248.92" y="302.26" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-248.92" y="302.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C96" gate="CE" x="-269.24" y="297.18" smashed="yes">
 <attribute name="NAME" x="-267.716" y="297.561" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-267.716" y="292.481" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-269.24" y="297.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-269.24" y="297.18" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-269.24" y="297.18" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-269.24" y="297.18" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-269.24" y="297.18" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-269.24" y="297.18" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-269.24" y="297.18" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C101" gate="CE" x="-261.62" y="302.26" smashed="yes" rot="R90">
 <attribute name="NAME" x="-262.001" y="305.054" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-259.461" y="305.054" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER_PART_NUMBER" x="-261.62" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-261.62" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-261.62" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-261.62" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-261.62" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-261.62" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-261.62" y="302.26" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C107" gate="CE" x="-238.76" y="297.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-240.284" y="297.561" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-240.284" y="292.481" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MOUSER_PART_NUMBER" x="-238.76" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-238.76" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-238.76" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="INVENTORY" x="-238.76" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DISTRIBUTOR" x="-238.76" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-238.76" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="-238.76" y="297.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="L28" gate="L" x="-233.68" y="294.64" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-231.14" y="289.56" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="-229.87" y="294.64" size="1.778" layer="96" rot="MR90" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="-233.68" y="294.64" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-233.68" y="294.64" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-233.68" y="294.64" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-233.68" y="294.64" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-233.68" y="294.64" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" x="-233.68" y="294.64" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="INVENTORY" x="-233.68" y="294.64" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="L29" gate="L" x="-38.1" y="236.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="-40.64" y="231.14" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-41.91" y="236.22" size="1.778" layer="96" rot="R90" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="-38.1" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-38.1" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-38.1" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-38.1" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-38.1" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-38.1" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-38.1" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L30" gate="L" x="-12.7" y="243.84" smashed="yes">
 <attribute name="NAME" x="-17.78" y="246.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-11.43" y="247.65" size="1.778" layer="96" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="-12.7" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-12.7" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-12.7" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-12.7" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-12.7" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-12.7" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-12.7" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C108" gate="CE" x="-33.02" y="238.76" smashed="yes">
 <attribute name="NAME" x="-31.496" y="239.141" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-31.496" y="234.061" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-33.02" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-33.02" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-33.02" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="-33.02" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-33.02" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-33.02" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-33.02" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C109" gate="CE" x="-25.4" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-25.781" y="246.634" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-23.241" y="246.634" size="1.778" layer="96" rot="R90"/>
+<attribute name="MOUSER_PART_NUMBER" x="-25.4" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-25.4" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-25.4" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="-25.4" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-25.4" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-25.4" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-25.4" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C110" gate="CE" x="-2.54" y="238.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-4.064" y="239.141" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-4.064" y="234.061" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MOUSER_PART_NUMBER" x="-2.54" y="238.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-2.54" y="238.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-2.54" y="238.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="INVENTORY" x="-2.54" y="238.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DISTRIBUTOR" x="-2.54" y="238.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-2.54" y="238.76" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="-2.54" y="238.76" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="L31" gate="L" x="2.54" y="236.22" smashed="yes" rot="MR90">
 <attribute name="NAME" x="5.08" y="231.14" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="6.35" y="236.22" size="1.778" layer="96" rot="MR90" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="2.54" y="236.22" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="2.54" y="236.22" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="2.54" y="236.22" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DISTRIBUTOR" x="2.54" y="236.22" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="2.54" y="236.22" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" x="2.54" y="236.22" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="INVENTORY" x="2.54" y="236.22" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="GND-U5" gate="G$1" x="2.54" y="226.06" smashed="yes">
 <attribute name="VALUE" x="0" y="223.52" size="1.778" layer="96"/>
@@ -27923,37 +28484,37 @@ All caps are 0603 and 10V DC or greater</text>
 <instance part="R23" gate="G$1" x="396.24" y="154.94" smashed="yes">
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
 </instance>
-<instance part="WDT" gate="G$1" x="287.02" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="WDT" gate="G$1" x="287.02" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="285.75" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="273.05" y="57.15" size="1.778" layer="95"/>
 </instance>
-<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="420.37" y="62.23" size="1.778" layer="95"/>
 </instance>
-<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="128.27" y="123.19" size="1.778" layer="95"/>
 </instance>
 <instance part="BOOT0" gate="G$1" x="129.54" y="137.16" smashed="yes" grouprefs="TP">
 <attribute name="NAME" x="128.27" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="143.51" size="1.778" layer="95"/>
 </instance>
-<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="128.27" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="77.47" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="69.85" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="62.23" size="1.778" layer="95"/>
 </instance>
 <instance part="VBUS2" gate="1" x="73.66" y="223.52" smashed="yes">
