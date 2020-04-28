@@ -21345,9 +21345,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND89" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND90" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="R38" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="150">
-<attribute name="DESCRIPTION" value="150 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"/>
+<attribute name="DESCRIPTION" value="RES SMD 150 OHM 1% 1/16W 0402"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-150LRCT-ND"/>
-<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="311-150LRCT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Yageo"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-07150RL"/>
 </part>
 <part name="C60" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n">
@@ -22128,7 +22130,12 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND-U2" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U3" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="2.5V-U1" library="oresat-supplies" deviceset="2.5V-U" device=""/>
-<part name="U25" library="U-Qorvo-QPC1022-RF-SPDT-switch" deviceset="QPC1022" device=""/>
+<part name="U25" library="U-Qorvo-QPC1022-RF-SPDT-switch" deviceset="QPC1022" device="">
+<attribute name="DESCRIPTION" value="RF Switch ICs 5-6000MHz SPDT IL .25dB Iso 39dB"/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="QPC1022TR7"/>
+<attribute name="MOUSER_PART_NUMBER" value="772-QPC1022TR7"/>
+</part>
 <part name="C97" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="0.1u">
 <attribute name="DESCRIPTION" value="CAP CER 0.1UF 25V X5R 0603"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1857-1-ND"/>
@@ -22156,8 +22163,20 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C101JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
-<part name="R52" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5,6k"/>
-<part name="R53" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k"/>
+<part name="R52" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5,6k">
+<attribute name="DESCRIPTION" value="RES 5.6K OHM 1% 1/10W 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RMCF0603FT5K60CT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT5K60"/>
+</part>
+<part name="R53" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k">
+<attribute name="DESCRIPTION" value="RES 6.8K OHM 1% 1/10W 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RMCF0603FT6K80CT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT6K80"/>
+</part>
 <part name="C100" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
 <attribute name="DESCRIPTION" value="CAP CER 1UF 25V X5R 0603"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="1276-1859-1-ND"/>
@@ -22167,8 +22186,20 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A105KA8NFNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
-<part name="R54" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k"/>
-<part name="R55" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5.6k"/>
+<part name="R54" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k">
+<attribute name="DESCRIPTION" value="RES 6.8K OHM 1% 1/10W 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RMCF0603FT6K80CT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT6K80"/>
+</part>
+<part name="R55" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5.6k">
+<attribute name="DESCRIPTION" value="RES 5.6K OHM 1% 1/10W 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RMCF0603FT5K60CT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT5K60"/>
+</part>
 <part name="3.3V-U2" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="GND-U11" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U12" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -22214,30 +22245,50 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="L23" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
-<attribute name="DESCRIPTION" value=""/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="L - 0402DF Ferrite Chip 90 nH 5% 1A"/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
-<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Coilcraft"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402DF-900XJRU"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-0402DF-900XJRU"/>
 </part>
-<part name="R57" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="39"/>
-<part name="Q9" library="Q-Infineon-BFPXXX-RF-BJT" deviceset="BFPXXXF" device="" value="BFPXXXF"/>
-<part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="22k"/>
-<part name="R59" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="27"/>
+<part name="R57" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="39">
+<attribute name="DESCRIPTION" value="RES 39 OHM 1% 1/10W 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RMCF0603FT39R0CT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT39R0"/>
+</part>
+<part name="Q9" library="Q-Infineon-BFPXXX-RF-BJT" deviceset="BFPXXXF" device="" value="BFPXXXF">
+<attribute name="DESCRIPTION" value="RF Bipolar Transistors RF BIP TRANSISTORS"/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
+<attribute name="MANUFACTURER_NAME" value="Infineon"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BFP843FH6327XTSA1"/>
+<attribute name="MOUSER_PART_NUMBER" value="726-BFP843FH6327XTSA"/>
+</part>
+<part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="22k">
+<attribute name="DESCRIPTION" value="RES 22K OHM 1% 1/10W 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RMCF0603FG22K0CT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FG22K0"/>
+</part>
+<part name="R59" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="27">
+<attribute name="DESCRIPTION" value="RES 27 OHM 1% 1/10W 0603"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="RMCF0603FT27R0CT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT27R0"/>
+</part>
 <part name="L24" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
-<attribute name="DESCRIPTION" value=""/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="L - 0402DF Ferrite Chip 90 nH 5% 1A"/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
-<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Coilcraft"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402DF-900XJRU"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-0402DF-900XJRU"/>
 </part>
 <part name="C106" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="560p">
 <attribute name="DESCRIPTION" value="C - 0402, 560p, C0G, 50V"/>
@@ -22256,22 +22307,22 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND-U19" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U20" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="L26" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n">
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="0402HP Ceramic Chip 5.6 nH 2 % 1.6 A "/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
-<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Coilcraft"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-5N6XGLW"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-0402HP-5N6XGLW"/>
 </part>
 <part name="L27" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="68n">
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="L - 0402HPH Ceramic Chip 68 nH 2 % 0.32 A"/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
-<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Coilcraft"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402HPH-68NXGLW"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-0402HPH-68NXGLW"/>
 </part>
 <part name="C96" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
 <attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
@@ -22301,31 +22352,31 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="L28" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n">
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="0402HP Ceramic Chip 5.6 nH 2 % 1.6 A "/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
-<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Coilcraft"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-5N6XGLW"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-0402HP-5N6XGLW"/>
 </part>
 <part name="L29" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n">
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="0402HP Ceramic Chip 5.6 nH 2 % 1.6 A "/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
-<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Coilcraft"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-5N6XGLW"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-0402HP-5N6XGLW"/>
 </part>
 <part name="L30" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="68n">
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="L - 0402HPH Ceramic Chip 68 nH 2 % 0.32 A"/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
-<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Coilcraft"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402HPH-68NXGLW"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-0402HPH-68NXGLW"/>
 </part>
 <part name="C108" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
 <attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
@@ -22355,13 +22406,13 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="L31" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="5.6n">
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="0402HP Ceramic Chip 5.6 nH 2 % 1.6 A "/>
 <attribute name="DIGIKEY_PART_NUMBER" value=""/>
-<attribute name="DISTRIBUTOR" value=""/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER_NAME" value="Coilcraft"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-5N6XGLW"/>
+<attribute name="MOUSER_PART_NUMBER" value="994-0402HP-5N6XGLW"/>
 </part>
 <part name="GND-U5" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U6" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -26786,8 +26837,12 @@ will be a congtrol signal from the MCU to
 <attribute name="NAME" x="-103.0986" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-98.298" y="80.01" size="1.778" layer="96" rot="R90"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C60" gate="CE" x="-101.6" y="73.66" smashed="yes">
@@ -27049,6 +27104,10 @@ will be a congtrol signal from the MCU to
 <instance part="U25" gate="U" x="-335.28" y="264.16" smashed="yes">
 <attribute name="NAME" x="-332.74" y="251.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-332.74" y="248.92" size="1.778" layer="96"/>
+<attribute name="MOUSER_PART_NUMBER" x="-335.28" y="264.16" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-335.28" y="264.16" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-335.28" y="264.16" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-335.28" y="264.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C97" gate="CE" x="-368.3" y="279.4" smashed="yes">
 <attribute name="NAME" x="-366.776" y="279.781" size="1.778" layer="95"/>
@@ -27096,10 +27155,20 @@ will be a congtrol signal from the MCU to
 <instance part="R52" gate="R" x="-337.82" y="309.88" smashed="yes">
 <attribute name="NAME" x="-341.63" y="311.3786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-341.63" y="306.578" size="1.778" layer="96"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R53" gate="R" x="-322.58" y="309.88" smashed="yes">
 <attribute name="NAME" x="-326.39" y="311.3786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-326.39" y="306.578" size="1.778" layer="96"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C100" gate="CE" x="-358.14" y="279.4" smashed="yes">
 <attribute name="NAME" x="-356.616" y="279.781" size="1.778" layer="95"/>
@@ -27115,10 +27184,20 @@ will be a congtrol signal from the MCU to
 <instance part="R54" gate="R" x="-299.72" y="281.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="-301.2186" y="278.13" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-296.418" y="278.13" size="1.778" layer="96" rot="R90"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R55" gate="R" x="-299.72" y="292.1" smashed="yes" rot="R90">
 <attribute name="NAME" x="-301.2186" y="288.29" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-296.418" y="288.29" size="1.778" layer="96" rot="R90"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="3.3V-U2" gate="G$1" x="-345.44" y="314.96" smashed="yes">
 <attribute name="VALUE" x="-347.98" y="314.96" size="1.778" layer="96"/>
@@ -27197,8 +27276,6 @@ will be a congtrol signal from the MCU to
 <instance part="L23" gate="L" x="-142.24" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-138.43" y="242.57" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-144.272" y="242.57" size="1.778" layer="96" rot="R180"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
@@ -27212,24 +27289,42 @@ will be a congtrol signal from the MCU to
 <instance part="R57" gate="R" x="-106.68" y="271.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="-108.1786" y="267.97" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-103.378" y="267.97" size="1.778" layer="96" rot="R90"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="Q9" gate="G$1" x="-121.92" y="236.22" smashed="yes">
 <attribute name="NAME" x="-119.38" y="237.49" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-119.38" y="234.95" size="1.778" layer="96"/>
+<attribute name="DISTRIBUTOR" x="-121.92" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" x="-121.92" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-121.92" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-121.92" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-121.92" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R58" gate="R" x="-142.24" y="266.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="-143.7386" y="262.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-138.938" y="262.89" size="1.778" layer="96" rot="R90"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R59" gate="R" x="-116.84" y="287.02" smashed="yes" rot="R90">
 <attribute name="NAME" x="-118.3386" y="283.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-113.538" y="283.21" size="1.778" layer="96" rot="R90"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGIKEY_PART_NUMBER" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L24" gate="L" x="-106.68" y="248.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="-110.49" y="250.19" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-104.648" y="248.92" size="1.778" layer="96"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="MANUFACTURER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
