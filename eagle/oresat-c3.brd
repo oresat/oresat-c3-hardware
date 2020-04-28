@@ -5385,12 +5385,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C3" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="12.4" y="38.2" smashed="yes">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="11.9" y="36.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="14.781" y="38.95" size="0.635" layer="33" ratio="20" rot="R270"/>
 <attribute name="VDC" value="10V" x="12.4" y="38.2" size="1.778" layer="27" display="off"/>
@@ -5398,12 +5394,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C9" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="29.8" y="44.2" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="31.4" y="44.6" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="28.3" y="45.831" size="0.635" layer="33" ratio="20"/>
 <attribute name="VDC" value="10V" x="29.8" y="44.2" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5411,12 +5403,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C11" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="20p" x="31.5" y="42.3" smashed="yes">
 <attribute name="DESCRIPTION" value="20pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="GRM1885C1H200JA01J-ND" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM1885C1H200JA01J" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="33" y="42.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="30" y="43.931" size="0.635" layer="33" ratio="20"/>
 <attribute name="VDC" value="50V" x="31.5" y="42.3" size="1.778" layer="27" display="off"/>
@@ -5424,12 +5412,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C16" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="20p" x="31.4" y="37.4" smashed="yes">
 <attribute name="DESCRIPTION" value="20pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="GRM1885C1H200JA01J-ND" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM1885C1H200JA01J" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="32.640003125" y="38.019996875" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="29.9" y="39.031" size="0.635" layer="33" ratio="20"/>
 <attribute name="VDC" value="50V" x="31.4" y="37.4" size="1.778" layer="27" display="off"/>
@@ -5437,12 +5421,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C17" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="38.7" y="53.3" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="39.6" y="53.2" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="39.45" y="50.919" size="0.635" layer="33" ratio="20" rot="R180"/>
 <attribute name="VDC" value="10V" x="38.7" y="53.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5450,21 +5430,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C22" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="23.2" y="49.8" smashed="yes">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="22.5" y="50.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="24.7" y="48.169" size="0.635" layer="33" ratio="20" rot="R180"/>
 <attribute name="VDC" value="10V" x="23.2" y="49.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="X1" library="low-gain-radio" package="CRYSTAL_2.5X2" value="16MHZ-2.5x2mm" x="29.9" y="39.7" smashed="yes" rot="R90">
-<attribute name="DIS" value="Digi-Key" x="29.9" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="XC2181CT-ND" x="29.9" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="ECS Inc." x="29.9" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="ECS-160-10-36Q-ES-TR" x="29.9" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" value="16MHz ±30ppm Crystal 10pF 80 Ohms 4-SMD, No Lead" x="29.9" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="XC2181CT-ND" x="29.9" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="ECS Inc." x="29.9" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ECS-160-10-36Q-ES-TR" x="29.9" y="39.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="31.3" y="39" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="28.5865" y="41.3905" size="0.5" layer="27" ratio="20"/>
 </element>
@@ -5477,12 +5453,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R17" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10k" x="23.6" y="32.8" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="23.6" y="32.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="22.4344" y="31.6234" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="22.5" y="34.531" size="0.2" layer="33" ratio="15"/>
 </element>
@@ -5499,12 +5471,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R1" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="2.7k" x="21.8" y="76.8" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="21.8" y="76.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" x="21.8" y="76.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="21.8" y="76.8" size="2" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="21.8" y="76.8" size="2" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="21.8" y="76.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="21.8" y="76.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="21.8" y="76.8" size="2" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="21.8" y="76.8" size="2" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="21.8" y="76.8" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="21.416" y="77.617" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="22.9" y="76.123" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
@@ -5512,12 +5480,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R2" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="2.7k" x="6.3" y="81.7" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="6.3" y="81.7" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="6.3" y="81.7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="6.3" y="81.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="6.3" y="81.7" size="2" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="6.3" y="81.7" size="2" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="6.3" y="81.7" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="7.674" y="81.031" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="5.623" y="80.6" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
@@ -5560,26 +5524,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R27" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10k" x="35.2" y="84.5" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="35.2" y="84.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="35.2" y="84.7" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="34.4" y="85.231" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R36" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="23.7k" x="26.7" y="84.7" smashed="yes">
 <attribute name="DESCRIPTION" value="23.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2372ELF-ND" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2372ELF" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="26.7" y="84.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="26.7" y="84.7" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="24.9" y="85.231" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="26.7" y="84.7" size="0.3" layer="33" ratio="15" align="center"/>
 </element>
 <element name="U5" library="U-TI-TPS6211x-SPS-buck" package="S-PVQFN-16" value="TPS62111RSA" x="14.7" y="74.8" smashed="yes" rot="R180">
 <attribute name="MFR" value="TI" x="14.7" y="74.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5589,8 +5545,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C7" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="10u" x="19.1" y="75.1" smashed="yes">
 <attribute name="DESCRIPTION" value="10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="19.1" y="75.1" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="490-18214-1-ND" x="19.1" y="75.1" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="19.1" y="75.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="19.1" y="75.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="19.1" y="75.1" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61E106KA73D" x="19.1" y="75.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="20.727" y="75.85" size="0.4" layer="33" ratio="15" rot="R270"/>
 <attribute name="NAME" x="20.5442" y="74.0718" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -5599,12 +5554,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C10" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="19.8" y="77.7" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="19.8" y="77.7" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="21.1" y="78.8" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VDC" value="25V" x="19.8" y="77.7" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5612,7 +5563,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C12" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="22u" x="11.3" y="75.9" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="11.3" y="75.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="ZRB18AR61A226ME01L-ND" x="11.3" y="75.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="11.3" y="75.9" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="11.3" y="75.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR61A226ME01L" x="11.3" y="75.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="9.3" y="77.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="12.05" y="73.219" size="0.4" layer="33" ratio="15" rot="R180"/>
@@ -5621,42 +5572,32 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R7" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10k" x="17.9" y="77.3" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="17.9" y="77.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.9" y="77.3" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="18.4" y="78.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="R10" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="NP" x="16.4" y="78.7" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="541-4012-1-ND" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Dale" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="16.4" y="78.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="15.7" y="78.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="17.077" y="79.8" size="0.2" layer="33" ratio="15" rot="R270"/>
+<attribute name="NAME" x="15.7" y="78.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="L2" library="L-ECS-MPI4040" package="ECS-MPI4040" value="6.8u" x="13.2" y="70" smashed="yes" rot="R270">
-<attribute name="MFR" value="ECS" x="13.2" y="70" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="ECS-MPI4040R4-6R8-R" x="13.2" y="70" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="6.8µH Shielded  Inductor 2.4A 91mOhm Nonstandard" x="13.2" y="70" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="XC2337CT-ND" x="13.2" y="70" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="ECS" x="13.2" y="70" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ECS-MPI4040R4-6R8-R" x="13.2" y="70" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11" y="67" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.677" y="72.155" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
 <element name="C5" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="36.7" y="82.1" smashed="yes">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="36.1" y="80.9" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="35.2" y="84.031" size="0.3" layer="33" ratio="15"/>
 <attribute name="VDC" value="25V" x="36.7" y="82.1" size="1.778" layer="27" display="off"/>
@@ -5676,12 +5617,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R4" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="2.7k" x="29.9" y="77.4" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="29.9" y="77.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" x="29.9" y="77.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="36.3" y="62.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="36.3" y="62.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="29.9" y="77.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="29.9" y="77.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="36.3" y="62.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="36.3" y="62.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="28.8" y="79.131" size="0.2" layer="33" ratio="15"/>
 <attribute name="NAME" x="28.6" y="77.569" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="28.8" y="78.077" size="0.8" layer="27" font="vector" ratio="15"/>
@@ -5689,24 +5626,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R9" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10k" x="38.6" y="71.4" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="38.6" y="71.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" x="38.6" y="71.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="33.3" y="65.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="33.3" y="65.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="38.6" y="71.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="38.6" y="71.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="33.3" y="65.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="33.3" y="65.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="39.2436" y="71.1012" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="38.05" y="73.681" size="0.2" layer="33" ratio="15"/>
 </element>
 <element name="C6" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="35.3" y="60" smashed="yes">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="35.3" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="35.3" y="60" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="35.3" y="63.9" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="35.3" y="63.9" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="35.3" y="60" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="35.3" y="60" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="35.3" y="60" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="35.3" y="63.9" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="35.3" y="63.9" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="35.3" y="60" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="35.2" y="60.8" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VDC" value="10V" x="35.3" y="60" size="1.778" layer="27" display="off"/>
@@ -5720,26 +5649,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R5" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="31.6k" x="37.9" y="73.3" smashed="yes" rot="R179.8">
 <attribute name="DESCRIPTION" value="31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-3162ELFCT-ND" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-3162ELF" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MFR" value="Samsung" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="37.9" y="73.3" size="1.778" layer="27" rot="R179.8" display="off"/>
-<attribute name="NAME" x="39.2" y="72.9" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="NAME" x="35.61710625" y="72.746178125" size="0.2" layer="33" ratio="15" rot="R90"/>
+<attribute name="NAME" x="39.2" y="72.9" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 </element>
 <element name="R6" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="3.1k" x="26.4" y="70" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="3.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="MCT06030C3101FP500-ND" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Beyschlag" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Beyschlag" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C3101FP500" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="26.4" y="70" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="26.0052" y="71.1924" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="25.85" y="72.281" size="0.2" layer="33" ratio="15"/>
+<attribute name="NAME" x="26.0052" y="71.1924" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R8" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10k" x="29.9" y="80.1" smashed="yes">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="29.9" y="80.1" size="1.778" layer="27" display="off"/>
@@ -5758,24 +5679,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R12" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="0" x="35.2" y="83.4" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="541-4012-1-ND" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Dale" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="35.2" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33.82" y="82.12" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="36.427" y="83.95" size="0.2" layer="33" ratio="15" rot="R270"/>
+<attribute name="NAME" x="33.82" y="82.12" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="C4" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="26.1" y="80.3" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="25.5" y="80" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="24.169" y="78.8" size="0.3" layer="33" ratio="15" rot="R90"/>
 <attribute name="VDC" value="25V" x="26.1" y="80.3" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5783,12 +5696,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C2" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="16.3" y="50.6" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="16.3" y="50.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="15.4" y="52.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VDC" value="10V" x="16.3" y="50.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5796,12 +5705,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C8" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="29.76" y="35.81" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="29.76" y="35.81" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="29.04" y="34.441" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VDC" value="10V" x="29.76" y="35.81" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5809,12 +5714,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C13" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="25.9" y="33.5" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="25.9" y="33.5" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="NAME" x="26.8" y="32.1" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VDC" value="10V" x="25.9" y="33.5" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5822,12 +5723,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R16" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10k" x="26.7" y="83.4" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-4275-1-ND" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Bourns" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC1005F6653CS" x="26.7" y="83.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="25.7" y="82.131" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="27.8" y="81.669" size="0.2" layer="33" ratio="15" rot="R180"/>
 </element>
@@ -5851,15 +5748,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="29.7552" y="84.9796" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VENDOR" value="Maxim Integrated Products" x="30.7" y="83.1" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C1" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1U" x="38.0206" y="74.761" smashed="yes">
+<element name="C1" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="38.0206" y="74.761" smashed="yes">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Samsung" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="37.3724" y="75.5172" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="36.5206" y="76.692" size="0.3" layer="33" ratio="15"/>
 <attribute name="VDC" value="25V" x="38.0206" y="74.761" size="1.778" layer="27" display="off"/>
@@ -5867,12 +5760,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C14" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="2.2u" x="18.1" y="50.6" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="2.2µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="445-5959-1-ND" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="18.1" y="50.6" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="18.1" y="50.6" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="TDK" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7R1A225M080AC" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="18.1" y="50.6" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="18.1" y="50.6" size="0.635" layer="27" font="vector" ratio="20" rot="R90" display="off"/>
 <attribute name="NAME" x="17.2" y="52.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="17.35" y="53.281" size="0.3" layer="33" ratio="15"/>
 <attribute name="VDC" value="10V" x="18.1" y="50.6" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5880,12 +5769,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C19" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="2.2u" x="6.2" y="19.5" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="2.2µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="445-5959-1-ND" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TDK" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="TDK" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7R1A225M080AC" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.68" y="20.47" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="4.7" y="21.431" size="0.3" layer="33" ratio="15"/>
 <attribute name="VDC" value="10V" x="6.2" y="19.5" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5893,83 +5778,47 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C21" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="6.2" y="21" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="4.8" y="16.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="4.8" y="16.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Samsung" x="4.8" y="16.3" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="4.8" y="16.3" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="4.68" y="22.04" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="4.7" y="22.931" size="0.3" layer="33" ratio="15"/>
 <attribute name="VDC" value="10V" x="6.2" y="21" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C23" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="1u" x="21.7" y="17.3" smashed="yes" rot="R90">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MFR" value="Samsung" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C23" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="21.7" y="17.3" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="23.23" y="16.34" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="20.95" y="19.981" size="0.3" layer="33" ratio="15"/>
-<attribute name="RS_PART_NUMBER" value="" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VDC" value="10V" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VDC" value="25V" x="21.7" y="17.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C24" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="1u" x="11.8" y="8.3" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C24" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="11.8" y="8.3" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="11.3" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="11.05" y="10.981" size="0.3" layer="33" ratio="15"/>
-<attribute name="RS_PART_NUMBER" value="" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VDC" value="10V" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VDC" value="25V" x="11.8" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C25" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="1u" x="13.4" y="8.3" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C25" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="13.4" y="8.3" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="12.9" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="12.65" y="9.927" size="0.3" layer="33" ratio="15"/>
-<attribute name="RS_PART_NUMBER" value="" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VDC" value="10V" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VDC" value="25V" x="13.4" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C26" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="10u" x="15" y="8.3" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 10uF X5R 0603 10%TOL" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD106KAT2A" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD106KAT2A" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD106KAT2A" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value="10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-18214-1-ND" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61E106KA73D" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="14.5" y="6.9" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="14.25" y="10.981" size="0.3" layer="33" ratio="15"/>
-<attribute name="RS_PART_NUMBER" value="" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VDC" value="10V" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VDC" value="25V" x="15" y="8.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R14" library="R-Panasonic-EXB_A10PXXXJ" package="ARRAY_EXBA-M" value="10k" x="11.258" y="27.82" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Panasonic Electronic Components" x="11.258" y="27.82" size="1.778" layer="27" rot="R90" display="off"/>
@@ -5992,11 +5841,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R18" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10" x="37.3" y="77.5" smashed="yes">
 <attribute name="DESCRIPTION" value="10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="37.3" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-10R0ELFCT-ND" x="37.3" y="77.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="37.3" y="77.5" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns" x="37.3" y="77.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-10R0ELF" x="37.3" y="77.5" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-10R0ELF" x="37.3" y="77.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="37.3" y="77.5" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="38.7" y="77.231" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="37.3" y="77.5" size="0.3" layer="33" ratio="15" align="center"/>
 </element>
 <element name="C42" library="oresat-rcl" package=".0402-C-NOSILK" value="8.2p" x="47.7" y="25" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V" x="47.7" y="25" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6372,11 +6220,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R23" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10" x="37.3" y="79.3" smashed="yes">
 <attribute name="DESCRIPTION" value="10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="37.3" y="79.3" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-10R0ELFCT-ND" x="37.3" y="79.3" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" x="37.3" y="79.3" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns" x="37.3" y="79.3" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-10R0ELF" x="37.3" y="79.3" size="1.778" layer="27" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-10R0ELF" x="37.3" y="79.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="38.7" y="79.05" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="36.2" y="81.031" size="0.3" layer="33" ratio="15"/>
+<attribute name="NAME" x="38.7" y="79.05" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="WDT" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="14.4" y="83.1" smashed="yes">
 <attribute name="NAME" x="13.8" y="81.6" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -6566,8 +6413,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Stackpole" x="34.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎" x="34.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="34.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="35.04" y="27.44" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="34.7" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="35.04" y="27.44" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="33.95" y="32.227" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R28" library="oresat-rcl" package=".0603-B-NOSILK" value="47k" x="31.7" y="30.6" smashed="yes" rot="R270">
@@ -6578,8 +6425,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Stackpole" x="31.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎" x="31.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="31.7" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="32" y="27.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="31.7" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="32" y="27.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="30.95" y="32.227" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R29" library="oresat-rcl" package=".0603-B-NOSILK" value="47k" x="33.2" y="30.6" smashed="yes" rot="R270">
@@ -6590,8 +6437,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Stackpole" x="33.2" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎" x="33.2" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="33.2" y="30.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="33.54" y="27.44" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="33.2" y="30.6" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="33.54" y="27.44" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="32.45" y="32.227" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R30" library="oresat-rcl" package=".0603-B-NOSILK" value="47k" x="42.4" y="16.4" smashed="yes">
@@ -6602,8 +6449,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Stackpole" x="42.4" y="16.4" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎" x="42.4" y="16.4" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="42.4" y="16.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="41.5884" y="15.095" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="42.4" y="16.4" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="41.5884" y="15.095" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="44.027" y="17.15" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="TP1" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="33.7" y="19.9" smashed="yes">
@@ -6651,8 +6498,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Coilcraft" x="45" y="43.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-18NXGL" x="45" y="43.6" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-18NXGLU" x="45" y="43.6" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="46.054" y="44.5168" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="45" y="43.6" size="0.2" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="46.054" y="44.5168" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="46.35" y="42.8" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="C31" library="oresat-rcl" package=".0402-B-NOSILK" value="3p" x="38.751171875" y="41.149609375" smashed="yes" rot="R359.8">
@@ -6663,8 +6510,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C030CB5NNNC " x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
-<attribute name="NAME" x="36.2" y="41.6" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="NAME" x="38.751171875" y="41.149609375" size="0.2" layer="33" ratio="15" rot="R359.8" align="center"/>
+<attribute name="NAME" x="36.2" y="41.6" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="VALUE" x="37.9464625" y="39.802409375" size="0.8" layer="27" font="vector" ratio="15" rot="R359.8"/>
 </element>
 <element name="U15" library="U-Qorvo-856930-SAW" package="3.8X3.8" value="Qorvo 856930" x="48.1" y="38" smashed="yes" rot="R270">
@@ -6677,21 +6524,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="50.9595" y="37.5903" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R32" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="58.4" y="80.9" smashed="yes" rot="R180">
-<attribute name="DIS" value="Digi-Key" x="63.6324" y="74.1436" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="63.6324" y="74.1436" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MFR" value="Yageo" x="63.6324" y="74.1436" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="63.6324" y="74.1436" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="57.45" y="82.581" size="0.2" layer="33" ratio="15"/>
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" x="58.4" y="80.9" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-10.0KLRCT-ND" x="63.6324" y="74.1436" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="63.6324" y="74.1436" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" x="63.6324" y="74.1436" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="57.6" y="81.4" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="57.45" y="82.581" size="0.2" layer="33" ratio="15"/>
 <attribute name="VALUE" x="57.45" y="81.527" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R33" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="59.6" y="79.1" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="66.8898" y="79.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="66.8898" y="79.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Yageo" x="66.8898" y="79.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="66.8898" y="79.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="59.1" y="81.231" size="0.2" layer="33" ratio="15"/>
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" x="59.6" y="79.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-10.0KLRCT-ND" x="66.8898" y="79.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="66.8898" y="79.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" x="66.8898" y="79.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="58.35" y="78.2" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="59.1" y="81.231" size="0.2" layer="33" ratio="15"/>
 <attribute name="VALUE" x="59.1" y="80.177" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="Q4" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="60.3" y="83.7" smashed="yes" rot="R270">
@@ -6718,21 +6565,21 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="60.475" y="81.452" size="1" layer="27"/>
 </element>
 <element name="R39" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="56.2" y="80.9" smashed="yes">
-<attribute name="DIS" value="Digi-Key" x="50.9676" y="87.6564" size="1.778" layer="27" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="50.9676" y="87.6564" size="1.778" layer="27" display="off"/>
-<attribute name="MFR" value="Yageo" x="50.9676" y="87.6564" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="50.9676" y="87.6564" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="55.25" y="82.581" size="0.2" layer="33" ratio="15"/>
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" x="56.2" y="80.9" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-10.0KLRCT-ND" x="50.9676" y="87.6564" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="50.9676" y="87.6564" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" x="50.9676" y="87.6564" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="55.219" y="81.35" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="55.25" y="82.581" size="0.2" layer="33" ratio="15"/>
 <attribute name="VALUE" x="55.25" y="81.527" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="R40" library="rcl_custom" package=".0402-B-NOSILK" value="10k" x="51.4" y="78.8" smashed="yes" rot="R270">
-<attribute name="DIS" value="Digi-Key" x="58.6898" y="78.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="311-10.0KLRCT-ND" x="58.6898" y="78.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Yageo" x="58.6898" y="78.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0402FR-0710KL" x="58.6898" y="78.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="50.9" y="80.931" size="0.2" layer="33" ratio="15"/>
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film" x="51.4" y="78.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-10.0KLRCT-ND" x="58.6898" y="78.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Yageo" x="58.6898" y="78.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-0710KL" x="58.6898" y="78.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="50.8" y="78.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="50.9" y="80.931" size="0.2" layer="33" ratio="15"/>
 <attribute name="VALUE" x="50.9" y="79.877" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="Q2" library="Q-MOSFET-PCH-SOT23-6" package="SOT23-6" value="MOSFET-PCH-SOT23-6" x="55.5" y="83.7" smashed="yes" rot="R270">
@@ -6761,7 +6608,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C87" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="38.2126375" y="67.651490625" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="11.5426375" y="105.751490625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="38.2126375" y="67.651490625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="11.5426375" y="105.751490625" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="38.2126375" y="67.651490625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="11.5426375" y="105.751490625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="36.9873625" y="68.348509375" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="35.5316375" y="66.901490625" size="0.3" layer="33" ratio="15" rot="R90"/>
@@ -6770,8 +6617,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C88" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="10u" x="19.2" y="64.3" smashed="yes">
 <attribute name="DESCRIPTION" value="10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="47.14" y="31.28" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="490-18214-1-ND" x="19.2" y="64.3" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="0.9mm" x="47.14" y="31.28" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="47.14" y="31.28" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="19.2" y="64.3" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61E106KA73D" x="47.14" y="31.28" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="17.7" y="66.231" size="0.3" layer="33" ratio="15"/>
 <attribute name="NAME" x="18.4" y="65" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -6780,7 +6626,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C89" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="19.2" y="62.5" smashed="yes">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="49.68" y="24.4" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="19.2" y="62.5" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="49.68" y="24.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="19.2" y="62.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="49.68" y="24.4" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="18.4" y="63.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="17.7" y="64.431" size="0.3" layer="33" ratio="15"/>
@@ -6789,7 +6635,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C91" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="85.3" y="12.5" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="51.01" y="50.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="85.3" y="12.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="51.01" y="50.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="85.3" y="12.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="51.01" y="50.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="83.7" y="11.2" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="84.881" y="12.85" size="0.3" layer="33" ratio="15" rot="R270"/>
@@ -6798,44 +6644,44 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C90" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="22u" x="9.1" y="56.3" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="-23.92" y="19.47" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="ZRB18AR61A226ME01L-ND" x="9.1" y="56.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="-23.92" y="19.47" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="9.1" y="56.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR61A226ME01L" x="-23.92" y="19.47" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="8.5194" y="57.76249375" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="8.35" y="58.981" size="0.3" layer="33" ratio="15"/>
 <attribute name="VDC" value="10V" x="9.1" y="56.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C92" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="1u" x="89.6" y="15.8" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C92" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="89.6" y="15.8" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="89.6" y="15.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="89.6" y="15.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="90.35" y="13.119" size="0.3" layer="33" ratio="15" rot="R180"/>
 <attribute name="NAME" x="90.9" y="15.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="51.5" y="-22.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VDC" value="10V" x="89.6" y="15.8" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VDC" value="25V" x="89.6" y="15.8" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="L17" library="L-ECS-MPI4040" package="ECS-MPI4040" value="6.8uH" x="12.9" y="57.7" smashed="yes" rot="R90">
+<element name="L17" library="L-ECS-MPI4040" package="ECS-MPI4040" value="6.8u" x="12.9" y="57.7" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="6.8µH Shielded  Inductor 2.4A 91mOhm Nonstandard" x="12.9" y="57.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="XC2337CT-ND" x="12.9" y="57.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="ECS Inc." x="12.9" y="57.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ECS-MPI4040R4-6R8-R" x="12.9" y="57.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="15.85" y="55.329" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="15.25" y="55.418" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="R64" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="3.1k" x="26.620078125" y="63.29891875" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="3.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film" x="69.800078125" y="82.34891875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="MCT06030C3101FP500-ND" x="26.620078125" y="63.29891875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Beyschlag" x="69.800078125" y="82.34891875" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Beyschlag" x="26.620078125" y="63.29891875" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C3101FP500" x="69.800078125" y="82.34891875" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="24.49891875" y="62.329921875" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="24.889078125" y="62.19891875" size="0.3" layer="33" ratio="15" rot="R90"/>
+<attribute name="NAME" x="24.49891875" y="62.329921875" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R67" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="NP" x="14.9" y="66.3" smashed="yes">
 <attribute name="DESCRIPTION" value="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" x="53" y="23.12" size="1.778" layer="27" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="541-4012-1-ND" x="14.9" y="66.3" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Dale" x="53" y="23.12" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="14.9" y="66.3" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" x="53" y="23.12" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.3" y="67" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="16" y="65.623" size="0.3" layer="33" ratio="15" rot="R180"/>
+<attribute name="NAME" x="14.3" y="67" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R68" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10k" x="17.1" y="65.3" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="-26.08" y="38.63" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7046,8 +6892,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="44.9" y="63.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C220JB5NNNC‎" x="44.9" y="63.8" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="44.9" y="63.8" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="43.5" y="62.9" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="44.9" y="63.8" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="43.5" y="62.9" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="43.65" y="64.5" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C81" library="oresat-rcl" package=".0402-C-NOSILK" value="22p" x="44.9" y="55.4" smashed="yes" rot="R270">
@@ -7058,8 +6904,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="44.9" y="55.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C220JB5NNNC‎" x="44.9" y="55.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="44.9" y="55.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="43.4" y="54.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="44.9" y="55.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="43.4" y="54.6" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="43.65" y="56.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C84" library="oresat-rcl" package=".0603-B-NOSILK" value="47n" x="50" y="60.7" smashed="yes">
@@ -7192,8 +7038,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1859-2-ND" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="CL10A105KA8NFNC" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="Samsung Electro-Mechanics" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="89.85" y="19.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="90.5" y="21.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="89.85" y="19.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="88.95" y="22.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 <attribute name="VDC" value="25V" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -7247,43 +7093,31 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="56" y="27.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="56" y="26.7" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C20" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="1u" x="53.6" y="32.1" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C20" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="53.6" y="32.1" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="53.658" y="32.027" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="54.674" y="33.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VDC" value="10V" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VDC" value="25V" x="53.6" y="32.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C27" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="22u" x="60.04" y="31.959" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="60.04" y="31.959" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="ZRB18AR61A226ME01L-ND" x="60.04" y="31.959" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="60.04" y="31.959" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="60.04" y="31.959" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR61A226ME01L" x="60.04" y="31.959" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="61.44" y="30.959" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="60.04" y="31.959" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VDC" value="10V" x="60.04" y="31.959" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C28" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="1u" x="60.029" y="28.436" smashed="yes" rot="R270">
-<attribute name="DESCRIPTION" value="WALSIN - 0603X105K100CT - CAPACITOR, MLCC, X5R, 1UF, 10V, 0603" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="HEIGHT" value="1mm" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Walsin Technology Corporation" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="0603X105K100CT" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="791-0603X105K100CT" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=791-0603X105K100CT" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="C28" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="60.029" y="28.436" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="61.371" y="27.964" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="RS_PART_NUMBER" value="" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="RS_PRICE-STOCK" value="" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VDC" value="10V" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VDC" value="25V" x="60.029" y="28.436" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U23" library="U-TI-LP2985AIM5-2.5_NOPB-2.5V-Fixed-LDO" package="SOT-23" value="LP2985AIM5-2.5_NOPB" x="88" y="31" smashed="yes">
 <attribute name="DESCRIPTION" value="Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 packages" x="88" y="31" size="1.778" layer="27" display="off"/>
@@ -7298,7 +7132,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C93" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="86.5" y="33.6" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="86.5" y="33.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="86.5" y="33.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="86.5" y="33.6" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="86.5" y="33.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="86.5" y="33.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="85.3" y="34.6" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="86.558" y="33.527" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
@@ -7307,7 +7141,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C94" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="22u" x="91.5" y="32.7" smashed="yes" rot="R90">
 <attribute name="DESCRIPTION" value="22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="91.5" y="32.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="ZRB18AR61A226ME01L-ND" x="91.5" y="32.7" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="91.5" y="32.7" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="91.5" y="32.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR61A226ME01L" x="91.5" y="32.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="90.7" y="31.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="91.5" y="32.7" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
@@ -7316,12 +7150,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C95" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="1u" x="91.5" y="29.2" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-1001-1-ND" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="YAGEO (PHYCOMP)" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05B104KO5NNNC" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="92.3" y="30.4" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="91.5" y="29.2" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VDC" value="25V" x="91.5" y="29.2" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7524,6 +7354,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="91.665" y="16.9" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="R21" library="oresat-rcl" package=".0603-B-NOSILK" value="2.7k" x="92.4" y="21.1" smashed="yes" rot="R270">
+<attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="92.4" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" x="92.4" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns Inc." x="92.4" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="92.4" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="93.8" y="20.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="92.4" y="21.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 </element>
@@ -7714,8 +7548,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Coilcraft" x="48.1" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-15NXGLW" x="48.1" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-15NXGLW" x="48.1" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.6" y="32.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="48.1" y="32.5" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="46.6" y="32.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="46.85" y="33.2" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="L39" library="oresat-rcl" package=".0402-C-NOSILK" value="15.0n" x="48.1" y="30.7" smashed="yes" rot="R270">
@@ -7726,8 +7560,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Coilcraft" x="48.1" y="30.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-15NXGLW" x="48.1" y="30.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-15NXGLW" x="48.1" y="30.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.55" y="29.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="48.1" y="30.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="46.55" y="29.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="46.85" y="31.4" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C111" library="oresat-rcl" package=".0402-C-NOSILK" value="18.0p" x="49.4" y="32.95" smashed="yes">
@@ -7738,8 +7572,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="49.4" y="32.95" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C180JB5NNNC" x="49.4" y="32.95" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="49.4" y="32.95" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.4" y="32.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="49.4" y="32.95" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="50.4" y="32.7" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="48.7" y="31.7" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="C112" library="oresat-rcl" package=".0402-C-NOSILK" value="12.0p" x="46.8" y="31.6" smashed="yes" rot="R180">
@@ -7750,8 +7584,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="46.8" y="31.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C120JB5NNNC" x="46.8" y="31.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="46.8" y="31.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="49.5" y="31.3" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="46.8" y="31.6" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="49.5" y="31.3" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="47.5" y="32.85" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="C113" library="oresat-rcl" package=".0402-C-NOSILK" value="18.0p" x="49.5" y="30.25" smashed="yes">
@@ -7762,8 +7596,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_NAME" value="Samsung" x="49.5" y="30.25" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C180JB5NNNC" x="49.5" y="30.25" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="49.5" y="30.25" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="50.2" y="30.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="49.5" y="30.25" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="50.2" y="30.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="48.8" y="29" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="2.5V-L" library="oresat-misc" package="1X01" value="TEST-POINT-LARGE" x="62.8" y="31.2" smashed="yes">
@@ -7785,7 +7619,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C29" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="22u" x="84.7" y="15.9" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="84.7" y="15.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="ZRB18AR61A226ME01L-ND" x="84.7" y="15.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="84.7" y="15.9" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Murata Electronics" x="84.7" y="15.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR61A226ME01L" x="84.7" y="15.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="84.7" y="15.9" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="84.265" y="13.03" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
@@ -7817,12 +7651,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C119" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="0.1u" x="15.6" y="85.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="AVX" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="15.6" y="85.7" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="14.75" y="84.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VDC" value="10V" x="15.6" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7830,12 +7660,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C120" library="C3_SamacSys_Parts" package=".0603-B-NOSILK-CAP" value="47u" x="17.1" y="85.4" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="47µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-11180-2-ND" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DIS" value="Digi-Key" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DPN" value="1276-6601-1-ND" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="AVX Corporation" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="AVX Corporation" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="06036D476MAT2A" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MFR" value="Samsung" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="CL05C200JB51PNC" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="17.25" y="85.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="18.55" y="84.3" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VDC" value="6.3V" x="17.1" y="85.4" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7843,10 +7669,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R19" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="0" x="13.4" y="87.8" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" x="13.4" y="87.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="541-4012-1-ND" x="13.4" y="87.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Dale" x="13.4" y="87.8" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="13.4" y="87.8" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" x="13.4" y="87.8" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="12.93" y="88.635" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="13.4" y="87.8" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="12.93" y="88.635" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="Q6" library="Q-MOSFET-NP-Pair-SOT23-6" package="SOT23-6" value="MOSFET-P-N-PAIR" x="23" y="90" smashed="yes">
 <attribute name="NAME" x="22.395" y="92.105" size="0.8" layer="25" font="vector" ratio="15"/>
@@ -7855,10 +7681,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R22" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="0" x="26.2" y="90" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" x="26.2" y="90" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="541-4012-1-ND" x="26.2" y="90" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay Dale" x="26.2" y="90" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Vishay Dale" x="26.2" y="90" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" x="26.2" y="90" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="27.565" y="89.33" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="26.2" y="90" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="27.565" y="89.33" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 </element>
 <element name="R44" library="C3_SamacSys_Parts" package=".0603-C-NOSILK-RESISTOR" value="10k" x="20.3" y="90.6" smashed="yes" rot="R270">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="20.3" y="90.6" size="1.778" layer="27" rot="R270" display="off"/>
@@ -8354,8 +8180,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="53.1" y1="29.2" x2="53.1" y2="28.5" width="0" layer="19" extent="1-1"/>
 <wire x1="53.1" y1="29.8" x2="53.1" y2="29.2" width="0" layer="19" extent="1-1"/>
 <wire x1="53.1" y1="30.4" x2="53.1" y2="29.8" width="0" layer="19" extent="1-1"/>
-<wire x1="53.6" y1="31.3" x2="53.1" y2="30.4" width="0" layer="19" extent="1-1"/>
-<wire x1="55.2" y1="31.15" x2="53.6" y2="31.3" width="0" layer="19" extent="1-1"/>
+<wire x1="53.6" y1="31.4" x2="53.1" y2="30.4" width="0" layer="19" extent="1-1"/>
+<wire x1="55.2" y1="31.15" x2="53.6" y2="31.4" width="0" layer="19" extent="1-1"/>
 <wire x1="23.3" y1="15.6" x2="22.026" y2="25.076" width="0" layer="19" extent="1-1"/>
 <wire x1="24.1" y1="15.6" x2="23.3" y2="15.6" width="0" layer="19" extent="1-1"/>
 <wire x1="23.25" y1="14.4" x2="23.3" y2="15.6" width="0" layer="19" extent="1-1"/>
@@ -9011,8 +8837,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="92.4" y1="16.2" x2="92.4" y2="17.123" width="0" layer="19" extent="1-1"/>
 <wire x1="91.4" y1="17.1" x2="92.4" y2="17.123" width="0" layer="19" extent="1-1"/>
 <wire x1="90.6" y1="15" x2="92.4" y2="16.2" width="0" layer="19" extent="1-1"/>
-<wire x1="89.6" y1="15" x2="90.6" y2="15" width="0" layer="19" extent="1-1"/>
-<wire x1="89.6" y1="14.1" x2="89.6" y2="15" width="0" layer="19" extent="1-1"/>
+<wire x1="89.6" y1="15.1" x2="90.6" y2="15" width="0" layer="19" extent="1-1"/>
+<wire x1="89.6" y1="14.1" x2="89.6" y2="15.1" width="0" layer="19" extent="1-1"/>
 <wire x1="87.3" y1="14" x2="89.6" y2="14.1" width="0" layer="19" extent="1-1"/>
 <wire x1="87.3" y1="15" x2="87.3" y2="14" width="0" layer="19" extent="1-1"/>
 <wire x1="84.7" y1="15.1" x2="87.3" y2="15" width="0" layer="19" extent="1-1"/>
@@ -9142,13 +8968,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="15" y1="6.7" x2="17.07" y2="0.95" width="0" layer="19" extent="1-1"/>
 <wire x1="15" y1="7.5" x2="15" y2="6.7" width="0" layer="19" extent="1-1"/>
 <wire x1="15.9" y1="7.5" x2="15" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="13.4" y1="7.5" x2="15" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="13.4" y1="6.7" x2="13.4" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="11.8" y1="7.5" x2="13.4" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="11.8" y1="6.7" x2="11.8" y2="7.5" width="0" layer="19" extent="1-1"/>
-<wire x1="10.9" y1="7.5" x2="11.8" y2="7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="13.4" y1="7.6" x2="15" y2="7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="13.4" y1="6.7" x2="13.4" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="11.8" y1="7.6" x2="13.4" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="10.9" y1="7.5" x2="11.8" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="11.8" y1="6.7" x2="11.8" y2="7.6" width="0" layer="19" extent="1-1"/>
 <wire x1="10" y1="4.5" x2="11.8" y2="6.7" width="0" layer="19" extent="1-1"/>
-<wire x1="14.1" y1="12.5" x2="13.4" y2="7.5" width="0" layer="19" extent="1-1"/>
+<wire x1="14.1" y1="12.5" x2="13.4" y2="7.6" width="0" layer="19" extent="1-1"/>
 <wire x1="12.35" y1="13.95" x2="12.85" y2="14.45" width="0" layer="19" extent="1-1"/>
 <wire x1="11.35" y1="14.45" x2="12.35" y2="13.95" width="0" layer="19" extent="1-1"/>
 <wire x1="10.85" y1="14.45" x2="11.35" y2="14.45" width="0" layer="19" extent="1-1"/>
@@ -9169,9 +8995,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="17.9" y1="21.1" x2="15.8564" y2="17.22763125" width="0" layer="19" extent="1-1"/>
 <wire x1="20.9" y1="21.1" x2="17.9" y2="21.1" width="0" layer="19" extent="1-1"/>
 <wire x1="21.645" y1="18.98" x2="20.9" y2="21.1" width="0" layer="19" extent="1-1"/>
-<wire x1="21.7" y1="18.1" x2="21.645" y2="18.98" width="0" layer="19" extent="1-1"/>
-<wire x1="22.661" y1="18.091" x2="21.7" y2="18.1" width="0" layer="19" extent="1-1"/>
-<wire x1="20.629" y1="18.091" x2="21.7" y2="18.1" width="0" layer="19" extent="1-1"/>
+<wire x1="21.7" y1="18" x2="21.645" y2="18.98" width="0" layer="19" extent="1-1"/>
+<wire x1="22.661" y1="18.091" x2="21.7" y2="18" width="0" layer="19" extent="1-1"/>
+<wire x1="20.629" y1="18.091" x2="21.7" y2="18" width="0" layer="19" extent="1-1"/>
 <wire x1="20.9" y1="24.1" x2="20.9" y2="21.1" width="0" layer="19" extent="1-1"/>
 <wire x1="22.9" y1="24.1" x2="20.9" y2="24.1" width="0" layer="19" extent="1-1"/>
 <wire x1="24.006" y1="21.846" x2="22.9" y2="24.1" width="0" layer="19" extent="1-1"/>
@@ -10303,6 +10129,34 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="13.856" y1="13.944" x2="13.856" y2="13.4868" width="0.254" layer="1"/>
 <wire x1="15" y1="12.3428" x2="15" y2="11.4" width="0.254" layer="1"/>
 <wire x1="13.856" y1="13.4868" x2="15" y2="12.3428" width="0.254" layer="1"/>
+<wire x1="20.8" y1="16.5" x2="21.7" y2="16.6" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1" y1="16.5" x2="20.8" y2="16.5" width="0" layer="19" extent="1-1"/>
+<wire x1="20.621" y1="14.389" x2="20.8" y2="16.5" width="0" layer="19" extent="1-1"/>
+<wire x1="21.35" y1="14.4" x2="20.621" y2="14.389" width="0" layer="19" extent="1-1"/>
+<wire x1="21.3" y1="13.5" x2="21.35" y2="14.4" width="0" layer="19" extent="1-1"/>
+<wire x1="21.3" y1="12.8" x2="21.3" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="22.3" y1="14.4" x2="21.35" y2="14.4" width="0" layer="19" extent="1-1"/>
+<wire x1="21.35" y1="11.8" x2="21.3" y2="12.8" width="0" layer="19" extent="1-1"/>
+<wire x1="20.6" y1="11.8" x2="21.35" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="21.3" y1="10.9" x2="21.35" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="22.3" y1="11.8" x2="21.35" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="22.3" y1="10.9" x2="22.3" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="20.6" y1="10.1" x2="21.3" y2="10.9" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1" y1="11.79" x2="20.6" y2="11.8" width="0" layer="19" extent="1-1"/>
+<wire x1="18.3" y1="11.4" x2="19.1" y2="11.79" width="0" layer="19" extent="1-1"/>
+<wire x1="18.3" y1="9.9" x2="18.3" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="19.1" y1="14.4" x2="20.621" y2="14.389" width="0" layer="19" extent="1-1"/>
+<wire x1="16.6" y1="11.4" x2="18.3" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="16.6" y1="9.9" x2="16.6" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="11.4" x2="16.6" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="12.85" y1="13.95" x2="13.85" y2="13.95" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="9.9" x2="15" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="9.1" x2="15" y2="9.9" width="0" layer="19" extent="1-1"/>
+<wire x1="13.4" y1="9.9" x2="13.4" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="13.4" y1="9" x2="13.4" y2="9.9" width="0" layer="19" extent="1-1"/>
+<wire x1="11.8" y1="9.9" x2="11.8" y2="11.4" width="0" layer="19" extent="1-1"/>
+<wire x1="11.8" y1="9" x2="11.8" y2="9.9" width="0" layer="19" extent="1-1"/>
+<wire x1="14.85" y1="15.95" x2="13.85" y2="13.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RADIO2_CS">
 <contactref element="U7" pad="38"/>
@@ -12761,19 +12615,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="69.868" y1="88.922" x2="69.5" y2="88" width="0" layer="19" extent="16-16"/>
 <wire x1="69.5" y1="90" x2="69.868" y2="88.922" width="0" layer="19" extent="16-16"/>
 <wire x1="52.7" y1="32.9" x2="50.6" y2="33.4" width="0" layer="19" extent="1-1"/>
-<wire x1="53.6" y1="32.9" x2="52.7" y2="32.9" width="0" layer="19" extent="1-1"/>
-<wire x1="53.6" y1="33.7" x2="53.6" y2="32.9" width="0" layer="19" extent="1-1"/>
-<wire x1="54.5" y1="32.9" x2="53.6" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="53.6" y1="32.8" x2="52.7" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="53.6" y1="33.7" x2="53.6" y2="32.8" width="0" layer="19" extent="1-1"/>
+<wire x1="54.5" y1="32.9" x2="53.6" y2="32.8" width="0" layer="19" extent="1-1"/>
 <wire x1="44.1" y1="16.4" x2="42.8" y2="18.3" width="0" layer="19" extent="1-1"/>
 <wire x1="43" y1="14.9" x2="44.1" y2="16.4" width="0" layer="19" extent="1-1"/>
 <wire x1="38.0226" y1="25.4056" x2="40.5" y2="25.7" width="0" layer="19" extent="1-1"/>
 <wire x1="38.0288" y1="29.908" x2="38.0226" y2="28.4056" width="0" layer="19" extent="1-1"/>
-<wire x1="54.2" y1="30.2" x2="54.5" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="54.2" y1="30.2" x2="53.6" y2="32.8" width="0" layer="19" extent="1-1"/>
 <wire x1="55.2" y1="30.2" x2="54.2" y2="30.2" width="0" layer="19" extent="1-1"/>
 <wire x1="56.2" y1="30.2" x2="55.2" y2="30.2" width="0" layer="19" extent="1-1"/>
 <wire x1="59" y1="27.6" x2="56.2" y2="30.2" width="0" layer="19" extent="1-1"/>
-<wire x1="60.029" y1="27.636" x2="59" y2="27.6" width="0" layer="19" extent="1-1"/>
-<wire x1="61" y1="27.6" x2="60.029" y2="27.636" width="0" layer="19" extent="1-1"/>
+<wire x1="60.029" y1="27.736" x2="59" y2="27.6" width="0" layer="19" extent="1-1"/>
+<wire x1="61" y1="27.6" x2="60.029" y2="27.736" width="0" layer="19" extent="1-1"/>
 <wire x1="59.1" y1="32.8" x2="56.2" y2="30.2" width="0" layer="19" extent="1-1"/>
 <wire x1="60.04" y1="32.759" x2="59.1" y2="32.8" width="0" layer="19" extent="1-1"/>
 <wire x1="60" y1="33.6" x2="60.04" y2="32.759" width="0" layer="19" extent="1-1"/>
@@ -13568,7 +13422,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U6" pad="4"/>
 <contactref element="C28" pad="1"/>
 <wire x1="57.8" y1="29.25" x2="60.029" y2="29.25" width="0.4" layer="1"/>
-<wire x1="60.029" y1="29.25" x2="60.029" y2="29.236" width="0.4" layer="1"/>
+<wire x1="60.029" y1="29.25" x2="60.029" y2="29.136" width="0.4" layer="1"/>
 </signal>
 <signal name="CTRL1">
 <contactref element="U25" pad="5"/>
@@ -13752,7 +13606,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$49">
 <contactref element="C92" pad="1"/>
 <contactref element="U28" pad="4"/>
-<wire x1="89.6" y1="16.6" x2="88.25" y2="16.6" width="0.3048" layer="1"/>
+<wire x1="89.6" y1="16.5" x2="88.25" y2="16.6" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$23">
 <contactref element="R13" pad="1"/>
