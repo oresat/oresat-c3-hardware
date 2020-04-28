@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2428,8 +2428,8 @@ by exp-lbrs.ulp</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER_PART_NUMBER" value="EXBA10P391J" constant="no"/>
-<attribute name="VENDOR" value="Panasonic" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="EXB-A10P103J" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3254,8 +3254,8 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 </symbols>
 <devicesets>
 <deviceset name="CAP0603-10UF-25VDC" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R61E106KA73D.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://psearch.en.murata.com/capacitor/product/GRM188R61E106KA73%23.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -3267,14 +3267,11 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R61E106K
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT" constant="no"/>
+<attribute name="DESCRIPTION" value="10µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="490-18214-1-ND" constant="no"/>
 <attribute name="HEIGHT" value="0.9mm" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R61E106KA73D" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R61E106KA3D" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R61E106KA3D" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="25V" constant="no"/>
 </technology>
 </technologies>
@@ -3310,8 +3307,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </devices>
 </deviceset>
 <deviceset name="CAP0603-1UF-25VDC" prefix="C" uservalue="yes">
-<description>&lt;b&gt;YAGEO - CC0603KRX5R8BB105 - CERAMIC CAPACITOR, 1UF, 25V, X5R, 10%, 0603, FULL REEL&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_25.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.yageo.com/upload/media/product/productsearch/datasheet/mlcc/UPY-GPHC_X5R_4V-to-50V_25.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -3323,14 +3320,10 @@ Source: &lt;a href="http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="YAGEO - CC0603KRX5R8BB105 - CERAMIC CAPACITOR, 1UF, 25V, X5R, 10%, 0603, FULL REEL" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="YAGEO (PHYCOMP)" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="603-CC603KRX5R8BB105" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-CC603KRX5R8BB105" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="25V" constant="no"/>
 </technology>
 </technologies>
@@ -3366,8 +3359,8 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1958513.pdf"&gt; Datasheet
 </devices>
 </deviceset>
 <deviceset name="CAP0603-0.1UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2A.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -3379,14 +3372,10 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V .1uF X5R 0603 10%" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="AVX" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="581-0603ZD104KAT2A" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=581-0603ZD104KAT2A" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
@@ -3394,8 +3383,8 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/06031A100FAT2
 </devices>
 </deviceset>
 <deviceset name="CAP0603-20PF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 20pF 50volts C0G 5%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200JA01J.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;20pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM1885C1H200JA01-01.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -3407,14 +3396,10 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200J
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 20pF 50volts C0G 5%" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
+<attribute name="DESCRIPTION" value="20pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="GRM1885C1H200JA01J-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM1885C1H200JA01J" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM185C1H200JA01J" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM185C1H200JA01J" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="50V" constant="no"/>
 </technology>
 </technologies>
@@ -3422,8 +3407,8 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM1885C1H200J
 </devices>
 </deviceset>
 <deviceset name="CAP0603-2.2UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10V 2.2uF X7R 20% T: 0.8mm&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;2.2µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf?ref_disty=digikey"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -3435,14 +3420,10 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10V 2.2uF X7R 20% T: 0.8mm" constant="no"/>
-<attribute name="HEIGHT" value="0.8mm" constant="no"/>
+<attribute name="DESCRIPTION" value="2.2µF ±20% 10V Ceramic Capacitor X7R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="445-5959-1-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="TDK" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7R1A225M080AC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="810-C1608X7R1A225M" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=810-C1608X7R1A225M" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
@@ -3450,8 +3431,8 @@ Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/mlcc_comm
 </devices>
 </deviceset>
 <deviceset name="R0603-0-OHMS" prefix="R" uservalue="yes">
-<description>&lt;b&gt;Thick Film Resistors - SMD&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -3463,23 +3444,18 @@ Source: &lt;a href="https://www.vishay.com/docs/28773/crcwce3.pdf"&gt; Datasheet
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="DESCRIPTION" value="0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric)  Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="541-4012-1-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay Dale" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CRCW06030000Z0EAC" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="71-CRCW06030000Z0EAC" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW06030000Z0EAC" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-2.7K-OHMS" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-2.7K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -3491,22 +3467,18 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603-FX2701ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603-FX2701ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-3.1K-OHMS" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD ResHighPower 0603 3k01 1% 1/3W TC100&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.mouser.com/datasheet/2/54/chp-1649060.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-3.1K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;3.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.vishay.com/docs/28705/mcx0x0xpro.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -3518,23 +3490,18 @@ Source: &lt;a href="https://www.mouser.com/datasheet/2/54/chp-1649060.pdf"&gt; D
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 2.7KOHM 1/10WATT 1%" constant="no"/>
-<attribute name="HEIGHT" value="0.45mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CHP0603-FX-3011ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CHP0603FX3011ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="3.1k" constant="no"/>
+<attribute name="DESCRIPTION" value="3.1 kOhms ±1% 0.125W, 1/8W Chip Resistor 0603 (1608 Metric) Anti-Sulfur Thin Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="MCT06030C3101FP500-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay Beyschlag" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="MCT06030C3101FP500" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-10-OHMS" prefix="R">
-<description>&lt;b&gt;SMD 0603 thick film resistor 10R 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 603 Case 10 +/-1% 0.1W +/-100ppm/C&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-10-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -3546,23 +3513,19 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10R 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 603 Case 10 +/-1% 0.1W +/-100ppm/C" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-10R0ELFCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-10R0ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-10R0ELF" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-10R0ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7408818P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408818P" constant="no"/>
-<attribute name="VALUE" value="10" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="R0603-10K-OHMS" prefix="R" uservalue="yes">
-<description>&lt;b&gt;SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -3574,25 +3537,18 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="ALLIED_NUMBER" value="70154687" constant="no"/>
-<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/bourns-cr0603-fx-1002elf/70154687/" constant="no"/>
-<attribute name="DESCRIPTION" value="SMD 0603 thick film resistor 10K 1% Bourns CR0603-FX Series Thick Film Surface Mount Fixed Resistor 0603 Case 10k +/-1% 0.1W +/-100ppm/C" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="DESCRIPTION" value="10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-1002ELFCT-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-1002ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-1002ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-1002ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7408805P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/7408805P" constant="no"/>
-<attribute name="VALUE" value="10k" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-23.7K-OHMS" prefix="R">
-<description>&lt;b&gt;Thick Film Resistors - SMD 23.7K ohm 1%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-23.7K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;23.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -3604,23 +3560,18 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Thick Film Resistors - SMD 23.7K ohm 1%" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="23.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2372ELF-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2372ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-2372ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-2372ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="23.7k" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-31.6K-OHMS" prefix="R">
-<description>&lt;b&gt;BOURNS - CR0603-FX-3162ELF - RES, 31.6K, 1%, 0603, THICK FILM&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<deviceset name="R0603-31.6K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -3632,23 +3583,18 @@ Source: &lt;a href="https://www.bourns.com/pdfs/chpreztr.pdf"&gt; Datasheet &lt;
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="BOURNS - CR0603-FX-3162ELF - RES, 31K6, 1%, 0603, THICK FILM" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
+<attribute name="DESCRIPTION" value="31.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-3162ELFCT-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-3162ELF" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="652-CR0603FX-3162ELF" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=652-CR0603FX-3162ELF" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-<attribute name="VALUE" value="31.6k" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CAP0603-22UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Murata 0603 B 22uF Ceramic Multilayer Capacitor, 10 V dc, +85C, X5R Dielectric, +/-20%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b8145fcdd.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/ZRB18AR61A226ME01-02.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -3660,22 +3606,19 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Murata 0603 B 22uF Ceramic Multilayer Capacitor, 10 V dc, +85C, X5R Dielectric, +/-20%" constant="no"/>
-<attribute name="HEIGHT" value="1.2mm" constant="no"/>
+<attribute name="DESCRIPTION" value="22µF ±20% 10V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="ZRB18AR61A226ME01L-ND" constant="no"/>
 <attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="ZRB18AR61A226ME01L" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-ZRB18AR61A226ME1L" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-ZRB18AR61A226ME1L" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="9015339P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9015339P" constant="no"/>
 <attribute name="VDC" value="10V" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603-100K-OHMS" prefix="R">
-<description>&lt;b&gt;RESISTOR, 0603 100K Ohms +/-1% 1/10 W&lt;/b&gt;&lt;p&gt;</description>
+<deviceset name="R0603-100K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
@@ -3687,21 +3630,18 @@ Source: &lt;a href="http://docs-asia.electrocomponents.com/webdocs/145f/0900766b
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="RESISTOR, 0603 330K Ohms +/-1% 1/10 W" constant="no"/>
-<attribute name="HEIGHT" value="0.55mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="KOA Speer" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value=" RN731JTTD1013F100" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="660-RN731JTD1013F100" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=603-RT0603FRE07330KL" constant="no"/>
-<attribute name="VALUE" value="100k" constant="no"/>
+<attribute name="DESCRIPTION" value="100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603JG100KTR-ND" constant="no"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603JG100K" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="CAP0603-47UF" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476ME15D.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<description>&lt;b&gt;47µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
 </gates>
@@ -3713,14 +3653,10 @@ Source: &lt;a href="http://componentsearchengine.com/Datasheets/1/GRM188R60J476M
 </connects>
 <technologies>
 <technology name="">
-<attribute name="DESCRIPTION" value="Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 47uF 6.3volts X5R 20%" constant="no"/>
-<attribute name="HEIGHT" value="0.9mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Murata Electronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="GRM188R60J476ME15D" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="81-GRM188R60J476ME5D" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188R60J476ME5D" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="1726834P" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/1726834P" constant="no"/>
+<attribute name="DESCRIPTION" value="47µF ±20% 6.3V Ceramic Capacitor X5R 0603 (1608 Metric)" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-11180-2-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="AVX Corporation" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="06036D476MAT2A" constant="no"/>
 <attribute name="VDC" value="6.3V" constant="no"/>
 </technology>
 </technologies>
@@ -12221,7 +12157,7 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 <symbols>
 <symbol name="ORESAT-DEBUG-CONNECTOR">
 <pin name="GND" x="11.43" y="-27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="VBUS" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="VBUSP" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="VTARGET" x="11.43" y="22.86" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CARD-TX" x="11.43" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="CARD-RX" x="11.43" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -12270,7 +12206,7 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 <connect gate="G$1" pin="SWCLK" pad="15"/>
 <connect gate="G$1" pin="SWDIO" pad="14"/>
 <connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUS" pad="1 2"/>
+<connect gate="G$1" pin="VBUSP" pad="1 2"/>
 <connect gate="G$1" pin="VTARGET" pad="11"/>
 </connects>
 <technologies>
@@ -12295,7 +12231,7 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 <connect gate="G$1" pin="SWCLK" pad="15"/>
 <connect gate="G$1" pin="SWDIO" pad="14"/>
 <connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUS" pad="1 2"/>
+<connect gate="G$1" pin="VBUSP" pad="1 2"/>
 <connect gate="G$1" pin="VTARGET" pad="11"/>
 </connects>
 <technologies>
@@ -21136,14 +21072,13 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="C3_SamacSys_Parts" deviceset="R0603-2.7K-OHMS" device="" value="2.7k">
-<attribute name="DIS" value="Digi-Key"/>
-<attribute name="DPN" value="1276-4275-1-ND"/>
-<attribute name="MFR" value="Samsung"/>
-<attribute name="MPN" value="RC1005F6653CS"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND"/>
 </part>
 <part name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" deviceset="J-SAMTEC-TFM-120-X1-XXX-D-RA" device="">
-<attribute name="MFR" value="Samtec"/>
-<attribute name="MPN" value="TFM-120-01-L-D-RA"/>
+<attribute name="DESCRIPTION" value="Connector Header Through Hole, Right Angle 40 position 0.050&quot; (1.27mm)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="SAM10145-ND"/>
+<attribute name="MANUFACTURER" value="Samtec"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TFM-120-01-L-D-RA"/>
 </part>
 <part name="GND14" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="CM1" library="J-Molex-SMPM-73300-003X" deviceset="J-MOLEX-SMPM-73300-003X" device="">
@@ -21601,16 +21536,41 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="C59" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p"/>
 <part name="GND89" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND90" library="oresat-supplies" deviceset="GND-U" device=""/>
-<part name="R38" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="150"/>
-<part name="C60" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n"/>
-<part name="C61" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n"/>
+<part name="R38" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="150">
+<attribute name="DESCRIPTION" value="150 Ohms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-150LRCT-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RC0402FR-07150RL"/>
+</part>
+<part name="C60" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n">
+<attribute name="DESCRIPTION" value="1000pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1635-1-ND"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C102JB5NNNC"/>
+</part>
+<part name="C61" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n">
+<attribute name="DESCRIPTION" value="1000pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1635-1-ND"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CL05C102JB5NNNC"/>
+</part>
 <part name="X4" library="X-Taitien-TY-TCXO" deviceset="TAITIEN-TY" device="">
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
 <part name="C62" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p"/>
 <part name="C63" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p"/>
-<part name="L12" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n"/>
-<part name="L13" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n"/>
+<part name="L12" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+</part>
+<part name="L13" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+</part>
 <part name="C64" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="22p"/>
 <part name="C65" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="22p"/>
 <part name="GND94" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -22046,10 +22006,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="3V-2" library="oresat-supplies" deviceset="2.5V-L" device=""/>
 <part name="U18" library="U-RF360-B8666-GPS-diplexer" deviceset="B8666" device="">
-<attribute name="DESCRIPTION" value="Diplexer, GPS SAW extractor
-"/>
-<attribute name="DIGIKEY_PART_NUMBER" value="B39162B8666L210CT-ND
-"/>
+<attribute name="DESCRIPTION" value="Diplexer, GPS SAW extractor "/>
+<attribute name="DIGIKEY_PART_NUMBER" value="B39162B8666L210CT-ND "/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="MANUFACTURER_NAME" value="RF360 "/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="B39162B8666L210"/>
@@ -22061,8 +22019,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="DESCRIPTION" value="Filter, thin-film 0805, 1220 - 1420 MHz"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="478-12187-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
-<attribute name="MANUFACTURER_NAME" value="AVX Corp
-"/>
+<attribute name="MANUFACTURER_NAME" value="AVX Corp "/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BP0805A1308ASTR"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -22104,8 +22061,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="L18" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="22n">
-<attribute name="DESCRIPTION" value="L - 0603, 27n, 440mA, 210mohm, +/-2%
-"/>
+<attribute name="DESCRIPTION" value="L - 0603, 27n, 440mA, 210mohm, +/-2% "/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-6879-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="0"/>
@@ -22123,8 +22079,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="L19" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="22n">
-<attribute name="DESCRIPTION" value="L - 0603, 27n, 440mA, 210mohm, +/-2%
-"/>
+<attribute name="DESCRIPTION" value="L - 0603, 27n, 440mA, 210mohm, +/-2% "/>
 <attribute name="DIGIKEY_PART_NUMBER" value="490-6879-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="0"/>
@@ -22168,8 +22123,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="DESCRIPTION" value="Filter, thin-film 0805, 1220 - 1420 MHz"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="478-12187-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
-<attribute name="MANUFACTURER_NAME" value="AVX Corp
-"/>
+<attribute name="MANUFACTURER_NAME" value="AVX Corp "/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BP0805A1308ASTR"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -22183,9 +22137,25 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="SYNC-U" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
 <part name="U14" library="U-TI-LP2985AIM5-1.8_NOPB-1.8V-Fixed-LDO" deviceset="LP2985AIM5-1.8_NOPB" device=""/>
 <part name="C72" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10n"/>
-<part name="C73" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2"/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2"/>
+<part name="C73" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1859-2-ND"/>
+<attribute name="MANUFACTURER" value="CL10A105KA8NFNC"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="Samsung Electro-Mechanics"/>
+<attribute name="VDC" value="25V"/>
+</part>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2">
+<attribute name="DESCRIPTION" value="Connector Header Through Hole 12 position 0.100&quot; (2.54mm)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5297-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61301221121"/>
+</part>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X6" device="" package3d_urn="urn:adsk.eagle:package:22474/2">
+<attribute name="DESCRIPTION" value="Connector Header Through Hole 12 position 0.100&quot; (2.54mm)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="732-5297-ND"/>
+<attribute name="MANUFACTURER" value="Würth Elektronik"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="61301221121"/>
+</part>
 <part name="DEBUG-0" library="oresat-misc" deviceset="TEST-POINT-SMALL" device=""/>
 <part name="DEBUG-1" library="oresat-misc" deviceset="TEST-POINT-SMALL" device=""/>
 <part name="DEBUG-2" library="oresat-misc" deviceset="TEST-POINT-SMALL" device=""/>
@@ -22220,8 +22190,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="DESCRIPTION" value="Filter, thin-film 0805, 1220 - 1420 MHz"/>
 <attribute name="DIGIKEY_PART_NUMBER" value="478-12187-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
-<attribute name="MANUFACTURER_NAME" value="AVX Corp
-"/>
+<attribute name="MANUFACTURER_NAME" value="AVX Corp "/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BP0805A1308ASTR"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -22259,8 +22228,18 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="2.5V-U1" library="oresat-supplies" deviceset="2.5V-U" device=""/>
 <part name="U25" library="U-Qorvo-QPC1022-RF-SPDT-switch" deviceset="QPC1022" device=""/>
 <part name="C97" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100n"/>
-<part name="C98" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100p"/>
-<part name="C99" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100p"/>
+<part name="C98" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100p">
+<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101"/>
+</part>
+<part name="C99" library="rcl_custom" deviceset="C-EU" device="0402-B-NOSILK" value="100p">
+<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101"/>
+</part>
 <part name="R52" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5,6k"/>
 <part name="R53" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k"/>
 <part name="C100" library="rcl_custom" deviceset="C-EU" device="0805-B-NOSILK" value="1u"/>
@@ -22274,17 +22253,48 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND-U15" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U16" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U17" library="oresat-supplies" deviceset="GND-U" device=""/>
-<part name="C102" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100p"/>
-<part name="C103" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u"/>
+<part name="C102" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100p">
+<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101"/>
+</part>
+<part name="C103" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
+<attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1859-2-ND"/>
+<attribute name="MANUFACTURER" value="CL10A105KA8NFNC"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="Samsung Electro-Mechanics"/>
+<attribute name="VDC" value="25V"/>
+</part>
 <part name="C104" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="47n"/>
-<part name="C105" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100p"/>
-<part name="L23" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n"/>
+<part name="C105" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100p">
+<attribute name="DESCRIPTION" value="100pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="311-3329-1-ND"/>
+<attribute name="MANUFACTURER" value="Yageo"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CC0402FRNPO9BN101"/>
+</part>
+<part name="L23" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+</part>
 <part name="R57" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="39"/>
 <part name="Q9" library="Q-Infineon-BFPXXX-RF-BJT" deviceset="BFPXXXF" device="" value="BFPXXXF"/>
 <part name="R58" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="22k"/>
 <part name="R59" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="27"/>
-<part name="L24" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n"/>
-<part name="C106" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="560p"/>
+<part name="L24" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="91n">
+<attribute name="DESCRIPTION" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER_PART_NUMBER" value=""/>
+</part>
+<part name="C106" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="560p">
+<attribute name="DESCRIPTION" value="560pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="399-14462-1-ND"/>
+<attribute name="MANUFACTURER" value="KEMET"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="C0402C561J3GAC7867"/>
+</part>
 <part name="Q10" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="PMOS"/>
 <part name="2.5V-U3" library="oresat-supplies" deviceset="2.5V-U" device=""/>
 <part name="TP3" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
@@ -22316,7 +22326,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
 <attribute name="PROD_ID" value=""/>
 </part>
-<part name="R21" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="1.5k"/>
+<part name="R21" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="2.7k"/>
 <part name="GND10" library="oresat-supplies" deviceset="GND" device=""/>
 <part name="UHF_3.3V5" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="GND-U4" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -22327,20 +22337,38 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="DIGIKEY_PART_NUMBER" value="RMCF0603JG100KTR-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER_NAME" value=""/>
 <attribute name="MANUFACTURER_PART_NUMBER" value=""/>
-<attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="R37" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
 <part name="R41" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
 <part name="R42" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
-<part name="R34" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="0"/>
+<part name="R34" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="0">
+<attribute name="DESCRIPTION" value="0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0402ZT0R00CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402ZT0R00"/>
+</part>
 <part name="TP2" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
-<part name="R66" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="0"/>
-<part name="R69" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="0"/>
+<part name="R66" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="0">
+<attribute name="DESCRIPTION" value="0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0402ZT0R00CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402ZT0R00"/>
+</part>
+<part name="R69" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="0">
+<attribute name="DESCRIPTION" value="0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0402ZT0R00CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402ZT0R00"/>
+</part>
 <part name="TP5" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="TP6" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
-<part name="R70" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="0"/>
+<part name="R70" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="0">
+<attribute name="DESCRIPTION" value="0 Ohms Jumper 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0402ZT0R00CT-ND"/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402ZT0R00"/>
+</part>
 <part name="TP7" library="oresat-misc" deviceset="TEST-POINT_SMD" device="-SMD-10SN" package3d_urn="urn:adsk.eagle:package:15662280/2"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND98" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -22503,8 +22531,10 @@ All caps are 0603 and 10V DC or greater</text>
 <instance part="J6" gate="G$1" x="53.34" y="162.56" smashed="yes" rot="MR0">
 <attribute name="NAME" x="59.69" y="213.995" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="46.99" y="107.95" size="1.778" layer="96" rot="MR180"/>
-<attribute name="MFR" x="53.34" y="162.56" size="2.54" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="53.34" y="162.56" size="2.54" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="53.34" y="162.56" size="2.54" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="53.34" y="162.56" size="2.54" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="53.34" y="162.56" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="53.34" y="162.56" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND14" gate="G$1" x="342.9" y="162.56" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="340.36" y="160.02" size="1.778" layer="96"/>
@@ -22665,7 +22695,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="63.5" y1="154.94" x2="88.9" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="VBUS"/>
+<pinref part="J5" gate="G$1" pin="VBUSP"/>
 <wire x1="201.93" y1="185.42" x2="213.36" y2="185.42" width="0.1524" layer="91"/>
 <label x="213.36" y="185.42" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -23090,7 +23120,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MFR" x="160.02" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="160.02" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="158.75" y="218.44" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="163.83" y="218.948" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R10" gate="G$1" x="160.02" y="208.28" smashed="yes" rot="R90">
 <attribute name="DIS" x="160.02" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
@@ -23120,7 +23149,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MFR" x="35.56" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="35.56" y="218.44" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="33.02" y="215.9" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="39.37" y="213.36" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND26" gate="1" x="35.56" y="198.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="38.1" y="195.58" size="1.778" layer="96" rot="MR0"/>
@@ -23149,7 +23177,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MFR" x="35.56" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="35.56" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="33.02" y="228.6" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="39.116" y="227.076" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND3" gate="1" x="25.4" y="198.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="27.94" y="195.58" size="1.778" layer="96" rot="MR0"/>
@@ -23160,7 +23187,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MFR" x="73.66" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="73.66" y="210.82" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="72.39" y="205.74" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="77.47" y="205.74" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND44" gate="1" x="73.66" y="198.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="76.2" y="195.58" size="1.778" layer="96" rot="MR0"/>
@@ -23178,23 +23204,23 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="26.924" y="228.981" size="1.778" layer="96"/>
 <attribute name="VDC" x="26.924" y="226.568" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TESTPOINTS TP"/>
-<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TP TESTPOINTS"/>
+<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="217.17" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="164.592" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="201.93" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="222.25" y="234.95" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="345.44" y="205.74" smashed="yes" rot="MR0">
@@ -23206,7 +23232,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MFR" x="312.42" y="248.92" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="312.42" y="248.92" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="311.15" y="243.84" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="315.214" y="244.856" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R36" gate="G$1" x="360.68" y="215.9" smashed="yes" rot="MR90">
 <attribute name="DIS" x="360.68" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -23214,7 +23239,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MFR" x="360.68" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MPN" x="360.68" y="215.9" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="358.14" y="210.82" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="363.22" y="210.82" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="GND36" gate="1" x="360.68" y="205.74" smashed="yes">
 <attribute name="VALUE" x="358.14" y="203.2" size="1.778" layer="96"/>
@@ -23274,19 +23298,18 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MFR" x="320.04" y="248.92" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="320.04" y="248.92" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="318.516" y="244.094" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="323.342" y="244.348" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U1" gate="A" x="345.44" y="231.14" smashed="yes">
 <attribute name="NAME" x="332.5876" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="330.1746" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="295.91" y="222.25" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="295.91" y="229.87" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="387.35" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="66.04" smashed="yes">
@@ -23310,7 +23333,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 </instance>
 <instance part="R64" gate="G$1" x="78.74" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.2414" y="52.07" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="82.042" y="52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND138" gate="1" x="78.74" y="45.72" smashed="yes">
 <attribute name="VALUE" x="76.2" y="43.18" size="1.778" layer="96"/>
@@ -23344,7 +23366,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="136.144" y="61.341" size="1.778" layer="96"/>
 <attribute name="VDC" x="136.144" y="58.928" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="204.47" y="59.69" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="66.04" smashed="yes">
@@ -23357,7 +23379,6 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 </instance>
 <instance part="R68" gate="G$1" x="147.32" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.8214" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="150.622" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND143" gate="1" x="147.32" y="38.1" smashed="yes">
 <attribute name="VALUE" x="144.78" y="35.56" size="1.778" layer="96"/>
@@ -23500,15 +23521,12 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 </instance>
 <instance part="R37" gate="G$1" x="30.48" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.9814" y="143.51" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="33.782" y="143.51" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R41" gate="G$1" x="347.98" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="346.4814" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="351.282" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R42" gate="G$1" x="264.16" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="262.6614" y="64.77" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="267.462" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND6" gate="1" x="170.18" y="198.12" smashed="yes">
 <attribute name="VALUE" x="167.64" y="195.58" size="1.778" layer="96"/>
@@ -25357,6 +25375,10 @@ Diplexer</text>
 <instance part="JP2" gate="A" x="180.34" y="109.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="172.72" y="119.38" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="186.69" y="96.52" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="180.34" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="180.34" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="180.34" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="180.34" y="109.22" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="3.3V1" gate="G$1" x="213.36" y="78.74" smashed="yes">
 <attribute name="VALUE" x="213.36" y="78.74" size="1.778" layer="96" align="bottom-center"/>
@@ -25418,10 +25440,7 @@ Diplexer</text>
 </instance>
 <instance part="R35" gate="G$1" x="213.36" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="211.8614" y="62.23" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="216.662" y="62.23" size="1.778" layer="96" rot="R90"/>
-<attribute name="MOUSER_PART_NUMBER" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_NAME" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGIKEY_PART_NUMBER" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
@@ -26708,14 +26727,26 @@ will be a congtrol signal from the MCU to
 <instance part="R38" gate="R" x="-101.6" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="-103.0986" y="80.01" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-98.298" y="80.01" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C60" gate="CE" x="-101.6" y="73.66" smashed="yes">
 <attribute name="NAME" x="-100.076" y="74.041" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-100.076" y="68.961" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-101.6" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C61" gate="CE" x="-91.44" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="-91.821" y="87.884" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-86.741" y="87.884" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-91.44" y="86.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="X4" gate="G$1" x="-35.56" y="109.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-36.83" y="99.06" size="1.778" layer="95"/>
@@ -26732,10 +26763,18 @@ will be a congtrol signal from the MCU to
 <instance part="L12" gate="L" x="-170.18" y="137.16" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-167.64" y="130.81" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="-167.64" y="139.7" size="1.778" layer="96" rot="MR270" align="top-left"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" x="-170.18" y="137.16" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="L13" gate="L" x="-165.1" y="91.44" smashed="yes" rot="MR90">
 <attribute name="NAME" x="-162.56" y="85.09" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="-162.56" y="93.98" size="1.778" layer="96" rot="MR270" align="top-left"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" x="-165.1" y="91.44" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="C64" gate="CE" x="-208.28" y="127" smashed="yes" rot="R90">
 <attribute name="NAME" x="-208.661" y="129.794" size="1.778" layer="95" rot="R90"/>
@@ -26792,10 +26831,19 @@ will be a congtrol signal from the MCU to
 <instance part="C73" gate="CE" x="-33.02" y="132.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-34.544" y="132.461" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-34.544" y="127.381" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="VDC" x="-33.02" y="132.08" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="JP1" gate="A" x="-76.2" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="-69.85" y="160.655" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="-69.85" y="139.7" size="1.778" layer="96" rot="MR0"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-76.2" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="-76.2" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-76.2" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="-76.2" y="152.4" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND20" gate="1" x="-121.92" y="139.7" smashed="yes">
 <attribute name="VALUE" x="-124.46" y="137.16" size="1.778" layer="96"/>
@@ -26850,10 +26898,18 @@ will be a congtrol signal from the MCU to
 <instance part="C98" gate="CE" x="-330.2" y="304.8" smashed="yes">
 <attribute name="NAME" x="-328.676" y="305.181" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-328.676" y="300.101" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-330.2" y="304.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C99" gate="CE" x="-312.42" y="284.48" smashed="yes">
 <attribute name="NAME" x="-310.896" y="284.861" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-310.896" y="279.781" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R52" gate="R" x="-337.82" y="309.88" smashed="yes">
 <attribute name="NAME" x="-341.63" y="311.3786" size="1.778" layer="95"/>
@@ -26902,10 +26958,19 @@ will be a congtrol signal from the MCU to
 <instance part="C102" gate="CE" x="-86.36" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-86.741" y="245.364" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-81.661" y="245.364" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-86.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C103" gate="CE" x="-86.36" y="276.86" smashed="yes">
 <attribute name="NAME" x="-84.836" y="277.241" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-84.836" y="272.161" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="-86.36" y="276.86" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C104" gate="CE" x="-96.52" y="276.86" smashed="yes">
 <attribute name="NAME" x="-94.996" y="277.241" size="1.778" layer="95"/>
@@ -26914,10 +26979,18 @@ will be a congtrol signal from the MCU to
 <instance part="C105" gate="CE" x="-154.94" y="236.22" smashed="yes" rot="R90">
 <attribute name="NAME" x="-155.321" y="237.744" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="-151.003" y="237.744" size="1.778" layer="96" rot="R90"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-154.94" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L23" gate="L" x="-142.24" y="243.84" smashed="yes" rot="R90">
 <attribute name="NAME" x="-138.43" y="242.57" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-144.272" y="242.57" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R57" gate="R" x="-106.68" y="271.78" smashed="yes" rot="R90">
 <attribute name="NAME" x="-108.1786" y="267.97" size="1.778" layer="95" rot="R90"/>
@@ -26938,10 +27011,18 @@ will be a congtrol signal from the MCU to
 <instance part="L24" gate="L" x="-106.68" y="248.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="-110.49" y="250.19" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-104.648" y="248.92" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" x="-106.68" y="248.92" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="C106" gate="CE" x="-99.06" y="259.08" smashed="yes">
 <attribute name="NAME" x="-97.536" y="259.461" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-97.536" y="254.381" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-99.06" y="259.08" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="Q10" gate="G$1" x="-116.84" y="299.72" smashed="yes">
 <attribute name="NAME" x="-114.3" y="299.72" size="1.778" layer="95"/>
@@ -27039,11 +27120,14 @@ will be a congtrol signal from the MCU to
 </instance>
 <instance part="R13" gate="G$1" x="-25.4" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="-26.8986" y="125.73" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-22.098" y="125.73" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R34" gate="R" x="-299.72" y="269.24" smashed="yes">
 <attribute name="NAME" x="-298.45" y="267.97" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-304.8" y="271.526" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-299.72" y="269.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-299.72" y="269.24" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-299.72" y="269.24" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-299.72" y="269.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP2" gate="G$1" x="-327.66" y="243.84" smashed="yes">
 <attribute name="NAME" x="-329.565" y="245.4275" size="1.778" layer="95"/>
@@ -27051,10 +27135,18 @@ will be a congtrol signal from the MCU to
 <instance part="R66" gate="R" x="-170.18" y="236.22" smashed="yes">
 <attribute name="NAME" x="-171.45" y="232.41" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-173.228" y="240.03" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-170.18" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-170.18" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-170.18" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-170.18" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R69" gate="R" x="-60.96" y="243.84" smashed="yes">
 <attribute name="NAME" x="-62.23" y="242.57" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-62.992" y="247.65" size="1.778" layer="96" rot="R180"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-60.96" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-60.96" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-60.96" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-60.96" y="243.84" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP5" gate="G$1" x="-139.7" y="226.06" smashed="yes">
 <attribute name="NAME" x="-141.605" y="227.6475" size="1.778" layer="95"/>
@@ -27065,6 +27157,10 @@ will be a congtrol signal from the MCU to
 <instance part="R70" gate="R" x="-220.98" y="127" smashed="yes">
 <attribute name="NAME" x="-219.71" y="125.73" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-224.028" y="128.27" size="1.778" layer="96"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-220.98" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-220.98" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-220.98" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-220.98" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP7" gate="G$1" x="-177.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="-179.705" y="85.4075" size="1.778" layer="95"/>
@@ -27940,7 +28036,6 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="MFR" x="119.38" y="129.54" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="MPN" x="119.38" y="129.54" size="1.778" layer="96" rot="MR90" display="off"/>
 <attribute name="NAME" x="120.8786" y="125.73" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="116.078" y="125.73" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="213.36" y="193.04" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="213.36" y="195.834" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
@@ -27956,12 +28051,9 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="VALUE" x="297.18" y="210.82" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R3" gate="G$1" x="294.64" y="228.6" smashed="yes" rot="R90">
-<attribute name="DIS" x="294.64" y="228.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DPN" x="294.64" y="228.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MFR" x="294.64" y="228.6" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MPN" x="294.64" y="228.6" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="296.1386" y="227.33" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="290.83" y="224.79" size="1.778" layer="96" rot="MR90"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="294.64" y="228.6" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
 <instance part="FRAME2" gate="G$2" x="325.12" y="0" smashed="yes">
@@ -27971,7 +28063,6 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R24" gate="G$1" x="269.24" y="170.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="273.05" y="171.6786" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="273.05" y="166.878" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C6" gate="G$1" x="101.6" y="60.96" smashed="yes" rot="MR90">
 <attribute name="DIS" x="101.6" y="60.96" size="1.778" layer="96" rot="MR90" display="off"/>
@@ -27999,11 +28090,9 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R8" gate="G$1" x="375.92" y="157.48" smashed="yes" rot="MR270">
 <attribute name="NAME" x="374.4214" y="161.29" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="379.222" y="161.29" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="R11" gate="G$1" x="383.54" y="157.48" smashed="yes" rot="MR270">
 <attribute name="NAME" x="382.0414" y="161.29" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="386.842" y="161.29" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="C2" gate="G$1" x="195.58" y="182.88" smashed="yes" rot="R180">
 <attribute name="DIS" x="195.58" y="182.88" size="1.778" layer="96" rot="R180" display="off"/>
@@ -28047,7 +28136,6 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R20" gate="G$1" x="269.24" y="190.5" smashed="yes" rot="MR0">
 <attribute name="NAME" x="273.05" y="191.9986" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="273.05" y="187.198" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C14" gate="G$1" x="165.1" y="175.26" smashed="yes">
 <attribute name="DIS" x="165.1" y="175.26" size="1.778" layer="96" display="off"/>
@@ -28145,7 +28233,6 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R18" gate="G$1" x="396.24" y="144.78" smashed="yes">
 <attribute name="NAME" x="392.43" y="146.2786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="392.43" y="141.478" size="1.778" layer="96"/>
 </instance>
 <instance part="D11" gate="G$1" x="375.92" y="129.54" smashed="yes">
 <attribute name="NAME" x="373.38" y="139.7" size="1.778" layer="95"/>
@@ -28155,39 +28242,38 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R23" gate="G$1" x="396.24" y="154.94" smashed="yes">
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="392.43" y="151.638" size="1.778" layer="96"/>
 </instance>
-<instance part="WDT" gate="G$1" x="287.02" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="WDT" gate="G$1" x="287.02" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="285.75" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="273.05" y="57.15" size="1.778" layer="95"/>
 </instance>
-<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="420.37" y="62.23" size="1.778" layer="95"/>
 </instance>
-<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="128.27" y="123.19" size="1.778" layer="95"/>
 </instance>
 <instance part="BOOT0" gate="G$1" x="129.54" y="137.16" smashed="yes" grouprefs="TP">
 <attribute name="NAME" x="128.27" y="138.43" size="1.778" layer="95"/>
 </instance>
-<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="143.51" size="1.778" layer="95"/>
 </instance>
-<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="128.27" y="85.09" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="77.47" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="69.85" size="1.778" layer="95"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="156.21" y="62.23" size="1.778" layer="95"/>
 </instance>
 <instance part="VBUS2" gate="1" x="73.66" y="223.52" smashed="yes">
@@ -28308,7 +28394,6 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R19" gate="G$1" x="304.8" y="259.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="303.3014" y="255.27" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="308.102" y="255.27" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q6" gate="A" x="401.32" y="233.68" smashed="yes">
 <attribute name="VALUE" x="389.89" y="233.68" size="1.778" layer="96"/>
@@ -28326,18 +28411,15 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R22" gate="G$1" x="381" y="259.08" smashed="yes" rot="R90">
 <attribute name="NAME" x="379.5014" y="255.27" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="384.302" y="255.27" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND53" gate="1" x="393.7" y="213.36" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="396.24" y="210.82" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R44" gate="G$1" x="370.84" y="248.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="369.3414" y="245.11" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="374.142" y="245.11" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R45" gate="G$1" x="393.7" y="226.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="392.2014" y="222.25" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="397.002" y="222.25" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="370.84" y="266.7" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="370.84" y="266.7" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
