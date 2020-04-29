@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20948,8 +20948,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="TYKTBLSANF-16.000000"/>
 </part>
 <part name="U2" library="U-TI-TCAN330-CAN-transceiver" deviceset="TCAN330" device="">
-<attribute name="MFR" value="Texas Instruments"/>
-<attribute name="MPN" value="TCAN330GDCNT"/>
+<attribute name="DESCRIPTION" value="CANBUS TRANSCEIVER 1/1 SOT23-8"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="296-44211-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TCAN330GDCNT"/>
 </part>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R17" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
@@ -21011,8 +21014,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="U5" library="U-TI-TPS6211x-SPS-buck" deviceset="TPS6211X" device="" value="TPS62111RSA">
-<attribute name="MFR" value="TI"/>
-<attribute name="MPN" value="TPS62111RSA"/>
+<attribute name="DESCRIPTION" value="IC REG BUCK 3.3V 1.5A 16QFN"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="296-20670-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS62111RSAT"/>
 </part>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C7" library="C3_SamacSys_Parts" deviceset="CAP0603-10UF-25VDC" device="" value="10u"/>
@@ -21056,8 +21062,11 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U3" library="U-TI-TCAN330-CAN-transceiver" deviceset="TCAN330" device="">
-<attribute name="MFR" value="Texas Instruments"/>
-<attribute name="MPN" value="TCAN330GDCNT"/>
+<attribute name="DESCRIPTION" value="CANBUS TRANSCEIVER 1/1 SOT23-8"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="296-44211-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TCAN330GDCNT"/>
 </part>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R5" library="C3_SamacSys_Parts" deviceset="R0603-31.6K-OHMS" device="" value="31.6k"/>
@@ -21078,8 +21087,18 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="R16" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
 <part name="U7" library="U-ST-STM32F446RE-uC" deviceset="STM32F446RE" device=""/>
 <part name="R20" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
-<part name="U4" library="U-TI-TPS2596XX-eFuse" deviceset="TPS2596XX" device="" value="TPS259621"/>
-<part name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" deviceset="MAX892LEUA+T" device="21-0036K-L"/>
+<part name="U4" library="U-TI-TPS2596XX-eFuse" deviceset="TPS2596XX" device="" value="TPS259621">
+<attribute name="DESCRIPTION" value="E-FUSE 2.7-19V 130MA-2A SURGE CLAMPING"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="296-TPS259621DDATCT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS259621DDAT"/>
+</part>
+<part name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" deviceset="MAX892LEUA+T" device="21-0036K-L">
+<attribute name="DESCRIPTION" value="High-Side P-Channel Current Limmiting Switch With Thermal Shutdown"/>
+<attribute name="MANUFACTURER" value="Maxim"/>
+<attribute name="MOUSER_PART_NUMBER" value="700-MAX892LEUAT"/>
+</part>
 <part name="C1" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF-25VDC" device="" value="1u">
 <attribute name="VDC" value="25V"/>
 </part>
@@ -21123,10 +21142,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND67" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C42" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p">
 <attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1729-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C8R2CB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21144,10 +21163,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C43" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p">
 <attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1729-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C8R2CB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21183,7 +21202,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C46" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p">
 <attribute name="DESCRIPTION" value="C - 0402, 82p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1726-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
 <attribute name="MANUFACTURER" value=""/>
@@ -21192,7 +21211,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C47" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p">
 <attribute name="DESCRIPTION" value="C - 0402, 82p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1726-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
 <attribute name="MANUFACTURER" value=""/>
@@ -21243,7 +21262,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C52" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u">
 <attribute name="DESCRIPTION" value="C - 0603, 4.7u, X5R, 16V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1784-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
 <attribute name="MANUFACTURER" value=""/>
@@ -21268,7 +21287,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C55" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u">
 <attribute name="DESCRIPTION" value="C - 0603, 4.7u, X5R, 16V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1784-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
 <attribute name="MANUFACTURER" value=""/>
@@ -21277,7 +21296,6 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="GND84" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="U12" library="U-TI-LP2985AIM5-1.8_NOPB-1.8V-Fixed-LDO" deviceset="LP2985AIM5-1.8_NOPB" device="">
-<attribute name="DESCRIPTION" value=""/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="LP2985AIM5-1.8/NOPBCT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="MANUFACTURER_NAME" value=""/>
@@ -21307,10 +21325,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C58" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p">
 <attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1729-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C8R2CB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21328,10 +21346,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C59" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="8.2p">
 <attribute name="DESCRIPTION" value="C - 0402 8.2p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1729-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C8R2CB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21364,19 +21382,19 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C62" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p">
 <attribute name="DESCRIPTION" value="C - 0402, 82p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1726-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C820JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="C63" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="82p">
 <attribute name="DESCRIPTION" value="C - 0402, 82p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1726-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C820JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21430,10 +21448,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C68" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u">
 <attribute name="DESCRIPTION" value="C - 0603, 4.7u, X5R, 16V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1784-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A475KO8NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21454,10 +21472,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C71" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="4.7u">
 <attribute name="DESCRIPTION" value="C - 0603, 4.7u, X5R, 16V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1784-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="6"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A475KO8NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21468,7 +21486,13 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="2-1734592-0"/>
 </part>
-<part name="D11" library="D-TI-SN65220-Pair-SOT23-6" deviceset="SN65220" device=""/>
+<part name="D11" library="D-TI-SN65220-Pair-SOT23-6" deviceset="SN65220" device="">
+<attribute name="DESCRIPTION" value="DUAL TVS USB TRANSIENT SUPP SOT23-6"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="296-35921-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="SN65220DBVRG4"/>
+</part>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R23" library="C3_SamacSys_Parts" deviceset="R0603-10-OHMS" device="" value="10"/>
 <part name="WDT" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE">
@@ -21522,10 +21546,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C38" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="560p">
 <attribute name="DESCRIPTION" value="C - 0402, 560p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1709-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="96"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C561JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21593,39 +21617,39 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="GND133" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="R26" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="47k">
-<attribute name="DESCRIPTION" value="R - 0402, 47k, 1%, 100ppm"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="RES 47K OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT47K0CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="83"/>
 <attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT47K0"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="R28" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="47k">
-<attribute name="DESCRIPTION" value="R - 0402, 47k, 1%, 100ppm"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="RES 47K OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT47K0CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="83"/>
 <attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT47K0"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="R29" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="47k">
-<attribute name="DESCRIPTION" value="R - 0402, 47k, 1%, 100ppm"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="RES 47K OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT47K0CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="83"/>
 <attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT47K0"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="R30" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="47k">
-<attribute name="DESCRIPTION" value="R - 0402, 47k, 1%, 100ppm"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="RES 47K OHM 1% 1/10W 0603"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT47K0CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="83"/>
 <attribute name="MANUFACTURER" value=""/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0402FT47K0‎"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT47K0"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
 <part name="+3V1" library="oresat-supplies" deviceset="3.3V" device=""/>
@@ -21659,10 +21683,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C31" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="3p">
 <attribute name="DESCRIPTION" value="C - 0402, 3p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1598-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="0"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C030CB5NNNC "/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21729,8 +21753,20 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MFR" value="Nexperia"/>
 <attribute name="MPN" value="PMV45EN2R"/>
 </part>
-<part name="U26" library="U-TI-TPS6211x-SPS-buck" deviceset="TPS6211X" device="" value="TPS62112"/>
-<part name="U27" library="U-TI-TPS2596XX-eFuse" deviceset="TPS2596XX" device="" value="TPS259620"/>
+<part name="U26" library="U-TI-TPS6211x-SPS-buck" deviceset="TPS6211X" device="" value="TPS62112">
+<attribute name="DESCRIPTION" value="IC REG BUCK 5V 1.5A 16QFN"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="296-39444-1-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS62112RSAR"/>
+</part>
+<part name="U27" library="U-TI-TPS2596XX-eFuse" deviceset="TPS2596XX" device="" value="TPS259620">
+<attribute name="DESCRIPTION" value="E-FUSE 2.7-19V 130MA-2A SURGE CLAMPING"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="296-TPS259620DDATCT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER" value="Texas Instruments"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS259620DDAT"/>
+</part>
 <part name="C87" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF-25VDC" device="" value="1u"/>
 <part name="GND135" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND136" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -21847,10 +21883,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="R48" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="45.3k">
 <attribute name="DESCRIPTION" value="R - 0603, 45.3k, 1%, 100ppm"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT45K3CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="9"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT45K3"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -21886,7 +21922,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="3V-2" library="oresat-supplies" deviceset="2.5V-L" device=""/>
 <part name="U18" library="U-RF360-B8666-GPS-diplexer" deviceset="B8666" device="">
 <attribute name="DESCRIPTION" value="Diplexer, GPS SAW extractor "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="B39162B8666L210CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="MANUFACTURER_NAME" value="RF360 "/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="B39162B8666L210"/>
@@ -21896,7 +21932,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND63" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="U19" library="U-AVX-BP0805-BPF" deviceset="BP0805A1308" device="">
 <attribute name="DESCRIPTION" value="Filter, thin-film 0805, 1220 - 1420 MHz"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-12187-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="MANUFACTURER_NAME" value="AVX Corp "/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BP0805A1308ASTR"/>
@@ -21965,8 +22001,8 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="VDC" value="50V"/>
 </part>
 <part name="U20" library="U-Infineon-BGB7xxL7ESD-LNA" deviceset="BGB7XXL7ESD" device="">
-<attribute name="DESCRIPTION" value="LNA, general purpose"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DESCRIPTION" value="LNA CELL 50MHZ-3.5GHZ TSLP7-1"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="BGB741L7ESDE6327XTSA1CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="MANUFACTURER_NAME" value="Infineon"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BGB741L7ESDE6327XTSA1‎"/>
@@ -21983,7 +22019,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND64" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="U21" library="U-AVX-BP0805-BPF" deviceset="BP0805A1308" device="">
 <attribute name="DESCRIPTION" value="Filter, thin-film 0805, 1220 - 1420 MHz"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-12187-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="MANUFACTURER_NAME" value="AVX Corp "/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BP0805A1308ASTR"/>
@@ -22068,7 +22104,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND83" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U17" library="U-AVX-BP0805-BPF" deviceset="BP0805A1308" device="">
 <attribute name="DESCRIPTION" value="Filter, thin-film 0805, 1220 - 1420 MHz"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="478-12187-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="MANUFACTURER_NAME" value="AVX Corp "/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="BP0805A1308ASTR"/>
@@ -22121,16 +22157,16 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="R52" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5.6k">
 <attribute name="DESCRIPTION" value="RES 5.6K OHM 1% 1/10W 0603"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT5K60CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT5K60"/>
 </part>
 <part name="R53" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k">
 <attribute name="DESCRIPTION" value="RES 6.8K OHM 1% 1/10W 0603"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT6K80CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT6K80"/>
 </part>
 <part name="C100" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
@@ -22142,16 +22178,16 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="R54" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="6.8k">
 <attribute name="DESCRIPTION" value="RES 6.8K OHM 1% 1/10W 0603"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT6K80CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT6K80"/>
 </part>
 <part name="R55" library="rcl_custom" deviceset="R-US_" device="0603-B-NOSILK" value="5.6k">
 <attribute name="DESCRIPTION" value="RES 5.6K OHM 1% 1/10W 0603"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT5K60CT-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Stackpole Electronics Inc"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT5K60"/>
 </part>
 <part name="3.3V-U2" library="oresat-supplies" deviceset="3.3V-U" device=""/>
@@ -22233,14 +22269,20 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C106" library="oresat-rcl" deviceset="C-EU" device="0402-B-NOSILK" value="560p">
 <attribute name="DESCRIPTION" value="C - 0402, 560p, C0G, 50V"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1709-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value="96"/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C561JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
-<part name="Q10" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="PMOS"/>
+<part name="Q10" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="PMOS">
+<attribute name="DESCRIPTION" value="MOSFET P-CH 50V 130MA SOT-23"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="BSS84CT-ND"/>
+<attribute name="DISTRIBUTOR" value="Digikey"/>
+<attribute name="MANUFACTURER" value="ON Semiconductor"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BSS84"/>
+</part>
 <part name="2.5V-U3" library="oresat-supplies" deviceset="2.5V-U" device=""/>
 <part name="TP3" library="oresat-misc" deviceset="TEST-POINT-LARGE" device=""/>
 <part name="GND-U10" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -22267,10 +22309,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C96" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
 <attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1670-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -22283,10 +22325,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C107" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
 <attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1670-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -22319,10 +22361,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C108" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
 <attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1670-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -22335,10 +22377,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </part>
 <part name="C110" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="24p">
 <attribute name="DESCRIPTION" value="CAP CER 24PF 50V C0G/NP0 0402"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="1276-1670-1-ND"/>
 <attribute name="DISTRIBUTOR" value="Digikey"/>
 <attribute name="INVENTORY" value=""/>
-<attribute name="MANUFACTURER" value=""/>
+<attribute name="MANUFACTURER" value="Samsung"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC"/>
 <attribute name="MOUSER_PART_NUMBER" value=""/>
 </part>
@@ -22508,7 +22550,12 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="GND55" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND87" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND149" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U32" library="U-Maxim-MAX6374-watchdog" deviceset="MAX6374KA-T" device="21-0078H-L"/>
+<part name="U32" library="U-Maxim-MAX6374-watchdog" deviceset="MAX6374KA-T" device="21-0078H-L">
+<attribute name="DESCRIPTION" value="Pin-Selectable Watchdog Timer"/>
+<attribute name="DISTRIBUTOR" value="Mouser"/>
+<attribute name="MANUFACTURER" value="Maxim"/>
+<attribute name="MOUSER_PART_NUMBER" value="700-MAX6374KAT"/>
+</part>
 <part name="C119" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u"/>
 <part name="GND150" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C120" library="C3_SamacSys_Parts" deviceset="CAP0603-47UF" device="" value="47u"/>
@@ -23140,8 +23187,11 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="U5" gate="G$1" x="185.42" y="223.52" smashed="yes">
 <attribute name="NAME" x="175.26" y="238.76" size="1.778" layer="95"/>
 <attribute name="VALUE" x="175.26" y="236.22" size="1.778" layer="96"/>
-<attribute name="MFR" x="185.42" y="223.52" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="185.42" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="185.42" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="185.42" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="185.42" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="185.42" y="223.52" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="185.42" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND39" gate="1" x="185.42" y="198.12" smashed="yes">
 <attribute name="VALUE" x="182.88" y="195.58" size="1.778" layer="96"/>
@@ -23252,6 +23302,11 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="U4" gate="G$1" x="55.88" y="220.98" smashed="yes">
 <attribute name="NAME" x="43.18" y="241.3" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.18" y="238.76" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="55.88" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="55.88" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="55.88" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="55.88" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="55.88" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="25.4" y="233.68" smashed="yes">
 <attribute name="NAME" x="26.924" y="234.061" size="1.778" layer="95"/>
@@ -23332,6 +23387,9 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="U1" gate="A" x="345.44" y="231.14" smashed="yes">
 <attribute name="NAME" x="332.5876" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="330.1746" y="242.7986" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MOUSER_PART_NUMBER" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="222.25" size="1.778" layer="95"/>
@@ -23345,10 +23403,20 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <instance part="U26" gate="G$1" x="170.18" y="66.04" smashed="yes">
 <attribute name="NAME" x="160.02" y="81.28" size="1.778" layer="95"/>
 <attribute name="VALUE" x="160.02" y="78.74" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="170.18" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="170.18" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="170.18" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="170.18" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="170.18" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U27" gate="G$1" x="63.5" y="66.04" smashed="yes">
 <attribute name="NAME" x="53.34" y="86.36" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.34" y="83.82" size="1.778" layer="96"/>
+<attribute name="DESCRIPTION" x="63.5" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="63.5" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="63.5" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="63.5" y="66.04" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="63.5" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C87" gate="G$1" x="33.02" y="76.2" smashed="yes" rot="R180">
 <attribute name="NAME" x="31.496" y="75.819" size="1.778" layer="95" rot="R180"/>
@@ -27445,6 +27513,11 @@ will be a congtrol signal from the MCU to
 <instance part="Q10" gate="G$1" x="-116.84" y="299.72" smashed="yes">
 <attribute name="NAME" x="-114.3" y="299.72" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-114.3" y="297.18" size="1.778" layer="96"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="-116.84" y="299.72" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="-116.84" y="299.72" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="-116.84" y="299.72" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="-116.84" y="299.72" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="-116.84" y="299.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="2.5V-U3" gate="G$1" x="-116.84" y="307.34" smashed="yes">
 <attribute name="VALUE" x="-119.38" y="307.34" size="1.778" layer="96"/>
@@ -28522,8 +28595,11 @@ All caps are 0603 and 10V DC or greater</text>
 <instance part="U2" gate="G$1" x="93.98" y="99.06" smashed="yes" rot="MR0">
 <attribute name="NAME" x="90.17" y="83.82" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="90.17" y="81.28" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MFR" x="93.98" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="93.98" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="93.98" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="93.98" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="93.98" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="93.98" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DISTRIBUTOR" x="93.98" y="99.06" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="GND31" gate="1" x="119.38" y="119.38" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="121.92" y="116.84" size="1.778" layer="96" rot="MR0"/>
@@ -28576,8 +28652,11 @@ All caps are 0603 and 10V DC or greater</text>
 <instance part="U3" gate="G$1" x="91.44" y="43.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="87.63" y="27.94" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="87.63" y="25.4" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MFR" x="91.44" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MPN" x="91.44" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="91.44" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="91.44" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="91.44" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="91.44" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DISTRIBUTOR" x="91.44" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="SUPPLY12" gate="G$1" x="91.44" y="63.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="91.44" y="66.294" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
@@ -28726,6 +28805,11 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="D11" gate="G$1" x="375.92" y="129.54" smashed="yes">
 <attribute name="NAME" x="373.38" y="139.7" size="1.778" layer="95"/>
+<attribute name="DESCRIPTION" x="375.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="375.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="375.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="375.92" y="129.54" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="375.92" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="375.92" y="111.76" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="375.92" y="109.22" size="1.778" layer="96" rot="MR0"/>
@@ -29030,6 +29114,10 @@ All caps are 0603 and 10V DC or greater</text>
 <instance part="U32" gate="A" x="335.28" y="238.76" smashed="yes">
 <attribute name="NAME" x="337.4136" y="225.5266" size="2.0828" layer="95" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="337.5406" y="222.4786" size="2.0828" layer="96" ratio="6" rot="SR0"/>
+<attribute name="MOUSER_PART_NUMBER" x="335.28" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="335.28" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="335.28" y="238.76" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="335.28" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C119" gate="G$1" x="304.8" y="246.38" smashed="yes">
 <attribute name="NAME" x="306.324" y="246.761" size="1.778" layer="95"/>
