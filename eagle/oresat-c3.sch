@@ -11986,204 +11986,6 @@ Source: &lt;a href="https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_T
 </deviceset>
 </devicesets>
 </library>
-<library name="oresat-edge_connector">
-<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="TE_2-1734592-0">
-<wire x1="6.5" y1="-1.5" x2="-6.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="6.5" y1="-1.5" x2="6.5" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="-1.5" x2="-6.5" y2="1.3" width="0.127" layer="51"/>
-<wire x1="6.5" y1="1.3" x2="7.71" y2="1.3" width="0.127" layer="51"/>
-<wire x1="7.71" y1="1.3" x2="7.71" y2="2.9" width="0.127" layer="51"/>
-<wire x1="7.71" y1="2.9" x2="-7.71" y2="2.9" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="1.3" x2="-7.71" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-7.71" y1="1.3" x2="-7.71" y2="2.9" width="0.127" layer="51"/>
-<wire x1="7.71" y1="1.8" x2="7.71" y2="2.9" width="0.127" layer="21"/>
-<wire x1="7.71" y1="2.9" x2="-7.71" y2="2.9" width="0.127" layer="51"/>
-<wire x1="-7.9" y1="4.9" x2="-7.9" y2="-1.8" width="0.05" layer="39"/>
-<wire x1="-5" y1="-2.3" x2="5" y2="-2.3" width="0.05" layer="39"/>
-<wire x1="7.9" y1="-1.8" x2="7.9" y2="4.9" width="0.05" layer="39"/>
-<wire x1="7.9" y1="4.9" x2="-7.9" y2="4.9" width="0.05" layer="39"/>
-<wire x1="-7.71" y1="2.9" x2="-7.71" y2="1.8" width="0.127" layer="21"/>
-<text x="5.5" y="-2.6" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="5.5" y="-3.5" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<circle x="-4.779" y="-2.589" radius="0.1" width="0.2" layer="21"/>
-<smd name="1" x="-4.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-4.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="-3.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="-3.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="-2.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-2.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-1.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-1.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="-0.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="0.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="0.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="1.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="1.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="2.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="2.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="3.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="3.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="4.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="4.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="PAD1" x="6.42" y="0" dx="2.3" dy="3.1" layer="1" rot="R180" cream="no"/>
-<smd name="PAD2" x="-6.42" y="0" dx="2.3" dy="3.1" layer="1" rot="R180" cream="no"/>
-<rectangle x1="-7.2" y1="-1.1" x2="-5.6" y2="1.1" layer="31"/>
-<rectangle x1="5.7" y1="-1.1" x2="7.3" y2="1.1" layer="31"/>
-<wire x1="-5.3" y1="3.1" x2="-5.3" y2="3.9" width="0.127" layer="51"/>
-<wire x1="5.3" y1="3.1" x2="5.3" y2="3.9" width="0.127" layer="51"/>
-<wire x1="7.9" y1="-1.8" x2="6.8" y2="-1.8" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-1.8" x2="6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-2" x2="5" y2="-2" width="0.05" layer="39"/>
-<wire x1="5" y1="-2" x2="5" y2="-2.3" width="0.05" layer="39"/>
-<wire x1="-5" y1="-2.3" x2="-5" y2="-2" width="0.05" layer="39"/>
-<wire x1="-5" y1="-2" x2="-6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-2" x2="-6.8" y2="-1.8" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-1.8" x2="-7.9" y2="-1.8" width="0.05" layer="39"/>
-</package>
-<package name="WURTH_687120183622">
-<wire x1="6.5" y1="-1.5" x2="-6.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="6.5" y1="-1.5" x2="6.5" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="-1.5" x2="-6.5" y2="1.4" width="0.127" layer="51"/>
-<wire x1="6.5" y1="1.4" x2="7.85" y2="1.4" width="0.127" layer="51"/>
-<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="1.4" x2="-7.85" y2="1.4" width="0.127" layer="51"/>
-<wire x1="-7.85" y1="1.4" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="21"/>
-<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
-<wire x1="-8" y1="4.3" x2="-8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2.6" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
-<wire x1="8" y1="-0.9" x2="8" y2="4.3" width="0.05" layer="39"/>
-<wire x1="8" y1="4.3" x2="-8" y2="4.3" width="0.05" layer="39"/>
-<wire x1="-7.85" y1="2.3" x2="-7.85" y2="1.4" width="0.127" layer="21"/>
-<text x="5.6" y="-2.5" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="5.6" y="-3.4" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<circle x="-4.779" y="-2.589" radius="0.1" width="0.2" layer="21"/>
-<smd name="1" x="-4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="-3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="-3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="-2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="-0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
-<smd name="PAD1" x="7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
-<smd name="PAD2" x="-7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
-<wire x1="-5.3" y1="2.5" x2="-5.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="5.3" y1="2.5" x2="5.3" y2="3.3" width="0.127" layer="51"/>
-<wire x1="8" y1="-0.9" x2="6.8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-0.9" x2="6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-2" x2="5.1" y2="-2" width="0.05" layer="39"/>
-<wire x1="5.1" y1="-2" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2.6" x2="-5.1" y2="-2" width="0.05" layer="39"/>
-<wire x1="-5.1" y1="-2" x2="-6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-2" x2="-6.8" y2="-0.9" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-0.9" x2="-8" y2="-0.9" width="0.05" layer="39"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ORESAT-DEBUG-CONNECTOR">
-<pin name="GND" x="11.43" y="-27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="VBUSP" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="VTARGET" x="11.43" y="22.86" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="CARD-TX" x="11.43" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="CARD-RX" x="11.43" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="NRST" x="11.43" y="20.32" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="SWCLK" x="11.43" y="15.24" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="SWDIO" x="11.43" y="17.78" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="DEBUG-3" x="11.43" y="-22.86" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="SWO" x="11.43" y="12.7" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="DEVICE-D+" x="11.43" y="0" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="DEVICE-D-" x="11.43" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="HOST-D+" x="11.43" y="-7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="HOST-D-" x="11.43" y="-10.16" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="DEBUG-2" x="11.43" y="-20.32" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="DEBUG-1" x="11.43" y="-17.78" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="DEBUG-0" x="11.43" y="-15.24" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="8.89" y1="-33.02" x2="8.89" y2="30.48" width="0.1524" layer="94"/>
-<wire x1="8.89" y1="30.48" x2="-6.35" y2="30.48" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="30.48" x2="-6.35" y2="-33.02" width="0.1524" layer="94"/>
-<wire x1="-6.35" y1="-33.02" x2="8.89" y2="-33.02" width="0.1524" layer="94"/>
-<text x="-2.54" y="31.75" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<pin name="PAD" x="1.27" y="-35.56" visible="off" length="short" rot="R90"/>
-<text x="-1.27" y="-31.75" size="1.524" layer="97">PADs</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ORESAT-DEBUG-CONNECTOR" prefix="J">
-<gates>
-<gate name="G$1" symbol="ORESAT-DEBUG-CONNECTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-CARD" package="TE_2-1734592-0">
-<connects>
-<connect gate="G$1" pin="CARD-RX" pad="12"/>
-<connect gate="G$1" pin="CARD-TX" pad="13"/>
-<connect gate="G$1" pin="DEBUG-0" pad="17"/>
-<connect gate="G$1" pin="DEBUG-1" pad="18"/>
-<connect gate="G$1" pin="DEBUG-2" pad="19"/>
-<connect gate="G$1" pin="DEBUG-3" pad="20"/>
-<connect gate="G$1" pin="DEVICE-D+" pad="4"/>
-<connect gate="G$1" pin="DEVICE-D-" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3 6 9"/>
-<connect gate="G$1" pin="HOST-D+" pad="7"/>
-<connect gate="G$1" pin="HOST-D-" pad="8"/>
-<connect gate="G$1" pin="NRST" pad="10"/>
-<connect gate="G$1" pin="PAD" pad="PAD1 PAD2"/>
-<connect gate="G$1" pin="SWCLK" pad="15"/>
-<connect gate="G$1" pin="SWDIO" pad="14"/>
-<connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUSP" pad="1 2"/>
-<connect gate="G$1" pin="VTARGET" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-SOLAR" package="WURTH_687120183622">
-<connects>
-<connect gate="G$1" pin="CARD-RX" pad="12"/>
-<connect gate="G$1" pin="CARD-TX" pad="13"/>
-<connect gate="G$1" pin="DEBUG-0" pad="17"/>
-<connect gate="G$1" pin="DEBUG-1" pad="18"/>
-<connect gate="G$1" pin="DEBUG-2" pad="19"/>
-<connect gate="G$1" pin="DEBUG-3" pad="20"/>
-<connect gate="G$1" pin="DEVICE-D+" pad="4"/>
-<connect gate="G$1" pin="DEVICE-D-" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3 6 9"/>
-<connect gate="G$1" pin="HOST-D+" pad="7"/>
-<connect gate="G$1" pin="HOST-D-" pad="8"/>
-<connect gate="G$1" pin="NRST" pad="10"/>
-<connect gate="G$1" pin="PAD" pad="PAD1 PAD2"/>
-<connect gate="G$1" pin="SWCLK" pad="15"/>
-<connect gate="G$1" pin="SWDIO" pad="14"/>
-<connect gate="G$1" pin="SWO" pad="16"/>
-<connect gate="G$1" pin="VBUSP" pad="1 2"/>
-<connect gate="G$1" pin="VTARGET" pad="11"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="D-TI-SN65220-Pair-SOT23-6">
 <packages>
 <package name="SOT23-6">
@@ -20901,6 +20703,203 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 </deviceset>
 </devicesets>
 </library>
+<library name="oresat-debug-connector">
+<packages>
+<package name="TE_2-1734592-0">
+<wire x1="6.5" y1="-1.5" x2="-6.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="6.5" y1="-1.5" x2="6.5" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="-1.5" x2="-6.5" y2="1.3" width="0.127" layer="51"/>
+<wire x1="6.5" y1="1.3" x2="7.71" y2="1.3" width="0.127" layer="51"/>
+<wire x1="7.71" y1="1.3" x2="7.71" y2="2.9" width="0.127" layer="51"/>
+<wire x1="7.71" y1="2.9" x2="-7.71" y2="2.9" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="1.3" x2="-7.71" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-7.71" y1="1.3" x2="-7.71" y2="2.9" width="0.127" layer="51"/>
+<wire x1="7.71" y1="1.8" x2="7.71" y2="2.9" width="0.127" layer="21"/>
+<wire x1="7.71" y1="2.9" x2="-7.71" y2="2.9" width="0.127" layer="51"/>
+<wire x1="-7.9" y1="4.9" x2="-7.9" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="-5" y1="-2.3" x2="5" y2="-2.3" width="0.05" layer="39"/>
+<wire x1="7.9" y1="-1.8" x2="7.9" y2="4.9" width="0.05" layer="39"/>
+<wire x1="7.9" y1="4.9" x2="-7.9" y2="4.9" width="0.05" layer="39"/>
+<wire x1="-7.71" y1="2.9" x2="-7.71" y2="1.8" width="0.127" layer="21"/>
+<text x="5.5" y="-2.6" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="5.5" y="-3.5" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<circle x="-4.779" y="-2.589" radius="0.1" width="0.2" layer="21"/>
+<smd name="1" x="-4.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-4.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-3.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-3.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-2.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-2.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-1.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-1.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="-0.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="0.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="0.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="1.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="1.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="2.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="2.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="3.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="3.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="4.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="4.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
+<smd name="PAD1" x="6.42" y="0" dx="2.3" dy="3.1" layer="1" rot="R180" cream="no"/>
+<smd name="PAD2" x="-6.42" y="0" dx="2.3" dy="3.1" layer="1" rot="R180" cream="no"/>
+<rectangle x1="-7.2" y1="-1.1" x2="-5.6" y2="1.1" layer="31"/>
+<rectangle x1="5.7" y1="-1.1" x2="7.3" y2="1.1" layer="31"/>
+<wire x1="-5.3" y1="3.1" x2="-5.3" y2="3.9" width="0.127" layer="51"/>
+<wire x1="5.3" y1="3.1" x2="5.3" y2="3.9" width="0.127" layer="51"/>
+<wire x1="7.9" y1="-1.8" x2="6.8" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="6.8" y1="-1.8" x2="6.8" y2="-2" width="0.05" layer="39"/>
+<wire x1="6.8" y1="-2" x2="5" y2="-2" width="0.05" layer="39"/>
+<wire x1="5" y1="-2" x2="5" y2="-2.3" width="0.05" layer="39"/>
+<wire x1="-5" y1="-2.3" x2="-5" y2="-2" width="0.05" layer="39"/>
+<wire x1="-5" y1="-2" x2="-6.8" y2="-2" width="0.05" layer="39"/>
+<wire x1="-6.8" y1="-2" x2="-6.8" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="-6.8" y1="-1.8" x2="-7.9" y2="-1.8" width="0.05" layer="39"/>
+</package>
+<package name="WURTH_687120183622">
+<wire x1="6.5" y1="-1.5" x2="-6.5" y2="-1.5" width="0.127" layer="51"/>
+<wire x1="6.5" y1="-1.5" x2="6.5" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="-1.5" x2="-6.5" y2="1.4" width="0.127" layer="51"/>
+<wire x1="6.5" y1="1.4" x2="7.85" y2="1.4" width="0.127" layer="51"/>
+<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="51"/>
+<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="1.4" x2="-7.85" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-7.85" y1="1.4" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
+<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="21"/>
+<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
+<wire x1="-8" y1="4.3" x2="-8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-5.1" y1="-2.6" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="8" y1="-0.9" x2="8" y2="4.3" width="0.05" layer="39"/>
+<wire x1="8" y1="4.3" x2="-8" y2="4.3" width="0.05" layer="39"/>
+<wire x1="-7.85" y1="2.3" x2="-7.85" y2="1.4" width="0.127" layer="21"/>
+<text x="5.6" y="-2.5" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="5.6" y="-3.4" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<circle x="-4.779" y="-2.589" radius="0.1" width="0.2" layer="21"/>
+<smd name="1" x="-4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="-0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="PAD1" x="7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
+<smd name="PAD2" x="-7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
+<wire x1="-5.3" y1="2.5" x2="-5.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="5.3" y1="2.5" x2="5.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="8" y1="-0.9" x2="6.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="6.8" y1="-0.9" x2="6.8" y2="-2" width="0.05" layer="39"/>
+<wire x1="6.8" y1="-2" x2="5.1" y2="-2" width="0.05" layer="39"/>
+<wire x1="5.1" y1="-2" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="-5.1" y1="-2.6" x2="-5.1" y2="-2" width="0.05" layer="39"/>
+<wire x1="-5.1" y1="-2" x2="-6.8" y2="-2" width="0.05" layer="39"/>
+<wire x1="-6.8" y1="-2" x2="-6.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-6.8" y1="-0.9" x2="-8" y2="-0.9" width="0.05" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ORESAT-DEBUG-CONNECTOR">
+<pin name="GND" x="11.43" y="-27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="VBUSP" x="11.43" y="27.94" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="VTARGET" x="11.43" y="22.86" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="CARD-TX" x="11.43" y="7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="CARD-RX" x="11.43" y="5.08" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="NRST" x="11.43" y="20.32" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="SWCLK" x="11.43" y="15.24" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="SWDIO" x="11.43" y="17.78" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DEBUG-3" x="11.43" y="-22.86" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="SWO" x="11.43" y="12.7" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DEVICE-D+" x="11.43" y="0" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DEVICE-D-" x="11.43" y="-2.54" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="HOST-D+" x="11.43" y="-7.62" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="HOST-D-" x="11.43" y="-10.16" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DEBUG-2" x="11.43" y="-20.32" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DEBUG-1" x="11.43" y="-17.78" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="DEBUG-0" x="11.43" y="-15.24" visible="pin" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="8.89" y1="-33.02" x2="8.89" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="8.89" y1="30.48" x2="-6.35" y2="30.48" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="30.48" x2="-6.35" y2="-33.02" width="0.1524" layer="94"/>
+<wire x1="-6.35" y1="-33.02" x2="8.89" y2="-33.02" width="0.1524" layer="94"/>
+<text x="-2.54" y="31.75" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<pin name="PAD" x="1.27" y="-35.56" visible="off" length="short" rot="R90"/>
+<text x="-1.27" y="-31.75" size="1.524" layer="97">PADs</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ORESAT-DEBUG-CONNECTOR" prefix="J">
+<gates>
+<gate name="G$1" symbol="ORESAT-DEBUG-CONNECTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-CARD" package="TE_2-1734592-0">
+<connects>
+<connect gate="G$1" pin="CARD-RX" pad="12"/>
+<connect gate="G$1" pin="CARD-TX" pad="13"/>
+<connect gate="G$1" pin="DEBUG-0" pad="17"/>
+<connect gate="G$1" pin="DEBUG-1" pad="18"/>
+<connect gate="G$1" pin="DEBUG-2" pad="19"/>
+<connect gate="G$1" pin="DEBUG-3" pad="20"/>
+<connect gate="G$1" pin="DEVICE-D+" pad="4"/>
+<connect gate="G$1" pin="DEVICE-D-" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3 6 9"/>
+<connect gate="G$1" pin="HOST-D+" pad="7"/>
+<connect gate="G$1" pin="HOST-D-" pad="8"/>
+<connect gate="G$1" pin="NRST" pad="10"/>
+<connect gate="G$1" pin="PAD" pad="PAD1 PAD2"/>
+<connect gate="G$1" pin="SWCLK" pad="15"/>
+<connect gate="G$1" pin="SWDIO" pad="14"/>
+<connect gate="G$1" pin="SWO" pad="16"/>
+<connect gate="G$1" pin="VBUSP" pad="1 2"/>
+<connect gate="G$1" pin="VTARGET" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOLAR" package="WURTH_687120183622">
+<connects>
+<connect gate="G$1" pin="CARD-RX" pad="12"/>
+<connect gate="G$1" pin="CARD-TX" pad="13"/>
+<connect gate="G$1" pin="DEBUG-0" pad="17"/>
+<connect gate="G$1" pin="DEBUG-1" pad="18"/>
+<connect gate="G$1" pin="DEBUG-2" pad="19"/>
+<connect gate="G$1" pin="DEBUG-3" pad="20"/>
+<connect gate="G$1" pin="DEVICE-D+" pad="4"/>
+<connect gate="G$1" pin="DEVICE-D-" pad="5"/>
+<connect gate="G$1" pin="GND" pad="3 6 9"/>
+<connect gate="G$1" pin="HOST-D+" pad="7"/>
+<connect gate="G$1" pin="HOST-D-" pad="8"/>
+<connect gate="G$1" pin="NRST" pad="10"/>
+<connect gate="G$1" pin="PAD" pad="PAD1 PAD2"/>
+<connect gate="G$1" pin="SWCLK" pad="15"/>
+<connect gate="G$1" pin="SWDIO" pad="14"/>
+<connect gate="G$1" pin="SWO" pad="16"/>
+<connect gate="G$1" pin="VBUSP" pad="1 2"/>
+<connect gate="G$1" pin="VTARGET" pad="11"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21098,8 +21097,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <part name="U1" library="U-Maxim-MAX892LEUA+T-power-switch" deviceset="MAX892LEUA+T" device="21-0036K-L">
 <attribute name="DESCRIPTION" value="Power Switch ICs - Power Distribution Current-Limited, High-Side P-Channel Switches with Thermal Shutdown"/>
 <attribute name="MANUFACTURER" value="Maxim Integrated"/>
-<attribute name="MOUSER_PART_NUMBER" value="700-MAX892LEUAT
-"/>
+<attribute name="MOUSER_PART_NUMBER" value="700-MAX892LEUAT "/>
 </part>
 <part name="C1" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF-25VDC" device="" value="1u">
 <attribute name="VDC" value="25V"/>
@@ -21449,7 +21447,7 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10A475KO8NNNC"/>
 </part>
 <part name="GND104" library="oresat-supplies" deviceset="GND-U" device=""/>
-<part name="J5" library="oresat-edge_connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-CARD">
+<part name="J5" library="oresat-debug-connector" deviceset="ORESAT-DEBUG-CONNECTOR" device="-CARD">
 <attribute name="DESCRIPTION" value="20 Position FPC Connector Contacts, Bottom 0.020&quot; (0.50mm) Surface Mount, Right Angle"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="A100287CT-ND"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors"/>
@@ -23231,23 +23229,23 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="26.924" y="228.981" size="1.778" layer="96"/>
 <attribute name="VDC" x="26.924" y="226.568" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TP TESTPOINTS"/>
-<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TESTPOINTS TP"/>
+<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="217.17" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="164.592" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="201.93" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="222.25" y="234.95" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="345.44" y="205.74" smashed="yes" rot="MR0">
@@ -23309,13 +23307,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MANUFACTURER" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="222.25" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="229.87" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="387.35" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="66.04" smashed="yes">
@@ -23416,7 +23414,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="136.144" y="61.341" size="1.778" layer="96"/>
 <attribute name="VDC" x="136.144" y="58.928" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="204.47" y="59.69" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="66.04" smashed="yes">
@@ -28653,7 +28651,7 @@ All caps are 0603 and 10V DC or greater</text>
 <instance part="R23" gate="G$1" x="396.24" y="154.94" smashed="yes">
 <attribute name="NAME" x="392.43" y="156.4386" size="1.778" layer="95"/>
 </instance>
-<instance part="WDT" gate="G$1" x="287.02" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="WDT" gate="G$1" x="287.02" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="285.75" y="240.03" size="1.778" layer="95"/>
 <attribute name="BOM" x="287.02" y="238.76" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="287.02" y="238.76" size="1.778" layer="96" display="off"/>
@@ -28664,7 +28662,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="287.02" y="238.76" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="287.02" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="137.16" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="270.51" y="138.43" size="1.778" layer="95"/>
 <attribute name="BOM" x="271.78" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="271.78" y="137.16" size="1.778" layer="96" display="off"/>
@@ -28675,7 +28673,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="271.78" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="271.78" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SDIO-CK" gate="G$1" x="274.32" y="55.88" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="273.05" y="57.15" size="1.778" layer="95"/>
 <attribute name="BOM" x="274.32" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="274.32" y="55.88" size="1.778" layer="96" display="off"/>
@@ -28686,7 +28684,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="274.32" y="55.88" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="274.32" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="GND" gate="G$1" x="421.64" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="420.37" y="62.23" size="1.778" layer="95"/>
 <attribute name="BOM" x="421.64" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="421.64" y="60.96" size="1.778" layer="96" display="off"/>
@@ -28697,7 +28695,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="421.64" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="421.64" y="60.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="129.54" y="121.92" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="123.19" size="1.778" layer="95"/>
 <attribute name="BOM" x="129.54" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="129.54" y="121.92" size="1.778" layer="96" display="off"/>
@@ -28719,7 +28717,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="129.54" y="137.16" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="129.54" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="NRST" gate="G$1" x="157.48" y="142.24" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="143.51" size="1.778" layer="95"/>
 <attribute name="BOM" x="157.48" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="157.48" y="142.24" size="1.778" layer="96" display="off"/>
@@ -28730,7 +28728,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="157.48" y="142.24" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="157.48" y="142.24" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="129.54" y="83.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="128.27" y="85.09" size="1.778" layer="95"/>
 <attribute name="BOM" x="129.54" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="129.54" y="83.82" size="1.778" layer="96" display="off"/>
@@ -28741,7 +28739,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="129.54" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="129.54" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-SCK" gate="G$1" x="157.48" y="76.2" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="77.47" size="1.778" layer="95"/>
 <attribute name="BOM" x="157.48" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="157.48" y="76.2" size="1.778" layer="96" display="off"/>
@@ -28752,7 +28750,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="157.48" y="76.2" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="157.48" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MISO" gate="G$1" x="157.48" y="68.58" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="69.85" size="1.778" layer="95"/>
 <attribute name="BOM" x="157.48" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="157.48" y="68.58" size="1.778" layer="96" display="off"/>
@@ -28763,7 +28761,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="157.48" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="157.48" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SPI1-MOSI" gate="G$1" x="157.48" y="60.96" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="156.21" y="62.23" size="1.778" layer="95"/>
 <attribute name="BOM" x="157.48" y="60.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="157.48" y="60.96" size="1.778" layer="96" display="off"/>
