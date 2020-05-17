@@ -23267,11 +23267,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="215.9" y="239.014" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R7" gate="G$1" x="160.02" y="223.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="158.75" y="218.44" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="158.5214" y="219.71" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="163.322" y="219.71" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R10" gate="G$1" x="160.02" y="208.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="158.75" y="203.2" size="1.778" layer="95" rot="R90"/>
 <attribute name="BOM" x="160.02" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="158.5214" y="204.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="163.322" y="204.47" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND43" gate="1" x="160.02" y="198.12" smashed="yes">
 <attribute name="VALUE" x="157.48" y="195.58" size="1.778" layer="96"/>
@@ -23307,7 +23309,8 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="58.42" y="195.58" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R9" gate="G$1" x="35.56" y="218.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.02" y="215.9" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="34.0614" y="214.63" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="38.862" y="214.63" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND26" gate="1" x="35.56" y="198.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="38.1" y="195.58" size="1.778" layer="96" rot="MR0"/>
@@ -23327,17 +23330,19 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="137.16" y="195.58" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R1" gate="G$1" x="134.62" y="223.52" smashed="yes" rot="R90">
-<attribute name="NAME" x="133.35" y="218.44" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="138.43" y="218.44" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="133.1214" y="219.71" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="137.922" y="219.71" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R5" gate="G$1" x="35.56" y="231.14" smashed="yes" rot="R90">
-<attribute name="NAME" x="33.02" y="228.6" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="34.0614" y="227.33" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="38.862" y="227.33" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND3" gate="1" x="25.4" y="198.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="27.94" y="195.58" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R6" gate="G$1" x="73.66" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="72.39" y="205.74" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="72.1614" y="207.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="76.962" y="207.01" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND44" gate="1" x="73.66" y="198.12" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="76.2" y="195.58" size="1.778" layer="96" rot="MR0"/>
@@ -23378,10 +23383,12 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="347.98" y="203.2" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R27" gate="G$1" x="312.42" y="248.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="311.15" y="243.84" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="310.9214" y="245.11" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="315.722" y="245.11" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R36" gate="G$1" x="360.68" y="215.9" smashed="yes" rot="MR90">
-<attribute name="NAME" x="358.14" y="210.82" size="1.778" layer="95" rot="MR90"/>
+<attribute name="NAME" x="362.1786" y="212.09" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="357.378" y="212.09" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="GND36" gate="1" x="360.68" y="205.74" smashed="yes">
 <attribute name="VALUE" x="358.14" y="203.2" size="1.778" layer="96"/>
@@ -23409,11 +23416,12 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="381" y="203.2" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R4" gate="G$1" x="378.46" y="233.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="376.936" y="228.6" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="381.508" y="228.6" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="376.9614" y="229.87" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="381.762" y="229.87" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R12" gate="G$1" x="327.66" y="248.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="326.39" y="243.84" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="326.1614" y="245.11" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="330.962" y="245.11" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C4" gate="G$1" x="368.3" y="236.22" smashed="yes">
 <attribute name="NAME" x="369.824" y="236.601" size="1.778" layer="95"/>
@@ -23424,7 +23432,8 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="370.84" y="203.2" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R16" gate="G$1" x="320.04" y="248.92" smashed="yes" rot="R90">
-<attribute name="NAME" x="318.516" y="244.094" size="1.778" layer="95" rot="R90"/>
+<attribute name="NAME" x="318.5414" y="245.11" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="323.342" y="245.11" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U1" gate="A" x="345.44" y="231.14" smashed="yes">
 <attribute name="NAME" x="332.5876" y="247.8786" size="2.0828" layer="95" ratio="6" rot="SR0"/>
@@ -23471,6 +23480,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 </instance>
 <instance part="R64" gate="G$1" x="78.74" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="77.2414" y="52.07" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="82.042" y="52.07" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND138" gate="1" x="78.74" y="45.72" smashed="yes">
 <attribute name="VALUE" x="76.2" y="43.18" size="1.778" layer="96"/>
@@ -23549,11 +23559,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VDC" x="217.424" y="58.928" size="1.778" layer="97"/>
 </instance>
 <instance part="R67" gate="G$1" x="147.32" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.8214" y="46.99" size="1.778" layer="95" rot="R90"/>
 <attribute name="BOM" x="147.32" y="50.8" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="145.8214" y="46.99" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="46.99" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R68" gate="G$1" x="147.32" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="145.8214" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND143" gate="1" x="147.32" y="38.1" smashed="yes">
 <attribute name="VALUE" x="144.78" y="35.56" size="1.778" layer="96"/>
@@ -23675,12 +23687,12 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="DESCRIPTION" x="317.5" y="58.42" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R21" gate="R" x="317.5" y="68.58" smashed="yes" rot="MR270">
-<attribute name="NAME" x="321.0814" y="73.66" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="320.802" y="67.31" size="1.778" layer="96" rot="MR270"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="317.5" y="68.58" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" x="317.5" y="68.58" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="317.5" y="68.58" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" x="317.5" y="68.58" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="NAME" x="316.0014" y="72.39" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="320.802" y="72.39" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="GND10" gate="1" x="317.5" y="50.8" smashed="yes">
 <attribute name="VALUE" x="314.96" y="48.26" size="1.778" layer="96"/>
@@ -23696,12 +23708,15 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 </instance>
 <instance part="R37" gate="G$1" x="30.48" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.9814" y="143.51" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="33.782" y="143.51" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R41" gate="G$1" x="347.98" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="346.4814" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="351.282" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R42" gate="G$1" x="264.16" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="262.6614" y="64.77" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="267.462" y="64.77" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND6" gate="1" x="170.18" y="198.12" smashed="yes">
 <attribute name="VALUE" x="167.64" y="195.58" size="1.778" layer="96"/>
@@ -24589,13 +24604,13 @@ Diplexer</text>
 <attribute name="VALUE" x="81.28" y="93.98" size="1.778" layer="96"/>
 </instance>
 <instance part="R31" gate="R" x="147.32" y="40.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.8214" y="39.37" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="150.622" y="39.37" size="1.778" layer="96" rot="R90"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="147.32" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="147.32" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DISTRIBUTOR" x="147.32" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="147.32" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="147.32" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="145.8214" y="36.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="150.622" y="36.83" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C44" gate="CE" x="147.32" y="30.48" smashed="yes">
 <attribute name="NAME" x="148.844" y="30.861" size="1.778" layer="95"/>
@@ -24913,12 +24928,12 @@ Diplexer</text>
 <attribute name="VALUE" x="121.92" y="132.08" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="R25" gate="R" x="53.34" y="48.26" smashed="yes" rot="R270">
-<attribute name="NAME" x="54.8386" y="49.53" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="50.038" y="49.53" size="1.778" layer="96" rot="R270"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="53.34" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" x="53.34" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="53.34" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
 <attribute name="DESCRIPTION" x="53.34" y="48.26" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="NAME" x="54.8386" y="52.07" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="50.038" y="52.07" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="GND13" gate="G$1" x="53.34" y="38.1" smashed="yes">
 <attribute name="VALUE" x="53.34" y="35.56" size="1.778" layer="96"/>
@@ -25114,36 +25129,36 @@ Diplexer</text>
 <attribute name="VALUE" x="350.52" y="114.3" size="1.778" layer="96"/>
 </instance>
 <instance part="R26" gate="R" x="312.42" y="99.06" smashed="yes" rot="MR270">
-<attribute name="NAME" x="316.0014" y="104.14" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="315.722" y="97.79" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="312.42" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" x="312.42" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="312.42" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" x="312.42" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="NAME" x="310.9214" y="102.87" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="315.722" y="102.87" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="R28" gate="R" x="327.66" y="99.06" smashed="yes" rot="MR270">
-<attribute name="NAME" x="331.2414" y="104.14" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="330.962" y="97.79" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="327.66" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" x="327.66" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="327.66" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" x="327.66" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="NAME" x="326.1614" y="102.87" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="330.962" y="102.87" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="R29" gate="R" x="320.04" y="99.06" smashed="yes" rot="MR270">
-<attribute name="NAME" x="323.6214" y="104.14" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="323.342" y="97.79" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="320.04" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" x="320.04" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="320.04" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" x="320.04" y="99.06" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="NAME" x="318.5414" y="102.87" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="323.342" y="102.87" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="R30" gate="R" x="337.82" y="106.68" smashed="yes" rot="MR270">
-<attribute name="NAME" x="341.4014" y="111.76" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="341.122" y="105.41" size="1.778" layer="96" rot="MR270"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="337.82" y="106.68" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" x="337.82" y="106.68" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="337.82" y="106.68" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="DESCRIPTION" x="337.82" y="106.68" size="1.778" layer="96" rot="MR270" display="off"/>
+<attribute name="NAME" x="336.3214" y="110.49" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="341.122" y="110.49" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="337.82" y="116.84" smashed="yes"/>
 <instance part="TP1" gate="G$1" x="386.08" y="78.74" smashed="yes" grouprefs="TP">
@@ -25337,16 +25352,16 @@ Diplexer</text>
 <attribute name="VDC" x="314.96" y="233.68" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
 <instance part="R47" gate="R" x="340.36" y="243.84" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="338.8614" y="240.03" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="343.662" y="240.03" size="1.778" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" x="340.36" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND109" gate="G$1" x="314.96" y="223.52" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="317.5" y="220.98" size="1.778" layer="96" rot="MR0"/>
@@ -25361,16 +25376,16 @@ Diplexer</text>
 <attribute name="DISTRIBUTOR" x="325.12" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R48" gate="R" x="304.8" y="243.84" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="303.3014" y="240.03" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="308.102" y="240.03" size="1.778" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" x="304.8" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L21" gate="L" x="292.1" y="213.36" smashed="yes">
 <attribute name="NAME" x="290.83" y="209.55" size="1.778" layer="95" rot="R90"/>
@@ -25390,18 +25405,18 @@ Diplexer</text>
 <attribute name="INVENTORY" x="292.1" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R49" gate="R" x="330.2" y="256.54" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="328.7014" y="252.73" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="333.502" y="252.73" size="1.778" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DISTRIBUTOR" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DISTRIBUTOR" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" x="330.2" y="256.54" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="L22" gate="L" x="340.36" y="226.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="336.55" y="227.33" size="1.778" layer="95"/>
@@ -25419,16 +25434,16 @@ Diplexer</text>
 <attribute name="VALUE" x="383.54" y="203.2" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R50" gate="R" x="381" y="213.36" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="NAME" x="379.5014" y="209.55" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="384.302" y="209.55" size="1.778" layer="96" rot="R90"/>
-<attribute name="DESCRIPTION" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" x="381" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="3V-2" gate="G$1" x="330.2" y="264.16" smashed="yes"/>
 <instance part="U18" gate="G$1" x="33.02" y="177.8" smashed="yes">
@@ -25570,12 +25585,12 @@ Diplexer</text>
 <attribute name="VALUE" x="116.84" y="172.72" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R46" gate="R" x="162.56" y="200.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="161.0614" y="196.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="165.862" y="196.85" size="1.778" layer="96" rot="R90"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="162.56" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="162.56" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="162.56" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="162.56" y="200.66" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="161.0614" y="196.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="165.862" y="196.85" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="3V-7" gate="G$1" x="172.72" y="220.98" smashed="yes">
 <attribute name="VALUE" x="172.085" y="221.615" size="1.27" layer="96"/>
@@ -25655,51 +25670,52 @@ Diplexer</text>
 <attribute name="VALUE" x="254" y="144.78" size="1.778" layer="96"/>
 </instance>
 <instance part="R35" gate="G$1" x="213.36" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="211.8614" y="62.23" size="1.778" layer="95" rot="R90"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="213.36" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="211.8614" y="62.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="216.662" y="62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="TP11" gate="G$1" x="424.18" y="88.9" smashed="yes">
 <attribute name="NAME" x="421.64" y="91.44" size="1.778" layer="95"/>
 </instance>
 <instance part="R62" gate="R" x="25.4" y="83.82" smashed="yes">
-<attribute name="NAME" x="21.59" y="80.01" size="1.778" layer="95"/>
-<attribute name="VALUE" x="22.352" y="86.36" size="1.778" layer="96"/>
 <attribute name="DESCRIPTION" x="25.4" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="25.4" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="25.4" y="83.82" size="1.778" layer="96" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="25.4" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="21.59" y="85.3186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="21.59" y="80.518" size="1.778" layer="96"/>
 </instance>
 <instance part="R61" gate="R" x="96.52" y="167.64" smashed="yes">
-<attribute name="NAME" x="92.71" y="163.83" size="1.778" layer="95"/>
-<attribute name="VALUE" x="93.472" y="170.18" size="1.778" layer="96"/>
 <attribute name="DESCRIPTION" x="96.52" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="96.52" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="96.52" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="96.52" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="DISTRIBUTOR" x="96.52" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="INVENTORY" x="96.52" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="92.71" y="169.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="92.71" y="164.338" size="1.778" layer="96"/>
 </instance>
 <instance part="R60" gate="R" x="396.24" y="220.98" smashed="yes">
-<attribute name="NAME" x="393.7" y="223.52" size="1.778" layer="95"/>
-<attribute name="VALUE" x="393.7" y="218.44" size="1.778" layer="96"/>
 <attribute name="DESCRIPTION" x="396.24" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="396.24" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="396.24" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="396.24" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="DISTRIBUTOR" x="396.24" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="INVENTORY" x="396.24" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="392.43" y="222.4786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="392.43" y="217.678" size="1.778" layer="96"/>
 </instance>
 <instance part="R56" gate="R" x="248.92" y="167.64" smashed="yes">
-<attribute name="NAME" x="247.65" y="163.83" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="248.92" y="169.672" size="1.778" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="248.92" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="248.92" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="248.92" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="248.92" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="DISTRIBUTOR" x="248.92" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="INVENTORY" x="248.92" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="245.11" y="169.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.11" y="164.338" size="1.778" layer="96"/>
 </instance>
 <instance part="TP12" gate="G$1" x="50.8" y="68.58" smashed="yes">
 <attribute name="NAME" x="48.895" y="70.1675" size="1.778" layer="95"/>
@@ -25717,14 +25733,14 @@ Diplexer</text>
 <attribute name="NAME" x="310.515" y="204.7875" size="1.778" layer="95"/>
 </instance>
 <instance part="R51" gate="R" x="353.06" y="167.64" smashed="yes">
-<attribute name="NAME" x="351.79" y="169.1386" size="1.778" layer="95"/>
-<attribute name="VALUE" x="351.79" y="164.338" size="1.778" layer="96"/>
 <attribute name="DESCRIPTION" x="353.06" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="353.06" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="353.06" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="353.06" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="DISTRIBUTOR" x="353.06" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="INVENTORY" x="353.06" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="349.25" y="169.1386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="349.25" y="164.338" size="1.778" layer="96"/>
 </instance>
 <instance part="L38" gate="L" x="375.92" y="167.64" smashed="yes">
 <attribute name="NAME" x="370.84" y="170.18" size="1.778" layer="95"/>
@@ -26941,8 +26957,6 @@ will be a congtrol signal from the MCU to
 <attribute name="VALUE" x="-162.56" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="R38" gate="R" x="-101.6" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="-103.0986" y="80.01" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-98.298" y="80.01" size="1.778" layer="96" rot="R90"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
@@ -26950,6 +26964,8 @@ will be a congtrol signal from the MCU to
 <attribute name="MANUFACTURER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-101.6" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-103.0986" y="77.47" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-98.298" y="77.47" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C60" gate="CE" x="-101.6" y="73.66" smashed="yes">
 <attribute name="NAME" x="-100.076" y="74.041" size="1.778" layer="95"/>
@@ -27242,20 +27258,20 @@ will be a congtrol signal from the MCU to
 <attribute name="VDC" x="-312.42" y="284.48" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R52" gate="R" x="-337.82" y="309.88" smashed="yes">
-<attribute name="NAME" x="-341.63" y="311.3786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-341.63" y="306.578" size="1.778" layer="96"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-337.82" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-341.63" y="311.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-341.63" y="306.578" size="1.778" layer="96"/>
 </instance>
 <instance part="R53" gate="R" x="-322.58" y="309.88" smashed="yes">
-<attribute name="NAME" x="-326.39" y="311.3786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-326.39" y="306.578" size="1.778" layer="96"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-322.58" y="309.88" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-326.39" y="311.3786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-326.39" y="306.578" size="1.778" layer="96"/>
 </instance>
 <instance part="C100" gate="CE" x="-358.14" y="279.4" smashed="yes">
 <attribute name="NAME" x="-356.616" y="279.781" size="1.778" layer="95"/>
@@ -27267,20 +27283,20 @@ will be a congtrol signal from the MCU to
 <attribute name="VDC" x="-358.14" y="279.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R54" gate="R" x="-299.72" y="281.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="-301.2186" y="278.13" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-296.418" y="278.13" size="1.778" layer="96" rot="R90"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-299.72" y="281.94" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-301.2186" y="278.13" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-296.418" y="278.13" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R55" gate="R" x="-299.72" y="292.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="-301.2186" y="288.29" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-296.418" y="288.29" size="1.778" layer="96" rot="R90"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-299.72" y="292.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-301.2186" y="288.29" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-296.418" y="288.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="3.3V-U2" gate="G$1" x="-345.44" y="314.96" smashed="yes">
 <attribute name="VALUE" x="-347.98" y="314.96" size="1.778" layer="96"/>
@@ -27392,12 +27408,12 @@ will be a congtrol signal from the MCU to
 <attribute name="DESCRIPTION" x="-142.24" y="243.84" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R57" gate="R" x="-106.68" y="271.78" smashed="yes" rot="R90">
-<attribute name="NAME" x="-108.1786" y="267.97" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-103.378" y="267.97" size="1.778" layer="96" rot="R90"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-106.68" y="271.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-108.1786" y="267.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-103.378" y="267.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q9" gate="G$1" x="-121.92" y="236.22" smashed="yes">
 <attribute name="NAME" x="-119.38" y="237.49" size="1.778" layer="95"/>
@@ -27409,20 +27425,20 @@ will be a congtrol signal from the MCU to
 <attribute name="MANUFACTURER" x="-121.92" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R58" gate="R" x="-142.24" y="266.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="-143.7386" y="262.89" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-138.938" y="262.89" size="1.778" layer="96" rot="R90"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-142.24" y="266.7" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-143.7386" y="262.89" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-138.938" y="262.89" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R59" gate="R" x="-116.84" y="287.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="-118.3386" y="283.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="-113.538" y="283.21" size="1.778" layer="96" rot="R90"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="-116.84" y="287.02" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-118.3386" y="283.21" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-113.538" y="283.21" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="L24" gate="L" x="-106.68" y="248.92" smashed="yes" rot="R270">
 <attribute name="NAME" x="-110.49" y="250.19" size="1.778" layer="95"/>
@@ -27663,33 +27679,34 @@ will be a congtrol signal from the MCU to
 </instance>
 <instance part="R13" gate="G$1" x="-25.4" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="-26.8986" y="125.73" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-22.098" y="125.73" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R34" gate="R" x="-299.72" y="269.24" smashed="yes">
-<attribute name="NAME" x="-298.45" y="267.97" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-304.8" y="271.526" size="1.778" layer="96" rot="R180"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-299.72" y="269.24" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="-299.72" y="269.24" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-299.72" y="269.24" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-299.72" y="269.24" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-303.53" y="270.7386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-303.53" y="265.938" size="1.778" layer="96"/>
 </instance>
 <instance part="TP2" gate="G$1" x="-327.66" y="243.84" smashed="yes">
 <attribute name="NAME" x="-329.565" y="245.4275" size="1.778" layer="95"/>
 </instance>
 <instance part="R66" gate="R" x="-170.18" y="236.22" smashed="yes">
-<attribute name="NAME" x="-171.45" y="232.41" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-173.228" y="240.03" size="1.778" layer="96"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-170.18" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="-170.18" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-170.18" y="236.22" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-170.18" y="236.22" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-173.99" y="237.7186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-173.99" y="232.918" size="1.778" layer="96"/>
 </instance>
 <instance part="R69" gate="R" x="-60.96" y="243.84" smashed="yes">
-<attribute name="NAME" x="-62.23" y="242.57" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-62.992" y="247.65" size="1.778" layer="96" rot="R180"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-60.96" y="243.84" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="-60.96" y="243.84" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-60.96" y="243.84" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-60.96" y="243.84" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-64.77" y="245.3386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-64.77" y="240.538" size="1.778" layer="96"/>
 </instance>
 <instance part="TP5" gate="G$1" x="-139.7" y="226.06" smashed="yes">
 <attribute name="NAME" x="-141.605" y="227.6475" size="1.778" layer="95"/>
@@ -27698,12 +27715,12 @@ will be a congtrol signal from the MCU to
 <attribute name="NAME" x="-133.985" y="227.6475" size="1.778" layer="95"/>
 </instance>
 <instance part="R70" gate="R" x="-220.98" y="127" smashed="yes">
-<attribute name="NAME" x="-219.71" y="125.73" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-224.028" y="128.27" size="1.778" layer="96"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="-220.98" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER" x="-220.98" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="-220.98" y="127" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="-220.98" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-224.79" y="128.4986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-224.79" y="123.698" size="1.778" layer="96"/>
 </instance>
 <instance part="TP7" gate="G$1" x="-177.8" y="83.82" smashed="yes">
 <attribute name="NAME" x="-179.705" y="85.4075" size="1.778" layer="95"/>
@@ -28618,16 +28635,16 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="VDC" x="407.924" y="124.968" size="1.778" layer="97"/>
 </instance>
 <instance part="R14" gate="A" x="299.72" y="175.26" smashed="yes" rot="R90" grouprefs="EMMC">
-<attribute name="VALUE" x="304.6984" y="177.7492" size="1.778" layer="96" font="vector" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="304.8508" y="180.2892" size="1.778" layer="95" font="vector" ratio="10" rot="SR180"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="299.72" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="299.72" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VALUE" x="297.1292" y="157.5816" size="1.778" layer="96" font="vector" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="294.5892" y="157.4292" size="1.778" layer="95" font="vector" ratio="10" rot="SR90"/>
 </instance>
 <instance part="R15" gate="A" x="322.58" y="175.26" smashed="yes" rot="R90" grouprefs="EMMC">
-<attribute name="VALUE" x="327.5584" y="177.7492" size="1.778" layer="96" font="vector" ratio="10" rot="SR180"/>
-<attribute name="NAME" x="327.7108" y="180.2892" size="1.778" layer="95" font="vector" ratio="10" rot="SR180"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="322.58" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="322.58" y="175.26" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VALUE" x="319.9892" y="157.5816" size="1.778" layer="96" font="vector" ratio="10" rot="SR90"/>
+<attribute name="NAME" x="317.4492" y="157.4292" size="1.778" layer="95" font="vector" ratio="10" rot="SR90"/>
 </instance>
 <instance part="SUPPLY10" gate="G$1" x="309.88" y="180.34" smashed="yes" rot="MR0" grouprefs="EMMC">
 <attribute name="VALUE" x="309.88" y="183.134" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
@@ -30154,9 +30171,9 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="VALUE" x="243.84" y="119.38" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R3" gate="G$1" x="241.3" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="242.7986" y="135.89" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="237.49" y="133.35" size="1.778" layer="96" rot="MR90"/>
 <attribute name="DIGI-KEY_PART_NUMBER" x="241.3" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="239.8014" y="133.35" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="244.602" y="133.35" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="WDT" gate="G$1" x="233.68" y="147.32" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="232.41" y="148.59" size="1.778" layer="95"/>
@@ -30176,8 +30193,6 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="DIGI-KEY_PART_NUMBER" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="118.11" y="129.54" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="118.11" y="135.89" size="1.778" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
@@ -30187,6 +30202,8 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="DESCRIPTION" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="119.38" y="134.62" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="117.8814" y="130.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="122.682" y="130.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND34" gate="1" x="119.38" y="114.3" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="121.92" y="111.76" size="1.778" layer="96" rot="MR0"/>
@@ -30195,8 +30212,6 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="DIGI-KEY_PART_NUMBER" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="110.49" y="109.22" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="110.49" y="115.57" size="1.778" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
@@ -30206,6 +30221,8 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="DESCRIPTION" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="111.76" y="114.3" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="110.2614" y="110.49" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="115.062" y="110.49" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND37" gate="1" x="111.76" y="104.14" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="114.3" y="101.6" size="1.778" layer="96" rot="MR0"/>
@@ -30261,8 +30278,6 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="DIGI-KEY_PART_NUMBER" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="105.41" y="160.02" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="105.41" y="166.37" size="1.778" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
@@ -30272,6 +30287,8 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="DESCRIPTION" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="106.68" y="165.1" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="105.1814" y="161.29" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.982" y="161.29" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND38" gate="1" x="109.22" y="144.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="111.76" y="142.24" size="1.778" layer="96" rot="MR0"/>
@@ -30280,8 +30297,6 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="DIGI-KEY_PART_NUMBER" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="100.33" y="139.7" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="100.33" y="146.05" size="1.778" layer="96" rot="R90"/>
 <attribute name="DESCRIPTION" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
@@ -30291,6 +30306,8 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="DESCRIPTION" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="101.6" y="144.78" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="100.1014" y="140.97" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="104.902" y="140.97" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND56" gate="1" x="101.6" y="134.62" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="104.14" y="132.08" size="1.778" layer="96" rot="MR0"/>
