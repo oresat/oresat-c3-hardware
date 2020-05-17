@@ -28527,6 +28527,7 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R17" gate="G$1" x="304.8" y="60.96" smashed="yes" rot="MR90" grouprefs="SYSTEM">
 <attribute name="NAME" x="306.2986" y="57.15" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="301.498" y="57.15" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="SUPPLY6" gate="G$1" x="347.98" y="99.06" smashed="yes" rot="MR0" grouprefs="SYSTEM">
 <attribute name="VALUE" x="347.98" y="101.854" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
@@ -28576,6 +28577,7 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R20" gate="G$1" x="246.38" y="101.6" smashed="yes" rot="MR0" grouprefs="OPD">
 <attribute name="NAME" x="250.19" y="103.0986" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="250.19" y="98.298" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="C14" gate="G$1" x="378.46" y="60.96" smashed="yes" grouprefs="SYSTEM">
 <attribute name="NAME" x="379.984" y="61.341" size="1.778" layer="95"/>
@@ -30368,6 +30370,7 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R19" gate="G$1" x="251.46" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="249.9614" y="163.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="254.762" y="163.83" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="Q6" gate="A" x="347.98" y="142.24" smashed="yes">
 <attribute name="VALUE" x="336.55" y="142.24" size="1.778" layer="96"/>
@@ -30389,15 +30392,18 @@ All caps are 0603 and 10V DC or greater</text>
 </instance>
 <instance part="R22" gate="G$1" x="327.66" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="326.1614" y="163.83" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="330.962" y="163.83" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND53" gate="1" x="340.36" y="121.92" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="342.9" y="119.38" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R44" gate="G$1" x="317.5" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="316.0014" y="153.67" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="320.802" y="153.67" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R45" gate="G$1" x="340.36" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="338.8614" y="130.81" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="343.662" y="130.81" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY4" gate="G$1" x="317.5" y="175.26" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="317.5" y="175.26" size="1.778" layer="96" rot="MR0" align="bottom-center"/>
