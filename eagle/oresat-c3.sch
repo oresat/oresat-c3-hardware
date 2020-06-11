@@ -22514,7 +22514,6 @@ Source: &lt;a href="https://www.onsemi.com/pub/Collateral/FDMQ86530L-D.pdf"&gt; 
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND50" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R71" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
 <part name="R74" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
 <part name="R75" library="C3_SamacSys_Parts" deviceset="R0603-2.7K-OHMS" device="" value="2.7k"/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
@@ -23303,23 +23302,23 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="26.924" y="228.981" size="1.778" layer="96"/>
 <attribute name="VDC" x="26.924" y="226.568" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TP TESTPOINTS"/>
-<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TESTPOINTS TP"/>
+<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="217.17" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="164.592" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="201.93" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="222.25" y="234.95" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="345.44" y="205.74" smashed="yes" rot="MR0">
@@ -23385,13 +23384,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MANUFACTURER" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="222.25" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="229.87" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="387.35" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="66.04" smashed="yes">
@@ -23493,7 +23492,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="136.144" y="61.341" size="1.778" layer="96"/>
 <attribute name="VDC" x="136.144" y="58.928" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="204.47" y="59.69" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="66.04" smashed="yes">
@@ -28662,7 +28661,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="NAME" x="303.53" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="303.53" y="83.058" size="1.778" layer="96"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="231.14" y="187.96" smashed="yes" grouprefs="RADIO TP TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="231.14" y="187.96" smashed="yes" grouprefs="TP TESTPOINTS RADIO">
 <attribute name="NAME" x="232.41" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="231.14" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="231.14" y="187.96" size="1.778" layer="96" display="off"/>
@@ -28673,7 +28672,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="231.14" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="231.14" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="119.38" y="33.02" smashed="yes" grouprefs="EMMC TP TESTPOINTS">
+<instance part="SDIO-CK" gate="G$1" x="119.38" y="33.02" smashed="yes" grouprefs="TESTPOINTS TP EMMC">
 <attribute name="NAME" x="118.11" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="119.38" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="119.38" y="33.02" size="1.778" layer="96" display="off"/>
@@ -28684,7 +28683,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="119.38" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="119.38" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND" gate="G$1" x="238.76" y="25.4" smashed="yes" grouprefs="EMMC TP TESTPOINTS">
+<instance part="GND" gate="G$1" x="238.76" y="25.4" smashed="yes" grouprefs="TESTPOINTS TP EMMC">
 <attribute name="NAME" x="237.49" y="26.67" size="1.778" layer="95"/>
 <attribute name="BOM" x="238.76" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="238.76" y="25.4" size="1.778" layer="96" display="off"/>
@@ -28695,7 +28694,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="238.76" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="238.76" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="52.07" y="270.51" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -28706,7 +28705,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="BOOT0" gate="G$1" x="307.34" y="220.98" smashed="yes" grouprefs="SYSTEM TP">
+<instance part="BOOT0" gate="G$1" x="307.34" y="220.98" smashed="yes" grouprefs="TP SYSTEM">
 <attribute name="NAME" x="304.8" y="223.52" size="1.778" layer="95"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
@@ -28717,7 +28716,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="327.66" y="215.9" smashed="yes" grouprefs="SYSTEM TP TESTPOINTS">
+<instance part="NRST" gate="G$1" x="327.66" y="215.9" smashed="yes" grouprefs="TESTPOINTS TP SYSTEM">
 <attribute name="NAME" x="330.2" y="213.36" size="1.778" layer="95"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
@@ -28728,7 +28727,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="50.8" y="231.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -28739,7 +28738,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="231.14" y="210.82" smashed="yes" rot="MR0" grouprefs="RADIO TP TESTPOINTS">
+<instance part="SPI1-SCK" gate="G$1" x="231.14" y="210.82" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS RADIO">
 <attribute name="NAME" x="232.41" y="212.09" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="231.14" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="231.14" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -28750,7 +28749,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="231.14" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="231.14" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="231.14" y="203.2" smashed="yes" rot="MR0" grouprefs="RADIO TP TESTPOINTS">
+<instance part="SPI1-MISO" gate="G$1" x="231.14" y="203.2" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS RADIO">
 <attribute name="NAME" x="232.41" y="204.47" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="231.14" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="231.14" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -28761,7 +28760,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="231.14" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="231.14" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="231.14" y="195.58" smashed="yes" rot="MR0" grouprefs="RADIO TP TESTPOINTS">
+<instance part="SPI1-MOSI" gate="G$1" x="231.14" y="195.58" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS RADIO">
 <attribute name="NAME" x="232.41" y="196.85" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="231.14" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="231.14" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -30089,7 +30088,6 @@ All caps are 0603 and 10V DC or greater</text>
 Comparator C if Cap (C3) &lt; VT then !SD remains high (inactive)
 Comparator B if WDT &gt; VP then Cap (C8) is charged
 Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
-<text x="256.54" y="241.3" size="1.778" layer="97">***Diode was already in the library***</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -30162,10 +30160,6 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <instance part="GND50" gate="1" x="347.98" y="142.24" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="350.52" y="139.7" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R71" gate="G$1" x="307.34" y="233.68" smashed="yes">
-<attribute name="NAME" x="303.53" y="235.1786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="303.53" y="230.378" size="1.778" layer="96"/>
-</instance>
 <instance part="R74" gate="G$1" x="246.38" y="238.76" smashed="yes" rot="R270">
 <attribute name="NAME" x="247.8786" y="242.57" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="243.078" y="242.57" size="1.778" layer="96" rot="R270"/>
@@ -30190,27 +30184,27 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <attribute name="NAME" x="251.46" y="236.22" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="251.46" y="229.87" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R76" gate="G$1" x="274.32" y="228.6" smashed="yes" rot="R90">
-<attribute name="NAME" x="272.8214" y="224.79" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="277.622" y="224.79" size="1.778" layer="96" rot="R90"/>
+<instance part="R76" gate="G$1" x="370.84" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="369.3414" y="224.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="374.142" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R77" gate="G$1" x="274.32" y="218.44" smashed="yes" rot="R90">
-<attribute name="NAME" x="272.8214" y="214.63" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="277.622" y="214.63" size="1.778" layer="96" rot="R90"/>
+<instance part="R77" gate="G$1" x="370.84" y="218.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="369.3414" y="214.63" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="374.142" y="214.63" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R78" gate="G$1" x="284.48" y="208.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="282.9814" y="204.47" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="287.782" y="204.47" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="R79" gate="G$1" x="284.48" y="218.44" smashed="yes" rot="R90">
+<instance part="R78" gate="G$1" x="284.48" y="218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="282.9814" y="214.63" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="287.782" y="214.63" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND102" gate="1" x="274.32" y="210.82" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="276.86" y="208.28" size="1.778" layer="96" rot="MR0"/>
+<instance part="R79" gate="G$1" x="284.48" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="282.9814" y="224.79" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="287.782" y="224.79" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND103" gate="1" x="284.48" y="200.66" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="287.02" y="198.12" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND102" gate="1" x="370.84" y="210.82" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="373.38" y="208.28" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="GND103" gate="1" x="284.48" y="210.82" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="287.02" y="208.28" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U7" gate="_QUAD_COMPARATOR" x="312.42" y="193.04" smashed="yes">
 <attribute name="NAME" x="302.26" y="213.36" size="1.778" layer="95"/>
@@ -30553,19 +30547,6 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <pinref part="U7" gate="-D" pin="4IN-"/>
 </segment>
 </net>
-<net name="N$67" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="D7" gate="G$1" pin="-"/>
-<wire x1="256.54" y1="233.68" x2="261.62" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="R71" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="233.68" x2="274.32" y2="233.68" width="0.1524" layer="91"/>
-<junction x="261.62" y="233.68"/>
-<pinref part="R76" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="233.68" x2="302.26" y2="233.68" width="0.1524" layer="91"/>
-<junction x="274.32" y="233.68"/>
-</segment>
-</net>
 <net name="N$68" class="0">
 <segment>
 <pinref part="R75" gate="G$1" pin="1"/>
@@ -30582,33 +30563,36 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 </net>
 <net name="VIN" class="0">
 <segment>
-<pinref part="R71" gate="G$1" pin="2"/>
-<wire x1="312.42" y1="233.68" x2="312.42" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="215.9" x2="312.42" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="R63" gate="G$1" pin="2"/>
-<wire x1="347.98" y1="215.9" x2="347.98" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="208.28" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="208.28" x2="330.2" y2="208.28" width="0.1524" layer="91"/>
-<junction x="347.98" y="208.28"/>
-<wire x1="330.2" y1="208.28" x2="330.2" y2="167.64" width="0.1524" layer="91"/>
+<label x="271.78" y="233.68" size="1.778" layer="95"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="D7" gate="G$1" pin="-"/>
+<wire x1="256.54" y1="233.68" x2="261.62" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="R79" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="233.68" x2="284.48" y2="233.68" width="0.1524" layer="91"/>
+<junction x="261.62" y="233.68"/>
+<pinref part="R76" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="233.68" x2="337.82" y2="233.68" width="0.1524" layer="91"/>
+<junction x="284.48" y="233.68"/>
 <pinref part="R65" gate="G$1" pin="2"/>
+<wire x1="337.82" y1="233.68" x2="370.84" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="167.64" x2="347.98" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="215.9" x2="347.98" y2="215.9" width="0.1524" layer="91"/>
-<junction x="312.42" y="215.9"/>
-<label x="314.96" y="215.9" size="1.778" layer="95"/>
+<wire x1="330.2" y1="208.28" x2="330.2" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="R63" gate="G$1" pin="2"/>
+<wire x1="347.98" y1="208.28" x2="347.98" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="208.28" x2="337.82" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="208.28" x2="330.2" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="U7" gate="_QUAD_COMPARATOR" pin="V+"/>
+<wire x1="337.82" y1="233.68" x2="337.82" y2="208.28" width="0.1524" layer="91"/>
+<junction x="337.82" y="233.68"/>
+<junction x="337.82" y="208.28"/>
+<wire x1="330.2" y1="208.28" x2="312.42" y2="208.28" width="0.1524" layer="91"/>
+<junction x="330.2" y="208.28"/>
+<wire x1="312.42" y1="208.28" x2="312.42" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VT" class="0">
 <segment>
-<pinref part="R76" gate="G$1" pin="1"/>
-<pinref part="R77" gate="G$1" pin="2"/>
-<pinref part="R79" gate="G$1" pin="2"/>
-<wire x1="284.48" y1="223.52" x2="274.32" y2="223.52" width="0.1524" layer="91"/>
-<junction x="274.32" y="223.52"/>
-<label x="292.1" y="223.52" size="1.778" layer="95"/>
-<junction x="284.48" y="223.52"/>
-<wire x1="284.48" y1="223.52" x2="355.6" y2="223.52" width="0.1524" layer="91"/>
+<label x="355.6" y="223.52" size="1.778" layer="95"/>
 <wire x1="355.6" y1="223.52" x2="355.6" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="198.12" x2="360.68" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="198.12" x2="355.6" y2="162.56" width="0.1524" layer="91"/>
@@ -30618,17 +30602,21 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <label x="358.14" y="162.56" size="1.778" layer="95"/>
 <pinref part="U7" gate="-C" pin="3IN+"/>
 <pinref part="U7" gate="-D" pin="4IN+"/>
+<pinref part="R76" gate="G$1" pin="1"/>
+<pinref part="R77" gate="G$1" pin="2"/>
+<wire x1="355.6" y1="223.52" x2="370.84" y2="223.52" width="0.1524" layer="91"/>
+<junction x="370.84" y="223.52"/>
 </segment>
 </net>
 <net name="VP" class="0">
 <segment>
 <pinref part="R78" gate="G$1" pin="2"/>
 <pinref part="R79" gate="G$1" pin="1"/>
-<wire x1="284.48" y1="213.36" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
-<junction x="284.48" y="213.36"/>
-<label x="292.1" y="213.36" size="1.778" layer="95"/>
+<wire x1="284.48" y1="223.52" x2="294.64" y2="223.52" width="0.1524" layer="91"/>
+<junction x="284.48" y="223.52"/>
+<label x="294.64" y="223.52" size="1.778" layer="95"/>
 <wire x1="299.72" y1="198.12" x2="294.64" y2="198.12" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="198.12" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="198.12" x2="294.64" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="198.12" x2="294.64" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="152.4" x2="299.72" y2="152.4" width="0.1524" layer="91"/>
 <junction x="294.64" y="198.12"/>
