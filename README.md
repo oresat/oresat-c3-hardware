@@ -18,6 +18,18 @@ OPD connected boards.
 
 ![Breadboard Prototype](prototype.jpg)
 
+## Capstone Project
+The current Revision 3 for the C3 card implements an
+STM32F446VET6 development board schematic. Has has limited testing. It is 
+currently capable of interfacing with and activating the OPD connected
+boards as previous models could.
+
+![Revision 3](oresat-c3.png)
+
+
+Further Documentation for the Capstone project, available here:
+[oresat C3 docs](https://drive.google.com/open?id=1Un2p3h_Q7atn-QL2-gCIlfyMp1jt3sK1)
+
 ## Firmware
 The firmware for the C3 card is integrated into the
 [oresat-firmware](https://github.com/oresat/oresat-firmware) repository.
