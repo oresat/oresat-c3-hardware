@@ -22599,7 +22599,7 @@ Source: http://www.onsemi.com/pub_link/Collateral/MBRA340T3-D.PDF</description>
 <description>Connectors</description>
 <plain>
 <text x="341.63" y="26.67" size="3.81" layer="94">oresat-c3-prototype</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">V2</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">V3</text>
 <text x="50.8" y="142.24" size="2.54" layer="97" rot="R90">Main OreSat Card Connector</text>
 <text x="314.96" y="186.69" size="3.81" layer="97">RF connections and test points</text>
 <text x="116.84" y="180.34" size="1.778" layer="97">OreSat Power Domain signals
@@ -23115,7 +23115,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="236.22" y1="254" x2="236.22" y2="179.07" width="0.1524" layer="97"/>
 <wire x1="236.22" y1="179.07" x2="127" y2="179.07" width="0.1524" layer="97"/>
 <wire x1="127" y1="179.07" x2="127" y2="254" width="0.1524" layer="97"/>
-<text x="416.56" y="6.35" size="3.81" layer="94">V2</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">V3</text>
 <text x="13.97" y="246.126" size="1.778" layer="97">Vbus = (6.0,7.2,8.4)V
 Switch is off for VBUS &lt; 5 V (undervoltage lock out)
 VBUSP is limited to 302mA by R6
@@ -24418,7 +24418,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <description>L Band</description>
 <plain>
 <text x="330.2" y="25.4" size="5.08" layer="94">L Band Receiver</text>
-<text x="417.576" y="6.604" size="5.08" layer="94">V2</text>
+<text x="417.576" y="6.604" size="5.08" layer="94">V3</text>
 <text x="405.13" y="89.916" size="2.54" layer="97">LO Out</text>
 <text x="118.11" y="131.064" size="2.54" layer="97" rot="MR0">PWR</text>
 <text x="220.98" y="81.28" size="2.159" layer="97">1.8V LDO</text>
@@ -26793,7 +26793,7 @@ Diplexer</text>
 <description>UHF Band</description>
 <plain>
 <text x="-73.66" y="73.66" size="5.08" layer="94">70 cm Transceiver</text>
-<text x="13.716" y="54.864" size="5.08" layer="94">V2</text>
+<text x="13.716" y="54.864" size="5.08" layer="94">V3</text>
 <text x="-214.63" y="127" size="2.54" layer="97">Rx</text>
 <text x="-187.96" y="97.79" size="2.54" layer="97">Tx</text>
 <text x="-220.98" y="60.96" size="2.54" layer="97">Opperating Freq:
