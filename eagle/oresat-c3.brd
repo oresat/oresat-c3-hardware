@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -191,7 +191,7 @@
 <text x="96.6" y="12.4" size="2" layer="21" font="vector" ratio="20" rot="R90">OreSat C3 v3.0</text>
 <text x="96.7" y="37.1" size="2" layer="21" font="vector" ratio="20" rot="R90">2020/05/16</text>
 <text x="27.1" y="81.6" size="0.635" layer="21" font="vector" ratio="20">OPD</text>
-<text x="7.7" y="80.1" size="0.635" layer="21" font="vector" ratio="20">VBUSP</text>
+<text x="7.7" y="79.9" size="0.635" layer="21" font="vector" ratio="20">VBUSP</text>
 <text x="21.05" y="9.43" size="0.635" layer="21" font="vector" ratio="20" rot="R180">eMMC</text>
 <text x="74.9124" y="31.3756" size="0.635" layer="21" font="vector" ratio="20" rot="SR0">Rx</text>
 <wire x1="93.99" y1="81.71" x2="94" y2="5" width="0.127" layer="25"/>
@@ -446,7 +446,12 @@
 <rectangle x1="43.8" y1="58.6" x2="44.5" y2="61" layer="29"/>
 <rectangle x1="48.4" y1="31.3" x2="49.2" y2="31.9" layer="29"/>
 <rectangle x1="47" y1="27.7" x2="49.2" y2="27.8" layer="29"/>
-<text x="7.7" y="82" size="0.635" layer="21" font="vector" ratio="20">WDT</text>
+<text x="7.7" y="81.8" size="0.635" layer="21" font="vector" ratio="20">WDT</text>
+<text x="7.7" y="78" size="0.635" layer="21" font="vector" ratio="20">3.3V</text>
+<text x="30.1" y="27" size="0.635" layer="21" font="vector" ratio="20" rot="R180">!LO-SEN</text>
+<text x="30.2" y="24.5" size="0.635" layer="21" font="vector" ratio="20" rot="R180">LO-SCLK</text>
+<text x="30.2" y="22" size="0.635" layer="21" font="vector" ratio="20" rot="R180">LO-SDATA</text>
+<text x="30.2" y="19.4" size="0.635" layer="21" font="vector" ratio="20" rot="R180">LO-PLL</text>
 </plain>
 <libraries>
 <library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
@@ -3587,59 +3592,57 @@ www.irf.com&lt;p&gt;
 </library>
 <library name="oresat-debug-connector">
 <packages>
-<package name="TE_2-1734592-0">
+<package name="WURTH_687120183622">
 <wire x1="6.5" y1="-1.5" x2="-6.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="6.5" y1="-1.5" x2="6.5" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-6.5" y1="-1.5" x2="-6.5" y2="1.3" width="0.127" layer="51"/>
-<wire x1="6.5" y1="1.3" x2="7.71" y2="1.3" width="0.127" layer="51"/>
-<wire x1="7.71" y1="1.3" x2="7.71" y2="2.9" width="0.127" layer="51"/>
-<wire x1="7.71" y1="2.9" x2="-7.71" y2="2.9" width="0.127" layer="21"/>
-<wire x1="-6.5" y1="1.3" x2="-7.71" y2="1.3" width="0.127" layer="51"/>
-<wire x1="-7.71" y1="1.3" x2="-7.71" y2="2.9" width="0.127" layer="51"/>
-<wire x1="7.71" y1="1.8" x2="7.71" y2="2.9" width="0.127" layer="21"/>
-<wire x1="7.71" y1="2.9" x2="-7.71" y2="2.9" width="0.127" layer="51"/>
-<wire x1="-7.9" y1="4.9" x2="-7.9" y2="-1.8" width="0.05" layer="39"/>
-<wire x1="-5" y1="-2.3" x2="5" y2="-2.3" width="0.05" layer="39"/>
-<wire x1="7.9" y1="-1.8" x2="7.9" y2="4.9" width="0.05" layer="39"/>
-<wire x1="7.9" y1="4.9" x2="-7.9" y2="4.9" width="0.05" layer="39"/>
-<wire x1="-7.71" y1="2.9" x2="-7.71" y2="1.8" width="0.127" layer="21"/>
-<text x="5.5" y="-2.6" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="5.5" y="-3.5" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="6.5" y1="-1.5" x2="6.5" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="-1.5" x2="-6.5" y2="1.4" width="0.127" layer="51"/>
+<wire x1="6.5" y1="1.4" x2="7.85" y2="1.4" width="0.127" layer="51"/>
+<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="51"/>
+<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-6.5" y1="1.4" x2="-7.85" y2="1.4" width="0.127" layer="51"/>
+<wire x1="-7.85" y1="1.4" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
+<wire x1="7.85" y1="1.4" x2="7.85" y2="2.3" width="0.127" layer="21"/>
+<wire x1="7.85" y1="2.3" x2="-7.85" y2="2.3" width="0.127" layer="51"/>
+<wire x1="-8" y1="4.3" x2="-8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-5.1" y1="-2.6" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="8" y1="-0.9" x2="8" y2="4.3" width="0.05" layer="39"/>
+<wire x1="8" y1="4.3" x2="-8" y2="4.3" width="0.05" layer="39"/>
+<wire x1="-7.85" y1="2.3" x2="-7.85" y2="1.4" width="0.127" layer="21"/>
+<text x="5.6" y="-2.5" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="5.6" y="-3.4" size="0.635" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <circle x="-4.779" y="-2.589" radius="0.1" width="0.2" layer="21"/>
-<smd name="1" x="-4.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="2" x="-4.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="3" x="-3.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="4" x="-3.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="5" x="-2.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="-2.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="-1.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="8" x="-1.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="9" x="-0.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="10" x="-0.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="11" x="0.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="0.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="13" x="1.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="14" x="1.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="15" x="2.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="16" x="2.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="17" x="3.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="18" x="3.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="19" x="4.25" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="20" x="4.75" y="-1.7" dx="1.1" dy="0.3" layer="1" rot="R90"/>
-<smd name="PAD1" x="6.42" y="0" dx="2.3" dy="3.1" layer="1" rot="R180" cream="no"/>
-<smd name="PAD2" x="-6.42" y="0" dx="2.3" dy="3.1" layer="1" rot="R180" cream="no"/>
-<rectangle x1="-7.2" y1="-1.1" x2="-5.6" y2="1.1" layer="31"/>
-<rectangle x1="5.7" y1="-1.1" x2="7.3" y2="1.1" layer="31"/>
-<wire x1="-5.3" y1="3.1" x2="-5.3" y2="3.9" width="0.127" layer="51"/>
-<wire x1="5.3" y1="3.1" x2="5.3" y2="3.9" width="0.127" layer="51"/>
-<wire x1="7.9" y1="-1.8" x2="6.8" y2="-1.8" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-1.8" x2="6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="6.8" y1="-2" x2="5" y2="-2" width="0.05" layer="39"/>
-<wire x1="5" y1="-2" x2="5" y2="-2.3" width="0.05" layer="39"/>
-<wire x1="-5" y1="-2.3" x2="-5" y2="-2" width="0.05" layer="39"/>
-<wire x1="-5" y1="-2" x2="-6.8" y2="-2" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-2" x2="-6.8" y2="-1.8" width="0.05" layer="39"/>
-<wire x1="-6.8" y1="-1.8" x2="-7.9" y2="-1.8" width="0.05" layer="39"/>
+<smd name="1" x="-4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="-4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="-3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="5" x="-2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="-2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="-1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="-1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="9" x="-0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="10" x="-0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="11" x="0.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="0.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="1.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="1.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="15" x="2.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="16" x="2.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="17" x="3.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="18" x="3.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="19" x="4.25" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="20" x="4.75" y="-1.9" dx="1" dy="0.3" layer="1" rot="R90"/>
+<smd name="PAD1" x="7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
+<smd name="PAD2" x="-7" y="0" dx="1.65" dy="1.3" layer="1" rot="R180" cream="no"/>
+<wire x1="-5.3" y1="2.5" x2="-5.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="5.3" y1="2.5" x2="5.3" y2="3.3" width="0.127" layer="51"/>
+<wire x1="8" y1="-0.9" x2="6.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="6.8" y1="-0.9" x2="6.8" y2="-2" width="0.05" layer="39"/>
+<wire x1="6.8" y1="-2" x2="5.1" y2="-2" width="0.05" layer="39"/>
+<wire x1="5.1" y1="-2" x2="5.1" y2="-2.6" width="0.05" layer="39"/>
+<wire x1="-5.1" y1="-2.6" x2="-5.1" y2="-2" width="0.05" layer="39"/>
+<wire x1="-5.1" y1="-2" x2="-6.8" y2="-2" width="0.05" layer="39"/>
+<wire x1="-6.8" y1="-2" x2="-6.8" y2="-0.9" width="0.05" layer="39"/>
+<wire x1="-6.8" y1="-0.9" x2="-8" y2="-0.9" width="0.05" layer="39"/>
 </package>
 </packages>
 </library>
@@ -4564,14 +4567,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="14.5" y="77.6" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.577" y="77.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R2" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="2.7k" x="10.4" y="78.4" smashed="yes">
-<attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="10.4" y="78.4" size="1.778" layer="27" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" x="10.4" y="78.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER" value="Bourns" x="10.4" y="78.4" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="10.4" y="78.4" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.4" y="78.4" size="0.2" layer="33" ratio="15" align="center"/>
-<attribute name="NAME" x="11.5" y="78.1" size="0.635" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="9.3" y="79.077" size="0.8" layer="27" font="vector" ratio="15"/>
+<element name="R2" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="2.7k" x="10.9" y="78.4" smashed="yes">
+<attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film" x="10.9" y="78.4" size="1.778" layer="27" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND" x="10.9" y="78.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER" value="Bourns" x="10.9" y="78.4" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CR0603-FX-2701ELF" x="10.9" y="78.4" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="10.9" y="78.4" size="0.2" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="10" y="79" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="9.8" y="79.077" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="J6" library="J-Samtec-TFM-120-X1-XXX-D-RA" package="J-SAMTEC-TFM-120-X1-XXX-D-RA" value="J-SAMTEC-TFM-120-X1-XXX-D-RA" x="49.9" y="87.994" locked="yes" smashed="yes">
 <attribute name="DESCRIPTION" value="Connector Header Through Hole, Right Angle 40 position 0.050&quot; (1.27mm)" x="49.9" y="87.994" size="1.778" layer="27" display="off"/>
@@ -4941,8 +4944,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="56" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="56" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="56" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="56.8" y="17.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="56" y="20.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="56.8" y="17.4" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VDC" value="" x="56" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C52" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7u" x="54.9" y="20.1" smashed="yes" rot="R270">
@@ -4970,8 +4973,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="54.1" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="54.1" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="54.1" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="54.523" y="14.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="54.1" y="16.9" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="54.523" y="14.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VDC" value="" x="54.1" y="16.9" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C55" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7u" x="53" y="16.9" smashed="yes" rot="R90">
@@ -5149,8 +5152,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="85.9" y="17" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="85.6" y="20.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="85.9" y="17" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VDC" value="" x="85.6" y="20.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C68" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7u" x="84.5" y="20.1" smashed="yes" rot="R270">
@@ -5178,8 +5181,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="83.63" y="14.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="83.4" y="17" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="83.63" y="14.1" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VDC" value="" x="83.4" y="17" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C71" library="oresat-rcl" package=".0603-C-NOSILK" value="4.7u" x="82.3" y="17" smashed="yes" rot="R90">
@@ -5308,7 +5311,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER_PART_NUMBER" value="TYKTBLSANF-16.000000" x="83.1" y="22.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="82.675" y="23.9905" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="J5" library="oresat-debug-connector" package="TE_2-1734592-0" value="ORESAT-DEBUG-CONNECTOR-CARD" x="29.78" y="7.8906625" smashed="yes" rot="R180">
+<element name="J5" library="oresat-debug-connector" package="WURTH_687120183622" value="ORESAT-DEBUG-CONNECTOR-SOLAR" x="29.78" y="7.8906625" smashed="yes" rot="R180">
 <attribute name="DESCRIPTION" value="20 Position FPC Connector Contacts, Bottom 0.020&quot; (0.50mm) Surface Mount, Right Angle" x="29.78" y="7.8906625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="A100287CT-ND" x="29.78" y="7.8906625" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="29.78" y="7.8906625" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5442,8 +5445,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="38.6" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="38.6" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="38.6" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="38.977" y="33.1" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="38.6" y="30.3" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="38.977" y="33.1" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VDC" value="" x="38.6" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C74" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="NP" x="40.1" y="30.3" smashed="yes" rot="R90">
@@ -5455,8 +5458,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="40.1" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="40.1" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="40.1" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="40.539" y="33.076" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="40.1" y="30.3" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="40.539" y="33.076" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VDC" value="" x="40.1" y="30.3" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C37" library="oresat-rcl" package=".0603-B-NOSILK" value="22n" x="39.5" y="16.4" smashed="yes" rot="R180">
@@ -5586,8 +5589,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1598-1-ND" x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C030CB5NNNC " x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
-<attribute name="NAME" x="36.2" y="41.6" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="NAME" x="38.751171875" y="41.149609375" size="0.2" layer="33" ratio="15" rot="R359.8" align="center"/>
+<attribute name="NAME" x="36.2" y="41.6" size="0.635" layer="25" font="vector" ratio="20" rot="R359.8"/>
 <attribute name="VALUE" x="37.9464625" y="39.802409375" size="0.8" layer="27" font="vector" ratio="15" rot="R359.8"/>
 <attribute name="VDC" value="50V" x="38.751171875" y="41.149609375" size="1.778" layer="27" rot="R359.8" display="off"/>
 </element>
@@ -5747,8 +5750,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="55.7" y="68.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="55.7" y="68.8" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="55.7" y="68.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="57.05" y="68.827" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="55.7" y="68.8" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="57.05" y="68.827" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VDC" value="" x="55.7" y="68.8" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C76" library="oresat-rcl" package=".0603-C-NOSILK" value="0.047u" x="55.714" y="69.933" smashed="yes">
@@ -5759,8 +5762,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="55.714" y="69.933" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10B473KB8NNNC" x="55.714" y="69.933" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="55.714" y="69.933" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="54.683" y="70.513" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="55.914" y="69.943" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="54.683" y="70.513" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VDC" value="50V" x="55.714" y="69.933" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C75" library="oresat-rcl" package=".0603-C-NOSILK" value="1u" x="55.734" y="71.953" smashed="yes">
@@ -5780,8 +5783,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="63.3" y="71.3" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10B473KB8NNNC" x="63.3" y="71.3" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="63.3" y="71.3" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="64.1" y="69.777" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="63.24" y="71.18" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="64.1" y="69.777" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VDC" value="50V" x="63.3" y="71.3" size="1.778" layer="27" display="off"/>
 </element>
 <element name="L20" library="oresat-rcl" package=".0603-C-NOSILK" value="0.047u" x="61" y="71.3" smashed="yes">
@@ -5893,8 +5896,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="50" y="60.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10B473KB8NNNC" x="50" y="60.7" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="50" y="60.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51.9" y="60.377" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="50" y="60.7" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="51.9" y="60.377" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VDC" value="50V" x="50" y="60.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C83" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="NP" x="50" y="57.7" smashed="yes">
@@ -5906,8 +5909,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="50" y="57.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="" x="50" y="57.7" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="50" y="57.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="51.9" y="57.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="50" y="57.7" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="51.9" y="57.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VDC" value="" x="50" y="57.7" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C82" library="oresat-rcl" package=".0603-B-NOSILK" value="1u" x="50" y="59.2" smashed="yes">
@@ -6001,8 +6004,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-2172-1-ND" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10C103JA8NNNC" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="85.9" y="25.75" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="86.7" y="25.1" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="85.9" y="25.75" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="85.7" y="23.55" size="0.8" layer="27" font="vector" ratio="15"/>
 <attribute name="VDC" value="25V" x="86.7" y="25.1" size="1.778" layer="27" display="off"/>
 </element>
@@ -6011,8 +6014,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="89.85" y="19.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="NAME" x="90.5" y="21.1" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="89.85" y="19.5" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="VALUE" x="88.95" y="22.1" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 <attribute name="VDC" value="25V" x="90.5" y="21.1" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -6158,8 +6161,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C102JB5NNNC" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="83.751" y="74.672" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="84.573" y="75.922" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="83.751" y="74.672" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VDC" value="50V" x="83.751" y="74.672" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R52" library="C3_SamacSys_Parts" package=".0603-C-NOSILK" value="5.6k" x="89" y="70.3" smashed="yes" rot="R90">
@@ -6211,8 +6214,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C102JB5NNNC" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="91.1" y="60.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="89.336" y="59.22" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="91.1" y="60.4" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VDC" value="50V" x="91.1" y="60.4" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C102" library="oresat-rcl" package=".0402-C-NOSILK" value="100p" x="90.107" y="51.89" smashed="yes" rot="R270">
@@ -6296,8 +6299,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1709-1-ND" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C561JB5NNNC" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="87.807" y="52.19" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="88.257" y="52.69" size="0.635" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="NAME" x="87.807" y="52.19" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="86.357" y="52.89" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 <attribute name="VDC" value="50V" x="87.607" y="52.19" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -6322,8 +6325,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-5N6XGLW" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-5N6XGLW" x="92.35" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="92.35" y="67.05" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="95.223" y="66.702" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="92.35" y="67.05" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="93.05" y="68.3" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="L27" library="oresat-rcl" package=".0402-C-NOSILK" value="68n" x="91.1" y="64.9" smashed="yes" rot="R270">
@@ -6334,8 +6337,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HPH-68NXGLW" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HPH-68NXGLW" x="91.1" y="64.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="91.1" y="64.9" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="94.773" y="63.802" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="91.1" y="64.9" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="91.45" y="66.6" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C96" library="oresat-rcl" package=".0402-C-NOSILK" value="24p" x="89.85" y="67.05" smashed="yes" rot="R180">
@@ -6343,8 +6346,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1670-1-ND" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="89.85" y="67.05" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="86.721" y="66.775" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="89.85" y="67.05" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="90.55" y="68.3" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 <attribute name="VDC" value="50V" x="89.85" y="67.05" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6353,8 +6356,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1006-2-ND" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0402CRNPO9BN2R0" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="91.1" y="66.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="94.796" y="65.904" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="91.1" y="66.6" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="89.85" y="67.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 <attribute name="VDC" value="50V" x="91.1" y="66.6" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -6363,8 +6366,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1670-1-ND" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="92.35" y="64.45" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="94.923" y="64.102" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="92.35" y="64.45" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="91.65" y="63.2" size="0.8" layer="27" font="vector" ratio="15"/>
 <attribute name="VDC" value="50V" x="92.35" y="64.45" size="1.778" layer="27" display="off"/>
 </element>
@@ -6376,8 +6379,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-5N6XGLW" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-5N6XGLW" x="89.85" y="64.45" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="89.85" y="64.45" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="86.623" y="64.202" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="89.85" y="64.45" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="89.15" y="63.2" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="L29" library="oresat-rcl" package=".0402-C-NOSILK" value="5.6n" x="91.308" y="47.594" smashed="yes" rot="R180">
@@ -6388,8 +6391,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-5N6XGLW" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-5N6XGLW" x="91.308" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="91.308" y="47.594" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="92.9" y="47.3" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="91.308" y="47.594" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="92.008" y="48.844" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
 <element name="L30" library="oresat-rcl" package=".0402-C-NOSILK" value="68n" x="90.108" y="45.544" smashed="yes" rot="R270">
@@ -6400,8 +6403,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HPH-68NXGLW" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HPH-68NXGLW" x="90.108" y="45.544" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="90.108" y="45.544" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="85.658" y="44.744" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="90.108" y="45.544" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="88.858" y="46.244" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C108" library="oresat-rcl" package=".0402-C-NOSILK" value="24p" x="88.908" y="47.594" smashed="yes" rot="R180">
@@ -6409,8 +6412,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1670-1-ND" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="88.908" y="47.594" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="NAME" x="85.144" y="47.192" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="88.908" y="47.594" size="0.2" layer="33" ratio="15" rot="R180" align="center"/>
 <attribute name="VALUE" x="89.608" y="48.844" size="0.8" layer="27" font="vector" ratio="15" rot="R180"/>
 <attribute name="VDC" value="50V" x="88.908" y="47.594" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6419,8 +6422,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1006-2-ND" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="Yageo" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0402CRNPO9BN2R0" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="90.108" y="47.144" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="93.5" y="45" size="0.635" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="NAME" x="90.108" y="47.144" size="0.2" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="88.858" y="47.844" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 <attribute name="VDC" value="50V" x="90.108" y="47.144" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -6429,8 +6432,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1670-1-ND" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C240JB5NNNC" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="91.308" y="45.094" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="91.508" y="43.344" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="91.308" y="45.094" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="90.608" y="43.844" size="0.8" layer="27" font="vector" ratio="15"/>
 <attribute name="VDC" value="50V" x="91.308" y="45.094" size="1.778" layer="27" display="off"/>
 </element>
@@ -6442,8 +6445,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-5N6XGLW" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-5N6XGLW" x="88.908" y="45.094" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="88.908" y="45.094" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="86" y="44.8" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="88.908" y="45.094" size="0.2" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="88.208" y="43.844" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="U28" library="U-TI-LP2985AIM5-3.3_NOPB-3.3V-Fixed-LDO" package="SOT-23" value="LP2985AIM5-3.3_NOPB" x="87.3" y="15.3" smashed="yes" rot="R90">
@@ -6755,8 +6758,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="445-5959-1-ND" x="30.4" y="48.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="TDK" x="30.4" y="48.5" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="C1608X7R1A225M080AC" x="30.4" y="48.5" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.53" y="48.135" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="30.4" y="48.5" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="31.53" y="48.135" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="29.13" y="47.23" size="0.635" layer="27" font="vector" ratio="20"/>
 <attribute name="VDC" value="10V" x="30.4" y="48.5" size="1.778" layer="27" display="off"/>
 </element>
@@ -6765,8 +6768,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="30.4" y="49.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="30.4" y="49.7" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="30.4" y="49.7" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="31.53" y="49.335" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="30.4" y="49.7" size="0.3" layer="33" ratio="15" align="center"/>
+<attribute name="NAME" x="31.53" y="49.335" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="29.13" y="48.43" size="0.635" layer="27" font="vector" ratio="20"/>
 <attribute name="VDC" value="10V" x="30.4" y="49.7" size="1.778" layer="27" display="off"/>
 </element>
@@ -6775,8 +6778,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="14.1" y="53.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="14.1" y="53.4" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="14.1" y="53.4" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="13.7" y="54.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="14.1" y="53.4" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
+<attribute name="NAME" x="13.7" y="54.5" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="15.37" y="52.13" size="0.635" layer="27" font="vector" ratio="20" rot="R90"/>
 <attribute name="VDC" value="10V" x="14.1" y="53.4" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -6785,8 +6788,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="9.6" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="9.6" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="9.6" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.5" y="38.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="9.6" y="38.5" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="8.5" y="38.9" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="10.87" y="39.77" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="VDC" value="10V" x="9.6" y="38.5" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6795,8 +6798,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="15.1" y="33.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="15.1" y="33.2" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="15.1" y="33.2" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="15.5" y="32.1" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="15.1" y="33.2" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="15.5" y="32.1" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="13.83" y="34.47" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="VDC" value="10V" x="15.1" y="33.2" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -6805,8 +6808,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="26.7" y="32.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="26.7" y="32.9" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="26.7" y="32.9" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="28" y="31.8" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="26.7" y="32.9" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
+<attribute name="NAME" x="28" y="31.8" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="25.43" y="34.17" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="VDC" value="10V" x="26.7" y="32.9" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -6815,8 +6818,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="9.4" y="45.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="9.4" y="45.4" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="9.4" y="45.4" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.3" y="45.8" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="9.4" y="45.4" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="8.3" y="45.8" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="10.67" y="46.67" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="VDC" value="10V" x="9.4" y="45.4" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6825,8 +6828,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="9.6" y="37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="9.6" y="37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="9.6" y="37" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.5" y="37.4" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="9.6" y="37" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="8.5" y="37.4" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="10.87" y="38.27" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="VDC" value="10V" x="9.6" y="37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6835,8 +6838,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="478-0603ZD104KAT2ACT-ND" x="9.6" y="40" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="AVX" x="9.6" y="40" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A" x="9.6" y="40" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="8.5" y="40.4" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="9.6" y="40" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="8.5" y="40.4" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="10.87" y="41.27" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="VDC" value="10V" x="9.6" y="40" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -6907,8 +6910,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="490-13362-2-ND" x="10.5" y="84.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="10.5" y="84.3" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188C81C475KE11D" x="10.5" y="84.3" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="10.5" y="84.3" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="NAME" x="10.9" y="83.2" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="10.5" y="84.3" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="9.23" y="85.57" size="0.635" layer="27" font="vector" ratio="20" rot="R270"/>
 <attribute name="VDC" value="16V" x="10.5" y="84.3" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -6917,8 +6920,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="490-13362-2-ND" x="10.7" y="91.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_NAME" value="Murata Electronics" x="10.7" y="91.8" size="1.778" layer="27" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM188C81C475KE11D" x="10.7" y="91.8" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="10.7" y="91.8" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="NAME" x="9.8" y="92.4" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="10.7" y="91.8" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="9.43" y="90.53" size="0.635" layer="27" font="vector" ratio="20"/>
 <attribute name="VDC" value="16V" x="10.7" y="91.8" size="1.778" layer="27" display="off"/>
 </element>
@@ -7190,8 +7193,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="GRM1885C1H200JA01J-ND" x="7.3" y="49.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="7.3" y="49.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM1885C1H200JA01J" x="7.3" y="49.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.2" y="50" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="7.3" y="49.6" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="6.2" y="50" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="8.57" y="50.87" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="VDC" value="50V" x="7.3" y="49.6" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7200,8 +7203,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="DIGI-KEY_PART_NUMBER" value="GRM1885C1H200JA01J-ND" x="7.3" y="47.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="Murata Electronics" x="7.3" y="47.2" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="GRM1885C1H200JA01J" x="7.3" y="47.2" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="6.2" y="47.6" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="NAME" x="7.3" y="47.2" size="0.3" layer="33" ratio="15" rot="R180" align="center"/>
+<attribute name="NAME" x="6.2" y="47.6" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="VALUE" x="8.57" y="48.47" size="0.635" layer="27" font="vector" ratio="20" rot="R180"/>
 <attribute name="VDC" value="50V" x="7.3" y="47.2" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
@@ -7397,7 +7400,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="44.8" y="20.4"/>
 </polygon>
 <via x="29.3" y="8.5" extent="1-16" drill="0.254"/>
-<wire x1="29.53" y1="9.5906625" x2="29.53" y2="8.73" width="0.3048" layer="1"/>
+<wire x1="29.53" y1="9.7906625" x2="29.53" y2="8.73" width="0.3048" layer="1"/>
 <wire x1="29.53" y1="8.73" x2="29.3" y2="8.5" width="0.3048" layer="1"/>
 <wire x1="42.6226" y1="20.1056" x2="43.3944" y2="20.1056" width="0.3048" layer="1"/>
 <wire x1="43.3944" y1="20.1056" x2="43.4" y2="20.1" width="0.3048" layer="1"/>
@@ -7564,8 +7567,94 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.6" y1="45.4" x2="10.1" y2="45.4" width="0.3048" layer="1"/>
 <wire x1="12.362" y1="39.5" x2="11.1" y2="39.5" width="0.3048" layer="1"/>
 <via x="11.1" y="39.5" extent="1-16" drill="0.254"/>
-<via x="11.9" y="78.4" extent="1-16" drill="0.254"/>
-<wire x1="11.1" y1="78.4" x2="11.9" y2="78.4" width="0.3048" layer="1"/>
+<via x="12.7" y="78.4" extent="1-16" drill="0.254"/>
+<wire x1="11.6" y1="78.4" x2="12.7" y2="78.4" width="0.3048" layer="1"/>
+<wire x1="24.3" y1="87.8" x2="33.7" y2="88.3" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="78.4" x2="23.5" y2="87.8" width="0" layer="19" extent="1-1"/>
+<wire x1="6.9" y1="76.3" x2="11.6" y2="78.4" width="0" layer="19" extent="1-1"/>
+<wire x1="6.9" y1="73.7" x2="6.9" y2="76.3" width="0" layer="19" extent="1-1"/>
+<wire x1="6.9" y1="72.8" x2="6.9" y2="73.7" width="0" layer="19" extent="1-1"/>
+<wire x1="6.9" y1="72.1" x2="6.9" y2="72.8" width="0" layer="19" extent="1-1"/>
+<wire x1="6.9" y1="71.4" x2="6.9" y2="72.1" width="0" layer="19" extent="1-1"/>
+<wire x1="6.9" y1="70.7" x2="6.9" y2="71.4" width="0" layer="19" extent="1-1"/>
+<wire x1="6.9" y1="70" x2="6.9" y2="70.7" width="0" layer="19" extent="1-1"/>
+<wire x1="8.025" y1="73.725" x2="6.9" y2="73.7" width="0" layer="19" extent="1-1"/>
+<wire x1="7.125" y1="68.6" x2="6.9" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="20.7" y1="60.2" x2="7.125" y2="68.6" width="0" layer="19" extent="1-1"/>
+<wire x1="20.7" y1="58.7" x2="20.7" y2="60.2" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="52.7" x2="19.775" y2="56.9" width="0" layer="19" extent="1-1"/>
+<wire x1="13.8" y1="47" x2="14.1" y2="51.238" width="0" layer="19" extent="1-1"/>
+<wire x1="12.362" y1="44.5" x2="12.362" y2="47" width="0" layer="19" extent="1-1"/>
+<wire x1="12.362" y1="40.5" x2="12.362" y2="44.5" width="0" layer="19" extent="1-1"/>
+<wire x1="11.1" y1="39.5" x2="11.1" y2="40.3" width="0" layer="19" extent="1-1"/>
+<wire x1="12.362" y1="39" x2="12.362" y2="39.5" width="0" layer="19" extent="1-1"/>
+<wire x1="10.3" y1="40" x2="11.1" y2="40.3" width="0" layer="19" extent="1-1"/>
+<wire x1="10.3" y1="38.5" x2="11.1" y2="38.8" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7" y1="39.2" x2="10.3" y2="38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="9.7" y1="37.7" x2="10.3" y2="38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="10.3" y1="37" x2="9.7" y2="37.7" width="0" layer="19" extent="1-1"/>
+<wire x1="10.4" y1="36.1" x2="10.3" y2="37" width="0" layer="19" extent="1-1"/>
+<wire x1="15.1" y1="35.762" x2="12.362" y2="39" width="0" layer="19" extent="1-1"/>
+<wire x1="15.93" y1="29.394" x2="15.1" y2="33.9" width="0" layer="19" extent="1-1"/>
+<wire x1="14.7" y1="26.2" x2="16.946" y2="27.997" width="0" layer="19" extent="1-1"/>
+<wire x1="22.153" y1="27.362" x2="16.946" y2="27.997" width="0" layer="19" extent="1-1"/>
+<wire x1="8.691" y1="28.124" x2="13.798" y2="26.2452" width="0" layer="19" extent="1-1"/>
+<wire x1="26.7" y1="33.6" x2="22.153" y2="27.362" width="0" layer="19" extent="1-1"/>
+<wire x1="27.6" y1="33.6" x2="26.7" y2="33.6" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3" y1="15.6" x2="22.026" y2="25.076" width="0" layer="19" extent="1-1"/>
+<wire x1="24.1" y1="15.6" x2="23.3" y2="15.6" width="0" layer="19" extent="1-1"/>
+<wire x1="23.25" y1="14.4" x2="23.3" y2="15.6" width="0" layer="19" extent="1-1"/>
+<wire x1="24.1" y1="14.4" x2="23.25" y2="14.4" width="0" layer="19" extent="1-1"/>
+<wire x1="24.1" y1="13.3" x2="24.1" y2="14.4" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3" y1="13.3" x2="24.1" y2="13.3" width="0" layer="19" extent="1-1"/>
+<wire x1="29.53" y1="9.7906625" x2="24.1" y2="13.3" width="0" layer="19" extent="1-1"/>
+<wire x1="37.1" y1="29.5" x2="27.6" y2="33.6" width="0" layer="19" extent="1-1"/>
+<wire x1="37.1" y1="28.6" x2="37.1" y2="29.5" width="0" layer="19" extent="1-1"/>
+<wire x1="37.7" y1="28.6" x2="37.1" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="38.3" y1="28.6" x2="37.7" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="38.9" y1="28.6" x2="38.3" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="39.5" y1="28.6" x2="38.9" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="28.6" x2="39.5" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="40.7" y1="28.6" x2="40.1" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.3" y1="28.6" x2="40.7" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="41.6" y1="29.5" x2="41.3" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="29.6" x2="40.1" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="37.1" y1="27.6" x2="37.1" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="40.1" y1="27.6" x2="40.1" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="38.6" y1="29.6" x2="38.3" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="38.6" y1="27.6" x2="38.3" y2="28.6" width="0" layer="19" extent="1-1"/>
+<wire x1="42.6226" y1="20.1056" x2="40.9226" y2="22.8056" width="0" layer="19" extent="1-1"/>
+<wire x1="43.9" y1="20.1" x2="43.4" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="44.4" y1="20.1" x2="43.9" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="40.4226" y1="18.4056" x2="42.6226" y2="20.1056" width="0" layer="19" extent="1-1"/>
+<wire x1="40.3" y1="15.5" x2="40.3" y2="16.4" width="0" layer="19" extent="1-1"/>
+<wire x1="40.9" y1="15.5" x2="40.3" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="41.5" y1="15.5" x2="40.9" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="41.6" y1="16.4" x2="41.5" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="50.05" y1="17.1" x2="44.4" y2="20.1" width="0" layer="19" extent="1-1"/>
+<wire x1="51.9" y1="16.9" x2="50.9" y2="17" width="0" layer="19" extent="1-1"/>
+<wire x1="51.9" y1="16.2" x2="51.9" y2="16.9" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="16.9" x2="51.9" y2="16.9" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="16.2" x2="53" y2="16.9" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1" y1="16.9" x2="53" y2="16.9" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1" y1="16.2" x2="54.1" y2="16.9" width="0" layer="19" extent="1-1"/>
+<wire x1="59.5" y1="21.65" x2="54.1" y2="16.9" width="0" layer="19" extent="1-1"/>
+<wire x1="60.5" y1="21.6" x2="59.5" y2="21.65" width="0" layer="19" extent="1-1"/>
+<wire x1="61.4" y1="21.6" x2="60.5" y2="21.6" width="0" layer="19" extent="1-1"/>
+<wire x1="61.4" y1="22.4" x2="61.4" y2="21.6" width="0" layer="19" extent="1-1"/>
+<wire x1="62.3" y1="22.4" x2="61.4" y2="22.4" width="0" layer="19" extent="1-1"/>
+<wire x1="62.3" y1="21.8" x2="62.3" y2="22.4" width="0" layer="19" extent="1-1"/>
+<wire x1="62.3" y1="21.2" x2="62.3" y2="21.8" width="0" layer="19" extent="1-1"/>
+<wire x1="53.8" y1="28.2" x2="59.5" y2="21.65" width="0" layer="19" extent="1-1"/>
+<wire x1="53.1" y1="28.5" x2="53.8" y2="28.2" width="0" layer="19" extent="1-1"/>
+<wire x1="53.1" y1="27.9" x2="53.1" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="53.1" y1="29.2" x2="53.1" y2="28.5" width="0" layer="19" extent="1-1"/>
+<wire x1="53.1" y1="29.8" x2="53.1" y2="29.2" width="0" layer="19" extent="1-1"/>
+<wire x1="53.1" y1="30.4" x2="53.1" y2="29.8" width="0" layer="19" extent="1-1"/>
+<wire x1="53.6" y1="31.4" x2="53.1" y2="30.4" width="0" layer="19" extent="1-1"/>
+<wire x1="55.2" y1="31.15" x2="53.6" y2="31.4" width="0" layer="19" extent="1-1"/>
+<wire x1="27.838" y1="49.5" x2="19.775" y2="56.9" width="0" layer="19" extent="1-1"/>
+<wire x1="36" y1="46.425" x2="29.7" y2="49.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDAOPT2">
 </signal>
@@ -7841,18 +7930,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="50.9" y="17.8" extent="1-16" drill="0.254"/>
 <via x="50" y="15.9" extent="1-16" drill="0.254"/>
 <via x="53" y="15.4" extent="1-16" drill="0.254"/>
-<via x="35.3" y="5.9" extent="1-16" drill="0.254"/>
-<via x="35.9" y="5.9" extent="1-16" drill="0.254"/>
-<via x="36.5" y="5.9" extent="1-16" drill="0.254"/>
-<via x="37.1" y="5.9" extent="1-16" drill="0.254"/>
-<via x="24.3" y="5.9" extent="1-16" drill="0.254"/>
-<via x="23.7" y="5.9" extent="1-16" drill="0.254"/>
-<via x="23.1" y="5.9" extent="1-16" drill="0.254"/>
-<via x="22.5" y="5.9" extent="1-16" drill="0.254"/>
-<via x="24.3" y="9.8" extent="1-16" drill="0.254"/>
-<via x="23.7" y="9.8" extent="1-16" drill="0.254"/>
-<via x="23.1" y="9.8" extent="1-16" drill="0.254"/>
-<via x="22.5" y="9.8" extent="1-16" drill="0.254"/>
+<via x="36.8" y="6.8" extent="1-16" drill="0.254"/>
+<via x="36.2" y="6.8" extent="1-16" drill="0.254"/>
+<via x="37.4" y="6.8" extent="1-16" drill="0.254"/>
+<via x="38.1" y="7.9" extent="1-16" drill="0.254"/>
+<via x="24" y="7.9" extent="1-16" drill="0.254"/>
+<via x="23.3" y="6.8" extent="1-16" drill="0.254"/>
+<via x="22.7" y="6.8" extent="1-16" drill="0.254"/>
+<via x="22.1" y="6.8" extent="1-16" drill="0.254"/>
+<via x="21.5" y="7.8" extent="1-16" drill="0.254"/>
+<via x="23.3" y="9.1" extent="1-16" drill="0.254"/>
+<via x="22.7" y="9.1" extent="1-16" drill="0.254"/>
+<via x="22.1" y="9.1" extent="1-16" drill="0.254"/>
 <via x="82.1" y="24.1" extent="1-16" drill="0.254"/>
 <via x="82.9" y="23.2" extent="1-16" drill="0.254"/>
 <via x="88.2" y="25" extent="1-16" drill="0.254"/>
@@ -7896,17 +7985,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.6" y1="18.1" x2="50.9" y2="17.8" width="0.36" layer="1"/>
 <contactref element="C29" pad="2"/>
 <via x="32" y="8.6" extent="1-16" drill="0.254"/>
-<via x="33.3" y="10.6" extent="1-16" drill="0.254"/>
-<via x="35.4" y="9.8" extent="1-16" drill="0.254"/>
-<via x="36" y="9.8" extent="1-16" drill="0.254"/>
-<via x="36.6" y="9.8" extent="1-16" drill="0.254"/>
-<wire x1="33.53" y1="9.5906625" x2="33.53" y2="10.37" width="0.3048" layer="1"/>
-<wire x1="33.53" y1="10.37" x2="33.3" y2="10.6" width="0.3048" layer="1"/>
-<wire x1="32.03" y1="9.5906625" x2="32.03" y2="8.63" width="0.3048" layer="1"/>
+<via x="33.3" y="10.8" extent="1-16" drill="0.254"/>
+<via x="36.2" y="9" extent="1-16" drill="0.254"/>
+<via x="36.8" y="9" extent="1-16" drill="0.254"/>
+<via x="37.4" y="9" extent="1-16" drill="0.254"/>
+<wire x1="33.53" y1="9.7906625" x2="33.53" y2="10.57" width="0.3048" layer="1"/>
+<wire x1="33.53" y1="10.57" x2="33.3" y2="10.8" width="0.3048" layer="1"/>
+<wire x1="32.03" y1="9.7906625" x2="32.03" y2="8.63" width="0.3048" layer="1"/>
 <wire x1="32.03" y1="8.63" x2="32" y2="8.6" width="0.3048" layer="1"/>
-<via x="30.8" y="10.6" extent="1-16" drill="0.254"/>
-<wire x1="30.53" y1="9.5906625" x2="30.53" y2="10.33" width="0.3048" layer="1"/>
-<wire x1="30.53" y1="10.33" x2="30.8" y2="10.6" width="0.3048" layer="1"/>
+<via x="30.7" y="10.9" extent="1-16" drill="0.254"/>
+<wire x1="30.53" y1="9.7906625" x2="30.53" y2="10.73" width="0.3048" layer="1"/>
+<wire x1="30.53" y1="10.73" x2="30.7" y2="10.9" width="0.3048" layer="1"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="3">
 <vertex x="47.8" y="16.6"/>
 <vertex x="47.8" y="18"/>
@@ -8047,17 +8136,17 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="20" y="88.3" extent="1-16" drill="0.254"/>
 <via x="9.6" y="83.6" extent="1-16" drill="0.254"/>
 <via x="2.5" y="87.1" extent="1-16" drill="0.254"/>
-<via x="2.5" y="78.1" extent="1-16" drill="0.254"/>
+<via x="4.4" y="78.4" extent="1-16" drill="0.254"/>
 <via x="9.9" y="93" extent="1-16" drill="0.254"/>
 <via x="11.4" y="83.6" extent="1-16" drill="0.254"/>
-<via x="2.5" y="81.9" extent="1-16" drill="0.254"/>
+<via x="4.4" y="82.2" extent="1-16" drill="0.254"/>
 <via x="14.7" y="89" extent="1-16" drill="0.254"/>
 <via x="9.9" y="86.7" extent="1-16" drill="0.254"/>
 <via x="9.9" y="89.6" extent="1-16" drill="0.254"/>
 <via x="11.7" y="93" extent="1-16" drill="0.254"/>
 <via x="10.5" y="82.9" extent="1-16" drill="0.254"/>
 <via x="6.3" y="88.9" extent="1-16" drill="0.254"/>
-<via x="2.5" y="80" extent="1-16" drill="0.254"/>
+<via x="4.4" y="80.3" extent="1-16" drill="0.254"/>
 <via x="8" y="71.8" extent="1-16" drill="0.254"/>
 <via x="8" y="75" extent="1-16" drill="0.254"/>
 <via x="10.3" y="76.2" extent="1-16" drill="0.254"/>
@@ -8223,6 +8312,405 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.5" y1="31.5" x2="25.5" y2="32.2" width="0.3048" layer="1"/>
 <wire x1="26.7" y1="31.5" x2="26.7" y2="32.2" width="0.3048" layer="1"/>
 <wire x1="27.6" y1="32.2" x2="26.7" y2="32.2" width="0.3048" layer="1"/>
+<wire x1="89" y1="93" x2="93" y2="94" width="0" layer="19" extent="1-1"/>
+<wire x1="89" y1="91.6" x2="89" y2="93" width="0" layer="19" extent="1-1"/>
+<wire x1="96" y1="91" x2="93" y2="94" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="88" x2="96" y2="91" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="82" x2="98.8" y2="88" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="76" x2="98.8" y2="82" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="70" x2="98.8" y2="76" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="64" x2="98.8" y2="70" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="58" x2="98.8" y2="64" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="52" x2="98.8" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="46" x2="98.8" y2="52" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="40" x2="98.8" y2="46" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="34" x2="98.8" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="28" x2="98.8" y2="34" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="22" x2="98.8" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="16" x2="98.8" y2="22" width="0" layer="19" extent="1-1"/>
+<wire x1="93.3" y1="17.1" x2="98.8" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="92.4" y1="17.123" x2="93.3" y2="17.1" width="0" layer="19" extent="1-1"/>
+<wire x1="92.4" y1="16.2" x2="92.4" y2="17.123" width="0" layer="19" extent="1-1"/>
+<wire x1="91.4" y1="17.1" x2="92.4" y2="17.123" width="0" layer="19" extent="1-1"/>
+<wire x1="90.6" y1="15" x2="92.4" y2="16.2" width="0" layer="19" extent="1-1"/>
+<wire x1="89.6" y1="15.1" x2="90.6" y2="15" width="0" layer="19" extent="1-1"/>
+<wire x1="89.6" y1="14.1" x2="89.6" y2="15.1" width="0" layer="19" extent="1-1"/>
+<wire x1="87.3" y1="14" x2="89.6" y2="14.1" width="0" layer="19" extent="1-1"/>
+<wire x1="87.3" y1="15" x2="87.3" y2="14" width="0" layer="19" extent="1-1"/>
+<wire x1="84.7" y1="15.2" x2="87.3" y2="15" width="0" layer="19" extent="1-1"/>
+<wire x1="84.7" y1="14.2" x2="84.7" y2="15.2" width="0" layer="19" extent="1-1"/>
+<wire x1="84.6" y1="13.5" x2="84.7" y2="14.2" width="0" layer="19" extent="1-1"/>
+<wire x1="84.6" y1="12.5" x2="84.6" y2="13.5" width="0" layer="19" extent="1-1"/>
+<wire x1="83.8" y1="12.6" x2="84.6" y2="12.5" width="0" layer="19" extent="1-1"/>
+<wire x1="83.7" y1="15.1" x2="84.7" y2="15.2" width="0" layer="19" extent="1-1"/>
+<wire x1="83.4" y1="17.7" x2="83.7" y2="15.1" width="0" layer="19" extent="1-1"/>
+<wire x1="83.4" y1="18.4" x2="83.4" y2="17.7" width="0" layer="19" extent="1-1"/>
+<wire x1="83.5" y1="19.4" x2="83.4" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="84.5" y1="19.4" x2="83.5" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="84.5" y1="18.7" x2="84.5" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="85.6" y1="19.4" x2="84.5" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="85.6" y1="18.7" x2="85.6" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="86.7" y1="19.4" x2="85.6" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="86.7" y1="18.7" x2="86.7" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="82.3" y1="18.4" x2="83.4" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="82.3" y1="17.7" x2="82.3" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="82.15" y1="19.2" x2="82.3" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="81.2" y1="18.4" x2="82.3" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="81.2" y1="17.7" x2="81.2" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="80.3" y1="18.3" x2="81.2" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="78.52" y1="17.49" x2="79.45" y2="18.2" width="0" layer="19" extent="1-1"/>
+<wire x1="78.51" y1="16.82" x2="78.52" y2="17.49" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8" y1="16.82" x2="78.51" y2="16.82" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8" y1="17.48" x2="77.8" y2="16.82" width="0" layer="19" extent="1-1"/>
+<wire x1="77.2" y1="18.2" x2="77.8" y2="17.48" width="0" layer="19" extent="1-1"/>
+<wire x1="79.4" y1="16" x2="78.51" y2="16.82" width="0" layer="19" extent="1-1"/>
+<wire x1="82.7" y1="20.8" x2="83.5" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="80.9" y1="20.9" x2="82.7" y2="20.8" width="0" layer="19" extent="1-1"/>
+<wire x1="81.3" y1="23.2" x2="80.9" y2="20.9" width="0" layer="19" extent="1-1"/>
+<wire x1="82.075" y1="23.225" x2="81.3" y2="23.2" width="0" layer="19" extent="1-1"/>
+<wire x1="82.9" y1="23.2" x2="82.075" y2="23.225" width="0" layer="19" extent="1-1"/>
+<wire x1="82.1" y1="24.1" x2="82.075" y2="23.225" width="0" layer="19" extent="1-1"/>
+<wire x1="85" y1="22.8" x2="82.9" y2="23.2" width="0" layer="19" extent="1-1"/>
+<wire x1="87.3" y1="22.8" x2="85" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="87.4" y1="24.2" x2="87.3" y2="22.8" width="0" layer="19" extent="1-1"/>
+<wire x1="87.4" y1="25.1" x2="87.4" y2="24.2" width="0" layer="19" extent="1-1"/>
+<wire x1="88.2" y1="25" x2="87.4" y2="25.1" width="0" layer="19" extent="1-1"/>
+<wire x1="90.5" y1="19.7" x2="91.4" y2="17.1" width="0" layer="19" extent="1-1"/>
+<wire x1="90.5" y1="20.4" x2="90.5" y2="19.7" width="0" layer="19" extent="1-1"/>
+<wire x1="91.4" y1="20.4" x2="90.5" y2="20.4" width="0" layer="19" extent="1-1"/>
+<wire x1="98.8" y1="10" x2="98.8" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="96" y1="4.5" x2="98.8" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="89" y1="4.5" x2="96" y2="4.5" width="0" layer="19" extent="1-1"/>
+<wire x1="83" y1="1" x2="89" y2="4.5" width="0" layer="19" extent="1-1"/>
+<wire x1="77" y1="1" x2="83" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="71" y1="1" x2="77" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="67.3" y1="4" x2="71" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="65" y1="1" x2="67.3" y2="4" width="0" layer="19" extent="1-1"/>
+<wire x1="59" y1="1" x2="65" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="1" x2="59" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="47" y1="1" x2="53" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="41" y1="1" x2="47" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="1" x2="41" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="36.8" y1="6.8" x2="35" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="36.2" y1="6.8" x2="36.8" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="37.4" y1="6.8" x2="36.2" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="38.1" y1="7.9" x2="37.4" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="36.78" y1="7.8906625" x2="37.4" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="37.4" y1="9" x2="36.78" y2="7.8906625" width="0" layer="19" extent="1-1"/>
+<wire x1="36.8" y1="9" x2="37.4" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="36.2" y1="9" x2="36.8" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="33.53" y1="9.7906625" x2="36.2" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="32.03" y1="9.7906625" x2="33.3" y2="10.8" width="0" layer="19" extent="1-1"/>
+<wire x1="30.7" y1="10.9" x2="32.03" y2="9.7906625" width="0" layer="19" extent="1-1"/>
+<wire x1="36.6" y1="13.7" x2="37.4" y2="9" width="0" layer="19" extent="1-1"/>
+<wire x1="39.5" y1="13.7" x2="36.6" y2="13.7" width="0" layer="19" extent="1-1"/>
+<wire x1="44.9" y1="15.3" x2="39.5" y2="13.7" width="0" layer="19" extent="1-1"/>
+<wire x1="45.3" y1="11.9" x2="44.9" y2="15.3" width="0" layer="19" extent="1-1"/>
+<wire x1="48.2" y1="11.9" x2="45.3" y2="11.9" width="0" layer="19" extent="1-1"/>
+<wire x1="50.5" y1="11.9" x2="48.2" y2="11.9" width="0" layer="19" extent="1-1"/>
+<wire x1="48.4" y1="16.83" x2="44.9" y2="15.3" width="0" layer="19" extent="1-1"/>
+<wire x1="48.36" y1="17.46" x2="48.4" y2="16.83" width="0" layer="19" extent="1-1"/>
+<wire x1="49.1" y1="16.83" x2="48.4" y2="16.83" width="0" layer="19" extent="1-1"/>
+<wire x1="49.09" y1="17.46" x2="49.1" y2="16.83" width="0" layer="19" extent="1-1"/>
+<wire x1="47.8" y1="18.1" x2="48.36" y2="17.46" width="0" layer="19" extent="1-1"/>
+<wire x1="50.05" y1="18.1" x2="49.09" y2="17.46" width="0" layer="19" extent="1-1"/>
+<wire x1="50.05" y1="18.6" x2="50.05" y2="18.1" width="0" layer="19" extent="1-1"/>
+<wire x1="50.9" y1="18.4" x2="50.797" y2="18.603" width="0" layer="19" extent="1-1"/>
+<wire x1="51.9" y1="18.4" x2="50.9" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="51.9" y1="17.6" x2="51.9" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="18.4" x2="51.9" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="52.75" y1="19.1" x2="53" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="53.5" y1="19.1" x2="52.75" y2="19.1" width="0" layer="19" extent="1-1"/>
+<wire x1="54" y1="19.4" x2="53.5" y2="19.1" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="17.6" x2="53" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="54.9" y1="19.4" x2="54" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="54.9" y1="18.7" x2="54.9" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1" y1="18.4" x2="54.9" y2="18.7" width="0" layer="19" extent="1-1"/>
+<wire x1="54.1" y1="17.6" x2="54.1" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="56" y1="19.4" x2="54.9" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="56" y1="18.7" x2="56" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="57.1" y1="19.4" x2="56" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="57.1" y1="18.7" x2="57.1" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="58" y1="19.4" x2="57.1" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="50" y1="15.9" x2="49.1" y2="16.83" width="0" layer="19" extent="1-1"/>
+<wire x1="51.7" y1="21" x2="52.75" y2="19.1" width="0" layer="19" extent="1-1"/>
+<wire x1="53" y1="15.4" x2="53" y2="17.6" width="0" layer="19" extent="1-1"/>
+<wire x1="51.9" y1="23.2" x2="51.7" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="52.675" y1="23.225" x2="51.9" y2="23.2" width="0" layer="19" extent="1-1"/>
+<wire x1="53.5" y1="23.2" x2="52.675" y2="23.225" width="0" layer="19" extent="1-1"/>
+<wire x1="52.7" y1="24.1" x2="52.675" y2="23.225" width="0" layer="19" extent="1-1"/>
+<wire x1="60.5" y1="20.2" x2="58" y2="19.4" width="0" layer="19" extent="1-1"/>
+<wire x1="61.4" y1="20.2" x2="60.5" y2="20.2" width="0" layer="19" extent="1-1"/>
+<wire x1="61.4" y1="19.4" x2="61.4" y2="20.2" width="0" layer="19" extent="1-1"/>
+<wire x1="62.3" y1="20.2" x2="61.4" y2="20.2" width="0" layer="19" extent="1-1"/>
+<wire x1="59.5" y1="22.6" x2="60.5" y2="20.2" width="0" layer="19" extent="1-1"/>
+<wire x1="58.5" y1="22.6" x2="59.5" y2="22.6" width="0" layer="19" extent="1-1"/>
+<wire x1="58.36" y1="23.81" x2="58.5" y2="22.6" width="0" layer="19" extent="1-1"/>
+<wire x1="58.3" y1="24.7" x2="58.36" y2="23.81" width="0" layer="19" extent="1-1"/>
+<wire x1="59" y1="24.7" x2="58.3" y2="24.7" width="0" layer="19" extent="1-1"/>
+<wire x1="58.3" y1="25.6" x2="58.3" y2="24.7" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="1" x2="35" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="23" y1="1" x2="29" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="22.7" y1="6.8" x2="23" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3" y1="6.8" x2="22.7" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="24" y1="7.9" x2="23.3" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="22.1" y1="6.8" x2="22.7" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="22.78" y1="7.8906625" x2="22.7" y2="6.8" width="0" layer="19" extent="1-1"/>
+<wire x1="22.7" y1="9.1" x2="22.78" y2="7.8906625" width="0" layer="19" extent="1-1"/>
+<wire x1="23.3" y1="9.1" x2="22.7" y2="9.1" width="0" layer="19" extent="1-1"/>
+<wire x1="21.5" y1="7.8" x2="23.3" y2="9.1" width="0" layer="19" extent="1-1"/>
+<wire x1="22.1" y1="9.1" x2="22.7" y2="9.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.07" y1="0.95" x2="23" y2="1" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="6.7" x2="17.07" y2="0.95" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="7.6" x2="15" y2="6.7" width="0" layer="19" extent="1-1"/>
+<wire x1="15.9" y1="7.5" x2="15" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="13.4" y1="7.6" x2="15" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="13.4" y1="6.7" x2="13.4" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="11.8" y1="7.6" x2="13.4" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="10.9" y1="7.5" x2="11.8" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="11.8" y1="6.7" x2="11.8" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="4.5" x2="11.8" y2="6.7" width="0" layer="19" extent="1-1"/>
+<wire x1="14.1" y1="12.5" x2="13.4" y2="7.6" width="0" layer="19" extent="1-1"/>
+<wire x1="12.35" y1="13.95" x2="12.85" y2="14.45" width="0" layer="19" extent="1-1"/>
+<wire x1="11.35" y1="14.45" x2="12.35" y2="13.95" width="0" layer="19" extent="1-1"/>
+<wire x1="10.85" y1="14.45" x2="11.35" y2="14.45" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6" y1="15.5" x2="13.35" y2="13.95" width="0" layer="19" extent="1-1"/>
+<wire x1="14.35" y1="15.95" x2="14.6" y2="15.5" width="0" layer="19" extent="1-1"/>
+<wire x1="13.667178125" y1="16.670821875" x2="14.35" y2="15.95" width="0" layer="19" extent="1-1"/>
+<wire x1="12.85" y1="16.45" x2="13.667178125" y2="16.670821875" width="0" layer="19" extent="1-1"/>
+<wire x1="13.35" y1="20.45" x2="12.35" y2="19.45" width="0" layer="19" extent="1-1"/>
+<wire x1="13.85" y1="18.45" x2="12.85" y2="17.45" width="0" layer="19" extent="1-1"/>
+<wire x1="15.35" y1="16.95" x2="14.8164" y2="17.82004375" width="0" layer="19" extent="1-1"/>
+<wire x1="9.9" y1="21.1" x2="12.35" y2="19.45" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="22.1" x2="9.9" y2="21.1" width="0" layer="19" extent="1-1"/>
+<wire x1="5.7" y1="22.1" x2="7" y2="22.1" width="0" layer="19" extent="1-1"/>
+<wire x1="5.5" y1="21" x2="5.7" y2="22.1" width="0" layer="19" extent="1-1"/>
+<wire x1="5.5" y1="19.5" x2="5.5" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="18.4" x2="5.5" y2="19.5" width="0" layer="19" extent="1-1"/>
+<wire x1="5.6" y1="17.7" x2="5.6" y2="18.4" width="0" layer="19" extent="1-1"/>
+<wire x1="17.9" y1="21.1" x2="15.8564" y2="17.22763125" width="0" layer="19" extent="1-1"/>
+<wire x1="20.9" y1="21.1" x2="17.9" y2="21.1" width="0" layer="19" extent="1-1"/>
+<wire x1="21.645" y1="18.98" x2="20.9" y2="21.1" width="0" layer="19" extent="1-1"/>
+<wire x1="21.7" y1="18" x2="21.645" y2="18.98" width="0" layer="19" extent="1-1"/>
+<wire x1="22.661" y1="18.091" x2="21.7" y2="18" width="0" layer="19" extent="1-1"/>
+<wire x1="20.629" y1="18.091" x2="21.7" y2="18" width="0" layer="19" extent="1-1"/>
+<wire x1="19" y1="24.1" x2="17.9" y2="21.1" width="0" layer="19" extent="1-1"/>
+<wire x1="22.9" y1="24.1" x2="20.9" y2="21.1" width="0" layer="19" extent="1-1"/>
+<wire x1="23.4" y1="28.1" x2="22.9" y2="24.1" width="0" layer="19" extent="1-1"/>
+<wire x1="23.4" y1="29.5" x2="23.4" y2="28.1" width="0" layer="19" extent="1-1"/>
+<wire x1="25.5" y1="31.5" x2="23.4" y2="29.5" width="0" layer="19" extent="1-1"/>
+<wire x1="26.7" y1="31.5" x2="25.5" y2="31.5" width="0" layer="19" extent="1-1"/>
+<wire x1="23.4" y1="32.9" x2="24.6" y2="32.2" width="0" layer="19" extent="1-1"/>
+<wire x1="23.4" y1="34.4" x2="23.4" y2="32.9" width="0" layer="19" extent="1-1"/>
+<wire x1="25.6" y1="35.762" x2="23.4" y2="34.4" width="0" layer="19" extent="1-1"/>
+<wire x1="27.3" y1="36" x2="25.6" y2="35.762" width="0" layer="19" extent="1-1"/>
+<wire x1="28.2" y1="36.8" x2="27.3" y2="36" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="40.4" x2="28.2" y2="36.8" width="0" layer="19" extent="1-1"/>
+<wire x1="29.5" y1="42.2" x2="29.5" y2="40.4" width="0" layer="19" extent="1-1"/>
+<wire x1="14.8886" y1="25.2284" x2="19" y2="24.1" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="22" x2="5.5" y2="21" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="16" x2="5.6" y2="17.7" width="0" layer="19" extent="1-1"/>
+<wire x1="31.1" y1="47.6" x2="29.5" y2="42.2" width="0" layer="19" extent="1-1"/>
+<wire x1="31.1" y1="48.5" x2="31.1" y2="47.6" width="0" layer="19" extent="1-1"/>
+<wire x1="32" y1="48.5" x2="31.1" y2="48.5" width="0" layer="19" extent="1-1"/>
+<wire x1="31.1" y1="49.7" x2="31.1" y2="48.5" width="0" layer="19" extent="1-1"/>
+<wire x1="31.8" y1="49.7" x2="31.1" y2="49.7" width="0" layer="19" extent="1-1"/>
+<wire x1="31.1" y1="50.6" x2="31.1" y2="49.7" width="0" layer="19" extent="1-1"/>
+<wire x1="27.838" y1="49" x2="31.1" y2="48.5" width="0" layer="19" extent="1-1"/>
+<wire x1="26.4" y1="49" x2="27.838" y2="49" width="0" layer="19" extent="1-1"/>
+<wire x1="35" y1="45.7" x2="32" y2="48.5" width="0" layer="19" extent="1-1"/>
+<wire x1="36" y1="45.775" x2="35" y2="45.7" width="0" layer="19" extent="1-1"/>
+<wire x1="36.7" y1="48.1" x2="36" y2="45.775" width="0" layer="19" extent="1-1"/>
+<wire x1="37.6" y1="48" x2="36.7" y2="48.1" width="0" layer="19" extent="1-1"/>
+<wire x1="38.5" y1="48.1" x2="37.6" y2="48" width="0" layer="19" extent="1-1"/>
+<wire x1="37.6" y1="49" x2="37.6" y2="48" width="0" layer="19" extent="1-1"/>
+<wire x1="34" y1="55.4" x2="31.1" y2="50.6" width="0" layer="19" extent="1-1"/>
+<wire x1="34.7" y1="55.4" x2="34" y2="55.4" width="0" layer="19" extent="1-1"/>
+<wire x1="36.9" y1="55.4" x2="34.7" y2="55.4" width="0" layer="19" extent="1-1"/>
+<wire x1="37.6" y1="55.4" x2="36.9" y2="55.4" width="0" layer="19" extent="1-1"/>
+<wire x1="38.2" y1="56.9" x2="37.6" y2="55.4" width="0" layer="19" extent="1-1"/>
+<wire x1="38.22681875" y1="57.624559375" x2="38.2" y2="56.9" width="0" layer="19" extent="1-1"/>
+<wire x1="39.03961875" y1="57.624559375" x2="38.22681875" y2="57.624559375" width="0" layer="19" extent="1-1"/>
+<wire x1="39.1" y1="56.9" x2="39.03961875" y2="57.624559375" width="0" layer="19" extent="1-1"/>
+<wire x1="39.03936875" y1="61.775175" x2="39.03961875" y2="57.624559375" width="0" layer="19" extent="1-1"/>
+<wire x1="39.6" y1="61.8" x2="39.03936875" y2="61.775175" width="0" layer="19" extent="1-1"/>
+<wire x1="38.22656875" y1="61.775175" x2="39.03936875" y2="61.775175" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="28" x2="1" y2="22" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="34" x2="1" y2="28" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="40" x2="1" y2="34" width="0" layer="19" extent="1-1"/>
+<wire x1="5.9" y1="41.5" x2="1" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="43" x2="6.6" y2="42.4" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="46.3" x2="6.6" y2="44.8" width="0" layer="19" extent="1-1"/>
+<wire x1="6.6" y1="48.7" x2="6.6" y2="48.1" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="45.4" x2="6.6" y2="44.8" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2" y1="40" x2="6.6" y2="40.6" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2" y1="38.5" x2="8.2" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="8.2" y1="37" x2="8.2" y2="38.5" width="0" layer="19" extent="1-1"/>
+<wire x1="11.1" y1="41.5" x2="8.9" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="11.1" y1="42.2" x2="11.1" y2="41.5" width="0" layer="19" extent="1-1"/>
+<wire x1="12.362" y1="40" x2="11.1" y2="41.5" width="0" layer="19" extent="1-1"/>
+<wire x1="12.362" y1="45" x2="11.1" y2="42.2" width="0" layer="19" extent="1-1"/>
+<wire x1="15.6" y1="37.2" x2="13.7" y2="40" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6" y1="35.762" x2="15.6" y2="37.2" width="0" layer="19" extent="1-1"/>
+<wire x1="14.2" y1="32.5" x2="14.5" y2="34.6" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="46" x2="5.9" y2="47.2" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6" y1="50.1" x2="13.8" y2="45" width="0" layer="19" extent="1-1"/>
+<wire x1="14.6" y1="51.238" x2="14.6" y2="50.1" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="54.1" x2="14.6" y2="51.238" width="0" layer="19" extent="1-1"/>
+<wire x1="14.1" y1="54.1" x2="15" y2="54.1" width="0" layer="19" extent="1-1"/>
+<wire x1="14.1" y1="54.8" x2="14.1" y2="54.1" width="0" layer="19" extent="1-1"/>
+<wire x1="13.2" y1="54.1" x2="14.1" y2="54.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.1" y1="54.1" x2="15" y2="54.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.1" y1="54.8" x2="17.1" y2="54.1" width="0" layer="19" extent="1-1"/>
+<wire x1="17.5" y1="53.4" x2="17.1" y2="54.1" width="0" layer="19" extent="1-1"/>
+<wire x1="13.9" y1="58.5" x2="14.1" y2="54.8" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="58.5" x2="13.9" y2="58.5" width="0" layer="19" extent="1-1"/>
+<wire x1="9.9" y1="59.2" x2="10.975" y2="59.125" width="0" layer="19" extent="1-1"/>
+<wire x1="9.975" y1="58.125" x2="9.9" y2="59.2" width="0" layer="19" extent="1-1"/>
+<wire x1="9" y1="60.1" x2="9.9" y2="59.2" width="0" layer="19" extent="1-1"/>
+<wire x1="9.9" y1="61" x2="9" y2="60.1" width="0" layer="19" extent="1-1"/>
+<wire x1="9.325" y1="62.075" x2="9.9" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="8.675" y1="62.075" x2="9.325" y2="62.075" width="0" layer="19" extent="1-1"/>
+<wire x1="8.6" y1="64" x2="8.7" y2="62.9" width="0" layer="19" extent="1-1"/>
+<wire x1="8.1" y1="61" x2="8.675" y2="62.075" width="0" layer="19" extent="1-1"/>
+<wire x1="7.025" y1="61.075" x2="8.1" y2="61" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="61.7" x2="7.025" y2="61.075" width="0" layer="19" extent="1-1"/>
+<wire x1="8.1" y1="59.2" x2="9" y2="60.1" width="0" layer="19" extent="1-1"/>
+<wire x1="7.025" y1="59.125" x2="8.1" y2="59.2" width="0" layer="19" extent="1-1"/>
+<wire x1="7.3" y1="64" x2="8.6" y2="64" width="0" layer="19" extent="1-1"/>
+<wire x1="15" y1="60.2" x2="13.9" y2="59.2" width="0" layer="19" extent="1-1"/>
+<wire x1="4.5" y1="59.1" x2="7.025" y2="59.125" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="58" x2="4.5" y2="59.1" width="0" layer="19" extent="1-1"/>
+<wire x1="20.425" y1="56.9" x2="17.1" y2="54.8" width="0" layer="19" extent="1-1"/>
+<wire x1="20.3" y1="57.9" x2="20.425" y2="56.9" width="0" layer="19" extent="1-1"/>
+<wire x1="20.7" y1="59.5" x2="20.3" y2="57.9" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8" y1="60.1" x2="20.7" y2="59.5" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8" y1="60.8" x2="19.8" y2="60.1" width="0" layer="19" extent="1-1"/>
+<wire x1="20.1" y1="64.2" x2="19.8" y2="60.8" width="0" layer="19" extent="1-1"/>
+<wire x1="24.9" y1="66.2" x2="20.1" y2="64.2" width="0" layer="19" extent="1-1"/>
+<wire x1="27.775" y1="64.295" x2="24.9" y2="66.2" width="0" layer="19" extent="1-1"/>
+<wire x1="27.9" y1="63.6" x2="27.775" y2="64.295" width="0" layer="19" extent="1-1"/>
+<wire x1="29.3" y1="64.3" x2="27.775" y2="64.295" width="0" layer="19" extent="1-1"/>
+<wire x1="30.2" y1="66.7" x2="29.3" y2="64.3" width="0" layer="19" extent="1-1"/>
+<wire x1="31.1" y1="66.7" x2="30.2" y2="66.7" width="0" layer="19" extent="1-1"/>
+<wire x1="32.2" y1="63.6" x2="29.3" y2="64.3" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="52" x2="5.9" y2="49.6" width="0" layer="19" extent="1-1"/>
+<wire x1="27.9" y1="72.1" x2="30.2" y2="66.7" width="0" layer="19" extent="1-1"/>
+<wire x1="27.775" y1="72.795" x2="27.9" y2="72.1" width="0" layer="19" extent="1-1"/>
+<wire x1="29.7" y1="72.9" x2="27.775" y2="72.795" width="0" layer="19" extent="1-1"/>
+<wire x1="30.9" y1="74.4" x2="29.7" y2="72.9" width="0" layer="19" extent="1-1"/>
+<wire x1="30.9" y1="75.2" x2="30.9" y2="74.4" width="0" layer="19" extent="1-1"/>
+<wire x1="24.9" y1="74.7" x2="27.775" y2="72.795" width="0" layer="19" extent="1-1"/>
+<wire x1="21.1" y1="77.5" x2="24.9" y2="74.7" width="0" layer="19" extent="1-1"/>
+<wire x1="19.6" y1="77.5" x2="21.1" y2="77.5" width="0" layer="19" extent="1-1"/>
+<wire x1="19.6" y1="78.8" x2="19.6" y2="77.5" width="0" layer="19" extent="1-1"/>
+<wire x1="19.8" y1="81.4" x2="19.6" y2="78.8" width="0" layer="19" extent="1-1"/>
+<wire x1="22.1" y1="81.4" x2="19.8" y2="81.4" width="0" layer="19" extent="1-1"/>
+<wire x1="19.4" y1="84.6" x2="19.8" y2="81.4" width="0" layer="19" extent="1-1"/>
+<wire x1="16.8" y1="84.6" x2="19.4" y2="84.6" width="0" layer="19" extent="1-1"/>
+<wire x1="19.3" y1="88.3" x2="19.4" y2="84.6" width="0" layer="19" extent="1-1"/>
+<wire x1="20" y1="88.3" x2="19.3" y2="88.3" width="0" layer="19" extent="1-1"/>
+<wire x1="19.6" y1="90" x2="19.3" y2="88.3" width="0" layer="19" extent="1-1"/>
+<wire x1="18.6" y1="90" x2="19.6" y2="90" width="0" layer="19" extent="1-1"/>
+<wire x1="19.7" y1="91.6" x2="19.6" y2="90" width="0" layer="19" extent="1-1"/>
+<wire x1="20.4" y1="91.6" x2="19.7" y2="91.6" width="0" layer="19" extent="1-1"/>
+<wire x1="19" y1="94" x2="19.7" y2="91.6" width="0" layer="19" extent="1-1"/>
+<wire x1="23.6" y1="90.2" x2="20.4" y2="91.6" width="0" layer="19" extent="1-1"/>
+<wire x1="24.3" y1="90.2" x2="23.6" y2="90.2" width="0" layer="19" extent="1-1"/>
+<wire x1="24.3" y1="91.1" x2="24.3" y2="90.2" width="0" layer="19" extent="1-1"/>
+<wire x1="25" y1="94" x2="24.3" y2="91.1" width="0" layer="19" extent="1-1"/>
+<wire x1="24.3" y1="86.6" x2="24.3" y2="90.2" width="0" layer="19" extent="1-1"/>
+<wire x1="23.6" y1="86.6" x2="24.3" y2="86.6" width="0" layer="19" extent="1-1"/>
+<wire x1="27.1" y1="85.4" x2="24.3" y2="86.6" width="0" layer="19" extent="1-1"/>
+<wire x1="29" y1="88" x2="27.1" y2="85.4" width="0" layer="19" extent="1-1"/>
+<wire x1="28.1" y1="89" x2="29" y2="88" width="0" layer="19" extent="1-1"/>
+<wire x1="30.2" y1="89" x2="29" y2="88" width="0" layer="19" extent="1-1"/>
+<wire x1="31.1344" y1="88.975" x2="30.2" y2="89" width="0" layer="19" extent="1-1"/>
+<wire x1="31.1" y1="89.8" x2="31.1344" y2="88.975" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="81.8" x2="27.1" y2="85.4" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="81.2" x2="27" y2="81.8" width="0" layer="19" extent="1-1"/>
+<wire x1="25.977" y1="81.8" x2="27" y2="81.8" width="0" layer="19" extent="1-1"/>
+<wire x1="33.7" y1="85.9" x2="31.1344" y2="88.975" width="0" layer="19" extent="1-1"/>
+<wire x1="34.5" y1="85.9" x2="33.7" y2="85.9" width="0" layer="19" extent="1-1"/>
+<wire x1="33.7" y1="85" x2="33.7" y2="85.9" width="0" layer="19" extent="1-1"/>
+<wire x1="14.7" y1="89" x2="18.6" y2="90" width="0" layer="19" extent="1-1"/>
+<wire x1="12.2" y1="88.8" x2="13.4717" y2="88.95" width="0" layer="19" extent="1-1"/>
+<wire x1="9.9" y1="89.6" x2="12.2" y2="88.8" width="0" layer="19" extent="1-1"/>
+<wire x1="11.4" y1="91.8" x2="9.9" y2="89.6" width="0" layer="19" extent="1-1"/>
+<wire x1="11.7" y1="93" x2="11.4" y2="91.8" width="0" layer="19" extent="1-1"/>
+<wire x1="13" y1="94" x2="11.7" y2="93" width="0" layer="19" extent="1-1"/>
+<wire x1="9.9" y1="93" x2="11.7" y2="93" width="0" layer="19" extent="1-1"/>
+<wire x1="9.9" y1="86.7" x2="9.9" y2="89.6" width="0" layer="19" extent="1-1"/>
+<wire x1="7" y1="94" x2="9.9" y2="93" width="0" layer="19" extent="1-1"/>
+<wire x1="9.6" y1="83.6" x2="9.9" y2="86.7" width="0" layer="19" extent="1-1"/>
+<wire x1="10.5" y1="83.6" x2="9.6" y2="83.6" width="0" layer="19" extent="1-1"/>
+<wire x1="10.5" y1="82.9" x2="10.5" y2="83.6" width="0" layer="19" extent="1-1"/>
+<wire x1="11.4" y1="83.6" x2="10.5" y2="83.6" width="0" layer="19" extent="1-1"/>
+<wire x1="6.3" y1="88.9" x2="9.9" y2="89.6" width="0" layer="19" extent="1-1"/>
+<wire x1="4.9" y1="88.5" x2="6.3" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="4.9" y1="87.6" x2="4.9" y2="88.5" width="0" layer="19" extent="1-1"/>
+<wire x1="2.5" y1="87.1" x2="4.9" y2="87.6" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="88" x2="2.5" y2="87.1" width="0" layer="19" extent="1-1"/>
+<wire x1="4" y1="91" x2="4.9" y2="88.5" width="0" layer="19" extent="1-1"/>
+<wire x1="31" y1="94" x2="31.1" y2="89.8" width="0" layer="19" extent="1-1"/>
+<wire x1="5.323" y1="82.2" x2="9.6" y2="83.6" width="0" layer="19" extent="1-1"/>
+<wire x1="5.323" y1="80.3" x2="5.323" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="5.323" y1="78.4" x2="5.323" y2="80.3" width="0" layer="19" extent="1-1"/>
+<wire x1="4.4" y1="82.2" x2="5.323" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="82" x2="4.4" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="4.4" y1="80.3" x2="4.4" y2="82.2" width="0" layer="19" extent="1-1"/>
+<wire x1="4.4" y1="78.4" x2="4.4" y2="80.3" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="76" x2="4.4" y2="78.4" width="0" layer="19" extent="1-1"/>
+<wire x1="8.9" y1="77.2" x2="5.323" y2="78.4" width="0" layer="19" extent="1-1"/>
+<wire x1="10.3" y1="76.2" x2="9.7" y2="76.2" width="0" layer="19" extent="1-1"/>
+<wire x1="10.9" y1="74.3" x2="10.325" y2="75.375" width="0" layer="19" extent="1-1"/>
+<wire x1="9.1" y1="74.3" x2="9.675" y2="75.375" width="0" layer="19" extent="1-1"/>
+<wire x1="8.025" y1="74.375" x2="9.1" y2="74.3" width="0" layer="19" extent="1-1"/>
+<wire x1="8" y1="75" x2="8.025" y2="74.375" width="0" layer="19" extent="1-1"/>
+<wire x1="10" y1="73.4" x2="10.9" y2="74.3" width="0" layer="19" extent="1-1"/>
+<wire x1="10.9" y1="72.5" x2="10" y2="73.4" width="0" layer="19" extent="1-1"/>
+<wire x1="11.975" y1="72.425" x2="10.9" y2="72.5" width="0" layer="19" extent="1-1"/>
+<wire x1="10.975" y1="71.425" x2="10.9" y2="72.5" width="0" layer="19" extent="1-1"/>
+<wire x1="9.1" y1="72.5" x2="10" y2="73.4" width="0" layer="19" extent="1-1"/>
+<wire x1="8.025" y1="72.425" x2="9.1" y2="72.5" width="0" layer="19" extent="1-1"/>
+<wire x1="5.7" y1="72.8" x2="8.025" y2="72.425" width="0" layer="19" extent="1-1"/>
+<wire x1="5.5" y1="73.7" x2="5.7" y2="72.8" width="0" layer="19" extent="1-1"/>
+<wire x1="4.6" y1="73.7" x2="5.5" y2="73.7" width="0" layer="19" extent="1-1"/>
+<wire x1="20.1" y1="72.7" x2="15.8" y2="72.4" width="0" layer="19" extent="1-1"/>
+<wire x1="39.105" y1="87.359" x2="34.5" y2="85.9" width="0" layer="19" extent="1-1"/>
+<wire x1="42.915" y1="87.359" x2="39.105" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="44.185" y1="87.359" x2="42.915" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="45.455" y1="87.359" x2="44.185" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="70" x2="4.6" y2="73.7" width="0" layer="19" extent="1-1"/>
+<wire x1="43" y1="94" x2="42.915" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="37" y1="94" x2="39.105" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="49" y1="94" x2="43" y2="94" width="0" layer="19" extent="1-1"/>
+<wire x1="55" y1="94" x2="49" y2="94" width="0" layer="19" extent="1-1"/>
+<wire x1="61" y1="94" x2="55" y2="94" width="0" layer="19" extent="1-1"/>
+<wire x1="64.2" y1="90.1" x2="61" y2="94" width="0" layer="19" extent="1-1"/>
+<wire x1="67" y1="91.7" x2="64.2" y2="90.1" width="0" layer="19" extent="1-1"/>
+<wire x1="67" y1="93" x2="67" y2="91.7" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="64" x2="1" y2="58" width="0" layer="19" extent="1-1"/>
+<wire x1="1" y1="10" x2="1" y2="16" width="0" layer="19" extent="1-1"/>
+<wire x1="3.5" y1="4.5" x2="1" y2="10" width="0" layer="19" extent="1-1"/>
+<wire x1="44.5" y1="80.6" x2="44.185" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="45.224565625" y1="80.57318125" x2="44.5" y2="80.6" width="0" layer="19" extent="1-1"/>
+<wire x1="45.224565625" y1="79.76038125" x2="45.224565625" y2="80.57318125" width="0" layer="19" extent="1-1"/>
+<wire x1="45.2" y1="79.1" x2="45.224565625" y2="79.76038125" width="0" layer="19" extent="1-1"/>
+<wire x1="43.7" y1="79.9" x2="44.5" y2="80.6" width="0" layer="19" extent="1-1"/>
+<wire x1="49.37518125" y1="79.76063125" x2="45.224565625" y2="79.76038125" width="0" layer="19" extent="1-1"/>
+<wire x1="49.4" y1="79.1" x2="49.37518125" y2="79.76063125" width="0" layer="19" extent="1-1"/>
+<wire x1="49.37518125" y1="80.57343125" x2="49.37518125" y2="79.76063125" width="0" layer="19" extent="1-1"/>
+<wire x1="52.7" y1="78.5" x2="49.4" y2="79.1" width="0" layer="19" extent="1-1"/>
+<wire x1="53.4" y1="78.6" x2="52.7" y2="78.5" width="0" layer="19" extent="1-1"/>
+<wire x1="52" y1="85" x2="49.37518125" y2="80.57343125" width="0" layer="19" extent="1-1"/>
+<wire x1="53.8" y1="85" x2="52" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="55.5" y1="85" x2="53.8" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="57.4" y1="85" x2="55.5" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="59.7" y1="85" x2="57.4" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="41.09999375" y1="75" x2="43.7" y2="79.9" width="0" layer="19" extent="1-1"/>
+<wire x1="62.4" y1="79.4" x2="59.7" y2="85" width="0" layer="19" extent="1-1"/>
+<wire x1="64" y1="78.7" x2="62.4" y2="79.4" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SPI1_SCK">
 <contactref element="SPI1-SCK" pad="1"/>
@@ -8285,9 +8773,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.04489375" y1="31.29195625" x2="20.04489375" y2="25.27643125" width="0.3048" layer="16"/>
 <wire x1="20.04489375" y1="25.27643125" x2="26.4318" y2="18.889525" width="0.3048" layer="16"/>
 <wire x1="26.4318" y1="18.889525" x2="26.4318" y2="9.4788625" width="0.3048" layer="16"/>
-<wire x1="26.4318" y1="9.4788625" x2="29.4106625" y2="6.5" width="0.3048" layer="16"/>
-<wire x1="29.4106625" y1="6.5" x2="39.2" y2="6.5" width="0.3048" layer="16"/>
-<wire x1="39.2" y1="6.5" x2="40.5714" y2="7.8714" width="0.3048" layer="16"/>
+<wire x1="26.4318" y1="9.4788625" x2="30.1106625" y2="5.8" width="0.3048" layer="16"/>
+<wire x1="30.1106625" y1="5.8" x2="38.5" y2="5.8" width="0.3048" layer="16"/>
+<wire x1="38.5" y1="5.8" x2="40.5714" y2="7.8714" width="0.3048" layer="16"/>
 <wire x1="40.5714" y1="7.8714" x2="48.2286" y2="7.8714" width="0.3048" layer="16"/>
 <wire x1="49.27" y1="6.83" x2="50.3114" y2="7.8714" width="0.3048" layer="16"/>
 <wire x1="50.3114" y1="7.8714" x2="77.6286" y2="7.8714" width="0.3048" layer="16"/>
@@ -8302,7 +8790,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="24.6" y1="34.6" x2="24.0364" y2="34.0364" width="0.3048" layer="1"/>
 <wire x1="24.0364" y1="34.0364" x2="24.0364" y2="31.90625" width="0.3048" layer="1"/>
 <wire x1="25.3272" y1="30.61545" x2="25.3272" y2="21.094125" width="0.3048" layer="1"/>
-<wire x1="28.53" y1="17.891325" x2="28.53" y2="9.5906625" width="0.3048" layer="1"/>
+<wire x1="28.53" y1="17.891325" x2="28.53" y2="9.7906625" width="0.3048" layer="1"/>
 </signal>
 <signal name="USART3_RX">
 <contactref element="J5" pad="12"/>
@@ -8311,7 +8799,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.8" y1="40" x2="26.6" y2="39.8" width="0.3048" layer="1"/>
 <wire x1="26.6" y1="35.618425" x2="28.308" y2="33.910425" width="0.3048" layer="1"/>
 <wire x1="28.308" y1="32.189575" x2="25.759" y2="29.640575" width="0.3048" layer="1"/>
-<wire x1="29.03" y1="18.0019875" x2="29.03" y2="9.5906625" width="0.3048" layer="1"/>
+<wire x1="29.03" y1="18.0019875" x2="29.03" y2="9.7906625" width="0.3048" layer="1"/>
 <wire x1="26.6" y1="39.8" x2="26.6" y2="35.618425" width="0.3048" layer="1"/>
 <wire x1="28.308" y1="33.910425" x2="28.308" y2="32.189575" width="0.3048" layer="1"/>
 <wire x1="25.759" y1="29.640575" x2="25.759" y2="21.2729875" width="0.3048" layer="1"/>
@@ -8341,15 +8829,16 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6.35" y1="86.35" x2="6.3" y2="86.4" width="0.3048" layer="1"/>
 <wire x1="6.7" y1="84.3" x2="6.3" y2="84.7" width="0.3048" layer="1"/>
 <wire x1="6.3" y1="84.7" x2="6.3" y2="86.4" width="0.3048" layer="1"/>
-<wire x1="3.9" y1="81.5" x2="3.9" y2="59.8" width="0.3048" layer="16"/>
-<wire x1="3.9" y1="81.5" x2="6.7" y2="84.3" width="0.3048" layer="16"/>
+<wire x1="3.6" y1="82.9" x2="3.6" y2="60.1" width="0.3048" layer="16"/>
+<wire x1="5" y1="84.3" x2="3.6" y2="82.9" width="0.3048" layer="16"/>
+<wire x1="5" y1="84.3" x2="6.7" y2="84.3" width="0.3048" layer="16"/>
 <wire x1="15.1" y1="51.238" x2="15.1" y2="50.318425" width="0.3048" layer="1"/>
 <wire x1="15.1" y1="50.318425" x2="15.108" y2="50.310425" width="0.3048" layer="1"/>
 <wire x1="15.108" y1="50.310425" x2="15.108" y2="49.889575" width="0.3048" layer="1"/>
 <wire x1="15.108" y1="49.889575" x2="14.810425" y2="49.592" width="0.3048" layer="1"/>
 <wire x1="14.108" y1="49.592" x2="13.2" y2="50.5" width="0.3048" layer="1"/>
 <via x="13.2" y="50.5" extent="1-16" drill="0.254"/>
-<wire x1="13.2" y1="50.5" x2="3.9" y2="59.8" width="0.3048" layer="16"/>
+<wire x1="13.2" y1="50.5" x2="3.6" y2="60.1" width="0.3048" layer="16"/>
 <wire x1="14.810425" y1="49.592" x2="14.108" y2="49.592" width="0.3048" layer="1"/>
 </signal>
 <signal name="OPD_SDA">
@@ -8381,7 +8870,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="N$271">
 <contactref element="D2" pad="A"/>
 <contactref element="R2" pad="1"/>
-<wire x1="9.7" y1="78.4" x2="7.077" y2="78.4" width="0.3048" layer="1"/>
+<wire x1="10.2" y1="78.4" x2="7.077" y2="78.4" width="0.3048" layer="1"/>
 </signal>
 <signal name="!SD">
 <contactref element="J6" pad="39"/>
@@ -8446,18 +8935,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J5" pad="1"/>
 <contactref element="J5" pad="2"/>
 <polygon width="0.127" layer="1" isolate="0.2" thermals="no" rank="4">
-<vertex x="33.8" y="8.9"/>
+<vertex x="33.8" y="9"/>
 <vertex x="33.8" y="11.9"/>
 <vertex x="34.9" y="11.9"/>
-<vertex x="34.9" y="8.9"/>
+<vertex x="34.9" y="9"/>
 </polygon>
 <polygon width="0.127" layer="16" isolate="0.2" thermals="no" rank="4">
-<vertex x="33.8" y="8.9"/>
+<vertex x="33.8" y="9"/>
 <vertex x="33.8" y="11.9"/>
 <vertex x="34.9" y="11.9"/>
-<vertex x="34.9" y="8.9"/>
+<vertex x="34.9" y="9"/>
 </polygon>
-<via x="34.3" y="10.5" extent="1-16" drill="0.254"/>
+<via x="34.3" y="10.7" extent="1-16" drill="0.254"/>
 <via x="34.3" y="11.5" extent="1-16" drill="0.254"/>
 <contactref element="R74" pad="1"/>
 <contactref element="R3" pad="2"/>
@@ -8557,6 +9046,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="35.1" y="70.5"/>
 <vertex x="35.1" y="68.3"/>
 </polygon>
+<wire x1="47.995" y1="87.359" x2="46.725" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="49.265" y1="88.629" x2="47.995" y2="88.629" width="0" layer="19" extent="1-1"/>
+<wire x1="30.4" y1="78.9" x2="46.725" y2="87.359" width="0" layer="19" extent="1-1"/>
+<wire x1="30.9" y1="77.5" x2="30.9" y2="76.6" width="0" layer="19" extent="1-1"/>
+<wire x1="27.5" y1="77.5" x2="27.775" y2="76.605" width="0" layer="19" extent="1-1"/>
+<wire x1="28.1" y1="77.5" x2="27.5" y2="77.5" width="0" layer="19" extent="1-1"/>
+<wire x1="28.7" y1="77.5" x2="28.1" y2="77.5" width="0" layer="19" extent="1-1"/>
+<wire x1="29.7" y1="77.5" x2="28.7" y2="77.5" width="0" layer="19" extent="1-1"/>
+<wire x1="29.702440625" y1="76.59999375" x2="29.7" y2="77.5" width="0" layer="19" extent="1-1"/>
+<wire x1="34.5" y1="69.9" x2="30.9" y2="76.6" width="0" layer="19" extent="1-1"/>
+<wire x1="34.3" y1="10.7" x2="34.3" y2="11.5" width="0" layer="19" extent="1-1"/>
+<wire x1="34.53" y1="9.7906625" x2="34.3" y2="10.7" width="0" layer="19" extent="1-1"/>
+<wire x1="34.03" y1="9.7906625" x2="34.53" y2="9.7906625" width="0" layer="19" extent="1-1"/>
+<wire x1="30.2" y1="68.8" x2="34.5" y2="68.7" width="0" layer="19" extent="1-1"/>
+<wire x1="30.2" y1="68.1" x2="30.2" y2="68.8" width="0" layer="19" extent="1-1"/>
+<wire x1="27.6" y1="68.8" x2="27.775" y2="68.105" width="0" layer="19" extent="1-1"/>
+<wire x1="28.2" y1="68.8" x2="27.6" y2="68.8" width="0" layer="19" extent="1-1"/>
+<wire x1="27" y1="68.8" x2="27.6" y2="68.8" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDAOPT5">
 </signal>
@@ -8860,7 +9367,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="J5" pad="10"/>
 <contactref element="NRST" pad="1"/>
 <contactref element="IC2" pad="14"/>
-<wire x1="30.03" y1="9.5906625" x2="30.03" y2="13.07" width="0.3048" layer="1"/>
+<wire x1="30.03" y1="9.7906625" x2="30.03" y2="13.07" width="0.3048" layer="1"/>
 <wire x1="30.03" y1="13.07" x2="29.9" y2="13.2" width="0.3048" layer="1"/>
 <wire x1="29.9" y1="13.2" x2="26.8636" y2="16.2364" width="0.3048" layer="16"/>
 <wire x1="20.47669375" y1="25.45529375" x2="20.47669375" y2="31.47081875" width="0.3048" layer="16"/>
@@ -8877,7 +9384,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SWCLK">
 <contactref element="J5" pad="15"/>
 <contactref element="IC2" pad="76"/>
-<wire x1="27.53" y1="9.5906625" x2="27.53" y2="17.67" width="0.3048" layer="1"/>
+<wire x1="27.53" y1="9.7906625" x2="27.53" y2="17.67" width="0.3048" layer="1"/>
 <wire x1="24.4636" y1="20.7364" x2="24.4636" y2="30.1654875" width="0.3048" layer="1"/>
 <wire x1="24.4636" y1="30.1654875" x2="21.21454375" y2="33.41454375" width="0.3048" layer="1"/>
 <via x="21.21454375" y="33.41454375" extent="1-16" drill="0.254"/>
@@ -8891,7 +9398,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SWDIO">
 <contactref element="J5" pad="14"/>
 <contactref element="IC2" pad="72"/>
-<wire x1="28.03" y1="9.5906625" x2="28.03" y2="17.7806625" width="0.3048" layer="1"/>
+<wire x1="28.03" y1="9.7906625" x2="28.03" y2="17.7806625" width="0.3048" layer="1"/>
 <wire x1="28.03" y1="17.7806625" x2="24.8954" y2="20.9152625" width="0.3048" layer="1"/>
 <wire x1="24.8954" y1="20.9152625" x2="24.8954" y2="30.34435" width="0.3048" layer="1"/>
 <wire x1="24.8954" y1="30.34435" x2="21.92375625" y2="33.31599375" width="0.3048" layer="1"/>
@@ -11756,26 +12263,26 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="DEBUG-0">
 <contactref element="J5" pad="17"/>
 <contactref element="DEBUG-0" pad="TP"/>
-<wire x1="26.53" y1="9.5906625" x2="26.53" y2="11.27" width="0.3048" layer="1"/>
+<wire x1="26.53" y1="9.7906625" x2="26.53" y2="11.27" width="0.3048" layer="1"/>
 <wire x1="26.53" y1="11.27" x2="26.5" y2="11.3" width="0.3048" layer="1"/>
 </signal>
 <signal name="DEBUG-1">
 <contactref element="J5" pad="18"/>
 <contactref element="DEBUG-1" pad="TP"/>
-<wire x1="26.03" y1="9.5906625" x2="26.03" y2="11.97" width="0.3048" layer="1"/>
+<wire x1="26.03" y1="9.7906625" x2="26.03" y2="11.97" width="0.3048" layer="1"/>
 <wire x1="26.03" y1="11.97" x2="26" y2="12" width="0.3048" layer="1"/>
 </signal>
 <signal name="DEBUG-2">
 <contactref element="J5" pad="19"/>
 <contactref element="DEBUG-2" pad="TP"/>
 <wire x1="25.5" y1="11.2" x2="25.53" y2="11.17" width="0.3048" layer="1"/>
-<wire x1="25.53" y1="11.17" x2="25.53" y2="9.5906625" width="0.3048" layer="1"/>
+<wire x1="25.53" y1="11.17" x2="25.53" y2="9.7906625" width="0.3048" layer="1"/>
 </signal>
 <signal name="DEBUG-3">
 <contactref element="J5" pad="20"/>
 <contactref element="DEBUG-3" pad="TP"/>
 <wire x1="24.7" y1="11.8" x2="25.03" y2="11.47" width="0.3048" layer="1"/>
-<wire x1="25.03" y1="11.47" x2="25.03" y2="9.5906625" width="0.3048" layer="1"/>
+<wire x1="25.03" y1="11.47" x2="25.03" y2="9.7906625" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$21">
 <contactref element="U13" pad="19"/>
@@ -12075,7 +12582,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <signal name="SWO">
 <contactref element="J5" pad="16"/>
 <contactref element="IC2" pad="89"/>
-<wire x1="27.03" y1="9.5906625" x2="27.03" y2="17.3952" width="0.3048" layer="1"/>
+<wire x1="27.03" y1="9.7906625" x2="27.03" y2="17.3952" width="0.3048" layer="1"/>
 <wire x1="27.03" y1="17.3952" x2="24.1252" y2="20.3" width="0.3048" layer="1"/>
 <wire x1="24.1252" y1="20.3" x2="24.1" y2="20.3" width="0.3048" layer="1"/>
 <wire x1="24.1" y1="20.3" x2="24.0318" y2="20.3682" width="0.3048" layer="1"/>
