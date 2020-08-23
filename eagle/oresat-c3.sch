@@ -74,7 +74,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -23018,7 +23018,7 @@ will be a congtrol signal from the MCU to
 <description>Microcontroller</description>
 <plain>
 <text x="200.66" y="243.84" size="2.54" layer="97" rot="MR0" grouprefs="CAN_BUS">CAN1 Transceiver</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">V3</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">V4</text>
 <wire x1="416.56" y1="99.06" x2="360.68" y2="99.06" width="0.1524" layer="97" grouprefs="OPD"/>
 <text x="414.02" y="104.14" size="1.778" layer="97" rot="MR0" grouprefs="OPD">Power/Current draw from OPD.</text>
 <text x="414.02" y="101.6" size="1.778" layer="97" rot="MR0" grouprefs="OPD">Signal is analog voltage 0-1.2V</text>
@@ -23036,6 +23036,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="360.68" y1="99.06" x2="360.68" y2="114.3" width="0.1524" layer="97" grouprefs="OPD"/>
 <wire x1="416.56" y1="114.3" x2="360.68" y2="114.3" width="0.1524" layer="97" grouprefs="OPD"/>
 <wire x1="416.56" y1="99.06" x2="416.56" y2="114.3" width="0.1524" layer="97" grouprefs="OPD"/>
+<text x="342.9" y="25.4" size="5.08" layer="94">Microcontroler</text>
 </plain>
 <instances>
 <instance part="C11" gate="G$1" x="83.82" y="20.32" smashed="yes" grouprefs="16MHZ_CLOCK">
@@ -23267,7 +23268,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TESTPOINTS TP EMMC">
+<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TP TESTPOINTS EMMC">
 <attribute name="NAME" x="176.53" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
@@ -23278,7 +23279,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="TESTPOINTS TP EMMC">
+<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="TP TESTPOINTS EMMC">
 <attribute name="NAME" x="295.91" y="26.67" size="1.778" layer="95"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
