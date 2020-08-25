@@ -15338,6 +15338,61 @@ CRYSTAL 16.000MHZ 10PF SMD</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="R-Generic-Thermister0402">
+<packages>
+<package name="R0402" urn="urn:adsk.eagle:footprint:23043/3">
+<description>&lt;b&gt;Chip RESISTOR 0402 EIA (1005 Metric)&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1" y1="0.483" x2="1" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="0.483" x2="1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1" y1="-0.483" x2="-1" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1" y1="-0.483" x2="-1" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.7" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.35" x2="0.1999" y2="0.35" layer="35"/>
+</package>
+</packages>
+<symbols>
+<symbol name="R-TRIM-1">
+<wire x1="0.762" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-1.8796" y2="1.7526" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="1.27" x2="-1.651" y2="2.413" width="0.254" layer="94"/>
+<text x="-5.969" y="-3.81" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="E" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NTCTHERMISTER" prefix="RT">
+<gates>
+<gate name="G$1" symbol="R-TRIM-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0402">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16947,82 +17002,91 @@ CRYSTAL 16.000MHZ 10PF SMD</description>
 </part>
 <part name="R93" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="5.6k"/>
 <part name="L16" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="10n"/>
-<part name="GND164" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND164" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="C130" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100p"/>
 <part name="C131" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100p"/>
 <part name="L25" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="4.1n"/>
 <part name="C132" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="27p"/>
-<part name="GND165" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND165" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="L32" library="oresat-rcl" deviceset="L-US" device="0805-C-NOSILK" value="22n"/>
 <part name="C133" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10p"/>
-<part name="GND166" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND166" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="U30" library="U-Qorvo-TQP7M9105-PA" deviceset="U-TQP7M9105" device=""/>
 <part name="U31" library="U-MiniCirc-BDCN-20-13+-coupler" deviceset="BDCN-20-13+" device=""/>
-<part name="GND167" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND167" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="U32" library="U-Linear-LT5534-RF-power-detector" deviceset="LT5534" device=""/>
-<part name="GND168" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND168" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="C134" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
-<part name="GND169" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND169" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="+3V8" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="C135" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100p"/>
 <part name="C136" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n"/>
 <part name="R94" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="47"/>
-<part name="GND170" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND170" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="U33" library="U-Linear-LT5534-RF-power-detector" deviceset="LT5534" device=""/>
-<part name="GND171" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND171" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="C137" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100n"/>
-<part name="GND172" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND172" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="+3V10" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="C138" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="100p"/>
 <part name="C139" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n"/>
 <part name="R95" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="47"/>
-<part name="GND173" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND173" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="AT5" library="AT-Susumu-PAT-attenuator" deviceset="PAT1220" device="" value="10dB"/>
 <part name="AT6" library="AT-Susumu-PAT-attenuator" deviceset="PAT0816" device="" value="10dB"/>
 <part name="AT7" library="AT-Susumu-PAT-attenuator" deviceset="PAT0816" device="" value="10dB"/>
-<part name="GND175" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND176" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND177" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND175" library="oresat-supplies" deviceset="GND-U" device=""/>
+<part name="GND176" library="oresat-supplies" deviceset="GND-U" device=""/>
+<part name="GND177" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="AT8" library="AT-Susumu-PAT-attenuator" deviceset="PAT0816" device="" value="10dB"/>
-<part name="GND178" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R96" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="0"/>
-<part name="R97" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="0"/>
-<part name="C140" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="NP"/>
+<part name="GND178" library="oresat-supplies" deviceset="GND-U" device=""/>
+<part name="R96" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
+<part name="R97" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
+<part name="C140" library="C3_SamacSys_Parts" deviceset="CAP0603-NP" device="" value="NP"/>
 <part name="GND180" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C141" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="NP"/>
+<part name="C141" library="C3_SamacSys_Parts" deviceset="CAP0603-NP" device="" value="NP"/>
 <part name="GND181" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R98" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="47k"/>
-<part name="GND182" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND182" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="Q4" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="P-CH"/>
 <part name="Q5" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="N-CH"/>
 <part name="P+5" library="oresat-supplies" deviceset="5V-U" device=""/>
 <part name="P+6" library="oresat-supplies" deviceset="5V-U" device=""/>
-<part name="GND183" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND183" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="R99" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="47k"/>
 <part name="R100" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="47k"/>
-<part name="GND186" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND186" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="C142" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="1u"/>
 <part name="C143" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="47n"/>
 <part name="C144" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="NP"/>
-<part name="GND187" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND188" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND189" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND187" library="oresat-supplies" deviceset="GND-U" device=""/>
+<part name="GND188" library="oresat-supplies" deviceset="GND-U" device=""/>
+<part name="GND189" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="JP15" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
 <part name="R101" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="0"/>
 <part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.2-GENERIC-3XRF-V1.0" device=""/>
+<part name="R84" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
+<part name="C22" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u"/>
+<part name="GND90" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="RT1" library="R-Generic-Thermister0402" deviceset="NTCTHERMISTER" device=""/>
+<part name="GND-U9" library="oresat-supplies" deviceset="GND-U" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>Connectors</description>
 <plain>
-<text x="341.63" y="26.67" size="3.81" layer="94">oresat-c3-prototype</text>
-<text x="416.56" y="6.35" size="3.81" layer="94">V3</text>
+<text x="341.63" y="26.67" size="3.81" layer="94">Oresat-C3 Card/Connectors</text>
+<text x="416.56" y="6.35" size="3.81" layer="94">V4</text>
 <text x="50.8" y="142.24" size="2.54" layer="97" rot="R90">Main OreSat Card Connector</text>
 <text x="314.96" y="186.69" size="3.81" layer="97">RF connections and test points</text>
 <text x="116.84" y="180.34" size="1.778" layer="97">OreSat Power Domain signals
 (See power sheet)</text>
 <text x="10.16" y="5.08" size="2.54" layer="97">All resistors 0603 1%
 All caps are 0603 and 10V DC or greater</text>
+<wire x1="53.34" y1="38.1" x2="134.62" y2="38.1" width="0.1524" layer="97"/>
+<wire x1="134.62" y1="38.1" x2="134.62" y2="68.58" width="0.1524" layer="97"/>
+<wire x1="134.62" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="97"/>
+<wire x1="53.34" y1="68.58" x2="53.34" y2="38.1" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -17533,8 +17597,8 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="236.22" y1="254" x2="236.22" y2="179.07" width="0.1524" layer="97"/>
 <wire x1="236.22" y1="179.07" x2="127" y2="179.07" width="0.1524" layer="97"/>
 <wire x1="127" y1="179.07" x2="127" y2="254" width="0.1524" layer="97"/>
-<text x="416.56" y="6.35" size="3.81" layer="94">V3</text>
-<text x="13.97" y="246.126" size="1.778" layer="97">Vbus = (6.0,7.2,8.4)V
+<text x="416.56" y="6.35" size="3.81" layer="94">V4</text>
+<text x="11.43" y="246.126" size="1.778" layer="97">Vbus = (6.0,7.2,8.4)V
 Switch is off for VBUS &lt; 5 V (undervoltage lock out)
 VBUSP is limited to 302mA by R6
 DV/DT (open = highest slew rate)
@@ -17588,6 +17652,9 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <text x="33.02" y="119.38" size="1.778" layer="97">150 mA Max Output Current</text>
 <text x="269.24" y="43.18" size="1.778" layer="97">150 mA Max Output Current</text>
 <text x="353.06" y="43.18" size="1.778" layer="97">150 mA Max Output Current</text>
+<text x="99.06" y="83.82" size="1.778" layer="97">Pull-up for !FLT-U test-point</text>
+<text x="71.12" y="246.38" size="1.778" layer="97">Pull-up for !FLT test-point</text>
+<text x="327.66" y="25.4" size="5.08" layer="94">Power (Card,L-Band,UHF,OPD)</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -17746,23 +17813,23 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="26.924" y="228.981" size="1.778" layer="96"/>
 <attribute name="VDC" x="26.924" y="226.568" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TESTPOINTS TP"/>
-<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TP TESTPOINTS"/>
+<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="82.55" y="217.17" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="164.592" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="201.93" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="222.25" y="234.95" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="345.44" y="205.74" smashed="yes" rot="MR0">
@@ -17828,13 +17895,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MANUFACTURER" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="295.91" y="222.25" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="295.91" y="229.87" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="387.35" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="66.04" smashed="yes">
@@ -17936,7 +18003,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="136.144" y="61.341" size="1.778" layer="96"/>
 <attribute name="VDC" x="136.144" y="58.928" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="204.47" y="59.69" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="66.04" smashed="yes">
@@ -21312,11 +21379,11 @@ Degeneration</text>
 <wire x1="218.44" y1="167.64" x2="353.06" y2="167.64" width="0.1524" layer="97"/>
 <wire x1="353.06" y1="167.64" x2="353.06" y2="271.78" width="0.1524" layer="97"/>
 <wire x1="353.06" y1="271.78" x2="218.44" y2="271.78" width="0.1524" layer="97"/>
-<wire x1="116.84" y1="269.24" x2="116.84" y2="231.14" width="0.1524" layer="97"/>
-<wire x1="116.84" y1="231.14" x2="190.5" y2="231.14" width="0.1524" layer="97"/>
-<wire x1="190.5" y1="231.14" x2="190.5" y2="269.24" width="0.1524" layer="97"/>
-<wire x1="190.5" y1="269.24" x2="116.84" y2="269.24" width="0.1524" layer="97"/>
-<text x="132.08" y="264.16" size="3.81" layer="97">3rd Order BPF</text>
+<wire x1="116.84" y1="236.22" x2="116.84" y2="198.12" width="0.1524" layer="97"/>
+<wire x1="116.84" y1="198.12" x2="190.5" y2="198.12" width="0.1524" layer="97"/>
+<wire x1="190.5" y1="198.12" x2="190.5" y2="236.22" width="0.1524" layer="97"/>
+<wire x1="190.5" y1="236.22" x2="116.84" y2="236.22" width="0.1524" layer="97"/>
+<text x="132.08" y="231.14" size="3.81" layer="97">3rd Order BPF</text>
 <wire x1="358.14" y1="210.82" x2="358.14" y2="172.72" width="0.1524" layer="97"/>
 <wire x1="358.14" y1="172.72" x2="416.56" y2="172.72" width="0.1524" layer="97"/>
 <wire x1="416.56" y1="172.72" x2="416.56" y2="210.82" width="0.1524" layer="97"/>
@@ -21340,31 +21407,25 @@ will be a congtrol signal from the MCU to
 <text x="167.64" y="158.75" size="1.778" layer="97">Reflectometer Power Enable:
 Enable: High
 Shutdn: Low</text>
-<text x="26.67" y="161.29" size="1.778" layer="97" rot="MR0">To M4
+<text x="21.59" y="158.75" size="1.778" layer="97" rot="MR0">To M4
 DC Levels</text>
-<text x="8.89" y="95.25" size="1.778" layer="97">Reverse reflectometery 
-signal to ADC of 
-microprocessor. 
-The low pass filter 
-(R97,C141) to be placed
-close to the microporcessor.</text>
+<text x="8.89" y="105.41" size="1.778" layer="97">Reverse reflectometery 
+signal to ADC of microprocessor.</text>
 <text x="35.56" y="50.8" size="1.778" layer="97">-24dB</text>
 <text x="73.66" y="50.8" size="1.778" layer="97">-24dB</text>
 <text x="168.91" y="140.97" size="1.778" layer="97">PA Power:
 Enable: High
 Shutdn: Low</text>
-<text x="40.64" y="154.94" size="1.778" layer="97">Optional LPF
-Refer to LT5534 datasheet</text>
-<text x="109.22" y="21.59" size="1.778" layer="97">Thermal connection to ground
-planes are required.  Dissipates
-up to 1W of heat.</text>
-<text x="109.22" y="10.16" size="1.778" layer="97">L35, C132 (input) and  L32, L15, C133 (output)
-keep physical distance (1.95mm) to U30
-(TQP7M9105) </text>
-<text x="8.89" y="138.43" size="1.778" layer="97">Forward reflectometery signal 
-to ADC of microprocessor. 
-The low pass filter (R96,C140) 
+<text x="40.64" y="129.54" size="1.778" layer="97">Optional LPF
+Refer to LT5534 datasheet
+The LPF (R96,C140) 
 to be placed close to the microporcessor.</text>
+<text x="116.84" y="21.59" size="1.778" layer="97">Thermal connection to ground planes are required. 
+Dissipates up to 1W of heat.</text>
+<text x="116.84" y="15.24" size="1.778" layer="97">L25, C132 (input) and  L32, L16, C133 (output)
+keep physical distance (1.95mm) to U30 (TQP7M9105) </text>
+<text x="8.89" y="143.51" size="1.778" layer="97">Forward reflectometery signal 
+to ADC of microprocessor. </text>
 <text x="86.36" y="88.9" size="1.778" layer="97">30dB</text>
 <text x="48.26" y="88.9" size="1.778" layer="97">10dB</text>
 <wire x1="76.2" y1="88.9" x2="101.6" y2="88.9" width="0.1524" layer="97"/>
@@ -21373,6 +21434,10 @@ to be placed close to the microporcessor.</text>
 <wire x1="48.26" y1="86.36" x2="48.26" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="48.26" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="97"/>
 <wire x1="53.34" y1="88.9" x2="53.34" y2="86.36" width="0.1524" layer="97"/>
+<text x="33.02" y="96.52" size="1.778" layer="97">The LPF(R97,C141) 
+to be placed close to the microporcessor.</text>
+<text x="139.7" y="187.96" size="1.778" layer="97">402 thermister for UHF PA
+talk to Andrew on resistor value</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -21981,73 +22046,73 @@ to be placed close to the microporcessor.</text>
 <instance part="GND-U20" gate="G$1" x="317.5" y="220.98" smashed="yes">
 <attribute name="VALUE" x="314.96" y="218.44" size="1.778" layer="96"/>
 </instance>
-<instance part="L26" gate="L" x="129.54" y="246.38" smashed="yes" rot="R90">
-<attribute name="NAME" x="127" y="241.3" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="125.73" y="246.38" size="1.778" layer="96" rot="R90" align="top-left"/>
-<attribute name="MOUSER_PART_NUMBER" x="129.54" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="129.54" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="129.54" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DISTRIBUTOR" x="129.54" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="129.54" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" x="129.54" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="INVENTORY" x="129.54" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="L26" gate="L" x="129.54" y="213.36" smashed="yes" rot="R90">
+<attribute name="NAME" x="127" y="208.28" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="125.73" y="213.36" size="1.778" layer="96" rot="R90" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DISTRIBUTOR" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="INVENTORY" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="L27" gate="L" x="154.94" y="254" smashed="yes">
-<attribute name="NAME" x="149.86" y="256.54" size="1.778" layer="95"/>
-<attribute name="VALUE" x="156.21" y="257.81" size="1.778" layer="96" align="top-left"/>
-<attribute name="MOUSER_PART_NUMBER" x="154.94" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="154.94" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="154.94" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="DISTRIBUTOR" x="154.94" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="154.94" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="DESCRIPTION" x="154.94" y="254" size="1.778" layer="96" display="off"/>
-<attribute name="INVENTORY" x="154.94" y="254" size="1.778" layer="96" display="off"/>
+<instance part="L27" gate="L" x="154.94" y="220.98" smashed="yes">
+<attribute name="NAME" x="149.86" y="223.52" size="1.778" layer="95"/>
+<attribute name="VALUE" x="156.21" y="224.79" size="1.778" layer="96" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="154.94" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="154.94" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="154.94" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="DISTRIBUTOR" x="154.94" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="154.94" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="154.94" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="INVENTORY" x="154.94" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C96" gate="CE" x="134.62" y="248.92" smashed="yes">
-<attribute name="NAME" x="136.144" y="249.301" size="1.778" layer="95"/>
-<attribute name="VALUE" x="136.144" y="244.221" size="1.778" layer="96"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="134.62" y="248.92" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="134.62" y="248.92" size="1.778" layer="96" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="134.62" y="248.92" size="1.778" layer="96" display="off"/>
-<attribute name="DESCRIPTION" x="134.62" y="248.92" size="1.778" layer="96" display="off"/>
-<attribute name="VDC" x="134.62" y="248.92" size="1.778" layer="96" display="off"/>
+<instance part="C96" gate="CE" x="134.62" y="215.9" smashed="yes">
+<attribute name="NAME" x="136.144" y="216.281" size="1.778" layer="95"/>
+<attribute name="VALUE" x="136.144" y="211.201" size="1.778" layer="96"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="134.62" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="134.62" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="134.62" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="134.62" y="215.9" size="1.778" layer="96" display="off"/>
+<attribute name="VDC" x="134.62" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C101" gate="CE" x="142.24" y="254" smashed="yes" rot="R90">
-<attribute name="NAME" x="141.859" y="256.794" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="144.399" y="256.794" size="1.778" layer="96" rot="R90"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="MANUFACTURER" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="DESCRIPTION" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="VDC" x="142.24" y="254" size="1.778" layer="96" rot="R90" display="off"/>
+<instance part="C101" gate="CE" x="142.24" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="141.859" y="223.774" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="144.399" y="223.774" size="1.778" layer="96" rot="R90"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="DESCRIPTION" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="VDC" x="142.24" y="220.98" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="C107" gate="CE" x="165.1" y="248.92" smashed="yes" rot="MR0">
-<attribute name="NAME" x="163.576" y="249.301" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="163.576" y="244.221" size="1.778" layer="96" rot="MR0"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="165.1" y="248.92" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="MANUFACTURER" x="165.1" y="248.92" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="165.1" y="248.92" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" x="165.1" y="248.92" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="VDC" x="165.1" y="248.92" size="1.778" layer="96" rot="MR0" display="off"/>
+<instance part="C107" gate="CE" x="165.1" y="215.9" smashed="yes" rot="MR0">
+<attribute name="NAME" x="163.576" y="216.281" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="163.576" y="211.201" size="1.778" layer="96" rot="MR0"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="165.1" y="215.9" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="MANUFACTURER" x="165.1" y="215.9" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="165.1" y="215.9" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" x="165.1" y="215.9" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="VDC" x="165.1" y="215.9" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="L28" gate="L" x="170.18" y="246.38" smashed="yes" rot="MR90">
-<attribute name="NAME" x="172.72" y="241.3" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="173.99" y="246.38" size="1.778" layer="96" rot="MR90" align="top-left"/>
-<attribute name="MOUSER_PART_NUMBER" x="170.18" y="246.38" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="170.18" y="246.38" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MANUFACTURER" x="170.18" y="246.38" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="DISTRIBUTOR" x="170.18" y="246.38" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="170.18" y="246.38" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" x="170.18" y="246.38" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="INVENTORY" x="170.18" y="246.38" size="1.778" layer="96" rot="MR90" display="off"/>
+<instance part="L28" gate="L" x="170.18" y="213.36" smashed="yes" rot="MR90">
+<attribute name="NAME" x="172.72" y="208.28" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="173.99" y="213.36" size="1.778" layer="96" rot="MR90" align="top-left"/>
+<attribute name="MOUSER_PART_NUMBER" x="170.18" y="213.36" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="170.18" y="213.36" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="MANUFACTURER" x="170.18" y="213.36" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DISTRIBUTOR" x="170.18" y="213.36" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="170.18" y="213.36" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="DESCRIPTION" x="170.18" y="213.36" size="1.778" layer="96" rot="MR90" display="off"/>
+<attribute name="INVENTORY" x="170.18" y="213.36" size="1.778" layer="96" rot="MR90" display="off"/>
 </instance>
 <instance part="L29" gate="L" x="365.76" y="187.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="363.22" y="182.88" size="1.778" layer="95" rot="R90"/>
@@ -22129,17 +22194,17 @@ to be placed close to the microporcessor.</text>
 <instance part="GND-U8" gate="G$1" x="365.76" y="177.8" smashed="yes">
 <attribute name="VALUE" x="363.22" y="175.26" size="1.778" layer="96"/>
 </instance>
-<instance part="GND-U21" gate="G$1" x="129.54" y="236.22" smashed="yes">
-<attribute name="VALUE" x="127" y="233.68" size="1.778" layer="96"/>
+<instance part="GND-U21" gate="G$1" x="129.54" y="203.2" smashed="yes">
+<attribute name="VALUE" x="127" y="200.66" size="1.778" layer="96"/>
 </instance>
-<instance part="GND-U22" gate="G$1" x="134.62" y="241.3" smashed="yes">
-<attribute name="VALUE" x="132.08" y="238.76" size="1.778" layer="96"/>
+<instance part="GND-U22" gate="G$1" x="134.62" y="208.28" smashed="yes">
+<attribute name="VALUE" x="132.08" y="205.74" size="1.778" layer="96"/>
 </instance>
-<instance part="GND-U23" gate="G$1" x="165.1" y="241.3" smashed="yes">
-<attribute name="VALUE" x="162.56" y="238.76" size="1.778" layer="96"/>
+<instance part="GND-U23" gate="G$1" x="165.1" y="208.28" smashed="yes">
+<attribute name="VALUE" x="162.56" y="205.74" size="1.778" layer="96"/>
 </instance>
-<instance part="GND-U24" gate="G$1" x="170.18" y="236.22" smashed="yes">
-<attribute name="VALUE" x="167.64" y="233.68" size="1.778" layer="96"/>
+<instance part="GND-U24" gate="G$1" x="170.18" y="203.2" smashed="yes">
+<attribute name="VALUE" x="167.64" y="200.66" size="1.778" layer="96"/>
 </instance>
 <instance part="R13" gate="G$1" x="378.46" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="376.9614" y="77.47" size="1.778" layer="95" rot="R90"/>
@@ -22210,7 +22275,7 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="116.84" y="50.8" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="111.252" y="50.8" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND164" gate="1" x="134.62" y="33.02" smashed="yes">
+<instance part="GND164" gate="G$1" x="134.62" y="33.02" smashed="yes">
 <attribute name="VALUE" x="132.08" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="C130" gate="CE" x="177.8" y="48.26" smashed="yes" rot="R270">
@@ -22229,8 +22294,8 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="164.084" y="46.101" size="1.778" layer="95"/>
 <attribute name="VALUE" x="164.084" y="41.021" size="1.778" layer="96"/>
 </instance>
-<instance part="GND165" gate="1" x="162.56" y="33.02" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="165.1" y="30.48" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND165" gate="G$1" x="162.56" y="33.02" smashed="yes">
+<attribute name="VALUE" x="160.02" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="L32" gate="L" x="119.38" y="58.42" smashed="yes" rot="MR90">
 <attribute name="NAME" x="121.92" y="53.34" size="1.778" layer="95" rot="MR90"/>
@@ -22240,7 +22305,7 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="105.156" y="43.561" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="105.156" y="38.481" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND166" gate="1" x="106.68" y="33.02" smashed="yes">
+<instance part="GND166" gate="G$1" x="106.68" y="33.02" smashed="yes">
 <attribute name="VALUE" x="104.14" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="U30" gate="G$1" x="134.62" y="45.72" smashed="yes" rot="MR0">
@@ -22251,21 +22316,21 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="48.26" y="55.88" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.26" y="53.34" size="1.778" layer="96"/>
 </instance>
-<instance part="GND167" gate="1" x="58.42" y="33.02" smashed="yes">
+<instance part="GND167" gate="G$1" x="58.42" y="33.02" smashed="yes">
 <attribute name="VALUE" x="55.88" y="30.48" size="1.778" layer="96"/>
 </instance>
 <instance part="U32" gate="G$1" x="86.36" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="76.2" y="162.56" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.2" y="160.02" size="1.778" layer="96"/>
 </instance>
-<instance part="GND168" gate="1" x="86.36" y="139.7" smashed="yes">
+<instance part="GND168" gate="G$1" x="86.36" y="139.7" smashed="yes">
 <attribute name="VALUE" x="83.82" y="137.16" size="1.778" layer="96"/>
 </instance>
 <instance part="C134" gate="CE" x="93.98" y="170.18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="92.456" y="170.561" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="92.456" y="165.481" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND169" gate="1" x="104.14" y="162.56" smashed="yes">
+<instance part="GND169" gate="G$1" x="104.14" y="162.56" smashed="yes">
 <attribute name="VALUE" x="101.6" y="160.02" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V8" gate="G$1" x="104.14" y="177.8" smashed="yes" rot="MR0">
@@ -22283,21 +22348,21 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="110.7186" y="69.85" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="105.918" y="69.85" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND170" gate="1" x="109.22" y="63.5" smashed="yes">
+<instance part="GND170" gate="G$1" x="109.22" y="63.5" smashed="yes">
 <attribute name="VALUE" x="106.68" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="U33" gate="G$1" x="86.36" y="114.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="76.2" y="124.46" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.2" y="121.92" size="1.778" layer="96"/>
 </instance>
-<instance part="GND171" gate="1" x="86.36" y="101.6" smashed="yes">
+<instance part="GND171" gate="G$1" x="86.36" y="101.6" smashed="yes">
 <attribute name="VALUE" x="83.82" y="99.06" size="1.778" layer="96"/>
 </instance>
 <instance part="C137" gate="CE" x="93.98" y="132.08" smashed="yes" rot="MR0">
 <attribute name="NAME" x="92.456" y="132.461" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="92.456" y="127.381" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND172" gate="1" x="104.14" y="124.46" smashed="yes">
+<instance part="GND172" gate="G$1" x="104.14" y="124.46" smashed="yes">
 <attribute name="VALUE" x="101.6" y="121.92" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V10" gate="G$1" x="104.14" y="137.16" smashed="yes" rot="MR0">
@@ -22307,15 +22372,15 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="102.616" y="132.461" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="102.616" y="127.381" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C139" gate="CE" x="60.96" y="93.98" smashed="yes" rot="MR0">
-<attribute name="NAME" x="59.436" y="94.361" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="59.436" y="89.281" size="1.778" layer="96" rot="MR0"/>
+<instance part="C139" gate="CE" x="60.96" y="91.44" smashed="yes" rot="MR0">
+<attribute name="NAME" x="59.436" y="91.821" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="59.436" y="86.741" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="R95" gate="R" x="60.96" y="73.66" smashed="yes" rot="MR90">
 <attribute name="NAME" x="62.4586" y="69.85" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="57.658" y="69.85" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND173" gate="1" x="60.96" y="63.5" smashed="yes">
+<instance part="GND173" gate="G$1" x="60.96" y="63.5" smashed="yes">
 <attribute name="VALUE" x="58.42" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="AT5" gate="G$1" x="78.74" y="78.74" smashed="yes">
@@ -22330,38 +22395,38 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="101.6" y="83.82" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.6" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="GND175" gate="1" x="99.06" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="101.6" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND175" gate="G$1" x="99.06" y="63.5" smashed="yes">
+<attribute name="VALUE" x="96.52" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="GND176" gate="1" x="88.9" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="91.44" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND176" gate="G$1" x="88.9" y="63.5" smashed="yes">
+<attribute name="VALUE" x="86.36" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="GND177" gate="1" x="78.74" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="81.28" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND177" gate="G$1" x="78.74" y="63.5" smashed="yes">
+<attribute name="VALUE" x="76.2" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="AT8" gate="G$1" x="50.8" y="78.74" smashed="yes" rot="MR0">
 <attribute name="NAME" x="53.34" y="83.82" size="1.778" layer="95"/>
 <attribute name="VALUE" x="53.34" y="81.28" size="1.778" layer="96"/>
 </instance>
-<instance part="GND178" gate="1" x="50.8" y="63.5" smashed="yes">
+<instance part="GND178" gate="G$1" x="50.8" y="63.5" smashed="yes">
 <attribute name="VALUE" x="48.26" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="R96" gate="R" x="66.04" y="152.4" smashed="yes" rot="MR0">
+<instance part="R96" gate="G$1" x="66.04" y="152.4" smashed="yes" rot="MR0">
 <attribute name="NAME" x="69.85" y="153.8986" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="69.85" y="149.098" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R97" gate="R" x="66.04" y="114.3" smashed="yes" rot="MR0">
+<instance part="R97" gate="G$1" x="66.04" y="114.3" smashed="yes" rot="MR0">
 <attribute name="NAME" x="69.85" y="115.7986" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="69.85" y="110.998" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="C140" gate="CE" x="60.96" y="149.86" smashed="yes" rot="MR0">
+<instance part="C140" gate="G$1" x="60.96" y="149.86" smashed="yes" rot="MR0">
 <attribute name="NAME" x="59.436" y="150.241" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="59.436" y="145.161" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND180" gate="1" x="60.96" y="139.7" smashed="yes">
 <attribute name="VALUE" x="58.42" y="137.16" size="1.778" layer="96"/>
 </instance>
-<instance part="C141" gate="CE" x="60.96" y="111.76" smashed="yes" rot="MR0">
+<instance part="C141" gate="G$1" x="60.96" y="111.76" smashed="yes" rot="MR0">
 <attribute name="NAME" x="59.436" y="112.141" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="59.436" y="107.061" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -22372,7 +22437,7 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="153.8986" y="146.05" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="149.098" y="146.05" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND182" gate="1" x="152.4" y="142.24" smashed="yes">
+<instance part="GND182" gate="G$1" x="152.4" y="142.24" smashed="yes">
 <attribute name="VALUE" x="149.86" y="139.7" size="1.778" layer="96"/>
 </instance>
 <instance part="Q4" gate="G$1" x="119.38" y="109.22" smashed="yes" rot="MR0">
@@ -22389,7 +22454,7 @@ to be placed close to the microporcessor.</text>
 <instance part="P+6" gate="G$1" x="137.16" y="129.54" smashed="yes">
 <attribute name="VALUE" x="137.16" y="129.794" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND183" gate="1" x="152.4" y="91.44" smashed="yes">
+<instance part="GND183" gate="G$1" x="152.4" y="91.44" smashed="yes">
 <attribute name="VALUE" x="149.86" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="R99" gate="R" x="137.16" y="119.38" smashed="yes" rot="MR270">
@@ -22400,7 +22465,7 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="153.8986" y="130.81" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="149.098" y="130.81" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND186" gate="1" x="152.4" y="124.46" smashed="yes">
+<instance part="GND186" gate="G$1" x="152.4" y="124.46" smashed="yes">
 <attribute name="VALUE" x="149.86" y="121.92" size="1.778" layer="96"/>
 </instance>
 <instance part="C142" gate="CE" x="127" y="76.2" smashed="yes" rot="MR0">
@@ -22415,14 +22480,14 @@ to be placed close to the microporcessor.</text>
 <attribute name="NAME" x="145.796" y="76.581" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="145.796" y="71.501" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="GND187" gate="1" x="147.32" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="149.86" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND187" gate="G$1" x="147.32" y="63.5" smashed="yes">
+<attribute name="VALUE" x="144.78" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="GND188" gate="1" x="137.16" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="139.7" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND188" gate="G$1" x="137.16" y="63.5" smashed="yes">
+<attribute name="VALUE" x="134.62" y="60.96" size="1.778" layer="96"/>
 </instance>
-<instance part="GND189" gate="1" x="127" y="63.5" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="129.54" y="60.96" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND189" gate="G$1" x="127" y="63.5" smashed="yes">
+<attribute name="VALUE" x="124.46" y="60.96" size="1.778" layer="96"/>
 </instance>
 <instance part="JP15" gate="R" x="142.24" y="149.86" smashed="yes" rot="MR90">
 <attribute name="NAME" x="143.7386" y="146.05" size="1.778" layer="95" rot="MR90"/>
@@ -22430,6 +22495,25 @@ to be placed close to the microporcessor.</text>
 </instance>
 <instance part="R101" gate="R" x="147.32" y="154.94" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="143.51" y="158.242" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="R84" gate="G$1" x="144.78" y="180.34" smashed="yes">
+<attribute name="NAME" x="140.97" y="181.8386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="140.97" y="177.038" size="1.778" layer="96"/>
+</instance>
+<instance part="C22" gate="G$1" x="162.56" y="177.8" smashed="yes">
+<attribute name="NAME" x="164.084" y="178.181" size="1.778" layer="95"/>
+<attribute name="VALUE" x="164.084" y="173.101" size="1.778" layer="96"/>
+<attribute name="VDC" x="164.084" y="170.688" size="1.778" layer="97"/>
+</instance>
+<instance part="GND90" gate="1" x="162.56" y="170.18" smashed="yes">
+<attribute name="VALUE" x="160.02" y="167.64" size="1.778" layer="96"/>
+</instance>
+<instance part="RT1" gate="G$1" x="154.94" y="180.34" smashed="yes" rot="R270">
+<attribute name="NAME" x="151.13" y="186.309" size="1.778" layer="95"/>
+<attribute name="VALUE" x="151.13" y="184.15" size="1.778" layer="96"/>
+</instance>
+<instance part="GND-U9" gate="G$1" x="139.7" y="170.18" smashed="yes">
+<attribute name="VALUE" x="137.16" y="167.64" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -22715,6 +22799,11 @@ to be placed close to the microporcessor.</text>
 <pinref part="L28" gate="L" pin="1"/>
 <pinref part="GND-U24" gate="G$1" pin="GND-U"/>
 </segment>
+<segment>
+<pinref part="R84" gate="G$1" pin="1"/>
+<wire x1="139.7" y1="172.72" x2="139.7" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="GND-U9" gate="G$1" pin="GND-U"/>
+</segment>
 </net>
 <net name="3.3V-U" class="0">
 <segment>
@@ -22909,114 +22998,118 @@ to be placed close to the microporcessor.</text>
 <segment>
 <pinref part="D10" gate="G$1" pin="C"/>
 <pinref part="Q5" gate="G$1" pin="S"/>
-<pinref part="GND183" gate="1" pin="GND"/>
+<pinref part="GND183" gate="G$1" pin="GND-U"/>
 <wire x1="152.4" y1="93.98" x2="137.16" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="93.98" x2="137.16" y2="101.6" width="0.1524" layer="91"/>
 <junction x="137.16" y="93.98"/>
 </segment>
 <segment>
 <pinref part="C132" gate="CE" pin="2"/>
-<pinref part="GND165" gate="1" pin="GND"/>
+<pinref part="GND165" gate="G$1" pin="GND-U"/>
 <wire x1="162.56" y1="35.56" x2="162.56" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C133" gate="CE" pin="2"/>
-<pinref part="GND166" gate="1" pin="GND"/>
+<pinref part="GND166" gate="G$1" pin="GND-U"/>
 <wire x1="106.68" y1="35.56" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND164" gate="1" pin="GND"/>
+<pinref part="GND164" gate="G$1" pin="GND-U"/>
 <pinref part="U30" gate="G$1" pin="GND"/>
 <wire x1="134.62" y1="38.1" x2="134.62" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U31" gate="G$1" pin="GND"/>
-<pinref part="GND167" gate="1" pin="GND"/>
+<pinref part="GND167" gate="G$1" pin="GND-U"/>
 </segment>
 <segment>
 <pinref part="U32" gate="G$1" pin="GND"/>
-<pinref part="GND168" gate="1" pin="GND"/>
+<pinref part="GND168" gate="G$1" pin="GND-U"/>
 </segment>
 <segment>
 <pinref part="C134" gate="CE" pin="2"/>
-<pinref part="GND169" gate="1" pin="GND"/>
+<pinref part="GND169" gate="G$1" pin="GND-U"/>
 <wire x1="93.98" y1="165.1" x2="104.14" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="C135" gate="CE" pin="2"/>
 <junction x="104.14" y="165.1"/>
 </segment>
 <segment>
 <pinref part="R94" gate="R" pin="1"/>
-<pinref part="GND170" gate="1" pin="GND"/>
+<pinref part="GND170" gate="G$1" pin="GND-U"/>
 <wire x1="109.22" y1="66.04" x2="109.22" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U33" gate="G$1" pin="GND"/>
-<pinref part="GND171" gate="1" pin="GND"/>
+<pinref part="GND171" gate="G$1" pin="GND-U"/>
 </segment>
 <segment>
 <pinref part="C137" gate="CE" pin="2"/>
-<pinref part="GND172" gate="1" pin="GND"/>
+<pinref part="GND172" gate="G$1" pin="GND-U"/>
 <pinref part="C138" gate="CE" pin="2"/>
 <junction x="104.14" y="127"/>
 <wire x1="104.14" y1="127" x2="93.98" y2="127" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R95" gate="R" pin="1"/>
-<pinref part="GND173" gate="1" pin="GND"/>
+<pinref part="GND173" gate="G$1" pin="GND-U"/>
 <wire x1="60.96" y1="66.04" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AT7" gate="G$1" pin="GND"/>
-<pinref part="GND175" gate="1" pin="GND"/>
+<pinref part="GND175" gate="G$1" pin="GND-U"/>
 <wire x1="99.06" y1="71.12" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AT6" gate="G$1" pin="GND"/>
-<pinref part="GND176" gate="1" pin="GND"/>
+<pinref part="GND176" gate="G$1" pin="GND-U"/>
 <wire x1="88.9" y1="71.12" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AT5" gate="G$1" pin="GND"/>
-<pinref part="GND177" gate="1" pin="GND"/>
+<pinref part="GND177" gate="G$1" pin="GND-U"/>
 <wire x1="78.74" y1="71.12" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="AT8" gate="G$1" pin="GND"/>
-<pinref part="GND178" gate="1" pin="GND"/>
+<pinref part="GND178" gate="G$1" pin="GND-U"/>
 <wire x1="50.8" y1="66.04" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C140" gate="CE" pin="2"/>
+<pinref part="C140" gate="G$1" pin="2"/>
 <pinref part="GND180" gate="1" pin="GND"/>
 <wire x1="60.96" y1="144.78" x2="60.96" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C141" gate="CE" pin="2"/>
+<pinref part="C141" gate="G$1" pin="2"/>
 <pinref part="GND181" gate="1" pin="GND"/>
 <wire x1="60.96" y1="106.68" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R98" gate="R" pin="1"/>
-<pinref part="GND182" gate="1" pin="GND"/>
+<pinref part="GND182" gate="G$1" pin="GND-U"/>
 </segment>
 <segment>
 <pinref part="R100" gate="R" pin="1"/>
-<pinref part="GND186" gate="1" pin="GND"/>
+<pinref part="GND186" gate="G$1" pin="GND-U"/>
 </segment>
 <segment>
 <pinref part="C144" gate="CE" pin="2"/>
-<pinref part="GND187" gate="1" pin="GND"/>
+<pinref part="GND187" gate="G$1" pin="GND-U"/>
 <wire x1="147.32" y1="71.12" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C143" gate="CE" pin="2"/>
-<pinref part="GND188" gate="1" pin="GND"/>
+<pinref part="GND188" gate="G$1" pin="GND-U"/>
 <wire x1="137.16" y1="71.12" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C142" gate="CE" pin="2"/>
-<pinref part="GND189" gate="1" pin="GND"/>
+<pinref part="GND189" gate="G$1" pin="GND-U"/>
 <wire x1="127" y1="71.12" x2="127" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="GND90" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -23067,18 +23160,16 @@ to be placed close to the microporcessor.</text>
 </net>
 <net name="UHF-RX" class="1">
 <segment>
-<wire x1="114.3" y1="220.98" x2="114.3" y2="254" width="0.1524" layer="91"/>
 <pinref part="C101" gate="CE" pin="1"/>
 <pinref part="L26" gate="L" pin="2"/>
-<wire x1="139.7" y1="254" x2="134.62" y2="254" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="254" x2="129.54" y2="254" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="254" x2="129.54" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="220.98" x2="134.62" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="220.98" x2="129.54" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="220.98" x2="129.54" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C96" gate="CE" pin="1"/>
-<wire x1="134.62" y1="251.46" x2="134.62" y2="254" width="0.1524" layer="91"/>
-<junction x="134.62" y="254"/>
-<wire x1="114.3" y1="254" x2="129.54" y2="254" width="0.1524" layer="91"/>
-<junction x="129.54" y="254"/>
-<wire x1="109.22" y1="220.98" x2="114.3" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="218.44" x2="134.62" y2="220.98" width="0.1524" layer="91"/>
+<junction x="134.62" y="220.98"/>
+<wire x1="109.22" y1="220.98" x2="129.54" y2="220.98" width="0.1524" layer="91"/>
+<junction x="129.54" y="220.98"/>
 <pinref part="R34" gate="R" pin="2"/>
 </segment>
 </net>
@@ -23177,15 +23268,15 @@ to be placed close to the microporcessor.</text>
 <segment>
 <pinref part="L27" gate="L" pin="2"/>
 <pinref part="L28" gate="L" pin="2"/>
-<wire x1="160.02" y1="254" x2="165.1" y2="254" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="254" x2="170.18" y2="254" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="254" x2="170.18" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="220.98" x2="165.1" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="220.98" x2="170.18" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="220.98" x2="170.18" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="C107" gate="CE" pin="1"/>
-<wire x1="165.1" y1="251.46" x2="165.1" y2="254" width="0.1524" layer="91"/>
-<junction x="165.1" y="254"/>
-<wire x1="170.18" y1="254" x2="193.04" y2="254" width="0.1524" layer="91"/>
-<junction x="170.18" y="254"/>
-<wire x1="193.04" y1="254" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="218.44" x2="165.1" y2="220.98" width="0.1524" layer="91"/>
+<junction x="165.1" y="220.98"/>
+<wire x1="170.18" y1="220.98" x2="193.04" y2="220.98" width="0.1524" layer="91"/>
+<junction x="170.18" y="220.98"/>
+<wire x1="193.04" y1="220.98" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="187.96" x2="228.6" y2="187.96" width="0.1524" layer="91"/>
 <pinref part="R66" gate="R" pin="1"/>
 </segment>
@@ -23342,15 +23433,15 @@ to be placed close to the microporcessor.</text>
 <segment>
 <pinref part="C139" gate="CE" pin="1"/>
 <pinref part="U33" gate="G$1" pin="RF"/>
-<wire x1="60.96" y1="96.52" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="96.52" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="93.98" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="93.98" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$95" class="1">
 <segment>
 <pinref part="R95" gate="R" pin="2"/>
 <pinref part="C139" gate="CE" pin="2"/>
-<wire x1="60.96" y1="78.74" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="78.74" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="AT8" gate="G$1" pin="1"/>
 <wire x1="55.88" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
 <junction x="60.96" y="78.74"/>
@@ -23358,8 +23449,8 @@ to be placed close to the microporcessor.</text>
 </net>
 <net name="RADIO_ANALOG1" class="0">
 <segment>
-<pinref part="R96" gate="R" pin="2"/>
-<pinref part="C140" gate="CE" pin="1"/>
+<pinref part="R96" gate="G$1" pin="2"/>
+<pinref part="C140" gate="G$1" pin="1"/>
 <wire x1="60.96" y1="152.4" x2="38.1" y2="152.4" width="0.1524" layer="91"/>
 <junction x="60.96" y="152.4"/>
 <label x="38.1" y="152.4" size="1.778" layer="95" rot="MR0" xref="yes"/>
@@ -23367,8 +23458,8 @@ to be placed close to the microporcessor.</text>
 </net>
 <net name="RADIO_ANALOG2" class="0">
 <segment>
-<pinref part="R97" gate="R" pin="2"/>
-<pinref part="C141" gate="CE" pin="1"/>
+<pinref part="R97" gate="G$1" pin="2"/>
+<pinref part="C141" gate="G$1" pin="1"/>
 <junction x="60.96" y="114.3"/>
 <label x="38.1" y="114.3" size="1.778" layer="95" rot="MR0" xref="yes"/>
 <wire x1="60.96" y1="114.3" x2="38.1" y2="114.3" width="0.1524" layer="91"/>
@@ -23394,17 +23485,17 @@ to be placed close to the microporcessor.</text>
 <pinref part="AT7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$99" class="0">
+<net name="FORWARD_REFLECTOMETERY" class="0">
 <segment>
 <pinref part="U32" gate="G$1" pin="VOUT"/>
-<pinref part="R96" gate="R" pin="1"/>
+<pinref part="R96" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="152.4" x2="71.12" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$100" class="0">
+<net name="REVERSE_REFLECTOMETERY" class="0">
 <segment>
 <pinref part="U33" gate="G$1" pin="VOUT"/>
-<pinref part="R97" gate="R" pin="1"/>
+<pinref part="R97" gate="G$1" pin="1"/>
 <wire x1="71.12" y1="114.3" x2="73.66" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23521,13 +23612,30 @@ to be placed close to the microporcessor.</text>
 <segment>
 <pinref part="U31" gate="G$1" pin="OUT"/>
 <wire x1="45.72" y1="43.18" x2="5.08" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="43.18" x2="5.08" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="5.08" y1="182.88" x2="99.06" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="182.88" x2="99.06" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="43.18" x2="5.08" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="180.34" x2="99.06" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="180.34" x2="99.06" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="U8" gate="U" pin="RF1"/>
 <wire x1="99.06" y1="210.82" x2="87.63" y2="210.82" width="0.1524" layer="91"/>
 <label x="33.02" y="43.18" size="1.778" layer="95"/>
 <label x="88.9" y="210.82" size="1.778" layer="95"/>
+<label x="86.36" y="180.34" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="UHF_PA_THERM" class="0">
+<segment>
+<wire x1="160.02" y1="180.34" x2="162.56" y2="180.34" width="0.1524" layer="91"/>
+<label x="170.18" y="180.34" size="1.778" layer="95" xref="yes"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="180.34" x2="170.18" y2="180.34" width="0.1524" layer="91"/>
+<junction x="162.56" y="180.34"/>
+<pinref part="RT1" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R84" gate="G$1" pin="2"/>
+<pinref part="RT1" gate="G$1" pin="E"/>
 </segment>
 </net>
 </nets>
@@ -23775,7 +23883,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="NAME" x="382.27" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="382.27" y="83.058" size="1.778" layer="96"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="187.96" smashed="yes" grouprefs="TESTPOINTS TP RADIO">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="187.96" smashed="yes" grouprefs="TP RADIO TESTPOINTS">
 <attribute name="NAME" x="273.05" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
@@ -23786,7 +23894,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="EMMC TESTPOINTS TP">
+<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TP TESTPOINTS EMMC">
 <attribute name="NAME" x="176.53" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
@@ -23797,7 +23905,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="EMMC TESTPOINTS TP">
+<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="TP TESTPOINTS EMMC">
 <attribute name="NAME" x="295.91" y="26.67" size="1.778" layer="95"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
@@ -23808,7 +23916,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
+<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="52.07" y="270.51" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23819,7 +23927,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="BOOT0" gate="G$1" x="307.34" y="220.98" smashed="yes" grouprefs="TP SYSTEM">
+<instance part="BOOT0" gate="G$1" x="307.34" y="220.98" smashed="yes" grouprefs="SYSTEM TP">
 <attribute name="NAME" x="304.8" y="223.52" size="1.778" layer="95"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
@@ -23830,7 +23938,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="327.66" y="215.9" smashed="yes" grouprefs="SYSTEM TESTPOINTS TP">
+<instance part="NRST" gate="G$1" x="327.66" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS SYSTEM">
 <attribute name="NAME" x="330.2" y="213.36" size="1.778" layer="95"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
@@ -23841,7 +23949,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
+<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="50.8" y="231.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23852,7 +23960,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="271.78" y="210.82" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
+<instance part="SPI1-SCK" gate="G$1" x="271.78" y="210.82" smashed="yes" rot="MR0" grouprefs="TP RADIO TESTPOINTS">
 <attribute name="NAME" x="273.05" y="212.09" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="271.78" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23863,7 +23971,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="271.78" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="271.78" y="203.2" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
+<instance part="SPI1-MISO" gate="G$1" x="271.78" y="203.2" smashed="yes" rot="MR0" grouprefs="TP RADIO TESTPOINTS">
 <attribute name="NAME" x="273.05" y="204.47" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="271.78" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23874,7 +23982,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="271.78" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="271.78" y="195.58" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
+<instance part="SPI1-MOSI" gate="G$1" x="271.78" y="195.58" smashed="yes" rot="MR0" grouprefs="TP RADIO TESTPOINTS">
 <attribute name="NAME" x="273.05" y="196.85" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="271.78" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23984,14 +24092,14 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="71.12" y1="248.92" x2="154.94" y2="248.92" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="RADIO:EN-UHF,LO-PLL,LO-SCLK,LO-SDATA,!LO-SEN,RADIO1_CS,RADIO1_IRQ,RADIO2_CS,RADIO2_IRQ,RADIO_ANALOG1,RADIO_ANALOG2,SPI1_MISO,SPI1_MOSI,SPI1_SCK">
+<bus name="RADIO:EN-UHF,LO-PLL,LO-SCLK,LO-SDATA,!LO-SEN,RADIO1_CS,RADIO1_IRQ,RADIO2_CS,RADIO2_IRQ,RADIO_ANALOG1,RADIO_ANALOG2,SPI1_MISO,SPI1_MOSI,SPI1_SCK,UHF_PA_THERM">
 <segment>
 <label x="58.42" y="210.82" size="3.81" layer="95" rot="R90"/>
-<wire x1="236.22" y1="182.88" x2="236.22" y2="259.08" width="0.762" layer="92"/>
-<wire x1="58.42" y1="259.08" x2="58.42" y2="121.92" width="0.762" layer="92"/>
+<wire x1="236.22" y1="182.88" x2="236.22" y2="264.16" width="0.762" layer="92"/>
+<wire x1="58.42" y1="264.16" x2="58.42" y2="121.92" width="0.762" layer="92"/>
 <label x="236.22" y="182.88" size="3.81" layer="95" rot="R90"/>
 <label x="58.42" y="121.92" size="3.81" layer="95" rot="R90"/>
-<wire x1="58.42" y1="259.08" x2="236.22" y2="259.08" width="0.762" layer="92"/>
+<wire x1="58.42" y1="264.16" x2="236.22" y2="264.16" width="0.762" layer="92"/>
 </segment>
 </bus>
 <bus name="EMMC:MMC_PWR,SDIO_CK,SDIO_CMD,SDIO_D0,SDIO_D1,SDIO_D2,SDIO_D3,SDIO_D4,SDIO_D5,SDIO_D6,SDIO_D7,SDIO_RST">
@@ -25300,6 +25408,20 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="96.52" y1="134.62" x2="99.06" y2="137.16" width="0.1524" layer="91" grouprefs="ANTENNAS"/>
 <wire x1="99.06" y1="137.16" x2="101.6" y2="137.16" width="0.1524" layer="91" grouprefs="ANTENNAS"/>
 <label x="101.6" y="137.16" size="1.778" layer="95" xref="yes" grouprefs="ANTENNAS"/>
+</segment>
+</net>
+<net name="UHF_PA_THERM" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="PA4"/>
+<wire x1="33.02" y1="259.08" x2="55.88" y2="259.08" width="0.1524" layer="91"/>
+<label x="35.56" y="259.08" size="1.778" layer="95"/>
+<wire x1="55.88" y1="259.08" x2="58.42" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<wire x1="236.22" y1="264.16" x2="238.76" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="266.7" x2="271.78" y2="266.7" width="0.1524" layer="91"/>
+<label x="241.3" y="266.7" size="1.778" layer="95"/>
+<label x="271.78" y="266.7" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
