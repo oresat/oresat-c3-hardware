@@ -17045,8 +17045,6 @@ CRYSTAL 16.000MHZ 10PF SMD</description>
 <part name="GND180" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C141" library="C3_SamacSys_Parts" deviceset="CAP0603-NP" device="" value="NP"/>
 <part name="GND181" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R98" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="47k"/>
-<part name="GND182" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="Q4" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="P-CH"/>
 <part name="Q5" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="N-CH"/>
 <part name="P+5" library="oresat-supplies" deviceset="5V-U" device=""/>
@@ -17061,8 +17059,6 @@ CRYSTAL 16.000MHZ 10PF SMD</description>
 <part name="GND187" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND188" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND189" library="oresat-supplies" deviceset="GND-U" device=""/>
-<part name="JP15" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="NP"/>
-<part name="R101" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="0"/>
 <part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.2-GENERIC-3XRF-V1.0" device=""/>
 <part name="R84" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
 <part name="C22" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u"/>
@@ -17813,23 +17809,23 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="26.924" y="228.981" size="1.778" layer="96"/>
 <attribute name="VDC" x="26.924" y="226.568" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="83.82" y="238.76" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="240.03" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="83.82" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TP TESTPOINTS"/>
-<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP-OUT" gate="G$1" x="83.82" y="231.14" smashed="yes" grouprefs="TESTPOINTS TP"/>
+<instance part="ILIM-OUT" gate="G$1" x="83.82" y="215.9" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="82.55" y="217.17" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="167.64" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="164.592" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="203.2" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="201.93" y="224.028" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="223.52" y="233.68" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="222.25" y="234.95" size="1.778" layer="95"/>
 </instance>
 <instance part="GND23" gate="1" x="345.44" y="205.74" smashed="yes" rot="MR0">
@@ -17895,13 +17891,13 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="MANUFACTURER" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="345.44" y="231.14" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="297.18" y="220.98" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="222.25" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="297.18" y="228.6" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="295.91" y="229.87" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="388.62" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="387.35" y="224.79" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="170.18" y="66.04" smashed="yes">
@@ -18003,7 +17999,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <attribute name="VALUE" x="136.144" y="61.341" size="1.778" layer="96"/>
 <attribute name="VDC" x="136.144" y="58.928" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="205.74" y="58.42" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="204.47" y="59.69" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="215.9" y="66.04" smashed="yes">
@@ -21404,16 +21400,13 @@ will be a congtrol signal from the MCU to
  independently turn on this LNA.</text>
 <text x="208.28" y="99.06" size="1.778" layer="97">Pins 9 &amp; 10 are both inputs and intentionally shorted</text>
 <text x="21.59" y="16.51" size="5.08" layer="97">PA: TQP7M9105</text>
-<text x="167.64" y="158.75" size="1.778" layer="97">Reflectometer Power Enable:
-Enable: High
-Shutdn: Low</text>
 <text x="21.59" y="158.75" size="1.778" layer="97" rot="MR0">To M4
 DC Levels</text>
 <text x="8.89" y="105.41" size="1.778" layer="97">Reverse reflectometery 
 signal to ADC of microprocessor.</text>
 <text x="35.56" y="50.8" size="1.778" layer="97">-24dB</text>
 <text x="73.66" y="50.8" size="1.778" layer="97">-24dB</text>
-<text x="168.91" y="140.97" size="1.778" layer="97">PA Power:
+<text x="168.91" y="158.75" size="1.778" layer="97">PA Power:
 Enable: High
 Shutdn: Low</text>
 <text x="40.64" y="129.54" size="1.778" layer="97">Optional LPF
@@ -21438,6 +21431,13 @@ to ADC of microprocessor. </text>
 to be placed close to the microporcessor.</text>
 <text x="139.7" y="187.96" size="1.778" layer="97">402 thermister for UHF PA
 talk to Andrew on resistor value</text>
+<text x="170.18" y="142.24" size="1.778" layer="97">ADD in an and gate that is supplied by 
+PA_ENABLE (from M4)
+UHF_PTT (AX5043)
+TOT_OUT (magic TOT)</text>
+<text x="182.88" y="259.08" size="1.778" layer="97">add OR gate the is supplied by 
+UHF-PTT (AX5043)
+inverted LNA_ENABLE (M4)</text>
 </plain>
 <instances>
 <instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -22430,13 +22430,6 @@ talk to Andrew on resistor value</text>
 <instance part="GND181" gate="1" x="60.96" y="101.6" smashed="yes">
 <attribute name="VALUE" x="58.42" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="R98" gate="R" x="152.4" y="149.86" smashed="yes" rot="MR90">
-<attribute name="NAME" x="153.8986" y="146.05" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="149.098" y="146.05" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="GND182" gate="G$1" x="152.4" y="139.7" smashed="yes">
-<attribute name="VALUE" x="149.86" y="137.16" size="1.778" layer="96"/>
-</instance>
 <instance part="Q4" gate="G$1" x="119.38" y="109.22" smashed="yes" rot="MR0">
 <attribute name="NAME" x="116.84" y="109.22" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="116.84" y="106.68" size="1.778" layer="96" rot="MR0"/>
@@ -22485,13 +22478,6 @@ talk to Andrew on resistor value</text>
 </instance>
 <instance part="GND189" gate="G$1" x="127" y="63.5" smashed="yes">
 <attribute name="VALUE" x="124.46" y="60.96" size="1.778" layer="96"/>
-</instance>
-<instance part="JP15" gate="R" x="142.24" y="149.86" smashed="yes" rot="MR90">
-<attribute name="NAME" x="143.7386" y="146.05" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="138.938" y="146.05" size="1.778" layer="96" rot="MR90"/>
-</instance>
-<instance part="R101" gate="R" x="147.32" y="154.94" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="143.51" y="158.242" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="R84" gate="G$1" x="144.78" y="180.34" smashed="yes">
 <attribute name="NAME" x="140.97" y="181.8386" size="1.778" layer="95"/>
@@ -22894,11 +22880,6 @@ talk to Andrew on resistor value</text>
 <pinref part="GND168" gate="G$1" pin="GND-U"/>
 <pinref part="U32" gate="G$1" pin="GND"/>
 <wire x1="86.36" y1="139.7" x2="86.36" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND182" gate="G$1" pin="GND-U"/>
-<pinref part="R98" gate="R" pin="1"/>
-<wire x1="152.4" y1="142.24" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND186" gate="G$1" pin="GND-U"/>
@@ -23570,43 +23551,6 @@ talk to Andrew on resistor value</text>
 <pinref part="D10" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="EN_UHF_PA_PWR" class="0">
-<segment>
-<pinref part="Q5" gate="G$1" pin="G"/>
-<pinref part="R100" gate="R" pin="2"/>
-<pinref part="JP15" gate="R" pin="1"/>
-<junction x="152.4" y="137.16"/>
-<label x="170.18" y="137.16" size="1.778" layer="95" rot="MR180" xref="yes"/>
-<wire x1="152.4" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="144.78" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="137.16" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
-<junction x="142.24" y="137.16"/>
-<wire x1="142.24" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="EN_UHF_REFLECTROMETER" class="0">
-<segment>
-<pinref part="R101" gate="R" pin="2"/>
-<pinref part="R98" gate="R" pin="2"/>
-<label x="167.64" y="154.94" size="1.778" layer="95" rot="MR180" xref="yes"/>
-<wire x1="152.4" y1="154.94" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
-<junction x="152.4" y="154.94"/>
-</segment>
-</net>
-<net name="N$108" class="0">
-<segment>
-<pinref part="JP15" gate="R" pin="2"/>
-<pinref part="R101" gate="R" pin="1"/>
-<pinref part="U32" gate="G$1" pin="EN"/>
-<wire x1="111.76" y1="154.94" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="U33" gate="G$1" pin="EN"/>
-<junction x="142.24" y="154.94"/>
-<wire x1="142.24" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
-<junction x="111.76" y="154.94"/>
-</segment>
-</net>
 <net name="TX-TO-PA" class="0">
 <segment>
 <pinref part="C65" gate="CE" pin="1"/>
@@ -23643,6 +23587,26 @@ talk to Andrew on resistor value</text>
 <segment>
 <pinref part="R84" gate="G$1" pin="2"/>
 <pinref part="RT1" gate="G$1" pin="E"/>
+</segment>
+</net>
+<net name="EN_UHF_PA_PWR" class="0">
+<segment>
+<label x="167.64" y="154.94" size="1.778" layer="95" rot="MR180" xref="yes"/>
+<pinref part="U32" gate="G$1" pin="EN"/>
+<wire x1="111.76" y1="154.94" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="116.84" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U33" gate="G$1" pin="EN"/>
+<wire x1="167.64" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="154.94" x2="111.76" y2="154.94" width="0.1524" layer="91"/>
+<junction x="111.76" y="154.94"/>
+<pinref part="Q5" gate="G$1" pin="G"/>
+<pinref part="R100" gate="R" pin="2"/>
+<wire x1="142.24" y1="137.16" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="154.94" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
+<junction x="142.24" y="154.94"/>
+<junction x="142.24" y="137.16"/>
 </segment>
 </net>
 </nets>
@@ -23890,7 +23854,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="NAME" x="382.27" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="382.27" y="83.058" size="1.778" layer="96"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="187.96" smashed="yes" grouprefs="TP RADIO TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="271.78" y="187.96" smashed="yes" grouprefs="TESTPOINTS RADIO TP">
 <attribute name="NAME" x="273.05" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
@@ -23901,7 +23865,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="271.78" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TP TESTPOINTS EMMC">
+<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TESTPOINTS EMMC TP">
 <attribute name="NAME" x="176.53" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
@@ -23912,7 +23876,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="TP TESTPOINTS EMMC">
+<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="TESTPOINTS EMMC TP">
 <attribute name="NAME" x="295.91" y="26.67" size="1.778" layer="95"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
@@ -23923,7 +23887,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="52.07" y="270.51" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23934,7 +23898,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="BOOT0" gate="G$1" x="307.34" y="220.98" smashed="yes" grouprefs="SYSTEM TP">
+<instance part="BOOT0" gate="G$1" x="307.34" y="220.98" smashed="yes" grouprefs="TP SYSTEM">
 <attribute name="NAME" x="304.8" y="223.52" size="1.778" layer="95"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
@@ -23945,7 +23909,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="327.66" y="215.9" smashed="yes" grouprefs="TP TESTPOINTS SYSTEM">
+<instance part="NRST" gate="G$1" x="327.66" y="215.9" smashed="yes" grouprefs="SYSTEM TESTPOINTS TP">
 <attribute name="NAME" x="330.2" y="213.36" size="1.778" layer="95"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
@@ -23956,7 +23920,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="50.8" y="231.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23967,7 +23931,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="271.78" y="210.82" smashed="yes" rot="MR0" grouprefs="TP RADIO TESTPOINTS">
+<instance part="SPI1-SCK" gate="G$1" x="271.78" y="210.82" smashed="yes" rot="MR0" grouprefs="TESTPOINTS RADIO TP">
 <attribute name="NAME" x="273.05" y="212.09" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="271.78" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23978,7 +23942,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="271.78" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="271.78" y="203.2" smashed="yes" rot="MR0" grouprefs="TP RADIO TESTPOINTS">
+<instance part="SPI1-MISO" gate="G$1" x="271.78" y="203.2" smashed="yes" rot="MR0" grouprefs="TESTPOINTS RADIO TP">
 <attribute name="NAME" x="273.05" y="204.47" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="271.78" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -23989,7 +23953,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="271.78" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="271.78" y="195.58" smashed="yes" rot="MR0" grouprefs="TP RADIO TESTPOINTS">
+<instance part="SPI1-MOSI" gate="G$1" x="271.78" y="195.58" smashed="yes" rot="MR0" grouprefs="TESTPOINTS RADIO TP">
 <attribute name="NAME" x="273.05" y="196.85" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="271.78" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="271.78" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
