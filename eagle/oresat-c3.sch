@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="no"/>
@@ -16246,14 +16246,8 @@ AND</text>
 <classes>
 <class number="0" name="default" width="0" drill="0">
 </class>
-<class number="1" name="RF1" width="0" drill="0">
+<class number="1" name="RF" width="0" drill="0">
 <clearance class="1" value="0.75"/>
-</class>
-<class number="2" name="RF2" width="0" drill="0">
-<clearance class="2" value="0.4"/>
-</class>
-<class number="3" name="RF3" width="0" drill="0">
-<clearance class="3" value="0.3556"/>
 </class>
 </classes>
 <groups>
@@ -20972,7 +20966,7 @@ L18 = 22n</text>
 <wire x1="118.11" y1="92.71" x2="115.57" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="LBAND-SYSCLK" class="2">
+<net name="LBAND-SYSCLK" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="SYSCLK"/>
 <wire x1="115.57" y1="100.33" x2="125.73" y2="100.33" width="0.1524" layer="91"/>
@@ -22118,7 +22112,7 @@ Rx = Low (default)</text>
 <wire x1="109.22" y1="114.3" x2="109.22" y2="110.49" width="0.762" layer="97"/>
 <wire x1="110.49" y1="111.76" x2="109.22" y2="110.49" width="0.762" layer="97"/>
 <wire x1="109.22" y1="110.49" x2="107.95" y2="111.76" width="0.762" layer="97"/>
-<wire x1="322.58" y1="318.77" x2="287.02" y2="292.1" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="292.1" y1="316.23" x2="289.56" y2="289.56" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="119.38" y1="217.17" x2="119.38" y2="213.36" width="0.762" layer="97"/>
 <wire x1="120.65" y1="214.63" x2="119.38" y2="213.36" width="0.762" layer="97"/>
 <wire x1="119.38" y1="213.36" x2="118.11" y2="214.63" width="0.762" layer="97"/>
@@ -23040,20 +23034,20 @@ See LT5534 datasheet</text>
 <instance part="GND187" gate="G$1" x="251.46" y="241.3" smashed="yes">
 <attribute name="VALUE" x="248.92" y="238.76" size="1.778" layer="96"/>
 </instance>
-<instance part="C22" gate="G$1" x="335.28" y="318.77" smashed="yes">
-<attribute name="NAME" x="336.804" y="319.151" size="1.778" layer="95"/>
-<attribute name="VALUE" x="336.804" y="314.071" size="1.778" layer="96"/>
-<attribute name="VDC" x="336.804" y="311.658" size="1.778" layer="97"/>
+<instance part="C22" gate="G$1" x="304.8" y="316.23" smashed="yes">
+<attribute name="NAME" x="306.324" y="316.611" size="1.778" layer="95"/>
+<attribute name="VALUE" x="306.324" y="311.531" size="1.778" layer="96"/>
+<attribute name="VDC" x="306.324" y="309.118" size="1.778" layer="97"/>
 </instance>
-<instance part="GND90" gate="1" x="335.28" y="308.61" smashed="yes">
-<attribute name="VALUE" x="332.74" y="306.07" size="1.778" layer="96"/>
+<instance part="GND90" gate="1" x="304.8" y="306.07" smashed="yes">
+<attribute name="VALUE" x="302.26" y="303.53" size="1.778" layer="96"/>
 </instance>
-<instance part="RT1" gate="G$1" x="325.12" y="321.31" smashed="yes" rot="R270">
-<attribute name="NAME" x="321.31" y="327.279" size="1.778" layer="95"/>
-<attribute name="VALUE" x="321.31" y="325.12" size="1.778" layer="96"/>
+<instance part="RT1" gate="G$1" x="294.64" y="318.77" smashed="yes" rot="R270">
+<attribute name="NAME" x="290.83" y="324.739" size="1.778" layer="95"/>
+<attribute name="VALUE" x="290.83" y="322.58" size="1.778" layer="96"/>
 </instance>
-<instance part="GND-U9" gate="G$1" x="309.88" y="308.61" smashed="yes">
-<attribute name="VALUE" x="307.34" y="306.07" size="1.778" layer="96"/>
+<instance part="GND-U9" gate="G$1" x="279.4" y="306.07" smashed="yes">
+<attribute name="VALUE" x="276.86" y="303.53" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="G$1" x="157.48" y="302.26" smashed="yes">
 <attribute name="VALUE" x="154.94" y="299.72" size="1.778" layer="96"/>
@@ -23499,10 +23493,10 @@ See LT5534 datasheet</text>
 <pinref part="GND-U24" gate="G$1" pin="GND-U"/>
 </segment>
 <segment>
-<wire x1="309.88" y1="311.15" x2="309.88" y2="321.31" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="308.61" x2="279.4" y2="318.77" width="0.1524" layer="91"/>
 <pinref part="GND-U9" gate="G$1" pin="GND-U"/>
 <pinref part="RT1" gate="G$1" pin="E"/>
-<wire x1="309.88" y1="321.31" x2="320.04" y2="321.31" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="318.77" x2="289.56" y2="318.77" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND171" gate="G$1" pin="GND-U"/>
@@ -23911,7 +23905,7 @@ See LT5534 datasheet</text>
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
 <pinref part="GND90" gate="1" pin="GND"/>
-<wire x1="335.28" y1="311.15" x2="335.28" y2="313.69" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="308.61" x2="304.8" y2="311.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -24178,7 +24172,7 @@ See LT5534 datasheet</text>
 <wire x1="299.72" y1="280.67" x2="300.99" y2="280.67" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="TX_OUT_PA$3" class="2">
+<net name="TX_OUT" class="1">
 <segment>
 <pinref part="L16" gate="L" pin="1"/>
 <wire x1="279.4" y1="280.67" x2="251.46" y2="280.67" width="0.3048" layer="91"/>
@@ -24360,12 +24354,12 @@ See LT5534 datasheet</text>
 </net>
 <net name="UHF_PA_THERMISTER" class="0">
 <segment>
-<label x="345.44" y="321.31" size="1.778" layer="95" xref="yes"/>
+<label x="314.96" y="318.77" size="1.778" layer="95" xref="yes"/>
 <pinref part="C22" gate="G$1" pin="1"/>
 <pinref part="RT1" gate="G$1" pin="A"/>
-<wire x1="335.28" y1="321.31" x2="345.44" y2="321.31" width="0.1524" layer="91"/>
-<junction x="335.28" y="321.31"/>
-<wire x1="330.2" y1="321.31" x2="335.28" y2="321.31" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="318.77" x2="314.96" y2="318.77" width="0.1524" layer="91"/>
+<junction x="304.8" y="318.77"/>
+<wire x1="299.72" y1="318.77" x2="304.8" y2="318.77" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PA_ENABLE" class="0">
@@ -24880,7 +24874,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="EMMC TESTPOINTS TP">
+<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TESTPOINTS EMMC TP">
 <attribute name="NAME" x="176.53" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
@@ -24891,7 +24885,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="EMMC TESTPOINTS TP">
+<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="TESTPOINTS EMMC TP">
 <attribute name="NAME" x="295.91" y="26.67" size="1.778" layer="95"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
