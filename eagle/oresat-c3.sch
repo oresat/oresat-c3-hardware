@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="no"/>
@@ -17930,6 +17930,9 @@ AND</text>
 <part name="GND120" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="C124" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF-25VDC" device="" value="100n"/>
 <part name="GND130" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="R84" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
+<part name="TP15" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18661,25 +18664,25 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="VALUE" x="48.514" y="209.931" size="1.778" layer="96"/>
 <attribute name="VDC" x="48.514" y="207.518" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="55.88" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="93.98" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP-OUT" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP-OUT" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="102.87" y="212.09" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="100.33" y="201.93" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="191.262" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="228.6" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="248.92" y="212.09" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="163.83" y="99.06" smashed="yes">
@@ -18781,7 +18784,7 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="VALUE" x="129.794" y="94.361" size="1.778" layer="96"/>
 <attribute name="VDC" x="129.794" y="91.948" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="182.88" y="97.79" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="198.12" y="99.06" smashed="yes">
@@ -21883,7 +21886,7 @@ L18 = 22n</text>
 <junction x="255.27" y="135.89"/>
 </segment>
 </net>
-<net name="RADIO1_CS" class="0">
+<net name="LBAND_CS" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="CS"/>
 <wire x1="80.01" y1="146.05" x2="45.72" y2="146.05" width="0.1524" layer="91"/>
@@ -21935,7 +21938,7 @@ L18 = 22n</text>
 <junction x="38.1" y="138.43"/>
 </segment>
 </net>
-<net name="RADIO1_IRQ" class="0">
+<net name="LBAND_IRQ" class="0">
 <segment>
 <pinref part="U11" gate="G$1" pin="IRQ"/>
 <wire x1="80.01" y1="133.35" x2="59.69" y2="133.35" width="0.1524" layer="91"/>
@@ -22126,6 +22129,7 @@ Rx = Low (default)</text>
 <text x="135.89" y="264.16" size="1.778" layer="97">Directional coupler</text>
 <text x="19.05" y="349.25" size="1.778" layer="97">Optional LPF
 See LT5534 datasheet</text>
+<text x="312.42" y="314.96" size="1.778" layer="97">Pullup + cap on sheet 5</text>
 </plain>
 <instances>
 <instance part="U13" gate="G$1" x="474.98" y="232.41" smashed="yes">
@@ -23034,20 +23038,12 @@ See LT5534 datasheet</text>
 <instance part="GND187" gate="G$1" x="251.46" y="241.3" smashed="yes">
 <attribute name="VALUE" x="248.92" y="238.76" size="1.778" layer="96"/>
 </instance>
-<instance part="C22" gate="G$1" x="304.8" y="316.23" smashed="yes">
-<attribute name="NAME" x="306.324" y="316.611" size="1.778" layer="95"/>
-<attribute name="VALUE" x="306.324" y="311.531" size="1.778" layer="96"/>
-<attribute name="VDC" x="306.324" y="309.118" size="1.778" layer="97"/>
+<instance part="RT1" gate="G$1" x="293.37" y="318.77" smashed="yes" rot="R270">
+<attribute name="NAME" x="289.56" y="324.739" size="1.778" layer="95"/>
+<attribute name="VALUE" x="289.56" y="322.58" size="1.778" layer="96"/>
 </instance>
-<instance part="GND90" gate="1" x="304.8" y="306.07" smashed="yes">
-<attribute name="VALUE" x="302.26" y="303.53" size="1.778" layer="96"/>
-</instance>
-<instance part="RT1" gate="G$1" x="294.64" y="318.77" smashed="yes" rot="R270">
-<attribute name="NAME" x="290.83" y="324.739" size="1.778" layer="95"/>
-<attribute name="VALUE" x="290.83" y="322.58" size="1.778" layer="96"/>
-</instance>
-<instance part="GND-U9" gate="G$1" x="279.4" y="306.07" smashed="yes">
-<attribute name="VALUE" x="276.86" y="303.53" size="1.778" layer="96"/>
+<instance part="GND-U9" gate="G$1" x="285.75" y="313.69" smashed="yes">
+<attribute name="VALUE" x="283.21" y="311.15" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="G$1" x="157.48" y="302.26" smashed="yes">
 <attribute name="VALUE" x="154.94" y="299.72" size="1.778" layer="96"/>
@@ -23493,10 +23489,10 @@ See LT5534 datasheet</text>
 <pinref part="GND-U24" gate="G$1" pin="GND-U"/>
 </segment>
 <segment>
-<wire x1="279.4" y1="308.61" x2="279.4" y2="318.77" width="0.1524" layer="91"/>
+<wire x1="285.75" y1="316.23" x2="285.75" y2="318.77" width="0.1524" layer="91"/>
 <pinref part="GND-U9" gate="G$1" pin="GND-U"/>
 <pinref part="RT1" gate="G$1" pin="E"/>
-<wire x1="279.4" y1="318.77" x2="289.56" y2="318.77" width="0.1524" layer="91"/>
+<wire x1="285.75" y1="318.77" x2="288.29" y2="318.77" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND171" gate="G$1" pin="GND-U"/>
@@ -23811,7 +23807,7 @@ See LT5534 datasheet</text>
 <junction x="266.7" y="209.55"/>
 </segment>
 </net>
-<net name="RADIO2_IRQ" class="0">
+<net name="UHF_IRQ" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="9"/>
 <label x="519.43" y="234.95" size="1.27" layer="95" xref="yes"/>
@@ -23901,11 +23897,6 @@ See LT5534 datasheet</text>
 <pinref part="U13" gate="G$1" pin="PGND"/>
 <pinref part="GND93" gate="1" pin="GND"/>
 <wire x1="474.98" y1="184.15" x2="474.98" y2="181.61" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C22" gate="G$1" pin="2"/>
-<pinref part="GND90" gate="1" pin="GND"/>
-<wire x1="304.8" y1="308.61" x2="304.8" y2="311.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -24354,12 +24345,9 @@ See LT5534 datasheet</text>
 </net>
 <net name="UHF_PA_THERMISTER" class="0">
 <segment>
-<label x="314.96" y="318.77" size="1.778" layer="95" xref="yes"/>
-<pinref part="C22" gate="G$1" pin="1"/>
 <pinref part="RT1" gate="G$1" pin="A"/>
-<wire x1="304.8" y1="318.77" x2="314.96" y2="318.77" width="0.1524" layer="91"/>
-<junction x="304.8" y="318.77"/>
-<wire x1="299.72" y1="318.77" x2="304.8" y2="318.77" width="0.1524" layer="91"/>
+<wire x1="298.45" y1="318.77" x2="307.34" y2="318.77" width="0.1524" layer="91"/>
+<label x="307.34" y="318.77" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PA_ENABLE" class="0">
@@ -24555,7 +24543,7 @@ See LT5534 datasheet</text>
 <pinref part="U24" gate="A" pin="!LATCH"/>
 </segment>
 </net>
-<net name="RADIO2_CS" class="0">
+<net name="UHF_CS" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <pinref part="U13" gate="G$1" pin="CS"/>
@@ -24863,7 +24851,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="NAME" x="382.27" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="382.27" y="83.058" size="1.778" layer="96"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="RADIO TP TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="TESTPOINTS TP RADIO">
 <attribute name="NAME" x="260.35" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
@@ -24874,7 +24862,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TESTPOINTS EMMC TP">
+<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TP EMMC TESTPOINTS">
 <attribute name="NAME" x="176.53" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
@@ -24885,7 +24873,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="TESTPOINTS EMMC TP">
+<instance part="GND" gate="G$1" x="297.18" y="25.4" smashed="yes" grouprefs="TP EMMC TESTPOINTS">
 <attribute name="NAME" x="295.91" y="26.67" size="1.778" layer="95"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
@@ -24896,7 +24884,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="297.18" y="25.4" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="52.07" y="270.51" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -24907,7 +24895,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="BOOT0" gate="G$1" x="309.88" y="218.44" smashed="yes" grouprefs="SYSTEM TP">
+<instance part="BOOT0" gate="G$1" x="309.88" y="218.44" smashed="yes" grouprefs="TP SYSTEM">
 <attribute name="NAME" x="307.34" y="220.98" size="1.778" layer="95"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
@@ -24918,7 +24906,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="330.2" y="213.36" smashed="yes" grouprefs="TESTPOINTS SYSTEM TP">
+<instance part="NRST" gate="G$1" x="330.2" y="213.36" smashed="yes" grouprefs="TP SYSTEM TESTPOINTS">
 <attribute name="NAME" x="332.74" y="210.82" size="1.778" layer="95"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
@@ -24929,7 +24917,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="50.8" y="231.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -24940,7 +24928,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="259.08" y="210.82" smashed="yes" rot="MR0" grouprefs="RADIO TP TESTPOINTS">
+<instance part="SPI1-SCK" gate="G$1" x="259.08" y="210.82" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
 <attribute name="NAME" x="260.35" y="212.09" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -24951,7 +24939,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-MISO" gate="G$1" x="259.08" y="203.2" smashed="yes" rot="MR0" grouprefs="RADIO TP TESTPOINTS">
+<instance part="SPI1-MISO" gate="G$1" x="259.08" y="203.2" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
 <attribute name="NAME" x="260.35" y="204.47" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -24962,7 +24950,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-MOSI" gate="G$1" x="259.08" y="195.58" smashed="yes" rot="MR0" grouprefs="RADIO TP TESTPOINTS">
+<instance part="SPI1-MOSI" gate="G$1" x="259.08" y="195.58" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
 <attribute name="NAME" x="260.35" y="196.85" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -25055,6 +25043,20 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="VALUE" x="109.474" y="15.621" size="1.778" layer="96"/>
 <attribute name="VDC" x="109.474" y="13.208" size="1.778" layer="97"/>
 </instance>
+<instance part="C22" gate="G$1" x="243.84" y="156.21" smashed="yes" grouprefs="RADIO">
+<attribute name="NAME" x="245.364" y="156.591" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.364" y="151.511" size="1.778" layer="96"/>
+</instance>
+<instance part="GND90" gate="1" x="243.84" y="147.32" smashed="yes" grouprefs="RADIO">
+<attribute name="VALUE" x="241.3" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="243.84" y="172.72" smashed="yes" grouprefs="RADIO">
+<attribute name="VALUE" x="243.84" y="175.514" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="R84" gate="G$1" x="243.84" y="166.37" smashed="yes" rot="MR90" grouprefs="RADIO">
+<attribute name="NAME" x="245.3386" y="162.56" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="240.538" y="162.56" size="1.778" layer="96" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 <bus name="CAN_BUS:CAN1_RX,CAN1_SHDN,CAN1_SILENT,CAN1_TX,CAN2_RX,CAN2_SHDN,CAN2_SILENT,CAN2_TX">
@@ -25066,12 +25068,12 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="71.12" y1="248.92" x2="149.86" y2="248.92" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="RADIO:EN-UHF,LBAND-LO-PLL,LBAND-LO-SCLK,LBAND-LO-SDATA,LBAND-LO-!SEN,!M4_LNA_ENABLE,M4_PA_ENABLE,M4_TOT_CLEAR,RADIO1_CS,RADIO1_IRQ,RADIO2_CS,RADIO2_IRQ,SPI1_MISO,SPI1_MOSI,SPI1_SCK,UHF_LOG_RF_FWD,UHF_LOG_RF_REV,UHF_PA_THERMISTER">
+<bus name="RADIO:EN-UHF,LBAND_CS,LBAND_IRQ,LBAND-LO-PLL,LBAND-LO-SCLK,LBAND-LO-SDATA,LBAND-LO-!SEN,!M4_LNA_ENABLE,M4_PA_ENABLE,M4_TOT_CLEAR,SPI1_MISO,SPI1_MOSI,SPI1_SCK,UHF_CS,UHF_IRQ,UHF_LOG_RF_FWD,UHF_LOG_RF_REV,UHF_PA_THERMISTER">
 <segment>
 <label x="58.42" y="210.82" size="3.81" layer="95" rot="R90"/>
-<wire x1="228.6" y1="182.88" x2="228.6" y2="264.16" width="0.762" layer="92"/>
+<wire x1="228.6" y1="158.75" x2="228.6" y2="264.16" width="0.762" layer="92"/>
 <wire x1="58.42" y1="264.16" x2="58.42" y2="60.96" width="0.762" layer="92"/>
-<label x="228.6" y="182.88" size="3.81" layer="95" rot="R90"/>
+<label x="147.32" y="265.43" size="3.81" layer="95"/>
 <label x="58.42" y="121.92" size="3.81" layer="95" rot="R90"/>
 <wire x1="58.42" y1="264.16" x2="228.6" y2="264.16" width="0.762" layer="92"/>
 </segment>
@@ -25275,6 +25277,11 @@ All caps are 0603 and 10V DC or greater</text>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="107.95" y1="12.7" x2="107.95" y2="15.24" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="GND90" gate="1" pin="GND"/>
+<wire x1="243.84" y1="149.86" x2="243.84" y2="151.13" width="0.1524" layer="91" grouprefs="RADIO"/>
+</segment>
 </net>
 <net name="OSC_IN" class="0">
 <segment>
@@ -25410,6 +25417,11 @@ All caps are 0603 and 10V DC or greater</text>
 <pinref part="SUPPLY18" gate="G$1" pin="3.3V"/>
 <wire x1="231.14" y1="78.74" x2="231.14" y2="81.28" width="0.1524" layer="91" grouprefs="EMMC"/>
 </segment>
+<segment>
+<pinref part="R84" gate="G$1" pin="2"/>
+<pinref part="SUPPLY5" gate="G$1" pin="3.3V"/>
+<wire x1="243.84" y1="171.45" x2="243.84" y2="172.72" width="0.1524" layer="91" grouprefs="RADIO"/>
+</segment>
 </net>
 <net name="CAN1_RX" class="0">
 <segment>
@@ -25427,7 +25439,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="SPI1_SCK" class="0">
 <segment>
-<wire x1="231.14" y1="208.28" x2="228.6" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="208.28" x2="228.6" y2="205.74" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="208.28" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="208.28" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
 <pinref part="SPI1-SCK" gate="G$1" pin="TP"/>
@@ -25442,7 +25454,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="SPI1_MISO" class="0">
 <segment>
-<wire x1="231.14" y1="200.66" x2="228.6" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="200.66" x2="228.6" y2="198.12" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="200.66" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="200.66" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
 <pinref part="SPI1-MISO" gate="G$1" pin="TP"/>
@@ -25457,7 +25469,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="SPI1_MOSI" class="0">
 <segment>
-<wire x1="231.14" y1="193.04" x2="228.6" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="193.04" x2="228.6" y2="190.5" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="193.04" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="193.04" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
 <pinref part="SPI1-MOSI" gate="G$1" pin="TP"/>
@@ -25517,9 +25529,9 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="40.64" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RADIO2_IRQ" class="0">
+<net name="UHF_IRQ" class="0">
 <segment>
-<wire x1="231.14" y1="215.9" x2="228.6" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="215.9" x2="228.6" y2="213.36" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="215.9" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="215.9" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="215.9" x2="259.08" y2="215.9" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25531,9 +25543,9 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="55.88" y1="160.02" x2="58.42" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RADIO1_IRQ" class="0">
+<net name="LBAND_IRQ" class="0">
 <segment>
-<wire x1="231.14" y1="220.98" x2="228.6" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="220.98" x2="228.6" y2="218.44" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="220.98" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="220.98" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="220.98" x2="259.08" y2="220.98" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25714,7 +25726,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="LBAND-LO-!SEN" class="0">
 <segment>
-<wire x1="231.14" y1="261.62" x2="228.6" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="261.62" x2="228.6" y2="259.08" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="261.62" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="261.62" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="261.62" x2="259.08" y2="261.62" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25728,7 +25740,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="LBAND-LO-SCLK" class="0">
 <segment>
-<wire x1="231.14" y1="256.54" x2="228.6" y2="254" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="256.54" x2="228.6" y2="254" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="256.54" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="256.54" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="256.54" x2="259.08" y2="256.54" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25742,7 +25754,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="LBAND-LO-SDATA" class="0">
 <segment>
-<wire x1="231.14" y1="251.46" x2="228.6" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="251.46" x2="228.6" y2="248.92" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="251.46" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="251.46" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="251.46" x2="259.08" y2="251.46" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25756,7 +25768,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="LBAND-LO-PLL" class="0">
 <segment>
-<wire x1="231.14" y1="246.38" x2="228.6" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="246.38" x2="228.6" y2="243.84" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="246.38" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="246.38" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="246.38" x2="259.08" y2="246.38" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25770,7 +25782,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="UHF_LOG_RF_FWD" class="0">
 <segment>
-<wire x1="231.14" y1="241.3" x2="228.6" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="241.3" x2="228.6" y2="238.76" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="241.3" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="241.3" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="241.3" x2="259.08" y2="241.3" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25784,7 +25796,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="UHF_LOG_RF_REV" class="0">
 <segment>
-<wire x1="231.14" y1="236.22" x2="228.6" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="236.22" x2="228.6" y2="233.68" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="236.22" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="236.22" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="236.22" x2="259.08" y2="236.22" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25796,9 +25808,9 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="55.88" y1="170.18" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RADIO1_CS" class="0">
+<net name="LBAND_CS" class="0">
 <segment>
-<wire x1="231.14" y1="231.14" x2="228.6" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="231.14" x2="228.6" y2="228.6" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="231.14" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="231.14" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="231.14" x2="259.08" y2="231.14" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25810,9 +25822,9 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="55.88" y1="167.64" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RADIO2_CS" class="0">
+<net name="UHF_CS" class="0">
 <segment>
-<wire x1="231.14" y1="226.06" x2="228.6" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="226.06" x2="228.6" y2="223.52" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="226.06" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="226.06" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="226.06" x2="259.08" y2="226.06" width="0.1524" layer="91" grouprefs="RADIO"/>
@@ -25953,7 +25965,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="EN-UHF" class="0">
 <segment>
-<wire x1="231.14" y1="185.42" x2="228.6" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="185.42" x2="228.6" y2="182.88" width="0.1524" layer="91" grouprefs="RADIO"/>
 <pinref part="ENABLE-UHF" gate="G$1" pin="TP"/>
 <junction x="259.08" y="185.42" grouprefs="RADIO"/>
 <label x="259.08" y="185.42" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
@@ -26381,10 +26393,15 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="55.88" y1="259.08" x2="58.42" y2="261.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="228.6" y1="264.16" x2="231.14" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="266.7" x2="259.08" y2="266.7" width="0.1524" layer="91" grouprefs="RADIO"/>
-<label x="233.68" y="266.7" size="1.778" layer="95"/>
-<label x="259.08" y="266.7" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
+<wire x1="228.6" y1="158.75" x2="229.87" y2="160.02" width="0.1524" layer="91" grouprefs="RADIO"/>
+<label x="254" y="160.02" size="1.778" layer="95" xref="yes" grouprefs="RADIO"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="158.75" x2="243.84" y2="160.02" width="0.1524" layer="91" grouprefs="RADIO"/>
+<wire x1="243.84" y1="160.02" x2="254" y2="160.02" width="0.1524" layer="91" grouprefs="RADIO"/>
+<pinref part="R84" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="161.29" x2="243.84" y2="160.02" width="0.1524" layer="91" grouprefs="RADIO"/>
+<junction x="243.84" y="160.02" grouprefs="RADIO"/>
+<wire x1="229.87" y1="160.02" x2="243.84" y2="160.02" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 </net>
 <net name="M4_PA_ENABLE" class="0">
@@ -26840,14 +26857,17 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <attribute name="MANUFACTURER" x="325.12" y="80.01" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="325.12" y="80.01" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="276.86" y="69.85" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="276.86" y="69.85" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="275.59" y="71.12" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="276.86" y="77.47" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="276.86" y="77.47" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="275.59" y="78.74" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="344.17" y="72.39" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="344.17" y="72.39" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="342.9" y="73.66" size="1.778" layer="95"/>
+</instance>
+<instance part="TP15" gate="G$1" x="381" y="184.15" smashed="yes">
+<attribute name="NAME" x="378.46" y="186.69" size="1.27" layer="104"/>
 </instance>
 </instances>
 <busses>
@@ -27077,11 +27097,14 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <wire x1="379.73" y1="161.29" x2="381" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="381" y1="161.29" x2="381" y2="179.07" width="0.1524" layer="91"/>
 <wire x1="379.73" y1="196.85" x2="381" y2="196.85" width="0.1524" layer="91"/>
-<wire x1="381" y1="196.85" x2="381" y2="179.07" width="0.1524" layer="91"/>
+<wire x1="381" y1="196.85" x2="381" y2="184.15" width="0.1524" layer="91"/>
 <junction x="381" y="179.07"/>
+<wire x1="381" y1="184.15" x2="381" y2="179.07" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="179.07" x2="381" y2="179.07" width="0.1524" layer="91"/>
 <pinref part="U7" gate="-C" pin="3OUT"/>
 <pinref part="U7" gate="-D" pin="4OUT"/>
+<pinref part="TP15" gate="G$1" pin="1"/>
+<junction x="381" y="184.15"/>
 </segment>
 </net>
 <net name="WDT_L_C" class="0">
