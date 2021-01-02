@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="no"/>
@@ -17156,15 +17156,6 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="GND145" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C92" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF-25VDC" device="" value="1u"/>
 <part name="GND146" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="SPI1-SCK" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
-<part name="SPI1-MISO" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
-<part name="SPI1-MOSI" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
 <part name="GND61" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="GND75" library="oresat-supplies" deviceset="GND-L" device=""/>
 <part name="C39" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="22p">
@@ -25120,39 +25111,6 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="SPI1-SCK" gate="G$1" x="259.08" y="210.82" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
-<attribute name="NAME" x="260.35" y="212.09" size="1.778" layer="95" rot="MR0"/>
-<attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="210.82" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="SPI1-MISO" gate="G$1" x="259.08" y="203.2" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
-<attribute name="NAME" x="260.35" y="204.47" size="1.778" layer="95" rot="MR0"/>
-<attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="203.2" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
-<instance part="SPI1-MOSI" gate="G$1" x="259.08" y="195.58" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP RADIO">
-<attribute name="NAME" x="260.35" y="196.85" size="1.778" layer="95" rot="MR0"/>
-<attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-<attribute name="BOM" x="259.08" y="195.58" size="1.778" layer="96" rot="MR0" display="off"/>
-</instance>
 <instance part="C15" gate="G$1" x="383.54" y="215.9" smashed="yes" grouprefs="SYSTEM">
 <attribute name="NAME" x="385.064" y="216.281" size="1.778" layer="95"/>
 <attribute name="VALUE" x="385.064" y="211.201" size="1.778" layer="96"/>
@@ -25724,7 +25682,6 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="231.14" y1="208.28" x2="228.6" y2="205.74" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="208.28" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="208.28" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
-<pinref part="SPI1-SCK" gate="G$1" pin="TP"/>
 <wire x1="231.14" y1="208.28" x2="259.08" y2="208.28" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 <segment>
@@ -25739,7 +25696,6 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="231.14" y1="200.66" x2="228.6" y2="198.12" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="200.66" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="200.66" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
-<pinref part="SPI1-MISO" gate="G$1" pin="TP"/>
 <wire x1="231.14" y1="200.66" x2="259.08" y2="200.66" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 <segment>
@@ -25754,7 +25710,6 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="231.14" y1="193.04" x2="228.6" y2="190.5" width="0.1524" layer="91" grouprefs="RADIO"/>
 <label x="231.14" y="193.04" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="193.04" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
-<pinref part="SPI1-MOSI" gate="G$1" pin="TP"/>
 <wire x1="231.14" y1="193.04" x2="259.08" y2="193.04" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 <segment>
@@ -25818,6 +25773,11 @@ All caps are 0603 and 10V DC or greater</text>
 <label x="259.08" y="215.9" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="215.9" x2="259.08" y2="215.9" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
+<segment>
+<wire x1="33.02" y1="114.3" x2="50.8" y2="114.3" width="0.1524" layer="91"/>
+<label x="35.56" y="114.3" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$4" pin="PD10"/>
+</segment>
 </net>
 <net name="LBAND_IRQ" class="0">
 <segment>
@@ -25825,6 +25785,11 @@ All caps are 0603 and 10V DC or greater</text>
 <label x="231.14" y="220.98" size="1.778" layer="95" grouprefs="RADIO"/>
 <label x="259.08" y="220.98" size="1.778" layer="95" rot="MR180" xref="yes" grouprefs="RADIO"/>
 <wire x1="231.14" y1="220.98" x2="259.08" y2="220.98" width="0.1524" layer="91" grouprefs="RADIO"/>
+</segment>
+<segment>
+<wire x1="33.02" y1="109.22" x2="50.8" y2="109.22" width="0.1524" layer="91"/>
+<label x="35.56" y="109.22" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$4" pin="PD12"/>
 </segment>
 </net>
 <net name="PA1" class="0">
@@ -26079,10 +26044,9 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="231.14" y1="231.14" x2="259.08" y2="231.14" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC6"/>
-<wire x1="55.88" y1="167.64" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
-<label x="35.56" y="167.64" size="1.778" layer="95"/>
-<wire x1="55.88" y1="167.64" x2="58.42" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="106.68" x2="50.8" y2="106.68" width="0.1524" layer="91"/>
+<label x="35.56" y="106.68" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$4" pin="PD13"/>
 </segment>
 </net>
 <net name="UHF_CS" class="0">
@@ -26093,10 +26057,9 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="231.14" y1="226.06" x2="259.08" y2="226.06" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC7"/>
-<wire x1="55.88" y1="165.1" x2="33.02" y2="165.1" width="0.1524" layer="91"/>
-<label x="35.56" y="165.1" size="1.778" layer="95"/>
-<wire x1="55.88" y1="165.1" x2="58.42" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="111.76" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
+<label x="35.56" y="111.76" size="1.778" layer="95"/>
+<pinref part="IC2" gate="G$4" pin="PD11"/>
 </segment>
 </net>
 <net name="OSC32_IN" class="0">
@@ -26187,6 +26150,11 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="370.84" y1="71.12" x2="317.5" y2="71.12" width="0.1524" layer="91" grouprefs="OPD"/>
 <label x="320.04" y="71.12" size="1.778" layer="95" grouprefs="OPD"/>
 <wire x1="317.5" y1="71.12" x2="314.96" y2="68.58" width="0.1524" layer="91" grouprefs="OPD"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$5" pin="PE0"/>
+<wire x1="33.02" y1="96.52" x2="40.64" y2="96.52" width="0.1524" layer="91"/>
+<label x="35.56" y="99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CB_IOUT_IN" class="0">
@@ -26540,6 +26508,11 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="96.52" y1="154.94" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$4" pin="PD6"/>
+<wire x1="33.02" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
+<label x="35.56" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TEST_HELI" class="0">
@@ -27510,7 +27483,6 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <pinref part="Q14" gate="G$1" pin="D"/>
 <wire x1="125.73" y1="115.57" x2="134.62" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="115.57" x2="134.62" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="115.57" x2="134.62" y2="115.57" width="0.1524" layer="91"/>
 <wire x1="140.97" y1="111.76" x2="140.97" y2="115.57" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -27903,59 +27875,103 @@ All caps are 0603 and 10V DC or greater</text>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,2,172.72,231.14,U5,VIN,VBUSP,,,"/>
-<approved hash="104,2,55.88,236.22,U4,VIN,VBUS,,,"/>
-<approved hash="104,2,68.58,226.06,U4,VOUT,VBUSP,,,"/>
-<approved hash="104,2,332.74,236.22,U1,IN_2,OPD-3.3V,,,"/>
-<approved hash="104,2,332.74,238.76,U1,IN,OPD-3.3V,,,"/>
-<approved hash="104,2,358.14,236.22,U1,OUT_2,OPD_PWR,,,"/>
-<approved hash="104,2,358.14,238.76,U1,OUT,OPD_PWR,,,"/>
+<approved hash="104,5,182.88,233.68,U2,VCC,3.3V,,,"/>
+<approved hash="104,2,199.39,208.28,U5,VIN,VBUSP,,,"/>
+<approved hash="104,5,182.88,180.34,U3,VCC,3.3V,,,"/>
+<approved hash="104,2,77.47,218.44,U4,VIN,VBUS,,,"/>
+<approved hash="104,2,90.17,208.28,U4,VOUT,VBUSP,,,"/>
+<approved hash="104,7,185.42,226.06,U1,IN_2,3.3V,,,"/>
+<approved hash="104,7,185.42,228.6,U1,IN,3.3V,,,"/>
+<approved hash="104,7,210.82,226.06,U1,OUT_2,OPD_PWR,,,"/>
+<approved hash="104,7,210.82,228.6,U1,OUT,OPD_PWR,,,"/>
 <approved hash="104,5,233.68,60.96,U9,VDDQ,MMC_VDD,,,"/>
 <approved hash="104,5,231.14,60.96,U9,VDDIO,MMC_VDD,,,"/>
 <approved hash="104,5,233.68,22.86,U9,VSSIO,GND,,,"/>
 <approved hash="104,5,236.22,22.86,U9,VSSQ,GND,,,"/>
-<approved hash="104,3,121.92,33.02,U11,PGND,GND,,,"/>
-<approved hash="104,3,121.92,99.06,U11,VDD_IO,3.3V,,,"/>
-<approved hash="104,3,104.14,93.98,U11,VDD_A1,N$10,,,"/>
-<approved hash="104,3,104.14,86.36,U11,GND1,GND-L,,,"/>
-<approved hash="104,3,104.14,71.12,U11,GND2,GND-L,,,"/>
-<approved hash="104,3,104.14,63.5,U11,VDD_A2,N$11,,,"/>
-<approved hash="104,3,360.68,109.22,U10,VDDI,3.3V,,,"/>
-<approved hash="104,3,360.68,53.34,U10,GNDI,GND-L,,,"/>
-<approved hash="104,3,365.76,53.34,U10,GNDD,GND-L,,,"/>
-<approved hash="104,3,365.76,109.22,U10,VDDD,3.3V,,,"/>
-<approved hash="104,3,289.56,157.48,U16,GND,GND-L,,,"/>
-<approved hash="104,3,330.2,157.48,U15,GND,GND-L,,,"/>
-<approved hash="104,2,157.48,73.66,U26,VIN,UHF_VBUSP,,,"/>
-<approved hash="104,2,63.5,81.28,U27,VIN,VBUS,,,"/>
-<approved hash="104,2,76.2,71.12,U27,VOUT,UHF_VBUSP,,,"/>
-<approved hash="104,3,325.12,205.74,Q7,E,GND-L,,,"/>
-<approved hash="104,3,33.02,167.64,U18,GND,GND-L,,,"/>
-<approved hash="104,3,66.04,157.48,U19,GND,GND-L,,,"/>
-<approved hash="104,3,132.08,177.8,U20,VCC,2.5V-L,,,"/>
-<approved hash="104,3,160.02,177.8,U20,ADJ,N$38,,,"/>
-<approved hash="104,3,144.78,160.02,U20,GND,GND-L,,,"/>
-<approved hash="104,3,226.06,157.48,U21,GND,GND-L,,,"/>
-<approved hash="104,3,175.26,246.38,U17,GND,GND-L,,,"/>
-<approved hash="104,2,35.56,152.4,U6,VIN,3.3V,,,"/>
-<approved hash="104,2,60.96,152.4,U6,VOUT,2.5V-L,,,"/>
-<approved hash="104,2,45.72,139.7,U6,GND,GND-L,,,"/>
-<approved hash="104,2,60.96,144.78,U6,BYPASS,N$25,,,"/>
-<approved hash="104,2,353.06,73.66,U23,VIN,3.3V-U,,,"/>
-<approved hash="104,2,378.46,73.66,U23,VOUT,2.5V-U,,,"/>
-<approved hash="104,2,363.22,60.96,U23,GND,GND-U,,,"/>
-<approved hash="104,2,378.46,66.04,U23,BYPASS,N$8,,,"/>
-<approved hash="104,2,269.24,73.66,U28,VIN,5V-U,,,"/>
-<approved hash="104,2,294.64,73.66,U28,VOUT,3.3V-U,,,"/>
-<approved hash="104,2,294.64,66.04,U28,BYPASS,N$49,,,"/>
-<approved hash="104,6,312.42,203.2,U7_QUAD_COMPARATOR,V+,VIN,,,"/>
-<approved hash="104,6,312.42,182.88,U7_QUAD_COMPARATOR,V-,GND,,,"/>
+<approved hash="104,3,97.79,85.09,U11,PGND,GND,,,"/>
+<approved hash="104,3,97.79,151.13,U11,VDD_IO,3.3V,,,"/>
+<approved hash="104,3,115.57,146.05,U11,VDD_A1,N$10,,,"/>
+<approved hash="104,3,115.57,138.43,U11,GND1,GND-L,,,"/>
+<approved hash="104,3,115.57,123.19,U11,GND2,GND-L,,,"/>
+<approved hash="104,3,115.57,115.57,U11,VDD_A2,N$11,,,"/>
+<approved hash="104,3,78.74,33.02,X3,VDD,1V8,,,"/>
+<approved hash="104,3,123.19,50.8,U12,VIN,3.3V,,,"/>
+<approved hash="104,3,107.95,35.56,U12,VOUT,1V8,,,"/>
+<approved hash="104,3,128.27,40.64,U12,BYPASS,N$12,,,"/>
+<approved hash="104,4,474.98,184.15,U13,PGND,GND,,,"/>
+<approved hash="104,4,474.98,250.19,U13,VDD_IO,3.3V-U,,,"/>
+<approved hash="104,4,457.2,245.11,U13,VDD_A1,N$16,,,"/>
+<approved hash="104,4,457.2,237.49,U13,GND1,GND-U,,,"/>
+<approved hash="104,4,457.2,222.25,U13,GND2,GND-U,,,"/>
+<approved hash="104,4,457.2,214.63,U13,VDD_A2,N$17,,,"/>
+<approved hash="104,4,481.33,127,X4,VDD,1.8V-U,,,"/>
+<approved hash="104,3,265.43,72.39,U10,VDDI,3.3V,,,"/>
+<approved hash="104,3,265.43,16.51,U10,GNDI,GND-L,,,"/>
+<approved hash="104,3,270.51,16.51,U10,GNDD,GND-L,,,"/>
+<approved hash="104,3,270.51,72.39,U10,VDDD,3.3V,,,"/>
+<approved hash="104,3,351.79,125.73,U16,GND,GND-L,,,"/>
+<approved hash="104,3,311.15,125.73,U15,GND,GND-L,,,"/>
+<approved hash="104,2,151.13,106.68,U26,VIN,UHF_VBUSP,,,"/>
+<approved hash="104,2,57.15,114.3,U27,VIN,VBUS,,,"/>
+<approved hash="104,2,69.85,104.14,U27,VOUT,UHF_VBUSP,,,"/>
+<approved hash="104,3,120.65,205.74,Q7,E,GND-L,,,"/>
+<approved hash="104,3,191.77,210.82,U18,GND,GND-L,,,"/>
+<approved hash="104,3,254,200.66,U19,GND,GND-L,,,"/>
+<approved hash="104,3,304.8,220.98,U20,VCC,2.5V-L,,,"/>
+<approved hash="104,3,332.74,220.98,U20,ADJ,N$38,,,"/>
+<approved hash="104,3,317.5,203.2,U20,GND,GND-L,,,"/>
+<approved hash="104,3,398.78,200.66,U21,GND,GND-L,,,"/>
+<approved hash="104,4,420.37,129.54,U14,VIN,3.3V-U,,,"/>
+<approved hash="104,4,435.61,114.3,U14,VOUT,1.8V-U,,,"/>
+<approved hash="104,4,415.29,119.38,U14,BYPASS,N$46,,,"/>
+<approved hash="104,3,48.26,203.2,U17,GND,GND-L,,,"/>
+<approved hash="104,2,336.55,201.93,U6,VIN,3.3V,,,"/>
+<approved hash="104,2,361.95,201.93,U6,VOUT,2.5V-L,,,"/>
+<approved hash="104,2,346.71,189.23,U6,GND,GND-L,,,"/>
+<approved hash="104,2,361.95,194.31,U6,BYPASS,N$25,,,"/>
+<approved hash="104,2,346.71,106.68,U23,VIN,3.3V-U,,,"/>
+<approved hash="104,2,372.11,106.68,U23,VOUT,2.5V-U,,,"/>
+<approved hash="104,2,356.87,93.98,U23,GND,GND-U,,,"/>
+<approved hash="104,2,372.11,99.06,U23,BYPASS,N$8,,,"/>
+<approved hash="104,4,218.44,25.4,Q9,E,GND-U,,,"/>
+<approved hash="104,2,256.54,106.68,U28,VIN,5V-U,,,"/>
+<approved hash="104,2,281.94,106.68,U28,VOUT,3.3V-U,,,"/>
+<approved hash="104,2,281.94,99.06,U28,BYPASS,N$49,,,"/>
+<approved hash="104,4,83.82,149.86,U8,GND,GND-U,,,"/>
+<approved hash="104,4,83.82,175.26,U8,VDD,3.3V-U,,,"/>
+<approved hash="104,6,303.53,207.01,U7_QUAD_COMPARATOR,V+,VIN,,,"/>
+<approved hash="104,6,303.53,186.69,U7_QUAD_COMPARATOR,V-,GND,,,"/>
+<approved hash="104,5,48.26,29.21,X1,SHIELD,GND,,,"/>
+<approved hash="104,4,289.56,270.51,U30,GND,GND-U,,,"/>
+<approved hash="104,4,144.78,273.05,U31,GND,GND-U,,,"/>
+<approved hash="104,4,209.55,354.33,U32,VCC,3.3V-U,,,"/>
+<approved hash="104,4,209.55,334.01,U32,GND,GND-U,,,"/>
+<approved hash="104,4,72.39,354.33,U33,VCC,3.3V-U,,,"/>
+<approved hash="104,4,72.39,334.01,U33,GND,GND-U,,,"/>
+<approved hash="104,4,157.48,307.34,AT5,GND,GND-U,,,"/>
+<approved hash="104,4,144.78,307.34,AT6,GND,GND-U,,,"/>
+<approved hash="104,4,132.08,307.34,AT7,GND,GND-U,,,"/>
+<approved hash="104,4,113.03,280.67,AT8,GND,GND-U,,,"/>
+<approved hash="104,4,312.42,382.27,U22,VEE,GND-U,,,"/>
+<approved hash="104,4,312.42,397.51,U22,VCC,3.3V-U,,,"/>
+<approved hash="104,4,210.82,143.51,U25,VCC,3.3V-U,,,"/>
+<approved hash="104,4,210.82,118.11,U25,GND,GND-U,,,"/>
+<approved hash="104,4,266.7,204.47,U29,VCC,3.3V-U,,,"/>
+<approved hash="104,4,266.7,173.99,U29,GND,GND-U,,,"/>
+<approved hash="104,4,381,397.51,U24,V+,3.3V-U,,,"/>
+<approved hash="104,4,383.54,372.11,U24,GND,GND-U,,,"/>
+<approved hash="206,3,80.01,140.97,SPI1_MISO,,,,,"/>
+<approved hash="206,4,492.76,240.03,SPI1_MISO,,,,,"/>
 <approved hash="113,1,215.796,139.596,FRAME1,,,,,"/>
 <approved hash="113,5,215.796,139.596,FRAME2,,,,,"/>
 <approved hash="113,2,215.796,139.596,FRAME3,,,,,"/>
-<approved hash="113,3,215.796,139.596,FRAME5,,,,,"/>
+<approved hash="113,4,509.312,240.226,JP1,,,,,"/>
+<approved hash="113,3,41.91,141.134,JP2,,,,,"/>
 <approved hash="113,6,215.796,139.596,FRAME4,,,,,"/>
-<approved hash="113,3,295.868,89.1261,JP3,,,,,"/>
+<approved hash="113,3,206.968,52.2656,JP3,,,,,"/>
+<approved hash="113,4,279.296,215.796,FRAME7,,,,,"/>
+<approved hash="113,3,215.796,139.596,FRAME5,,,,,"/>
+<approved hash="113,7,215.796,139.596,FRAME6,,,,,"/>
 </errors>
 </schematic>
 </drawing>
