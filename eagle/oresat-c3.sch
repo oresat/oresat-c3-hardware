@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="no"/>
@@ -89,9 +89,14 @@
 <layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="no"/>
 <layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="no"/>
 <layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="no"/>
+<layer number="108" name="tplace-old" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="110" name="labels" color="7" fill="1" visible="no" active="no"/>
 <layer number="111" name="tGTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="112" name="bGTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="117" name="mPads" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="mVias" color="7" fill="1" visible="yes" active="yes"/>
@@ -127,7 +132,11 @@
 <layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="References" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="mbDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
@@ -144,6 +153,13 @@
 <layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="216" name="SMD16" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
@@ -153,9 +169,17 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="OrgLBR" color="7" fill="1" visible="yes" active="yes"/>
@@ -13667,7 +13691,10 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <connect gate=".2" pin="S" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MFR" value="Diodes Inc" constant="no"/>
+<attribute name="MPN" value="DMP2240UDM-7" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -13694,14 +13721,18 @@ Source: &lt;a href="http://www.ti.com/lit/ds/symlink/lp2985-n.pdf"&gt; Datasheet
 <smd name="10" x="-0.39903125" y="2.07518125" dx="0.65" dy="0.4" layer="1" rot="R270"/>
 <smd name="11" x="-1.21183125" y="2.07518125" dx="0.65" dy="0.4" layer="1" rot="R270"/>
 <smd name="12" x="-2.02463125" y="2.07518125" dx="0.65" dy="0.4" layer="1" rot="R270"/>
-<smd name="13" x="-1.3340625" y="0" dx="1.78" dy="2.5" layer="1"/>
-<smd name="14" x="1.139696875" y="-0.7500625" dx="2.17" dy="1" layer="1"/>
-<smd name="15" x="1.1407125" y="0.75285625" dx="2.17" dy="1" layer="1"/>
+<smd name="13" x="-1.3340625" y="0" dx="1.78" dy="2.5" layer="1" cream="no"/>
+<smd name="14" x="1.139696875" y="-0.7500625" dx="2.17" dy="1" layer="1" cream="no"/>
+<smd name="15" x="1.1407125" y="0.75285625" dx="2.17" dy="1" layer="1" cream="no"/>
 <circle x="-2.667" y="-1.6764" radius="0.127" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="-1.4478" x2="2.413" y2="-1.4478" width="0.127" layer="21"/>
 <wire x1="2.413" y1="-1.4478" x2="2.413" y2="1.4478" width="0.127" layer="21"/>
 <wire x1="2.413" y1="1.4478" x2="-2.413" y2="1.4478" width="0.127" layer="21"/>
 <wire x1="-2.413" y1="1.4478" x2="-2.413" y2="-1.4478" width="0.127" layer="21"/>
+<rectangle x1="-2.1" y1="0.3" x2="-0.6" y2="1.1" layer="31"/>
+<rectangle x1="-2.1" y1="-1.1" x2="-0.6" y2="-0.3" layer="31"/>
+<rectangle x1="0.3" y1="0.4" x2="2" y2="1.1" layer="31"/>
+<rectangle x1="0.3" y1="-1.1" x2="2" y2="-0.4" layer="31"/>
 </package>
 </packages>
 <symbols>
@@ -14464,21 +14495,42 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 <library name="U-Qorvo-TQP7M9105-PA">
 <packages>
 <package name="U-QORVO-TQP7M9105-PA_TQP7M9105">
-<wire x1="2.3" y1="0.6" x2="2.3" y2="3.1" width="0.1" layer="51"/>
-<wire x1="2.3" y1="3.1" x2="-2.3" y2="3.1" width="0.1" layer="51"/>
-<wire x1="-2.3" y1="3.1" x2="-2.3" y2="0.6" width="0.1" layer="51"/>
-<wire x1="-2.3" y1="0.6" x2="2.3" y2="0.6" width="0.1" layer="51"/>
-<rectangle x1="-0.4" y1="-0.5" x2="0.4" y2="1.8" layer="31"/>
-<rectangle x1="-0.7" y1="2" x2="0.7" y2="3.6" layer="31"/>
-<rectangle x1="-0.55" y1="-0.7" x2="0.55" y2="1.2" layer="29"/>
-<rectangle x1="-2" y1="1.2" x2="2" y2="3.3" layer="29"/>
-<rectangle x1="-1" y1="3.3" x2="1" y2="4" layer="29"/>
+<wire x1="2.3" y1="0.7" x2="2.3" y2="3.2" width="0.1" layer="51"/>
+<wire x1="2.3" y1="3.2" x2="0.85" y2="3.2" width="0.1" layer="51"/>
+<wire x1="0.85" y1="3.2" x2="-0.85" y2="3.2" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="3.2" x2="-2.3" y2="3.2" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="3.2" x2="-2.3" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-2.3" y1="0.7" x2="-1.7" y2="0.7" width="0.1" layer="51"/>
 <smd name="1" x="-1.5" y="0.11" dx="0.86" dy="1.27" layer="1"/>
 <smd name="2" x="0" y="0" dx="0.86" dy="2.65" layer="1" stop="no" cream="no"/>
 <smd name="3" x="1.5" y="0.11" dx="0.86" dy="1.27" layer="1"/>
 <smd name="PAD" x="0" y="3.575" dx="3.86" dy="4.5" layer="1" stop="no" cream="no"/>
-<text x="3.5" y="3.5" size="0.6" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="3.5" y="2.5" size="0.6" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<text x="2.5" y="2.1" size="0.6" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<rectangle x1="-0.5334" y1="-0.635" x2="0.5334" y2="1.3462" layer="29"/>
+<rectangle x1="-0.43" y1="-0.52" x2="0.43" y2="1.37" layer="31"/>
+<rectangle x1="-0.8" y1="1.35" x2="0.8" y2="3.75" layer="31"/>
+<wire x1="-1.7" y1="0.7" x2="-1.3" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-1.3" y1="0.7" x2="-0.25" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-0.25" y1="0.7" x2="0.25" y2="0.7" width="0.1" layer="51"/>
+<wire x1="0.25" y1="0.7" x2="1.3" y2="0.7" width="0.1" layer="51"/>
+<wire x1="1.3" y1="0.7" x2="1.7" y2="0.7" width="0.1" layer="51"/>
+<wire x1="1.7" y1="0.7" x2="2.3" y2="0.7" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="3.2" x2="-0.85" y2="3.446" width="0.1" layer="51"/>
+<wire x1="-0.85" y1="3.446" x2="-0.596" y2="3.7" width="0.1" layer="51" curve="-90"/>
+<wire x1="-0.596" y1="3.7" x2="0.596" y2="3.7" width="0.1" layer="51"/>
+<wire x1="0.596" y1="3.7" x2="0.85" y2="3.446" width="0.1" layer="51" curve="-90"/>
+<wire x1="0.85" y1="3.446" x2="0.85" y2="3.2" width="0.1" layer="51"/>
+<rectangle x1="-1.1" y1="3.3" x2="1.1" y2="3.8" layer="29"/>
+<wire x1="-0.25" y1="0.7" x2="-0.25" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="-0.25" y1="-0.4" x2="0.25" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="0.25" y1="-0.4" x2="0.25" y2="0.7" width="0.05" layer="51"/>
+<wire x1="-1.7" y1="0.7" x2="-1.7" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="-1.7" y1="-0.4" x2="-1.3" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="-1.3" y1="-0.4" x2="-1.3" y2="0.7" width="0.05" layer="51"/>
+<wire x1="1.3" y1="0.7" x2="1.3" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="1.3" y1="-0.4" x2="1.7" y2="-0.4" width="0.05" layer="51"/>
+<wire x1="1.7" y1="-0.4" x2="1.7" y2="0.7" width="0.05" layer="51"/>
+<rectangle x1="-2" y1="1.2" x2="2" y2="3.4" layer="29"/>
 </package>
 </packages>
 <symbols>
@@ -16389,11 +16441,8 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="BUILT_BY" value="EMA_Matt" constant="no"/>
-<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="MMBZ15VALFHT116" constant="no"/>
-<attribute name="SOURCELIBRARY" value="Rohm_2019-09-23" constant="no"/>
-<attribute name="VENDOR" value="ROHM Semiconductor" constant="no"/>
+<attribute name="MFR" value="ROHM Semiconductor" constant="no"/>
+<attribute name="MPN" value="MMBZ15VALFHT116" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -17858,8 +17907,8 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="GND102" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND103" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U7" library="U-TLV1704-SEP_WatchDog" deviceset="TLV1704AMPWTPSEP" device="TSSOP-14" package3d_urn="urn:adsk.eagle:package:20301860/1" value="TLV1704AMPWPSEP"/>
-<part name="Q6" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
-<part name="Q8" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
+<part name="Q6" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM-7"/>
+<part name="Q8" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM-7"/>
 <part name="VBUS5" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R3" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"/>
@@ -17875,9 +17924,9 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 </part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q11" library="Q-On_Semiconductor-FDMQ86530L-MOSFET-4-N-CH" deviceset="FDMQ86530L_2-GATES" device=""/>
-<part name="Q12" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
-<part name="Q13" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device=""/>
+<part name="Q11" library="Q-On_Semiconductor-FDMQ86530L-MOSFET-4-N-CH" deviceset="FDMQ86530L_2-GATES" device="" value="FDMQ86530L"/>
+<part name="Q12" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM-7"/>
+<part name="Q13" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM-7"/>
 <part name="VBUS7" library="oresat-supplies" deviceset="VBUS" device=""/>
 <part name="R22" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k">
 <attribute name="DESCRIPTION" value="10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"/>
@@ -17893,7 +17942,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 </part>
 <part name="GND53" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND105" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="Q14" library="Q-On_Semiconductor-FDMQ86530L-MOSFET-4-N-CH" deviceset="FDMQ86530L_2-GATES" device=""/>
+<part name="Q14" library="Q-On_Semiconductor-FDMQ86530L-MOSFET-4-N-CH" deviceset="FDMQ86530L_2-GATES" device="" value="FDMQ86530L"/>
 <part name="D3" library="D-Generic-silicon-SOD-323" deviceset="DIODE-" device="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1" value="1N4151WS"/>
 <part name="R32" library="C3_SamacSys_Parts" deviceset="R0603-31.6K-OHMS" device="" value="31.6K"/>
 <part name="R33" library="C3_SamacSys_Parts" deviceset="R0603-1K-OHMS" device="" value="1k"/>
@@ -18109,33 +18158,33 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="R102" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
 <part name="GND134" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="NEW"/>
-<part name="L1" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="TBD2">
+<part name="L1" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="15n">
 <attribute name="DESCRIPTION" value="15nH Unshielded Wirewound Inductor 1.1A 110mOhm 0402 (1005 Metric)"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="2035-1081-1-ND  "/>
 <attribute name="MANUFACTURER" value="Delta Electronics/Components"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-15NXGLW"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-15NXGLW"/>
 </part>
-<part name="L3" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="TBD2">
+<part name="L3" library="oresat-rcl" deviceset="L-US" device="0402-C-NOSILK" value="15n">
 <attribute name="DESCRIPTION" value="15nH Unshielded Wirewound Inductor 1.1A 110mOhm 0402 (1005 Metric)"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="2035-1081-1-ND  "/>
 <attribute name="MANUFACTURER" value="Delta Electronics/Components"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0402HP-15NXGLW"/>
 <attribute name="MOUSER_PART_NUMBER" value="994-0402HP-15NXGLW"/>
 </part>
-<part name="C126" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="TBD1">
+<part name="C126" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="18p">
 <attribute name="DESCRIPTION" value="18pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1140-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C180JB5NNNC"/>
 </part>
-<part name="C128" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="TBD3">
+<part name="C128" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="12p">
 <attribute name="DESCRIPTION" value="12pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1178-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL05C120JB5NNNC"/>
 </part>
-<part name="C129" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="TBD1">
+<part name="C129" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="18p">
 <attribute name="DESCRIPTION" value="18pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="1276-1140-1-ND"/>
 <attribute name="MANUFACTURER" value="Samsung Electro-Mechanics"/>
@@ -25162,7 +25211,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="MANUFACTURER_PART_NUMBER" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="RADIO TP TESTPOINTS">
+<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="RADIO TESTPOINTS TP">
 <attribute name="NAME" x="260.35" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
@@ -26660,21 +26709,21 @@ All caps are 0603 and 10V DC or greater</text>
 <label x="35.56" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RTC_I2C_SCL" class="0">
+<net name="I2CSYS_SCL" class="0">
 <segment>
 <pinref part="IC2" gate="G$2" pin="PB10"/>
 <wire x1="33.02" y1="200.66" x2="54.61" y2="200.66" width="0.1524" layer="91"/>
 <label x="35.56" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RTC_I2C_SDA" class="0">
+<net name="I2CSYS_SDA" class="0">
 <segment>
 <pinref part="IC2" gate="G$2" pin="PB11"/>
 <wire x1="33.02" y1="198.12" x2="54.61" y2="198.12" width="0.1524" layer="91"/>
 <label x="35.56" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RTC_PWROFF" class="0">
+<net name="I2CSYS_PWROFF" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="PA8"/>
 <wire x1="33.02" y1="248.92" x2="54.61" y2="248.92" width="0.1524" layer="91"/>
@@ -26704,6 +26753,7 @@ Comparator C if Cap (C3) &lt; VT then !SD remains high (inactive)
 Comparator B if WDT &gt; VP then Cap (C8) is charged
 Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <text x="255.27" y="176.53" size="1.778" layer="97">1206</text>
+<text x="281.94" y="163.83" size="1.778" layer="97">(TLV1704AIPWR for non-flight)</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -27994,7 +28044,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="270.51" y1="226.06" x2="270.51" y2="224.79" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="RTC_I2C_SCL" class="0">
+<net name="I2CSYS_SCL" class="0">
 <segment>
 <wire x1="241.3" y1="107.95" x2="217.17" y2="107.95" width="0.1524" layer="91"/>
 <pinref part="U35" gate="A" pin="SCL"/>
@@ -28011,7 +28061,7 @@ All caps are 0603 and 10V DC or greater</text>
 <label x="224.79" y="107.95" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RTC_I2C_SDA" class="0">
+<net name="I2CSYS_SDA" class="0">
 <segment>
 <pinref part="U34" gate="G$1" pin="SDA"/>
 <pinref part="R92" gate="G$1" pin="1"/>
@@ -28110,7 +28160,7 @@ All caps are 0603 and 10V DC or greater</text>
 <label x="203.2" y="128.27" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RTC_PWROFF" class="0">
+<net name="I2CSYS_PWROFF" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="G"/>
 <pinref part="R102" gate="G$1" pin="2"/>
