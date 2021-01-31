@@ -3288,6 +3288,29 @@ Source: &lt;a href="http://datasheets.avx.com/cx5r.pdf"&gt; Datasheet &lt;/a&gt;
 </device>
 </devices>
 </deviceset>
+<deviceset name="R0603-6.8K-OHMS" prefix="R" uservalue="yes">
+<description>&lt;b&gt;6.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package=".0603-C-NOSILK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="6.8 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film" constant="no"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="RMCF0603FT6K80CT-ND" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Stackpole Electronics Inc" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="RMCF0603FT6K80" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="U-ON-Semi-AX5043-radio">
@@ -12965,47 +12988,6 @@ www.irf.com&lt;p&gt;
 <pin name="D" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 </symbol>
-<symbol name="N-MOS" urn="urn:adsk.eagle:symbol:29642/1" library_version="5">
-<wire x1="-1.27" y1="0" x2="-0.254" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="0.381" x2="-0.254" y2="-0.381" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.381" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-0.889" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.032" x2="0" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="3.048" x2="1.27" y2="3.048" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="3.048" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.762" x2="1.27" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.27" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="-2.794" x2="0" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0" x2="0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="0" x2="1.27" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="1.27" y1="0.762" x2="1.778" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.762" x2="0.762" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="2.032" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.032" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-1.524" y1="-2.032" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0" x2="-0.381" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="-0.254" x2="-0.381" y2="0.254" width="0.254" layer="94"/>
-<wire x1="-0.381" y1="0.254" x2="-0.889" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0.508" x2="1.016" y2="0.127" width="0.254" layer="94"/>
-<wire x1="1.016" y1="0.127" x2="1.524" y2="0.127" width="0.254" layer="94"/>
-<wire x1="1.524" y1="0.127" x2="1.27" y2="0.508" width="0.254" layer="94"/>
-<circle x="0" y="-2.794" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="-2.032" radius="0.3592" width="0" layer="94"/>
-<circle x="0" y="3.048" radius="0.3592" width="0" layer="94"/>
-<text x="2.54" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="1.27" x2="-1.524" y2="2.54" layer="94"/>
-<rectangle x1="-2.032" y1="-2.54" x2="-1.524" y2="-1.27" layer="94"/>
-<rectangle x1="-2.032" y1="-0.762" x2="-1.524" y2="0.762" layer="94"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-<pin name="D" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BSS84" urn="urn:adsk.eagle:component:29809/4" prefix="Q" library_version="5">
@@ -13026,29 +13008,6 @@ www.irf.com&lt;p&gt;
 <technologies>
 <technology name="">
 <attribute name="POPULARITY" value="8" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="BSS123" urn="urn:adsk.eagle:component:29810/4" prefix="Q" library_version="5">
-<description>&lt;b&gt;N-CHANNEL MOS FET&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="N-MOS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SOT23">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="1"/>
-<connect gate="G$1" pin="S" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:28738/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="POPULARITY" value="21" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -16450,6 +16409,100 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Q-MOSFET-NCH-SOT23-3">
+<packages>
+<package name="SOT23-3">
+<description>SOT23-3
+&lt;br&gt;Small Outline Transistor, standard 3-pin package</description>
+<wire x1="1.4" y1="0.6" x2="-1.4" y2="0.6" width="0.3" layer="51"/>
+<wire x1="-1.4" y1="0.6" x2="-1.4" y2="-0.6" width="0.3" layer="51"/>
+<wire x1="-1.4" y1="-0.6" x2="1.4" y2="-0.6" width="0.3" layer="51"/>
+<wire x1="1.4" y1="-0.6" x2="1.4" y2="0.6" width="0.3" layer="51"/>
+<wire x1="-1.8" y1="-1.6" x2="1.8" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-1.6" x2="1.8" y2="1.1" width="0.05" layer="39"/>
+<wire x1="1.8" y1="1.1" x2="0.6" y2="1.1" width="0.05" layer="39"/>
+<wire x1="0.6" y1="1.1" x2="0.6" y2="1.6" width="0.05" layer="39"/>
+<wire x1="0.6" y1="1.6" x2="-0.7" y2="1.6" width="0.05" layer="39"/>
+<wire x1="-0.7" y1="1.6" x2="-0.7" y2="1.1" width="0.05" layer="39"/>
+<wire x1="-0.7" y1="1.1" x2="-1.8" y2="1.1" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="1.1" x2="-1.8" y2="-1.6" width="0.05" layer="39"/>
+<wire x1="-0.3" y1="-0.79" x2="0.3" y2="-0.79" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="-0.3" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.8" x2="-0.7" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.3" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="0.7" y2="0.8" width="0.127" layer="21"/>
+<smd name="3" x="0" y="1" dx="0.8" dy="0.9" layer="1" stop="no"/>
+<smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1" stop="no"/>
+<smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1" stop="no"/>
+<text x="2" y="-0.3" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<rectangle x1="-0.25" y1="0.65" x2="0.25" y2="1.3" layer="51"/>
+<rectangle x1="-1.2" y1="-1.3" x2="-0.7" y2="-0.65" layer="51"/>
+<rectangle x1="0.7" y1="-1.3" x2="1.2" y2="-0.65" layer="51"/>
+<rectangle x1="-1.45" y1="-1.545" x2="-0.455" y2="-0.455" layer="29"/>
+<rectangle x1="0.455" y1="-1.545" x2="1.455" y2="-0.445" layer="29"/>
+<rectangle x1="-0.5" y1="0.455" x2="0.5" y2="1.55" layer="29"/>
+</package>
+</packages>
+<symbols>
+<symbol name="N-MOSFET">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="5.08" y="0" size="1.778" layer="95">&gt;NAME</text>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="1.778" y="0.508"/>
+<vertex x="1.778" y="-0.508"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="N-MOSFET-SOT-23-3" prefix="Q" uservalue="yes">
+<description>Generic N-Channel MOSFET in an SOT23-3 package. &lt;br&gt;
+&lt;b&gt;Be sure to check that the pin out is correct for your particular MOSFET!&lt;/b&gt;&lt;br&gt;
+Compatible with Nexperia PMV45EN, ON Semi BSS138, and ST 2N7000.</description>
+<gates>
+<gate name="G$1" symbol="N-MOSFET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17379,7 +17432,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CL10B473KB8NNNC"/>
 <attribute name="VDC" value="50V"/>
 </part>
-<part name="U20" library="U-Infineon-BGB7xxL7ESD-LNA" deviceset="BGB7XXL7ESD" device="">
+<part name="U20" library="U-Infineon-BGB7xxL7ESD-LNA" deviceset="BGB7XXL7ESD" device="" value="BGB741L7ESD">
 <attribute name="DESCRIPTION" value="LNA, general purpose"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="BGB741L7ESDE6327XTSA1CT-ND"/>
 <attribute name="MANUFACTURER_NAME" value="Infineon Technologies"/>
@@ -17508,8 +17561,8 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <attribute name="MANUFACTURER" value="AVX"/>
 <attribute name="MANUFACTURER_PART_NUMBER" value="0603ZD104KAT2A"/>
 </part>
-<part name="R52" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="5.6k"/>
-<part name="R53" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="6.8k"/>
+<part name="R52" library="C3_SamacSys_Parts" deviceset="R0603-5.6K-OHMS" device="" value="5.6k"/>
+<part name="R53" library="C3_SamacSys_Parts" deviceset="R0603-6.8K-OHMS" device="" value="6.8k"/>
 <part name="C100" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1u">
 <attribute name="DESCRIPTION" value="1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="311-1445-1-ND"/>
@@ -17517,8 +17570,8 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="CC0603KRX5R8BB105"/>
 <attribute name="VDC" value="25V"/>
 </part>
-<part name="R54" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="6.8k"/>
-<part name="R55" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="5.6k"/>
+<part name="R54" library="C3_SamacSys_Parts" deviceset="R0603-6.8K-OHMS" device="" value="6.8k"/>
+<part name="R55" library="C3_SamacSys_Parts" deviceset="R0603-5.6K-OHMS" device="" value="5.6k"/>
 <part name="3.3V-U2" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="GND-U11" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U13" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -17720,7 +17773,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150060VS55040"/>
 <attribute name="PROD_ID" value=""/>
 </part>
-<part name="R21" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="2.7k">
+<part name="R21" library="C3_SamacSys_Parts" deviceset="R0603-2.7K-OHMS" device="" value="2.7k">
 <attribute name="DESCRIPTION" value="2.7 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"/>
 <attribute name="DIGI-KEY_PART_NUMBER" value="CR0603-FX-2701ELFCT-ND"/>
 <attribute name="MANUFACTURER" value="Bourns Inc."/>
@@ -17874,7 +17927,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="C36" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u"/>
 <part name="C114" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u"/>
 <part name="C115" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u"/>
-<part name="IC2" library="U-ST-STM32F439VIT6-uC" deviceset="STM32F439VIT6_PORT_BREAKOUT" device=""/>
+<part name="U36" library="U-ST-STM32F439VIT6-uC" deviceset="STM32F439VIT6_PORT_BREAKOUT" device=""/>
 <part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="VBUS4" library="oresat-supplies" deviceset="VBUS" device=""/>
@@ -17975,14 +18028,14 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="C9" library="C3_SamacSys_Parts" deviceset="CAP0603-20PF" device="" value="20p"/>
 <part name="C13" library="C3_SamacSys_Parts" deviceset="CAP0603-20PF" device="" value="20p"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X4" device="" package3d_urn="urn:adsk.eagle:package:22461/2"/>
-<part name="R83" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="10k">
+<part name="R83" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="D10" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN">
 <attribute name="PROD_ID" value=""/>
 </part>
-<part name="R93" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="5.6k"/>
+<part name="R93" library="C3_SamacSys_Parts" deviceset="R0603-5.6K-OHMS" device="" value="5.6k"/>
 <part name="L16" library="oresat-rcl" deviceset="L-US" device="0603-C-NOSILK" value="10n"/>
 <part name="GND164" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="C130" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="100p"/>
@@ -18002,7 +18055,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="+3V8" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="C135" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100p"/>
 <part name="C136" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n"/>
-<part name="R94" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="47"/>
+<part name="R94" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="50"/>
 <part name="GND170" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="U33" library="U-Linear-LT5534-RF-power-detector" deviceset="LT5534" device=""/>
 <part name="GND171" library="oresat-supplies" deviceset="GND-U" device=""/>
@@ -18011,7 +18064,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="+3V10" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="C138" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100p"/>
 <part name="C139" library="oresat-rcl" deviceset="C-EU" device="0402-C-NOSILK" value="1n"/>
-<part name="R95" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="47"/>
+<part name="R95" library="oresat-rcl" deviceset="R-US_" device="0402-C-NOSILK" value="50"/>
 <part name="GND173" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="AT5" library="AT-Susumu-PAT-attenuator" deviceset="PAT1220" device="" value="10dB"/>
 <part name="AT6" library="AT-Susumu-PAT-attenuator" deviceset="PAT0816" device="" value="10dB"/>
@@ -18020,19 +18073,19 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="GND176" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="AT8" library="AT-Susumu-PAT-attenuator" deviceset="PAT0816" device="" value="10dB"/>
 <part name="GND178" library="oresat-supplies" deviceset="GND-U" device=""/>
-<part name="R96" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0"/>
-<part name="R97" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="0"/>
+<part name="R96" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
+<part name="R97" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="0"/>
 <part name="C140" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP"/>
 <part name="C141" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP"/>
-<part name="Q4" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS84" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="P-CH"/>
-<part name="Q5" library="transistor-small-signal" library_urn="urn:adsk.eagle:library:401" deviceset="BSS123" device="" package3d_urn="urn:adsk.eagle:package:28738/2" value="N-CH"/>
+<part name="Q4" library="Q-MOSFET-PCH-SOT23-3" deviceset="P-MOSFET-SOT23-3" device="" value="NTR4101"/>
+<part name="Q5" library="Q-MOSFET-NCH-SOT23-3" deviceset="N-MOSFET-SOT-23-3" device="" value="PM45EN"/>
 <part name="P+5" library="oresat-supplies" deviceset="5V-U" device=""/>
 <part name="R99" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="47k"/>
 <part name="R100" library="oresat-rcl" deviceset="R-US_" device="0402-B-NOSILK" value="47k"/>
 <part name="GND186" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="C142" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="1u"/>
 <part name="C143" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="47n"/>
-<part name="C144" library="oresat-rcl" deviceset="C-EU" device="0603-B-NOSILK" value="NP"/>
+<part name="C144" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="NP"/>
 <part name="GND187" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="PCB1" library="oresat-cards" deviceset="ORESAT-CARD-V1.3-GENERIC-3RF" device=""/>
 <part name="C22" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="0.1u"/>
@@ -18076,7 +18129,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_C_L" device=""/>
 <part name="GND104" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="FRAME_B_L" device=""/>
-<part name="R82" library="C3_SamacSys_Parts" deviceset="R0603-3.1K-OHMS" device="" value="NP/10K"/>
+<part name="R82" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10K"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C98" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="100p">
 <attribute name="DESCRIPTION" value="0.1µF ±10% 10V Ceramic Capacitor X5R 0603 (1608 Metric)"/>
@@ -18127,7 +18180,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="TP10" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="GND119" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND120" library="oresat-supplies" deviceset="GND-U" device=""/>
-<part name="C124" library="C3_SamacSys_Parts" deviceset="CAP0603-1UF-25VDC" device="" value="100n"/>
+<part name="C124" library="C3_SamacSys_Parts" deviceset="CAP0603-0.1UF" device="" value="100n"/>
 <part name="GND130" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="R84" library="C3_SamacSys_Parts" deviceset="R0603-10K-OHMS" device="" value="10k"/>
@@ -18151,7 +18204,7 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="TP23" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="TP24" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
 <part name="GND132" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R101" library="C3_SamacSys_Parts" deviceset="R0603-0-OHMS" device="" value="100"/>
+<part name="R101" library="C3_SamacSys_Parts" deviceset="R0603-150-OHMS" device="" value="150"/>
 <part name="D9" library="D-Generic-silicon-SOD-323" deviceset="DIODE-" device="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1" value="1N4151WS"/>
 <part name="C127" library="oresat-rcl" deviceset="C-EU" device="C1210K"/>
 <part name="Q2" library="Q-MOSFET-PCH-SOT23-3" deviceset="P-MOSFET-SOT23-3" device="" value="NTR4101"/>
@@ -18201,6 +18254,8 @@ Compatible with the ON Semi NTR4101, Nexperia BSS84, Vishay BS250.</description>
 <part name="GND152" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D12" library="D-Rohm-MMBZ15VALFH-TVS-15V-two-channel" deviceset="MMBZ15VALFHT116" device=""/>
 <part name="GND153" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R103" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
+<part name="VBUS2" library="oresat-supplies" deviceset="VBUS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18953,25 +19008,25 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="VALUE" x="48.514" y="209.931" size="1.778" layer="96"/>
 <attribute name="VDC" x="48.514" y="207.518" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="55.88" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="93.98" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="102.87" y="212.09" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="100.33" y="201.93" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="191.262" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="228.6" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="248.92" y="212.09" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="163.83" y="99.06" smashed="yes">
@@ -19073,7 +19128,7 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="VALUE" x="129.794" y="94.361" size="1.778" layer="96"/>
 <attribute name="VDC" x="129.794" y="91.948" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="182.88" y="97.79" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="198.12" y="99.06" smashed="yes">
@@ -19106,6 +19161,8 @@ TPS259621 = Autoretry after thermal shutdown
 </instance>
 <instance part="C92" gate="G$1" x="287.02" y="96.52" smashed="yes">
 <attribute name="NAME" x="288.544" y="96.901" size="1.778" layer="95"/>
+<attribute name="VALUE" x="288.544" y="91.821" size="1.778" layer="96"/>
+<attribute name="VDC" x="288.544" y="89.408" size="1.778" layer="97"/>
 </instance>
 <instance part="GND146" gate="1" x="287.02" y="83.82" smashed="yes">
 <attribute name="VALUE" x="284.48" y="81.28" size="1.778" layer="96"/>
@@ -19209,7 +19266,7 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="MANUFACTURER_PART_NUMBER" x="309.88" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" x="309.88" y="91.44" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="R21" gate="R" x="309.88" y="100.33" smashed="yes" rot="MR270">
+<instance part="R21" gate="G$1" x="309.88" y="100.33" smashed="yes" rot="MR270">
 <attribute name="DIGI-KEY_PART_NUMBER" x="309.88" y="100.33" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER" x="309.88" y="100.33" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="MANUFACTURER_PART_NUMBER" x="309.88" y="100.33" size="1.778" layer="96" rot="MR270" display="off"/>
@@ -19714,7 +19771,7 @@ TPS259621 = Autoretry after thermal shutdown
 <wire x1="292.1" y1="106.68" x2="300.99" y2="106.68" width="0.1524" layer="91"/>
 <junction x="292.1" y="106.68"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<pinref part="R21" gate="R" pin="1"/>
+<pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="UHF_3.3V5" gate="G$1" pin="3.3V-U"/>
 <wire x1="309.88" y1="111.76" x2="309.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="309.88" y1="106.68" x2="309.88" y2="105.41" width="0.1524" layer="91"/>
@@ -19833,7 +19890,7 @@ TPS259621 = Autoretry after thermal shutdown
 </net>
 <net name="LEDPWR3" class="0">
 <segment>
-<pinref part="R21" gate="R" pin="2"/>
+<pinref part="R21" gate="G$1" pin="2"/>
 <pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="309.88" y1="95.25" x2="309.88" y2="93.98" width="0.1524" layer="91"/>
 </segment>
@@ -22701,11 +22758,11 @@ See LT5534 datasheet</text>
 <attribute name="MANUFACTURER_PART_NUMBER" x="101.6" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="101.6" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R52" gate="R" x="55.88" y="195.58" smashed="yes" rot="R270">
+<instance part="R52" gate="G$1" x="55.88" y="195.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.3786" y="199.39" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="52.578" y="199.39" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R53" gate="R" x="55.88" y="185.42" smashed="yes" rot="R270">
+<instance part="R53" gate="G$1" x="55.88" y="185.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="57.3786" y="189.23" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="52.578" y="189.23" size="1.778" layer="96" rot="R270"/>
 </instance>
@@ -22718,11 +22775,11 @@ See LT5534 datasheet</text>
 <attribute name="DESCRIPTION" x="91.44" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="VDC" x="91.44" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R54" gate="R" x="135.89" y="156.21" smashed="yes" rot="R90">
+<instance part="R54" gate="G$1" x="135.89" y="156.21" smashed="yes" rot="R90">
 <attribute name="NAME" x="134.3914" y="152.4" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="139.192" y="152.4" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R55" gate="R" x="142.24" y="162.56" smashed="yes">
+<instance part="R55" gate="G$1" x="142.24" y="162.56" smashed="yes">
 <attribute name="NAME" x="138.43" y="164.0586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="138.43" y="159.258" size="1.778" layer="96"/>
 </instance>
@@ -23142,7 +23199,7 @@ See LT5534 datasheet</text>
 <attribute name="NAME" x="243.459" y="241.808" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="238.125" y="241.808" size="1.778" layer="96" font="vector" rot="R270" align="top-left"/>
 </instance>
-<instance part="R93" gate="R" x="240.03" y="247.65" smashed="yes" rot="MR90">
+<instance part="R93" gate="G$1" x="240.03" y="247.65" smashed="yes" rot="MR90">
 <attribute name="NAME" x="241.5286" y="243.84" size="1.778" layer="95" rot="MR90"/>
 <attribute name="VALUE" x="236.728" y="243.84" size="1.778" layer="96" rot="MR90"/>
 </instance>
@@ -23280,11 +23337,11 @@ See LT5534 datasheet</text>
 <instance part="GND178" gate="G$1" x="113.03" y="275.59" smashed="yes">
 <attribute name="VALUE" x="110.49" y="273.05" size="1.778" layer="96"/>
 </instance>
-<instance part="R96" gate="R" x="241.3" y="344.17" smashed="yes">
+<instance part="R96" gate="G$1" x="241.3" y="344.17" smashed="yes">
 <attribute name="NAME" x="237.49" y="345.6686" size="1.778" layer="95"/>
 <attribute name="VALUE" x="237.49" y="340.868" size="1.778" layer="96"/>
 </instance>
-<instance part="R97" gate="R" x="39.37" y="344.17" smashed="yes" rot="R180">
+<instance part="R97" gate="G$1" x="39.37" y="344.17" smashed="yes" rot="R180">
 <attribute name="NAME" x="43.18" y="342.6714" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="43.18" y="347.472" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -23296,13 +23353,13 @@ See LT5534 datasheet</text>
 <attribute name="NAME" x="28.194" y="342.011" size="1.778" layer="95"/>
 <attribute name="VALUE" x="28.194" y="336.931" size="1.778" layer="96"/>
 </instance>
-<instance part="Q4" gate="G$1" x="240.03" y="260.35" smashed="yes" rot="MR0">
-<attribute name="NAME" x="237.49" y="262.89" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="234.95" y="262.89" size="1.778" layer="96" rot="MR270"/>
+<instance part="Q4" gate="G$1" x="242.57" y="260.35" smashed="yes" rot="MR0">
+<attribute name="NAME" x="240.03" y="264.16" size="1.778" layer="95"/>
+<attribute name="VALUE" x="237.49" y="256.54" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q5" gate="G$1" x="250.19" y="250.19" smashed="yes" rot="MR0">
-<attribute name="NAME" x="247.65" y="252.73" size="1.778" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="245.11" y="252.73" size="1.778" layer="96" rot="MR270"/>
+<instance part="Q5" gate="G$1" x="252.73" y="250.19" smashed="yes" rot="MR0">
+<attribute name="NAME" x="254" y="252.73" size="1.778" layer="95"/>
+<attribute name="VALUE" x="254" y="250.19" size="1.778" layer="96"/>
 </instance>
 <instance part="P+5" gate="G$1" x="240.03" y="275.59" smashed="yes">
 <attribute name="VALUE" x="240.03" y="275.844" size="1.778" layer="96" align="bottom-center"/>
@@ -23755,7 +23812,7 @@ See LT5534 datasheet</text>
 <pinref part="U8" gate="U" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R54" gate="R" pin="1"/>
+<pinref part="R54" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="148.59" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND-U13" gate="G$1" pin="GND-U"/>
 <wire x1="124.46" y1="149.86" x2="124.46" y2="153.67" width="0.1524" layer="91"/>
@@ -23765,7 +23822,7 @@ See LT5534 datasheet</text>
 <pinref part="C99" gate="CE" pin="2"/>
 </segment>
 <segment>
-<pinref part="R53" gate="R" pin="2"/>
+<pinref part="R53" gate="G$1" pin="2"/>
 <pinref part="GND-U14" gate="G$1" pin="GND-U"/>
 <wire x1="66.04" y1="182.88" x2="66.04" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="180.34" x2="55.88" y2="180.34" width="0.1524" layer="91"/>
@@ -24074,7 +24131,7 @@ See LT5534 datasheet</text>
 <junction x="420.37" y="132.08"/>
 </segment>
 <segment>
-<pinref part="R52" gate="R" pin="1"/>
+<pinref part="R52" gate="G$1" pin="1"/>
 <pinref part="3.3V-U2" gate="G$1" pin="3.3V-U"/>
 <wire x1="55.88" y1="200.66" x2="55.88" y2="203.2" width="0.1524" layer="91"/>
 </segment>
@@ -24271,8 +24328,8 @@ See LT5534 datasheet</text>
 </net>
 <net name="CTRL1" class="0">
 <segment>
-<pinref part="R54" gate="R" pin="2"/>
-<pinref part="R55" gate="R" pin="1"/>
+<pinref part="R54" gate="G$1" pin="2"/>
+<pinref part="R55" gate="G$1" pin="1"/>
 <pinref part="U8" gate="U" pin="CTRL"/>
 <wire x1="135.89" y1="161.29" x2="135.89" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="135.89" y1="162.56" x2="137.16" y2="162.56" width="0.1524" layer="91"/>
@@ -24287,8 +24344,8 @@ See LT5534 datasheet</text>
 <net name="EN1" class="0">
 <segment>
 <wire x1="76.2" y1="175.26" x2="76.2" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="R53" gate="R" pin="1"/>
-<pinref part="R52" gate="R" pin="2"/>
+<pinref part="R53" gate="G$1" pin="1"/>
+<pinref part="R52" gate="G$1" pin="2"/>
 <pinref part="U8" gate="U" pin="EN"/>
 <junction x="55.88" y="190.5"/>
 <wire x1="76.2" y1="190.5" x2="66.04" y2="190.5" width="0.1524" layer="91"/>
@@ -24597,7 +24654,7 @@ See LT5534 datasheet</text>
 <wire x1="299.72" y1="387.35" x2="299.72" y2="351.79" width="0.1524" layer="91"/>
 <wire x1="299.72" y1="351.79" x2="267.97" y2="351.79" width="0.1524" layer="91"/>
 <wire x1="267.97" y1="351.79" x2="267.97" y2="344.17" width="0.1524" layer="91"/>
-<pinref part="R96" gate="R" pin="2"/>
+<pinref part="R96" gate="G$1" pin="2"/>
 <pinref part="C140" gate="CE" pin="1"/>
 <wire x1="247.65" y1="344.17" x2="259.08" y2="344.17" width="0.1524" layer="91"/>
 <junction x="247.65" y="344.17"/>
@@ -24612,7 +24669,7 @@ See LT5534 datasheet</text>
 </net>
 <net name="UHF_LOG_RF_REV" class="0">
 <segment>
-<pinref part="R97" gate="R" pin="2"/>
+<pinref part="R97" gate="G$1" pin="2"/>
 <pinref part="C141" gate="CE" pin="1"/>
 <junction x="26.67" y="344.17"/>
 <label x="21.59" y="344.17" size="1.778" layer="95" rot="R180" xref="yes"/>
@@ -24653,7 +24710,7 @@ See LT5534 datasheet</text>
 <pinref part="C143" gate="CE" pin="1"/>
 <wire x1="209.55" y1="254" x2="219.71" y2="254" width="0.1524" layer="91"/>
 <junction x="219.71" y="254"/>
-<pinref part="R93" gate="R" pin="2"/>
+<pinref part="R93" gate="G$1" pin="2"/>
 <junction x="229.87" y="254"/>
 <junction x="229.87" y="254"/>
 <wire x1="240.03" y1="255.27" x2="240.03" y2="254" width="0.1524" layer="91"/>
@@ -24689,7 +24746,7 @@ See LT5534 datasheet</text>
 </net>
 <net name="N$105" class="0">
 <segment>
-<pinref part="R93" gate="R" pin="1"/>
+<pinref part="R93" gate="G$1" pin="1"/>
 <pinref part="D10" gate="G$1" pin="A"/>
 <wire x1="240.03" y1="242.57" x2="240.03" y2="241.3" width="0.1524" layer="91"/>
 </segment>
@@ -24750,7 +24807,7 @@ See LT5534 datasheet</text>
 <pinref part="U32" gate="G$1" pin="VOUT"/>
 <pinref part="C117" gate="CE" pin="1"/>
 <wire x1="222.25" y1="344.17" x2="228.6" y2="344.17" width="0.1524" layer="91"/>
-<pinref part="R96" gate="R" pin="1"/>
+<pinref part="R96" gate="G$1" pin="1"/>
 <wire x1="228.6" y1="344.17" x2="236.22" y2="344.17" width="0.1524" layer="91"/>
 <junction x="228.6" y="344.17"/>
 </segment>
@@ -24760,7 +24817,7 @@ See LT5534 datasheet</text>
 <pinref part="U33" gate="G$1" pin="VOUT"/>
 <pinref part="C118" gate="CE" pin="1"/>
 <wire x1="59.69" y1="344.17" x2="57.15" y2="344.17" width="0.1524" layer="91"/>
-<pinref part="R97" gate="R" pin="1"/>
+<pinref part="R97" gate="G$1" pin="1"/>
 <wire x1="57.15" y1="344.17" x2="44.45" y2="344.17" width="0.1524" layer="91"/>
 <junction x="57.15" y="344.17"/>
 </segment>
@@ -24786,7 +24843,7 @@ See LT5534 datasheet</text>
 </net>
 <net name="UHF_AX5043_PTT" class="0">
 <segment>
-<pinref part="R55" gate="R" pin="2"/>
+<pinref part="R55" gate="G$1" pin="2"/>
 <pinref part="U13" gate="G$1" pin="PWRAMP"/>
 <wire x1="190.5" y1="162.56" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="162.56" x2="288.29" y2="162.56" width="0.1524" layer="91"/>
@@ -25211,7 +25268,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="MANUFACTURER_PART_NUMBER" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="RADIO TESTPOINTS TP">
+<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="TESTPOINTS TP RADIO">
 <attribute name="NAME" x="260.35" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
@@ -25222,7 +25279,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="EMMC TESTPOINTS TP">
+<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TP TESTPOINTS EMMC">
 <attribute name="NAME" x="176.53" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
@@ -25233,7 +25290,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="52.07" y="270.51" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -25244,7 +25301,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="BOOT0" gate="G$1" x="309.88" y="218.44" smashed="yes" grouprefs="SYSTEM TP">
+<instance part="BOOT0" gate="G$1" x="309.88" y="218.44" smashed="yes" grouprefs="TP SYSTEM">
 <attribute name="NAME" x="307.34" y="220.98" size="1.778" layer="95"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
@@ -25255,7 +25312,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="330.2" y="213.36" smashed="yes" grouprefs="TESTPOINTS TP SYSTEM">
+<instance part="NRST" gate="G$1" x="330.2" y="213.36" smashed="yes" grouprefs="SYSTEM TP TESTPOINTS">
 <attribute name="NAME" x="332.74" y="210.82" size="1.778" layer="95"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
@@ -25266,7 +25323,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="50.8" y="231.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -25328,13 +25385,13 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="VALUE" x="385.064" y="244.221" size="1.778" layer="96"/>
 <attribute name="VDC" x="385.064" y="241.808" size="1.778" layer="97"/>
 </instance>
-<instance part="IC2" gate="G$1" x="20.32" y="251.46" smashed="yes"/>
-<instance part="IC2" gate="G$2" x="20.32" y="208.28" smashed="yes"/>
-<instance part="IC2" gate="G$3" x="20.32" y="165.1" smashed="yes"/>
-<instance part="IC2" gate="G$4" x="20.32" y="121.92" smashed="yes"/>
-<instance part="IC2" gate="G$5" x="20.32" y="78.74" smashed="yes"/>
-<instance part="IC2" gate="G$6" x="20.32" y="35.56" smashed="yes"/>
-<instance part="IC2" gate="G$7" x="355.6" y="226.06" smashed="yes" grouprefs="SYSTEM"/>
+<instance part="U36" gate="G$1" x="20.32" y="251.46" smashed="yes"/>
+<instance part="U36" gate="G$2" x="20.32" y="208.28" smashed="yes"/>
+<instance part="U36" gate="G$3" x="20.32" y="165.1" smashed="yes"/>
+<instance part="U36" gate="G$4" x="20.32" y="121.92" smashed="yes"/>
+<instance part="U36" gate="G$5" x="20.32" y="78.74" smashed="yes"/>
+<instance part="U36" gate="G$6" x="20.32" y="35.56" smashed="yes"/>
+<instance part="U36" gate="G$7" x="355.6" y="226.06" smashed="yes" grouprefs="SYSTEM"/>
 <instance part="GND101" gate="1" x="100.33" y="10.16" smashed="yes" grouprefs="32.768KHZ_CLOCK">
 <attribute name="VALUE" x="97.79" y="7.62" size="1.778" layer="96"/>
 </instance>
@@ -25521,21 +25578,21 @@ All caps are 0603 and 10V DC or greater</text>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="365.76" y1="195.58" x2="360.68" y2="195.58" width="0.1524" layer="91" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VSS_5"/>
+<pinref part="U36" gate="G$7" pin="VSS_5"/>
 <wire x1="360.68" y1="195.58" x2="360.68" y2="198.12" width="0.1524" layer="91" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VSS_4"/>
+<pinref part="U36" gate="G$7" pin="VSS_4"/>
 <wire x1="360.68" y1="195.58" x2="358.14" y2="195.58" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="358.14" y1="195.58" x2="358.14" y2="198.12" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="360.68" y="195.58" grouprefs="SYSTEM"/>
 <junction x="358.14" y="195.58" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VSS_2"/>
+<pinref part="U36" gate="G$7" pin="VSS_2"/>
 <wire x1="358.14" y1="195.58" x2="353.06" y2="195.58" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="353.06" y1="195.58" x2="353.06" y2="198.12" width="0.1524" layer="91" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VSS_1"/>
+<pinref part="U36" gate="G$7" pin="VSS_1"/>
 <wire x1="353.06" y1="195.58" x2="350.52" y2="195.58" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="350.52" y1="195.58" x2="350.52" y2="198.12" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="353.06" y="195.58" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VSSA/VREF-"/>
+<pinref part="U36" gate="G$7" pin="VSSA/VREF-"/>
 <wire x1="365.76" y1="198.12" x2="365.76" y2="195.58" width="0.1524" layer="91"/>
 <junction x="365.76" y="195.58"/>
 </segment>
@@ -25594,7 +25651,7 @@ All caps are 0603 and 10V DC or greater</text>
 <segment>
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="X1" gate="G$1" pin="1"/>
-<pinref part="IC2" gate="G$6" pin="PH0"/>
+<pinref part="U36" gate="G$6" pin="PH0"/>
 <wire x1="58.42" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="35.56" y="53.34" size="1.778" layer="95"/>
 <wire x1="58.42" y1="33.02" x2="58.42" y2="34.29" width="0.1524" layer="91"/>
@@ -25605,7 +25662,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="OSC_OUT" class="0">
 <segment>
-<pinref part="IC2" gate="G$6" pin="PH1"/>
+<pinref part="U36" gate="G$6" pin="PH1"/>
 <wire x1="39.37" y1="50.8" x2="33.02" y2="50.8" width="0.1524" layer="91"/>
 <label x="35.56" y="50.8" size="1.778" layer="95"/>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -25624,7 +25681,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="152.4" y1="210.82" x2="149.86" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA12"/>
+<pinref part="U36" gate="G$1" pin="PA12"/>
 <wire x1="68.58" y1="238.76" x2="33.02" y2="238.76" width="0.1524" layer="91"/>
 <label x="35.56" y="238.76" size="1.778" layer="95"/>
 <wire x1="68.58" y1="238.76" x2="71.12" y2="241.3" width="0.1524" layer="91"/>
@@ -25644,37 +25701,37 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="353.06" y1="254" x2="353.06" y2="251.46" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="353.06" y1="251.46" x2="373.38" y2="251.46" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="373.38" y1="251.46" x2="373.38" y2="241.3" width="0.1524" layer="91" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VDD_1"/>
+<pinref part="U36" gate="G$7" pin="VDD_1"/>
 <wire x1="373.38" y1="241.3" x2="370.84" y2="241.3" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="373.38" y1="241.3" x2="373.38" y2="238.76" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="373.38" y="241.3" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VDD_2"/>
+<pinref part="U36" gate="G$7" pin="VDD_2"/>
 <wire x1="373.38" y1="238.76" x2="370.84" y2="238.76" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="373.38" y1="238.76" x2="373.38" y2="236.22" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="373.38" y="238.76" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VDD_3"/>
+<pinref part="U36" gate="G$7" pin="VDD_3"/>
 <wire x1="373.38" y1="236.22" x2="370.84" y2="236.22" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="373.38" y1="236.22" x2="373.38" y2="233.68" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="373.38" y="236.22" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VDD_4"/>
+<pinref part="U36" gate="G$7" pin="VDD_4"/>
 <wire x1="373.38" y1="233.68" x2="370.84" y2="233.68" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="373.38" y="233.68" grouprefs="SYSTEM"/>
 <wire x1="373.38" y1="233.68" x2="373.38" y2="231.14" width="0.1524" layer="91" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VDD_5"/>
+<pinref part="U36" gate="G$7" pin="VDD_5"/>
 <wire x1="373.38" y1="231.14" x2="370.84" y2="231.14" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="373.38" y1="231.14" x2="373.38" y2="228.6" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="373.38" y="231.14" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VDD_6"/>
+<pinref part="U36" gate="G$7" pin="VDD_6"/>
 <wire x1="373.38" y1="228.6" x2="370.84" y2="228.6" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="373.38" y1="228.6" x2="373.38" y2="226.06" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="373.38" y="228.6" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VDDA"/>
+<pinref part="U36" gate="G$7" pin="VDDA"/>
 <wire x1="373.38" y1="226.06" x2="370.84" y2="226.06" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="373.38" y1="226.06" x2="373.38" y2="223.52" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <junction x="373.38" y="226.06" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VREF+"/>
+<pinref part="U36" gate="G$7" pin="VREF+"/>
 <wire x1="373.38" y1="223.52" x2="370.84" y2="223.52" width="0.1524" layer="91" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VBAT"/>
+<pinref part="U36" gate="G$7" pin="VBAT"/>
 <wire x1="353.06" y1="248.92" x2="353.06" y2="251.46" width="0.1524" layer="91"/>
 <junction x="353.06" y="251.46"/>
 <pinref part="C115" gate="G$1" pin="1"/>
@@ -25738,7 +25795,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="152.4" y1="215.9" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA11"/>
+<pinref part="U36" gate="G$1" pin="PA11"/>
 <wire x1="68.58" y1="241.3" x2="33.02" y2="241.3" width="0.1524" layer="91"/>
 <label x="35.56" y="241.3" size="1.778" layer="95"/>
 <wire x1="68.58" y1="241.3" x2="71.12" y2="243.84" width="0.1524" layer="91"/>
@@ -25753,7 +25810,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="58.42" y1="259.08" x2="55.88" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PA5"/>
+<pinref part="U36" gate="G$1" pin="PA5"/>
 <wire x1="55.88" y1="256.54" x2="33.02" y2="256.54" width="0.1524" layer="91"/>
 <label x="35.56" y="256.54" size="1.778" layer="95"/>
 </segment>
@@ -25767,7 +25824,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="58.42" y1="256.54" x2="55.88" y2="254" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PA6"/>
+<pinref part="U36" gate="G$1" pin="PA6"/>
 <wire x1="55.88" y1="254" x2="33.02" y2="254" width="0.1524" layer="91"/>
 <label x="35.56" y="254" size="1.778" layer="95"/>
 </segment>
@@ -25781,7 +25838,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="58.42" y1="254" x2="55.88" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="PA7"/>
+<pinref part="U36" gate="G$1" pin="PA7"/>
 <wire x1="55.88" y1="251.46" x2="33.02" y2="251.46" width="0.1524" layer="91"/>
 <label x="35.56" y="251.46" size="1.778" layer="95"/>
 </segment>
@@ -25795,7 +25852,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="142.24" y1="124.46" x2="137.16" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$4" pin="PD8"/>
+<pinref part="U36" gate="G$4" pin="PD8"/>
 <wire x1="137.16" y1="119.38" x2="33.02" y2="119.38" width="0.1524" layer="91"/>
 <label x="35.56" y="119.38" size="1.778" layer="95"/>
 </segment>
@@ -25808,7 +25865,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="144.78" y1="121.92" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$4" pin="PD9"/>
+<pinref part="U36" gate="G$4" pin="PD9"/>
 <wire x1="139.7" y1="116.84" x2="33.02" y2="116.84" width="0.1524" layer="91"/>
 <label x="35.56" y="116.84" size="1.778" layer="95"/>
 <wire x1="139.7" y1="116.84" x2="142.24" y2="119.38" width="0.1524" layer="91"/>
@@ -25819,7 +25876,7 @@ All caps are 0603 and 10V DC or greater</text>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="BOOT0" gate="G$1" pin="TP"/>
 <junction x="309.88" y="215.9" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="BOOT0"/>
+<pinref part="U36" gate="G$7" pin="BOOT0"/>
 <wire x1="342.9" y1="215.9" x2="309.88" y2="215.9" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <label x="340.36" y="215.9" size="1.778" layer="95" rot="MR0" grouprefs="SYSTEM"/>
 </segment>
@@ -25828,7 +25885,7 @@ All caps are 0603 and 10V DC or greater</text>
 <segment>
 <label x="35.56" y="93.98" size="1.778" layer="95"/>
 <label x="73.66" y="93.98" size="1.778" layer="95" rot="MR180" xref="yes"/>
-<pinref part="IC2" gate="G$5" pin="PE1"/>
+<pinref part="U36" gate="G$5" pin="PE1"/>
 <wire x1="73.66" y1="93.98" x2="33.02" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25843,7 +25900,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="58.42" y1="115.57" x2="57.15" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="114.3" x2="57.15" y2="114.3" width="0.1524" layer="91"/>
 <label x="35.56" y="114.3" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$4" pin="PD10"/>
+<pinref part="U36" gate="G$4" pin="PD10"/>
 </segment>
 </net>
 <net name="LBAND_IRQ" class="0">
@@ -25857,14 +25914,14 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="58.42" y1="110.49" x2="57.15" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="109.22" x2="57.15" y2="109.22" width="0.1524" layer="91"/>
 <label x="35.56" y="109.22" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$4" pin="PD12"/>
+<pinref part="U36" gate="G$4" pin="PD12"/>
 </segment>
 </net>
 <net name="PA1" class="0">
 <segment>
 <label x="35.56" y="266.7" size="1.778" layer="95"/>
 <pinref part="PA1" gate="G$1" pin="TP"/>
-<pinref part="IC2" gate="G$1" pin="PA1"/>
+<pinref part="U36" gate="G$1" pin="PA1"/>
 <wire x1="33.02" y1="266.7" x2="50.8" y2="266.7" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -25904,7 +25961,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="152.4" y1="220.98" x2="149.86" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA10"/>
+<pinref part="U36" gate="G$1" pin="PA10"/>
 <wire x1="68.58" y1="243.84" x2="33.02" y2="243.84" width="0.1524" layer="91"/>
 <label x="35.56" y="243.84" size="1.778" layer="95"/>
 <wire x1="68.58" y1="243.84" x2="71.12" y2="246.38" width="0.1524" layer="91"/>
@@ -25918,7 +25975,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="152.4" y1="226.06" x2="149.86" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA9"/>
+<pinref part="U36" gate="G$1" pin="PA9"/>
 <wire x1="68.58" y1="246.38" x2="33.02" y2="246.38" width="0.1524" layer="91"/>
 <label x="35.56" y="246.38" size="1.778" layer="95"/>
 <wire x1="68.58" y1="246.38" x2="71.12" y2="248.92" width="0.1524" layer="91"/>
@@ -25928,7 +25985,7 @@ All caps are 0603 and 10V DC or greater</text>
 <segment>
 <label x="330.2" y="210.82" size="1.778" layer="95" rot="R180" xref="yes" grouprefs="SYSTEM"/>
 <pinref part="NRST" gate="G$1" pin="TP"/>
-<pinref part="IC2" gate="G$7" pin="NRST"/>
+<pinref part="U36" gate="G$7" pin="NRST"/>
 <wire x1="342.9" y1="213.36" x2="332.74" y2="213.36" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="332.74" y1="213.36" x2="332.74" y2="210.82" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <wire x1="332.74" y1="210.82" x2="330.2" y2="210.82" width="0.1524" layer="91" grouprefs="SYSTEM"/>
@@ -25942,7 +25999,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="144.78" y1="106.68" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA14"/>
+<pinref part="U36" gate="G$1" pin="PA14"/>
 <wire x1="139.7" y1="233.68" x2="33.02" y2="233.68" width="0.1524" layer="91"/>
 <label x="35.56" y="233.68" size="1.778" layer="95"/>
 <wire x1="139.7" y1="233.68" x2="142.24" y2="236.22" width="0.1524" layer="91"/>
@@ -25956,7 +26013,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="144.78" y1="111.76" x2="142.24" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA13"/>
+<pinref part="U36" gate="G$1" pin="PA13"/>
 <wire x1="139.7" y1="236.22" x2="33.02" y2="236.22" width="0.1524" layer="91"/>
 <label x="35.56" y="236.22" size="1.778" layer="95"/>
 <wire x1="139.7" y1="236.22" x2="142.24" y2="238.76" width="0.1524" layer="91"/>
@@ -25966,7 +26023,7 @@ All caps are 0603 and 10V DC or greater</text>
 <segment>
 <label x="35.56" y="231.14" size="1.778" layer="95"/>
 <pinref part="PA15" gate="G$1" pin="TP"/>
-<pinref part="IC2" gate="G$1" pin="PA15"/>
+<pinref part="U36" gate="G$1" pin="PA15"/>
 <wire x1="33.02" y1="231.14" x2="48.26" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="231.14" x2="50.8" y2="228.6" width="0.1524" layer="91"/>
 </segment>
@@ -25980,7 +26037,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="71.12" y1="177.8" x2="68.58" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$3" pin="PC3"/>
+<pinref part="U36" gate="G$3" pin="PC3"/>
 <wire x1="68.58" y1="175.26" x2="33.02" y2="175.26" width="0.1524" layer="91"/>
 <label x="35.56" y="175.26" size="1.778" layer="95"/>
 </segment>
@@ -25993,7 +26050,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="152.4" y1="167.64" x2="149.86" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$2" pin="PB4"/>
+<pinref part="U36" gate="G$2" pin="PB4"/>
 <wire x1="68.58" y1="215.9" x2="33.02" y2="215.9" width="0.1524" layer="91"/>
 <label x="35.56" y="215.9" size="1.778" layer="95"/>
 <wire x1="68.58" y1="215.9" x2="71.12" y2="218.44" width="0.1524" layer="91"/>
@@ -26007,7 +26064,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="152.4" y1="172.72" x2="149.86" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$2" pin="PB7"/>
+<pinref part="U36" gate="G$2" pin="PB7"/>
 <wire x1="68.58" y1="208.28" x2="33.02" y2="208.28" width="0.1524" layer="91"/>
 <label x="35.56" y="208.28" size="1.778" layer="95"/>
 <wire x1="68.58" y1="208.28" x2="71.12" y2="210.82" width="0.1524" layer="91"/>
@@ -26029,7 +26086,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="58.42" y1="198.12" x2="55.88" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$2" pin="PB12"/>
+<pinref part="U36" gate="G$2" pin="PB12"/>
 <wire x1="55.88" y1="195.58" x2="33.02" y2="195.58" width="0.1524" layer="91"/>
 <label x="35.56" y="195.58" size="1.778" layer="95"/>
 </segment>
@@ -26042,7 +26099,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="231.14" y1="256.54" x2="259.08" y2="256.54" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$2" pin="PB13"/>
+<pinref part="U36" gate="G$2" pin="PB13"/>
 <wire x1="58.42" y1="195.58" x2="55.88" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="193.04" x2="33.02" y2="193.04" width="0.1524" layer="91"/>
 <label x="35.56" y="193.04" size="1.778" layer="95"/>
@@ -26057,7 +26114,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="58.42" y1="193.04" x2="55.88" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$2" pin="PB14"/>
+<pinref part="U36" gate="G$2" pin="PB14"/>
 <wire x1="55.88" y1="190.5" x2="33.02" y2="190.5" width="0.1524" layer="91"/>
 <label x="35.56" y="190.5" size="1.778" layer="95"/>
 </segment>
@@ -26071,7 +26128,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="58.42" y1="190.5" x2="55.88" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$2" pin="PB15"/>
+<pinref part="U36" gate="G$2" pin="PB15"/>
 <wire x1="55.88" y1="187.96" x2="33.02" y2="187.96" width="0.1524" layer="91"/>
 <label x="35.56" y="187.96" size="1.778" layer="95"/>
 </segment>
@@ -26084,7 +26141,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="231.14" y1="241.3" x2="259.08" y2="241.3" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC4"/>
+<pinref part="U36" gate="G$3" pin="PC4"/>
 <wire x1="55.88" y1="172.72" x2="33.02" y2="172.72" width="0.1524" layer="91"/>
 <label x="35.56" y="172.72" size="1.778" layer="95"/>
 <wire x1="55.88" y1="172.72" x2="58.42" y2="175.26" width="0.1524" layer="91"/>
@@ -26098,7 +26155,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="231.14" y1="236.22" x2="259.08" y2="236.22" width="0.1524" layer="91" grouprefs="RADIO"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC5"/>
+<pinref part="U36" gate="G$3" pin="PC5"/>
 <wire x1="55.88" y1="170.18" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
 <label x="35.56" y="170.18" size="1.778" layer="95"/>
 <wire x1="55.88" y1="170.18" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
@@ -26115,7 +26172,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="58.42" y1="107.95" x2="57.15" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="106.68" x2="57.15" y2="106.68" width="0.1524" layer="91"/>
 <label x="35.56" y="106.68" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$4" pin="PD13"/>
+<pinref part="U36" gate="G$4" pin="PD13"/>
 </segment>
 </net>
 <net name="UHF_CS" class="0">
@@ -26129,7 +26186,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="58.42" y1="113.03" x2="57.15" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="111.76" x2="57.15" y2="111.76" width="0.1524" layer="91"/>
 <label x="35.56" y="111.76" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$4" pin="PD11"/>
+<pinref part="U36" gate="G$4" pin="PD11"/>
 </segment>
 </net>
 <net name="OSC32_IN" class="0">
@@ -26138,7 +26195,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="63.5" y1="149.86" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <label x="35.56" y="147.32" size="1.778" layer="95"/>
 <wire x1="50.6476" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$3" pin="PC14"/>
+<pinref part="U36" gate="G$3" pin="PC14"/>
 <wire x1="45.72" y1="147.32" x2="33.02" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26157,7 +26214,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="63.5" y1="147.32" x2="60.96" y2="144.78" width="0.1524" layer="91"/>
 <label x="35.56" y="144.78" size="1.778" layer="95"/>
 <wire x1="50.6476" y1="144.78" x2="48.26" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$3" pin="PC15"/>
+<pinref part="U36" gate="G$3" pin="PC15"/>
 <wire x1="48.26" y1="144.78" x2="33.02" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -26180,7 +26237,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="152.4" y1="162.56" x2="149.86" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$2" pin="PB5"/>
+<pinref part="U36" gate="G$2" pin="PB5"/>
 <wire x1="68.58" y1="213.36" x2="33.02" y2="213.36" width="0.1524" layer="91"/>
 <label x="35.56" y="213.36" size="1.778" layer="95"/>
 <wire x1="68.58" y1="213.36" x2="71.12" y2="215.9" width="0.1524" layer="91"/>
@@ -26194,7 +26251,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="152.4" y1="157.48" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$2" pin="PB6"/>
+<pinref part="U36" gate="G$2" pin="PB6"/>
 <wire x1="68.58" y1="210.82" x2="33.02" y2="210.82" width="0.1524" layer="91"/>
 <label x="35.56" y="210.82" size="1.778" layer="95"/>
 <wire x1="68.58" y1="210.82" x2="71.12" y2="213.36" width="0.1524" layer="91"/>
@@ -26209,7 +26266,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="71.12" y1="128.27" x2="69.85" y2="127" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$4" pin="PD5"/>
+<pinref part="U36" gate="G$4" pin="PD5"/>
 <wire x1="69.85" y1="127" x2="33.02" y2="127" width="0.1524" layer="91"/>
 <label x="35.56" y="127" size="1.778" layer="95"/>
 </segment>
@@ -26223,14 +26280,14 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="71.12" y1="97.79" x2="69.85" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$5" pin="PE0"/>
+<pinref part="U36" gate="G$5" pin="PE0"/>
 <wire x1="33.02" y1="96.52" x2="69.85" y2="96.52" width="0.1524" layer="91"/>
 <label x="35.56" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CB_IOUT_IN" class="0">
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC2"/>
+<pinref part="U36" gate="G$3" pin="PC2"/>
 <wire x1="68.58" y1="177.8" x2="71.12" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="177.8" x2="33.02" y2="177.8" width="0.1524" layer="91"/>
 <label x="35.56" y="177.8" size="1.778" layer="95"/>
@@ -26260,7 +26317,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="58.42" y1="130.81" x2="57.15" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$4" pin="PD4"/>
+<pinref part="U36" gate="G$4" pin="PD4"/>
 <wire x1="57.15" y1="129.54" x2="33.02" y2="129.54" width="0.1524" layer="91"/>
 <label x="35.56" y="129.54" size="1.778" layer="95"/>
 </segment>
@@ -26271,7 +26328,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="393.7" y1="218.44" x2="393.7" y2="220.98" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 <label x="373.38" y="220.98" size="1.778" layer="95" grouprefs="SYSTEM"/>
 <wire x1="393.7" y1="220.98" x2="370.84" y2="220.98" width="0.1524" layer="91" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VCAP_1"/>
+<pinref part="U36" gate="G$7" pin="VCAP_1"/>
 </segment>
 </net>
 <net name="VDDI" class="0">
@@ -26301,7 +26358,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="154.94" y1="55.88" x2="152.4" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC8"/>
+<pinref part="U36" gate="G$3" pin="PC8"/>
 <wire x1="81.28" y1="162.56" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
 <label x="35.56" y="162.56" size="1.778" layer="95"/>
 <wire x1="81.28" y1="162.56" x2="83.82" y2="165.1" width="0.1524" layer="91"/>
@@ -26319,7 +26376,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="154.94" y1="53.34" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC9"/>
+<pinref part="U36" gate="G$3" pin="PC9"/>
 <wire x1="33.02" y1="160.02" x2="80.01" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="162.56" x2="81.28" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="160.02" x2="80.01" y2="160.02" width="0.1524" layer="91"/>
@@ -26339,7 +26396,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="83.82" y1="160.02" x2="81.28" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$3" pin="PC10"/>
+<pinref part="U36" gate="G$3" pin="PC10"/>
 <wire x1="81.28" y1="157.48" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
 <label x="35.56" y="157.48" size="1.778" layer="95"/>
 </segment>
@@ -26356,7 +26413,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="154.94" y1="48.26" x2="152.4" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC11"/>
+<pinref part="U36" gate="G$3" pin="PC11"/>
 <wire x1="81.28" y1="154.94" x2="33.02" y2="154.94" width="0.1524" layer="91"/>
 <label x="35.56" y="154.94" size="1.778" layer="95"/>
 <wire x1="81.28" y1="154.94" x2="83.82" y2="157.48" width="0.1524" layer="91"/>
@@ -26377,7 +26434,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="154.94" y1="30.48" x2="152.4" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC12"/>
+<pinref part="U36" gate="G$3" pin="PC12"/>
 <wire x1="83.82" y1="154.94" x2="81.28" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
 <label x="35.56" y="152.4" size="1.778" layer="95"/>
@@ -26396,7 +26453,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="154.94" y1="38.1" x2="152.4" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$4" pin="PD2"/>
+<pinref part="U36" gate="G$4" pin="PD2"/>
 <wire x1="82.55" y1="134.62" x2="33.02" y2="134.62" width="0.1524" layer="91"/>
 <label x="35.56" y="134.62" size="1.778" layer="95"/>
 <wire x1="82.55" y1="134.62" x2="83.82" y2="135.89" width="0.1524" layer="91"/>
@@ -26474,7 +26531,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="83.82" y1="80.01" x2="82.55" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$5" pin="PE7"/>
+<pinref part="U36" gate="G$5" pin="PE7"/>
 <wire x1="82.55" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <label x="35.56" y="78.74" size="1.778" layer="95"/>
 </segment>
@@ -26505,7 +26562,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="71.12" y1="205.74" x2="68.58" y2="203.2" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$2" pin="PB9"/>
+<pinref part="U36" gate="G$2" pin="PB9"/>
 <wire x1="68.58" y1="203.2" x2="33.02" y2="203.2" width="0.1524" layer="91"/>
 <label x="35.56" y="203.2" size="1.778" layer="95"/>
 </segment>
@@ -26518,7 +26575,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="71.12" y1="208.28" x2="68.58" y2="205.74" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$2" pin="PB8"/>
+<pinref part="U36" gate="G$2" pin="PB8"/>
 <wire x1="68.58" y1="205.74" x2="33.02" y2="205.74" width="0.1524" layer="91"/>
 <label x="35.56" y="205.74" size="1.778" layer="95"/>
 </segment>
@@ -26531,7 +26588,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="144.78" y1="116.84" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$2" pin="PB3"/>
+<pinref part="U36" gate="G$2" pin="PB3"/>
 <label x="35.56" y="218.44" size="1.778" layer="95"/>
 <wire x1="139.7" y1="218.44" x2="33.02" y2="218.44" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="218.44" x2="142.24" y2="220.98" width="0.1524" layer="91"/>
@@ -26540,7 +26597,7 @@ All caps are 0603 and 10V DC or greater</text>
 <net name="VCAP_2" class="0">
 <segment>
 <label x="373.38" y="218.44" size="1.778" layer="95" grouprefs="SYSTEM"/>
-<pinref part="IC2" gate="G$7" pin="VCAP_2"/>
+<pinref part="U36" gate="G$7" pin="VCAP_2"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="370.84" y1="218.44" x2="383.54" y2="218.44" width="0.1524" layer="91" grouprefs="SYSTEM"/>
 </segment>
@@ -26553,7 +26610,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="96.52" y1="142.24" x2="93.98" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$4" pin="PD0"/>
+<pinref part="U36" gate="G$4" pin="PD0"/>
 <wire x1="93.98" y1="139.7" x2="33.02" y2="139.7" width="0.1524" layer="91"/>
 <label x="35.56" y="139.7" size="1.778" layer="95"/>
 </segment>
@@ -26566,7 +26623,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="96.52" y1="139.7" x2="93.98" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$4" pin="PD1"/>
+<pinref part="U36" gate="G$4" pin="PD1"/>
 <wire x1="93.98" y1="137.16" x2="33.02" y2="137.16" width="0.1524" layer="91"/>
 <label x="35.56" y="137.16" size="1.778" layer="95"/>
 </segment>
@@ -26581,7 +26638,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="96.52" y1="154.94" x2="93.98" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$4" pin="PD6"/>
+<pinref part="U36" gate="G$4" pin="PD6"/>
 <label x="35.56" y="124.46" size="1.778" layer="95"/>
 <wire x1="33.02" y1="124.46" x2="95.25" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="95.25" y1="124.46" x2="96.52" y2="125.73" width="0.1524" layer="91"/>
@@ -26595,7 +26652,7 @@ All caps are 0603 and 10V DC or greater</text>
 </segment>
 <segment>
 <wire x1="96.52" y1="134.62" x2="93.98" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$4" pin="PD3"/>
+<pinref part="U36" gate="G$4" pin="PD3"/>
 <wire x1="93.98" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
 <label x="35.56" y="132.08" size="1.778" layer="95"/>
 </segment>
@@ -26607,7 +26664,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="99.06" y1="187.96" x2="96.52" y2="185.42" width="0.1524" layer="91" grouprefs="ANTENNAS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC0"/>
+<pinref part="U36" gate="G$3" pin="PC0"/>
 <wire x1="33.02" y1="182.88" x2="93.98" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="182.88" x2="96.52" y2="185.42" width="0.1524" layer="91"/>
 <label x="35.56" y="182.88" size="1.778" layer="95"/>
@@ -26620,7 +26677,7 @@ All caps are 0603 and 10V DC or greater</text>
 <wire x1="99.06" y1="182.88" x2="96.52" y2="180.34" width="0.1524" layer="91" grouprefs="ANTENNAS"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$3" pin="PC1"/>
+<pinref part="U36" gate="G$3" pin="PC1"/>
 <wire x1="33.02" y1="180.34" x2="93.98" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="180.34" x2="96.52" y2="182.88" width="0.1524" layer="91"/>
 <label x="35.56" y="180.34" size="1.778" layer="95"/>
@@ -26629,7 +26686,7 @@ All caps are 0603 and 10V DC or greater</text>
 <net name="TURN_FIRE_2" class="0">
 <segment>
 <wire x1="96.52" y1="92.71" x2="95.25" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$5" pin="PE2"/>
+<pinref part="U36" gate="G$5" pin="PE2"/>
 <wire x1="95.25" y1="91.44" x2="33.02" y2="91.44" width="0.1524" layer="91"/>
 <label x="35.56" y="91.44" size="1.778" layer="95"/>
 </segment>
@@ -26642,7 +26699,7 @@ All caps are 0603 and 10V DC or greater</text>
 <net name="HELI_FIRE_2" class="0">
 <segment>
 <wire x1="96.52" y1="90.17" x2="95.25" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$5" pin="PE3"/>
+<pinref part="U36" gate="G$5" pin="PE3"/>
 <wire x1="95.25" y1="88.9" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
 <label x="35.56" y="88.9" size="1.778" layer="95"/>
 </segment>
@@ -26654,7 +26711,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="UHF_PA_THERMISTER" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA4"/>
+<pinref part="U36" gate="G$1" pin="PA4"/>
 <wire x1="33.02" y1="259.08" x2="55.88" y2="259.08" width="0.1524" layer="91"/>
 <label x="35.56" y="259.08" size="1.778" layer="95"/>
 <wire x1="55.88" y1="259.08" x2="58.42" y2="261.62" width="0.1524" layer="91"/>
@@ -26673,7 +26730,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="M4_PA_ENABLE" class="0">
 <segment>
-<pinref part="IC2" gate="G$5" pin="PE14"/>
+<pinref part="U36" gate="G$5" pin="PE14"/>
 <wire x1="33.02" y1="60.96" x2="57.15" y2="60.96" width="0.1524" layer="91"/>
 <label x="35.56" y="60.96" size="1.778" layer="95"/>
 <wire x1="57.15" y1="60.96" x2="58.42" y2="62.23" width="0.1524" layer="91"/>
@@ -26681,7 +26738,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="!M4_LNA_ENABLE" class="0">
 <segment>
-<pinref part="IC2" gate="G$5" pin="PE13"/>
+<pinref part="U36" gate="G$5" pin="PE13"/>
 <wire x1="33.02" y1="63.5" x2="57.15" y2="63.5" width="0.1524" layer="91"/>
 <label x="35.56" y="63.5" size="1.778" layer="95"/>
 <wire x1="57.15" y1="63.5" x2="58.42" y2="64.77" width="0.1524" layer="91"/>
@@ -26689,7 +26746,7 @@ All caps are 0603 and 10V DC or greater</text>
 </net>
 <net name="M4_TOT_CLEAR" class="0">
 <segment>
-<pinref part="IC2" gate="G$5" pin="PE15"/>
+<pinref part="U36" gate="G$5" pin="PE15"/>
 <wire x1="33.02" y1="58.42" x2="57.15" y2="58.42" width="0.1524" layer="91"/>
 <label x="35.56" y="58.42" size="1.778" layer="95"/>
 <wire x1="57.15" y1="58.42" x2="58.42" y2="59.69" width="0.1524" layer="91"/>
@@ -26698,34 +26755,34 @@ All caps are 0603 and 10V DC or greater</text>
 <net name="UHF_!FLT" class="0">
 <segment>
 <wire x1="33.02" y1="121.92" x2="53.34" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$4" pin="PD7"/>
+<pinref part="U36" gate="G$4" pin="PD7"/>
 <label x="35.56" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TOT_OUT" class="0">
 <segment>
-<pinref part="IC2" gate="G$5" pin="PE11"/>
+<pinref part="U36" gate="G$5" pin="PE11"/>
 <wire x1="33.02" y1="68.58" x2="54.61" y2="68.58" width="0.1524" layer="91"/>
 <label x="35.56" y="68.58" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2CSYS_SCL" class="0">
 <segment>
-<pinref part="IC2" gate="G$2" pin="PB10"/>
+<pinref part="U36" gate="G$2" pin="PB10"/>
 <wire x1="33.02" y1="200.66" x2="54.61" y2="200.66" width="0.1524" layer="91"/>
 <label x="35.56" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2CSYS_SDA" class="0">
 <segment>
-<pinref part="IC2" gate="G$2" pin="PB11"/>
+<pinref part="U36" gate="G$2" pin="PB11"/>
 <wire x1="33.02" y1="198.12" x2="54.61" y2="198.12" width="0.1524" layer="91"/>
 <label x="35.56" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="I2CSYS_PWROFF" class="0">
 <segment>
-<pinref part="IC2" gate="G$1" pin="PA8"/>
+<pinref part="U36" gate="G$1" pin="PA8"/>
 <wire x1="33.02" y1="248.92" x2="54.61" y2="248.92" width="0.1524" layer="91"/>
 <label x="35.56" y="248.92" size="1.778" layer="95"/>
 </segment>
@@ -27081,6 +27138,13 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <instance part="GND153" gate="1" x="191.77" y="148.59" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="194.31" y="146.05" size="1.778" layer="96" rot="MR0"/>
 </instance>
+<instance part="R103" gate="G$1" x="369.57" y="156.21" smashed="yes" rot="R90">
+<attribute name="NAME" x="368.0714" y="152.4" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="372.872" y="152.4" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="VBUS2" gate="1" x="369.57" y="165.1" smashed="yes">
+<attribute name="VALUE" x="369.57" y="165.354" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27297,6 +27361,11 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <wire x1="147.32" y1="128.27" x2="134.62" y2="128.27" width="0.1524" layer="91"/>
 <junction x="134.62" y="128.27"/>
 </segment>
+<segment>
+<pinref part="VBUS2" gate="1" pin="VBUS"/>
+<pinref part="R103" gate="G$1" pin="2"/>
+<wire x1="369.57" y1="162.56" x2="369.57" y2="161.29" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="!SD" class="0">
 <segment>
@@ -27312,6 +27381,9 @@ Comparator D if Cap (C8) &lt; VT then !SD remains high (inactive)</text>
 <pinref part="U7" gate="-D" pin="4OUT"/>
 <pinref part="TP15" gate="G$1" pin="1"/>
 <junction x="369.57" y="135.89"/>
+<pinref part="R103" gate="G$1" pin="1"/>
+<wire x1="369.57" y1="151.13" x2="369.57" y2="148.59" width="0.1524" layer="91"/>
+<junction x="369.57" y="148.59"/>
 </segment>
 </net>
 <net name="WDT_L_C" class="0">
@@ -27680,13 +27752,13 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="MANUFACTURER" x="133.35" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="133.35" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="85.09" y="205.74" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="85.09" y="205.74" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="83.82" y="207.01" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="85.09" y="213.36" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="85.09" y="213.36" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="83.82" y="214.63" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="152.4" y="208.28" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="152.4" y="208.28" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="151.13" y="209.55" size="1.778" layer="95"/>
 </instance>
 <instance part="R8" gate="G$1" x="252.73" y="231.14" smashed="yes" rot="MR270">
