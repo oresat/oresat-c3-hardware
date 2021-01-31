@@ -16503,6 +16503,89 @@ Compatible with Nexperia PMV45EN, ON Semi BSS138, and ST 2N7000.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="dock_v2">
+<description>Generated from &lt;b&gt;dock.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="FIDUCIAL-1.0X1.5">
+<description>Tight Fiducial, 1.0 mm diameter with 1.5 mm mask clearance</description>
+<circle x="0" y="0" radius="0.375" width="0.75" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+<package name="FIDUCIAL-1.0X2.0">
+<description>Moderate Fiducial, 1.0 mm diameter with 2 mm mask clearance</description>
+<circle x="0" y="0" radius="0.5" width="1" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<circle x="0" y="0" radius="0.5" width="1" layer="41"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+<package name="FIDUCIAL-1.0X2.5">
+<description>Standard Fiducial, 1.0 mm diameter with 2.5 mm mask clearance</description>
+<circle x="0" y="0" radius="0.625" width="1.25" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<description>Fiducial for optical coordinate reference</description>
+<circle x="0" y="0" radius="2.54" width="2.54" layer="94"/>
+<circle x="0" y="0" radius="4.699" width="0.762" layer="94"/>
+<rectangle x1="-5.08" y1="-5.08" x2="-2.54" y2="-3.556" layer="94"/>
+<rectangle x1="3.556" y1="-5.08" x2="5.08" y2="-2.54" layer="94"/>
+<rectangle x1="3.556" y1="2.54" x2="5.08" y2="5.08" layer="94"/>
+<rectangle x1="2.54" y1="-5.08" x2="5.08" y2="-3.556" layer="94"/>
+<rectangle x1="-5.08" y1="3.556" x2="-2.54" y2="5.08" layer="94"/>
+<rectangle x1="-5.08" y1="2.54" x2="-3.556" y2="5.08" layer="94"/>
+<rectangle x1="2.54" y1="3.556" x2="5.08" y2="5.08" layer="94"/>
+<rectangle x1="-5.08" y1="-5.08" x2="-3.556" y2="-2.54" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="4.699" x2="2.54" y2="4.699" width="0.762" layer="94"/>
+<wire x1="-4.699" y1="2.54" x2="-4.699" y2="-2.54" width="0.762" layer="94"/>
+<wire x1="-2.54" y1="-4.699" x2="2.54" y2="-4.699" width="0.762" layer="94"/>
+<wire x1="4.699" y1="-2.54" x2="4.699" y2="2.54" width="0.762" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
+<pin name="FIDUCIAL" x="0" y="0" length="point" direction="nc"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FIDUCIAL">
+<description>Fiducials for optical coordinate reference</description>
+<gates>
+<gate name="FIDUCIAL" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1.0X1.5" package="FIDUCIAL-1.0X1.5">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.0X2.0" package="FIDUCIAL-1.0X2.0">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.0X2.5" package="FIDUCIAL-1.0X2.5">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18256,6 +18339,9 @@ Compatible with Nexperia PMV45EN, ON Semi BSS138, and ST 2N7000.</description>
 <part name="GND153" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R103" library="C3_SamacSys_Parts" deviceset="R0603-100K-OHMS" device="" value="100k"/>
 <part name="VBUS2" library="oresat-supplies" deviceset="VBUS" device=""/>
+<part name="FIDUCIAL1" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL2" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL3" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -18382,6 +18468,9 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="NAME" x="76.2" y="203.2" size="1.27" layer="104"/>
 </instance>
 <instance part="U$1" gate="G$1" x="172.72" y="76.2" smashed="yes"/>
+<instance part="FIDUCIAL1" gate="FIDUCIAL" x="170.18" y="20.32" smashed="yes"/>
+<instance part="FIDUCIAL2" gate="FIDUCIAL" x="187.96" y="20.32" smashed="yes"/>
+<instance part="FIDUCIAL3" gate="FIDUCIAL" x="205.74" y="20.32" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -19008,25 +19097,25 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="VALUE" x="48.514" y="209.931" size="1.778" layer="96"/>
 <attribute name="VDC" x="48.514" y="207.518" size="1.778" layer="97"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="55.88" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="93.98" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="VBUSP" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="102.87" y="212.09" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="100.33" y="201.93" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="191.262" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="228.6" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="248.92" y="212.09" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="163.83" y="99.06" smashed="yes">
@@ -19128,7 +19217,7 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="VALUE" x="129.794" y="94.361" size="1.778" layer="96"/>
 <attribute name="VDC" x="129.794" y="91.948" size="1.778" layer="97"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="182.88" y="97.79" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="G$1" x="198.12" y="99.06" smashed="yes">
@@ -25268,7 +25357,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="MANUFACTURER_PART_NUMBER" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="TESTPOINTS TP RADIO">
+<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="RADIO TP TESTPOINTS">
 <attribute name="NAME" x="260.35" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
@@ -25279,7 +25368,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="TP TESTPOINTS EMMC">
+<instance part="SDIO-CK" gate="G$1" x="177.8" y="33.02" smashed="yes" grouprefs="EMMC TESTPOINTS TP">
 <attribute name="NAME" x="176.53" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
@@ -25290,7 +25379,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="177.8" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
+<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="52.07" y="270.51" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -25301,7 +25390,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="BOOT0" gate="G$1" x="309.88" y="218.44" smashed="yes" grouprefs="TP SYSTEM">
+<instance part="BOOT0" gate="G$1" x="309.88" y="218.44" smashed="yes" grouprefs="SYSTEM TP">
 <attribute name="NAME" x="307.34" y="220.98" size="1.778" layer="95"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
@@ -25312,7 +25401,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="309.88" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="330.2" y="213.36" smashed="yes" grouprefs="SYSTEM TP TESTPOINTS">
+<instance part="NRST" gate="G$1" x="330.2" y="213.36" smashed="yes" grouprefs="TESTPOINTS TP SYSTEM">
 <attribute name="NAME" x="332.74" y="210.82" size="1.778" layer="95"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
@@ -25323,7 +25412,7 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="330.2" y="213.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
+<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="50.8" y="231.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -27752,13 +27841,13 @@ All caps are 0603 and 10V DC or greater</text>
 <attribute name="MANUFACTURER" x="133.35" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="133.35" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="85.09" y="205.74" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ENABLE" gate="G$1" x="85.09" y="205.74" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="83.82" y="207.01" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="85.09" y="213.36" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-FAULT" gate="G$1" x="85.09" y="213.36" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="83.82" y="214.63" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="152.4" y="208.28" smashed="yes" grouprefs="TESTPOINTS TP">
+<instance part="OPD-ISET" gate="G$1" x="152.4" y="208.28" smashed="yes" grouprefs="TP TESTPOINTS">
 <attribute name="NAME" x="151.13" y="209.55" size="1.778" layer="95"/>
 </instance>
 <instance part="R8" gate="G$1" x="252.73" y="231.14" smashed="yes" rot="MR270">
