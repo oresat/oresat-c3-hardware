@@ -59,5 +59,7 @@ OPD connected boards.
 
 
 ## License
-OreSat C3 is licensed under the CERN OHL v1.2. A copy of the license is
-located in [here](LICENSE.md)
+
+All materials in this repo are copyright Portland State Aerospace Society and are licensed under the CERN Open Hardware Licence Version 2 -
+Strongly Reciprocal (CERN-OHL-S v2), or any later version. A copy of the license is located in [here](LICENSE.md).
+
