@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -24326,9 +24326,9 @@ Source: e_os_all.pdf</description>
 <attribute name="MANUFACTURER_PART_NUMBER" value="150060VS55040"/>
 </part>
 <part name="GND51" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R76" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
+<part name="R76" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="R77" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
-<part name="R78" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
+<part name="R78" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="3k"/>
 <part name="GND103" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U7" library="U-TLV1704-SEP_WatchDog" deviceset="TLV1704AMPWTPSEP" device="TSSOP-14" package3d_urn="urn:adsk.eagle:package:20301860/1" value="TLV1704AMPWPSEP"/>
 <part name="Q6" library="Q-MOSFET-PCH-dual-SOT23-6" deviceset="MOSFET-PCH-SOT23-6" device="" value="DMP2240UDM-7"/>
@@ -24348,7 +24348,7 @@ Source: e_os_all.pdf</description>
 <part name="GND105" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Q14" library="Q-On_Semiconductor-FDMQ86530L-MOSFET-4-N-CH" deviceset="FDMQ86530L_2-GATES" device="" value="FDMQ86530L"/>
 <part name="D3" library="D-Generic-silicon-SOD-323" deviceset="DIODE-" device="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1" value="1N4151WS"/>
-<part name="R32" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="31.6k"/>
+<part name="R32" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="3k"/>
 <part name="R33" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
 <part name="R39" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
 <part name="D7" library="D-Generic-silicon-SOD-323" deviceset="DIODE-" device="SOD323-R" package3d_urn="urn:adsk.eagle:package:43437/1" value="1N4151WS"/>
@@ -24616,7 +24616,7 @@ Source: e_os_all.pdf</description>
 <part name="C147" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10u"/>
 <part name="GND155" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R112" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
-<part name="R113" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="1k"/>
+<part name="R113" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="R114" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k"/>
 <part name="C148" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10u"/>
 <part name="TP26" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
@@ -24635,6 +24635,7 @@ Source: e_os_all.pdf</description>
 <part name="GND-U18" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND-U19" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="GND158" library="oresat-supplies" deviceset="GND-U" device=""/>
+<part name="R25" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k"/>
 </parts>
 <sheets>
 <sheet>
@@ -34161,7 +34162,7 @@ All caps are 0603 and 16V DC or greater</text>
 All caps are 0603 and 16V DC or greater</text>
 <text x="245.11" y="106.68" size="1.778" layer="97">&gt; 16V</text>
 <text x="309.88" y="149.86" size="1.778" layer="97">&gt; 16V</text>
-<text x="186.69" y="111.76" size="1.778" layer="97">&gt; 16V</text>
+<text x="184.15" y="111.76" size="1.778" layer="97">&gt; 16V</text>
 <text x="120.65" y="119.38" size="1.778" layer="97" rot="R90">&gt; 16V</text>
 <text x="104.14" y="71.12" size="2.54" layer="97">DC Block and pulse detector</text>
 <text x="191.77" y="71.12" size="2.54" layer="97">Pulse integrator</text>
@@ -34324,16 +34325,16 @@ through !SD asserted period
 <attribute name="NAME" x="282.9814" y="153.67" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="287.782" y="153.67" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C147" gate="CE" x="185.42" y="119.38" smashed="yes">
-<attribute name="NAME" x="186.944" y="119.761" size="1.778" layer="95"/>
-<attribute name="VALUE" x="186.69" y="114.3" size="1.778" layer="96"/>
+<instance part="C147" gate="CE" x="182.88" y="119.38" smashed="yes">
+<attribute name="NAME" x="184.404" y="119.761" size="1.778" layer="95"/>
+<attribute name="VALUE" x="184.15" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="GND155" gate="1" x="185.42" y="110.49" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="187.96" y="107.95" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND155" gate="1" x="182.88" y="110.49" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="185.42" y="107.95" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R112" gate="R" x="179.07" y="123.19" smashed="yes">
-<attribute name="NAME" x="175.26" y="124.6886" size="1.778" layer="95"/>
-<attribute name="VALUE" x="175.26" y="119.888" size="1.778" layer="96"/>
+<instance part="R112" gate="R" x="176.53" y="123.19" smashed="yes">
+<attribute name="NAME" x="172.72" y="124.6886" size="1.778" layer="95"/>
+<attribute name="VALUE" x="172.72" y="119.888" size="1.778" layer="96"/>
 </instance>
 <instance part="R113" gate="R" x="96.52" y="191.77" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.0214" y="187.96" size="1.778" layer="95" rot="R90"/>
@@ -34348,10 +34349,10 @@ through !SD asserted period
 <attribute name="VALUE" x="118.11" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="TP26" gate="G$1" x="243.84" y="118.11" smashed="yes">
-<attribute name="NAME" x="242.57" y="114.3" size="1.27" layer="104"/>
+<attribute name="NAME" x="242.57" y="120.65" size="1.27" layer="104"/>
 </instance>
-<instance part="TP27" gate="G$1" x="185.42" y="123.19" smashed="yes">
-<attribute name="NAME" x="184.15" y="119.38" size="1.27" layer="104"/>
+<instance part="TP27" gate="G$1" x="182.88" y="123.19" smashed="yes">
+<attribute name="NAME" x="184.15" y="124.46" size="1.27" layer="104"/>
 </instance>
 <instance part="C8" gate="CPE" x="63.5" y="198.12" smashed="yes">
 <attribute name="NAME" x="64.643" y="198.6026" size="1.778" layer="95"/>
@@ -34364,6 +34365,10 @@ through !SD asserted period
 <instance part="C150" gate="CPE" x="82.55" y="198.12" smashed="yes">
 <attribute name="NAME" x="83.693" y="198.6026" size="1.778" layer="95"/>
 <attribute name="VALUE" x="83.693" y="193.5226" size="1.778" layer="96"/>
+</instance>
+<instance part="R25" gate="R" x="182.88" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="181.3814" y="128.27" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="186.182" y="128.27" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -34403,7 +34408,7 @@ through !SD asserted period
 <segment>
 <pinref part="GND155" gate="1" pin="GND"/>
 <pinref part="C147" gate="CE" pin="2"/>
-<wire x1="185.42" y1="113.03" x2="185.42" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="113.03" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="CPE" pin="-"/>
@@ -34471,7 +34476,8 @@ through !SD asserted period
 <pinref part="U7" gate="_QUAD_COMPARATOR" pin="V+"/>
 <wire x1="149.86" y1="201.93" x2="149.86" y2="133.35" width="0.1524" layer="91"/>
 <pinref part="R63" gate="R" pin="2"/>
-<wire x1="149.86" y1="201.93" x2="284.48" y2="201.93" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="201.93" x2="182.88" y2="201.93" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="201.93" x2="284.48" y2="201.93" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="201.93" x2="284.48" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R113" gate="R" pin="2"/>
 <wire x1="96.52" y1="201.93" x2="96.52" y2="196.85" width="0.1524" layer="91"/>
@@ -34494,6 +34500,9 @@ through !SD asserted period
 <pinref part="R74" gate="R" pin="2"/>
 <wire x1="59.69" y1="201.93" x2="63.5" y2="201.93" width="0.1524" layer="91"/>
 <junction x="63.5" y="201.93"/>
+<pinref part="R25" gate="R" pin="2"/>
+<wire x1="182.88" y1="137.16" x2="182.88" y2="201.93" width="0.1524" layer="91"/>
+<junction x="182.88" y="201.93"/>
 </segment>
 </net>
 <net name="VT" class="0">
@@ -34606,19 +34615,21 @@ through !SD asserted period
 <segment>
 <pinref part="U7" gate="-B" pin="2IN+"/>
 <pinref part="C147" gate="CE" pin="1"/>
-<wire x1="195.58" y1="123.19" x2="185.42" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="123.19" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="123.19" x2="184.15" y2="123.19" width="0.1524" layer="91"/>
-<junction x="185.42" y="123.19"/>
+<wire x1="195.58" y1="123.19" x2="182.88" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="123.19" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="123.19" x2="181.61" y2="123.19" width="0.1524" layer="91"/>
+<junction x="182.88" y="123.19"/>
 <pinref part="R112" gate="R" pin="2"/>
 <pinref part="TP27" gate="G$1" pin="1"/>
+<pinref part="R25" gate="R" pin="1"/>
+<wire x1="182.88" y1="127" x2="182.88" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$85" class="0">
 <segment>
 <pinref part="U7" gate="_QUAD_COMPARATOR" pin="1OUT"/>
 <pinref part="R112" gate="R" pin="1"/>
-<wire x1="165.1" y1="123.19" x2="173.99" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="123.19" x2="171.45" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$86" class="0">
@@ -34633,7 +34644,6 @@ through !SD asserted period
 <wire x1="96.52" y1="160.02" x2="193.04" y2="160.02" width="0.1524" layer="91"/>
 <junction x="96.52" y="160.02"/>
 <label x="109.22" y="160.02" size="1.778" layer="95"/>
-<label x="185.42" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$83" class="0">
