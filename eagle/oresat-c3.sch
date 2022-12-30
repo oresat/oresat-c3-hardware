@@ -24515,6 +24515,10 @@ Source: e_os_all.pdf</description>
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
 <part name="RT1" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10K-NTC"/>
+<part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10u"/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C49" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="10u"/>
+<part name="GND62" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -25046,18 +25050,18 @@ All caps are 0603 and 16V DC or greater</text>
 <sheet>
 <description>Power</description>
 <plain>
-<text x="203.2" y="224.79" size="3.81" layer="97">3.3V Card Switching Supply</text>
-<wire x1="153.67" y1="231.14" x2="271.78" y2="231.14" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="231.14" x2="271.78" y2="158.75" width="0.1524" layer="97"/>
-<wire x1="271.78" y1="158.75" x2="153.67" y2="158.75" width="0.1524" layer="97"/>
-<wire x1="153.67" y1="158.75" x2="153.67" y2="231.14" width="0.1524" layer="97"/>
+<text x="214.63" y="237.49" size="3.81" layer="97">3.3V Card Switching Supply</text>
+<wire x1="148.59" y1="243.84" x2="283.21" y2="243.84" width="0.1524" layer="97"/>
+<wire x1="283.21" y1="243.84" x2="283.21" y2="158.75" width="0.1524" layer="97"/>
+<wire x1="283.21" y1="158.75" x2="148.59" y2="158.75" width="0.1524" layer="97"/>
+<wire x1="148.59" y1="158.75" x2="148.59" y2="243.84" width="0.1524" layer="97"/>
 <text x="416.56" y="6.35" size="3.81" layer="94">V4</text>
 <text x="43.18" y="229.87" size="1.778" layer="97">Vbus = (6.0,7.2,8.4) V</text>
 <wire x1="31.75" y1="243.84" x2="133.35" y2="243.84" width="0.1524" layer="97"/>
 <wire x1="133.35" y1="243.84" x2="133.35" y2="158.75" width="0.1524" layer="97"/>
 <wire x1="133.35" y1="158.75" x2="31.75" y2="158.75" width="0.1524" layer="97"/>
 <wire x1="31.75" y1="158.75" x2="31.75" y2="243.84" width="0.1524" layer="97"/>
-<text x="86.36" y="237.49" size="3.81" layer="97">Card Power Supply</text>
+<text x="104.14" y="238.76" size="3.81" layer="97">Card EFuse</text>
 <text x="10.16" y="261.62" size="2.54" layer="97"></text>
 <text x="10.16" y="256.54" size="2.54" layer="97"></text>
 <text x="10.16" y="7.62" size="2.54" layer="97">All resistors 0603 1% unless otherwise marked
@@ -25108,23 +25112,23 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="SHEET" x="411.48" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="339.09" y="17.78" size="2.54" layer="94"/>
 </instance>
-<instance part="D2" gate="G$1" x="266.7" y="195.58" smashed="yes">
-<attribute name="NAME" x="263.271" y="191.008" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="268.605" y="191.008" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="266.7" y="195.58" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="266.7" y="195.58" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="266.7" y="195.58" size="1.778" layer="96" display="off"/>
-<attribute name="DESCRIPTION" x="266.7" y="195.58" size="1.778" layer="96" display="off"/>
+<instance part="D2" gate="G$1" x="278.13" y="195.58" smashed="yes">
+<attribute name="NAME" x="274.701" y="191.008" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="280.035" y="191.008" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="278.13" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="278.13" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="278.13" y="195.58" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="278.13" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND8" gate="1" x="266.7" y="175.26" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="269.24" y="172.72" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND8" gate="1" x="278.13" y="175.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="280.67" y="172.72" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R2" gate="R" x="266.7" y="205.74" smashed="yes" rot="R90">
-<attribute name="NAME" x="265.2014" y="201.93" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="270.002" y="201.93" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="R" x="278.13" y="205.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="276.6314" y="201.93" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="281.432" y="201.93" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY8" gate="G$1" x="266.7" y="213.36" smashed="yes">
-<attribute name="VALUE" x="266.7" y="216.154" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY8" gate="G$1" x="278.13" y="213.36" smashed="yes">
+<attribute name="VALUE" x="278.13" y="216.154" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="U5" gate="G$1" x="212.09" y="200.66" smashed="yes">
 <attribute name="NAME" x="201.93" y="215.9" size="1.778" layer="95"/>
@@ -25197,8 +25201,8 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="DESCRIPTION" x="234.95" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="DESCRIPTION" x="234.95" y="208.28" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="VBUSP2" gate="G$1" x="143.51" y="213.36" smashed="yes">
-<attribute name="VALUE" x="143.51" y="216.154" size="1.778" layer="96" align="bottom-center"/>
+<instance part="VBUSP2" gate="G$1" x="140.97" y="213.36" smashed="yes">
+<attribute name="VALUE" x="140.97" y="216.154" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="GND22" gate="1" x="77.47" y="184.15" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="80.01" y="181.61" size="1.778" layer="96" rot="MR0"/>
@@ -25213,20 +25217,20 @@ TPS259621 = Autoretry after thermal shutdown
 <instance part="VBUS1" gate="1" x="46.99" y="224.79" smashed="yes">
 <attribute name="VALUE" x="46.99" y="225.044" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="D1" gate="G$1" x="161.29" y="190.5" smashed="yes">
-<attribute name="NAME" x="157.861" y="185.928" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="163.195" y="185.928" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
-<attribute name="DIGI-KEY_PART_NUMBER" x="161.29" y="190.5" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER" x="161.29" y="190.5" size="1.778" layer="96" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" x="161.29" y="190.5" size="1.778" layer="96" display="off"/>
-<attribute name="DESCRIPTION" x="161.29" y="190.5" size="1.778" layer="96" display="off"/>
+<instance part="D1" gate="G$1" x="156.21" y="190.5" smashed="yes">
+<attribute name="NAME" x="152.781" y="185.928" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="158.115" y="185.928" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="DIGI-KEY_PART_NUMBER" x="156.21" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER" x="156.21" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" x="156.21" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="DESCRIPTION" x="156.21" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND7" gate="1" x="161.29" y="175.26" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="163.83" y="172.72" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND7" gate="1" x="156.21" y="175.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="158.75" y="172.72" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R1" gate="R" x="161.29" y="200.66" smashed="yes" rot="R90">
-<attribute name="NAME" x="159.7914" y="196.85" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="164.592" y="196.85" size="1.778" layer="96" rot="R90"/>
+<instance part="R1" gate="R" x="156.21" y="200.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="154.7114" y="196.85" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="159.512" y="196.85" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R5" gate="R" x="57.15" y="213.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="55.6514" y="209.55" size="1.778" layer="95" rot="R90"/>
@@ -25254,25 +25258,25 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="NAME" x="48.514" y="215.011" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.514" y="209.931" size="1.778" layer="96"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="55.88" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="93.98" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="102.87" y="212.09" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="100.33" y="201.93" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="191.262" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="228.6" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="248.92" y="212.09" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="163.83" y="99.06" smashed="yes">
@@ -25371,7 +25375,7 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="NAME" x="129.794" y="99.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.794" y="94.361" size="1.778" layer="96"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="182.88" y="97.79" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="CE" x="198.12" y="99.06" smashed="yes">
@@ -25578,6 +25582,20 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="NAME" x="82.55" y="87.8586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="88.9" y="88.138" size="1.778" layer="96"/>
 </instance>
+<instance part="C2" gate="CE" x="162.56" y="203.2" smashed="yes">
+<attribute name="NAME" x="164.084" y="203.581" size="1.778" layer="95"/>
+<attribute name="VALUE" x="164.084" y="198.501" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="162.56" y="175.26" smashed="yes">
+<attribute name="VALUE" x="160.02" y="172.72" size="1.778" layer="96"/>
+</instance>
+<instance part="C49" gate="CE" x="251.46" y="200.66" smashed="yes">
+<attribute name="NAME" x="252.984" y="201.041" size="1.778" layer="95"/>
+<attribute name="VALUE" x="252.984" y="195.961" size="1.778" layer="96"/>
+</instance>
+<instance part="GND62" gate="1" x="251.46" y="175.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="254" y="172.72" size="1.778" layer="96" rot="MR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -25586,7 +25604,7 @@ TPS259621 = Autoretry after thermal shutdown
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="266.7" y1="190.5" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="278.13" y1="190.5" x2="278.13" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="GND"/>
@@ -25636,7 +25654,7 @@ TPS259621 = Autoretry after thermal shutdown
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="161.29" y1="185.42" x2="161.29" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="185.42" x2="156.21" y2="177.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R6" gate="R" pin="1"/>
@@ -25727,12 +25745,22 @@ TPS259621 = Autoretry after thermal shutdown
 <wire x1="207.01" y1="93.98" x2="207.01" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="GND130" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C2" gate="CE" pin="2"/>
+<wire x1="162.56" y1="198.12" x2="162.56" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C49" gate="CE" pin="2"/>
+<wire x1="251.46" y1="195.58" x2="251.46" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="GND62" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="R2" gate="R" pin="2"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="266.7" y1="213.36" x2="266.7" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="278.13" y1="213.36" x2="278.13" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C12" gate="CE" pin="1"/>
@@ -25747,6 +25775,8 @@ TPS259621 = Autoretry after thermal shutdown
 <wire x1="242.57" y1="208.28" x2="250.19" y2="208.28" width="0.1524" layer="91"/>
 <junction x="242.57" y="208.28"/>
 <junction x="242.57" y="203.2"/>
+<pinref part="C49" gate="CE" pin="1"/>
+<wire x1="242.57" y1="203.2" x2="251.46" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
@@ -25773,7 +25803,7 @@ TPS259621 = Autoretry after thermal shutdown
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
 <pinref part="R2" gate="R" pin="1"/>
-<wire x1="266.7" y1="200.66" x2="266.7" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="278.13" y1="200.66" x2="278.13" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SW" class="0">
@@ -25809,7 +25839,8 @@ TPS259621 = Autoretry after thermal shutdown
 <segment>
 <pinref part="VBUSP2" gate="G$1" pin="VBUSP"/>
 <pinref part="U5" gate="G$1" pin="VIN"/>
-<wire x1="161.29" y1="208.28" x2="168.91" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="208.28" x2="162.56" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="208.28" x2="168.91" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="199.39" y1="208.28" x2="196.85" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="U5" gate="G$1" pin="EN"/>
 <wire x1="196.85" y1="203.2" x2="199.39" y2="203.2" width="0.1524" layer="91"/>
@@ -25828,23 +25859,26 @@ TPS259621 = Autoretry after thermal shutdown
 <pinref part="C7" gate="CE" pin="1"/>
 <wire x1="168.91" y1="205.74" x2="168.91" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="R1" gate="R" pin="2"/>
-<wire x1="161.29" y1="205.74" x2="161.29" y2="208.28" width="0.1524" layer="91"/>
-<junction x="161.29" y="208.28"/>
+<wire x1="156.21" y1="205.74" x2="156.21" y2="208.28" width="0.1524" layer="91"/>
+<junction x="156.21" y="208.28"/>
 <junction x="107.95" y="208.28"/>
 <pinref part="U4" gate="G$1" pin="VOUT"/>
 <pinref part="VBUSP" gate="G$1" pin="TP"/>
 <wire x1="107.95" y1="208.28" x2="90.17" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="107.95" y1="208.28" x2="143.51" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="143.51" y1="208.28" x2="161.29" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="143.51" y1="208.28" x2="143.51" y2="213.36" width="0.1524" layer="91"/>
-<junction x="143.51" y="208.28"/>
+<wire x1="107.95" y1="208.28" x2="140.97" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="208.28" x2="156.21" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="140.97" y1="208.28" x2="140.97" y2="213.36" width="0.1524" layer="91"/>
+<junction x="140.97" y="208.28"/>
+<pinref part="C2" gate="CE" pin="1"/>
+<wire x1="162.56" y1="205.74" x2="162.56" y2="208.28" width="0.1524" layer="91"/>
+<junction x="162.56" y="208.28"/>
 </segment>
 </net>
 <net name="N$270" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <pinref part="R1" gate="R" pin="1"/>
-<wire x1="161.29" y1="195.58" x2="161.29" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="156.21" y1="195.58" x2="156.21" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN/UVLO" class="0">
@@ -31439,7 +31473,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="MANUFACTURER_PART_NUMBER" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="TESTPOINTS RADIO TP">
+<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="TP RADIO TESTPOINTS">
 <attribute name="NAME" x="260.35" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
@@ -31450,7 +31484,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="172.72" y="33.02" smashed="yes" grouprefs="TESTPOINTS EMMC TP">
+<instance part="SDIO-CK" gate="G$1" x="172.72" y="33.02" smashed="yes" grouprefs="TP EMMC TESTPOINTS">
 <attribute name="NAME" x="171.45" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="172.72" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="172.72" y="33.02" size="1.778" layer="96" display="off"/>
@@ -31461,7 +31495,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="172.72" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="172.72" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="52.07" y="270.51" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -31472,7 +31506,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="BOOT0" gate="G$1" x="307.34" y="223.52" smashed="yes" grouprefs="M4F-SUPPORT TP">
+<instance part="BOOT0" gate="G$1" x="307.34" y="223.52" smashed="yes" grouprefs="TP M4F-SUPPORT">
 <attribute name="NAME" x="304.8" y="226.06" size="1.778" layer="95"/>
 <attribute name="BOM" x="307.34" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="223.52" size="1.778" layer="96" display="off"/>
@@ -31483,7 +31517,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="307.34" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="327.66" y="218.44" smashed="yes" grouprefs="TP TESTPOINTS M4F-SUPPORT">
+<instance part="NRST" gate="G$1" x="327.66" y="218.44" smashed="yes" grouprefs="M4F-SUPPORT TESTPOINTS TP">
 <attribute name="NAME" x="330.2" y="215.9" size="1.778" layer="95"/>
 <attribute name="BOM" x="327.66" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="218.44" size="1.778" layer="96" display="off"/>
@@ -31494,7 +31528,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="327.66" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="50.8" y="231.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -33534,13 +33568,13 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="MANUFACTURER" x="133.35" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="133.35" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="85.09" y="205.74" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="85.09" y="205.74" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="83.82" y="207.01" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="85.09" y="213.36" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="85.09" y="213.36" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="83.82" y="214.63" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="152.4" y="208.28" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="152.4" y="208.28" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="151.13" y="209.55" size="1.778" layer="95"/>
 </instance>
 <instance part="R8" gate="R" x="252.73" y="231.14" smashed="yes" rot="MR270">
