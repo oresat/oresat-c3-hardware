@@ -23774,7 +23774,7 @@ Source: e_os_all.pdf</description>
 <part name="UHF_5V3" library="oresat-supplies" deviceset="5V-U" device=""/>
 <part name="UHF_3.3V1" library="oresat-supplies" deviceset="3.3V-U" device=""/>
 <part name="UHF_3.3V2" library="oresat-supplies" deviceset="3.3V-U" device=""/>
-<part name="ILIM-OUT-U" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
+<part name="UHF_ILIM" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
 <part name="!FLT-U" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
 <part name="VBUSP-OUT-U" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
 <part name="SYNC-U" library="oresat-misc" deviceset="TEST-POINT-LARGE" device="" value="TEST-POINT-LARGE"/>
@@ -24567,6 +24567,9 @@ Source: e_os_all.pdf</description>
 <part name="GND158" library="oresat-supplies" deviceset="GND-U" device=""/>
 <part name="R25" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="100k"/>
 <part name="TP29" library="oresat-misc" deviceset="TEST-POINT-LARGE-SQUARE" device=""/>
+<part name="R65" library="oresat-rcl" deviceset="R-US_" device="0603-C-NOSILK" value="10k">
+<attribute name="BOM" value="EXCLUDE"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -25133,7 +25136,7 @@ SYNC = LOW (GND): Power save mode enabled, PFM/PWM mode enabled</text>
 <text x="46.99" y="124.46" size="2.54" layer="97">Current Limiting Switch</text>
 <text x="10.16" y="248.92" size="1.778" layer="97"></text>
 <text x="274.32" y="58.42" size="1.778" layer="97"></text>
-<text x="22.86" y="58.166" size="1.778" layer="97">UHF_VBUSP is limited to ~ 1A by R64
+<text x="40.64" y="60.706" size="1.778" layer="97">UHF_VBUSP is limited to ~ 1A by R64
 DV/DT (open = highest slew rate)
 OVCSEL (open = OVC threshold 13.7V)
 TPS259620 latches off after thermal shutdown
@@ -25306,25 +25309,25 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="NAME" x="48.514" y="215.011" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.514" y="209.931" size="1.778" layer="96"/>
 </instance>
-<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUS" gate="G$1" x="57.15" y="223.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="55.88" y="224.79" size="1.778" layer="95"/>
 </instance>
-<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="!FLT" gate="G$1" x="95.25" y="226.06" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="93.98" y="227.33" size="1.778" layer="95"/>
 </instance>
-<instance part="VBUSP" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="VBUSP" gate="G$1" x="107.95" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="102.87" y="212.09" size="1.778" layer="95"/>
 </instance>
-<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="ILIM-OUT" gate="G$1" x="101.6" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="100.33" y="201.93" size="1.778" layer="95"/>
 </instance>
-<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="SYNC" gate="G$1" x="194.31" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="191.262" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG" gate="G$1" x="229.87" y="200.66" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="228.6" y="201.168" size="1.778" layer="95"/>
 </instance>
-<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="3.3V" gate="G$1" x="250.19" y="210.82" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="248.92" y="212.09" size="1.778" layer="95"/>
 </instance>
 <instance part="U26" gate="G$1" x="163.83" y="99.06" smashed="yes">
@@ -25423,7 +25426,7 @@ TPS259621 = Autoretry after thermal shutdown
 <attribute name="NAME" x="129.794" y="99.441" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.794" y="94.361" size="1.778" layer="96"/>
 </instance>
-<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="PG-U" gate="G$1" x="184.15" y="96.52" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="182.88" y="97.79" size="1.778" layer="95"/>
 </instance>
 <instance part="C90" gate="CE" x="198.12" y="99.06" smashed="yes">
@@ -25468,8 +25471,8 @@ TPS259621 = Autoretry after thermal shutdown
 <instance part="UHF_3.3V1" gate="G$1" x="292.1" y="114.3" smashed="yes">
 <attribute name="VALUE" x="292.1" y="114.554" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="ILIM-OUT-U" gate="G$1" x="80.01" y="93.98" smashed="yes">
-<attribute name="NAME" x="78.74" y="95.25" size="1.778" layer="95"/>
+<instance part="UHF_ILIM" gate="G$1" x="78.74" y="93.98" smashed="yes">
+<attribute name="NAME" x="77.47" y="95.25" size="1.778" layer="95"/>
 </instance>
 <instance part="!FLT-U" gate="G$1" x="80.01" y="101.6" smashed="yes">
 <attribute name="NAME" x="78.74" y="102.87" size="1.778" layer="95"/>
@@ -25624,6 +25627,11 @@ TPS259621 = Autoretry after thermal shutdown
 </instance>
 <instance part="GND130" gate="1" x="207.01" y="71.12" smashed="yes">
 <attribute name="VALUE" x="204.47" y="68.58" size="1.778" layer="96"/>
+</instance>
+<instance part="R65" gate="R" x="87.63" y="91.44" smashed="yes">
+<attribute name="BOM" x="87.63" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="82.55" y="87.8586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="88.9" y="88.138" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -25965,21 +25973,6 @@ TPS259621 = Autoretry after thermal shutdown
 <label x="35.56" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="UHF_ILIM" class="0">
-<segment>
-<pinref part="U27" gate="G$1" pin="ILIM"/>
-<pinref part="R64" gate="R" pin="2"/>
-<wire x1="69.85" y1="93.98" x2="72.39" y2="93.98" width="0.1524" layer="91"/>
-<junction x="72.39" y="93.98"/>
-<label x="85.09" y="91.44" size="1.778" layer="95" xref="yes"/>
-<pinref part="ILIM-OUT-U" gate="G$1" pin="TP"/>
-<wire x1="80.01" y1="91.44" x2="85.09" y2="91.44" width="0.1524" layer="91"/>
-<junction x="80.01" y="91.44"/>
-<wire x1="80.01" y1="91.44" x2="74.93" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="74.93" y1="91.44" x2="74.93" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="74.93" y1="93.98" x2="72.39" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$42" class="0">
 <segment>
 <pinref part="U26" gate="G$1" pin="SW"/>
@@ -26233,6 +26226,28 @@ TPS259621 = Autoretry after thermal shutdown
 <label x="118.11" y="109.22" size="1.778" layer="95"/>
 <pinref part="R68" gate="R" pin="2"/>
 <junction x="140.97" y="106.68"/>
+</segment>
+</net>
+<net name="UHF_ILIM" class="0">
+<segment>
+<wire x1="92.71" y1="91.44" x2="95.25" y2="91.44" width="0.1524" layer="91"/>
+<label x="95.25" y="91.44" size="1.778" layer="95" xref="yes"/>
+<pinref part="R65" gate="R" pin="2"/>
+</segment>
+</net>
+<net name="UHF_ILIM_RAW" class="0">
+<segment>
+<pinref part="U27" gate="G$1" pin="ILIM"/>
+<pinref part="R64" gate="R" pin="2"/>
+<wire x1="69.85" y1="93.98" x2="72.39" y2="93.98" width="0.1524" layer="91"/>
+<junction x="72.39" y="93.98"/>
+<pinref part="UHF_ILIM" gate="G$1" pin="TP"/>
+<junction x="78.74" y="91.44"/>
+<wire x1="78.74" y1="91.44" x2="74.93" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="91.44" x2="74.93" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="93.98" x2="72.39" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="91.44" x2="82.55" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R65" gate="R" pin="1"/>
 </segment>
 </net>
 </nets>
@@ -31479,7 +31494,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="MANUFACTURER_PART_NUMBER" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="DESCRIPTION" x="233.68" y="43.18" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="TESTPOINTS RADIO TP">
+<instance part="ENABLE-UHF" gate="G$1" x="259.08" y="187.96" smashed="yes" grouprefs="TP RADIO TESTPOINTS">
 <attribute name="NAME" x="260.35" y="189.23" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
@@ -31490,7 +31505,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="259.08" y="187.96" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SDIO-CK" gate="G$1" x="172.72" y="33.02" smashed="yes" grouprefs="TESTPOINTS EMMC TP">
+<instance part="SDIO-CK" gate="G$1" x="172.72" y="33.02" smashed="yes" grouprefs="TP EMMC TESTPOINTS">
 <attribute name="NAME" x="171.45" y="34.29" size="1.778" layer="95"/>
 <attribute name="BOM" x="172.72" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="172.72" y="33.02" size="1.778" layer="96" display="off"/>
@@ -31501,7 +31516,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="172.72" y="33.02" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="172.72" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA1" gate="G$1" x="50.8" y="269.24" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="52.07" y="270.51" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -31512,7 +31527,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="269.24" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="BOOT0" gate="G$1" x="307.34" y="223.52" smashed="yes" grouprefs="M4F-SUPPORT TP">
+<instance part="BOOT0" gate="G$1" x="307.34" y="223.52" smashed="yes" grouprefs="TP M4F-SUPPORT">
 <attribute name="NAME" x="304.8" y="226.06" size="1.778" layer="95"/>
 <attribute name="BOM" x="307.34" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="223.52" size="1.778" layer="96" display="off"/>
@@ -31523,7 +31538,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="307.34" y="223.52" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="307.34" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="NRST" gate="G$1" x="327.66" y="218.44" smashed="yes" grouprefs="TP TESTPOINTS M4F-SUPPORT">
+<instance part="NRST" gate="G$1" x="327.66" y="218.44" smashed="yes" grouprefs="M4F-SUPPORT TESTPOINTS TP">
 <attribute name="NAME" x="330.2" y="215.9" size="1.778" layer="95"/>
 <attribute name="BOM" x="327.66" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="218.44" size="1.778" layer="96" display="off"/>
@@ -31534,7 +31549,7 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="BOM" x="327.66" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="327.66" y="218.44" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TP TESTPOINTS">
+<instance part="PA15" gate="G$1" x="50.8" y="231.14" smashed="yes" rot="MR0" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="50.8" y="231.14" size="1.778" layer="95" rot="MR0"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
 <attribute name="BOM" x="50.8" y="231.14" size="1.778" layer="96" rot="MR0" display="off"/>
@@ -33014,6 +33029,15 @@ All caps are 0603 and 16V DC or greater</text>
 <label x="35.56" y="248.92" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="UHF_ILIM" class="0">
+<segment>
+<label x="60.96" y="269.24" size="1.778" layer="95" xref="yes"/>
+<pinref part="U36" gate="G$1" pin="PA2"/>
+<wire x1="55.88" y1="269.24" x2="60.96" y2="269.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="264.16" x2="55.88" y2="264.16" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="264.16" x2="55.88" y2="269.24" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -33565,13 +33589,13 @@ All caps are 0603 and 16V DC or greater</text>
 <attribute name="MANUFACTURER" x="133.35" y="215.9" size="1.778" layer="96" display="off"/>
 <attribute name="DESCRIPTION" x="133.35" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="OPD-ENABLE" gate="G$1" x="85.09" y="205.74" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ENABLE" gate="G$1" x="85.09" y="205.74" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="83.82" y="207.01" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-FAULT" gate="G$1" x="85.09" y="213.36" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-FAULT" gate="G$1" x="85.09" y="213.36" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="83.82" y="214.63" size="1.778" layer="95"/>
 </instance>
-<instance part="OPD-ISET" gate="G$1" x="152.4" y="208.28" smashed="yes" grouprefs="TP TESTPOINTS">
+<instance part="OPD-ISET" gate="G$1" x="152.4" y="208.28" smashed="yes" grouprefs="TESTPOINTS TP">
 <attribute name="NAME" x="151.13" y="209.55" size="1.778" layer="95"/>
 </instance>
 <instance part="R8" gate="R" x="252.73" y="231.14" smashed="yes" rot="MR270">
