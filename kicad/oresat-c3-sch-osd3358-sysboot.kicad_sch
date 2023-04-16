@@ -2,7 +2,7 @@
 
   (uuid 8ad9d62f-a956-493e-9d43-549425916669)
 
-  (paper "A4")
+  (paper "USLedger")
 
   (lib_symbols
     (symbol "Jumper:SolderJumper_3_Bridged12" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)

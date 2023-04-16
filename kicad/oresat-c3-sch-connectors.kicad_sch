@@ -2,7 +2,7 @@
 
   (uuid 34aa0b95-21f2-4602-b278-0e482ca78b44)
 
-  (paper "B")
+  (paper "USLedger")
 
   (lib_symbols
     (symbol "Mechanical:Fiducial" (in_bom yes) (on_board yes)

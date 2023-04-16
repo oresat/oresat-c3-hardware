@@ -2,7 +2,7 @@
 
   (uuid d5338579-a7ac-4cea-b64f-b7ff02c19d4a)
 
-  (paper "B")
+  (paper "USLedger")
 
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)

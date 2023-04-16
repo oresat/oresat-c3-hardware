@@ -553,40 +553,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "RF-50-max",
-        "pattern": "/RF + RF Power/RF-OUT"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "MAX-RF"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "Net-(C60-Pad2)"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "Net-(L2-Pad2)"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "RF-IN"
-      },
-      {
-        "netclass": "RF-50-max",
-        "pattern": "STQ-RF"
-      },
-      {
-        "netclass": "RF-50-min",
-        "pattern": "/MAX2771/LNAOUT"
-      },
-      {
-        "netclass": "RF-50-min",
-        "pattern": "/MAX2771/MIXIN"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -667,6 +634,14 @@
     [
       "0c1da208-2d1c-4d05-9cc7-59584e50a6ac",
       "OSD3358 PWR, ETC. : SIP A, E, F"
+    ],
+    [
+      "1b68ea4b-cacf-4529-b1d4-9be5d7c1043c",
+      "L Band"
+    ],
+    [
+      "05e45903-5042-4bc1-87af-e9d7510ea02d",
+      "UHF Band"
     ],
     [
       "65d12cdd-c326-4033-9053-c59fa4e0b25e",
