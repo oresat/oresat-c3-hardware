@@ -26,17 +26,18 @@ It is integrated into the [oresat-firmware](https://github.com/oresat/oresat-fir
 The firmware application for this project is located
 [here](https://github.com/oresat/oresat-firmware/tree/c3_capstone/src/f4/app_c3_v1).
 
-## OreSat C3 version 6
+## OreSat C3 version 6 (KiCAD)
 
 Fixes for the radio receivers, version 2 backplane pinout, and lots of little tweaks
-after our lessons learned on OreSat0.
+after our lessons learned on OreSat0. OH, and a COMPLETE REFACTOR since we switched from
+the STM32F439 to an Octavo OSD335x-SM and switched from EAGLE to KICAD. Yikes.
 
-## OreSat C3 version 5
+## OreSat C3 version 5 (EAGLE)
 
 C3 V5 flew on Oresat0, Oregon's first satellite! Everything worked great, except for the
 radio receivers (L band LNA oscillated, and UHF LNA was turned off in firmware).
 
-## OreSat C3 version 4
+## OreSat C3 version 4 (EAGLE)
 
 C3 V4 is our latest version of the C3 card; it's getting ready for flight in 
 Q2 2021 in OreSat0. It's got all of the functionality necessary for flight.
