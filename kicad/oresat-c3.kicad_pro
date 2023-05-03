@@ -644,6 +644,14 @@
       "UHF Band"
     ],
     [
+      "730a6f7e-0bbd-44c5-a45a-78e61e54b6d6",
+      "Watchdog"
+    ],
+    [
+      "80f02433-745c-4401-b985-fcfd89ff5669",
+      "I2C Peripherals"
+    ],
+    [
       "65d12cdd-c326-4033-9053-c59fa4e0b25e",
       ""
     ]
