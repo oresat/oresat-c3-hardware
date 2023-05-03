@@ -8,14 +8,14 @@
   )
 
 
-  (sheet (at 127 78.74) (size 25.4 7.62) (fields_autoplaced)
+  (sheet (at 127 82.55) (size 25.4 6.35)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 05e45903-5042-4bc1-87af-e9d7510ea02d)
-    (property "Sheetname" "UHF Band" (at 127 78.0284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "UHF Band" (at 128.27 87.63 0)
+      (effects (font (size 2.54 2.54)) (justify left bottom))
     )
-    (property "Sheetfile" "oresat-c3-sch-uhf-band.kicad_sch" (at 127 86.9446 0)
+    (property "Sheetfile" "oresat-c3-sch-uhf-band.kicad_sch" (at 127 90.7546 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -76,14 +76,14 @@
     )
   )
 
-  (sheet (at 127 64.77) (size 25.4 7.62) (fields_autoplaced)
+  (sheet (at 127 66.04) (size 25.4 6.35)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 1b68ea4b-cacf-4529-b1d4-9be5d7c1043c)
-    (property "Sheetname" "L Band" (at 127 64.0584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
+    (property "Sheetname" "L Band" (at 128.27 71.12 0)
+      (effects (font (size 2.54 2.54)) (justify left bottom))
     )
-    (property "Sheetfile" "oresat-c3-sch-l-band.kicad_sch" (at 127 72.9746 0)
+    (property "Sheetfile" "oresat-c3-sch-l-band.kicad_sch" (at 127 74.2446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
