@@ -620,20 +620,24 @@
       "Power"
     ],
     [
-      "f3d147ad-4cea-4d77-ae60-95882b03454e",
-      "OSD3358 SD, eMMC : SIP C"
-    ],
-    [
-      "0c732c1e-ab0d-41ac-9d77-9d7763333b6f",
-      "OSD3358 SYSBOOT : SIP D"
+      "0c1da208-2d1c-4d05-9cc7-59584e50a6ac",
+      "OSD3358: SIP A"
     ],
     [
       "0d3a1fa4-c9ee-4335-9068-a81ae0178f3f",
-      "OSD3358 USB, XTAL, etc : SIP B"
+      "OSD3358: SIP B"
     ],
     [
-      "0c1da208-2d1c-4d05-9cc7-59584e50a6ac",
-      "OSD3358 PWR, ETC. : SIP A, E, F"
+      "f3d147ad-4cea-4d77-ae60-95882b03454e",
+      "OSD3358: SIP C"
+    ],
+    [
+      "0c732c1e-ab0d-41ac-9d77-9d7763333b6f",
+      "OSD3358: SIP D"
+    ],
+    [
+      "ce2d6150-524f-4c6f-aba3-da83a5df548c",
+      "OSD3358: SIP E + F"
     ],
     [
       "1b68ea4b-cacf-4529-b1d4-9be5d7c1043c",
@@ -649,7 +653,11 @@
     ],
     [
       "80f02433-745c-4401-b985-fcfd89ff5669",
-      "I2C Peripherals"
+      "OPD and I2C Peripherals"
+    ],
+    [
+      "f40986af-661f-42e2-86b8-cadc1b813505",
+      "Deployers"
     ],
     [
       "65d12cdd-c326-4033-9053-c59fa4e0b25e",
