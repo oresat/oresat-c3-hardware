@@ -2267,7 +2267,7 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 256.54 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid e904e0a3-b40a-4170-b663-9b1ae4c1bdda))
+    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e579d))
     (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e579d))
     (instances
       (project "oresat-c3"
@@ -2426,9 +2426,9 @@
     (property "Value_1" "" (at 242.57 60.96 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
-    (pin "1" (uuid fa9c4997-362f-44bd-8280-9043a974087e))
-    (pin "5" (uuid 3fdcd779-dc36-4ba3-a769-1f17c9715a11))
-    (pin "6" (uuid cccc3bf7-7e27-4c57-9106-4214c85223eb))
+    (pin "1" (uuid fa9c4997-362f-44bd-8280-9043a974087f))
+    (pin "5" (uuid 3fdcd779-dc36-4ba3-a769-1f17c9715a12))
+    (pin "6" (uuid cccc3bf7-7e27-4c57-9106-4214c85223ec))
     (pin "2" (uuid e4495ea5-7c44-428b-be3d-f9c15e071d0e))
     (pin "3" (uuid 1c8cc1c4-ce88-43af-8f22-c2aed67197d8))
     (pin "4" (uuid 733df99f-65a5-4884-bfa5-16ffca5fbffa))
@@ -2595,9 +2595,9 @@
     (property "Value_1" "" (at 270.51 186.69 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom) hide)
     )
-    (pin "1" (uuid 1f23ee0a-26fb-4c6e-b31d-99943aae92fb))
-    (pin "5" (uuid d8119059-3dc6-4e9c-9167-60176d86da75))
-    (pin "6" (uuid 323e3d26-6ec6-4b12-ab4a-c2bd732e9f08))
+    (pin "1" (uuid 1f23ee0a-26fb-4c6e-b31d-99943aae92fc))
+    (pin "5" (uuid d8119059-3dc6-4e9c-9167-60176d86da76))
+    (pin "6" (uuid 323e3d26-6ec6-4b12-ab4a-c2bd732e9f09))
     (pin "2" (uuid 39de29b1-be55-48b7-83a5-285dd6c1b241))
     (pin "3" (uuid c926c824-913a-475d-870e-98aae01d5015))
     (pin "4" (uuid 45c910ff-17ba-4193-bdc9-564046aec822))
@@ -2722,9 +2722,9 @@
     (pin "1" (uuid 14f95f30-37e6-4156-9be0-44e03906b1c8))
     (pin "5" (uuid 2538fc46-5751-45b2-a3c1-4a1058e72214))
     (pin "6" (uuid 0d96ca76-d754-4f28-a750-11b50c02a4c5))
-    (pin "2" (uuid f48f8749-9bf4-4da0-b1ad-3e39bae4b764))
-    (pin "3" (uuid 5dfc91a7-e584-4b9c-a7b6-c6c1df784067))
-    (pin "4" (uuid 4cf22e88-0796-4d3d-9a74-44045271800e))
+    (pin "2" (uuid f48f8749-9bf4-4da0-b1ad-3e39bae4b765))
+    (pin "3" (uuid 5dfc91a7-e584-4b9c-a7b6-c6c1df784068))
+    (pin "4" (uuid 4cf22e88-0796-4d3d-9a74-44045271800f))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -2864,7 +2864,7 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 256.54 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid b2b113ba-e194-4700-83d7-20c6a0d47947))
+    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c7a))
     (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c7a))
     (instances
       (project "oresat-c3"
@@ -3028,9 +3028,9 @@
     (pin "1" (uuid 1ed952b3-f330-40e1-a249-332d810b4b3f))
     (pin "5" (uuid 63881ab3-8017-4e41-8fc1-46d0dd3ca0ca))
     (pin "6" (uuid 6cf18555-df66-4ea6-9210-454aca736e38))
-    (pin "2" (uuid b13d4d78-8626-4461-b96f-6bc209e2aaed))
-    (pin "3" (uuid d9cefed7-3716-4502-bcde-d4ca8772c991))
-    (pin "4" (uuid 4ef20ddb-6857-4dd9-ac80-861288b335f8))
+    (pin "2" (uuid b13d4d78-8626-4461-b96f-6bc209e2aaee))
+    (pin "3" (uuid d9cefed7-3716-4502-bcde-d4ca8772c992))
+    (pin "4" (uuid 4ef20ddb-6857-4dd9-ac80-861288b335f9))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
