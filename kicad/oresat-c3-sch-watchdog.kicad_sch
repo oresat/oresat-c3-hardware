@@ -1342,14 +1342,14 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 848b109c-e8b3-4e77-b8da-aa1c20517487)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 161.1662 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
+      (effects (font (size 1.27 1.27)) (justify right))
     )
   )
-  (global_label "~{ORESAT-SD}" (shape input) (at 321.945 165.1 0) (fields_autoplaced)
+  (global_label "ORESAT-nSD" (shape input) (at 321.945 165.1 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid fdea4bc8-3308-4481-8c45-762aa8a96964)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 335.9179 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 337.0669 165.1 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
   )
 
@@ -1789,8 +1789,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 123.19 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 1e1da9c0-2ff0-409b-bbf0-d4ce8c73e281))
-    (pin "" (uuid 1e1da9c0-2ff0-409b-bbf0-d4ce8c73e281))
+    (pin "" (uuid 1e1da9c0-2ff0-409b-bbf0-d4ce8c73e284))
+    (pin "" (uuid 1e1da9c0-2ff0-409b-bbf0-d4ce8c73e284))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
@@ -1841,8 +1841,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 284.48 189.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid fcb153c4-33aa-4828-9c87-75aae40eef50))
-    (pin "" (uuid fcb153c4-33aa-4828-9c87-75aae40eef50))
+    (pin "" (uuid fcb153c4-33aa-4828-9c87-75aae40eef53))
+    (pin "" (uuid fcb153c4-33aa-4828-9c87-75aae40eef53))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
