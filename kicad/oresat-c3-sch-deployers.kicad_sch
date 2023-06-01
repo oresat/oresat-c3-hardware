@@ -2265,8 +2265,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 256.54 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e57a0))
-    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e57a0))
+    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e57a3))
+    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e57a3))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
@@ -2862,8 +2862,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 256.54 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c7d))
-    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c7d))
+    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c80))
+    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c80))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
