@@ -14,12 +14,12 @@
   )
 
 
-  (text "This system is heavily based on the Octavo Systems OSD3358-SM-RED platform,\nwhich seems to be released under an MIT-like license.\nPlease see https://octavosystems.com/docs/osd3358-sm-red-schematics-pdf/\n"
+  (text "The Octavo OSD3358 schematics are heavily based on the Octavo Systems \nOSD3358-SM-RED platform, which seems to be released under an MIT-like license.\nPlease see https://octavosystems.com/docs/osd3358-sm-red-schematics-pdf/\n"
     (at 171.45 179.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 07e9a7b2-4b9f-4140-9bf9-356dc9041c54)
   )
-  (text "This system is also based on the beagleboard.org PocketBeagle.\nhttps://github.com/beagleboard/pocketbeagle"
+  (text "The OSD3358 design is also based on the beagleboard.org PocketBeagle.\nhttps://github.com/beagleboard/pocketbeagle"
     (at 171.45 186.69 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c738aff9-35f4-4fc8-b5c5-bf5ba463c84e)
