@@ -6742,7 +6742,7 @@
   (symbol (lib_id "oresat-ics:LP2985-N") (at 91.44 208.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93f679ea-4a05-4f3f-9293-1eeba2aab425)
-    (property "Reference" "U?" (at 89.4841 196.85 0)
+    (property "Reference" "U27" (at 89.4841 196.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LP2985AIM5-1.8_NOPB" (at 89.4841 199.39 0)
@@ -6762,7 +6762,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-          (reference "U?") (unit 1)
+          (reference "U27") (unit 1)
         )
       )
     )
@@ -8144,8 +8144,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 82.55 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76b7))
-    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76b7))
+    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76b8))
+    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76b8))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
@@ -8800,7 +8800,7 @@
   (symbol (lib_id "oresat-ics:TAITIEN-TY") (at 40.64 213.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4bc9652-68b8-4243-b930-d95f6d3fa85c)
-    (property "Reference" "X?" (at 35.56 219.71 0)
+    (property "Reference" "X1" (at 35.56 219.71 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "TYKTBLSANF-16.000000" (at 15.24 222.25 0)
@@ -8819,7 +8819,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-          (reference "X?") (unit 1)
+          (reference "X1") (unit 1)
         )
       )
     )

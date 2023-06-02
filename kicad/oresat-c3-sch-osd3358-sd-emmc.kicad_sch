@@ -6515,12 +6515,12 @@
   )
 
   (symbol (lib_id "J-Hirose-DM3BT-DSF-PEJS-sd-connector:DM3BT-DSF-PEJS") (at 58.42 137.16 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid d9d315cc-9f93-4099-b5f5-8062b5b53fb9)
-    (property "Reference" "J4" (at 58.42 119.38 0)
+    (property "Reference" "J5" (at 46.99 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DM3BT-DSF-PEJS" (at 58.42 121.92 0)
+    (property "Value" "DM3BT-DSF-PEJS" (at 63.5 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "oresat-footprints:J-Hirose-DM3BT-DSF-PEJS" (at 58.42 137.16 0)
@@ -6548,7 +6548,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )

@@ -1480,6 +1480,15 @@
     (uuid faff493d-d32e-4caf-ba1f-fbab6d0b4df4)
   )
 
+  (no_connect (at 186.69 78.74) (uuid 1868c9be-f62e-4fba-96ea-38dea990db90))
+  (no_connect (at 219.71 78.74) (uuid 3cd489fa-83bc-430d-a5b0-1a2ca1cd78d8))
+  (no_connect (at 186.69 207.01) (uuid 59954eb5-f3d2-45cf-afe9-393bd1943951))
+  (no_connect (at 219.71 81.28) (uuid 7031b275-086a-4c93-95ef-3891b7b02ed9))
+  (no_connect (at 186.69 81.28) (uuid 8405be95-3b18-4c3d-856a-6c1fe3fcfca7))
+  (no_connect (at 186.69 204.47) (uuid 9172582b-50f9-4283-8df8-22b004ed4243))
+  (no_connect (at 219.71 207.01) (uuid ad1f0002-bd0a-43b2-b32f-597777adf737))
+  (no_connect (at 219.71 204.47) (uuid f905af85-d0d3-418f-a5ce-5bd18cb6d5ff))
+
   (wire (pts (xy 182.88 78.74) (xy 182.88 73.66))
     (stroke (width 0) (type default))
     (uuid 00025dcc-f085-418d-ac10-017dd28b6068)
@@ -2265,8 +2274,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 256.54 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e57a4))
-    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e57a4))
+    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e57a5))
+    (pin "" (uuid d82f81ba-7c4b-4c99-933d-45bedf6e57a5))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
@@ -2536,6 +2545,35 @@
     )
   )
 
+  (symbol (lib_id "Device:R_Small_US") (at 173.99 87.63 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7218b781-5588-43da-a449-581e1568542b)
+    (property "Reference" "R68" (at 176.53 86.995 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "10k" (at 176.53 89.535 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 173.99 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 173.99 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9ce84e50-db8a-4342-9729-18feeca95e19))
+    (pin "2" (uuid ab7042bd-937f-427e-821c-d567d6c95dfa))
+    (instances
+      (project "oresat-c3"
+        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
+          (reference "R68") (unit 1)
+        )
+        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
+          (reference "R117") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "oresat-transistors:FDMQ86530L") (at 203.2 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7e5f6d86-7025-413c-bb61-c2a062557397)
@@ -2791,8 +2829,8 @@
 
   (symbol (lib_id "Device:R_Small_US") (at 168.91 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid a73e591c-e70e-4c3e-aa96-764902964f98)
-    (property "Reference" "R80" (at 166.37 86.995 0)
+    (uuid a7b0cff3-cb63-4497-99b0-11ba0f7b511c)
+    (property "Reference" "R68" (at 166.37 86.995 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 166.37 89.535 0)
@@ -2804,15 +2842,15 @@
     (property "Datasheet" "~" (at 168.91 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 050e26e0-ac01-42f8-9354-fbf3f80018d0))
-    (pin "2" (uuid d2efd9a1-9d08-458d-a991-5b5fce94b0b5))
+    (pin "1" (uuid 719928e8-4a03-4260-b3a0-3daf629b4dbc))
+    (pin "2" (uuid 4713b625-ac60-4e61-8ab4-51d4ac09e09c))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
+          (reference "R68") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
-          (reference "R65") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2862,8 +2900,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 256.54 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c81))
-    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c81))
+    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c82))
+    (pin "" (uuid 2090862f-85b8-43da-80a5-d9d8c4cf9c82))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
@@ -3130,35 +3168,6 @@
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#GND052") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R_Small_US") (at 173.99 87.63 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid efd100bf-3f79-434f-9da0-40902bb009dd)
-    (property "Reference" "R68" (at 176.53 86.995 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10k" (at 176.53 89.535 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 173.99 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 173.99 87.63 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b8164f58-bd06-4794-a4a9-8564a3058df7))
-    (pin "2" (uuid 1fe40b16-e641-45b3-a846-197f23971bcd))
-    (instances
-      (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R68") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
-          (reference "R81") (unit 1)
         )
       )
     )
