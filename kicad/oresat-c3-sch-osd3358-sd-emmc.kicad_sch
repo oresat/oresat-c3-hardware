@@ -263,7 +263,7 @@
         )
       )
     )
-    (symbol "J-Hirose-DM3BT-DSF-PEJS-sd-connector:DM3BT-DSF-PEJS" (in_bom yes) (on_board yes)
+    (symbol "oresat-connectors:DM3BT-DSF-PEJS" (in_bom yes) (on_board yes)
       (property "Reference" "J" (at -12.7 -15.24 0)
         (effects (font (size 1.778 1.5113)) (justify left bottom))
       )
@@ -420,751 +420,6 @@
         (pin bidirectional line (at -15.24 -2.54 0) (length 2.54)
           (name "VSS" (effects (font (size 1.27 1.27))))
           (number "GND" (effects (font (size 0 0))))
-        )
-      )
-    )
-    (symbol "OreSat-Power:3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#3V3" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "3.3V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "OreSat-Power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#GND" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -1.27)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "OreSat-TestPoint:Test-Point" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Test-Point" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Test-Point_0_1"
-        (rectangle (start -1.27 1.27) (end 1.27 -1.27)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Test-Point_1_1"
-        (pin passive line (at 0 0 90) (length 0)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "R-EXB-A10P391j:EXB-A10P391J" (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at -17.8308 5.1308 0)
-        (effects (font (size 1.778 1.778)) (justify left bottom))
-      )
-      (property "Value" "EXB-A10P391J" (at -17.6784 2.5908 0)
-        (effects (font (size 1.778 1.778)) (justify left bottom))
-      )
-      (property "Footprint" "oresat-gps-card:ARRAY_EXBA" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_locked" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (symbol "EXB-A10P391J_1_0"
-        (polyline
-          (pts
-            (xy -10.16 -15.24)
-            (xy -9.398 -13.97)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -10.16 -10.16)
-            (xy -9.398 -8.9408)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -10.16 -5.08)
-            (xy -9.398 -3.8354)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -10.16 0)
-            (xy -9.398 1.2446)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.525 -16.51)
-            (xy -10.16 -17.78)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.525 -11.43)
-            (xy -10.16 -12.7)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.4996 -1.2954)
-            (xy -10.16 -2.54)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.4742 -6.3246)
-            (xy -10.16 -7.62)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.398 -13.97)
-            (xy -8.128 -16.51)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.398 -8.9408)
-            (xy -8.128 -11.4808)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.398 -3.8354)
-            (xy -8.128 -6.3754)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -9.398 1.2446)
-            (xy -8.128 -1.2954)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.255 -19.05)
-            (xy -9.525 -16.51)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.255 -13.97)
-            (xy -9.525 -11.43)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.2296 -3.8354)
-            (xy -9.4996 -1.2954)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.2042 -8.8646)
-            (xy -9.4742 -6.3246)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.128 -16.51)
-            (xy -6.858 -13.97)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.128 -11.4808)
-            (xy -6.858 -8.9408)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.128 -6.3754)
-            (xy -6.858 -3.8354)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -8.128 -1.2954)
-            (xy -6.858 1.2446)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.985 -16.51)
-            (xy -8.255 -19.05)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.985 -11.43)
-            (xy -8.255 -13.97)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.9596 -1.2954)
-            (xy -8.2296 -3.8354)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.9342 -6.3246)
-            (xy -8.2042 -8.8646)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.858 -13.97)
-            (xy -5.588 -16.51)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.858 -8.9408)
-            (xy -5.588 -11.4808)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.858 -3.8354)
-            (xy -5.588 -6.3754)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.858 1.2446)
-            (xy -5.588 -1.2954)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.715 -19.05)
-            (xy -6.985 -16.51)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.715 -13.97)
-            (xy -6.985 -11.43)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.6896 -3.8354)
-            (xy -6.9596 -1.2954)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.6642 -8.8646)
-            (xy -6.9342 -6.3246)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.588 -16.51)
-            (xy -4.318 -13.97)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.588 -11.4808)
-            (xy -4.318 -8.9408)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.588 -6.3754)
-            (xy -4.318 -3.8354)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.588 -1.2954)
-            (xy -4.318 1.2446)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -16.51)
-            (xy -5.715 -19.05)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -11.43)
-            (xy -5.715 -13.97)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.4196 -1.2954)
-            (xy -5.6896 -3.8354)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.3942 -6.3246)
-            (xy -5.6642 -8.8646)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 -13.97)
-            (xy -3.048 -16.51)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 -8.9408)
-            (xy -3.048 -11.4808)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 -3.8354)
-            (xy -3.048 -6.3754)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 1.2446)
-            (xy -3.048 -1.2954)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.175 -19.05)
-            (xy -4.445 -16.51)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.175 -13.97)
-            (xy -4.445 -11.43)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.1496 -3.8354)
-            (xy -4.4196 -1.2954)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.1242 -8.8646)
-            (xy -4.3942 -6.3246)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -16.51)
-            (xy -2.413 -15.24)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -11.4808)
-            (xy -2.413 -10.16)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -6.3754)
-            (xy -2.413 -5.08)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -1.2954)
-            (xy -2.54 0)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -17.78)
-            (xy -3.175 -19.05)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -17.78)
-            (xy 0 -17.78)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -15.24)
-            (xy 0 -15.24)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -12.7)
-            (xy -3.175 -13.97)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -12.7)
-            (xy 0 -12.7)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -10.16)
-            (xy 0 -10.16)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -7.62)
-            (xy 0 -7.62)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -5.08)
-            (xy 0 -5.08)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy 0 0)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.413 -7.62)
-            (xy -3.1242 -8.8646)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.413 -2.54)
-            (xy -3.1496 -3.8354)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -15.24)
-            (xy 0 -17.78)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -12.7)
-            (xy 0 -15.24)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -10.16)
-            (xy 0 -12.7)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -7.62)
-            (xy 0 -10.16)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -5.08)
-            (xy 0 -7.62)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -2.54)
-            (xy 0 -5.08)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -2.54)
-          )
-          (stroke (width 0.2032) (type default))
-          (fill (type none))
-        )
-        (pin passive line (at -12.7 0 0) (length 2.54)
-          (name "11" (effects (font (size 0 0))))
-          (number "1" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 2.54 -10.16 180) (length 2.54)
-          (name "55" (effects (font (size 0 0))))
-          (number "10" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -12.7 -5.08 0) (length 2.54)
-          (name "22" (effects (font (size 0 0))))
-          (number "2" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -12.7 -10.16 0) (length 2.54)
-          (name "33" (effects (font (size 0 0))))
-          (number "3" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -12.7 -15.24 0) (length 2.54)
-          (name "44" (effects (font (size 0 0))))
-          (number "4" (effects (font (size 0 0))))
-        )
-        (pin passive line (at 2.54 -10.16 180) (length 2.54)
-          (name "55" (effects (font (size 0 0))))
-          (number "5" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -12.7 -17.78 0) (length 2.54)
-          (name "66" (effects (font (size 0 0))))
-          (number "6" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -12.7 -12.7 0) (length 2.54)
-          (name "77" (effects (font (size 0 0))))
-          (number "7" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -12.7 -7.62 0) (length 2.54)
-          (name "88" (effects (font (size 0 0))))
-          (number "8" (effects (font (size 0 0))))
-        )
-        (pin passive line (at -12.7 -2.54 0) (length 2.54)
-          (name "99" (effects (font (size 0 0))))
-          (number "9" (effects (font (size 0 0))))
         )
       )
     )
@@ -3285,6 +2540,780 @@
         )
       )
     )
+    (symbol "oresat-misc:Test-Point" (in_bom yes) (on_board yes)
+      (property "Reference" "TP" (at -2.54 2.54 0)
+        (effects (font (size 1.27 1.0795)) (justify left bottom))
+      )
+      (property "Value" "Test-Point" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic Test Point symbol" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Test-Point_1_0"
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 1.27)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy -1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at 0 0 0) (length 0)
+          (name "1" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "oresat-passives:EXB-A10P391J" (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at -17.8308 5.1308 0)
+        (effects (font (size 1.778 1.778)) (justify left bottom))
+      )
+      (property "Value" "EXB-A10P391J" (at -17.6784 2.5908 0)
+        (effects (font (size 1.778 1.778)) (justify left bottom))
+      )
+      (property "Footprint" "oresat-gps-card:ARRAY_EXBA" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (symbol "EXB-A10P391J_1_0"
+        (polyline
+          (pts
+            (xy -10.16 -15.24)
+            (xy -9.398 -13.97)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 -10.16)
+            (xy -9.398 -8.9408)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 -5.08)
+            (xy -9.398 -3.8354)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -10.16 0)
+            (xy -9.398 1.2446)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.525 -16.51)
+            (xy -10.16 -17.78)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.525 -11.43)
+            (xy -10.16 -12.7)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.4996 -1.2954)
+            (xy -10.16 -2.54)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.4742 -6.3246)
+            (xy -10.16 -7.62)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.398 -13.97)
+            (xy -8.128 -16.51)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.398 -8.9408)
+            (xy -8.128 -11.4808)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.398 -3.8354)
+            (xy -8.128 -6.3754)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -9.398 1.2446)
+            (xy -8.128 -1.2954)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -8.255 -19.05)
+            (xy -9.525 -16.51)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -8.255 -13.97)
+            (xy -9.525 -11.43)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -8.2296 -3.8354)
+            (xy -9.4996 -1.2954)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -8.2042 -8.8646)
+            (xy -9.4742 -6.3246)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -8.128 -16.51)
+            (xy -6.858 -13.97)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -8.128 -11.4808)
+            (xy -6.858 -8.9408)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -8.128 -6.3754)
+            (xy -6.858 -3.8354)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -8.128 -1.2954)
+            (xy -6.858 1.2446)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.985 -16.51)
+            (xy -8.255 -19.05)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.985 -11.43)
+            (xy -8.255 -13.97)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.9596 -1.2954)
+            (xy -8.2296 -3.8354)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.9342 -6.3246)
+            (xy -8.2042 -8.8646)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.858 -13.97)
+            (xy -5.588 -16.51)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.858 -8.9408)
+            (xy -5.588 -11.4808)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.858 -3.8354)
+            (xy -5.588 -6.3754)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -6.858 1.2446)
+            (xy -5.588 -1.2954)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.715 -19.05)
+            (xy -6.985 -16.51)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.715 -13.97)
+            (xy -6.985 -11.43)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.6896 -3.8354)
+            (xy -6.9596 -1.2954)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.6642 -8.8646)
+            (xy -6.9342 -6.3246)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.588 -16.51)
+            (xy -4.318 -13.97)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.588 -11.4808)
+            (xy -4.318 -8.9408)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.588 -6.3754)
+            (xy -4.318 -3.8354)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -5.588 -1.2954)
+            (xy -4.318 1.2446)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.445 -16.51)
+            (xy -5.715 -19.05)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.445 -11.43)
+            (xy -5.715 -13.97)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.4196 -1.2954)
+            (xy -5.6896 -3.8354)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.3942 -6.3246)
+            (xy -5.6642 -8.8646)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.318 -13.97)
+            (xy -3.048 -16.51)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.318 -8.9408)
+            (xy -3.048 -11.4808)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.318 -3.8354)
+            (xy -3.048 -6.3754)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -4.318 1.2446)
+            (xy -3.048 -1.2954)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.175 -19.05)
+            (xy -4.445 -16.51)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.175 -13.97)
+            (xy -4.445 -11.43)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.1496 -3.8354)
+            (xy -4.4196 -1.2954)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.1242 -8.8646)
+            (xy -4.3942 -6.3246)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -16.51)
+            (xy -2.413 -15.24)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -11.4808)
+            (xy -2.413 -10.16)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -6.3754)
+            (xy -2.413 -5.08)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -1.2954)
+            (xy -2.54 0)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -17.78)
+            (xy -3.175 -19.05)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -17.78)
+            (xy 0 -17.78)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -15.24)
+            (xy 0 -15.24)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -12.7)
+            (xy -3.175 -13.97)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -12.7)
+            (xy 0 -12.7)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -10.16)
+            (xy 0 -10.16)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -7.62)
+            (xy 0 -7.62)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -5.08)
+            (xy 0 -5.08)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 -2.54)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy 0 0)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.413 -7.62)
+            (xy -3.1242 -8.8646)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.413 -2.54)
+            (xy -3.1496 -3.8354)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -15.24)
+            (xy 0 -17.78)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -12.7)
+            (xy 0 -15.24)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -10.16)
+            (xy 0 -12.7)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -7.62)
+            (xy 0 -10.16)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -5.08)
+            (xy 0 -7.62)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy 0 -5.08)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -2.54)
+          )
+          (stroke (width 0.2032) (type default))
+          (fill (type none))
+        )
+        (pin passive line (at -12.7 0 0) (length 2.54)
+          (name "11" (effects (font (size 0 0))))
+          (number "1" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 2.54 -10.16 180) (length 2.54)
+          (name "55" (effects (font (size 0 0))))
+          (number "10" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -12.7 -5.08 0) (length 2.54)
+          (name "22" (effects (font (size 0 0))))
+          (number "2" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -12.7 -10.16 0) (length 2.54)
+          (name "33" (effects (font (size 0 0))))
+          (number "3" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -12.7 -15.24 0) (length 2.54)
+          (name "44" (effects (font (size 0 0))))
+          (number "4" (effects (font (size 0 0))))
+        )
+        (pin passive line (at 2.54 -10.16 180) (length 2.54)
+          (name "55" (effects (font (size 0 0))))
+          (number "5" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -12.7 -17.78 0) (length 2.54)
+          (name "66" (effects (font (size 0 0))))
+          (number "6" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -12.7 -12.7 0) (length 2.54)
+          (name "77" (effects (font (size 0 0))))
+          (number "7" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -12.7 -7.62 0) (length 2.54)
+          (name "88" (effects (font (size 0 0))))
+          (number "8" (effects (font (size 0 0))))
+        )
+        (pin passive line (at -12.7 -2.54 0) (length 2.54)
+          (name "99" (effects (font (size 0 0))))
+          (number "9" (effects (font (size 0 0))))
+        )
+      )
+    )
+    (symbol "oresat-power:3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#3V3" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "oresat-power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#GND" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -1.27)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
   (junction (at 160.02 106.68) (diameter 0) (color 0 0 0 0)
@@ -4523,7 +4552,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 104.14 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 00d87dc0-a5d6-45a9-bc34-268502baaf24)
     (property "Reference" "TP26" (at 153.67 104.14 0)
@@ -4532,7 +4561,7 @@
     (property "Value" "Test-Point" (at 160.02 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 101.6 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 101.6 0)
@@ -4548,7 +4577,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 109.22 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 109.22 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 042c3a7a-11e3-4162-84a0-b1b3c32e70f7)
     (property "Reference" "TP38" (at 234.95 109.22 0)
@@ -4557,7 +4586,7 @@
     (property "Value" "Test-Point" (at 228.6 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 111.76 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 111.76 0)
@@ -4573,7 +4602,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 187.96 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 187.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0e78b2f3-6f29-4a85-a821-a30a1736904d)
     (property "Reference" "TP33" (at 153.67 187.96 0)
@@ -4582,7 +4611,7 @@
     (property "Value" "Test-Point" (at 160.02 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 185.42 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 185.42 0)
@@ -4598,7 +4627,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 208.28 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 208.28 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12bbebb8-b6ad-4692-abe4-121e1f7ffb12)
     (property "Reference" "TP55" (at 234.95 208.28 0)
@@ -4607,7 +4636,7 @@
     (property "Value" "Test-Point" (at 228.6 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 210.82 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 210.82 0)
@@ -4623,7 +4652,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:3.3V") (at 292.1 138.43 0) (unit 1)
+  (symbol (lib_id "oresat-power:3.3V") (at 292.1 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16004068-f29d-4c08-9cf9-22fd9f185d24)
     (property "Reference" "#3V0106" (at 292.1 142.24 0)
@@ -4648,7 +4677,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 375.92 168.91 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 375.92 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16868bd2-6004-4254-915e-2c3353818bf1)
     (property "Reference" "#GND0147" (at 375.92 175.26 0)
@@ -4673,7 +4702,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 144.78 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b5ec68a-28cb-4de5-a0ce-a2bf28e9a9d4)
     (property "Reference" "TP46" (at 234.95 144.78 0)
@@ -4682,7 +4711,7 @@
     (property "Value" "Test-Point" (at 228.6 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 147.32 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 147.32 0)
@@ -4698,7 +4727,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 55.88 153.67 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 55.88 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e61bb2f-2145-4716-88f4-6d2cbbc55c82)
     (property "Reference" "#GND0138" (at 55.88 160.02 0)
@@ -4827,7 +4856,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:3.3V") (at 88.9 102.87 0) (unit 1)
+  (symbol (lib_id "oresat-power:3.3V") (at 88.9 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 272c270b-f0ac-406b-8177-6121de14e6ff)
     (property "Reference" "#3V0102" (at 88.9 106.68 0)
@@ -4908,7 +4937,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 215.9 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 215.9 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2c760467-bde2-4428-93bf-118a89962811)
     (property "Reference" "TP58" (at 234.95 215.9 0)
@@ -4917,7 +4946,7 @@
     (property "Value" "Test-Point" (at 228.6 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 218.44 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 218.44 0)
@@ -4933,7 +4962,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:3.3V") (at 327.66 152.4 0) (unit 1)
+  (symbol (lib_id "oresat-power:3.3V") (at 327.66 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d30fcc9-d3e7-403f-a41f-46f290059395)
     (property "Reference" "#3V0108" (at 327.66 156.21 0)
@@ -5068,7 +5097,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 106.68 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 106.68 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3fb7d710-3f28-4346-b030-e121530d9675)
     (property "Reference" "TP37" (at 234.95 106.68 0)
@@ -5077,7 +5106,7 @@
     (property "Value" "Test-Point" (at 228.6 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 109.22 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 109.22 0)
@@ -5093,7 +5122,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:3.3V") (at 160.02 46.99 0) (unit 1)
+  (symbol (lib_id "oresat-power:3.3V") (at 160.02 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4124b6e5-9889-4527-8e7d-f4e9c9efcff5)
     (property "Reference" "#3V0105" (at 160.02 50.8 0)
@@ -5118,7 +5147,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 283.21 129.54 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 283.21 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 422176e9-0894-47cf-9ea2-33cf1ab6083a)
     (property "Reference" "#GND0150" (at 283.21 135.89 0)
@@ -5143,7 +5172,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 200.66 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 428efcc0-1805-4ef3-b482-7f0c50ef5577)
     (property "Reference" "TP35" (at 153.67 200.66 0)
@@ -5152,7 +5181,7 @@
     (property "Value" "Test-Point" (at 160.02 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 198.12 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 198.12 0)
@@ -5168,7 +5197,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 76.2 153.67 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 76.2 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45cdd852-4e61-4dda-b648-7029ad9f6409)
     (property "Reference" "#GND0139" (at 76.2 160.02 0)
@@ -5193,7 +5222,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 190.5 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 190.5 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4731e92d-d24d-4c55-8d76-9eee87a535b3)
     (property "Reference" "TP51" (at 234.95 190.5 0)
@@ -5202,7 +5231,7 @@
     (property "Value" "Test-Point" (at 228.6 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 193.04 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 193.04 0)
@@ -5218,7 +5247,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 187.96 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 187.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 49250c59-79e3-4a6c-b819-efccf07a772f)
     (property "Reference" "TP50" (at 234.95 187.96 0)
@@ -5227,7 +5256,7 @@
     (property "Value" "Test-Point" (at 228.6 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 190.5 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 190.5 0)
@@ -5243,7 +5272,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 142.24 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 142.24 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 495a4d28-2624-4577-9812-dfc01af9b0b9)
     (property "Reference" "TP45" (at 234.95 142.24 0)
@@ -5252,7 +5281,7 @@
     (property "Value" "Test-Point" (at 228.6 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 144.78 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 144.78 0)
@@ -5268,7 +5297,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 144.78 69.85 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 144.78 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c6ddc1f-f3c7-4c52-88f6-f390359e74af)
     (property "Reference" "TP23" (at 138.43 69.85 0)
@@ -5277,7 +5306,7 @@
     (property "Value" "Test-Point" (at 144.78 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 144.78 67.31 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 144.78 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 144.78 67.31 0)
@@ -5293,7 +5322,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 350.52 168.91 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 350.52 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4fe442bd-0090-4193-8f23-b4c56d893e23)
     (property "Reference" "#GND0149" (at 350.52 175.26 0)
@@ -5318,7 +5347,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 57.15 114.3 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 57.15 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 503137e2-6fd1-4c12-84c3-f84d756ac06c)
     (property "Reference" "#GND0140" (at 57.15 120.65 0)
@@ -5343,7 +5372,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 170.18 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 51a2011c-d207-4ab7-94c6-e2473409348c)
     (property "Reference" "TP111" (at 152.4 170.18 0)
@@ -5352,7 +5381,7 @@
     (property "Value" "Test-Point" (at 160.02 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 167.64 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 167.64 0)
@@ -5368,7 +5397,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 114.3 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 114.3 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5320530d-2a14-4c3d-ad1a-0b272d26ba92)
     (property "Reference" "TP40" (at 234.95 114.3 0)
@@ -5377,7 +5406,7 @@
     (property "Value" "Test-Point" (at 228.6 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 116.84 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 116.84 0)
@@ -5393,7 +5422,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 185.42 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 185.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b6250de-cdc2-4b60-afce-931e70c5f419)
     (property "Reference" "TP49" (at 234.95 185.42 0)
@@ -5402,7 +5431,7 @@
     (property "Value" "Test-Point" (at 228.6 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 187.96 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 187.96 0)
@@ -5418,7 +5447,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 67.31 114.3 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 67.31 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d6f0a87-3d5e-43c5-89f7-f6c58b7c8414)
     (property "Reference" "#GND0141" (at 67.31 120.65 0)
@@ -5469,7 +5498,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 157.48 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 157.48 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 633c5c62-809d-4214-abf7-ecba82d24d81)
     (property "Reference" "TP48" (at 234.95 157.48 0)
@@ -5478,7 +5507,7 @@
     (property "Value" "Test-Point" (at 228.6 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 160.02 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 160.02 0)
@@ -5494,7 +5523,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 193.04 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 193.04 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6d69ee20-488e-49bf-abd6-b7ef03628b07)
     (property "Reference" "TP52" (at 234.95 193.04 0)
@@ -5503,7 +5532,7 @@
     (property "Value" "Test-Point" (at 228.6 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 195.58 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 195.58 0)
@@ -5545,7 +5574,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:3.3V") (at 271.78 138.43 0) (unit 1)
+  (symbol (lib_id "oresat-power:3.3V") (at 271.78 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7191900b-b990-43ec-944e-d47a186430ba)
     (property "Reference" "#3V0107" (at 271.78 142.24 0)
@@ -5885,7 +5914,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 109.22 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 769033e9-1809-45da-801a-e49c206e5058)
     (property "Reference" "TP29" (at 153.67 109.22 0)
@@ -5894,7 +5923,7 @@
     (property "Value" "Test-Point" (at 160.02 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 106.68 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 106.68 0)
@@ -5910,7 +5939,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 134.62 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7706ec48-e370-48a5-b93c-3d5e488012da)
     (property "Reference" "TP43" (at 234.95 134.62 0)
@@ -5919,7 +5948,7 @@
     (property "Value" "Test-Point" (at 228.6 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 137.16 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 137.16 0)
@@ -5935,7 +5964,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 213.36 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 213.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77f5ea69-7364-4317-8334-53bd521c202f)
     (property "Reference" "TP57" (at 234.95 213.36 0)
@@ -5944,7 +5973,7 @@
     (property "Value" "Test-Point" (at 228.6 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 215.9 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 215.9 0)
@@ -5960,7 +5989,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 101.6 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8094f5a5-6c89-4f9d-8e9a-bcd0cffda63a)
     (property "Reference" "TP36" (at 234.95 101.6 0)
@@ -5969,7 +5998,7 @@
     (property "Value" "Test-Point" (at 228.6 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 104.14 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 104.14 0)
@@ -5985,7 +6014,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 139.7 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 139.7 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 857989b5-018d-4feb-a377-17769fb0a831)
     (property "Reference" "TP44" (at 234.95 139.7 0)
@@ -5994,7 +6023,7 @@
     (property "Value" "Test-Point" (at 228.6 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 142.24 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 142.24 0)
@@ -6036,7 +6065,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 106.68 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92113d0b-6928-4615-801b-ffab4b17cff3)
     (property "Reference" "TP28" (at 153.67 106.68 0)
@@ -6045,7 +6074,7 @@
     (property "Value" "Test-Point" (at 160.02 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 104.14 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 104.14 0)
@@ -6061,7 +6090,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 177.8 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93a0ad94-5831-4d3e-b2b4-82ef2b1ad5f0)
     (property "Reference" "TP60" (at 153.67 177.8 0)
@@ -6070,7 +6099,7 @@
     (property "Value" "Test-Point" (at 160.02 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 175.26 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 175.26 0)
@@ -6086,7 +6115,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 198.12 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97517fe8-429e-4e56-ac91-04c8ab4c50f3)
     (property "Reference" "TP112" (at 152.4 198.12 0)
@@ -6095,7 +6124,7 @@
     (property "Value" "Test-Point" (at 160.02 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 195.58 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 195.58 0)
@@ -6111,7 +6140,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 172.72 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 99ad9e01-7a80-46bb-9990-31d144c520f9)
     (property "Reference" "TP109" (at 152.4 172.72 0)
@@ -6120,7 +6149,7 @@
     (property "Value" "Test-Point" (at 160.02 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 170.18 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 170.18 0)
@@ -6136,7 +6165,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 180.34 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c716922-39bf-4772-bd74-32ce4830a396)
     (property "Reference" "TP30" (at 153.67 180.34 0)
@@ -6145,7 +6174,7 @@
     (property "Value" "Test-Point" (at 160.02 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 177.8 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 177.8 0)
@@ -6161,7 +6190,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 182.88 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9cc8f5eb-cb0b-4492-940d-a71dfbb99d1a)
     (property "Reference" "TP31" (at 153.67 182.88 0)
@@ -6170,7 +6199,7 @@
     (property "Value" "Test-Point" (at 160.02 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 180.34 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 180.34 0)
@@ -6186,7 +6215,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 149.86 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 149.86 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a13721c5-3af8-48a2-b786-ea52ee4d1743)
     (property "Reference" "TP47" (at 234.95 149.86 0)
@@ -6195,7 +6224,7 @@
     (property "Value" "Test-Point" (at 228.6 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 152.4 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 152.4 0)
@@ -6211,7 +6240,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 175.26 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4c9fb10-c823-4db5-99ca-b7a614d9a999)
     (property "Reference" "TP105" (at 152.4 175.26 0)
@@ -6220,7 +6249,7 @@
     (property "Value" "Test-Point" (at 160.02 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 172.72 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 172.72 0)
@@ -6236,7 +6265,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:3.3V") (at 76.2 105.41 0) (unit 1)
+  (symbol (lib_id "oresat-power:3.3V") (at 76.2 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aeddbe40-e5d9-4991-9f97-bac2cd643e21)
     (property "Reference" "#3V0101" (at 76.2 109.22 0)
@@ -6261,7 +6290,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 195.58 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 195.58 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aff76c6f-a0da-4818-9fcd-99f7f9f43c3a)
     (property "Reference" "TP53" (at 234.95 195.58 0)
@@ -6270,7 +6299,7 @@
     (property "Value" "Test-Point" (at 228.6 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 198.12 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 198.12 0)
@@ -6286,7 +6315,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 111.76 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 111.76 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5b099dd-eb1d-4f8f-90ac-ac678c29ca23)
     (property "Reference" "TP39" (at 234.95 111.76 0)
@@ -6295,7 +6324,7 @@
     (property "Value" "Test-Point" (at 228.6 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 114.3 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 114.3 0)
@@ -6311,7 +6340,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 101.6 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bc1da5c6-a6e1-4a65-bc76-9ff7a7f44969)
     (property "Reference" "TP27" (at 158.75 101.6 0)
@@ -6320,7 +6349,7 @@
     (property "Value" "Test-Point" (at 160.02 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 104.14 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 104.14 0)
@@ -6362,7 +6391,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 144.78 72.39 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 144.78 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c3469bc4-2677-4a83-b002-b2b25e4bf254)
     (property "Reference" "TP24" (at 138.43 72.39 0)
@@ -6371,7 +6400,7 @@
     (property "Value" "Test-Point" (at 144.78 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 144.78 69.85 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 144.78 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 144.78 69.85 0)
@@ -6387,7 +6416,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 132.08 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c45b18de-9330-4981-83da-62560f0439d2)
     (property "Reference" "TP42" (at 234.95 132.08 0)
@@ -6396,7 +6425,7 @@
     (property "Value" "Test-Point" (at 228.6 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 134.62 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 134.62 0)
@@ -6438,7 +6467,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 198.12 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 198.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d33f8b30-b9ab-44f6-8d0a-380ea186970e)
     (property "Reference" "TP54" (at 234.95 198.12 0)
@@ -6447,7 +6476,7 @@
     (property "Value" "Test-Point" (at 228.6 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 200.66 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 200.66 0)
@@ -6463,7 +6492,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 195.58 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3efc0b9-5e54-42f3-b867-9582a381f656)
     (property "Reference" "TP34" (at 153.67 195.58 0)
@@ -6472,7 +6501,7 @@
     (property "Value" "Test-Point" (at 160.02 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 193.04 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 193.04 0)
@@ -6514,7 +6543,7 @@
     )
   )
 
-  (symbol (lib_id "J-Hirose-DM3BT-DSF-PEJS-sd-connector:DM3BT-DSF-PEJS") (at 58.42 137.16 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-connectors:DM3BT-DSF-PEJS") (at 58.42 137.16 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d9d315cc-9f93-4099-b5f5-8062b5b53fb9)
     (property "Reference" "J5" (at 46.99 121.92 0)
@@ -6554,7 +6583,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 160.02 78.74 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 160.02 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid da052379-5104-4e7a-a8f6-9dc53de24ac2)
     (property "Reference" "#GND0146" (at 160.02 85.09 0)
@@ -6631,7 +6660,7 @@
     )
   )
 
-  (symbol (lib_id "R-EXB-A10P391j:EXB-A10P391J") (at 78.74 106.68 90) (unit 1)
+  (symbol (lib_id "oresat-passives:EXB-A10P391J") (at 78.74 106.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e58cc4c1-12c3-433a-909b-ea3e7ba511fb)
     (property "Reference" "R69" (at 85.09 101.6 90)
@@ -6691,7 +6720,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 160.02 185.42 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 160.02 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f153e4d0-7aa7-4b16-9748-9d1e67f7573f)
     (property "Reference" "TP32" (at 153.67 185.42 0)
@@ -6700,7 +6729,7 @@
     (property "Value" "Test-Point" (at 160.02 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 160.02 182.88 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 160.02 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 160.02 182.88 0)
@@ -6716,7 +6745,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 210.82 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 210.82 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f17399d3-52f0-4066-8288-94fe685d26d7)
     (property "Reference" "TP56" (at 234.95 210.82 0)
@@ -6725,7 +6754,7 @@
     (property "Value" "Test-Point" (at 228.6 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 213.36 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 213.36 0)
@@ -6767,7 +6796,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-TestPoint:Test-Point") (at 228.6 129.54 180) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point") (at 228.6 129.54 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7cb3381-09c7-4abc-93af-a5b8c9d5b800)
     (property "Reference" "TP41" (at 234.95 129.54 0)
@@ -6776,7 +6805,7 @@
     (property "Value" "Test-Point" (at 228.6 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "OreSat-TestPoint:PAD.03X.04" (at 228.6 132.08 0)
+    (property "Footprint" "oresat-misc:PAD.03X.04" (at 228.6 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 228.6 132.08 0)
@@ -6792,7 +6821,7 @@
     )
   )
 
-  (symbol (lib_id "R-EXB-A10P391j:EXB-A10P391J") (at 261.62 142.24 90) (unit 1)
+  (symbol (lib_id "oresat-passives:EXB-A10P391J") (at 261.62 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f8600c66-b538-43c2-ad2f-75b699eb3198)
     (property "Reference" "R70" (at 276.86 137.16 90)
@@ -6826,7 +6855,7 @@
     )
   )
 
-  (symbol (lib_id "R-EXB-A10P391j:EXB-A10P391J") (at 281.94 142.24 90) (unit 1)
+  (symbol (lib_id "oresat-passives:EXB-A10P391J") (at 281.94 142.24 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid faef2d9f-38d2-432b-8518-1edb7c37a2b6)
     (property "Reference" "R71" (at 297.18 137.16 90)
@@ -6860,7 +6889,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 330.2 198.12 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 330.2 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fbe52aeb-ea91-4982-813f-c3f006d885bd)
     (property "Reference" "#GND0148" (at 330.2 204.47 0)
@@ -6885,7 +6914,7 @@
     )
   )
 
-  (symbol (lib_id "OreSat-Power:GND") (at 144.78 55.88 0) (unit 1)
+  (symbol (lib_id "oresat-power:GND") (at 144.78 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd22536a-6286-4bf6-bdda-5831a1e976db)
     (property "Reference" "#GND0145" (at 144.78 62.23 0)
