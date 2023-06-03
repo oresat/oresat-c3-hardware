@@ -8140,8 +8140,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 82.55 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76be))
-    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76be))
+    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76bf))
+    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76bf))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
