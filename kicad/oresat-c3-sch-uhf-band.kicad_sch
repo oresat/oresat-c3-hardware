@@ -3693,10 +3693,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 70b0b1a7-3bd9-4b8b-a5bd-8a657e85e3f4)
   )
-  (text "This really wants 5V?\n" (at 209.55 205.74 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold (color 255 0 0 1)) (justify left bottom))
-    (uuid 73e25373-2ee3-41b4-b324-fe05d60626f4)
-  )
   (text "5th order LPF" (at 173.99 91.44 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 73e89c8f-f759-4e7a-a994-00e6be8b21f9)
@@ -8144,8 +8140,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 82.55 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76bd))
-    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76bd))
+    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76be))
+    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76be))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
