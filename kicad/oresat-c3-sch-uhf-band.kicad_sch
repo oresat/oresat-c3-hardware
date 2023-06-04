@@ -3746,6 +3746,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f273bef6-a744-455a-90ff-23344ff4cc0e)
   )
+  (text "Make pass through version" (at 285.75 246.38 0)
+    (effects (font (size 2 2) (thickness 0.4) bold (color 255 0 0 1)) (justify left bottom))
+    (uuid f6b3c4f1-1e91-4366-95cc-8c5287c3592f)
+  )
   (text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
     (at 118.11 261.62 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -8140,8 +8144,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 82.55 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76bf))
-    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76bf))
+    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76c0))
+    (pin "" (uuid fcc318ad-425c-4853-9a4c-7741aa0d76c0))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
