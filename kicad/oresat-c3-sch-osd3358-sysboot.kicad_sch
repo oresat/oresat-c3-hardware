@@ -3176,6 +3176,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d85d5fea-42a0-4d27-b3e2-f1c88417b050)
   )
+  (text "OK FOR GPIO" (at 177.8 184.15 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d9e23c02-1b4a-4282-a5a3-eab7944fec8d)
+  )
   (text "Other settings:\n\nSYSBOOT[15:14] = 0b01 = 24 MHz Crystal\nSYSBOOT[5] = 0 = CLKOUT1 disabled"
     (at 247.65 157.48 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
