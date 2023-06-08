@@ -10,4 +10,5 @@
   (lib (name "oresat-pcbs")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-pcbs.pretty")(options "")(descr ""))
   (lib (name "oresat-qrcodes")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-qrcodes.pretty")(options "")(descr ""))
   (lib (name "oresat-transistors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-transistors.pretty")(options "")(descr ""))
+  (lib (name "oresat-c3")(type "KiCad")(uri "/home/andrew/psas/oresat/oresat-c3/eagle/kicad-import/oresat-c3.pretty")(options "")(descr ""))
 )
