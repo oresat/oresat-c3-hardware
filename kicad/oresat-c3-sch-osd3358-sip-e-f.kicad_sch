@@ -1995,11 +1995,11 @@
         )
       )
     )
-    (symbol "oresat-power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#GND" (at 0 -6.35 0)
+    (symbol "power:GND1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND" (at 0 -2.54 0)
+      (property "Value" "GND1" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -2008,19 +2008,19 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GND1\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND_0_1"
+      (symbol "GND1_0_1"
         (polyline
           (pts
             (xy 0 0)
             (xy 0 -1.27)
             (xy 1.27 -1.27)
-            (xy 0 -1.27)
+            (xy 0 -2.54)
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
@@ -2028,9 +2028,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND_1_1"
+      (symbol "GND1_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
+          (name "GND1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2457,13 +2457,13 @@
     (uuid 4017367d-77ab-4b41-b47d-1ef79a832109)
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 250.19 125.73 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 250.19 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 537bbf84-e99a-4231-8e80-3671109a272b)
     (property "Reference" "#GND0172" (at 250.19 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 250.19 128.27 0)
+    (property "Value" "GND1" (at 250.19 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 250.19 125.73 0)
@@ -2472,26 +2472,26 @@
     (property "Datasheet" "" (at 250.19 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 286de4ef-ed57-40ae-bc38-0b1c817de9ed))
+    (pin "1" (uuid f13d9224-5e1a-46da-b677-7d08537ca2cc))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
           (reference "#GND0172") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/ce2d6150-524f-4c6f-aba3-da83a5df548c"
-          (reference "#GND036") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 184.15 125.73 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 184.15 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6362b62f-77a1-4d4c-bd71-fefd6050a6ff)
     (property "Reference" "#GND0173" (at 184.15 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 184.15 128.27 0)
+    (property "Value" "GND1" (at 184.15 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 184.15 125.73 0)
@@ -2500,14 +2500,14 @@
     (property "Datasheet" "" (at 184.15 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c6d83aa2-dc19-4f4f-890e-b3c7d90b765c))
+    (pin "1" (uuid f55f5375-b60b-438f-8bb7-68ea8ff38b03))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
           (reference "#GND0173") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/ce2d6150-524f-4c6f-aba3-da83a5df548c"
-          (reference "#GND035") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )

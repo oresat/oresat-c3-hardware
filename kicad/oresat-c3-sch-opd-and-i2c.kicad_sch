@@ -504,11 +504,11 @@
       (symbol "1N4151WS-HE3_1_1"
         (pin passive line (at 2.54 0 180) (length 1.27)
           (name "1" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
         )
         (pin passive line (at -2.54 0 0) (length 1.27)
           (name "2" (effects (font (size 1.27 1.27))))
-          (number "" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -519,13 +519,13 @@
       (property "Value" "LTC4300A-1" (at 1.27 11.43 0)
         (effects (font (size 1.27 1.27)) (justify left bottom))
       )
-      (property "Footprint" "" (at 0 0 0)
+      (property "Footprint" "oresat-ics:LINEAR-MSOP-8-AND-MAXIM-UMAX-8-21-0036" (at 0 27.94 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4300a12fa.pdf" (at 0 30.48 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Buffer, Accelerator 2 Channel 400kHz 8-MSOP" (at 0 0 0)
+      (property "ki_description" "Hot Swappable 2-Wire Bus Buffer" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "LTC4300A-1_1_0"
@@ -576,7 +576,7 @@
       (property "Value" "MAX892LEUA+T" (at 0 11.43 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Footprint" "oresat-c3:21-0036K" (at 0 22.86 0)
+      (property "Footprint" "oresat-ics:LINEAR-MSOP-8-AND-MAXIM-UMAX-8-21-0036" (at 0 22.86 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX891L-MAX892L.pdf" (at 0 26.67 0)
@@ -865,11 +865,11 @@
         )
       )
     )
-    (symbol "oresat-power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#GND" (at 0 -6.35 0)
+    (symbol "power:GND1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND" (at 0 -2.54 0)
+      (property "Value" "GND1" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -878,19 +878,19 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GND1\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND_0_1"
+      (symbol "GND1_0_1"
         (polyline
           (pts
             (xy 0 0)
             (xy 0 -1.27)
             (xy 1.27 -1.27)
-            (xy 0 -1.27)
+            (xy 0 -2.54)
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
@@ -898,9 +898,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND_1_1"
+      (symbol "GND1_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
+          (name "GND1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1710,14 +1710,14 @@
     (property "Datasheet" "http://www.cypress.com/file/41651/download" (at 247.65 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b69eb91-e402-425b-85a9-c86fdb7f3dd0))
-    (pin "2" (uuid ec6a669e-1bf9-498c-8044-c253ce2aaeba))
-    (pin "3" (uuid 6965b303-90cd-4258-bf90-571f1351a6ee))
-    (pin "4" (uuid 1c58a6c1-8e58-42a5-8475-99ff20e75094))
-    (pin "5" (uuid 800b2f73-4b43-40c2-88df-d7d56fc8d6ad))
-    (pin "6" (uuid 16ae85a1-eeb5-4ce4-81fa-17192f31ebee))
-    (pin "7" (uuid 5a0ca17c-26d2-4eb6-b440-a86ef3b4eec1))
-    (pin "8" (uuid d8e736e8-20d0-4557-b793-d636a8a9fe80))
+    (pin "1" (uuid b09b2f6d-2118-45cc-8116-1259c5d0a5e3))
+    (pin "2" (uuid 156d926b-4735-4f58-8a63-57d1752c474c))
+    (pin "3" (uuid c678812a-dc1f-4007-88b6-52a2c6553035))
+    (pin "4" (uuid 3e37c118-3bd6-48ad-bdfe-fe783610d34e))
+    (pin "5" (uuid 4d797d8f-d88f-434d-944b-888f4c0401fd))
+    (pin "6" (uuid ef6f90eb-af19-46e9-a61f-cd960efdc933))
+    (pin "7" (uuid 9edf2dab-ef20-4842-83d9-5553d546f062))
+    (pin "8" (uuid 7c743b15-eafa-46ac-8e8d-6c6e89cab526))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -1742,7 +1742,7 @@
     (property "Datasheet" "" (at 143.51 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ee2bde9-67e1-4b92-8499-7cf614a4db22))
+    (pin "1" (uuid 8945f3de-5024-4dfb-9fa4-87d2597ef78e))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -1759,25 +1759,25 @@
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a827e58-70e8-43c7-890e-5dbcf2706c1b)
     (property "Reference" "U13" (at 167.64 157.48 0)
-      (effects (font (size 1.27 1.27)))
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "MAX892LEUA+T" (at 167.64 160.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "oresat-c3:21-0036K" (at 167.64 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX891L-MAX892L.pdf" (at 167.64 171.45 0)
+    (property "Footprint" "oresat-ics:LINEAR-MSOP-8-AND-MAXIM-UMAX-8-21-0036" (at 167.64 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2eee9b88-f4e0-4d6d-b9c9-c3e833488586))
-    (pin "2" (uuid c4f08e44-88b8-4ca4-bd7d-2a92dd3d67e7))
-    (pin "3" (uuid bcd395aa-eb0d-444c-bb3a-f6aee02cbfc7))
-    (pin "4" (uuid c7d013c6-47a9-42d1-99c3-3801e4d13b17))
-    (pin "5" (uuid 3509a9b1-45a6-43af-89f5-640274d9b104))
-    (pin "6" (uuid 75945c62-242c-482e-a1cf-34ec409b346d))
-    (pin "7" (uuid 4313b255-ed81-4a01-887c-483f35ba4808))
-    (pin "8" (uuid 63d3e636-814b-42ae-ab8e-5ee86b413786))
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX891L-MAX892L.pdf" (at 167.64 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 66f5823e-9fa3-4f34-9975-3e5fbde1ac6b))
+    (pin "2" (uuid b5b749c0-60e0-4c00-ae4b-c3e08e3267df))
+    (pin "3" (uuid 68586ebb-c9a8-47f9-b8b4-8f587a66ad6b))
+    (pin "4" (uuid 039c5c83-bdb2-48e9-a175-0a32e3f3a396))
+    (pin "5" (uuid d6b56089-25e4-4bac-9200-33c688d11c74))
+    (pin "6" (uuid 50ac1c50-6785-4040-87b7-4b6e92992db4))
+    (pin "7" (uuid 0ea6845f-6ddf-4169-9e0b-c3671176a18e))
+    (pin "8" (uuid 4d2dd430-3cde-4e3a-80a6-221aeed7564b))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -1787,13 +1787,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 181.61 113.03 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 181.61 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f5f3cc1-6f18-46e5-a94c-01c5c785aaed)
     (property "Reference" "#GND0163" (at 181.61 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 181.61 115.57 0)
+    (property "Value" "GND1" (at 181.61 116.84 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 181.61 113.03 0)
@@ -1802,7 +1802,7 @@
     (property "Datasheet" "" (at 181.61 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fea325dd-f124-4927-9d24-4fac3e807434))
+    (pin "1" (uuid 57063f78-fe52-4c5f-852e-f6534d548dee))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -1812,7 +1812,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND014") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -1827,14 +1827,14 @@
     (property "Value" "4.7k" (at 273.05 213.995 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 270.51 212.09 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 270.51 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 270.51 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee3378a0-c722-4a02-ba70-eceaa992dd56))
-    (pin "2" (uuid 919726ac-51a9-4860-8dec-2af749320c10))
+    (pin "1" (uuid 5a841f52-f193-4f5e-a33a-6e7f6825f351))
+    (pin "2" (uuid 5b80ff8c-37c6-48c5-9154-e031db1ab88b))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -1853,14 +1853,14 @@
     (property "Value" "10k" (at 204.47 53.975 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 207.01 52.07 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 207.01 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 207.01 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a06347e8-dbf6-4971-8120-1c66665c7e09))
-    (pin "2" (uuid b5459060-b5ff-43c2-8e41-21b3f0d32b30))
+    (pin "1" (uuid cfcbe257-e380-467f-8170-7961e4dd53ed))
+    (pin "2" (uuid 19e69862-8d33-4bc8-9168-ee4c0d1cb93d))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -1870,13 +1870,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 252.73 73.66 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 252.73 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1a0af96b-48f4-4908-80b2-7261944f86f5)
     (property "Reference" "#GND0163" (at 252.73 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 252.73 76.2 0)
+    (property "Value" "GND1" (at 252.73 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 252.73 73.66 0)
@@ -1885,7 +1885,7 @@
     (property "Datasheet" "" (at 252.73 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e7d2650-cbb3-4d76-a39e-95baefb7d45e))
+    (pin "1" (uuid d695b7e8-5c8d-4ac7-9f9b-ccb21b84e882))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -1895,7 +1895,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND012") (unit 1)
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -1916,7 +1916,7 @@
     (property "Datasheet" "" (at 237.49 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 075a5b49-c361-421f-9ec6-611dc959d5aa))
+    (pin "1" (uuid 4dca6e4c-b190-420f-bc5e-b827a2ac2f8b))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
@@ -1944,7 +1944,7 @@
     (property "Datasheet" "" (at 229.87 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 993fb5c6-e11a-4f42-b32e-20a6d847840a))
+    (pin "1" (uuid 9e50a1bb-c828-4000-84e8-fd02b160d5b1))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -1969,8 +1969,8 @@
     (property "Datasheet" "~" (at 207.01 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3a184a01-2481-44a9-8f65-b3a82e52b723))
-    (pin "2" (uuid eab11bbe-d3d0-4248-b6f5-82db57e6cb2a))
+    (pin "1" (uuid 466ed6db-ab97-473c-a636-59a11efb657e))
+    (pin "2" (uuid 7149d089-d443-4ae7-af9b-d228f2af2c31))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
@@ -1998,7 +1998,7 @@
     (property "Datasheet" "" (at 198.12 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d7a2eef3-9bd4-4e9a-a11f-99c1c15841c4))
+    (pin "1" (uuid cf3707d8-cee8-4ccf-babd-655599a34668))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -2020,14 +2020,14 @@
     (property "Value" "150" (at 186.69 71.755 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 184.15 69.85 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 184.15 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 184.15 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee220376-edd1-4b56-b745-ea6e72ac3b08))
-    (pin "2" (uuid 0e3e3e4e-0467-4e5b-b541-370aecb33dfa))
+    (pin "1" (uuid 49658365-1b13-40a0-9bae-6a0a607a3a98))
+    (pin "2" (uuid 7b87d3fa-066d-4e08-be3a-09dc57a201d9))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2052,7 +2052,7 @@
     (property "Datasheet" "" (at 255.27 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ba64b062-9a27-42d8-9c5e-8e5dd6520102))
+    (pin "1" (uuid 0b3f3e94-f2e2-4f29-a834-4dd81d1321d2))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -2065,13 +2065,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 181.61 190.5 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 181.61 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 349d2c38-bb45-4460-9210-3fe95ee527f5)
     (property "Reference" "#GND0163" (at 181.61 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 181.61 193.04 0)
+    (property "Value" "GND1" (at 181.61 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 181.61 190.5 0)
@@ -2080,7 +2080,7 @@
     (property "Datasheet" "" (at 181.61 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 04285bd6-b27e-4665-8a9b-e67c85e36121))
+    (pin "1" (uuid cc09d4b9-a0dc-46f5-9c65-79a4fddda21e))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -2090,7 +2090,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND042") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
     )
@@ -2105,14 +2105,14 @@
     (property "Value" "100n" (at 255.27 71.7613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 252.73 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 252.73 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 252.73 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7a4c1991-d881-4357-8a40-cd3dcf829f5f))
-    (pin "2" (uuid e3bca9d6-b6da-4b1d-ba6f-b9e38273da4d))
+    (pin "1" (uuid c31f3354-abb6-4fe2-a679-74a49ea4926c))
+    (pin "2" (uuid 6eb42a03-11c8-4a8c-aec9-3dbf29026864))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2137,7 +2137,7 @@
     (property "Datasheet" "" (at 143.51 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7ae09ae0-8fb7-48f6-929d-d52b9eaf8b96))
+    (pin "1" (uuid 18678b6a-bcde-49f8-9f62-092f5aa7397a))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -2150,13 +2150,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 165.1 114.3 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 165.1 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40f418ba-1ed9-44bd-b65d-06734b482f2e)
     (property "Reference" "#GND0163" (at 165.1 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 165.1 116.84 0)
+    (property "Value" "GND1" (at 165.1 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 165.1 114.3 0)
@@ -2165,7 +2165,7 @@
     (property "Datasheet" "" (at 165.1 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe055e16-63e3-4811-b6c4-aeec6d4b0a8c))
+    (pin "1" (uuid c1107de5-6627-43eb-8643-850f9ed54f20))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -2175,7 +2175,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND045") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -2196,9 +2196,9 @@
     (property "Datasheet" "http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF" (at 213.36 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid d8ddf2b2-9324-48cc-8533-ad289230b1ff))
-    (pin "2" (uuid f1d95b23-2b0a-4612-aff5-3439b94c464d))
-    (pin "3" (uuid c4b12aa6-75be-46fa-9ad8-98c613904fc5))
+    (pin "1" (uuid 6184b48f-534c-4898-af2b-70d251d2f8de))
+    (pin "2" (uuid 2caab539-39b8-44ee-b5a3-919567e1fe79))
+    (pin "3" (uuid b8540539-aeec-45e7-a726-ffc20eb1272c))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2217,14 +2217,14 @@
     (property "Value" "100n" (at 200.66 206.3813 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 203.2 204.47 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 203.2 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 203.2 204.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6f42ceed-82d3-4e80-8423-484b09014e14))
-    (pin "2" (uuid 5311d486-b57d-4f85-bbb5-db01758d92f1))
+    (pin "1" (uuid 644a0028-c7ef-49d0-9aa8-071fc21309d2))
+    (pin "2" (uuid 76273566-2a65-40fd-b339-7147763c8a5b))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2249,7 +2249,7 @@
     (property "Datasheet" "" (at 119.38 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ac74faba-a24d-4144-b278-3f1463a04fd8))
+    (pin "1" (uuid 2a98201d-639f-4bc6-9689-42208f4389e5))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -2271,14 +2271,14 @@
     (property "Value" "4.7k" (at 264.16 213.995 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 266.7 212.09 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 266.7 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 266.7 212.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43f84300-e39e-48cc-81f6-453775e8bb2c))
-    (pin "2" (uuid a34531c0-6a9d-4df2-bfba-e855222cdb11))
+    (pin "1" (uuid 227460fe-7fec-4f84-84b9-333004b54df7))
+    (pin "2" (uuid a3bad565-62b7-455c-a922-e0f69b8bfa96))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2303,8 +2303,8 @@
     (property "Datasheet" "~" (at 207.01 173.99 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1e396db6-f0f9-4785-a846-b641eef334c5))
-    (pin "2" (uuid 4af88154-564d-4058-8d61-45a8d374ee7d))
+    (pin "1" (uuid 10b2cc7b-0475-4fca-8969-f4e69ef9a689))
+    (pin "2" (uuid 9b1a7fd2-b69c-4cca-a2ac-64c7545cb02a))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
@@ -2317,13 +2317,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 203.2 208.28 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:GND1") (at 203.2 208.28 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66c141d1-fa74-4dd6-8a0a-a1e2fd8fbbf9)
     (property "Reference" "#GND0163" (at 203.2 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 203.2 210.82 0)
+    (property "Value" "GND1" (at 203.2 212.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 203.2 208.28 0)
@@ -2332,7 +2332,7 @@
     (property "Datasheet" "" (at 203.2 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 28e637dd-59a4-47de-b993-d04e7610dc16))
+    (pin "1" (uuid 679b2b7b-1ec7-442f-b71a-1ad951b2be31))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -2342,7 +2342,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND048") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
       )
     )
@@ -2363,7 +2363,7 @@
     (property "Datasheet" "" (at 147.32 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1bf5cbba-7f89-4d4a-bb6a-be14abb2e796))
+    (pin "1" (uuid 9c79ba77-00a4-4bcd-aff7-72722627a754))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
@@ -2391,7 +2391,7 @@
     (property "Datasheet" "" (at 163.83 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3dc388ed-13f0-45e7-aa04-0e84e28937b6))
+    (pin "1" (uuid a1f2a7d3-75ef-4288-bf35-9d8251c4280d))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -2413,14 +2413,14 @@
     (property "Value" "10k" (at 162.56 112.395 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 165.1 110.49 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 165.1 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fdf1d7c8-24c2-4dfd-ab52-f5bf0a2d4c0d))
-    (pin "2" (uuid eb3a8726-a0b5-46ab-92d7-1f87d3e56a06))
+    (pin "1" (uuid f93ee675-7df4-409d-89e0-dc9b70829b52))
+    (pin "2" (uuid 852b0121-aa42-4ae7-9fba-e3493767560d))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2439,14 +2439,14 @@
     (property "Value" "4.7k" (at 153.67 92.075 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 156.21 90.17 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 156.21 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 156.21 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e8d6982c-5f75-4b03-8bee-b8e0d32c8e04))
-    (pin "2" (uuid 3e72ebef-ac34-4f3f-8dca-f89a202ec879))
+    (pin "1" (uuid 339fd71f-17d5-4ae7-9cde-2a6bb4632a79))
+    (pin "2" (uuid dd13dfcd-1ea9-4287-b173-6a68c425ba39))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2456,22 +2456,22 @@
     )
   )
 
-  (symbol (lib_id "oresat-misc:Test-Point-0.75mm-th") (at 234.95 209.55 0) (unit 1)
+  (symbol (lib_id "oresat-misc:Test-Point-1mm-round") (at 234.95 209.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 76fcc122-daf1-4a07-b160-9688feb8aa67)
-    (property "Reference" "TP140" (at 236.22 210.185 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "TP140" (at 234.95 207.01 0)
+      (effects (font (size 1.27 1.0795)))
     )
-    (property "Value" "TestPoint-MinTH" (at 234.95 202.565 0)
+    (property "Value" "~" (at 234.95 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "oresat-misc:TestPoint-0.75mm-th" (at 234.95 199.39 0)
+    (property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm" (at 234.95 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 234.95 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f9b315d3-ee0a-4195-bb50-a50db4fa9465))
+    (pin "1" (uuid 306b9ea1-7984-484f-8e18-e214824e6185))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2490,14 +2490,14 @@
     (property "Value" "4.7k" (at 162.56 92.075 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 160.02 90.17 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 160.02 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 160.02 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fe301d53-cf28-4708-8877-fa2abc36878f))
-    (pin "2" (uuid 7d219a72-b1f8-449e-8709-070f313539c6))
+    (pin "1" (uuid 6be15cac-c18b-4cf4-8e40-add4b4a28141))
+    (pin "2" (uuid 402585aa-4283-4414-b786-a33356e083d6))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2516,14 +2516,14 @@
     (property "Value" "10k" (at 138.43 173.355 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 135.89 171.45 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 135.89 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 135.89 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 345f6d4e-825e-4a57-9ba4-cfb6916978d2))
-    (pin "2" (uuid 4179d626-4953-4357-aa83-df03962a1edb))
+    (pin "1" (uuid a23292a6-fdb8-4947-995a-4ae72b6a33f1))
+    (pin "2" (uuid 6fdc2e48-91a2-47c0-b147-3b282dc79cd8))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2533,13 +2533,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 242.57 95.25 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 242.57 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e185768-7c64-4078-b016-c96591d6d2c6)
     (property "Reference" "#GND0163" (at 242.57 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 242.57 97.79 0)
+    (property "Value" "GND1" (at 242.57 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 242.57 95.25 0)
@@ -2548,7 +2548,7 @@
     (property "Datasheet" "" (at 242.57 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7edef7c6-345b-4adb-b306-6ef23f5fe3e1))
+    (pin "1" (uuid b8305048-a279-4b8e-ae55-bc9e58252004))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -2558,19 +2558,19 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND011") (unit 1)
+          (reference "#PWR0172") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 257.81 203.2 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 257.81 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87606fc7-c55d-4d38-a9b4-411ae0151ea3)
     (property "Reference" "#GND0163" (at 257.81 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 257.81 205.74 0)
+    (property "Value" "GND1" (at 257.81 207.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 257.81 203.2 0)
@@ -2579,7 +2579,7 @@
     (property "Datasheet" "" (at 257.81 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1c8b4b74-9294-424a-9d2d-2431e32d1577))
+    (pin "1" (uuid b4e586d0-5e7f-4cbc-933c-9e49358599e1))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -2589,7 +2589,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND039") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -2604,14 +2604,14 @@
     (property "Value" "23.7k" (at 184.15 188.595 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 181.61 186.69 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 181.61 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 181.61 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 42d68226-f717-4166-9bea-129fa6847eef))
-    (pin "2" (uuid 3f065ca7-4adc-4ea3-b329-2dd160cb781e))
+    (pin "1" (uuid 6881b7cf-54a3-48c6-89d6-99d77486327f))
+    (pin "2" (uuid d0f28e40-7ae1-4576-a392-ae1c0003072c))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2621,13 +2621,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 167.64 190.5 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 167.64 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 889fc637-2925-411d-be22-05485b263840)
     (property "Reference" "#GND0163" (at 167.64 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 167.64 193.04 0)
+    (property "Value" "GND1" (at 167.64 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 167.64 190.5 0)
@@ -2636,7 +2636,7 @@
     (property "Datasheet" "" (at 167.64 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f06cf083-4e79-4d5e-acae-569b1c296ef9))
+    (pin "1" (uuid 02cd92c6-047d-44f1-b172-1d9965fdc1f2))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -2646,7 +2646,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND040") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
     )
@@ -2661,14 +2661,14 @@
     (property "Value" "100n" (at 170.18 71.7613 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 172.72 69.85 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 172.72 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 172.72 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b95c5c23-2f98-4386-9ff4-bdbf948c7122))
-    (pin "2" (uuid 0eabfdea-bdae-4bf2-8692-47b9de37e107))
+    (pin "1" (uuid cae26f26-f6f1-4280-bfd5-d0e437704672))
+    (pin "2" (uuid 7bc61e0d-c147-4858-b8e3-f1ba713f36d9))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2693,7 +2693,7 @@
     (property "Datasheet" "" (at 215.9 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf6a9cd3-7ab5-45fc-a8c7-fd8b0c1e2fe3))
+    (pin "1" (uuid 5d71c0d2-89b2-4d49-acb1-07e8373dcb14))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
@@ -2721,8 +2721,8 @@
     (property "Datasheet" "https://www.vishay.com/docs/85847/1n4151ws.pdf" (at 176.53 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid a1418bb6-b773-478d-acde-4731484f5cea))
-    (pin "" (uuid a1418bb6-b773-478d-acde-4731484f5cea))
+    (pin "1" (uuid 799e10e2-f4a4-4384-a396-0350cf8abb7f))
+    (pin "2" (uuid e6a0695c-1166-4d49-95b9-3beaeae79d1f))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
@@ -2735,13 +2735,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 254 95.25 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 254 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f7e8dd4-22bb-4556-877d-3b5a800388c9)
     (property "Reference" "#GND0163" (at 254 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 254 97.79 0)
+    (property "Value" "GND1" (at 254 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 254 95.25 0)
@@ -2750,7 +2750,7 @@
     (property "Datasheet" "" (at 254 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a2a1beb2-cf73-40cb-9585-ee29e54db10e))
+    (pin "1" (uuid 76bf0b04-86a0-4dd7-93d4-26f548ecdd20))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -2760,19 +2760,19 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND013") (unit 1)
+          (reference "#PWR0173") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 189.23 87.63 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 189.23 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 984c8058-97cd-45de-b880-25986f1a0bb5)
     (property "Reference" "#GND0163" (at 189.23 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 189.23 90.17 0)
+    (property "Value" "GND1" (at 189.23 91.44 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 189.23 87.63 0)
@@ -2781,7 +2781,7 @@
     (property "Datasheet" "" (at 189.23 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 25cc3ef6-0f86-4301-aebb-bcce8712c4f4))
+    (pin "1" (uuid af37213a-c737-4b8e-8897-178f9c88dd81))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -2791,7 +2791,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND016") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
       )
     )
@@ -2812,7 +2812,7 @@
     (property "Datasheet" "" (at 198.12 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid de2f2ccc-3aff-4a66-af0e-f5553ce3d5aa))
+    (pin "1" (uuid 23a24399-3683-4325-80cd-84efc6927c3a))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -2840,14 +2840,14 @@
     (property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf" (at 181.61 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75fca483-1f04-4c62-a966-f331f3f02b08))
-    (pin "2" (uuid 4664b4c7-bf1f-4c9a-aa6d-8137df2cfd38))
-    (pin "3" (uuid 54226ce5-0d66-49fb-9215-008400eb6464))
-    (pin "4" (uuid f24e2d4f-66dc-4141-9f4d-7fce3faa62d8))
-    (pin "5" (uuid 71c41722-f5a5-4436-85a4-3b685b267d7a))
-    (pin "6" (uuid 0f25b517-088c-4a4a-b1cd-80c360fa4bd6))
-    (pin "7" (uuid 0fb1b5f4-f7e6-4792-b8a5-4352e20be626))
-    (pin "8" (uuid 69054661-a594-4bc6-8301-981e9bf3aba7))
+    (pin "1" (uuid 4da6df49-6430-4e96-8851-8f21c719b806))
+    (pin "2" (uuid 1894d127-4fe4-494d-9b5b-bbad4c92847a))
+    (pin "3" (uuid be6fc122-f763-4ed4-be70-b1af02c95859))
+    (pin "4" (uuid cb369972-f855-4838-bed6-4663150d63da))
+    (pin "5" (uuid ae167541-de52-43d6-b59b-38e17ba20baa))
+    (pin "6" (uuid 4925350c-32e5-4540-8515-b3dd382a67dc))
+    (pin "7" (uuid bd5def9e-787e-49c0-bc25-75580a6f8f29))
+    (pin "8" (uuid 0992c4dd-e30b-47b5-91d3-1997a5a8300b))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2872,12 +2872,12 @@
     (property "Datasheet" "https://semtech.my.salesforce.com/sfc/p/#E0000000JelG/a/440000001NC4/stkwt9TLwnuFEcETp_EuKKu8Zq_5VZ02wBJYU8lO8Hs" (at 257.81 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8fada1d1-8141-4532-808a-cc787acdfc74))
-    (pin "2" (uuid 7e4ad88c-0ab6-4b59-b8cc-823fbdb5bd69))
-    (pin "3" (uuid 71b0866e-951f-40ab-9d69-b9bee65e90ad))
-    (pin "4" (uuid 83a8ccdf-bc57-496a-bcb3-149373eb22b3))
-    (pin "5" (uuid b660c2cb-d1c3-49b5-8842-42841d4ae997))
-    (pin "6" (uuid ed299e7d-cb03-46b6-ac3f-5e9f12e8a070))
+    (pin "1" (uuid f985fafb-5ca9-4f21-9273-f039374ec8ac))
+    (pin "2" (uuid e6fea21d-68e0-4e34-b451-2b273e59d735))
+    (pin "3" (uuid d74f075a-9e79-47dc-bfa6-4b43467fcfa6))
+    (pin "4" (uuid c2393328-d580-4e57-a438-13afb9512edd))
+    (pin "5" (uuid 9d533b7f-0e34-49fd-ab5c-510759595e87))
+    (pin "6" (uuid 0e7c8d11-a97f-4120-af9d-4412d65affdd))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2896,14 +2896,14 @@
     (property "Value" "1u" (at 187.96 169.5513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 185.42 167.64 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 185.42 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fa7b5ce1-4bea-4b77-b0f6-36c6da7065a7))
-    (pin "2" (uuid 6894e2a2-f35a-4125-a56a-5c3736fc242c))
+    (pin "1" (uuid 4b850bb0-9786-43ff-9971-e1b7275303d2))
+    (pin "2" (uuid 98d15961-539f-4195-95ce-2e2b2f4cb53d))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2928,7 +2928,7 @@
     (property "Datasheet" "" (at 255.27 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8a89afb1-1e23-47b6-a571-781dfbc06f98))
+    (pin "1" (uuid 09561820-e9c8-45c1-a7d2-0475ecea738b))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -2950,14 +2950,14 @@
     (property "Value" "100u" (at 191.77 85.1789 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 189.23 83.82 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 189.23 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 189.23 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e9bc7f0-eac2-44fc-9b16-8ef89ba441b0))
-    (pin "2" (uuid fac6abc3-03fe-48f1-9ea6-3b503ffd1050))
+    (pin "1" (uuid 89524837-7e88-45af-8129-992b3933d4b4))
+    (pin "2" (uuid 1106971d-7e0b-4e6a-b268-edb277321ab8))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2976,14 +2976,14 @@
     (property "Value" "1u" (at 149.86 172.0913 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 147.32 170.18 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 147.32 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 147.32 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9efe104-49ed-4d47-96e6-3e6c4e8e47a6))
-    (pin "2" (uuid 6916f482-5537-4513-ab85-8eb937e1b0d0))
+    (pin "1" (uuid 33672811-9a0c-41e3-b594-a6426a833ca8))
+    (pin "2" (uuid e921fe4e-4336-480c-b4d7-7992f8106da5))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -2993,13 +2993,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 207.01 177.8 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 207.01 177.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2610adc-8e8c-43d4-b4ec-0c9b1da5d41f)
     (property "Reference" "#GND0133" (at 207.01 184.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 207.01 180.34 0)
+    (property "Value" "GND1" (at 207.01 181.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 207.01 177.8 0)
@@ -3008,14 +3008,14 @@
     (property "Datasheet" "" (at 207.01 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c2375164-7e96-45a2-b724-84b1c08880b6))
+    (pin "1" (uuid ab0eabe7-9745-4d8c-86d7-a8a346af33b0))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
           (reference "#GND0133") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND044") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -3036,7 +3036,7 @@
     (property "Datasheet" "" (at 119.38 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da549508-c3ac-44b1-9eb9-b354028f030a))
+    (pin "1" (uuid 343d75f9-f567-46cd-8083-ec38c8564ca4))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
@@ -3049,13 +3049,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 172.72 73.66 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 172.72 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc9dd152-5a2a-47a8-a085-b52bec262da9)
     (property "Reference" "#GND0163" (at 172.72 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 172.72 76.2 0)
+    (property "Value" "GND1" (at 172.72 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 172.72 73.66 0)
@@ -3064,7 +3064,7 @@
     (property "Datasheet" "" (at 172.72 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c6ec6de-15e1-4bc9-93c7-7c7d01768b20))
+    (pin "1" (uuid 8894ad83-25ab-4353-807c-3dfe0195e373))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -3074,19 +3074,19 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND015") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 185.42 171.45 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 185.42 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cede0ddc-f7df-4899-b62b-e9afb2936361)
     (property "Reference" "#GND0163" (at 185.42 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 185.42 173.99 0)
+    (property "Value" "GND1" (at 185.42 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 185.42 171.45 0)
@@ -3095,7 +3095,7 @@
     (property "Datasheet" "" (at 185.42 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cf4fd9b7-780a-46c2-9223-c7db6e992eeb))
+    (pin "1" (uuid 4820f1dc-0a21-4ad3-9504-603cd7f7a7c4))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -3105,19 +3105,19 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND043") (unit 1)
+          (reference "#PWR0180") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 147.32 190.5 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 147.32 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d46c61f9-856f-4682-91b5-2b14160e2cc1)
     (property "Reference" "#GND0163" (at 147.32 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 147.32 193.04 0)
+    (property "Value" "GND1" (at 147.32 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 147.32 190.5 0)
@@ -3126,7 +3126,7 @@
     (property "Datasheet" "" (at 147.32 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 05ceb5ca-9e31-4d30-9f31-87cea6827c57))
+    (pin "1" (uuid 63681cc7-5627-4ba0-a4b0-9310ac1b5cb4))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -3136,19 +3136,19 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND041") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 207.01 55.88 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 207.01 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d591566d-971e-4081-80b4-6e7f5342b655)
     (property "Reference" "#GND0163" (at 207.01 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 207.01 58.42 0)
+    (property "Value" "GND1" (at 207.01 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 207.01 55.88 0)
@@ -3157,7 +3157,7 @@
     (property "Datasheet" "" (at 207.01 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0e8acb17-a6eb-4a82-8a35-2a2422887183))
+    (pin "1" (uuid 20fdb70a-f55c-4472-ba0f-a58ffba5e25a))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -3167,7 +3167,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND010") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
       )
     )
@@ -3182,14 +3182,14 @@
     (property "Value" "10k" (at 129.54 173.355 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 132.08 171.45 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 132.08 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 378588ea-3c5d-465c-a265-9ce8a8b240d1))
-    (pin "2" (uuid 2c99699a-c4f7-4e3a-a78d-87ad7504bb22))
+    (pin "1" (uuid f1625d99-6c38-4662-895a-c27ed551137b))
+    (pin "2" (uuid 2010b790-7edf-4e59-ba86-d5ac602d885f))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -3202,26 +3202,26 @@
   (symbol (lib_id "oresat-ics:LTC4300A-1") (at 220.98 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef024e07-ae22-4cd9-a847-3f124eed2750)
-    (property "Reference" "U37" (at 222.9359 201.93 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "U37" (at 222.25 203.2 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Value" "LTC4300A-1" (at 222.9359 204.47 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "LTC4300A-1" (at 222.25 205.74 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Footprint" "" (at 220.98 217.17 0)
+    (property "Footprint" "oresat-ics:LINEAR-MSOP-8-AND-MAXIM-UMAX-8-21-0036" (at 220.98 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/4300a12fa.pdf" (at 220.98 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7cd09de1-716a-42fa-8899-3692a7a4d7ed))
-    (pin "2" (uuid 896922aa-b94c-428e-90d2-bc462c321fc5))
-    (pin "3" (uuid 3e0ea8cd-222d-4440-b2ee-daf951efbec2))
-    (pin "4" (uuid f905833a-177d-4e18-b318-133d3c134136))
-    (pin "5" (uuid f5cc6a94-f7c8-4b51-89ca-8661753672aa))
-    (pin "6" (uuid 200c3251-75ea-41ac-9203-54d961e2402f))
-    (pin "7" (uuid 36e74ce1-ad84-4de7-b29b-f09b75e6d2fc))
-    (pin "8" (uuid d37bb659-6877-4b1b-908c-c6f53010c773))
+    (pin "1" (uuid b720edc9-1a70-41ab-bef6-4cd1aeed9042))
+    (pin "2" (uuid edd839ea-a33a-49ac-b090-ffb57ca6ffd4))
+    (pin "3" (uuid 880da3eb-59b7-4441-b387-96b8c6417b7d))
+    (pin "4" (uuid d125d47f-9996-4279-b5a3-b73fe4ee6abd))
+    (pin "5" (uuid 3cf9c1c6-6ed4-4629-b5c5-0df489374ad2))
+    (pin "6" (uuid e2ec8d48-67f6-4eb0-8588-8e087060a08a))
+    (pin "7" (uuid 9b3ea1c8-5eb9-41eb-9687-a9f224c0094f))
+    (pin "8" (uuid 968b7582-b0b5-4ef5-9d1b-df2ab1ceeaf2))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
@@ -3231,13 +3231,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 220.98 232.41 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 220.98 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc961b3d-3214-44d9-9d4b-a2681624ae82)
     (property "Reference" "#GND0163" (at 220.98 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 220.98 234.95 0)
+    (property "Value" "GND1" (at 220.98 236.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 220.98 232.41 0)
@@ -3246,7 +3246,7 @@
     (property "Datasheet" "" (at 220.98 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f658a337-1395-4095-af57-96b718642cac))
+    (pin "1" (uuid 73a97e0f-dd9d-4fed-bc92-b8b9d2f15806))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -3256,7 +3256,7 @@
           (reference "#GND01") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND047") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
       )
     )

@@ -603,42 +603,6 @@
         )
       )
     )
-    (symbol "oresat-ics:TAITIEN-TY" (in_bom yes) (on_board yes)
-      (property "Reference" "X" (at 2.54 8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TAITIEN-TY" (at 6.35 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 1.27 6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_TY.pdf" (at 0 22.86 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TAITIEN-TY_1_1"
-        (rectangle (start -7.62 5.08) (end 7.62 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at 10.16 -2.54 180) (length 2.54)
-          (name "VCTRL" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 10.16 0 180) (length 2.54)
-          (name "OUT" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 7.62 270) (length 2.54)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "oresat-ics:TQP3M9036" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 8.89 0)
         (effects (font (size 1.27 1.27)))
@@ -691,6 +655,45 @@
         (pin power_in line (at 0 -7.62 90) (length 2.54)
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "EP" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "oresat-ics:Taiten-TY-Series-TXCO" (in_bom yes) (on_board yes)
+      (property "Reference" "X" (at 2.54 8.89 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "TXCO-W-VC" (at 6.35 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "oresat-ics:X_TCXO_SMD_Taitien_2.5x2.0mm" (at 0 20.32 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_TY.pdf" (at 0 22.86 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Taitien TCXO 2.5x2 mm SMT package" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Taiten-TY-Series-TXCO_1_1"
+        (rectangle (start -7.62 5.08) (end 7.62 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at 10.16 -2.54 180) (length 2.54)
+          (name "VCTRL" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 -7.62 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 10.16 0 180) (length 2.54)
+          (name "OUT" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 0 7.62 270) (length 2.54)
+          (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -953,11 +956,11 @@
         )
       )
     )
-    (symbol "oresat-power:GND-L" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#GND-L" (at 0 -6.35 0)
+    (symbol "oresat-power:GNDL" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND-L" (at 0 -2.54 0)
+      (property "Value" "GNDL" (at 0 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -969,10 +972,10 @@
       (property "ki_keywords" "power-flag" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND-L\" , ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GNDL\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND-L_0_1"
+      (symbol "GNDL_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -986,9 +989,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND-L_1_1"
+      (symbol "GNDL_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND-L" (effects (font (size 1.27 1.27))))
+          (name "GNDL" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2637,13 +2640,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 308.61 182.88 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 308.61 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0912a589-3b10-46ca-9f1e-04956e41f0d5)
-    (property "Reference" "#GND-L030" (at 308.61 189.23 0)
+    (property "Reference" "#PWR0218" (at 308.61 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 308.61 185.42 0)
+    (property "Value" "GNDL" (at 308.61 185.42 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 308.61 182.88 0)
@@ -2656,7 +2659,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L030") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -2739,13 +2742,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 274.32 52.07 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 274.32 52.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f4f265a-9dbe-47f6-bd0a-e944d94c555d)
-    (property "Reference" "#GND-L043" (at 274.32 58.42 0)
+    (property "Reference" "#PWR0208" (at 274.32 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 274.32 54.61 0)
+    (property "Value" "GNDL" (at 274.32 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 274.32 52.07 0)
@@ -2758,7 +2761,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L043") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -2905,13 +2908,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 138.43 227.33 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 138.43 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15e8a136-f34d-4c10-ad84-0c7f6ed63bde)
-    (property "Reference" "#GND-L037" (at 138.43 233.68 0)
+    (property "Reference" "#PWR0204" (at 138.43 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 138.43 229.87 0)
+    (property "Value" "GNDL" (at 138.43 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 138.43 227.33 0)
@@ -2924,7 +2927,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L037") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -3011,13 +3014,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 287.02 232.41 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 287.02 232.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22b46088-64f3-4f1c-9193-a08d517a0cf7)
-    (property "Reference" "#GND-L029" (at 287.02 238.76 0)
+    (property "Reference" "#PWR0223" (at 287.02 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 287.02 236.22 0)
+    (property "Value" "GNDL" (at 287.02 234.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 287.02 232.41 0)
@@ -3030,7 +3033,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L029") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
@@ -3091,7 +3094,7 @@
     )
   )
 
-  (symbol (lib_id "oresat-ics:TAITIEN-TY") (at 99.06 220.98 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-ics:Taiten-TY-Series-TXCO") (at 99.06 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bc15622-e72e-43b2-bfe7-f8383f682a48)
     (property "Reference" "X?" (at 102.87 229.87 0)
@@ -3100,10 +3103,10 @@
     (property "Value" "TYKTBLSANF-16.000000" (at 102.87 232.41 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 97.79 214.63 0)
+    (property "Footprint" "oresat-ics:X_TCXO_SMD_Taitien_2.5x2.0mm" (at 99.06 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_TY.pdf" (at 97.79 214.63 0)
+    (property "Datasheet" "https://www.taitien.com/wp-content/uploads/2015/12/XO-0081_TY.pdf" (at 99.06 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b99c2bf8-64f3-466e-a202-2436b99a8bd8))
@@ -3176,13 +3179,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 121.92 176.53 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 121.92 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 339eae92-395d-434c-80a2-49fe6c14deb9)
-    (property "Reference" "#GND-L022" (at 121.92 182.88 0)
+    (property "Reference" "#PWR0197" (at 121.92 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 121.92 179.07 0)
+    (property "Value" "GNDL" (at 121.92 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 121.92 176.53 0)
@@ -3195,7 +3198,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L022") (unit 1)
+          (reference "#PWR0197") (unit 1)
         )
       )
     )
@@ -3342,13 +3345,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 165.1 144.78 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 165.1 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f0fb4ea-12a0-4dbb-8993-236903d22af5)
-    (property "Reference" "#GND-L018" (at 165.1 151.13 0)
+    (property "Reference" "#PWR0199" (at 165.1 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 165.1 147.32 0)
+    (property "Value" "GNDL" (at 165.1 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 165.1 144.78 0)
@@ -3361,7 +3364,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L018") (unit 1)
+          (reference "#PWR0199") (unit 1)
         )
       )
     )
@@ -3392,13 +3395,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 279.4 185.42 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 279.4 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46e48806-dd8a-43a4-bd2a-5d91c9daa981)
-    (property "Reference" "#GND-L032" (at 279.4 191.77 0)
+    (property "Reference" "#PWR0224" (at 279.4 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 279.4 187.96 0)
+    (property "Value" "GNDL" (at 279.4 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 279.4 185.42 0)
@@ -3411,7 +3414,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L032") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -3495,13 +3498,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 171.45 120.65 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 171.45 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4a4d69c2-ae88-436b-aece-5757c14b1c20)
-    (property "Reference" "#GND-L019" (at 171.45 127 0)
+    (property "Reference" "#PWR0211" (at 171.45 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 171.45 123.19 0)
+    (property "Value" "GNDL" (at 171.45 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 171.45 120.65 0)
@@ -3514,7 +3517,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L019") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -3548,13 +3551,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 302.26 72.39 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 302.26 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5569fb34-7aff-4a1e-8a9b-0e573c557a09)
-    (property "Reference" "#GND-L017" (at 302.26 78.74 0)
+    (property "Reference" "#PWR0230" (at 302.26 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 302.26 74.93 0)
+    (property "Value" "GNDL" (at 302.26 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 302.26 72.39 0)
@@ -3567,19 +3570,19 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L017") (unit 1)
+          (reference "#PWR0230") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 316.23 142.24 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 316.23 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5574218f-f340-4897-839e-6fa1ff5d9461)
-    (property "Reference" "#GND-L010" (at 316.23 148.59 0)
+    (property "Reference" "#PWR0221" (at 316.23 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 316.23 144.78 0)
+    (property "Value" "GNDL" (at 316.23 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 316.23 142.24 0)
@@ -3592,7 +3595,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L010") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -3654,13 +3657,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 114.3 111.76 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 114.3 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f5ecf40-44c8-4db5-a2b5-4b3dc096c323)
-    (property "Reference" "#GND-L027" (at 114.3 118.11 0)
+    (property "Reference" "#PWR0196" (at 114.3 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 114.3 114.3 0)
+    (property "Value" "GNDL" (at 114.3 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 114.3 111.76 0)
@@ -3673,19 +3676,19 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L027") (unit 1)
+          (reference "#PWR0196") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 332.74 151.13 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 332.74 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63997a23-2b8d-4835-8bbb-ea023d3a57fe)
-    (property "Reference" "#GND-L08" (at 332.74 157.48 0)
+    (property "Reference" "#PWR0217" (at 332.74 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 332.74 153.67 0)
+    (property "Value" "GNDL" (at 332.74 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 332.74 151.13 0)
@@ -3698,7 +3701,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L08") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -3732,13 +3735,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 297.18 185.42 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 297.18 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66dc4a04-4b6b-43e7-961a-265947056d70)
-    (property "Reference" "#GND-L031" (at 297.18 191.77 0)
+    (property "Reference" "#PWR0219" (at 297.18 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 297.18 187.96 0)
+    (property "Value" "GNDL" (at 297.18 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 297.18 185.42 0)
@@ -3751,7 +3754,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L031") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -3914,13 +3917,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 105.41 111.76 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 105.41 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76d760a6-5631-43e5-b064-0362db8b48ec)
-    (property "Reference" "#GND-L028" (at 105.41 118.11 0)
+    (property "Reference" "#PWR0195" (at 105.41 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 105.41 114.3 0)
+    (property "Value" "GNDL" (at 105.41 114.3 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 105.41 111.76 0)
@@ -3933,19 +3936,19 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L028") (unit 1)
+          (reference "#PWR0195") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 99.06 229.87 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 99.06 229.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77e9f303-1763-496f-818a-910074ba1211)
-    (property "Reference" "#GND-L016" (at 99.06 236.22 0)
+    (property "Reference" "#PWR0202" (at 99.06 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 99.06 232.41 0)
+    (property "Value" "GNDL" (at 99.06 232.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 99.06 229.87 0)
@@ -3958,19 +3961,19 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L016") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 196.85 69.85 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 196.85 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7af654df-98a0-4c11-9c94-e7ded70eec91)
-    (property "Reference" "#GND-L03" (at 196.85 76.2 0)
+    (property "Reference" "#PWR0215" (at 196.85 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 196.85 72.39 0)
+    (property "Value" "GNDL" (at 196.85 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 196.85 69.85 0)
@@ -3983,19 +3986,19 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L03") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 341.63 69.85 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 341.63 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b5e98b8-c40a-4c15-99d7-803c7d993244)
-    (property "Reference" "#GND-L01" (at 341.63 76.2 0)
+    (property "Reference" "#PWR0220" (at 341.63 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 341.63 72.39 0)
+    (property "Value" "GNDL" (at 341.63 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 341.63 69.85 0)
@@ -4008,7 +4011,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L01") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -4234,13 +4237,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 101.6 176.53 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 101.6 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8abdc086-733f-4bd9-be12-1eccb77e92b7)
-    (property "Reference" "#GND-L023" (at 101.6 182.88 0)
+    (property "Reference" "#PWR0198" (at 101.6 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 101.6 179.07 0)
+    (property "Value" "GNDL" (at 101.6 179.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 101.6 176.53 0)
@@ -4253,7 +4256,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L023") (unit 1)
+          (reference "#PWR0198") (unit 1)
         )
       )
     )
@@ -4314,13 +4317,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 229.87 143.51 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 229.87 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8fde74e1-7cb4-45e9-8118-b47acb7e51c1)
-    (property "Reference" "#GND-L014" (at 229.87 149.86 0)
+    (property "Reference" "#PWR0227" (at 229.87 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 231.14 146.05 0)
+    (property "Value" "GNDL" (at 229.87 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 229.87 143.51 0)
@@ -4333,7 +4336,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L014") (unit 1)
+          (reference "#PWR0227") (unit 1)
         )
       )
     )
@@ -4365,13 +4368,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 240.03 143.51 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 240.03 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96991bb6-e0a1-4a68-bde1-51fcc68a82cf)
-    (property "Reference" "#GND-L013" (at 240.03 149.86 0)
+    (property "Reference" "#PWR0228" (at 240.03 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 241.3 146.05 0)
+    (property "Value" "GNDL" (at 240.03 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 240.03 143.51 0)
@@ -4384,7 +4387,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L013") (unit 1)
+          (reference "#PWR0228") (unit 1)
         )
       )
     )
@@ -4550,13 +4553,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 250.19 143.51 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 250.19 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa04c28a-ec7e-47c1-80ad-b7b7db42cdd2)
-    (property "Reference" "#GND-L012" (at 250.19 149.86 0)
+    (property "Reference" "#PWR0229" (at 250.19 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 251.46 146.05 0)
+    (property "Value" "GNDL" (at 250.19 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 250.19 143.51 0)
@@ -4569,19 +4572,19 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L012") (unit 1)
+          (reference "#PWR0229") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 246.38 69.85 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 246.38 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aad15a68-b11d-4422-96ba-e9a69048317c)
-    (property "Reference" "#GND-L02" (at 246.38 76.2 0)
+    (property "Reference" "#PWR0226" (at 246.38 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 246.38 72.39 0)
+    (property "Value" "GNDL" (at 246.38 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 246.38 69.85 0)
@@ -4594,7 +4597,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L02") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -4655,13 +4658,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 285.75 143.51 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 285.75 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae7d7ad6-4b5c-4dff-9bc3-3fb0b6192df8)
-    (property "Reference" "#GND-L011" (at 285.75 149.86 0)
+    (property "Reference" "#PWR0225" (at 285.75 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 285.75 146.05 0)
+    (property "Value" "GNDL" (at 285.75 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 285.75 143.51 0)
@@ -4674,7 +4677,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L011") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -4822,13 +4825,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 168.91 227.33 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 168.91 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b74dbe8a-cc55-4ade-aa15-9c70163eac5a)
-    (property "Reference" "#GND-L039" (at 168.91 233.68 0)
+    (property "Reference" "#PWR0205" (at 168.91 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 168.91 229.87 0)
+    (property "Value" "GNDL" (at 168.91 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 168.91 227.33 0)
@@ -4841,7 +4844,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L039") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -4904,13 +4907,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 124.46 227.33 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 124.46 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb42dd16-6c77-47cd-9e34-92bbe563756d)
-    (property "Reference" "#GND-L036" (at 124.46 233.68 0)
+    (property "Reference" "#PWR0206" (at 124.46 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 124.46 229.87 0)
+    (property "Value" "GNDL" (at 124.46 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 124.46 227.33 0)
@@ -4923,19 +4926,19 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L036") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 219.71 50.8 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 219.71 50.8 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c0398a9f-8124-4c46-aa15-9a92c50c647e)
-    (property "Reference" "#GND-L015" (at 219.71 57.15 0)
+    (property "Reference" "#PWR0213" (at 219.71 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 219.71 53.34 0)
+    (property "Value" "GNDL" (at 219.71 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 219.71 50.8 0)
@@ -4948,7 +4951,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L015") (unit 1)
+          (reference "#PWR0213") (unit 1)
         )
       )
     )
@@ -5006,13 +5009,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 144.78 148.59 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 144.78 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7a6bc80-f71c-40b4-8410-021a8c7bbc96)
-    (property "Reference" "#GND-L021" (at 144.78 154.94 0)
+    (property "Reference" "#PWR0200" (at 144.78 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 144.78 151.13 0)
+    (property "Value" "GNDL" (at 144.78 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 144.78 148.59 0)
@@ -5025,7 +5028,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L021") (unit 1)
+          (reference "#PWR0200") (unit 1)
         )
       )
     )
@@ -5110,13 +5113,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 347.98 142.24 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 347.98 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d007fdbd-11be-4647-b9a1-c49eba95d510)
-    (property "Reference" "#GND-L09" (at 347.98 148.59 0)
+    (property "Reference" "#PWR0222" (at 347.98 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 347.98 144.78 0)
+    (property "Value" "GNDL" (at 347.98 144.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 347.98 142.24 0)
@@ -5129,7 +5132,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L09") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
       )
     )
@@ -5189,13 +5192,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 166.37 45.72 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 166.37 45.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7b21e33-12b9-4b11-aa41-beeaf8d774ed)
-    (property "Reference" "#GND-L07" (at 166.37 52.07 0)
+    (property "Reference" "#PWR0214" (at 166.37 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 166.37 48.26 0)
+    (property "Value" "GNDL" (at 166.37 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 166.37 45.72 0)
@@ -5208,19 +5211,19 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L07") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 138.43 69.85 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 138.43 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d8c14f0d-11ba-4499-b606-7ffa9ab706f8)
-    (property "Reference" "#GND-L04" (at 138.43 76.2 0)
+    (property "Reference" "#PWR0210" (at 138.43 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 138.43 72.39 0)
+    (property "Value" "GNDL" (at 138.43 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 138.43 69.85 0)
@@ -5233,7 +5236,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L04") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
@@ -5267,13 +5270,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 101.6 151.13 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 101.6 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd2023dc-39f0-4447-a06e-06df299821e6)
-    (property "Reference" "#GND-L024" (at 101.6 157.48 0)
+    (property "Reference" "#PWR0201" (at 101.6 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 101.6 153.67 0)
+    (property "Value" "GNDL" (at 101.6 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 101.6 151.13 0)
@@ -5286,7 +5289,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L024") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -5454,13 +5457,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 173.99 45.72 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 173.99 45.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9e1319c-4985-4664-a716-e04e5876fa25)
-    (property "Reference" "#GND-L05" (at 173.99 52.07 0)
+    (property "Reference" "#PWR0216" (at 173.99 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 173.99 48.26 0)
+    (property "Value" "GNDL" (at 173.99 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 173.99 45.72 0)
@@ -5473,7 +5476,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L05") (unit 1)
+          (reference "#PWR0216") (unit 1)
         )
       )
     )
@@ -5531,13 +5534,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 283.21 52.07 0) (mirror y) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 283.21 52.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed66c16a-3ee9-4bf2-8c6b-1546fa47e275)
-    (property "Reference" "#GND-L042" (at 283.21 58.42 0)
+    (property "Reference" "#PWR0209" (at 283.21 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 283.21 54.61 0)
+    (property "Value" "GNDL" (at 283.21 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 283.21 52.07 0)
@@ -5550,7 +5553,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L042") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -5639,13 +5642,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 149.86 227.33 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 149.86 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f3bc69b0-08fe-419b-98c4-15d60342e01d)
-    (property "Reference" "#GND-L038" (at 149.86 233.68 0)
+    (property "Reference" "#PWR0207" (at 149.86 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 149.86 229.87 0)
+    (property "Value" "GNDL" (at 149.86 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 149.86 227.33 0)
@@ -5658,7 +5661,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L038") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -5690,13 +5693,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 115.57 227.33 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 115.57 227.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f7dd2c0c-51a7-4b38-8efe-b3648101ba94)
-    (property "Reference" "#GND-L025" (at 115.57 233.68 0)
+    (property "Reference" "#PWR0203" (at 115.57 233.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 115.57 229.87 0)
+    (property "Value" "GNDL" (at 115.57 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 115.57 227.33 0)
@@ -5709,7 +5712,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L025") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -5769,13 +5772,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND-L") (at 144.78 128.27 0) (unit 1)
+  (symbol (lib_id "oresat-power:GNDL") (at 144.78 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fe571832-589e-4590-9976-86242acdf070)
-    (property "Reference" "#GND-L020" (at 144.78 134.62 0)
+    (property "Reference" "#PWR0212" (at 144.78 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND-L" (at 144.78 130.81 0)
+    (property "Value" "GNDL" (at 144.78 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 144.78 128.27 0)
@@ -5788,7 +5791,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "#GND-L020") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )

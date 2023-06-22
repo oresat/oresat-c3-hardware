@@ -2727,11 +2727,11 @@
         )
       )
     )
-    (symbol "oresat-power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#GND" (at 0 -6.35 0)
+    (symbol "power:GND1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND" (at 0 -2.54 0)
+      (property "Value" "GND1" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -2740,19 +2740,19 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
+      (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GND1\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND_0_1"
+      (symbol "GND1_0_1"
         (polyline
           (pts
             (xy 0 0)
             (xy 0 -1.27)
             (xy 1.27 -1.27)
-            (xy 0 -1.27)
+            (xy 0 -2.54)
             (xy -1.27 -1.27)
             (xy 0 -1.27)
           )
@@ -2760,9 +2760,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND_1_1"
+      (symbol "GND1_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
+          (name "GND1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -3236,13 +3236,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 220.98 193.04 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 220.98 193.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 01363973-4322-4ff9-a3b8-f60538bffee6)
-    (property "Reference" "#GND0152" (at 220.98 199.39 0)
+    (property "Reference" "#PWR0159" (at 220.98 199.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 220.98 196.85 0)
+    (property "Value" "GND1" (at 220.98 196.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 220.98 193.04 0)
@@ -3251,11 +3251,11 @@
     (property "Datasheet" "" (at 220.98 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b09a587b-e362-4126-8b5e-47c5559967db))
+    (pin "1" (uuid 48a54dd9-2126-4cb2-a5f4-4d0a76d62837))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
-          (reference "#GND0152") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -4011,13 +4011,13 @@
     )
   )
 
-  (symbol (lib_id "oresat-power:GND") (at 248.92 139.7 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 248.92 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c70d7a4a-db64-4415-98ee-129e895e3860)
-    (property "Reference" "#GND0153" (at 248.92 146.05 0)
+    (property "Reference" "#PWR0158" (at 248.92 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 248.92 142.24 0)
+    (property "Value" "GND1" (at 248.92 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 248.92 139.7 0)
@@ -4026,11 +4026,11 @@
     (property "Datasheet" "" (at 248.92 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08d874be-df89-4aed-aba8-d0d1aa050166))
+    (pin "1" (uuid 27825cd5-68f7-4d1d-b00f-19d99d0579d0))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
-          (reference "#GND0153") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
