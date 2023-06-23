@@ -2543,9 +2543,6 @@
   (junction (at 147.32 88.9) (diameter 0) (color 0 0 0 0)
     (uuid cdb5bffd-59c1-4d30-a97b-7a1348a72c37)
   )
-  (junction (at 259.08 139.7) (diameter 0) (color 0 0 0 0)
-    (uuid d08b86d7-1bac-45e2-bf12-1eebcef952a2)
-  )
   (junction (at 167.64 119.38) (diameter 0) (color 0 0 0 0)
     (uuid d90b79dd-a8f8-487d-bab6-71a0a48c8404)
   )
@@ -3637,7 +3634,7 @@
     (property "Datasheet" "" (at 259.08 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9b2c76c4-ba63-48d8-8af2-ace29ba4e5b3))
+    (pin "1" (uuid b844e41e-c8fc-498b-b95b-d6c953ed8250))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -3687,7 +3684,7 @@
     (property "Datasheet" "" (at 259.08 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 74f40395-1c07-470d-8c4c-ec91e9f72b2d))
+    (pin "1" (uuid 1fe99718-bad3-4e04-a4f2-44c6acf5201a))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -4514,31 +4511,6 @@
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
           (reference "#3V0112") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "oresat-misc:Test-Point-1mm-round") (at 259.08 139.7 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e232e1e2-da3b-40f5-b7f3-549810205102)
-    (property "Reference" "TP68" (at 265.43 139.7 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Test-Point" (at 259.08 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm" (at 259.08 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 259.08 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aade6c7c-3127-4609-80d0-a519dd8c003d))
-    (instances
-      (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "TP68") (unit 1)
         )
       )
     )
