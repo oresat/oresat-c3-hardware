@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 1e-06
         }
       },
       "diff_pair_dimensions": [
@@ -730,6 +730,22 @@
       {
         "netclass": "RF-50-min",
         "pattern": "Net-(U23-ANTN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U19-OUT)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U21-OUT)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C64-Pad2)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U19-IN)"
       }
     ]
   },
