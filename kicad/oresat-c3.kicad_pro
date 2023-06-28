@@ -746,6 +746,118 @@
       {
         "netclass": "RF-50-min",
         "pattern": "Net-(U19-IN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U21-IN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C83-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C84-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C86-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C87-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C88-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U23-ANTP1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U2-OUT)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U41-IN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U41-OUT)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U3-IN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U3-OUT)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U4-RF-IN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U4-RF-OUT)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U5-IN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U5-OUT)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U7-IF)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U15-IN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U15-OUT)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C37-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C38-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C39-Pad2)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U16-ANTN)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U16-ANTP)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C39-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U7-LO)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(C54-Pad1)"
+      },
+      {
+        "netclass": "RF-50-min",
+        "pattern": "Net-(U17-IFOUT)"
       }
     ]
   },
