@@ -2479,7 +2479,7 @@
           (reference "#GND0172") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/ce2d6150-524f-4c6f-aba3-da83a5df548c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -2507,7 +2507,7 @@
           (reference "#GND0173") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/ce2d6150-524f-4c6f-aba3-da83a5df548c"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )

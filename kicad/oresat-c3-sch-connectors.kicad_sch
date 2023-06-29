@@ -2246,7 +2246,7 @@
   (symbol (lib_id "power:GND") (at 121.92 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b474cf1b-3f7b-40fd-88a1-d201e43567dc)
-    (property "Reference" "#PWR?" (at 121.92 157.48 0)
+    (property "Reference" "#PWR0102" (at 121.92 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 154.94 0)
@@ -2262,7 +2262,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -2300,7 +2300,7 @@
   (symbol (lib_id "power:GND") (at 228.6 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb380f03-3f66-470a-bd8e-2f4892f998af)
-    (property "Reference" "#PWR?" (at 228.6 190.5 0)
+    (property "Reference" "#PWR0103" (at 228.6 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 228.6 187.96 0)
@@ -2316,7 +2316,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -2375,7 +2375,7 @@
   (symbol (lib_id "power:GND") (at 200.66 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd2e678d-2489-4341-a91e-1d3b6c46624d)
-    (property "Reference" "#PWR?" (at 200.66 151.13 0)
+    (property "Reference" "#PWR0101" (at 200.66 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 148.59 0)
@@ -2391,7 +2391,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -2524,7 +2524,7 @@
   (symbol (lib_id "power:GND") (at 191.77 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f391b60f-c1bf-4f95-a8aa-45528cd53799)
-    (property "Reference" "#PWR?" (at 191.77 190.5 0)
+    (property "Reference" "#PWR0104" (at 191.77 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 187.96 0)
@@ -2540,7 +2540,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )

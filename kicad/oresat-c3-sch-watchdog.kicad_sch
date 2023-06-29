@@ -2006,7 +2006,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0264") (unit 1)
         )
       )
     )
@@ -2150,7 +2150,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0267") (unit 1)
         )
       )
     )
@@ -2204,7 +2204,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0269") (unit 1)
         )
       )
     )
@@ -2232,7 +2232,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0263") (unit 1)
         )
       )
     )
@@ -2286,7 +2286,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0265") (unit 1)
         )
       )
     )
@@ -2739,7 +2739,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0271") (unit 1)
         )
       )
     )
@@ -2881,7 +2881,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0266") (unit 1)
         )
       )
     )
@@ -2961,7 +2961,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0270") (unit 1)
         )
       )
     )
@@ -3219,7 +3219,7 @@
           (reference "#GND0163") (unit 1)
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0268") (unit 1)
         )
       )
     )

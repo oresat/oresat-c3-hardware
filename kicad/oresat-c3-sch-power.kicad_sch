@@ -496,6 +496,58 @@
         )
       )
     )
+    (symbol "oresat-power:3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#3V3" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "power-flag" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "oresat-power:3.3V-L" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#3V3-L" (at 0 8.89 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -752,58 +804,6 @@
       (symbol "VBUSP_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
           (name "VBUSP" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1736,24 +1736,24 @@
     (uuid 1d725674-5089-4d86-9fdc-79c63ce3a884)
   )
 
-  (global_label "RADIO-ILIM" (shape input) (at 154.94 158.75 0) (fields_autoplaced)
+  (global_label "RADIO_ILIM" (shape input) (at 154.94 158.75 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3ab43ed3-4d7c-4f50-bc37-41ad88f64bae)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 168.6712 158.75 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 168.0664 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
-  (global_label "RADIO-ENABLE" (shape input) (at 97.79 156.21 180) (fields_autoplaced)
+  (global_label "RADIO_ENABLE" (shape input) (at 97.79 156.21 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 905bf5dd-51f5-4d20-a0f6-94e00f779a6f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 80.7327 156.21 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 81.3375 156.21 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
   )
-  (global_label "RADIO-nFLT" (shape input) (at 154.94 156.21 0) (fields_autoplaced)
+  (global_label "RADIO_nFLT" (shape input) (at 154.94 156.21 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 973d3bd6-db56-48a1-a99b-77d378d6bdeb)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 169.2154 156.21 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 168.6106 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
@@ -1761,7 +1761,7 @@
   (symbol (lib_id "power:GND") (at 182.88 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03b7daed-6db7-40b8-80c8-ee1b3e179d90)
-    (property "Reference" "#PWR?" (at 182.88 165.1 0)
+    (property "Reference" "#PWR0133" (at 182.88 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 162.56 0)
@@ -1777,7 +1777,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0133") (unit 1)
         )
       )
     )
@@ -1812,7 +1812,7 @@
   (symbol (lib_id "power:GND") (at 337.82 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c24ebf3-084f-4c4b-a09f-0e505c74b533)
-    (property "Reference" "#PWR?" (at 337.82 207.01 0)
+    (property "Reference" "#PWR0116" (at 337.82 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 337.82 204.47 0)
@@ -1828,7 +1828,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
     )
@@ -1870,7 +1870,7 @@
   (symbol (lib_id "power:GND") (at 223.52 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1679d092-326c-4434-b3f8-9379fec2da03)
-    (property "Reference" "#PWR?" (at 223.52 87.63 0)
+    (property "Reference" "#PWR0105" (at 223.52 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 85.09 0)
@@ -1886,7 +1886,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -2372,7 +2372,7 @@
   (symbol (lib_id "power:GND") (at 116.84 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31a68ab3-7e75-4e42-b796-cd9df8fd61df)
-    (property "Reference" "#PWR?" (at 116.84 181.61 0)
+    (property "Reference" "#PWR0131" (at 116.84 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 179.07 0)
@@ -2388,7 +2388,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -2478,7 +2478,7 @@
   (symbol (lib_id "power:GND") (at 316.23 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3b48936e-670f-41f3-b5ab-9cc48a226595)
-    (property "Reference" "#PWR?" (at 316.23 207.01 0)
+    (property "Reference" "#PWR0114" (at 316.23 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 316.23 204.47 0)
@@ -2494,7 +2494,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0114") (unit 1)
         )
       )
     )
@@ -2503,7 +2503,7 @@
   (symbol (lib_id "power:GND") (at 337.82 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d3cc768-39f0-4451-81d7-8eb847641a74)
-    (property "Reference" "#PWR?" (at 337.82 172.72 0)
+    (property "Reference" "#PWR0117" (at 337.82 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 337.82 170.18 0)
@@ -2519,7 +2519,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
     )
@@ -2674,7 +2674,7 @@
   (symbol (lib_id "power:GND") (at 130.81 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 50c966d9-bf7f-4f21-832d-2816a350aea5)
-    (property "Reference" "#PWR?" (at 130.81 172.72 0)
+    (property "Reference" "#PWR0132" (at 130.81 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 130.81 170.18 0)
@@ -2690,7 +2690,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -2699,7 +2699,7 @@
   (symbol (lib_id "power:GND") (at 198.12 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57325cc4-9102-4ace-b0dc-fcd9393f694e)
-    (property "Reference" "#PWR?" (at 198.12 93.98 0)
+    (property "Reference" "#PWR0136" (at 198.12 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 198.12 91.44 0)
@@ -2715,7 +2715,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0136") (unit 1)
         )
       )
     )
@@ -2724,7 +2724,7 @@
   (symbol (lib_id "power:GND") (at 247.65 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57edf156-a8c8-416c-8ae7-bf054e72b448)
-    (property "Reference" "#PWR?" (at 247.65 165.1 0)
+    (property "Reference" "#PWR0123" (at 247.65 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 247.65 162.56 0)
@@ -2740,7 +2740,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
     )
@@ -2775,7 +2775,7 @@
   (symbol (lib_id "power:GND") (at 187.96 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b1a7c29-cfc0-4188-affc-10324b9f8440)
-    (property "Reference" "#PWR?" (at 187.96 165.1 0)
+    (property "Reference" "#PWR0134" (at 187.96 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 187.96 162.56 0)
@@ -2791,7 +2791,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -2825,7 +2825,7 @@
   (symbol (lib_id "power:GND") (at 209.55 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5da169d7-a4f0-4489-bcff-21d7eaab131a)
-    (property "Reference" "#PWR?" (at 209.55 175.26 0)
+    (property "Reference" "#PWR0127" (at 209.55 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 209.55 172.72 0)
@@ -2841,7 +2841,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -2968,10 +2968,38 @@
     )
   )
 
+  (symbol (lib_id "oresat-power:3.3V") (at 147.32 142.24 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6ca0416f-ddc4-4fff-8c47-a61cdcbe303d)
+    (property "Reference" "#3V0113" (at 147.32 146.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "3.3V" (at 147.32 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 147.32 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 142.24 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7b7a706e-b59b-4886-a8c3-c7a10f4e717c))
+    (instances
+      (project "oresat-c3"
+        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
+          (reference "#3V0113") (unit 1)
+        )
+        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
+          (reference "#3V04") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 297.18 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f7b334d-cc95-474f-99a6-7cd9e51c8985)
-    (property "Reference" "#PWR?" (at 297.18 88.9 0)
+    (property "Reference" "#PWR0119" (at 297.18 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 297.18 86.36 0)
@@ -2987,7 +3015,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -2996,7 +3024,7 @@
   (symbol (lib_id "power:GND") (at 294.64 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7624a218-e893-487a-aedd-ec99232cbd36)
-    (property "Reference" "#PWR?" (at 294.64 172.72 0)
+    (property "Reference" "#PWR0113" (at 294.64 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 294.64 170.18 0)
@@ -3012,7 +3040,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -3210,7 +3238,7 @@
   (symbol (lib_id "power:GND") (at 157.48 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 90a99cf4-6786-471d-8d1b-cc04cd98e3af)
-    (property "Reference" "#PWR?" (at 157.48 93.98 0)
+    (property "Reference" "#PWR0137" (at 157.48 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 91.44 0)
@@ -3226,7 +3254,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0137") (unit 1)
         )
       )
     )
@@ -3235,7 +3263,7 @@
   (symbol (lib_id "power:GND") (at 271.78 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91850b77-484e-4a02-b331-59b7f3f86d2e)
-    (property "Reference" "#PWR?" (at 271.78 171.45 0)
+    (property "Reference" "#PWR0122" (at 271.78 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 271.78 168.91 0)
@@ -3251,7 +3279,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -3330,7 +3358,7 @@
   (symbol (lib_id "power:GND") (at 184.15 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95f7e744-47b9-4b65-ba57-ecb22a4c946e)
-    (property "Reference" "#PWR?" (at 184.15 102.87 0)
+    (property "Reference" "#PWR0135" (at 184.15 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 100.33 0)
@@ -3346,7 +3374,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0135") (unit 1)
         )
       )
     )
@@ -3465,7 +3493,7 @@
   (symbol (lib_id "power:GND") (at 147.32 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0f5e75c-b5f7-44fa-b6fb-7c76236039be)
-    (property "Reference" "#PWR?" (at 147.32 87.63 0)
+    (property "Reference" "#PWR0129" (at 147.32 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 147.32 85.09 0)
@@ -3481,7 +3509,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -3619,7 +3647,7 @@
   (symbol (lib_id "power:GND") (at 250.19 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b59d88d8-6f5b-449e-9ff5-c943335873d6)
-    (property "Reference" "#PWR?" (at 250.19 96.52 0)
+    (property "Reference" "#PWR0108" (at 250.19 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 93.98 0)
@@ -3635,7 +3663,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0108") (unit 1)
         )
       )
     )
@@ -3644,7 +3672,7 @@
   (symbol (lib_id "power:GND") (at 231.14 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b67eefd8-08bc-4088-946f-4e48fa116d3e)
-    (property "Reference" "#PWR?" (at 231.14 87.63 0)
+    (property "Reference" "#PWR0106" (at 231.14 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 85.09 0)
@@ -3660,7 +3688,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -3720,7 +3748,7 @@
   (symbol (lib_id "power:GND") (at 327.66 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca97d4bc-0561-404a-82bb-4b57ec8bf6ff)
-    (property "Reference" "#PWR?" (at 327.66 172.72 0)
+    (property "Reference" "#PWR0112" (at 327.66 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 327.66 170.18 0)
@@ -3736,7 +3764,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0112") (unit 1)
         )
       )
     )
@@ -3745,7 +3773,7 @@
   (symbol (lib_id "power:GND") (at 318.77 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cba8c7db-554b-4dc0-b367-06537ac898ff)
-    (property "Reference" "#PWR?" (at 318.77 92.71 0)
+    (property "Reference" "#PWR0118" (at 318.77 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 318.77 90.17 0)
@@ -3761,7 +3789,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
     )
@@ -3846,7 +3874,7 @@
   (symbol (lib_id "power:GND") (at 261.62 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d30bfb47-0566-4c0e-b028-62be72cdb096)
-    (property "Reference" "#PWR?" (at 261.62 165.1 0)
+    (property "Reference" "#PWR0125" (at 261.62 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 162.56 0)
@@ -3862,7 +3890,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
     )
@@ -3896,7 +3924,7 @@
   (symbol (lib_id "power:GND") (at 316.23 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d3c8a56b-1064-4c94-8737-5dd84a2fe9fa)
-    (property "Reference" "#PWR?" (at 316.23 172.72 0)
+    (property "Reference" "#PWR0111" (at 316.23 172.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 316.23 170.18 0)
@@ -3912,7 +3940,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0111") (unit 1)
         )
       )
     )
@@ -4004,35 +4032,10 @@
     )
   )
 
-  (symbol (lib_id "power:+3.3V") (at 147.32 142.24 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid e118d39f-a836-44eb-bc81-33b31c430bdd)
-    (property "Reference" "#PWR010" (at 147.32 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 147.32 138.43 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 147.32 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 147.32 142.24 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 216aeef7-dbd8-4cc6-927a-fca8673908d2))
-    (instances
-      (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR010") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 76.2 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e28335b7-6b73-4aa7-8048-5214c878ab6c)
-    (property "Reference" "#PWR?" (at 76.2 166.37 0)
+    (property "Reference" "#PWR0130" (at 76.2 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 76.2 163.83 0)
@@ -4048,7 +4051,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
     )
@@ -4144,7 +4147,7 @@
   (symbol (lib_id "power:GND") (at 278.13 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8be0658-042d-4244-bbea-e8f7b479f365)
-    (property "Reference" "#PWR?" (at 278.13 96.52 0)
+    (property "Reference" "#PWR0107" (at 278.13 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.13 93.98 0)
@@ -4160,7 +4163,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0107") (unit 1)
         )
       )
     )
@@ -4169,7 +4172,7 @@
   (symbol (lib_id "power:GND") (at 252.73 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ebce3b61-caf4-4099-8943-2e3e57056e8e)
-    (property "Reference" "#PWR?" (at 252.73 165.1 0)
+    (property "Reference" "#PWR0124" (at 252.73 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 162.56 0)
@@ -4185,7 +4188,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
     )
@@ -4280,7 +4283,7 @@
   (symbol (lib_id "power:GND") (at 288.29 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1840df3-7980-4aa6-b464-b3e8ead58f42)
-    (property "Reference" "#PWR?" (at 288.29 88.9 0)
+    (property "Reference" "#PWR0121" (at 288.29 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 288.29 86.36 0)
@@ -4296,7 +4299,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
     )
@@ -4305,7 +4308,7 @@
   (symbol (lib_id "power:GND") (at 294.64 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f311516a-cfbb-4196-834f-d7c8aaa6be1f)
-    (property "Reference" "#PWR?" (at 294.64 207.01 0)
+    (property "Reference" "#PWR0110" (at 294.64 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 294.64 204.47 0)
@@ -4321,7 +4324,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0110") (unit 1)
         )
       )
     )
@@ -4330,7 +4333,7 @@
   (symbol (lib_id "power:GND") (at 306.07 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f401c2f1-ea1f-46cd-99d6-ebf5f6302399)
-    (property "Reference" "#PWR?" (at 306.07 88.9 0)
+    (property "Reference" "#PWR0120" (at 306.07 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 306.07 86.36 0)
@@ -4346,7 +4349,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
     )
@@ -4381,7 +4384,7 @@
   (symbol (lib_id "power:GND") (at 327.66 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f63560f7-3b34-4e21-a41b-2bc650b42da9)
-    (property "Reference" "#PWR?" (at 327.66 207.01 0)
+    (property "Reference" "#PWR0115" (at 327.66 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 327.66 204.47 0)
@@ -4397,7 +4400,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0115") (unit 1)
         )
       )
     )
@@ -4406,7 +4409,7 @@
   (symbol (lib_id "power:GND") (at 264.16 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6da30fe-b2fe-4093-8740-bf6a675dec96)
-    (property "Reference" "#PWR?" (at 264.16 96.52 0)
+    (property "Reference" "#PWR0109" (at 264.16 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 264.16 93.98 0)
@@ -4422,7 +4425,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0109") (unit 1)
         )
       )
     )
@@ -4489,7 +4492,7 @@
   (symbol (lib_id "power:GND") (at 223.52 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb18b33e-2b6d-406c-8ca6-bc611df92408)
-    (property "Reference" "#PWR?" (at 223.52 175.26 0)
+    (property "Reference" "#PWR0128" (at 223.52 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 172.72 0)
@@ -4505,7 +4508,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
     )
@@ -4514,7 +4517,7 @@
   (symbol (lib_id "power:GND") (at 237.49 168.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fefcfee4-66fd-4272-8ced-62c35acff7ba)
-    (property "Reference" "#PWR?" (at 237.49 175.26 0)
+    (property "Reference" "#PWR0126" (at 237.49 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 172.72 0)
@@ -4530,7 +4533,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
-          (reference "#PWR?") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
