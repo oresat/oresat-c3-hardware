@@ -2417,11 +2417,11 @@
         )
       )
     )
-    (symbol "power:GND1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "GND1" (at 0 -3.81 0)
+      (property "Value" "GND" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -2433,10 +2433,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"GND1\" , ground" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "GND1_0_1"
+      (symbol "GND_0_1"
         (polyline
           (pts
             (xy 0 0)
@@ -2450,9 +2450,9 @@
           (fill (type none))
         )
       )
-      (symbol "GND1_1_1"
+      (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND1" (effects (font (size 1.27 1.27))))
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -3502,13 +3502,13 @@
     )
   )
 
-  (symbol (lib_id "power:GND1") (at 200.66 217.17 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 200.66 217.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6eb211cd-384e-46ff-a3ff-78f18be912a9)
-    (property "Reference" "#PWR0147" (at 200.66 223.52 0)
+    (property "Reference" "#PWR?" (at 200.66 223.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND1" (at 200.66 220.98 0)
+    (property "Value" "GND" (at 200.66 220.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 200.66 217.17 0)
@@ -3521,7 +3521,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3993,13 +3993,13 @@
     )
   )
 
-  (symbol (lib_id "power:GND1") (at 163.83 152.4 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 163.83 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a82af1ec-22a3-450e-a5c3-263fb9415f27)
-    (property "Reference" "#PWR0145" (at 163.83 158.75 0)
+    (property "Reference" "#PWR?" (at 163.83 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND1" (at 163.83 156.21 0)
+    (property "Value" "GND" (at 163.83 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 163.83 152.4 0)
@@ -4012,7 +4012,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4096,13 +4096,13 @@
     )
   )
 
-  (symbol (lib_id "power:GND1") (at 215.9 200.66 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 215.9 200.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b8f38f24-63d6-4f4f-8787-708ec31067e3)
-    (property "Reference" "#PWR0146" (at 215.9 207.01 0)
+    (property "Reference" "#PWR?" (at 215.9 207.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND1" (at 215.9 204.47 0)
+    (property "Value" "GND" (at 215.9 204.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 215.9 200.66 0)
@@ -4115,7 +4115,7 @@
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
