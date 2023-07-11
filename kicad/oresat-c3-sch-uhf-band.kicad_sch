@@ -1410,7 +1410,7 @@
         )
       )
     )
-    (symbol "oresat-misc:Test-Point-RF-Probe-Stripline" (in_bom yes) (on_board yes)
+    (symbol "oresat-misc:Test-Point-RF-Probe-Stripline" (in_bom no) (on_board yes)
       (property "Reference" "TP" (at 0 2.54 0)
         (effects (font (size 1.27 1.0795)))
       )
@@ -4060,7 +4060,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 281.94 101.6 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 062a6fdc-3241-4df3-833d-e523cd14dc6a)
     (property "Reference" "TP908" (at 281.94 99.06 0)
       (effects (font (size 1.27 1.0795)))
@@ -4522,7 +4522,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 203.2 226.06 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 1cb34a1f-9b52-42fc-b165-a496cd345036)
     (property "Reference" "TP907" (at 203.2 223.52 0)
       (effects (font (size 1.27 1.0795)))
@@ -6399,7 +6399,7 @@
     (property "Value" "MAX941EUA+" (at 76.2 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "oresat-c3:21-0036K_MXM" (at 62.23 18.415 0)
+    (property "Footprint" "oresat-ics:LINEAR-MSOP-8-AND-MAXIM-UMAX-8-21-0036" (at 62.23 18.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max941-max944.pdf" (at 62.23 15.24 0)
@@ -6563,7 +6563,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 276.86 226.06 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7e673f0c-a07b-496c-b7ee-dd6221cea77d)
     (property "Reference" "TP906" (at 276.86 223.52 0)
       (effects (font (size 1.27 1.0795)))
@@ -6642,7 +6642,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 314.96 101.6 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7ebfcd80-c352-45d9-a4d3-c4b48fb8eca9)
     (property "Reference" "TP905" (at 314.96 99.06 0)
       (effects (font (size 1.27 1.0795)))
@@ -6667,7 +6667,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 139.7 144.78 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7f762cd6-7c18-405d-8d17-e9de95bbadab)
     (property "Reference" "TP901" (at 139.7 142.24 0)
       (effects (font (size 1.27 1.0795)))
@@ -6776,7 +6776,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 139.7 124.46 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 89cd7572-aba0-4fe7-9b65-f9a8d793ab66)
     (property "Reference" "TP902" (at 139.7 121.92 0)
       (effects (font (size 1.27 1.0795)))
@@ -7045,7 +7045,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 199.39 101.6 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 948c32ee-0809-48d6-b713-7ef8ed306b51)
     (property "Reference" "TP909" (at 199.39 99.06 0)
       (effects (font (size 1.27 1.0795)))
@@ -7174,7 +7174,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 384.81 167.64 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 9d9fb674-0090-4c2b-822a-defdc83a19de)
     (property "Reference" "TP903" (at 384.81 165.1 0)
       (effects (font (size 1.27 1.0795)))
@@ -7586,7 +7586,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 309.88 226.06 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid a9a6ba20-1dcd-452e-a30e-0e063448ddd3)
     (property "Reference" "TP904" (at 309.88 223.52 0)
       (effects (font (size 1.27 1.0795)))

@@ -4050,7 +4050,7 @@
     (property "Value" "3u3" (at 266.7 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "oresat-footprints:L_ECS-MPI4040" (at 266.7 72.39 0)
+    (property "Footprint" "oresat-passives:L_ECS-MPI4040" (at 266.7 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://ecsxtal.com/store/pdf/ECS-MPI4040.pdf" (at 266.7 72.39 0)

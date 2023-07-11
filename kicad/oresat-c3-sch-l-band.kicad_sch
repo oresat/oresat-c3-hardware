@@ -751,7 +751,7 @@
         )
       )
     )
-    (symbol "oresat-misc:Test-Point-RF-Probe-Stripline" (in_bom yes) (on_board yes)
+    (symbol "oresat-misc:Test-Point-RF-Probe-Stripline" (in_bom no) (on_board yes)
       (property "Reference" "TP" (at 0 2.54 0)
         (effects (font (size 1.27 1.0795)))
       )
@@ -2509,7 +2509,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 231.14 60.96 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 000b150c-3f3d-4d54-a054-6c6db793781a)
     (property "Reference" "TP902" (at 231.14 58.42 0)
       (effects (font (size 1.27 1.0795)))
@@ -3201,7 +3201,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 300.99 134.62 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 330fb4a1-2890-4d82-9127-33464ed33999)
     (property "Reference" "TP902" (at 300.99 132.08 0)
       (effects (font (size 1.27 1.0795)))
@@ -3730,7 +3730,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 325.12 60.96 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 5d61a2a1-7522-455c-ab77-99ee8ec02c48)
     (property "Reference" "TP902" (at 325.12 58.42 0)
       (effects (font (size 1.27 1.0795)))
@@ -4118,7 +4118,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 342.9 167.64 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7d171b42-80f0-4784-bbb6-aa224240faa4)
     (property "Reference" "TP902" (at 345.44 167.64 0)
       (effects (font (size 1.27 1.0795)))
@@ -4494,7 +4494,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 355.6 60.96 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 97a22680-92c0-42d6-b377-d6ac569862c6)
     (property "Reference" "TP902" (at 355.6 58.42 0)
       (effects (font (size 1.27 1.0795)))
@@ -4895,7 +4895,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 193.04 134.62 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid b37d3dba-12c2-478a-a7b0-627b5cb33d0f)
     (property "Reference" "TP902" (at 193.04 132.08 0)
       (effects (font (size 1.27 1.0795)))
@@ -5185,7 +5185,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 153.67 60.96 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid c853e071-4f07-409c-a847-e01a55257c29)
     (property "Reference" "TP902" (at 153.67 58.42 0)
       (effects (font (size 1.27 1.0795)))
@@ -5315,7 +5315,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 267.97 134.62 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d7aaaf02-f9cb-44ff-b270-abd16b71830d)
     (property "Reference" "TP902" (at 267.97 132.08 0)
       (effects (font (size 1.27 1.0795)))
@@ -5551,7 +5551,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 261.62 60.96 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid e4f4545e-8b84-4f97-b158-559cd84bf70e)
     (property "Reference" "TP902" (at 261.62 58.42 0)
       (effects (font (size 1.27 1.0795)))
@@ -5869,7 +5869,7 @@
   )
 
   (symbol (lib_id "oresat-misc:Test-Point-RF-Probe-Stripline") (at 356.87 134.62 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid fa5145f7-0094-4395-8684-a4708351f86a)
     (property "Reference" "TP902" (at 356.87 132.08 0)
       (effects (font (size 1.27 1.0795)))
