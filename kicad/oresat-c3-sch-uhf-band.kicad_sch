@@ -7674,7 +7674,7 @@
     (property "Value" "TQP7M9105" (at 229.87 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "oresat-ics:U-QORVO-TQP7M9105-PA_TQP7M9105" (at 227.33 93.98 0)
+    (property "Footprint" "oresat-ics:U-QORVO-TQP7M9105-VIAS" (at 227.33 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.qorvo.com/products/d/da005665" (at 227.33 93.98 0)
