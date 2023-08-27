@@ -120,10 +120,8 @@
         "courtyards_overlap|110557954|92900000|3ffc1cac-5e57-4769-b4ca-960e9664afa4|8e529ba1-055e-4c0d-ae49-766fc366fcfc",
         "courtyards_overlap|119049999|137800001|18d1a303-643e-46e9-9269-87fe5186bcd7|db9d22c0-6843-4a17-985a-168e26398019",
         "courtyards_overlap|129270001|64434513|02caad10-1ff3-4bd4-a113-db8045c9f9c9|3e527c31-51e3-4d73-8758-a0b17dbaefd7",
-        "lib_footprint_mismatch|104200000|65200000|1712516a-896c-4020-93e6-a6cd5677eba8|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|112300000|59600000|0fb3d581-09c5-4c91-8a39-5fd7169c57aa|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|116665000|68537500|f4ca3f8d-73c4-432f-873d-2cebfd00c98b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|116905000|77875000|cf99fae7-7785-4c51-b3a2-526d471a7000|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|137850000|93350000|bead63a4-f6cf-4b8b-a940-0944bcf0cb57|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -475,7 +473,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "multiple_net_names|2921000|2298700|8542daa2-8c7c-47cf-8f2e-79a74f1aff97|bdf58f65-11c6-4086-9155-35babbb8b571|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -659,7 +659,7 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
