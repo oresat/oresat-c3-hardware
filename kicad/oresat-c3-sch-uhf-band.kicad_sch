@@ -4660,7 +4660,7 @@
     (property "Reference" "R11" (at 372.11 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0" (at 367.03 50.8 90)
+    (property "Value" "4.7k" (at 367.03 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 369.57 53.34 0)
@@ -5473,35 +5473,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 375.92 57.15 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 442862d0-2f3d-4684-a774-11a8452e2066)
-    (property "Reference" "C50" (at 372.11 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "NP" (at 372.11 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 375.92 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 375.92 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 306dd836-434a-4fbb-9ef2-f486611ec34a))
-    (pin "2" (uuid 4cd0b997-1cf2-4adf-9d35-c0245b194db6))
-    (instances
-      (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "C50") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-          (reference "C56") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:L_Small") (at 264.16 101.6 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4476b704-ee5a-4a95-af2f-96e18ee47bcf)
@@ -5720,6 +5691,32 @@
         )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
           (reference "TP105") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small_US") (at 375.92 57.15 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4ff7cd83-7d72-4249-9f16-8c67c5f78aa7)
+    (property "Reference" "R17" (at 372.11 55.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4.7k" (at 372.11 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 375.92 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 375.92 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1372d19e-eea8-478d-8667-254d87220aba))
+    (pin "2" (uuid 0ecbfc01-99e0-4b23-ad36-d147bac45d96))
+    (instances
+      (project "oresat-c3"
+        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -6356,6 +6353,32 @@
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
           (reference "#PWR0200") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_Small_US") (at 200.66 57.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 74143e58-8549-4e51-bfbd-f71f7ea5a47a)
+    (property "Reference" "R4" (at 203.2 55.88 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "4.7k" (at 204.47 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 200.66 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 200.66 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 14acd17d-1e82-4b18-9467-b5bda3c487e9))
+    (pin "2" (uuid 0c5cd604-cd96-41b0-84b9-1bb233d3b14c))
+    (instances
+      (project "oresat-c3"
+        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -7826,35 +7849,6 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 200.66 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b269c5d4-867c-44b5-bc9e-541380c785b7)
-    (property "Reference" "C50" (at 204.47 55.88 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "NP" (at 204.47 58.42 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 200.66 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 200.66 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5765db07-b1a5-4d8f-9ab5-c3912826f1b9))
-    (pin "2" (uuid d117b319-4d84-486a-9e47-2a3230f8ec53))
-    (instances
-      (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-          (reference "C50") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-          (reference "C65") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C_Small") (at 241.3 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2dde7d6-1360-413e-928e-671d4afc5342)
@@ -9183,7 +9177,7 @@
     (property "Reference" "R18" (at 207.01 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "0" (at 207.01 50.8 90)
+    (property "Value" "4.7k" (at 207.01 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 207.01 53.34 0)
@@ -9192,8 +9186,8 @@
     (property "Datasheet" "~" (at 207.01 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b5714954-016c-4b14-809d-c11eb24b333c))
-    (pin "2" (uuid cd1574eb-1aaf-4392-9ca8-b83dbaf0a4a5))
+    (pin "1" (uuid b52522a0-f1a9-46ce-929f-a8790dbc4075))
+    (pin "2" (uuid 6d155ac4-ea57-418d-8d82-ef182bd33d7d))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
