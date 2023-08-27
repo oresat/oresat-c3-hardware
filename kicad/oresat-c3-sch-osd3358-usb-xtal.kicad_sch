@@ -2540,7 +2540,7 @@
 
   (no_connect (at 191.77 210.82) (uuid b17ba96c-34ac-444e-86ab-af4988852127))
 
-  (polyline (pts (xy 271.78 138.43) (xy 271.78 146.05))
+  (polyline (pts (xy 271.78 139.7) (xy 271.78 146.05))
     (stroke (width 0) (type default))
     (uuid 05e86f57-776c-4f16-be14-3c6ffb2b96d5)
   )
@@ -2969,7 +2969,7 @@
     (stroke (width 0) (type default))
     (uuid f0cb7063-1360-4ac2-a480-62c39a6b5f35)
   )
-  (polyline (pts (xy 270.51 138.43) (xy 271.78 138.43))
+  (polyline (pts (xy 270.51 139.7) (xy 271.78 139.7))
     (stroke (width 0) (type default))
     (uuid f75bdb8e-2d0f-490d-b500-47329f332934)
   )

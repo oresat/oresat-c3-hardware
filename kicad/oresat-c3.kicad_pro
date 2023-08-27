@@ -124,7 +124,7 @@
         "lib_footprint_mismatch|112300000|59600000|0fb3d581-09c5-4c91-8a39-5fd7169c57aa|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|116665000|68537500|f4ca3f8d-73c4-432f-873d-2cebfd00c98b|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|116905000|77875000|cf99fae7-7785-4c51-b3a2-526d471a7000|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|136600000|93350000|bead63a4-f6cf-4b8b-a940-0944bcf0cb57|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|137850000|93350000|bead63a4-f6cf-4b8b-a940-0944bcf0cb57|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -731,7 +731,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
