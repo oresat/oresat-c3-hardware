@@ -3784,7 +3784,7 @@
     (property "Reference" "C29" (at 160.02 116.84 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "12p" (at 160.02 121.92 90)
+    (property "Value" "18p" (at 160.02 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 160.02 119.38 0)
@@ -3793,8 +3793,8 @@
     (property "Datasheet" "~" (at 160.02 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 098122a7-3add-4062-b717-3f5c58a13eb4))
-    (pin "2" (uuid 4696d67b-8296-4777-8fc2-ecf5a9bc8236))
+    (pin "1" (uuid 640ed452-71bb-43dd-a613-7a66b4e5e03a))
+    (pin "2" (uuid 976b99c9-8b6c-48da-addc-f49d52a31cd2))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
@@ -4149,7 +4149,7 @@
     (property "Reference" "C28" (at 160.02 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "17p" (at 160.02 106.68 90)
+    (property "Value" "18p" (at 160.02 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 160.02 104.14 0)
@@ -4158,8 +4158,8 @@
     (property "Datasheet" "~" (at 160.02 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 67baffee-da09-44a7-abf6-253983caa638))
-    (pin "2" (uuid aae43460-235e-4aae-be98-4981d407be49))
+    (pin "1" (uuid b45c2bc6-d95c-4fbb-a344-1074b6fb2f5f))
+    (pin "2" (uuid a8d9914d-af86-4b66-8193-cd3be1863479))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
