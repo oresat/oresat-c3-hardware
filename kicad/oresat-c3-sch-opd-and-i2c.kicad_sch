@@ -2717,7 +2717,7 @@
     (property "Reference" "D3" (at 186.69 74.93 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "14151WS" (at 186.69 77.47 90)
+    (property "Value" "1N4151WS" (at 186.69 77.47 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Diode_SMD:D_SOD-323" (at 179.07 76.2 0)

@@ -3547,7 +3547,7 @@
   )
 
   (symbol (lib_id "Device:R_Small_US") (at 179.07 111.76 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 5847ff6f-27b6-4084-a56a-d33be4464529)
     (property "Reference" "R46" (at 181.61 110.4899 0)
       (effects (font (size 1.27 1.27)) (justify left))
