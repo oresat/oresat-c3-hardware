@@ -1,7 +1,7 @@
-# Ignore local archives
+# Ignore local archives and build folders
 archive
 local-archive
-
+build
 
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
