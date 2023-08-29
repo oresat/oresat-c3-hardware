@@ -474,9 +474,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|2921000|2298700|8542daa2-8c7c-47cf-8f2e-79a74f1aff97|bdf58f65-11c6-4086-9155-35babbb8b571|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -742,7 +740,7 @@
         "name": "RF-50-min",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.38,
+        "track_width": 0.635,
         "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 6
