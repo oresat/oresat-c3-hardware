@@ -5109,7 +5109,7 @@
     (property "Reference" "U10" (at 280.67 194.31 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SN74LVC1G07DCK" (at 274.32 196.85 0)
+    (property "Value" "SN74AUC1G07DCKR" (at 274.32 196.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5" (at 285.75 203.2 0)
