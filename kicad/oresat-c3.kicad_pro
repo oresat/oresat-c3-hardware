@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -122,7 +122,9 @@
         "courtyards_overlap|129270001|64434513|02caad10-1ff3-4bd4-a113-db8045c9f9c9|3e527c31-51e3-4d73-8758-a0b17dbaefd7",
         "lib_footprint_mismatch|112300000|59600000|0fb3d581-09c5-4c91-8a39-5fd7169c57aa|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|116665000|68537500|f4ca3f8d-73c4-432f-873d-2cebfd00c98b|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|137850000|93350000|bead63a4-f6cf-4b8b-a940-0944bcf0cb57|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|137850000|93350000|bead63a4-f6cf-4b8b-a940-0944bcf0cb57|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|145419250|67430750|4f5ce4a8-0dd8-46ef-8a6d-3b27ee9779a5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|168569250|54030750|635b2967-cc5b-469e-94ef-03ffb5e076e2|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -185,7 +187,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.381,
         "min_hole_clearance": 0.127,
-        "min_hole_to_hole": 0.127,
+        "min_hole_to_hole": 0.30479999999999996,
         "min_microvia_diameter": 0.4572,
         "min_microvia_drill": 0.254,
         "min_resolved_spokes": 1,
