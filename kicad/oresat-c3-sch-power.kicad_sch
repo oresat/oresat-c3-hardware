@@ -1901,7 +1901,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c4b4562e-c9af-4154-975d-306fdb17281a)
   )
-  (text "TPS259621 = Autoretry after thermal shutdown\nVBUSP is limited to 302 mA by 3.0k\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 5 V\n~{FLT} can't do anything :)"
+  (text "TPS259621 = Autoretry after thermal shutdown\nVBUSP is limited to 302 mA by 3.0k\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 6.0 V\n~{FLT} can't do anything :)"
     (at 132.715 114.3 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cf180e3b-2e55-49bf-b548-df326be3e38b)
@@ -3276,10 +3276,10 @@
   (symbol (lib_id "Device:R_Small_US") (at 123.825 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fbb9e48-f0ca-4333-a22f-b2b5319e6070)
-    (property "Reference" "R83" (at 126.365 75.565 0)
+    (property "Reference" "R83" (at 125.73 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "31.6k" (at 126.365 78.105 0)
+    (property "Value" "22k" (at 125.73 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 123.825 76.2 0)
@@ -3288,8 +3288,8 @@
     (property "Datasheet" "~" (at 123.825 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b744ea31-699b-4b86-9cb6-afc69a6e815e))
-    (pin "2" (uuid f5f60e48-6e07-4441-9fe3-17da01b511f3))
+    (pin "1" (uuid b5c19046-6187-47df-9a79-a29539ff7ef1))
+    (pin "2" (uuid 84541daf-e672-4676-8964-35b9299c0e26))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
@@ -4788,10 +4788,10 @@
   (symbol (lib_id "Device:R_Small_US") (at 123.825 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef74eaa2-c077-485d-9c64-d84b19fbff64)
-    (property "Reference" "R84" (at 126.365 83.185 0)
+    (property "Reference" "R84" (at 125.73 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3.0k" (at 126.365 85.725 0)
+    (property "Value" "5.6k" (at 125.73 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 123.825 83.82 0)
@@ -4800,8 +4800,8 @@
     (property "Datasheet" "~" (at 123.825 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c7e6cd51-5406-4a21-9e24-309043029f55))
-    (pin "2" (uuid d5436f61-8880-424f-ba77-f3b9b5453474))
+    (pin "1" (uuid 5fa4eceb-4f37-40b0-ab2c-666dc6a16085))
+    (pin "2" (uuid e3110845-5c6a-4e20-bfad-f92dc171deaa))
     (instances
       (project "oresat-c3"
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/2134bb9a-062c-4e32-a41e-d15ce3545372"
