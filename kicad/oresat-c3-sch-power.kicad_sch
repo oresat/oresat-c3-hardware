@@ -1901,7 +1901,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c4b4562e-c9af-4154-975d-306fdb17281a)
   )
-  (text "TPS259621 = Autoretry after thermal shutdown\nVBUSP is limited to 302 mA by 3.0k\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 6.0 V\n~{FLT} can't do anything :)"
+  (text "TPS259621 = Autoretry after thermal shutdown\nVBUSP is limited to 1.5 A by 604 ohm R_ILM\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 6.0 V\n~{FLT} can't do anything :)"
     (at 132.715 114.3 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cf180e3b-2e55-49bf-b548-df326be3e38b)
@@ -4617,10 +4617,10 @@
   (symbol (lib_id "Device:R_Small_US") (at 164.465 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5045136-2830-424a-ae4f-127319d90480)
-    (property "Reference" "R82" (at 167.005 83.185 0)
+    (property "Reference" "R82" (at 166.37 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "3.0k" (at 167.005 85.725 0)
+    (property "Value" "604" (at 166.37 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 164.465 83.82 0)

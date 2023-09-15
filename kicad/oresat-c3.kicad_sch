@@ -14,6 +14,11 @@
   )
 
 
+  (text "Bill of Materials is kept in a Google Sheet Here:\nhttps://docs.google.com/spreadsheets/d/11vG1kWyrAjmbF5QJM-EhXmvQoF6O47japwYlHF802do/edit#gid=668351130"
+    (at 171.45 194.31 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 04e2d174-7b67-4e98-9fe1-d2e452601549)
+  )
   (text "The Octavo OSD3358 schematics are heavily based on the Octavo Systems \nOSD3358-SM-RED platform, which seems to be released under an MIT-like license.\nPlease see https://octavosystems.com/docs/osd3358-sm-red-schematics-pdf/\n"
     (at 171.45 179.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
