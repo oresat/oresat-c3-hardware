@@ -7,7 +7,7 @@
   (title_block
     (title "OreSat C3: OSD3358: SIP A")
     (date "2023-05-29")
-    (rev "6.0")
+    (rev "6.1")
   )
 
   (lib_symbols
