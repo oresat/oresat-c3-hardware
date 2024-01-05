@@ -184,7 +184,7 @@
         "min_clearance": 0.127,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.381,
-        "min_hole_clearance": 0.127,
+        "min_hole_clearance": 0.17779999999999999,
         "min_hole_to_hole": 0.30479999999999996,
         "min_microvia_diameter": 0.4572,
         "min_microvia_drill": 0.254,
@@ -709,7 +709,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.127,
         "via_diameter": 0.4572,
         "via_drill": 0.254,
         "wire_width": 6
