@@ -1991,7 +1991,7 @@
   (symbol (lib_id "power:GND") (at 177.8 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0483e6f5-48a4-466a-b71b-16f30b6a6a6c)
-    (property "Reference" "#GND0163" (at 177.8 186.69 0)
+    (property "Reference" "#PWR0264" (at 177.8 186.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 177.8 184.15 0)
@@ -2006,9 +2006,6 @@
     (pin "1" (uuid f040112b-407f-4bab-94e2-8dcd76fc2a9b))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0264") (unit 1)
         )
@@ -2135,7 +2132,7 @@
   (symbol (lib_id "power:GND") (at 134.62 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 181b8e67-0f06-40e6-b911-641acdc1ddab)
-    (property "Reference" "#GND0163" (at 134.62 116.84 0)
+    (property "Reference" "#PWR0267" (at 134.62 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 114.3 0)
@@ -2150,9 +2147,6 @@
     (pin "1" (uuid 4caf6845-7919-43da-b098-7fb87d4b3f8e))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0267") (unit 1)
         )
@@ -2189,7 +2183,7 @@
   (symbol (lib_id "power:GND") (at 189.23 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2aa5573f-a072-4790-9c4a-db8d79efce85)
-    (property "Reference" "#GND0163" (at 189.23 180.34 0)
+    (property "Reference" "#PWR0269" (at 189.23 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 177.8 0)
@@ -2204,9 +2198,6 @@
     (pin "1" (uuid 56b9e5f9-268d-4826-88bc-5e233f205052))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0269") (unit 1)
         )
@@ -2217,7 +2208,7 @@
   (symbol (lib_id "power:GND") (at 156.21 119.38 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 33fce16c-c7f6-421d-90db-217e98f04af4)
-    (property "Reference" "#GND0163" (at 156.21 125.73 0)
+    (property "Reference" "#PWR0263" (at 156.21 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 123.19 0)
@@ -2232,9 +2223,6 @@
     (pin "1" (uuid 7d42681a-dbb9-4464-a03e-6fbe777c83d6))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0263") (unit 1)
         )
@@ -2271,7 +2259,7 @@
   (symbol (lib_id "power:GND") (at 175.26 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44a1561d-fa37-4af8-af4e-d3d2b06a5efb)
-    (property "Reference" "#GND0163" (at 175.26 146.05 0)
+    (property "Reference" "#PWR0265" (at 175.26 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 143.51 0)
@@ -2286,9 +2274,6 @@
     (pin "1" (uuid 68c43cf0-010c-47ec-8daa-d0d30d7e586a))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0265") (unit 1)
         )
@@ -2724,7 +2709,7 @@
   (symbol (lib_id "power:GND") (at 256.54 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa909159-86c2-4430-8a99-8de5756bddfe)
-    (property "Reference" "#GND0163" (at 256.54 179.07 0)
+    (property "Reference" "#PWR0271" (at 256.54 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 256.54 176.53 0)
@@ -2739,9 +2724,6 @@
     (pin "1" (uuid 20915862-7c31-4b25-96d4-289c2d00d615))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0271") (unit 1)
         )
@@ -2866,7 +2848,7 @@
   (symbol (lib_id "power:GND") (at 303.53 142.24 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be72ad3a-bb6c-401f-be93-90b9673c365b)
-    (property "Reference" "#GND0163" (at 303.53 148.59 0)
+    (property "Reference" "#PWR0266" (at 303.53 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 303.53 146.05 0)
@@ -2881,9 +2863,6 @@
     (pin "1" (uuid f417fd39-bc04-4f5a-9884-608628d26730))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0266") (unit 1)
         )
@@ -2946,7 +2925,7 @@
   (symbol (lib_id "power:GND") (at 266.7 172.72 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cfc7c15d-3c44-4c6a-b4ab-034369677467)
-    (property "Reference" "#GND0163" (at 266.7 179.07 0)
+    (property "Reference" "#PWR0270" (at 266.7 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 266.7 176.53 0)
@@ -2961,9 +2940,6 @@
     (pin "1" (uuid 645fe33c-5b10-4827-b5af-df9183acffd6))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0270") (unit 1)
         )
@@ -3204,7 +3180,7 @@
   (symbol (lib_id "power:GND") (at 222.25 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5491d21-b71d-4167-acd1-4ec00107eb59)
-    (property "Reference" "#GND0163" (at 222.25 176.53 0)
+    (property "Reference" "#PWR0268" (at 222.25 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 222.25 173.99 0)
@@ -3219,9 +3195,6 @@
     (pin "1" (uuid 3cbee90e-f325-40d7-8946-9c2c0b711b3e))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
           (reference "#PWR0268") (unit 1)
         )

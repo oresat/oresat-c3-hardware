@@ -2380,7 +2380,7 @@
   (symbol (lib_id "power:GND") (at 171.45 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e386998-3222-4413-b425-a2d90c60a461)
-    (property "Reference" "#GND0163" (at 171.45 101.6 0)
+    (property "Reference" "#PWR0290" (at 171.45 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 99.06 0)
@@ -2395,15 +2395,6 @@
     (pin "1" (uuid b107984e-5841-4cd3-b3e1-8ac98f6d0f00))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#GND01") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND045") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#PWR0290") (unit 1)
         )
@@ -2414,7 +2405,7 @@
   (symbol (lib_id "oresat-diodes:1N4151WS-HE3") (at 256.54 208.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f948264-c825-4e25-b4ff-ce73cd40223e)
-    (property "Reference" "D3" (at 255.27 205.74 90)
+    (property "Reference" "D14" (at 255.27 205.74 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4151WS" (at 257.81 205.74 90)
@@ -2430,12 +2421,6 @@
     (pin "2" (uuid d1b33f12-860e-43ab-a203-65f983235931))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "D3") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "D10") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "D14") (unit 1)
         )
@@ -2479,7 +2464,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 220.98 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d9c8729-bf6c-461b-b8bd-a3bccf3a64a5)
-    (property "Reference" "R80" (at 218.44 173.355 0)
+    (property "Reference" "R99" (at 218.44 173.355 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 218.44 175.895 0)
@@ -2495,9 +2480,6 @@
     (pin "2" (uuid 090df842-320b-4ad3-9c90-ffc78411f331))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R99") (unit 1)
         )
@@ -2508,7 +2490,7 @@
   (symbol (lib_id "power:VBUS") (at 220.98 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 495e8466-5aab-470f-b732-ad8fa8150d29)
-    (property "Reference" "#PWR07" (at 220.98 168.91 0)
+    (property "Reference" "#PWR012" (at 220.98 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 220.98 161.29 0)
@@ -2523,9 +2505,6 @@
     (pin "1" (uuid b2587d74-b980-4ad4-984a-e9a1bcdd5c7a))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#PWR012") (unit 1)
         )
@@ -2536,7 +2515,7 @@
   (symbol (lib_id "oresat-misc:Test-Point-1mm-round") (at 254 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ecb4b98-97d3-4c01-9cfc-30cd68304da4)
-    (property "Reference" "TP64" (at 254 96.52 0)
+    (property "Reference" "TP62" (at 254 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Test-Point" (at 251.46 90.17 0)
@@ -2551,9 +2530,6 @@
     (pin "1" (uuid 7be42a2d-73ef-416c-bafe-f0aafb7b8afc))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "TP64") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "TP62") (unit 1)
         )
@@ -2564,7 +2540,7 @@
   (symbol (lib_id "power:GND") (at 171.45 220.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 565d9739-4bb9-4724-a3ae-65b87f719fa0)
-    (property "Reference" "#GND0163" (at 171.45 227.33 0)
+    (property "Reference" "#PWR0293" (at 171.45 227.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 171.45 224.79 0)
@@ -2579,15 +2555,6 @@
     (pin "1" (uuid 011e9ce3-1bb6-461c-b386-9c3639d32c89))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#GND01") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND045") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#PWR0293") (unit 1)
         )
@@ -2598,7 +2565,7 @@
   (symbol (lib_id "oresat-misc:Test-Point-1mm-round") (at 254 215.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5aba90b4-f020-4963-9afb-1f8666331b6b)
-    (property "Reference" "TP65" (at 254 222.25 0)
+    (property "Reference" "TP63" (at 254 222.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Test-Point" (at 251.46 215.9 0)
@@ -2613,9 +2580,6 @@
     (pin "1" (uuid 6c949d1f-3891-4a7b-997d-80e741329067))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "TP65") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "TP63") (unit 1)
         )
@@ -2659,7 +2623,7 @@
   (symbol (lib_id "power:GND") (at 260.35 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 63863738-c5b8-46b5-af8f-da470fb08df1)
-    (property "Reference" "#GND0163" (at 260.35 231.14 0)
+    (property "Reference" "#PWR0292" (at 260.35 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 228.6 0)
@@ -2674,15 +2638,6 @@
     (pin "1" (uuid 0b2ea007-dbf3-4265-add7-b319f9d82ba4))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#GND01") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND045") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#PWR0292") (unit 1)
         )
@@ -2693,7 +2648,7 @@
   (symbol (lib_id "power:GND") (at 203.2 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 650d4067-6830-4d87-a0fd-fdead74c3d40)
-    (property "Reference" "#GND0163" (at 203.2 114.3 0)
+    (property "Reference" "#PWR0291" (at 203.2 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 111.76 0)
@@ -2708,15 +2663,6 @@
     (pin "1" (uuid afdf6924-437c-4f81-9240-1b40d11ebaea))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#GND01") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND045") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#PWR0291") (unit 1)
         )
@@ -2727,7 +2673,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 250.19 208.28 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68cf6b7b-3b68-45d7-96a3-44307dfd7a16)
-    (property "Reference" "R80" (at 249.555 210.82 0)
+    (property "Reference" "R100" (at 249.555 210.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 252.095 210.82 0)
@@ -2743,9 +2689,6 @@
     (pin "2" (uuid 1a857939-0ea2-4a10-a7a4-2194288eda9a))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R100") (unit 1)
         )
@@ -2756,7 +2699,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 173.99 90.17 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7218b781-5588-43da-a449-581e1568542b)
-    (property "Reference" "R68" (at 176.53 89.535 0)
+    (property "Reference" "R117" (at 176.53 89.535 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 176.53 92.075 0)
@@ -2772,9 +2715,6 @@
     (pin "2" (uuid ab7042bd-937f-427e-821c-d567d6c95dfa))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R68") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R117") (unit 1)
         )
@@ -2857,7 +2797,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 220.98 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f42209a-1244-49d0-ad3d-c4d6a6b4ad6b)
-    (property "Reference" "R80" (at 218.44 47.625 0)
+    (property "Reference" "R91" (at 218.44 47.625 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 218.44 50.165 0)
@@ -2873,9 +2813,6 @@
     (pin "2" (uuid da29aa6a-ee7c-4728-849f-3053edfed54a))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R91") (unit 1)
         )
@@ -2919,7 +2856,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 260.35 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8347d34b-fda6-4bad-9aa4-e9c5ef456569)
-    (property "Reference" "R80" (at 262.89 85.725 0)
+    (property "Reference" "R94" (at 262.89 85.725 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47k" (at 262.89 88.265 0)
@@ -2935,9 +2872,6 @@
     (pin "2" (uuid 6d2f7a44-e248-412a-a1c6-8883bed595b2))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R94") (unit 1)
         )
@@ -2981,7 +2915,7 @@
   (symbol (lib_id "power:VBUS") (at 220.98 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91daf5f9-d098-4e13-9f61-458787892f80)
-    (property "Reference" "#PWR07" (at 220.98 43.18 0)
+    (property "Reference" "#PWR011" (at 220.98 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 220.98 35.56 0)
@@ -2996,9 +2930,6 @@
     (pin "1" (uuid 1be5981c-2a8f-444f-ba5a-4a31b30e6f50))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#PWR011") (unit 1)
         )
@@ -3009,7 +2940,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 260.35 220.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9559275d-a0f4-493b-8cfb-9d4fbb65d619)
-    (property "Reference" "R80" (at 262.89 220.345 0)
+    (property "Reference" "R102" (at 262.89 220.345 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 262.89 222.885 0)
@@ -3025,9 +2956,6 @@
     (pin "2" (uuid 9784e1de-6a8a-4274-b176-a138cf944fd2))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R102") (unit 1)
         )
@@ -3088,7 +3016,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 168.91 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7b0cff3-cb63-4497-99b0-11ba0f7b511c)
-    (property "Reference" "R68" (at 166.37 89.535 0)
+    (property "Reference" "R30" (at 166.37 89.535 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 166.37 92.075 0)
@@ -3104,9 +3032,6 @@
     (pin "2" (uuid 4713b625-ac60-4e61-8ab4-51d4ac09e09c))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R68") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R30") (unit 1)
         )
@@ -3117,7 +3042,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 260.35 212.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a7d8b715-c1a2-4bc2-ae89-43a34dde23d3)
-    (property "Reference" "R80" (at 262.89 211.455 0)
+    (property "Reference" "R101" (at 262.89 211.455 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "47k" (at 262.89 213.995 0)
@@ -3133,9 +3058,6 @@
     (pin "2" (uuid fdb8a766-b7d5-4969-b944-6154c8aa93b5))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R101") (unit 1)
         )
@@ -3146,7 +3068,7 @@
   (symbol (lib_id "oresat-diodes:1N4151WS-HE3") (at 256.54 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b2332298-f4f2-4e9c-8565-1e43f3f79f91)
-    (property "Reference" "D3" (at 255.27 80.01 90)
+    (property "Reference" "D13" (at 255.27 80.01 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1N4151WS" (at 257.81 80.01 90)
@@ -3162,12 +3084,6 @@
     (pin "2" (uuid 66ea05a8-ef66-4c16-b240-56591f01ec56))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "D3") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "D10") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "D13") (unit 1)
         )
@@ -3178,7 +3094,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 173.99 215.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5da90a4-d85e-4b07-aafc-85e333c934e6)
-    (property "Reference" "R68" (at 176.53 215.265 0)
+    (property "Reference" "R98" (at 176.53 215.265 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 176.53 217.805 0)
@@ -3194,9 +3110,6 @@
     (pin "2" (uuid b7f174e6-e7e3-4522-b59e-27edba0f9d6a))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R68") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R98") (unit 1)
         )
@@ -3271,7 +3184,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 168.91 215.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bff25fdc-9ff2-42ed-9459-1d33315d8388)
-    (property "Reference" "R80" (at 166.37 215.265 0)
+    (property "Reference" "R97" (at 166.37 215.265 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 166.37 217.805 0)
@@ -3287,9 +3200,6 @@
     (pin "2" (uuid 81f55ac3-1005-4736-a57b-7856a73a42d4))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R97") (unit 1)
         )
@@ -3325,7 +3235,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 250.19 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5575303-511c-49e6-9c12-1ebfe414c630)
-    (property "Reference" "R80" (at 249.555 85.09 0)
+    (property "Reference" "R96" (at 249.555 85.09 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1k" (at 252.095 85.09 0)
@@ -3341,9 +3251,6 @@
     (pin "2" (uuid 6ba46fcc-333a-4bac-bbe8-6b5d0416d2c8))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R96") (unit 1)
         )
@@ -3387,7 +3294,7 @@
   (symbol (lib_id "power:GND") (at 260.35 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5698077-97b3-4e5e-9fcb-c5c4650e4049)
-    (property "Reference" "#GND0163" (at 260.35 105.41 0)
+    (property "Reference" "#PWR0289" (at 260.35 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 260.35 102.87 0)
@@ -3402,15 +3309,6 @@
     (pin "1" (uuid e04c0bc4-6d98-4e25-a430-5faa270898c2))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#GND01") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND045") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#PWR0289") (unit 1)
         )
@@ -3446,7 +3344,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 260.35 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea4819ef-d7bf-4173-853b-6726c4498b89)
-    (property "Reference" "R80" (at 262.89 94.615 0)
+    (property "Reference" "R95" (at 262.89 94.615 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10k" (at 262.89 97.155 0)
@@ -3462,9 +3360,6 @@
     (pin "2" (uuid e74df319-64b0-4164-8fbc-cf0f2345803b))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "R80") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "R95") (unit 1)
         )
@@ -3475,7 +3370,7 @@
   (symbol (lib_id "power:GND") (at 203.2 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ef9e23bb-a3a5-4f2e-9475-d92762c5ae10)
-    (property "Reference" "#GND0163" (at 203.2 240.03 0)
+    (property "Reference" "#PWR0288" (at 203.2 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 203.2 237.49 0)
@@ -3490,15 +3385,6 @@
     (pin "1" (uuid b52e413c-c271-4f57-878d-37dac831ab53))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "#GND0163") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/730a6f7e-0bbd-44c5-a45a-78e61e54b6d6"
-          (reference "#GND01") (unit 1)
-        )
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-          (reference "#GND045") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f40986af-661f-42e2-86b8-cadc1b813505"
           (reference "#PWR0288") (unit 1)
         )

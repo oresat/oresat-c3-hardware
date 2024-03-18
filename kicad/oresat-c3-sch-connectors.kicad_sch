@@ -1363,10 +1363,6 @@
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 509e0ca5-869b-4141-a0e4-b19d6f035a05)
   )
-  (text "Called C3-UART-TX" (at 132.08 173.99 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 56f6bf44-2c8e-49d2-8f75-3139798f5558)
-  )
   (text "Oresat Card Debug Connector" (at 187.96 60.96 0)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
     (uuid 580f9c76-0c91-4205-96ef-b4ce09c1dac4)
@@ -1390,10 +1386,6 @@
   (text "Octavo reset!" (at 234.95 85.09 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cda9749d-e9ba-42fd-9c91-b5d4049063ed)
-  )
-  (text "Called C3-UART-RX" (at 132.08 176.53 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid d170f345-6a3b-47cf-8b1d-938c68ee6e7e)
   )
   (text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
     (at 115.57 261.62 0)
@@ -1517,10 +1509,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
-  (global_label "UART0_TX" (shape input) (at 116.84 172.72 0) (fields_autoplaced)
+  (global_label "C3-UART-TX" (shape input) (at 116.84 172.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7ada94e5-897d-4f5b-b88c-b3e84c0112f2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.7567 172.72 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.2833 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
@@ -1573,10 +1565,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
-  (global_label "UART0_RX" (shape output) (at 116.84 175.26 0) (fields_autoplaced)
+  (global_label "C3-UART-RX" (shape output) (at 116.84 175.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid bddbb6aa-c5be-45c9-9488-bf62ae74964f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 129.0591 175.26 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.5857 175.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
   )
@@ -1888,7 +1880,7 @@
   (symbol (lib_id "Device:R_Small_US") (at 214.63 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c883db4-4a58-4b3c-a791-1fc7cfa59be0)
-    (property "Reference" "R50" (at 214.63 86.36 90)
+    (property "Reference" "R48" (at 214.63 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 214.63 88.9 90)
@@ -1904,9 +1896,6 @@
     (pin "2" (uuid 221232a0-3bfe-4fc9-9a74-24dc097757e5))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
-          (reference "R50") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
           (reference "R48") (unit 1)
         )
@@ -2245,9 +2234,6 @@
     (pin "2" (uuid 395c3f22-2c5b-4b45-9f61-2eb683503d28))
     (instances
       (project "oresat-c3"
-        (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
-          (reference "FB1") (unit 1)
-        )
         (path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
           (reference "FB1") (unit 1)
         )
