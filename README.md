@@ -25,7 +25,7 @@ the STM32F439 to an Octavo OSD335x-SM and switched from EAGLE to KICAD. Yikes.
 
 ![C3 version 6 PCBA](oresat-c3-v6.jpg)
 
-## V6 Software
+### V6 Software
 
 The C3 runs Python code that interacts with the radios, peripherals, and CAN bus. [Here's more information](https://github.com/oresat/oresat-c3-software).
 
