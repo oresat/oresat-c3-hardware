@@ -247,8 +247,8 @@
 			)
 		)
 		(symbol "oresat-misc:Test-Point-1mm-round"
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 2.54 0)
@@ -4829,8 +4829,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 270.51 199.39 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4870,7 +4870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 270.51 199.39 0)
 			(effects
 				(font
@@ -5440,8 +5440,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 254 90.17 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4ecb4b98-97d3-4c01-9cfc-30cd68304da4")
@@ -5481,7 +5481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 254 90.17 0)
 			(effects
 				(font
@@ -5571,8 +5571,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 254 215.9 90)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5aba90b4-f020-4963-9afb-1f8666331b6b")
@@ -5612,7 +5612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 254 215.9 0)
 			(effects
 				(font
@@ -6656,8 +6656,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 179.07 78.74 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "98a141aa-e7be-44a3-a2de-f641120ee2b4")
@@ -6696,7 +6696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 179.07 78.74 0)
 			(effects
 				(font
@@ -6721,8 +6721,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 179.07 82.55 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a270a6c6-403b-419c-b9cd-098e6fa45ba0")
@@ -6761,7 +6761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 179.07 82.55 0)
 			(effects
 				(font
@@ -7064,8 +7064,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 179.07 204.47 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bb470f59-14c1-4798-9bb7-2513a004716e")
@@ -7104,7 +7104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 179.07 204.47 0)
 			(effects
 				(font
@@ -7305,8 +7305,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 267.97 73.66 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -7347,7 +7347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 267.97 73.66 0)
 			(effects
 				(font
@@ -7598,8 +7598,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 179.07 208.28 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "e6ee9ed1-b617-45a4-8c1f-27f006bd57a8")
@@ -7638,7 +7638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 179.07 208.28 0)
 			(effects
 				(font

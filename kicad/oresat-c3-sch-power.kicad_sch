@@ -1377,8 +1377,8 @@
 			)
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 2.54 0)
@@ -1459,8 +1459,8 @@
 			)
 		)
 		(symbol "oresat-misc:Test-Point-1mm-round"
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 2.54 0)
@@ -5706,8 +5706,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 350.52 152.4 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "212804d4-02ee-4d96-906a-2f044971ca90")
@@ -5747,7 +5747,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 350.52 152.4 0)
 			(effects
 				(font
@@ -5930,8 +5930,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 114.3 157.48 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "25fcfe7e-8c4b-4e3e-86b3-8d14406841f3")
@@ -5971,7 +5971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 114.3 157.48 0)
 			(effects
 				(font
@@ -6150,8 +6150,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 114.3 160.02 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "29e9817b-4873-4381-877d-b04332f0c646")
@@ -6191,7 +6191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 114.3 160.02 0)
 			(effects
 				(font
@@ -7232,8 +7232,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 170.18 77.47 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "41f098b4-b425-4386-b88d-ee8539186eaf")
@@ -7273,7 +7273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 170.18 77.47 0)
 			(effects
 				(font
@@ -7811,8 +7811,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 313.69 182.88 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "54af9a9b-ab48-4420-8a4e-e44f0a94364f")
@@ -7852,7 +7852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 313.69 182.88 0)
 			(effects
 				(font
@@ -8142,8 +8142,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 350.52 186.69 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5c13ce70-fa46-4ecb-8a49-5e2b62bbd5ac")
@@ -8183,7 +8183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 350.52 186.69 0)
 			(effects
 				(font
@@ -8561,8 +8561,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 274.32 72.39 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "6925cf7a-16da-4c9e-9da8-1dd1e915d774")
@@ -8602,7 +8602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 274.32 72.39 0)
 			(effects
 				(font
@@ -10009,8 +10009,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 80.01 157.48 270)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9a6c5fe4-5060-444d-bbfa-2ff9cb43910c")
@@ -10050,7 +10050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 80.01 157.48 0)
 			(effects
 				(font
@@ -10075,8 +10075,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 172.72 72.39 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "9b5346da-58b7-4aec-82bd-58460104c285")
@@ -10116,7 +10116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 172.72 72.39 0)
 			(effects
 				(font
@@ -10896,8 +10896,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 115.57 72.39 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bc966298-14db-4b35-96d0-ad13b35901d5")
@@ -10937,7 +10937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 115.57 72.39 0)
 			(effects
 				(font
@@ -11229,8 +11229,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 170.18 80.01 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "ce0cdeb7-df6c-4577-a713-6ef09be2c3eb")
@@ -11270,7 +11270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 170.18 80.01 0)
 			(effects
 				(font
@@ -11430,8 +11430,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 241.3 152.4 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d3a418cc-a7e2-442e-bd10-7d7ed3ce7485")
@@ -11471,7 +11471,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 241.3 152.4 0)
 			(effects
 				(font
@@ -11696,8 +11696,8 @@
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 313.69 148.59 180)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dc32ccb4-f26a-406e-8145-6f0abe680942")
@@ -11737,7 +11737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1mm round SMT test point"
 			(at 313.69 148.59 0)
 			(effects
 				(font
@@ -12333,8 +12333,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 114.3 152.4 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "edfaa96f-0fc7-4fb7-89b1-a6cbdc74e915")
@@ -12374,7 +12374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 114.3 152.4 0)
 			(effects
 				(font

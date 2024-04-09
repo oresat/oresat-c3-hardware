@@ -3295,8 +3295,8 @@
 			)
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "TP"
 				(at 0 2.54 0)
@@ -5653,8 +5653,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 318.77 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4d78a6a2-6733-4970-b9b1-67f65a62e644")
@@ -5694,7 +5694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 318.77 165.1 0)
 			(effects
 				(font
@@ -5894,8 +5894,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 290.83 162.56 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5a6b21b0-4500-45ec-9c3f-186e7b84968e")
@@ -5935,7 +5935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 290.83 162.56 0)
 			(effects
 				(font
@@ -6651,8 +6651,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 163.83 101.6 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "a27b349b-aca6-4329-b4f2-55744b9ae899")
@@ -6692,7 +6692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 163.83 101.6 0)
 			(effects
 				(font
@@ -6851,8 +6851,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 256.54 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "b7de7a3b-e098-41af-b995-0db03e92ba9e")
@@ -6892,7 +6892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 256.54 165.1 0)
 			(effects
 				(font
@@ -7744,8 +7744,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 222.25 162.56 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "dc156c95-21d1-49cb-8e9b-2142bc64d67a")
@@ -7785,7 +7785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 222.25 162.56 0)
 			(effects
 				(font
@@ -7985,8 +7985,8 @@
 		(lib_id "oresat-misc:Test-Point-0.75mm-th")
 		(at 177.8 165.1 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f3378860-a50c-48a8-b959-8f470c9c5dde")
@@ -8026,7 +8026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
 			(at 177.8 165.1 0)
 			(effects
 				(font
