@@ -1,13 +1,11 @@
 # oresat-c3
 ## General information
-This is the C3 (Command, Communication, and Control) card for OreSat. It
-acts as the central control point for the entire OreSat project, provides
-telemetry to the ground, and receiver commands. It's the "on board computer"
-of the OreSat bus. It has:
+This is the C3 (Command, Communication, and Control) card for OreSat. It acts as the central control point for the entire OreSat project, provides
+telemetry to the ground, and receiver commands. It's the "on board computer" (OBC) of the OreSat bus. It has:
 
-- ST STM32F446VET6 Cortex M4F microcontroller
-- On Semi AX5043-based L Band (1.2 GHz) receiver
-- On Semi AX5043-based UHF Band (436 MHz) receiver and transmitter with 1W PA.
+- Octavo OSD335x-SM SIP AM335X-based Cortex A8 Microporcessor
+- On Semi AX5043-based L Band (1.265 GHz) receiver
+- On Semi AX5043-based UHF Band (436.5 MHz) receiver and transmitter with 1W PA.
 - Custom radiation tolerant watchdog timer based on the TI TLV1042 comparator.
 - 16 GB eMMC flash data storage
 - 1 Mbit of FRAM for high reliability state and variable storage
@@ -19,23 +17,29 @@ of the OreSat bus. It has:
 
 Further documentation can be found in the [doc](doc) folder.
 
-## Firmware
-
-The firmware for the C3 card is written in C and runs on top of ChibiOS, a small RTOS.
-It is integrated into the [oresat-firmware](https://github.com/oresat/oresat-firmware) repository.
-The firmware application for this project is located
-[here](https://github.com/oresat/oresat-firmware/tree/c3_capstone/src/f4/app_c3_v1).
-
 ## OreSat C3 version 6 (KiCAD)
 
 Fixes for the radio receivers, version 2 backplane pinout, and lots of little tweaks
 after our lessons learned on OreSat0. OH, and a COMPLETE REFACTOR since we switched from
 the STM32F439 to an Octavo OSD335x-SM and switched from EAGLE to KICAD. Yikes.
 
+![C3 version 6 PCBA](oresat-c3-v6.jpg)
+
+## V6 Software
+
+The C3 runs Python code that interacts with the radios, peripherals, and CAN bus. [Here's more information](https://github.com/oresat/oresat-c3-software).
+
 ## OreSat C3 version 5 (EAGLE)
 
 C3 V5 flew on Oresat0, Oregon's first satellite! Everything worked great, except for the
 radio receivers (L band LNA oscillated, and UHF LNA was turned off in firmware).
+
+### v5 Firmware
+
+The firmware for the C3 card is written in C and runs on top of ChibiOS, a small RTOS.
+It is integrated into the [oresat-firmware](https://github.com/oresat/oresat-firmware) repository.
+The firmware application for this project is located
+[here](https://github.com/oresat/oresat-firmware/tree/c3_capstone/src/f4/app_c3_v1).
 
 ## OreSat C3 version 4 (EAGLE)
 
