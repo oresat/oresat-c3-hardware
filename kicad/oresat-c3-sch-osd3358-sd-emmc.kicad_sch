@@ -14703,6 +14703,16 @@
 		)
 		(uuid "b672bc61-60ac-45be-862c-46d98c186466")
 	)
+	(text "16 GB (128 Gb) eMMC"
+		(exclude_from_sim no)
+		(at 330.2 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b7e26ca9-a9c0-469a-8df8-3c92499dd620")
+	)
 	(text "ZH"
 		(exclude_from_sim no)
 		(at 158.75 137.16 0)
@@ -16773,7 +16783,7 @@
 				)
 			)
 		)
-		(property "Value" "EMMC+RESET+5.1-COMPATIBLE-BA"
+		(property "Value" "SFEM016GB1EA1TO-I-GE-121-STD"
 			(at 337.82 196.85 0)
 			(effects
 				(font
@@ -16791,7 +16801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.swissbit.com/data/EM-20/EM-20_fact_sheet.pdf"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -18578,14 +18588,14 @@
 		(fields_autoplaced yes)
 		(uuid "72181422-2781-4249-a9d5-17db747df652")
 		(property "Reference" "U1"
-			(at 193.04 91.44 0)
+			(at 193.04 90.17 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
 				)
 			)
 		)
-		(property "Value" "OSD3358-512M-BSM"
+		(property "Value" "OSD3358-1G-ISM"
 			(at 193.04 93.98 0)
 			(effects
 				(font

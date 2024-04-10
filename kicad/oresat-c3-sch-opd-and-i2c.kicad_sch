@@ -3936,6 +3936,16 @@
 		)
 		(uuid "2d409259-69db-4281-84eb-768e00f8b155")
 	)
+	(text "8k x 8 (64kb) I2C FRAM"
+		(exclude_from_sim no)
+		(at 243.84 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "302b7437-fcdb-4d6e-9785-f2b6057f8eb7")
+	)
 	(text "FRAM"
 		(exclude_from_sim no)
 		(at 238.76 64.77 0)
@@ -4359,7 +4369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FM24CL64B-DGTR"
+		(property "Value" "FM24CL64B-GTR"
 			(at 240.6141 77.47 0)
 			(effects
 				(font

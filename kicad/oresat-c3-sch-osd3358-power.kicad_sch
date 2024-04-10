@@ -12593,7 +12593,7 @@
 				)
 			)
 		)
-		(property "Value" "OSD3358-512M-BSM"
+		(property "Value" "OSD3358-1G-ISM"
 			(at 224.79 45.72 0)
 			(effects
 				(font
