@@ -15,7 +15,9 @@ telemetry to the ground, and receiver commands. It's the "on board computer" (OB
 
 ![C3 block digram](oresat-c3-blockdiagram.png)
 
-Further documentation can be found in the [doc](doc) folder.
+Design materials are on Google docs; we'll post links / PDFs soon.
+
+Bill of Materials (BOM) can be found [here](https://docs.google.com/spreadsheets/d/11vG1kWyrAjmbF5QJM-EhXmvQoF6O47japwYlHF802do/edit#gid=1239769296).
 
 ## OreSat C3 version 6 (KiCAD)
 
@@ -25,7 +27,7 @@ the STM32F439 to an Octavo OSD335x-SM and switched from EAGLE to KICAD. Yikes.
 
 ![C3 version 6 PCBA](oresat-c3-v6.jpg)
 
-## V6 Software
+### V6 Software
 
 The C3 runs Python code that interacts with the radios, peripherals, and CAN bus. [Here's more information](https://github.com/oresat/oresat-c3-software).
 
