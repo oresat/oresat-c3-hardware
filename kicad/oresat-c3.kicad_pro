@@ -931,6 +931,24 @@
       "fields_ordered": [
         {
           "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -955,57 +973,33 @@
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Distributor",
-          "name": "Distributor",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "MFR",
           "name": "MFR",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "MPN",
           "name": "MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Value_1",
-          "name": "Value_1",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DST",
+          "name": "DST",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DPN",
+          "name": "DPN",
+          "show": true
         }
       ],
       "filter_string": "",

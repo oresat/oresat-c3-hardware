@@ -7673,7 +7673,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22nH Unshielded Wirewound Inductor 500mA 300mOhm 0603 (1608 Metric)"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-16284-1-ND"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 179.07 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQW18AN22NG0ZD"
 			(at 179.07 55.88 0)
 			(effects
 				(font
@@ -7740,7 +7776,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.022 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 297.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6872-1-ND"
+			(at 297.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 297.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 297.18 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C223K1RACAUTO"
 			(at 297.18 181.61 0)
 			(effects
 				(font
@@ -7809,7 +7881,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.308GHz Frequency Band Pass RF Filter (Radio Frequency) 200MHz Bandwidth 1.2dB 0805 (2012 Metric), 4 PC Pad"
+			(at 341.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "478-12187-1-ND"
+			(at 341.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 341.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "AVX Corp"
+			(at 341.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BP0805A1308ASTR"
 			(at 341.63 60.96 0)
 			(effects
 				(font
@@ -7883,7 +7991,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "91nH Unshielded Wirewound Inductor 520mA 540mOhm Max 0603 (1608 Metric)"
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-15756-1-ND"
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 157.48 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQW18AN91NG8ZD"
 			(at 157.48 127 0)
 			(effects
 				(font
@@ -8015,7 +8159,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Synthesizer w/ integrated VCOs (IF OUT)"
+			(at 289.56 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "634-SI4112-D-GM"
+			(at 289.56 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Mouser"
+			(at 289.56 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Silicon Labs"
+			(at 289.56 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SI4112-D-GM"
 			(at 289.56 209.55 0)
 			(effects
 				(font
@@ -8163,7 +8343,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6823-1-ND"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 114.3 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C101J5GACAUTO"
 			(at 114.3 107.95 0)
 			(effects
 				(font
@@ -8299,7 +8515,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC RF TxRx Only General ISM < 1GHz 27MHz ~ 1.05GHz 28-VFQFN Exposed Pad"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "AX5043-1-TW30OSCT-ND"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "ON Semiconductor"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AX5043-1-TW30"
 			(at 121.92 144.78 0)
 			(effects
 				(font
@@ -8447,7 +8699,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8.2pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6839-1-ND"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 170.18 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C829J3GACAUTO"
 			(at 170.18 137.16 0)
 			(effects
 				(font
@@ -8517,7 +8805,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 254 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT47K0CT-ND"
+			(at 254 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 254 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 254 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT47K0"
 			(at 254 194.31 0)
 			(effects
 				(font
@@ -8586,7 +8910,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "High Performance LNAs"
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "BGB741L7ESDE6327XTSA1CT-ND"
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Infineon Technologies"
+			(at 196.85 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BGB741L7ESDE6327XTSA1‎"
 			(at 196.85 55.88 0)
 			(effects
 				(font
@@ -8734,7 +9094,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 124.46 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1276-1784-1-ND"
+			(at 124.46 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 124.46 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samsung Electro-Mechanics"
+			(at 124.46 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
 			(at 124.46 217.17 0)
 			(effects
 				(font
@@ -8801,7 +9197,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.022 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 279.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6872-1-ND"
+			(at 279.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 279.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 279.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C223K1RACAUTO"
 			(at 279.4 181.61 0)
 			(effects
 				(font
@@ -8868,7 +9300,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "P0.0JCT-ND"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 184.15 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-2GE0R00X"
 			(at 184.15 134.62 0)
 			(effects
 				(font
@@ -9069,7 +9537,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "150 Ohms ±0.1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "YAG4175CT-ND"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Yageo"
+			(at 101.6 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0402BRD07150RL"
 			(at 101.6 165.1 0)
 			(effects
 				(font
@@ -9137,7 +9641,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 314.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6823-1-ND"
+			(at 314.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 314.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 314.96 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C101J5GACAUTO"
 			(at 314.96 60.96 0)
 			(effects
 				(font
@@ -9207,7 +9747,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16MHz TCXO Clipped Sine Wave Oscillator 1.8V 4-SMD, No Lead"
+			(at 99.06 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1664-1323-1-ND"
+			(at 99.06 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 99.06 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taitien"
+			(at 99.06 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TYKTBLSANF-16.000000"
 			(at 99.06 220.98 0)
 			(effects
 				(font
@@ -9280,7 +9856,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "82pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-15877-1-ND"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C820J5GACAUTO"
 			(at 144.78 144.78 0)
 			(effects
 				(font
@@ -9544,7 +10156,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF amplifier (LNA) 400-2000 MHz NF 0.45db"
+			(at 302.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "772-TQP3M9036"
+			(at 302.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Mouser"
+			(at 302.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Qorvo"
+			(at 302.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TQP3M9036"
 			(at 302.26 63.5 0)
 			(effects
 				(font
@@ -9633,7 +10281,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "8.2pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6839-1-ND"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 165.1 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C829J3GACAUTO"
 			(at 165.1 127 0)
 			(effects
 				(font
@@ -9766,7 +10450,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 229.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-15952-1-ND"
+			(at 229.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 229.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 229.87 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C180J5GACAUTO"
 			(at 229.87 139.7 0)
 			(effects
 				(font
@@ -9833,7 +10553,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15 nH Unshielded Drum Core, Wirewound Inductor 1.1 A 110mOhm 0402 (1005 Metric)"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2035-1081-1-ND"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Delta Electronics/Components"
+			(at 234.95 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402HP-150EGTS"
 			(at 234.95 134.62 0)
 			(effects
 				(font
@@ -10163,7 +10919,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 166.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3473-1-ND"
+			(at 166.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 166.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 166.37 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 166.37 41.91 0)
 			(effects
 				(font
@@ -10230,7 +11022,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 320.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-17374-1-ND"
+			(at 320.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 320.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 320.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C220J5GACAUTO"
 			(at 320.04 134.62 0)
 			(effects
 				(font
@@ -10298,7 +11126,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 250.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-15952-1-ND"
+			(at 250.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 250.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 250.19 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C180J5GACAUTO"
 			(at 250.19 139.7 0)
 			(effects
 				(font
@@ -11018,7 +11882,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.308GHz Frequency Band Pass RF Filter (Radio Frequency) 200MHz Bandwidth 1.2dB 0805 (2012 Metric), 4 PC Pad"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "478-12187-1-ND"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "AVX Corp"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BP0805A1308ASTR"
 			(at 246.38 60.96 0)
 			(effects
 				(font
@@ -11092,7 +11992,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6823-1-ND"
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 173.99 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C101J5GACAUTO"
 			(at 173.99 41.91 0)
 			(effects
 				(font
@@ -11159,7 +12095,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "15 nH Unshielded Drum Core, Wirewound Inductor 1.1 A 110mOhm 0402 (1005 Metric)"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2035-1081-1-ND"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Delta Electronics/Components"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402HP-150EGTS"
 			(at 245.11 134.62 0)
 			(effects
 				(font
@@ -11229,7 +12201,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 266.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT47K0CT-ND"
+			(at 266.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 266.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 266.7 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT47K0"
 			(at 266.7 186.69 0)
 			(effects
 				(font
@@ -11363,7 +12371,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22nH Unshielded Wirewound Inductor 500mA 300mOhm 0603 (1608 Metric)"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-16284-1-ND"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 212.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQW18AN22NG0ZD"
 			(at 212.09 57.15 0)
 			(effects
 				(font
@@ -11757,7 +12801,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 168.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3473-1-ND"
+			(at 168.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 168.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 168.91 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 168.91 219.71 0)
 			(effects
 				(font
@@ -11825,7 +12905,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6823-1-ND"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 285.75 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C101J5GACAUTO"
 			(at 285.75 60.96 0)
 			(effects
 				(font
@@ -11960,7 +13076,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18nH Unshielded Wirewound Inductor 900mA 120mOhm 0402 (1005 Metric)"
+			(at 316.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2035-1083-1-ND"
+			(at 316.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 316.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Delta Electronics/Components"
+			(at 316.23 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402HP-18NXGL"
 			(at 316.23 138.43 0)
 			(effects
 				(font
@@ -12027,7 +13179,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 nF (1000pF) ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 87.63 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-C0402C102J3GACAUTOCT-ND"
+			(at 87.63 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 87.63 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 87.63 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C102J3GACAUTO"
 			(at 87.63 162.56 0)
 			(effects
 				(font
@@ -12096,7 +13284,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.308GHz Frequency Band Pass RF Filter (Radio Frequency) 200MHz Bandwidth 1.2dB 0805 (2012 Metric), 4 PC Pad"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "478-12187-1-ND"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "AVX Corp"
+			(at 138.43 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BP0805A1308ASTR"
 			(at 138.43 60.96 0)
 			(effects
 				(font
@@ -12171,7 +13395,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 162.56 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT100KCT-ND"
+			(at 162.56 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 162.56 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 162.56 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT100K"
 			(at 162.56 215.9 0)
 			(effects
 				(font
@@ -12304,7 +13564,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 115.57 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6823-1-ND"
+			(at 115.57 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 115.57 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 115.57 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C101J5GACAUTO"
 			(at 115.57 217.17 0)
 			(effects
 				(font
@@ -12371,7 +13667,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "560pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 320.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-15868-1-ND"
+			(at 320.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 320.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 320.04 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C561J5GACAUTO"
 			(at 320.04 207.01 0)
 			(effects
 				(font
@@ -12504,7 +13836,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-17374-1-ND"
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 219.71 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C220J5GACAUTO"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -12701,7 +14069,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 308.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3473-1-ND"
+			(at 308.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 308.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 308.61 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 308.61 179.07 0)
 			(effects
 				(font
@@ -12768,7 +14172,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4.7µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1276-1784-1-ND"
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samsung Electro-Mechanics"
+			(at 105.41 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A475KO8NNNC"
 			(at 105.41 107.95 0)
 			(effects
 				(font
@@ -12903,7 +14343,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 283.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6823-1-ND"
+			(at 283.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 283.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 283.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C101J5GACAUTO"
 			(at 283.21 48.26 0)
 			(effects
 				(font
@@ -12971,7 +14447,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "12pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-15995-1-ND"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 240.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C120J5GACAUTO"
 			(at 240.03 139.7 0)
 			(effects
 				(font
@@ -13235,7 +14747,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "68 nH Unshielded Drum Core, Wirewound Inductor 630 mA 380mOhm Max 0603 (1608 Metric)"
+			(at 292.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-15724-1-ND"
+			(at 292.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 292.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 292.1 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQW18AN68NG8ZD"
 			(at 292.1 53.34 0)
 			(effects
 				(font
@@ -13303,7 +14851,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3.9nH Fixed Inductors 0402 (1005) Unshld 2% 840mA 66mOhms AECQ2"
+			(at 269.24 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "994-0402CS-3N9XGLW"
+			(at 269.24 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Mouser"
+			(at 269.24 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Coilcraft"
+			(at 269.24 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402CS-3N9XGL"
 			(at 269.24 219.71 0)
 			(effects
 				(font
@@ -13438,7 +15022,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 259.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT47K0CT-ND"
+			(at 259.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 259.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 259.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT47K0"
 			(at 259.08 194.31 0)
 			(effects
 				(font
@@ -13506,7 +15126,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RF Mixer, Diode Ring, 0.3 - 12 GHz"
+			(at 332.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "MAC-24+"
+			(at 332.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Mini-Circuits"
+			(at 332.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Mini-Circuits"
+			(at 332.74 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAC-24+"
 			(at 332.74 139.7 0)
 			(effects
 				(font
@@ -13597,7 +15253,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 177.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-17374-1-ND"
+			(at 177.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 177.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 177.8 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C220J5GACAUTO"
 			(at 177.8 134.62 0)
 			(effects
 				(font
@@ -13929,7 +15621,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Micropower 150-mA Low-Noise Ultra-Low-Dropout Regulator in SOT-23 packages"
+			(at 149.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "LP2985AIM5-1.8/NOPBCT-ND"
+			(at 149.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 149.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 149.86 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LP2985AIM5-1.8/NOPB"
 			(at 149.86 215.9 0)
 			(effects
 				(font
@@ -14202,7 +15930,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 168.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-17374-1-ND"
+			(at 168.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 168.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 168.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C220J5GACAUTO"
 			(at 168.91 60.96 0)
 			(effects
 				(font
@@ -14269,7 +16033,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "82pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-15877-1-ND"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 144.78 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C820J5GACAUTO"
 			(at 144.78 124.46 0)
 			(effects
 				(font
@@ -14535,7 +16335,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT22K0CT-ND"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 185.42 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT22K0"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -14667,7 +16503,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1 nF (1000pF) ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-C0402C102J3GACAUTOCT-ND"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C102J3GACAUTO"
 			(at 101.6 172.72 0)
 			(effects
 				(font
@@ -15061,7 +16933,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "43nH Unshielded Wirewound Inductor 515mA 516mOhm Max 0402 (1005 Metric)"
+			(at 170.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-15447-1-ND"
+			(at 170.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 170.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 170.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQW15AN43NG8ZD"
 			(at 170.18 132.08 0)
 			(effects
 				(font
@@ -15263,7 +17171,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 nF (10000pF) ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 138.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-14102-1-ND"
+			(at 138.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 138.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 138.43 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C103J3GECAUTO"
 			(at 138.43 220.98 0)
 			(effects
 				(font
@@ -15396,7 +17340,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 274.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3473-1-ND"
+			(at 274.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 274.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 274.32 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ105KAHT"
 			(at 274.32 48.26 0)
 			(effects
 				(font
@@ -15532,7 +17512,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 248.92 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT47K0CT-ND"
+			(at 248.92 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 248.92 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 248.92 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT47K0"
 			(at 248.92 194.31 0)
 			(effects
 				(font
@@ -15599,7 +17615,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 347.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-17461-1-ND"
+			(at 347.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 347.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 347.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GCQ1555C1H3R0CB01D"
 			(at 347.98 138.43 0)
 			(effects
 				(font
@@ -15734,7 +17786,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Filter - SAW, 457.5 MHz, 15 MHz"
+			(at 285.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "772-856930"
+			(at 285.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Mouser"
+			(at 285.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Qorvo"
+			(at 285.75 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "856930"
 			(at 285.75 134.62 0)
 			(effects
 				(font
@@ -15819,7 +17907,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47 nF (0.047µF) ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-6374-1-ND"
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 215.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UMK107B7473KAHT"
 			(at 215.9 49.53 0)
 			(effects
 				(font
@@ -16017,7 +18141,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "18nH Unshielded Wirewound Inductor 900mA 120mOhm 0402 (1005 Metric)"
+			(at 313.69 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2035-1083-1-ND"
+			(at 313.69 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 313.69 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Delta Electronics/Components"
+			(at 313.69 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "0402HP-18NXGL"
 			(at 313.69 207.01 0)
 			(effects
 				(font
@@ -16215,7 +18375,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "43 nH Unshielded Drum Core, Wirewound Inductor 840 mA 210mOhm Max 0603 (1608 Metric)"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "490-15691-1-ND"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Murata Electronics"
+			(at 165.1 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LQW18AN43NG8ZD"
 			(at 165.1 140.97 0)
 			(effects
 				(font

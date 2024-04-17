@@ -7542,7 +7542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OSD335x Embedded Module 1GHz 512MB"
+		(property "Description" "Embedded Module ARM® Cortex®-A8, AM3358 1GHz 1GB"
 			(at 218.44 78.74 0)
 			(effects
 				(font
@@ -7551,8 +7551,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey"
-			(at 218.44 81.28 0)
+		(property "MPN" "OSD3358-1G-ISM"
+			(at 218.44 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7560,8 +7560,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "OSD3358-512M-BSM"
-			(at 218.44 83.82 0)
+		(property "DPN" "1676-OSD3358-1G-ISM-ND"
+			(at 218.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 218.44 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Octavo Systems"
+			(at 218.44 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8654,7 +8672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OSD335x Embedded Module 1GHz 512MB"
+		(property "Description" "Embedded Module ARM® Cortex®-A8, AM3358 1GHz 1GB"
 			(at 217.17 -16.51 0)
 			(effects
 				(font
@@ -8663,8 +8681,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey"
-			(at 217.17 -13.97 0)
+		(property "MPN" "OSD3358-1G-ISM"
+			(at 217.17 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,8 +8690,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "OSD3358-512M-BSM"
-			(at 217.17 -11.43 0)
+		(property "DPN" "1676-OSD3358-1G-ISM-ND"
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 217.17 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Octavo Systems"
+			(at 217.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)

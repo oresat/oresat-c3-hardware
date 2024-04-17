@@ -10109,7 +10109,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
+			(at 256.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "U7473CT-ND"
+			(at 256.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 256.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 256.54 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EXB-A10P473J"
 			(at 256.54 185.42 0)
 			(effects
 				(font
@@ -10666,7 +10702,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1/1 Transceiver CANbus SOT-23-8"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "296-44211-1-ND"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Texas Instruments"
+			(at 132.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TCAN330GDCNT"
 			(at 132.08 90.17 0)
 			(effects
 				(font
@@ -11018,7 +11090,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3472-1-ND"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 116.84 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK107BJ104KAHT"
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -11086,7 +11194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OSD335x Embedded Module 1GHz 512MB"
+		(property "Description" "Embedded Module ARM® Cortex®-A8, AM3358 1GHz 1GB"
 			(at 147.32 53.34 0)
 			(effects
 				(font
@@ -11095,8 +11203,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "DigiKey"
-			(at 147.32 55.88 0)
+		(property "MPN" "OSD3358-1G-ISM"
+			(at 147.32 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11104,8 +11212,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "OSD3358-512M-BSM"
-			(at 147.32 58.42 0)
+		(property "DPN" "1676-OSD3358-1G-ISM-ND"
+			(at 147.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 147.32 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Octavo Systems"
+			(at 147.32 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12464,7 +12590,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
+			(at 231.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "U7473CT-ND"
+			(at 231.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 231.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 231.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EXB-A10P473J"
 			(at 231.14 185.42 0)
 			(effects
 				(font
@@ -12623,7 +12785,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "47k Ohm ±5% 62.5mW Power Per Element Bussed 8 Resistor Network/Array ±200ppm/°C 2512 (6432 Metric), Concave, Long Side Terminals"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "U7473CT-ND"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Digi-Key"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Panasonic Electronic Components"
+			(at 213.36 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "EXB-A10P473J"
 			(at 213.36 107.95 0)
 			(effects
 				(font
