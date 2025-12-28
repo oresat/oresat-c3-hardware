@@ -1,6 +1,5 @@
 # Ignore local archives and build folders
 archive
-local-archive
 build
 
 # For PCBs designed using KiCad: https://www.kicad.org/
@@ -10,6 +9,7 @@ build
 *.000
 *.bak
 *.bck
+*.lck
 *.kicad_pcb-bak
 *.kicad_sch-bak
 *-backups

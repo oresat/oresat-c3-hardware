@@ -1,19 +1,24 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "d5338579-a7ac-4cea-b64f-b7ff02c19d4a")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat C3: Power")
-		(date "2023-05-29")
+		(title "OreSat C3 Card")
+		(date "2025-12-28")
 		(rev "6.1")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -83,10 +88,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -95,10 +100,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -144,9 +149,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:FerriteBead_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -219,7 +227,7 @@
 			(symbol "FerriteBead_Small_0_1"
 				(polyline
 					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
+						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
 					)
 					(stroke
 						(width 0)
@@ -243,7 +251,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
+						(xy 0 -1.27) (xy 0 -0.7874)
 					)
 					(stroke
 						(width 0)
@@ -292,11 +300,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -378,7 +391,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy -0.762 0)
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
 					)
 					(stroke
 						(width 0)
@@ -402,19 +427,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+						(xy 1.016 0) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -463,11 +476,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -536,32 +554,8 @@
 			)
 			(symbol "L_Small_0_1"
 				(arc
-					(start 0 -2.032)
-					(mid 0.5058 -1.524)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 0.508)
+					(start 0 2.032)
+					(mid 0.5058 1.524)
 					(end 0 1.016)
 					(stroke
 						(width 0)
@@ -573,8 +567,32 @@
 				)
 				(arc
 					(start 0 1.016)
-					(mid 0.5058 1.524)
-					(end 0 2.032)
+					(mid 0.5058 0.508)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.5058 -0.508)
+					(end 0 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.016)
+					(mid 0.5058 -1.524)
+					(end 0 -2.032)
 					(stroke
 						(width 0)
 						(type default)
@@ -622,11 +640,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -696,7 +719,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -708,7 +731,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -755,6 +778,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-ics:LP2985-N"
 			(exclude_from_sim no)
@@ -833,24 +857,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -10.16 -1.27 0)
 					(length 2.54)
@@ -869,17 +875,17 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 10.16 -1.27 180)
+				(pin power_in line
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "BYPASS"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -905,7 +911,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "BYPASS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-ics:LTC3624"
 			(exclude_from_sim no)
@@ -966,24 +991,6 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 11.43 5.08 180)
-					(length 2.54)
-					(name "SW"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at -11.43 5.08 0)
 					(length 2.54)
@@ -1038,6 +1045,61 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 11.43 5.08 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 11.43 2.54 180)
 					(length 2.54)
@@ -1049,24 +1111,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 11.43 -2.54 180)
-					(length 2.54)
-					(name "INTVcc"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1092,35 +1136,17 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -10.16 90)
+				(pin output line
+					(at 11.43 -2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name "INTVcc"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1129,6 +1155,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-ics:TPS259621DDA"
 			(pin_names
@@ -1213,34 +1240,16 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -10.16 90)
+					(at -12.7 5.08 0)
 					(length 2.54)
-					(name "GND"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -3.81 -10.16 90)
-					(length 2.54)
-					(name "dVdt"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1266,17 +1275,72 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -12.7 5.08 0)
+				(pin input line
+					(at -12.7 -2.54 0)
 					(length 2.54)
-					(name "IN"
+					(name "OVLO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -3.81 -10.16 90)
+					(length 2.54)
+					(name "dVdt"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1338,43 +1402,8 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "OVLO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
 			(exclude_from_sim yes)
@@ -1457,6 +1486,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-misc:Test-Point-1mm-round"
 			(exclude_from_sim yes)
@@ -1509,18 +1539,6 @@
 			(symbol "Test-Point-1mm-round_1_0"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -1.27 1.27) (xy 1.27 1.27)
 					)
 					(stroke
@@ -1533,7 +1551,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1546,6 +1564,18 @@
 				(polyline
 					(pts
 						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -1574,6 +1604,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-power:3.3V"
 			(power)
@@ -1651,7 +1682,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1663,7 +1694,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1677,7 +1708,8 @@
 			(symbol "3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "3.3V"
 						(effects
 							(font
@@ -1694,6 +1726,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-power:3.3V-L"
 			(power)
@@ -1771,7 +1804,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1783,7 +1816,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1797,7 +1830,8 @@
 			(symbol "3.3V-L_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "3.3V-L"
 						(effects
 							(font
@@ -1814,6 +1848,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-power:3.3V-U"
 			(power)
@@ -1891,7 +1926,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1903,7 +1938,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1917,7 +1952,8 @@
 			(symbol "3.3V-U_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "3.3V-U"
 						(effects
 							(font
@@ -1934,6 +1970,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-power:5V"
 			(power)
@@ -2011,7 +2048,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2023,7 +2060,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2037,7 +2074,8 @@
 			(symbol "5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "5V"
 						(effects
 							(font
@@ -2054,6 +2092,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-power:5V-R"
 			(power)
@@ -2131,7 +2170,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2143,7 +2182,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2157,7 +2196,8 @@
 			(symbol "5V-R_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "5V-R"
 						(effects
 							(font
@@ -2174,6 +2214,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-power:VBUSP"
 			(power)
@@ -2251,7 +2292,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2263,7 +2304,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2277,7 +2318,8 @@
 			(symbol "VBUSP_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "VBUSP"
 						(effects
 							(font
@@ -2294,12 +2336,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2390,12 +2437,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VBUS"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2467,7 +2519,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2479,7 +2531,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2510,7 +2562,326 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "330Ω/1.5A"
+		(exclude_from_sim no)
+		(at 266.7 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cc09ab6-c77f-4b48-9f01-19e2e201be92")
+	)
+	(text "@ ~99 mA (150 mA max) = 168 mW"
+		(exclude_from_sim no)
+		(at 356.235 178.435 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2444a724-bada-46f3-816c-e99405654517")
+	)
+	(text "2210"
+		(exclude_from_sim no)
+		(at 156.845 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25c8dbb7-32cc-4688-9601-93edbab10023")
+	)
+	(text "Vbus = (6.0, 7.2, 8.4) V"
+		(exclude_from_sim no)
+		(at 46.99 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "39d5e525-378b-41b5-a786-afed3494d6ab")
+	)
+	(text "Radio Efuse\n"
+		(exclude_from_sim no)
+		(at 91.44 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b610a72-ebe5-4c54-a8b9-f74beb89a624")
+	)
+	(text "5V Card Switching Supply"
+		(exclude_from_sim no)
+		(at 210.185 57.15 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "3e73c512-9525-4da4-98b5-5bbca66841f3")
+	)
+	(text "Vbus = (6.0, 7.2, 8.4) V"
+		(exclude_from_sim no)
+		(at 103.632 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "58bdd535-b9cf-46b0-8ee5-f21a0c6a002c")
+	)
+	(text "Vmax = 17 V, Imax = 2 A\nMODE = INTVcc/2 sets cont. mode operation\n1 MHz operation"
+		(exclude_from_sim no)
+		(at 173.101 182.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5a0631e0-ed19-4712-b9c7-124676b5e46b")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 290.83 160.655 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5cbcd5df-70bf-4c8e-8780-ff53b371f389")
+	)
+	(text "330Ω/1.5A"
+		(exclude_from_sim no)
+		(at 267.97 181.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "727e2ef2-f79f-4655-8aa6-cdf1862ec4d7")
+	)
+	(text "2210"
+		(exclude_from_sim no)
+		(at 352.425 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dfa3585-1650-49a2-9f68-ed8a0854ba42")
+	)
+	(text "C3 should draw ~ 844 mA @ 5V"
+		(exclude_from_sim no)
+		(at 172.466 184.658 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e170770-64f4-4fa7-b947-b229a83034da")
+	)
+	(text "3.3V from OSD3358"
+		(exclude_from_sim no)
+		(at 118.11 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e91673a-dedb-4e84-8ca3-c5affd4e264d")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 275.59 160.655 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84b34243-d8ac-4ee4-b9bf-17cf14bcbcca")
+	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 118.11 261.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95360433-9756-4a35-a2d8-78568d85989d")
+	)
+	(text "UHF Radio Supply"
+		(exclude_from_sim no)
+		(at 313.69 142.24 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9833acee-ecad-46ec-ae24-576e12c98a52")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 276.86 194.945 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99751b0e-afd5-4185-a962-dce43b675beb")
+	)
+	(text "2210"
+		(exclude_from_sim no)
+		(at 353.06 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab83171e-d628-44bf-b762-932c01672cde")
+	)
+	(text "2210"
+		(exclude_from_sim no)
+		(at 234.315 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b48204ab-af22-4956-9b8c-a44b6fb87b3d")
+	)
+	(text "@ 108 + 99 + 430 = ~637 mA"
+		(exclude_from_sim no)
+		(at 246.38 142.875 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba76f484-74a1-4245-b9b5-59b077ebf0db")
+	)
+	(text "2210"
+		(exclude_from_sim no)
+		(at 220.98 160.655 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd5758b9-8605-4dbb-a935-edaabd9228ba")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 292.1 194.945 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c383e549-75d8-4514-a1d2-f05206c35a97")
+	)
+	(text "Vmax = 17 V, Imax = 2 A\nMODE = INTVcc/2 sets cont. mode operation"
+		(exclude_from_sim no)
+		(at 205.74 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4b4562e-c9af-4154-975d-306fdb17281a")
+	)
+	(text "TPS259621 = Autoretry after thermal shutdown\nCard current limited to 1.5 A by R_ILM = 604 ohm\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 6.0 V\n~{FLT} can't do anything :)"
+		(exclude_from_sim no)
+		(at 132.715 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf180e3b-2e55-49bf-b548-df326be3e38b")
+	)
+	(text "@ ~108 mA (150 mA max) = 184 mW"
+		(exclude_from_sim no)
+		(at 355.6 142.875 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d3c95a89-05f7-484e-bb02-df1877bef72f")
+	)
+	(text "Card EFuse"
+		(exclude_from_sim no)
+		(at 142.875 57.15 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f2a439-5a6a-4517-b8fd-a61b0e620907")
+	)
+	(text "TPS259620 = Latch after thermal shutdown (toggle EN to reset)\nVBUSP is limited to 1.5 A by 604 ohm R_ILM\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 5 V"
+		(exclude_from_sim no)
+		(at 73.66 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8c35c69-7c02-4f16-baf9-e74f2f5f6374")
+	)
+	(text "L Band Radio Supply"
+		(exclude_from_sim no)
+		(at 311.785 179.07 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe2ad069-e7e3-482a-80fa-9a1d6300c9a5")
 	)
 	(junction
 		(at 274.32 186.69)
@@ -4584,327 +4955,8 @@
 		)
 		(uuid "ffbe0cb0-7ccc-4c69-9608-6b64d18d4566")
 	)
-	(text "330Ω/1.5A"
-		(exclude_from_sim no)
-		(at 266.7 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1cc09ab6-c77f-4b48-9f01-19e2e201be92")
-	)
-	(text "@ ~99 mA (150 mA max) = 168 mW"
-		(exclude_from_sim no)
-		(at 356.235 178.435 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2444a724-bada-46f3-816c-e99405654517")
-	)
-	(text "2210"
-		(exclude_from_sim no)
-		(at 156.845 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "25c8dbb7-32cc-4688-9601-93edbab10023")
-	)
-	(text "Vbus = (6.0, 7.2, 8.4) V"
-		(exclude_from_sim no)
-		(at 46.99 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "39d5e525-378b-41b5-a786-afed3494d6ab")
-	)
-	(text "Radio Efuse\n"
-		(exclude_from_sim no)
-		(at 91.44 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3b610a72-ebe5-4c54-a8b9-f74beb89a624")
-	)
-	(text "5V Card Switching Supply"
-		(exclude_from_sim no)
-		(at 210.185 57.15 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e73c512-9525-4da4-98b5-5bbca66841f3")
-	)
-	(text "Vbus = (6.0, 7.2, 8.4) V"
-		(exclude_from_sim no)
-		(at 103.632 64.262 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "58bdd535-b9cf-46b0-8ee5-f21a0c6a002c")
-	)
-	(text "Vmax = 17 V, Imax = 2 A\nMODE = INTVcc/2 sets cont. mode operation\n1 MHz operation"
-		(exclude_from_sim no)
-		(at 173.101 182.118 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a0631e0-ed19-4712-b9c7-124676b5e46b")
-	)
-	(text "0805"
-		(exclude_from_sim no)
-		(at 290.83 160.655 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cbcd5df-70bf-4c8e-8780-ff53b371f389")
-	)
-	(text "330Ω/1.5A"
-		(exclude_from_sim no)
-		(at 267.97 181.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "727e2ef2-f79f-4655-8aa6-cdf1862ec4d7")
-	)
-	(text "2210"
-		(exclude_from_sim no)
-		(at 352.425 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7dfa3585-1650-49a2-9f68-ed8a0854ba42")
-	)
-	(text "C3 should draw ~ 844 mA @ 5V"
-		(exclude_from_sim no)
-		(at 172.466 184.658 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e170770-64f4-4fa7-b947-b229a83034da")
-	)
-	(text "3.3V from OSD3358"
-		(exclude_from_sim no)
-		(at 118.11 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7e91673a-dedb-4e84-8ca3-c5affd4e264d")
-	)
-	(text "0805"
-		(exclude_from_sim no)
-		(at 275.59 160.655 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "84b34243-d8ac-4ee4-b9bf-17cf14bcbcca")
-	)
-	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
-		(exclude_from_sim no)
-		(at 118.11 261.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "95360433-9756-4a35-a2d8-78568d85989d")
-	)
-	(text "UHF Radio Supply"
-		(exclude_from_sim no)
-		(at 313.69 142.24 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "9833acee-ecad-46ec-ae24-576e12c98a52")
-	)
-	(text "0805"
-		(exclude_from_sim no)
-		(at 276.86 194.945 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99751b0e-afd5-4185-a962-dce43b675beb")
-	)
-	(text "2210"
-		(exclude_from_sim no)
-		(at 353.06 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ab83171e-d628-44bf-b762-932c01672cde")
-	)
-	(text "2210"
-		(exclude_from_sim no)
-		(at 234.315 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b48204ab-af22-4956-9b8c-a44b6fb87b3d")
-	)
-	(text "@ 108 + 99 + 430 = ~637 mA"
-		(exclude_from_sim no)
-		(at 246.38 142.875 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba76f484-74a1-4245-b9b5-59b077ebf0db")
-	)
-	(text "2210"
-		(exclude_from_sim no)
-		(at 220.98 160.655 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd5758b9-8605-4dbb-a935-edaabd9228ba")
-	)
-	(text "0805"
-		(exclude_from_sim no)
-		(at 292.1 194.945 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c383e549-75d8-4514-a1d2-f05206c35a97")
-	)
-	(text "Vmax = 17 V, Imax = 2 A\nMODE = INTVcc/2 sets cont. mode operation"
-		(exclude_from_sim no)
-		(at 205.74 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c4b4562e-c9af-4154-975d-306fdb17281a")
-	)
-	(text "TPS259621 = Autoretry after thermal shutdown\nCard current limited to 1.5 A by R_ILM = 604 ohm\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 6.0 V\n~{FLT} can't do anything :)"
-		(exclude_from_sim no)
-		(at 132.715 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cf180e3b-2e55-49bf-b548-df326be3e38b")
-	)
-	(text "@ ~108 mA (150 mA max) = 184 mW"
-		(exclude_from_sim no)
-		(at 355.6 142.875 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3c95a89-05f7-484e-bb02-df1877bef72f")
-	)
-	(text "Card EFuse"
-		(exclude_from_sim no)
-		(at 142.875 57.15 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d7f2a439-5a6a-4517-b8fd-a61b0e620907")
-	)
-	(text "TPS259620 = Latch after thermal shutdown (toggle EN to reset)\nVBUSP is limited to 1.5 A by 604 ohm R_ILM\ndv/dt = 10nF sets it to 4.2 V/ms instead of the default 70 V/ms\nOVLO = 13.7 V (open)\nUVLO = 5 V"
-		(exclude_from_sim no)
-		(at 73.66 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8c35c69-7c02-4f16-baf9-e74f2f5f6374")
-	)
-	(text "L Band Radio Supply"
-		(exclude_from_sim no)
-		(at 311.785 179.07 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe2ad069-e7e3-482a-80fa-9a1d6300c9a5")
-	)
 	(label "VBUSP-RADIO"
 		(at 137.16 152.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

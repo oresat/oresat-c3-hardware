@@ -1,13 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "65d12cdd-c326-4033-9053-c59fa4e0b25e")
 	(paper "USLedger")
 	(title_block
-		(title "OreSat C3 Root Schematic")
-		(date "2023-05-29")
+		(title "OreSat C3 Card")
+		(date "2025-12-28")
 		(rev "6.1")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols)
 	(text "Bill of Materials is kept in a Google Sheet Here:\nhttps://docs.google.com/spreadsheets/d/11vG1kWyrAjmbF5QJM-EhXmvQoF6O47japwYlHF802do/edit#gid=668351130"
@@ -46,6 +47,10 @@
 	(sheet
 		(at 247.65 109.22)
 		(size 34.29 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -84,6 +89,10 @@
 	(sheet
 		(at 189.23 92.71)
 		(size 39.37 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -122,6 +131,10 @@
 	(sheet
 		(at 189.23 139.7)
 		(size 39.37 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -160,6 +173,10 @@
 	(sheet
 		(at 189.23 109.22)
 		(size 39.37 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -198,6 +215,10 @@
 	(sheet
 		(at 247.65 92.71)
 		(size 34.29 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -236,6 +257,10 @@
 	(sheet
 		(at 139.7 109.22)
 		(size 34.29 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -274,6 +299,10 @@
 	(sheet
 		(at 247.65 139.7)
 		(size 34.29 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -321,6 +350,10 @@
 	(sheet
 		(at 247.65 124.46)
 		(size 52.07 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -359,6 +392,10 @@
 	(sheet
 		(at 139.7 92.71)
 		(size 34.29 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -397,6 +434,10 @@
 	(sheet
 		(at 189.23 153.67)
 		(size 39.37 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -444,6 +485,10 @@
 	(sheet
 		(at 189.23 124.46)
 		(size 39.37 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -482,6 +527,10 @@
 	(sheet
 		(at 247.65 153.67)
 		(size 34.29 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -522,4 +571,5 @@
 			(page "#")
 		)
 	)
+	(embedded_fonts no)
 )

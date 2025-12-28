@@ -1,19 +1,24 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "77cf6166-edba-44c6-85d1-7cab219bc4ed")
-	(paper "B")
+	(paper "USLedger")
 	(title_block
-		(title "OreSat C3: Watchdog Circuit")
-		(date "2023-05-29")
+		(title "OreSat C3 Card")
+		(date "2025-12-28")
 		(rev "6.1")
+		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
 		(symbol "Device:C_Polarized_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -82,17 +87,6 @@
 			)
 			(symbol "C_Polarized_Small_0_1"
 				(rectangle
-					(start -1.524 -0.3048)
-					(end 1.524 -0.6858)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
 					(start -1.524 0.6858)
 					(end 1.524 0.3048)
 					(stroke
@@ -101,6 +95,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.3048)
+					(end 1.524 -0.6858)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -166,11 +171,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -240,10 +250,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -252,10 +262,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -301,11 +311,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:LED_Small_Filled"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -387,7 +402,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.016 0) (xy -0.762 0)
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
 					)
 					(stroke
 						(width 0)
@@ -411,19 +438,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+						(xy 1.016 0) (xy -0.762 0)
 					)
 					(stroke
 						(width 0)
@@ -472,11 +487,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small_US"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -546,7 +566,7 @@
 			(symbol "R_Small_US_1_1"
 				(polyline
 					(pts
-						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
+						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
 					)
 					(stroke
 						(width 0)
@@ -558,7 +578,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.524) (xy 1.016 1.143) (xy 0 0.762) (xy -1.016 0.381) (xy 0 0)
+						(xy 0 0) (xy 1.016 -0.381) (xy 0 -0.762) (xy -1.016 -1.143) (xy 0 -1.524)
 					)
 					(stroke
 						(width 0)
@@ -605,6 +625,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TLV1704AIPWR_1"
 			(pin_names
@@ -687,6 +708,18 @@
 			(symbol "TLV1704AIPWR_1_1_1"
 				(polyline
 					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
 					)
 					(stroke
@@ -709,18 +742,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "1"
 					(at 0 0 0)
 					(effects
@@ -729,17 +750,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -765,17 +786,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -785,6 +806,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_1_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -809,18 +842,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "2"
 					(at 0 0 0)
 					(effects
@@ -829,17 +850,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -865,17 +886,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -885,6 +906,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_1_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -909,18 +942,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "3"
 					(at 0 0 0)
 					(effects
@@ -929,17 +950,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -965,17 +986,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -985,6 +1006,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_1_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -1009,41 +1042,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "4"
 					(at 0 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -1058,6 +1061,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1086,24 +1107,6 @@
 			)
 			(symbol "TLV1704AIPWR_1_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -1121,7 +1124,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TLV1704AIPWR_2"
 			(pin_names
@@ -1204,6 +1226,18 @@
 			(symbol "TLV1704AIPWR_2_1_1"
 				(polyline
 					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
 					)
 					(stroke
@@ -1226,18 +1260,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "1"
 					(at 0 0 0)
 					(effects
@@ -1246,17 +1268,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1282,17 +1304,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1302,6 +1324,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_2_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -1326,18 +1360,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "2"
 					(at 0 0 0)
 					(effects
@@ -1346,17 +1368,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1382,17 +1404,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1402,6 +1424,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_2_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -1426,18 +1460,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "3"
 					(at 0 0 0)
 					(effects
@@ -1446,17 +1468,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1482,17 +1504,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1502,6 +1524,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_2_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -1526,41 +1560,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "4"
 					(at 0 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -1575,6 +1579,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1603,24 +1625,6 @@
 			)
 			(symbol "TLV1704AIPWR_2_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -1638,7 +1642,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TLV1704AIPWR_3"
 			(pin_names
@@ -1721,6 +1744,18 @@
 			(symbol "TLV1704AIPWR_3_1_1"
 				(polyline
 					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
 					)
 					(stroke
@@ -1743,18 +1778,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "1"
 					(at 0 0 0)
 					(effects
@@ -1763,17 +1786,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1799,17 +1822,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1819,6 +1842,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_3_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -1843,18 +1878,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "2"
 					(at 0 0 0)
 					(effects
@@ -1863,17 +1886,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1899,17 +1922,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1919,6 +1942,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_3_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -1943,18 +1978,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "3"
 					(at 0 0 0)
 					(effects
@@ -1963,17 +1986,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1999,17 +2022,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2019,6 +2042,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_3_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -2043,41 +2078,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "4"
 					(at 0 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -2092,6 +2097,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2120,24 +2143,6 @@
 			)
 			(symbol "TLV1704AIPWR_3_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -2155,7 +2160,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TLV1704AIPWR_4"
 			(pin_names
@@ -2238,6 +2262,18 @@
 			(symbol "TLV1704AIPWR_4_1_1"
 				(polyline
 					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
 					)
 					(stroke
@@ -2260,18 +2296,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "1"
 					(at 0 0 0)
 					(effects
@@ -2280,17 +2304,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2316,17 +2340,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2336,6 +2360,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_4_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -2360,18 +2396,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "2"
 					(at 0 0 0)
 					(effects
@@ -2380,17 +2404,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2416,17 +2440,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2436,6 +2460,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_4_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -2460,18 +2496,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "3"
 					(at 0 0 0)
 					(effects
@@ -2480,17 +2504,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2516,17 +2540,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2536,6 +2560,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_4_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -2560,41 +2596,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "4"
 					(at 0 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -2609,6 +2615,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2637,24 +2661,6 @@
 			)
 			(symbol "TLV1704AIPWR_4_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -2672,12 +2678,35 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-diodes:1N4151WS-HE3"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2740,24 +2769,6 @@
 			)
 			(symbol "1N4151WS-HE3_1_1"
 				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
 					(name "2"
@@ -2775,7 +2786,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-ics:TLV1704AIPWR"
 			(pin_names
@@ -2858,6 +2888,18 @@
 			(symbol "TLV1704AIPWR_1_1"
 				(polyline
 					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
 					)
 					(stroke
@@ -2880,18 +2922,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "1"
 					(at 0 0 0)
 					(effects
@@ -2900,17 +2930,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2936,17 +2966,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2956,6 +2986,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -2980,18 +3022,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "2"
 					(at 0 0 0)
 					(effects
@@ -3000,17 +3030,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3036,17 +3066,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3056,6 +3086,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_3_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -3080,18 +3122,6 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "3"
 					(at 0 0 0)
 					(effects
@@ -3100,17 +3130,17 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3136,17 +3166,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin open_collector line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3156,6 +3186,18 @@
 				)
 			)
 			(symbol "TLV1704AIPWR_4_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy 3.048 0) (xy 3.81 -0.635)
@@ -3180,41 +3222,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(text "4"
 					(at 0 0 0)
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
 						)
 					)
 				)
@@ -3229,6 +3241,24 @@
 						)
 					)
 					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3257,24 +3287,6 @@
 			)
 			(symbol "TLV1704AIPWR_5_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -3292,7 +3304,26 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "oresat-misc:Test-Point-0.75mm-th"
 			(exclude_from_sim yes)
@@ -3375,12 +3406,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3471,12 +3507,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:VBUS"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3548,7 +3589,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3560,7 +3601,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3591,7 +3632,142 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Pulse integrator"
+		(exclude_from_sim no)
+		(at 232.41 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c87bd72-c5d8-429c-b014-6bb7de3e6cfe")
+	)
+	(text "Oscillator"
+		(exclude_from_sim no)
+		(at 276.86 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0fea8d3d-0e34-4f15-aa63-e3e95453f24e")
+	)
+	(text "C112+C114 and R62+R63 \nset the WDT frequency"
+		(exclude_from_sim no)
+		(at 270.51 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "179a9cec-be73-4c24-83e2-25c4724f7391")
+	)
+	(text "DC block and pulse detector"
+		(exclude_from_sim no)
+		(at 185.42 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c0846fa-b0b4-4cc1-aca2-1cd2fa663474")
+	)
+	(text "Output buffer"
+		(exclude_from_sim no)
+		(at 300.355 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d9a722b-3026-49f2-9a32-74ed9da4c35a")
+	)
+	(text "Pull-up on battery pack to Vbus"
+		(exclude_from_sim no)
+		(at 314.96 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "546b6c9e-fec1-4d47-945d-401dea327e89")
+	)
+	(text "DO WE NEED ALL 660 uF?"
+		(exclude_from_sim no)
+		(at 121.92 90.17 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c1784c9-5a04-445f-bd80-3519279cc5ee")
+	)
+	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
+		(exclude_from_sim no)
+		(at 119.38 260.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73d0d122-34bf-4f14-8bf8-39db90ad3404")
+	)
+	(text "Disable shutdown during\ninitial power up."
+		(exclude_from_sim no)
+		(at 311.785 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c48c429-33e0-4e2e-9406-7fd28e021471")
+	)
+	(text "Keeps WDT circuit powered\nthrough ~{ORESAT-SD} asserted\nperiod (~ 2-3 seconds)"
+		(exclude_from_sim no)
+		(at 121.92 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cc38cb5-d4ac-41bf-b364-da8ff82a76e2")
+	)
+	(text "TLV1704AMPWPSEP is the radiation tolerant version.\nUse TLV1704AQPWRQ1 for non-flight C3 boards."
+		(exclude_from_sim no)
+		(at 238.76 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81b97312-da5c-4aef-b231-0a75f69d4aa4")
+	)
+	(text "~ 24 s period (36 s on power up)"
+		(exclude_from_sim no)
+		(at 266.7 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ab6e820-a351-4103-a18b-dafaf97dc050")
 	)
 	(junction
 		(at 134.62 109.22)
@@ -4683,143 +4859,8 @@
 		)
 		(uuid "f87e0e06-fa02-488a-98ae-241ee66e3a8e")
 	)
-	(text "Pulse integrator"
-		(exclude_from_sim no)
-		(at 232.41 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c87bd72-c5d8-429c-b014-6bb7de3e6cfe")
-	)
-	(text "Oscillator"
-		(exclude_from_sim no)
-		(at 276.86 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0fea8d3d-0e34-4f15-aa63-e3e95453f24e")
-	)
-	(text "C112+C114 and R62+R63 \nset the WDT frequency"
-		(exclude_from_sim no)
-		(at 270.51 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "179a9cec-be73-4c24-83e2-25c4724f7391")
-	)
-	(text "DC block and pulse detector"
-		(exclude_from_sim no)
-		(at 185.42 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3c0846fa-b0b4-4cc1-aca2-1cd2fa663474")
-	)
-	(text "Output buffer"
-		(exclude_from_sim no)
-		(at 300.355 189.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3d9a722b-3026-49f2-9a32-74ed9da4c35a")
-	)
-	(text "Pull-up on battery pack to Vbus"
-		(exclude_from_sim no)
-		(at 314.96 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "546b6c9e-fec1-4d47-945d-401dea327e89")
-	)
-	(text "DO WE NEED ALL 660 uF?"
-		(exclude_from_sim no)
-		(at 121.92 90.17 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "5c1784c9-5a04-445f-bd80-3519279cc5ee")
-	)
-	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
-		(exclude_from_sim no)
-		(at 119.38 260.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "73d0d122-34bf-4f14-8bf8-39db90ad3404")
-	)
-	(text "Disable shutdown during\ninitial power up."
-		(exclude_from_sim no)
-		(at 311.785 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c48c429-33e0-4e2e-9406-7fd28e021471")
-	)
-	(text "Keeps WDT circuit powered\nthrough ~{ORESAT-SD} asserted\nperiod (~ 2-3 seconds)"
-		(exclude_from_sim no)
-		(at 121.92 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7cc38cb5-d4ac-41bf-b364-da8ff82a76e2")
-	)
-	(text "TLV1704AMPWPSEP is the radiation tolerant version.\nUse TLV1704AQPWRQ1 for non-flight C3 boards."
-		(exclude_from_sim no)
-		(at 238.76 207.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "81b97312-da5c-4aef-b231-0a75f69d4aa4")
-	)
-	(text "~ 24 s period (36 s on power up)"
-		(exclude_from_sim no)
-		(at 266.7 193.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ab6e820-a351-4103-a18b-dafaf97dc050")
-	)
 	(label "WDT-VP"
 		(at 186.69 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4830,7 +4871,6 @@
 	)
 	(label "WDT-VIN"
 		(at 186.69 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9274,16 +9314,16 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Small_Filled")
-		(at 177.8 176.53 90)
+		(at 177.8 176.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb49a298-89d4-4ca8-ada0-a3fcf20938e2")
 		(property "Reference" "D9"
-			(at 180.34 175.1965 90)
+			(at 175.26 175.1965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,8 +9331,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 180.34 177.7365 90)
+		(property "Value" "AMBER"
+			(at 175.26 177.7365 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9309,7 +9349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060AS75000.pdf"
 			(at 177.8 176.53 90)
 			(effects
 				(font
@@ -9318,7 +9358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
+		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
 			(at 177.8 176.53 0)
 			(effects
 				(font
@@ -9327,7 +9367,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "732-4971-1-ND"
+		(property "DPN" "732-150060AS75000CT-ND"
 			(at 177.8 176.53 0)
 			(effects
 				(font
@@ -9354,7 +9394,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060GS75000"
+		(property "MPN" "150060AS75000"
 			(at 177.8 176.53 0)
 			(effects
 				(font
