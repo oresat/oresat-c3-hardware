@@ -13,7 +13,7 @@ telemetry to the ground, and receiver commands. It's the "on board computer" (OB
 - Two antenna deployment circuits
 - OreSat Power Domain (OPD) control circuitry
 
-![C3 block digram](oresat-c3-blockdiagram.png)
+![C3 block digram](images/oresat-c3-blockdiagram.png)
 
 Design materials are on Google docs; we'll post links / PDFs soon.
 
@@ -25,7 +25,7 @@ Fixes for the radio receivers, version 2 backplane pinout, and lots of little tw
 after our lessons learned on OreSat0. OH, and a COMPLETE REFACTOR since we switched from
 the STM32F439 to an Octavo OSD335x-SM and switched from EAGLE to KICAD. Yikes.
 
-![C3 version 6 PCBA](oresat-c3-v6.jpg)
+![C3 version 6 PCBA](images/oresat-c3-v6.jpg)
 
 ### V6 Software
 
@@ -48,7 +48,7 @@ The firmware application for this project is located
 C3 V4 is our latest version of the C3 card; it's getting ready for flight in 
 Q2 2021 in OreSat0. It's got all of the functionality necessary for flight.
 
-![C3 version 4 PCBA](oresat-c3-v4.jpg)
+![C3 version 4 PCBA](images/oresat-c3-v4.jpg)
 
 
 ## OreSat C3 V3 (2019-2020 ECE Capstone)
@@ -57,7 +57,7 @@ The 2018-2019 ECE Capstone brought the card to version 3. It implements an
 STM32F446VET6 IC, the full L band receiver with ultistage LNA, and a UHF radio 
 with LNA but no PA for transmitting.
 
-![C3 version 3 PCBA](oresat-c3-v3.png)
+![C3 version 3 PCBA](images/oresat-c3-v3.png)
 
 
 ## Breadboard Prototype
@@ -71,7 +71,7 @@ stronger pullups for the I2C lines than the GPIO of the STM32 can
 provide. It is currently capable of interfacing with and activating the
 OPD connected boards.
 
-![Breadboard Prototype](oresat-c3-breadboard.jpg)
+![Breadboard Prototype](images/oresat-c3-breadboard.jpg)
 
 
 ## License
