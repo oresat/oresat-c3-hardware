@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat C3 Card")
-		(date "2025-12-28")
-		(rev "6.1")
+		(date "2025-12-30")
+		(rev "7.0")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols)
