@@ -524,48 +524,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 247.65 153.67)
-		(size 34.29 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f40986af-661f-42e2-86b8-cadc1b813505")
-		(property "Sheetname" "Deployers"
-			(at 248.92 158.75 0)
-			(effects
-				(font
-					(size 2.54 2.54)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "oresat-c3-sch-deployers.kicad_sch"
-			(at 247.65 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e"
-					(page "12")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "#")
