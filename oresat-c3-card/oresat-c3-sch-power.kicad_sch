@@ -2565,6 +2565,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "REMEASURE CURRENTS AND LABEL"
+		(exclude_from_sim no)
+		(at 145.288 20.32 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "1c1638a0-bdb4-457c-b09a-24a311f96180")
+	)
 	(text "330Ω/1.5A"
 		(exclude_from_sim no)
 		(at 266.7 147.32 0)
@@ -2575,17 +2585,6 @@
 			(justify left bottom)
 		)
 		(uuid "1cc09ab6-c77f-4b48-9f01-19e2e201be92")
-	)
-	(text "@ ~99 mA (150 mA max) = 168 mW"
-		(exclude_from_sim no)
-		(at 356.235 178.435 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2444a724-bada-46f3-816c-e99405654517")
 	)
 	(text "2210"
 		(exclude_from_sim no)
@@ -2780,17 +2779,6 @@
 		)
 		(uuid "b48204ab-af22-4956-9b8c-a44b6fb87b3d")
 	)
-	(text "@ 108 + 99 + 430 = ~637 mA"
-		(exclude_from_sim no)
-		(at 246.38 142.875 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba76f484-74a1-4245-b9b5-59b077ebf0db")
-	)
 	(text "2210"
 		(exclude_from_sim no)
 		(at 220.98 160.655 0)
@@ -2834,17 +2822,6 @@
 			(justify left bottom)
 		)
 		(uuid "cf180e3b-2e55-49bf-b548-df326be3e38b")
-	)
-	(text "@ ~108 mA (150 mA max) = 184 mW"
-		(exclude_from_sim no)
-		(at 355.6 142.875 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d3c95a89-05f7-484e-bb02-df1877bef72f")
 	)
 	(text "Card EFuse"
 		(exclude_from_sim no)

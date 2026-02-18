@@ -8253,6 +8253,18 @@
 		)
 		(uuid "35333875-cd74-4f5d-9fe5-a22921f5ca1e")
 	)
+	(text "#add buzzer for theo (pull from ERS?"
+		(exclude_from_sim no)
+		(at 47.752 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "39367dde-9bfe-47e6-9902-16cb8dd9fe7c")
+	)
 	(text "LL"
 		(exclude_from_sim no)
 		(at 113.03 162.56 0)
