@@ -12233,18 +12233,6 @@
 		)
 		(uuid "b012356d-86db-4fc0-84c1-22aaca59cd27")
 	)
-	(text "remove this as well?"
-		(exclude_from_sim no)
-		(at 269.494 200.914 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "b312dfbd-8fa0-4757-bd03-d26bdfce6474")
-	)
 	(text "LL"
 		(exclude_from_sim no)
 		(at 224.79 114.3 0)
@@ -14881,7 +14869,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 200.66) (xy 240.03 200.66)
+			(xy 223.52 200.66) (xy 229.87 200.66)
 		)
 		(stroke
 			(width 0)
@@ -15668,27 +15656,6 @@
 		(uuid "d03039d0-be9a-43c9-833a-a1dceaafcf51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 218.0801 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USB-OVER-UART"
-		(shape input)
-		(at 240.03 200.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbdb4db2-991f-48f3-8540-f45f00723cf1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.4648 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18094,6 +18061,72 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-1mm-round")
+		(at 229.87 200.66 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f1aeaa4-136b-4626-8145-3ab1bc936f4a")
+		(property "Reference" "TP42"
+			(at 236.22 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 227.33 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+			(at 219.71 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mm round SMT test point"
+			(at 229.87 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b91ea046-91c0-42b0-885e-dee2e9a354d4")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "TP42")
 					(unit 1)
 				)
 			)

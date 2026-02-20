@@ -8472,6 +8472,16 @@
 		)
 		(uuid "e5e8e5b7-3d5e-409e-9939-261c2fd22ef2")
 	)
+	(text "3.3V"
+		(exclude_from_sim no)
+		(at 312.42 83.566 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f95bd904-fb20-4581-bc95-c7a818c7db8d")
+	)
 	(junction
 		(at 262.89 203.2)
 		(diameter 0)
@@ -8489,12 +8499,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03f738b6-3d7a-49b7-8160-f9d88afc9bbc")
-	)
-	(junction
-		(at 170.18 205.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0ecc4315-2cff-4732-8cfa-c4e62797f950")
 	)
 	(junction
 		(at 186.69 55.88)
@@ -8605,12 +8609,6 @@
 		(uuid "4beb8d3a-e099-4554-a818-ee643fa24354")
 	)
 	(junction
-		(at 170.18 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ca5b9b4-935d-4431-9920-c995a0e00a15")
-	)
-	(junction
 		(at 265.43 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8633,12 +8631,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58c684c9-fef6-4402-bfa6-6f4dc5a32bee")
-	)
-	(junction
-		(at 170.18 212.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5aa9d827-5fc9-4b9b-9ddb-417354460839")
 	)
 	(junction
 		(at 292.1 215.9)
@@ -8699,12 +8691,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "933b9279-0fb8-4047-9d56-29e7d14ac15d")
-	)
-	(junction
-		(at 170.18 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9501eb0f-bf0c-48aa-afc0-60e9b585e3f1")
 	)
 	(junction
 		(at 265.43 149.86)
@@ -8938,7 +8924,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 200.66) (xy 170.18 205.74)
+			(xy 173.99 200.66) (xy 173.99 205.74)
 		)
 		(stroke
 			(width 0)
@@ -8998,7 +8984,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 193.04) (xy 186.69 193.04)
+			(xy 173.99 193.04) (xy 186.69 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9408,7 +9394,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 195.58) (xy 165.1 185.42)
+			(xy 167.64 195.58) (xy 167.64 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9438,7 +9424,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 200.66) (xy 170.18 200.66)
+			(xy 165.1 200.66) (xy 173.99 200.66)
 		)
 		(stroke
 			(width 0)
@@ -9538,7 +9524,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 185.42) (xy 186.69 185.42)
+			(xy 167.64 185.42) (xy 186.69 185.42)
 		)
 		(stroke
 			(width 0)
@@ -9648,16 +9634,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 212.09) (xy 170.18 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69a7d1a1-7d93-4742-9e4a-01b17eeee736")
-	)
-	(wire
-		(pts
 			(xy 265.43 180.34) (xy 265.43 177.8)
 		)
 		(stroke
@@ -9758,7 +9734,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 205.74) (xy 189.23 205.74)
+			(xy 173.99 205.74) (xy 189.23 205.74)
 		)
 		(stroke
 			(width 0)
@@ -10048,16 +10024,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 214.63) (xy 170.18 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a92f9d18-e049-4236-a1f3-a1995a6b3dd9")
-	)
-	(wire
-		(pts
 			(xy 184.15 71.12) (xy 186.69 71.12)
 		)
 		(stroke
@@ -10118,7 +10084,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 198.12) (xy 170.18 193.04)
+			(xy 173.99 198.12) (xy 173.99 193.04)
 		)
 		(stroke
 			(width 0)
@@ -10245,16 +10211,6 @@
 			(type default)
 		)
 		(uuid "c461be62-3b9a-4abc-9f16-cf20a27fa88d")
-	)
-	(wire
-		(pts
-			(xy 165.1 185.42) (xy 170.18 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c757c47c-a7d1-4593-bd67-2fdbbba42846")
 	)
 	(wire
 		(pts
@@ -10488,7 +10444,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 203.2) (xy 165.1 212.09)
+			(xy 165.1 203.2) (xy 165.1 208.28)
 		)
 		(stroke
 			(width 0)
@@ -10498,7 +10454,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 198.12) (xy 170.18 198.12)
+			(xy 165.1 198.12) (xy 173.99 198.12)
 		)
 		(stroke
 			(width 0)
@@ -10695,6 +10651,16 @@
 			(type default)
 		)
 		(uuid "f989edb8-5375-46f5-bc29-555eaef256e1")
+	)
+	(wire
+		(pts
+			(xy 167.64 195.58) (xy 165.1 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd9848af-4a1e-4aad-b78b-7b7a1cb15747")
 	)
 	(wire
 		(pts
@@ -11579,72 +11545,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 170.18 205.74 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "25b0b42e-78bd-43ff-9f0c-7c4627e38b2b")
-		(property "Reference" "TP75"
-			(at 167.64 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 170.18 208.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 170.18 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 170.18 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b394627e-115a-464b-9a2a-d85259681219")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
-					(reference "TP75")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-power:3.3V")
 		(at 298.45 69.85 0)
 		(unit 1)
@@ -12418,138 +12318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 170.18 212.09 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "62cc4f37-3f34-4d24-a273-f8350e18412d")
-		(property "Reference" "TP79"
-			(at 167.64 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 170.18 214.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 170.18 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 170.18 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea76b787-1b12-483e-8e38-ce20dbcf49b5")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
-					(reference "TP79")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 170.18 193.04 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6aaed319-aab9-4c41-ab19-17c7a39e9494")
-		(property "Reference" "TP74"
-			(at 167.64 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 170.18 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 170.18 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 170.18 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "77428839-39fd-41ab-9983-9b8d1556ea79")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
-					(reference "TP74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 285.75 63.5 0)
 		(unit 1)
@@ -13247,72 +13015,6 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-0.75mm-th")
-		(at 170.18 185.42 180)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a30cfed-5571-4bdc-8820-43fc403022ea")
-		(property "Reference" "TP73"
-			(at 167.64 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 170.18 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint-0.75mm-th"
-			(at 170.18 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.75 mm TH test point; good for scope probes and jumpers"
-			(at 170.18 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf5da4d7-f57b-444a-b398-d47cfe511e95")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
-					(reference "TP73")
 					(unit 1)
 				)
 			)
@@ -15833,7 +15535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 214.63 0)
+		(at 165.1 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15841,7 +15543,7 @@
 		(dnp no)
 		(uuid "f4c91732-c3e9-4a66-87eb-11b42f96cc53")
 		(property "Reference" "#PWR0145"
-			(at 170.18 220.98 0)
+			(at 165.1 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15850,7 +15552,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 218.44 0)
+			(at 165.1 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15858,7 +15560,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 214.63 0)
+			(at 165.1 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +15569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 214.63 0)
+			(at 165.1 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15876,7 +15578,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 214.63 0)
+			(at 165.1 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

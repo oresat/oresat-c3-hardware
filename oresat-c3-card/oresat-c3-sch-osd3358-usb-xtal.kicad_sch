@@ -7818,7 +7818,7 @@
 	)
 	(text "USB Client\n(goes upstream to PC)"
 		(exclude_from_sim no)
-		(at 102.87 172.72 0)
+		(at 140.97 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7908,7 +7908,7 @@
 	)
 	(text "From Debug Connector\n(See Connectors Sheet)"
 		(exclude_from_sim no)
-		(at 73.66 186.69 0)
+		(at 111.76 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8223,7 +8223,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.79 156.21) (xy 97.79 210.82)
+			(xy 135.89 156.21) (xy 135.89 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8353,7 +8353,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 132.08) (xy 271.78 132.08)
+			(xy 256.54 132.08) (xy 264.16 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8463,7 +8463,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 165.1) (xy 177.8 165.1)
+			(xy 153.67 165.1) (xy 177.8 165.1)
 		)
 		(stroke
 			(width 0)
@@ -8523,7 +8523,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 162.56) (xy 175.26 162.56)
+			(xy 153.67 162.56) (xy 175.26 162.56)
 		)
 		(stroke
 			(width 0)
@@ -8633,7 +8633,7 @@
 	)
 	(polyline
 		(pts
-			(xy 100.33 156.21) (xy 97.79 156.21)
+			(xy 138.43 156.21) (xy 135.89 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8653,7 +8653,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 208.28) (xy 191.77 208.28)
+			(xy 152.4 208.28) (xy 191.77 208.28)
 		)
 		(stroke
 			(width 0)
@@ -8903,7 +8903,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 160.02) (xy 172.72 160.02)
+			(xy 153.67 160.02) (xy 172.72 160.02)
 		)
 		(stroke
 			(width 0)
@@ -9073,7 +9073,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 134.62) (xy 271.78 134.62)
+			(xy 256.54 134.62) (xy 264.16 134.62)
 		)
 		(stroke
 			(width 0)
@@ -9163,7 +9163,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.79 210.82) (xy 101.6 210.82)
+			(xy 135.89 210.82) (xy 139.7 210.82)
 		)
 		(stroke
 			(width 0)
@@ -9273,7 +9273,7 @@
 	)
 	(global_label "USB_CLI_DP"
 		(shape bidirectional)
-		(at 115.57 165.1 180)
+		(at 153.67 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9282,7 +9282,7 @@
 		)
 		(uuid "0443ee29-f84e-4ca8-8c9b-a9e200e8258c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 165.1 0)
+			(at 139.7 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,7 +9314,7 @@
 	)
 	(global_label "nRESET"
 		(shape input)
-		(at 114.3 208.28 180)
+		(at 152.4 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9323,7 +9323,7 @@
 		)
 		(uuid "4a3599f5-00ac-4a9c-ae08-99512bbcbf6f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.14 208.28 0)
+			(at 142.24 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9334,7 +9334,7 @@
 	)
 	(global_label "USB_CLI_DM"
 		(shape bidirectional)
-		(at 115.57 162.56 180)
+		(at 153.67 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9343,33 +9343,12 @@
 		)
 		(uuid "55437954-75e4-48f4-b353-2671c6c9a7f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 162.56 0)
+			(at 139.7 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "READ_HELICAL"
-		(shape input)
-		(at 271.78 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "961d2831-49bb-4d6b-ba1b-562fdbfe3178")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 287.9301 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -9386,27 +9365,6 @@
 		(uuid "a337c045-8d39-44d4-95b3-27b4bce5f74c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 291.1354 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "READ_ANTENNAS"
-		(shape input)
-		(at 271.78 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b6eaa14a-315d-4923-91e8-52a3d7be5f38")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.9258 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9396,7 @@
 	)
 	(global_label "VIN_USB"
 		(shape input)
-		(at 115.57 160.02 180)
+		(at 153.67 160.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9448,7 +9406,7 @@
 		)
 		(uuid "f2f853fb-b194-4568-b540-0f38029b9085")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 105.3555 159.9406 0)
+			(at 143.4555 159.9406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,6 +9672,72 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
 					(reference "TP94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-1mm-round")
+		(at 264.16 132.08 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "177f2101-6c60-49f4-a6da-2d4175112600")
+		(property "Reference" "TP41"
+			(at 270.51 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 264.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+			(at 264.16 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mm round SMT test point"
+			(at 264.16 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0bfc8154-d660-465e-ac1c-012c17141c5e")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -13029,6 +13053,72 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
 					(reference "TP97")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-misc:Test-Point-1mm-round")
+		(at 264.16 134.62 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "de8c9233-9d7c-4ea5-ad2f-ccdcd0277da2")
+		(property "Reference" "TP36"
+			(at 270.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test-Point"
+			(at 264.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
+			(at 264.16 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1mm round SMT test point"
+			(at 264.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c55efca-cffb-496d-a2c1-7d73602d56c0")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0d3a1fa4-c9ee-4335-9068-a81ae0178f3f"
+					(reference "TP36")
 					(unit 1)
 				)
 			)
