@@ -207,6 +207,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -16360,7 +16369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -16397,6 +16406,15 @@
 			)
 		)
 		(property "MPN" "150060BS75000"
+			(at 293.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -18937,7 +18955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 293.37 111.76 0)
 			(effects
 				(font
@@ -18974,6 +18992,15 @@
 			)
 		)
 		(property "MPN" "150060BS75000"
+			(at 293.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 293.37 111.76 0)
 			(effects
 				(font
@@ -20578,7 +20605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 293.37 119.38 0)
 			(effects
 				(font
@@ -20615,6 +20642,15 @@
 			)
 		)
 		(property "MPN" "150060BS75000"
+			(at 293.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 293.37 119.38 0)
 			(effects
 				(font
@@ -21008,7 +21044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-footprints:J-Hirose-DM3BT-DSF-PEJS"
+		(property "Footprint" "oresat-connectors:J-Hirose-DM3BT-DSF-PEJS"
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -21475,7 +21511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol"
 			(at 293.37 127 0)
 			(effects
 				(font
@@ -21512,6 +21548,15 @@
 			)
 		)
 		(property "MPN" "150060BS75000"
+			(at 293.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
 			(at 293.37 127 0)
 			(effects
 				(font

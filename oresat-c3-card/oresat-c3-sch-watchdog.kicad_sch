@@ -369,6 +369,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -9349,7 +9358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060AS75000.pdf"
+		(property "Datasheet" "~"
 			(at 177.8 176.53 90)
 			(effects
 				(font
@@ -9358,7 +9367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Amber 605nm LED Indication - Discrete 2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 177.8 176.53 0)
 			(effects
 				(font
@@ -9395,6 +9404,15 @@
 			)
 		)
 		(property "MPN" "150060AS75000"
+			(at 177.8 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 177.8 176.53 0)
 			(effects
 				(font

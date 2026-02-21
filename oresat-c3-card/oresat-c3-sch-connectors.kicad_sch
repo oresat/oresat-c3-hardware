@@ -2555,6 +2555,16 @@
 		)
 		(uuid "017af014-dfd1-49cd-bbbd-28a123eb6f16")
 	)
+	(text "Not used anywhere else in schematic..."
+		(exclude_from_sim no)
+		(at 176.276 188.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d58e0de-0c4d-4195-a760-b1670a0e2522")
+	)
 	(text "20 pin FFC Connector"
 		(exclude_from_sim no)
 		(at 203.708 60.706 0)
