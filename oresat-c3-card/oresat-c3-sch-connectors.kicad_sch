@@ -2555,16 +2555,6 @@
 		)
 		(uuid "017af014-dfd1-49cd-bbbd-28a123eb6f16")
 	)
-	(text "Not used anywhere else in schematic..."
-		(exclude_from_sim no)
-		(at 176.276 188.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0d58e0de-0c4d-4195-a760-b1670a0e2522")
-	)
 	(text "20 pin FFC Connector"
 		(exclude_from_sim no)
 		(at 203.708 60.706 0)
@@ -2705,7 +2695,7 @@
 	)
 	(text "Same as C3-UART"
 		(exclude_from_sim no)
-		(at 246.38 102.87 0)
+		(at 263.144 109.728 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3700,9 +3690,9 @@
 		)
 		(uuid "fe63cb1a-6c2b-4f13-80b8-1bd18faaa601")
 	)
-	(global_label "UART0_TX"
-		(shape input)
-		(at 229.87 100.33 0)
+	(global_label "C3-UART-RX"
+		(shape output)
+		(at 229.87 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3710,9 +3700,9 @@
 			)
 			(justify left)
 		)
-		(uuid "1e689f42-d47a-4074-b216-e580d2ac743b")
+		(uuid "243cad61-b85a-4ec7-b829-046491a3d77d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.7867 100.33 0)
+			(at 245.6157 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3734,27 +3724,6 @@
 		(uuid "26b9b9d4-b59b-4fb5-8464-fe41d7dc8ee4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 136.5493 172.6406 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UART0_RX"
-		(shape output)
-		(at 229.87 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2e1e434d-eed5-4d41-ad71-f9a79bb40e69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.0891 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3902,6 +3871,27 @@
 		(uuid "758f2066-5898-42f2-9327-610b26cd519b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.8814 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "C3-UART-TX"
+		(shape input)
+		(at 229.87 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77844b00-1ffc-4114-ad5a-29e6671de12c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.3133 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

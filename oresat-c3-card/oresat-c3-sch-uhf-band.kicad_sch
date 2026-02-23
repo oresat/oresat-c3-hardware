@@ -2342,7 +2342,7 @@
 				)
 			)
 			(symbol "AT86RF215_1_0"
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2734,7 +2734,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 38.1 270)
 					(length 2.54)
 					(hide yes)
@@ -2753,7 +2753,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2772,7 +2772,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2791,7 +2791,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2828,7 +2828,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2847,7 +2847,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2866,7 +2866,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2885,7 +2885,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2922,7 +2922,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 38.1 270)
 					(length 2.54)
 					(hide yes)
@@ -2941,7 +2941,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 38.1 270)
 					(length 2.54)
 					(hide yes)
@@ -2978,7 +2978,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -2997,7 +2997,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -3016,7 +3016,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -3035,7 +3035,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -7151,12 +7151,6 @@
 		(uuid "ceb33d8a-211d-4788-bea0-60416b3cd688")
 	)
 	(junction
-		(at 40.64 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfe6cdef-29af-4c76-b2a8-05ce3accc97f")
-	)
-	(junction
 		(at 104.14 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8438,16 +8432,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 97.79) (xy 40.64 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f9de04b-98a4-4b5a-86bd-7d8a083e2357")
-	)
-	(wire
-		(pts
 			(xy 213.36 154.94) (xy 213.36 160.02)
 		)
 		(stroke
@@ -8586,6 +8570,16 @@
 			(type default)
 		)
 		(uuid "46c51587-e3db-4b6f-ac91-04ba497b1359")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.98) (xy 38.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47888ce3-e12a-42bc-8075-d70a62ea8beb")
 	)
 	(wire
 		(pts
@@ -9393,16 +9387,6 @@
 		)
 		(uuid "7a22b66c-cd25-4786-9b9c-8d9e38e8ad04")
 	)
-	(wire
-		(pts
-			(xy 43.18 100.33) (xy 43.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa0bdd1-fdfd-4afe-84ad-5e2a1bbccbd3")
-	)
 	(polyline
 		(pts
 			(xy 149.606 120.015) (xy 148.209 117.221)
@@ -9826,16 +9810,6 @@
 			(type default)
 		)
 		(uuid "94156151-8d1a-4521-a4e4-35f503a1dea1")
-	)
-	(wire
-		(pts
-			(xy 38.1 100.33) (xy 38.1 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9443beb8-0b39-4dbf-aa13-b3b99c228f9a")
 	)
 	(wire
 		(pts
@@ -10806,6 +10780,16 @@
 		)
 		(uuid "c1015195-b841-4b10-813c-2261279decfb")
 	)
+	(wire
+		(pts
+			(xy 43.18 93.98) (xy 43.18 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c116e447-cc10-4382-840b-6c2be9cb439a")
+	)
 	(polyline
 		(pts
 			(xy 275.59 232.41) (xy 276.225 227.965)
@@ -11156,26 +11140,6 @@
 			(type default)
 		)
 		(uuid "d444b0bf-ed85-4692-8ffb-f5c798ae7656")
-	)
-	(wire
-		(pts
-			(xy 38.1 97.79) (xy 40.64 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4967acc-0604-45fa-9973-aa499d6cdcb3")
-	)
-	(wire
-		(pts
-			(xy 40.64 97.79) (xy 43.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5220472-de3e-4637-81fd-7a4f1f3f49cf")
 	)
 	(wire
 		(pts
@@ -11850,7 +11814,7 @@
 				)
 				(uuid "d775c612-252d-4d5a-99be-a5efb88e1049")
 			)
-			(table_cell "1"
+			(table_cell "0"
 				(exclude_from_sim no)
 				(at 89.535 206.375 0)
 				(size 13.335 3.175)
@@ -11901,7 +11865,7 @@
 				)
 				(uuid "4c95242d-d744-4b7d-99c0-5c507c873b29")
 			)
-			(table_cell "0"
+			(table_cell "1"
 				(exclude_from_sim no)
 				(at 89.535 209.55 0)
 				(size 13.335 3.175)
@@ -13735,6 +13699,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-power:3.3V-U")
+		(at 43.18 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12e150a8-7975-496b-99b9-c4d08ed0e6e6")
+		(property "Reference" "#3V3-U02"
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V-U"
+			(at 43.18 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "763c9c25-6908-45e5-b9e9-345154d24843")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
+					(reference "#3V3-U02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 241.3 64.77 0)
 		(unit 1)
@@ -13834,112 +13864,6 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 91.44 129.54 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "14b82dac-e802-4abe-b391-fc58011619e8")
-		(property "Reference" "C156"
-			(at 93.98 123.952 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "15p"
-			(at 93.472 125.984 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 91.44 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "15 pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 91.44 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 91.44 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "399-6859-1-ND"
-			(at 91.44 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "KEMET"
-			(at 91.44 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "C0603C150J5GACAUTO"
-			(at 91.44 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6383fc3a-a126-4602-8bde-5e89c2b11118")
-		)
-		(pin "1"
-			(uuid "01ae8f87-8e0b-45e6-b5f8-3343893a805e")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-					(reference "C156")
 					(unit 1)
 				)
 			)
@@ -15843,7 +15767,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:3.3V-U")
-		(at 40.64 95.25 0)
+		(at 38.1 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15852,7 +15776,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dae759e-bd74-4c6a-9762-96dc49df4e62")
 		(property "Reference" "#3V3-U026"
-			(at 40.64 99.06 0)
+			(at 38.1 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15861,7 +15785,7 @@
 			)
 		)
 		(property "Value" "3.3V-U"
-			(at 40.64 91.44 0)
+			(at 38.1 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15869,7 +15793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 95.25 0)
+			(at 38.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +15802,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 95.25 0)
+			(at 38.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +15811,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 95.25 0)
+			(at 38.1 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16465,7 +16389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42415-WIRELESS-AT86RF215_Datasheet.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-42415-WIRELESS-AT86RF215_Datasheet.pdf"
 			(at 36.83 195.326 0)
 			(effects
 				(font
@@ -16917,6 +16841,112 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
 					(reference "U19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 91.44 129.54 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "363908e5-981c-4d13-95fc-021dabff43b9")
+		(property "Reference" "C48"
+			(at 93.98 125.476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.8p"
+			(at 93.98 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 91.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 91.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 91.44 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-CBR06C808B5GACAUTOCT-ND"
+			(at 91.44 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 91.44 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CBR06C808B5GACAUTO"
+			(at 91.44 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a246e54-f995-4ed6-923f-7275cca67705")
+		)
+		(pin "1"
+			(uuid "fa6c2f89-4fc9-4250-9d3a-120c29a48bc2")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
+					(reference "C48")
 					(unit 1)
 				)
 			)

@@ -501,7 +501,7 @@
 				)
 			)
 			(symbol "AT86RF215_1_0"
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -893,7 +893,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 38.1 270)
 					(length 2.54)
 					(hide yes)
@@ -912,7 +912,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -931,7 +931,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -950,7 +950,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -987,7 +987,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -1006,7 +1006,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -1025,7 +1025,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -1044,7 +1044,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at -2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -1081,7 +1081,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 38.1 270)
 					(length 2.54)
 					(hide yes)
@@ -1100,7 +1100,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 38.1 270)
 					(length 2.54)
 					(hide yes)
@@ -1137,7 +1137,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -1156,7 +1156,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -1175,7 +1175,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -1194,7 +1194,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 2.54 -38.1 90)
 					(length 2.54)
 					(hide yes)
@@ -4951,7 +4951,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 140.97) (xy 228.6 140.97)
+			(xy 208.28 140.97) (xy 228.6 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5822,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 140.97) (xy 212.09 140.97)
+			(xy 187.96 140.97) (xy 203.2 140.97)
 		)
 		(stroke
 			(width 0)
@@ -12493,7 +12493,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42415-WIRELESS-AT86RF215_Datasheet.pdf"
+		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/Atmel-42415-WIRELESS-AT86RF215_Datasheet.pdf"
 			(at 121.92 206.756 0)
 			(effects
 				(font
@@ -14331,7 +14331,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 214.63 140.97 270)
+		(at 205.74 140.97 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14340,7 +14340,7 @@
 		(dnp no)
 		(uuid "9c798fb5-bae2-40e3-a921-8dc2b3e17a27")
 		(property "Reference" "C167"
-			(at 217.17 136.906 90)
+			(at 208.28 136.906 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14349,7 +14349,7 @@
 			)
 		)
 		(property "Value" "0.8p"
-			(at 217.17 138.43 90)
+			(at 208.28 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,7 +14358,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 214.63 140.97 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14367,7 +14367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 140.97 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14376,7 +14376,7 @@
 			)
 		)
 		(property "Description" "0.8 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
-			(at 214.63 140.97 0)
+			(at 205.74 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14385,7 +14385,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 214.63 140.97 90)
+			(at 205.74 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14394,7 +14394,7 @@
 			)
 		)
 		(property "DPN" "399-CBR06C808B5GACAUTOCT-ND"
-			(at 214.63 140.97 90)
+			(at 205.74 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14403,7 +14403,7 @@
 			)
 		)
 		(property "MFR" "KEMET"
-			(at 214.63 140.97 90)
+			(at 205.74 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,7 +14412,7 @@
 			)
 		)
 		(property "MPN" "CBR06C808B5GACAUTO"
-			(at 214.63 140.97 90)
+			(at 205.74 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)

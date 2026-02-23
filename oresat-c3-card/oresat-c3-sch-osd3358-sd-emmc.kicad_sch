@@ -15443,6 +15443,26 @@
 			)
 		)
 	)
+	(global_label "C3-UART-RX"
+		(shape input)
+		(at 146.05 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77542f4c-fb25-48ff-bbe0-e9c347d0cabb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.08 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "OPD_nENABLE"
 		(shape output)
 		(at 154.94 185.42 180)
@@ -15589,27 +15609,6 @@
 			)
 		)
 	)
-	(global_label "UART0_RX"
-		(shape input)
-		(at 146.05 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0ff78f1-d045-4f7b-b103-59c361ab4d8f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.8309 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "SPI0_CS"
 		(shape input)
 		(at 154.94 139.7 180)
@@ -15623,6 +15622,26 @@
 		(uuid "c261e565-6541-4ad9-9e19-42360bc33e2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 144.2933 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "C3-UART-TX"
+		(shape input)
+		(at 146.05 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c9670b6b-0dc9-4a11-a401-f8a17d586a4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.826 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15749,27 +15768,6 @@
 		(uuid "e4c32745-1e47-4759-a359-15eafc1ec355")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 133.2866 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "UART0_TX"
-		(shape input)
-		(at 146.05 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e6d6fee7-5f5c-4665-919d-b6987cb8e605")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.1333 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
