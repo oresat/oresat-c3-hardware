@@ -9,6 +9,4 @@
   (lib (name "oresat-pcbs")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-pcbs.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-power")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-power.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-transistors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-transistors.kicad_sym")(options "")(descr ""))
-  (lib (name "oresat-mcu")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-mcu.kicad_sym")(options "")(descr ""))
-  (lib (name "oresat-c3-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-c3-eagle-import.kicad_sym")(options "")(descr ""))
 )

@@ -207,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pin" "1=K 2=A"
+			(property "Sim.Pins" "1=K 2=A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1063,7 +1063,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
+			(property "Reference" "U"
 				(at 8.89 -19.05 0)
 				(effects
 					(font
@@ -1099,7 +1099,7 @@
 				)
 			)
 			(property "Description" "IC FLASH 16GBIT EMMC 153FBGA"
-				(at 0 0 0)
+				(at 0.254 34.798 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2306,6 +2306,14 @@
 						(type background)
 					)
 				)
+				(text "KEEP OUT ZONE (UNCONNECTED PINS)"
+					(at 34.798 0 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin no_connect line
 					(at 20.32 2.54 180)
 					(length 2.54)
@@ -2583,7 +2591,7 @@
 							)
 						)
 					)
-					(number "E9"
+					(number "E10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2602,7 +2610,7 @@
 							)
 						)
 					)
-					(number "E10"
+					(number "E12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2621,25 +2629,6 @@
 							)
 						)
 					)
-					(number "E12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 91.44 -12.7 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "E13"
 						(effects
 							(font
@@ -2649,7 +2638,7 @@
 					)
 				)
 				(pin no_connect line
-					(at 91.44 -15.24 180)
+					(at 91.44 -12.7 180)
 					(length 2.54)
 					(hide yes)
 					(name "NC"
@@ -5024,7 +5013,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -35.56 38.1 0)
 					(length 5.08)
 					(name "PMIC_BAT_SENSE"
@@ -5348,7 +5337,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 78.74 180)
 					(length 5.08)
 					(name "SYS_VOUT@1"
@@ -5366,7 +5355,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 76.2 180)
 					(length 5.08)
 					(name "SYS_VOUT@2"
@@ -5384,7 +5373,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 73.66 180)
 					(length 5.08)
 					(name "SYS_VOUT@3"
@@ -5402,7 +5391,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 71.12 180)
 					(length 5.08)
 					(name "SYS_VOUT@4"
@@ -5420,7 +5409,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 60.96 180)
 					(length 5.08)
 					(name "SYS_VDD1_3P3V@1"
@@ -5438,7 +5427,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 58.42 180)
 					(length 5.08)
 					(name "SYS_VDD1_3P3V@2"
@@ -5456,7 +5445,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 55.88 180)
 					(length 5.08)
 					(name "SYS_VDD1_3P3V@3"
@@ -5474,7 +5463,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 53.34 180)
 					(length 5.08)
 					(name "SYS_VDD1_3P3V@4"
@@ -5492,7 +5481,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 43.18 180)
 					(length 5.08)
 					(name "SYS_VDD2_3P3V@1"
@@ -5510,7 +5499,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 40.64 180)
 					(length 5.08)
 					(name "SYS_VDD2_3P3V@2"
@@ -5528,7 +5517,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 30.48 180)
 					(length 5.08)
 					(name "SYS_RTC_1P8V@1"
@@ -5546,7 +5535,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 27.94 180)
 					(length 5.08)
 					(name "SYS_RTC_1P8V@2"
@@ -5564,7 +5553,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 12.7 180)
 					(length 5.08)
 					(name "SYS_VDD3_3P3V@1"
@@ -5582,7 +5571,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 10.16 180)
 					(length 5.08)
 					(name "SYS_VDD3_3P3V@2"
@@ -5600,7 +5589,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 7.62 180)
 					(length 5.08)
 					(name "SYS_VDD3_3P3V@3"
@@ -5618,7 +5607,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 5.08 180)
 					(length 5.08)
 					(name "SYS_VDD3_3P3V@4"
@@ -5636,7 +5625,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 2.54 180)
 					(length 5.08)
 					(name "SYS_VDD3_3P3V@5"
@@ -5654,7 +5643,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 0 180)
 					(length 5.08)
 					(name "SYS_VDD3_3P3V@6"
@@ -5672,7 +5661,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 -2.54 180)
 					(length 5.08)
 					(name "SYS_VDD3_3P3V@7"
@@ -5690,7 +5679,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 35.56 -5.08 180)
 					(length 5.08)
 					(name "SYS_VDD3_3P3V@8"
@@ -6385,7 +6374,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -30.48 43.18 0)
 					(length 5.08)
 					(name "OSC0_IN"
@@ -6403,7 +6392,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -30.48 27.94 0)
 					(length 5.08)
 					(name "OSC0_OUT"
@@ -6421,7 +6410,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 22.86 0)
 					(length 5.08)
 					(name "OSC0_GND"
@@ -6439,7 +6428,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at -30.48 12.7 0)
 					(length 5.08)
 					(name "OSC1_IN"
@@ -6457,7 +6446,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -30.48 -2.54 0)
 					(length 5.08)
 					(name "OSC1_OUT"
@@ -6475,7 +6464,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -7.62 0)
 					(length 5.08)
 					(name "OSC1_GND"
@@ -6727,7 +6716,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 30.48 45.72 180)
 					(length 5.08)
 					(name "SYS_ADC_1P8V"
@@ -6745,7 +6734,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 35.56 180)
 					(length 5.08)
 					(name "VREFP"
@@ -6763,7 +6752,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 15.24 180)
 					(length 5.08)
 					(name "AGND_ADC"
@@ -6781,7 +6770,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 5.08 180)
 					(length 5.08)
 					(name "VREFN"
@@ -6799,7 +6788,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 30.48 -5.08 180)
 					(length 5.08)
 					(name "AIN0"
@@ -6817,7 +6806,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 30.48 -7.62 180)
 					(length 5.08)
 					(name "AIN1"
@@ -6835,7 +6824,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 30.48 -10.16 180)
 					(length 5.08)
 					(name "AIN2"
@@ -6853,7 +6842,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 30.48 -12.7 180)
 					(length 5.08)
 					(name "AIN3"
@@ -6871,7 +6860,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 30.48 -15.24 180)
 					(length 5.08)
 					(name "AIN4"
@@ -6889,7 +6878,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 30.48 -17.78 180)
 					(length 5.08)
 					(name "AIN5"
@@ -6907,7 +6896,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 30.48 -20.32 180)
 					(length 5.08)
 					(name "AIN6"
@@ -6925,7 +6914,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin passive line
 					(at 30.48 -22.86 180)
 					(length 5.08)
 					(name "AIN7"
@@ -7158,7 +7147,7 @@
 						(justify left bottom)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -30.48 55.88 0)
 					(length 5.08)
 					(name "UART0_TXD"
@@ -7176,7 +7165,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -30.48 53.34 0)
 					(length 5.08)
 					(name "UART0_RXD"
@@ -7194,7 +7183,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -30.48 50.8 0)
 					(length 5.08)
 					(name "UART0_CTSN"
@@ -7212,7 +7201,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -30.48 48.26 0)
 					(length 5.08)
 					(name "UART0_RTSN"
@@ -7230,7 +7219,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -30.48 40.64 0)
 					(length 5.08)
 					(name "UART1_TXD"
@@ -7248,7 +7237,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -30.48 38.1 0)
 					(length 5.08)
 					(name "UART1_RXD"
@@ -7266,7 +7255,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -30.48 35.56 0)
 					(length 5.08)
 					(name "UART1_CTSN"
@@ -7284,7 +7273,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin input line
 					(at -30.48 33.02 0)
 					(length 5.08)
 					(name "UART1_RTSN"
@@ -7302,7 +7291,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -30.48 25.4 0)
 					(length 5.08)
 					(name "SPI0_SCLK"
@@ -7392,7 +7381,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin output line
 					(at -30.48 7.62 0)
 					(length 5.08)
 					(name "MMC0_CLK"
@@ -9271,7 +9260,7 @@
 						(justify bottom)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 25.4 0)
 					(length 5.08)
 					(name "DGND@1"
@@ -9289,7 +9278,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 22.86 0)
 					(length 5.08)
 					(name "DGND@2"
@@ -9307,7 +9296,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 17.78 0)
 					(length 5.08)
 					(name "DGND@3"
@@ -9325,7 +9314,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 15.24 0)
 					(length 5.08)
 					(name "DGND@4"
@@ -9343,7 +9332,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 12.7 0)
 					(length 5.08)
 					(name "DGND@5"
@@ -9361,7 +9350,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 10.16 0)
 					(length 5.08)
 					(name "DGND@6"
@@ -9379,7 +9368,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 7.62 0)
 					(length 5.08)
 					(name "DGND@7"
@@ -9397,7 +9386,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 5.08 0)
 					(length 5.08)
 					(name "DGND@8"
@@ -9415,7 +9404,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 2.54 0)
 					(length 5.08)
 					(name "DGND@9"
@@ -9433,7 +9422,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 0 0)
 					(length 5.08)
 					(name "DGND@10"
@@ -9451,7 +9440,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -5.08 0)
 					(length 5.08)
 					(name "DGND@11"
@@ -9469,7 +9458,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -7.62 0)
 					(length 5.08)
 					(name "DGND@12"
@@ -9487,7 +9476,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -12.7 0)
 					(length 5.08)
 					(name "DGND@13"
@@ -9505,7 +9494,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -15.24 0)
 					(length 5.08)
 					(name "DGND@14"
@@ -9523,7 +9512,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -20.32 0)
 					(length 5.08)
 					(name "DGND@15"
@@ -9541,7 +9530,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -22.86 0)
 					(length 5.08)
 					(name "DGND@16"
@@ -9559,7 +9548,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -25.4 0)
 					(length 5.08)
 					(name "DGND@17"
@@ -9577,7 +9566,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at -30.48 -27.94 0)
 					(length 5.08)
 					(name "DGND@18"
@@ -9595,7 +9584,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 25.4 180)
 					(length 5.08)
 					(name "DGND@19"
@@ -9613,7 +9602,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 22.86 180)
 					(length 5.08)
 					(name "DGND@20"
@@ -9631,7 +9620,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 20.32 180)
 					(length 5.08)
 					(name "DGND@21"
@@ -9649,7 +9638,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 17.78 180)
 					(length 5.08)
 					(name "DGND@22"
@@ -9667,7 +9656,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 12.7 180)
 					(length 5.08)
 					(name "DGND@23"
@@ -9685,7 +9674,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 10.16 180)
 					(length 5.08)
 					(name "DGND@24"
@@ -9703,7 +9692,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 5.08 180)
 					(length 5.08)
 					(name "DGND@25"
@@ -9721,7 +9710,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 2.54 180)
 					(length 5.08)
 					(name "DGND@26"
@@ -9739,7 +9728,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -2.54 180)
 					(length 5.08)
 					(name "DGND@27"
@@ -9757,7 +9746,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -5.08 180)
 					(length 5.08)
 					(name "DGND@28"
@@ -9775,7 +9764,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -7.62 180)
 					(length 5.08)
 					(name "DGND@29"
@@ -9793,7 +9782,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -10.16 180)
 					(length 5.08)
 					(name "DGND@30"
@@ -9811,7 +9800,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -12.7 180)
 					(length 5.08)
 					(name "DGND@31"
@@ -9829,7 +9818,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -15.24 180)
 					(length 5.08)
 					(name "DGND@32"
@@ -9847,7 +9836,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -17.78 180)
 					(length 5.08)
 					(name "DGND@33"
@@ -9865,7 +9854,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -20.32 180)
 					(length 5.08)
 					(name "DGND@34"
@@ -9883,7 +9872,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -25.4 180)
 					(length 5.08)
 					(name "DGND@35"
@@ -9901,7 +9890,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_in line
 					(at 30.48 -27.94 180)
 					(length 5.08)
 					(name "DGND@36"
@@ -10061,7 +10050,7 @@
 						(justify bottom)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at -27.94 20.32 0)
 					(length 5.08)
 					(name "VDDS_DDR"
@@ -10079,7 +10068,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at -27.94 15.24 0)
 					(length 5.08)
 					(name "VDD_CORE"
@@ -10097,7 +10086,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at -27.94 10.16 0)
 					(length 5.08)
 					(name "VDD_MPU"
@@ -10115,7 +10104,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at -27.94 5.08 0)
 					(length 5.08)
 					(name "VDDS_PLL"
@@ -10133,7 +10122,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at -27.94 -5.08 0)
 					(length 5.08)
 					(name "CAP_VDD_RTC"
@@ -10151,7 +10140,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at -27.94 -10.16 0)
 					(length 5.08)
 					(name "VPP"
@@ -10169,7 +10158,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 27.94 -5.08 180)
 					(length 5.08)
 					(name "NC@1"
@@ -10187,7 +10176,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 27.94 -7.62 180)
 					(length 5.08)
 					(name "NC@2"
@@ -10205,7 +10194,7 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin no_connect line
 					(at 27.94 -10.16 180)
 					(length 5.08)
 					(name "NC@3"
@@ -16421,6 +16410,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 293.37 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0094e3dd-609a-4a9f-a731-beea9402eeb7")
 		)
@@ -16860,7 +16858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "eMMC 16GB E-MMC MLC EM-20 IND"
+		(property "Description" "IC FLASH 16GBIT EMMC 153FBGA"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -17141,9 +17139,6 @@
 		)
 		(pin "E9"
 			(uuid "c3575d0b-1404-4cc5-9a0f-8e7f75eb8e21")
-		)
-		(pin "E9"
-			(uuid "c3575d0b-1404-4cc5-9a0f-8e7f75eb8e22")
 		)
 		(pin "F1"
 			(uuid "9791bbe0-4ac7-4a2e-be16-87c305136f46")
@@ -19007,6 +19002,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 293.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "166bba7e-2169-4f6f-bd35-49a088ff5035")
 		)
@@ -19132,7 +19136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Embedded Module ARM® Cortex®-A8, AM3358 1GHz 1GB"
+		(property "Description" "OSD335x Embedded Module 1GHz 512MB"
 			(at 193.04 53.34 0)
 			(effects
 				(font
@@ -19141,7 +19145,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "OSD3358-1G-ISM"
+		(property "MPN" "OSD3358-512M-BSM"
 			(at 193.04 58.42 0)
 			(effects
 				(font
@@ -19170,6 +19174,15 @@
 		)
 		(property "MFR" "Octavo Systems"
 			(at 193.04 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "DigiKey"
+			(at 193.04 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20657,6 +20670,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 293.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ae0c7bdf-6f63-4f6b-b246-ca41ac04f84f")
 		)
@@ -21555,6 +21577,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 293.37 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 293.37 127 0)
 			(effects
 				(font

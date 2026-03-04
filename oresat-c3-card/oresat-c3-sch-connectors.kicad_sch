@@ -2293,8 +2293,8 @@
 			)
 			(symbol "ORESAT-CARD-V1.3-2RF-RIGHT_1_0"
 				(rectangle
-					(start -20.32 2.54)
-					(end 20.32 -2.54)
+					(start -24.13 2.54)
+					(end 24.13 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -2303,7 +2303,9 @@
 						(type background)
 					)
 				)
-				(text "OreSat Card v1.3 with 2x RF Connectors"
+			)
+			(symbol "ORESAT-CARD-V1.3-2RF-RIGHT_1_1"
+				(text "OreSat Card v1.3 with RF Connectors 2,3"
 					(at 0 0 0)
 					(effects
 						(font
