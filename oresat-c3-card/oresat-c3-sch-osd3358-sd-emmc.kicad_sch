@@ -11758,6 +11758,17 @@
 		)
 		(uuid "2be0df21-7e02-4ae4-a57b-58d02218cae8")
 	)
+	(text "TO L RADIO"
+		(exclude_from_sim no)
+		(at 114.3 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3781372c-8a6c-4cb2-91ef-02e3126efe9f")
+	)
 	(text "LL"
 		(exclude_from_sim no)
 		(at 224.79 129.54 0)
@@ -12026,6 +12037,17 @@
 			(justify left bottom)
 		)
 		(uuid "828e90a4-2a88-4f29-b10b-a61b47ce5a57")
+	)
+	(text "TO L RADIO"
+		(exclude_from_sim no)
+		(at 100.33 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88def438-c077-4f83-b345-e6589928a896")
 	)
 	(text "LL"
 		(exclude_from_sim no)
@@ -12514,7 +12536,7 @@
 		)
 		(uuid "f2a21df8-44fc-41a9-9dd4-2c5b0f94b5f6")
 	)
-	(text "TO UHF RADIO\n(AX5043)"
+	(text "TO UHF RADIO"
 		(exclude_from_sim no)
 		(at 123.19 137.16 0)
 		(effects
@@ -12987,6 +13009,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 92.71) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e719dd3-bf43-470d-843b-285c71c30f17")
+	)
+	(wire
+		(pts
 			(xy 281.94 154.94) (xy 281.94 165.1)
 		)
 		(stroke
@@ -13074,6 +13106,16 @@
 			(type default)
 		)
 		(uuid "1811d02e-e49c-4064-a456-68a57599d2a1")
+	)
+	(wire
+		(pts
+			(xy 147.32 104.14) (xy 162.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "187bb0c2-5638-4fb6-a760-02089962abb9")
 	)
 	(wire
 		(pts
@@ -13215,6 +13257,16 @@
 		)
 		(uuid "277476ef-831e-4e41-9203-817da8520dec")
 	)
+	(polyline
+		(pts
+			(xy 132.08 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a557a2d-edfa-49fe-89af-cbc99bf2fed1")
+	)
 	(wire
 		(pts
 			(xy 314.96 160.02) (xy 314.96 185.42)
@@ -13234,6 +13286,16 @@
 			(type default)
 		)
 		(uuid "2dad7108-7526-4099-bde8-1183a3aac44a")
+	)
+	(wire
+		(pts
+			(xy 147.32 95.25) (xy 147.32 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ecaf7dd-7854-4ed6-9dbe-3345355fcec7")
 	)
 	(wire
 		(pts
@@ -13347,7 +13409,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 104.14) (xy 162.56 104.14)
+			(xy 146.05 95.25) (xy 147.32 95.25)
 		)
 		(stroke
 			(width 0)
@@ -13544,6 +13606,16 @@
 			(type default)
 		)
 		(uuid "5d9af092-df3b-41ec-8e54-bebe1419c382")
+	)
+	(polyline
+		(pts
+			(xy 129.54 101.6) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc523a3-9722-4872-8216-30dca4f96e18")
 	)
 	(wire
 		(pts
@@ -13905,6 +13977,16 @@
 		)
 		(uuid "8a71f04c-aa1d-41ef-8a73-44d21a761fc2")
 	)
+	(polyline
+		(pts
+			(xy 118.11 191.77) (xy 115.57 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8e3456-ed01-49ec-80bb-09195ac86f88")
+	)
 	(wire
 		(pts
 			(xy 154.94 134.62) (xy 162.56 134.62)
@@ -14114,6 +14196,16 @@
 			(type default)
 		)
 		(uuid "9b7bb3bc-c964-4f0e-8834-f1cb3b69e2b7")
+	)
+	(polyline
+		(pts
+			(xy 115.57 204.47) (xy 118.11 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf507d6-6d3f-4516-b1f8-95cf02ed670a")
 	)
 	(wire
 		(pts
@@ -14495,6 +14587,16 @@
 		)
 		(uuid "ce0b122e-27d4-4861-bbc6-b66ea558bd08")
 	)
+	(polyline
+		(pts
+			(xy 129.54 114.3) (xy 132.08 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6fceab-c2b0-4af4-9ce2-90070c3e6719")
+	)
 	(wire
 		(pts
 			(xy 154.94 180.34) (xy 162.56 180.34)
@@ -14757,6 +14859,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 101.6) (xy 162.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a93140-d893-4644-9973-e0c73d084b72")
+	)
+	(wire
+		(pts
 			(xy 345.44 152.4) (xy 345.44 153.67)
 		)
 		(stroke
@@ -14827,7 +14939,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 101.6) (xy 162.56 101.6)
+			(xy 146.05 92.71) (xy 149.86 92.71)
 		)
 		(stroke
 			(width 0)
@@ -14994,6 +15106,16 @@
 			(type default)
 		)
 		(uuid "fbe85e13-2d29-4c8d-a9c3-66d00a3a79f9")
+	)
+	(polyline
+		(pts
+			(xy 115.57 191.77) (xy 115.57 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdba534-926a-4773-9b14-46437ba23c1d")
 	)
 	(wire
 		(pts
@@ -15434,7 +15556,7 @@
 	)
 	(global_label "C3-UART-RX"
 		(shape input)
-		(at 146.05 104.14 180)
+		(at 146.05 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15443,7 +15565,7 @@
 		)
 		(uuid "77542f4c-fb25-48ff-bbe0-e9c347d0cabb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 104.14 0)
+			(at 132.08 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15621,7 +15743,7 @@
 	)
 	(global_label "C3-UART-TX"
 		(shape input)
-		(at 146.05 101.6 180)
+		(at 146.05 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15630,7 +15752,7 @@
 		)
 		(uuid "c9670b6b-0dc9-4a11-a401-f8a17d586a4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.826 101.6 0)
+			(at 131.826 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

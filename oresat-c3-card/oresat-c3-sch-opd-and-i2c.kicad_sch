@@ -2593,7 +2593,7 @@
 	)
 	(text "I2C pullups provided by \nRTC/FRAM power PFET above."
 		(exclude_from_sim no)
-		(at 166.37 229.87 0)
+		(at 180.086 229.616 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2780,12 +2780,6 @@
 		(uuid "66a26b16-14df-4337-8a7d-d36ce29d2e13")
 	)
 	(junction
-		(at 220.98 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f3741c3-fd36-42a1-a020-3aeaeb8fbba3")
-	)
-	(junction
 		(at 207.01 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2846,6 +2840,12 @@
 		(uuid "bf382ee6-683f-4136-a18e-f75bc2255a8d")
 	)
 	(junction
+		(at 220.98 201.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c976d0b3-5692-42c2-8488-acb04fd85e83")
+	)
+	(junction
 		(at 207.01 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2870,10 +2870,10 @@
 		(uuid "d0f75bc8-6ae1-4d09-840c-583132113e77")
 	)
 	(junction
-		(at 207.01 200.66)
+		(at 220.98 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8c40547-afc9-4187-bf67-0459f8b06c88")
+		(uuid "da6b9678-55d2-4d65-b0cd-a1ca09c63371")
 	)
 	(junction
 		(at 143.51 96.52)
@@ -2892,6 +2892,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa371d4e-61d6-4fb3-acdf-b12f0af200e8")
+	)
+	(no_connect
+		(at 208.28 209.55)
+		(uuid "4c043c84-7a92-4381-9f38-c1faada87a29")
 	)
 	(no_connect
 		(at 248.92 194.31)
@@ -2933,7 +2937,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 219.71) (xy 208.28 219.71)
+			(xy 201.93 219.71) (xy 208.28 219.71)
 		)
 		(stroke
 			(width 0)
@@ -2980,6 +2984,16 @@
 			(type default)
 		)
 		(uuid "14bca47d-7f7e-4014-9a05-8e34f84a9166")
+	)
+	(wire
+		(pts
+			(xy 220.98 194.31) (xy 224.79 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "165c38eb-66b3-4b5f-b7e3-a0ba186c3d93")
 	)
 	(wire
 		(pts
@@ -3053,7 +3067,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 209.55) (xy 208.28 209.55)
+			(xy 234.95 209.55) (xy 233.68 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3090,6 +3104,16 @@
 			(type default)
 		)
 		(uuid "31e5daeb-454f-4a26-a3e2-d9a26d0e68cb")
+	)
+	(wire
+		(pts
+			(xy 220.98 201.93) (xy 234.95 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326c9ac0-d8fb-450c-910d-23f9ada78c50")
 	)
 	(wire
 		(pts
@@ -3143,7 +3167,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 203.2) (xy 220.98 200.66)
+			(xy 220.98 203.2) (xy 220.98 201.93)
 		)
 		(stroke
 			(width 0)
@@ -3413,16 +3437,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 223.52) (xy 186.69 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72fa85ef-3475-4ea4-93f9-7bbdf8c46233")
-	)
-	(wire
-		(pts
 			(xy 233.68 219.71) (xy 245.11 219.71)
 		)
 		(stroke
@@ -3530,16 +3544,6 @@
 			(type default)
 		)
 		(uuid "88a716f6-5c37-4027-a9fa-16a99b79c80a")
-	)
-	(wire
-		(pts
-			(xy 220.98 200.66) (xy 207.01 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8acb24c6-9a75-4cbc-8c51-a45fb7419a78")
 	)
 	(wire
 		(pts
@@ -3673,7 +3677,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 200.66) (xy 207.01 209.55)
+			(xy 234.95 201.93) (xy 234.95 209.55)
 		)
 		(stroke
 			(width 0)
@@ -3763,16 +3767,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 200.66) (xy 207.01 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c28905f2-f94a-4c56-acce-bbff57ff6505")
-	)
-	(wire
-		(pts
 			(xy 257.81 163.83) (xy 266.7 163.83)
 		)
 		(stroke
@@ -3780,26 +3774,6 @@
 			(type default)
 		)
 		(uuid "c4523dd9-1be7-496e-bb24-cd3128aee513")
-	)
-	(wire
-		(pts
-			(xy 233.68 209.55) (xy 234.95 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4db7ed9-6ca5-484d-8dd6-30c798e7de3b")
-	)
-	(wire
-		(pts
-			(xy 203.2 208.28) (xy 203.2 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5aeaf6c-b4bb-420f-9cbe-fc849536457e")
 	)
 	(wire
 		(pts
@@ -3843,6 +3817,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 194.31) (xy 220.98 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbaf447c-4e65-40f4-9cc0-a3d75ecb4927")
+	)
+	(wire
+		(pts
 			(xy 186.69 181.61) (xy 181.61 181.61)
 		)
 		(stroke
@@ -3880,6 +3864,16 @@
 			(type default)
 		)
 		(uuid "d08016f4-7b85-41e1-b41d-73906dc61fd0")
+	)
+	(wire
+		(pts
+			(xy 232.41 195.58) (xy 232.41 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d21c9c2d-2e3b-48e9-afb3-9cf0c397dd86")
 	)
 	(wire
 		(pts
@@ -4033,16 +4027,6 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 201.93) (xy 203.2 200.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9b13762-3fd7-460b-84c1-31b70c915ca7")
-	)
-	(wire
-		(pts
 			(xy 165.1 106.68) (xy 166.37 106.68)
 		)
 		(stroke
@@ -4053,6 +4037,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 194.31) (xy 229.87 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1888a8-4a06-4f0a-a5f2-2040719ed0fb")
+	)
+	(wire
+		(pts
 			(xy 254 88.9) (xy 254 95.25)
 		)
 		(stroke
@@ -4060,6 +4054,16 @@
 			(type default)
 		)
 		(uuid "f0c2aac3-3af7-46a3-a64a-22264076d67a")
+	)
+	(wire
+		(pts
+			(xy 201.93 223.52) (xy 208.28 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f41869-b413-41c1-8e18-6d99517c1073")
 	)
 	(wire
 		(pts
@@ -4103,7 +4107,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 163.83) (xy 220.98 200.66)
+			(xy 220.98 163.83) (xy 220.98 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4217,7 +4221,7 @@
 	)
 	(global_label "I2C2_SYS_SCL"
 		(shape input)
-		(at 186.69 219.71 180)
+		(at 201.93 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4227,7 +4231,7 @@
 		)
 		(uuid "572c726f-b723-4f23-8835-50ccfc5bd218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.54 219.71 0)
+			(at 185.78 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4238,7 +4242,7 @@
 	)
 	(global_label "I2C2_SYS_SDA"
 		(shape bidirectional)
-		(at 186.69 223.52 180)
+		(at 201.93 223.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4248,7 +4252,7 @@
 		)
 		(uuid "5781ac13-6a30-4f06-93e2-cb8efecf771a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.3682 223.52 0)
+			(at 184.6082 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6015,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 203.2 204.47 0)
+		(at 227.33 194.31 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6019,7 +6024,7 @@
 		(dnp no)
 		(uuid "46116360-8a14-4063-a598-c8cadb38f550")
 		(property "Reference" "C131"
-			(at 200.66 203.8413 0)
+			(at 226.7013 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,7 +6033,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 200.66 206.3813 0)
+			(at 229.2413 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6042,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 203.2 204.47 0)
+			(at 227.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6051,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 204.47 0)
+			(at 227.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6060,7 @@
 			)
 		)
 		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 203.2 204.47 0)
+			(at 227.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6069,7 @@
 			)
 		)
 		(property "DPN" "587-3472-1-ND"
-			(at 203.2 204.47 0)
+			(at 227.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6078,7 @@
 			)
 		)
 		(property "DST" "Digi-Key"
-			(at 203.2 204.47 0)
+			(at 227.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6087,7 @@
 			)
 		)
 		(property "MFR" "Taiyo Yuden"
-			(at 203.2 204.47 0)
+			(at 227.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +6096,7 @@
 			)
 		)
 		(property "MPN" "TMK107BJ104KAHT"
-			(at 203.2 204.47 0)
+			(at 227.33 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6410,8 +6415,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 208.28 0)
-		(mirror y)
+		(at 232.41 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6419,7 +6423,7 @@
 		(dnp no)
 		(uuid "66c141d1-fa74-4dd6-8a0a-a1e2fd8fbbf9")
 		(property "Reference" "#PWR0279"
-			(at 203.2 214.63 0)
+			(at 232.41 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6428,7 +6432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 212.09 0)
+			(at 232.41 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6436,7 +6440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 208.28 0)
+			(at 232.41 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6445,7 +6449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 208.28 0)
+			(at 232.41 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 208.28 0)
+			(at 232.41 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6810,72 +6814,6 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
 					(reference "R80")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 234.95 209.55 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76fcc122-daf1-4a07-b160-9688feb8aa67")
-		(property "Reference" "TP140"
-			(at 234.95 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 234.95 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 234.95 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 234.95 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "306b9ea1-7984-484f-8e18-e214824e6185")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/80f02433-745c-4401-b985-fcfd89ff5669"
-					(reference "TP140")
 					(unit 1)
 				)
 			)
@@ -8987,15 +8925,15 @@
 	(symbol
 		(lib_id "oresat-ics:LTC4300A-1")
 		(at 220.98 217.17 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ef024e07-ae22-4cd9-a847-3f124eed2750")
 		(property "Reference" "U37"
-			(at 222.25 203.2 0)
+			(at 219.71 202.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9004,7 +8942,7 @@
 			)
 		)
 		(property "Value" "LTC4300A-1"
-			(at 222.25 205.74 0)
+			(at 219.71 204.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,6 +9049,7 @@
 	(symbol
 		(lib_id "power:GND")
 		(at 220.98 232.41 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)

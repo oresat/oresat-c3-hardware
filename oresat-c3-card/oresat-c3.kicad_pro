@@ -397,6 +397,10 @@
   "erc": {
     "erc_exclusions": [
       [
+        "multiple_net_names|3048000|2362200|5c57da57-6b43-4ee0-a7a6-f6f00b4a4272|bdf58f65-11c6-4086-9155-35babbb8b571|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c",
+        ""
+      ],
+      [
         "multiple_net_names|3048000|2362200|ca29bbcb-f49d-43bd-9ae0-c188b9284798|bdf58f65-11c6-4086-9155-35babbb8b571|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c",
         ""
       ],
@@ -1179,6 +1183,18 @@
           "group_by": false,
           "label": "Sim.Pin",
           "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor",
+          "name": "Distributor",
           "show": false
         }
       ],
