@@ -7831,7 +7831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "oresat-c3-eagle-import:RV3028C732768KHZ1PPMTAQC"
+		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
 			(at 181.61 77.47 0)
 			(effects
 				(font

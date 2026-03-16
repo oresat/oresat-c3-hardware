@@ -11,36 +11,27 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "74xGxx:NC7SVU04P5X"
+		(symbol "74xGxx:74LVC1G04"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 10.16 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "NC7SVU04P5X"
-				(at 15.24 10.16 0)
+			(property "Value" "74LVC1G04"
+				(at 5.08 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NC7SVU04-D.pdf"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,7 +40,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High-Speed Logic Inverter, SOT-353"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "inverter"
+			(property "Description" "Single NOT Gate, Low-Voltage CMOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,7 +58,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT*353*SC*70*"
+			(property "ki_keywords" "Single Gate NOT LVC CMOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,10 +67,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "NC7SVU04P5X_0_1"
+			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC1G04_0_1"
 				(polyline
 					(pts
-						(xy -5.08 7.62) (xy -5.08 -7.62) (xy 10.16 0) (xy -5.08 7.62)
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
 					)
 					(stroke
 						(width 0.254)
@@ -89,22 +89,11 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 11.43 0)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "NC7SVU04P5X_1_1"
+			(symbol "74LVC1G04_1_1"
 				(pin input line
-					(at -10.16 0 0)
-					(length 5.08)
+					(at -15.24 0 0)
+					(length 7.62)
 					(name "~"
 						(effects
 							(font
@@ -120,8 +109,27 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
-					(at 0 10.16 270)
+					(at -5.08 10.16 270)
 					(length 5.08)
 					(name "VCC"
 						(effects
@@ -139,7 +147,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -10.16 90)
+					(at -5.08 -10.16 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -156,28 +164,9 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 10.16 0 180)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 0 180)
-					(length 5.08)
+				(pin output inverted
+					(at 12.7 0 180)
+					(length 7.62)
 					(name "~"
 						(effects
 							(font
@@ -11735,16 +11724,6 @@
 			)
 		)
 	)
-	(label "FEA09_UHF"
-		(at 311.15 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "107b1f24-5f45-4ee4-90d0-a4e504a845b5")
-	)
 	(label "UHF_TOT_OK"
 		(at 191.77 161.29 0)
 		(effects
@@ -11754,6 +11733,16 @@
 			(justify left bottom)
 		)
 		(uuid "6540bdfd-e7d1-4c9a-92ee-4ae8d52176c2")
+	)
+	(label "FEA09_UHF_TX"
+		(at 309.88 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c6c68ff-e2da-41ac-aad7-b976fbef98da")
 	)
 	(label "FEA09_UHF_TX"
 		(at 208.28 196.85 0)
@@ -14449,8 +14438,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:NC7SVU04P5X")
-		(at 121.92 171.45 0)
+		(lib_id "74xGxx:74LVC1G04")
+		(at 127 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14458,7 +14447,7 @@
 		(dnp no)
 		(uuid "21d34305-f70f-49dd-8a76-b8c9dd0bb4bd")
 		(property "Reference" "U27"
-			(at 126.238 176.784 0)
+			(at 130.302 174.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,24 +14455,15 @@
 			)
 		)
 		(property "Value" "SN74LVC1G04DCKR"
-			(at 132.334 179.07 0)
+			(at 136.398 177.038 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "oresat-c3-eagle-import:SC70-5"
-			(at 121.92 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf?ts=1753305682684&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FSN74LVC1G04"
-			(at 121.92 171.45 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14491,8 +14471,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC INVERTER 1CH 1-INP SC70-5"
-			(at 121.92 171.45 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single NOT Gate, Low-Voltage CMOS"
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14501,7 +14490,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 121.92 171.45 0)
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14510,7 +14499,7 @@
 			)
 		)
 		(property "DPN" "296-11600-1-ND"
-			(at 121.92 171.45 0)
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14519,7 +14508,7 @@
 			)
 		)
 		(property "MFR" "Texas Instruments "
-			(at 121.92 171.45 0)
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14528,7 +14517,7 @@
 			)
 		)
 		(property "MPN" "SN74LVC1G04DCKR"
-			(at 121.92 171.45 0)
+			(at 127 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)

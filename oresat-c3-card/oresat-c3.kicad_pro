@@ -977,6 +977,10 @@
       {
         "netclass": "RF-50-OSH",
         "pattern": "Net-(U16-RFP09)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(C41-Pad1)"
       }
     ]
   },
@@ -1202,7 +1206,7 @@
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": false,
+      "sort_asc": true,
       "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
