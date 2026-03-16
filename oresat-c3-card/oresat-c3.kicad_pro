@@ -981,6 +981,10 @@
       {
         "netclass": "RF-50-OSH",
         "pattern": "Net-(C41-Pad1)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(C71-Pad1)"
       }
     ]
   },

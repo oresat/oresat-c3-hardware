@@ -6977,12 +6977,6 @@
 		(uuid "ceb33d8a-211d-4788-bea0-60416b3cd688")
 	)
 	(junction
-		(at 130.81 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5c0a00b-054f-4806-a89e-37490cc08696")
-	)
-	(junction
 		(at 99.06 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7201,16 +7195,6 @@
 			(type default)
 		)
 		(uuid "03999738-349b-4174-86b1-2dccb564f0d3")
-	)
-	(wire
-		(pts
-			(xy 130.81 154.94) (xy 142.24 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04877e09-3d2e-4fc4-91c8-2427aa9a2f24")
 	)
 	(wire
 		(pts
@@ -8068,16 +8052,6 @@
 		)
 		(uuid "36996ce7-9bf7-4b20-a80f-3186fda00d1c")
 	)
-	(wire
-		(pts
-			(xy 142.24 154.94) (xy 142.24 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d5ab62-966f-42dd-a080-4f56c09cd550")
-	)
 	(polyline
 		(pts
 			(xy 184.15 110.49) (xy 184.785 111.125)
@@ -8814,16 +8788,6 @@
 			(type default)
 		)
 		(uuid "6318a845-6a2a-453c-9bbd-ba4beb95d31a")
-	)
-	(wire
-		(pts
-			(xy 142.24 161.29) (xy 142.24 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "644bae0a-6c12-445d-99ea-6321cbbcc5d9")
 	)
 	(wire
 		(pts
@@ -26019,72 +25983,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 162.56 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5425aaa-021d-4e59-b5d0-fa52468e05df")
-		(property "Reference" "#PWR057"
-			(at 142.24 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 166.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f1fde87-9c77-4782-963a-3b3c4c278041")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-					(reference "#PWR057")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 67.31 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28106,113 +28004,6 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 142.24 158.75 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7fde4f4-ac2b-4fb3-8a95-d2673853063b")
-		(property "Reference" "C94"
-			(at 139.7 157.4862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100p"
-			(at 139.7 160.0262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "oresat-passives:0402-C"
-			(at 142.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "CAP CER 100PF 50V C0G/NP0 0402"
-			(at 142.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "490-GCM1555C1H101GA16DCT-ND "
-			(at 142.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "Murata Electronics"
-			(at 142.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GCM1555C1H101GA16D "
-			(at 142.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DIS" "DigiKey"
-			(at 142.24 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e117f6cd-dc3c-4dcd-a118-5ac22d2828c5")
-		)
-		(pin "1"
-			(uuid "f797fa41-dc4d-4e7e-9d1b-89d5b5456178")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-					(reference "C94")
 					(unit 1)
 				)
 			)
