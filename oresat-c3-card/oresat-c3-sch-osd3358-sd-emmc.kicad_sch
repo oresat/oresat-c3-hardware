@@ -16687,7 +16687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 360.68 149.86 0)
 			(effects
 				(font
@@ -16696,7 +16696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 360.68 149.86 0)
 			(effects
 				(font
@@ -16705,7 +16705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 360.68 149.86 0)
 			(effects
 				(font
@@ -16714,7 +16714,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 360.68 149.86 0)
 			(effects
 				(font
@@ -16732,7 +16732,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 360.68 149.86 0)
 			(effects
 				(font
@@ -16741,7 +16741,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 360.68 149.86 0)
 			(effects
 				(font
@@ -16793,7 +16793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 383.54 149.86 0)
 			(effects
 				(font
@@ -16802,7 +16802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 383.54 149.86 0)
 			(effects
 				(font
@@ -16811,7 +16811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 383.54 149.86 0)
 			(effects
 				(font
@@ -16820,7 +16820,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 383.54 149.86 0)
 			(effects
 				(font
@@ -16838,7 +16838,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 383.54 149.86 0)
 			(effects
 				(font
@@ -16847,7 +16847,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 383.54 149.86 0)
 			(effects
 				(font
@@ -17890,7 +17890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 57.15 110.49 0)
 			(effects
 				(font
@@ -17899,7 +17899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 57.15 110.49 0)
 			(effects
 				(font
@@ -17917,7 +17917,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 57.15 110.49 0)
 			(effects
 				(font
@@ -17926,7 +17926,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 57.15 110.49 0)
 			(effects
 				(font
@@ -17944,7 +17944,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT21BC71E106KE13L"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 57.15 110.49 0)
 			(effects
 				(font
@@ -18121,7 +18121,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 368.3 149.86 0)
 			(effects
 				(font
@@ -18130,7 +18130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 368.3 149.86 0)
 			(effects
 				(font
@@ -18139,7 +18139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 368.3 149.86 0)
 			(effects
 				(font
@@ -18148,7 +18148,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 368.3 149.86 0)
 			(effects
 				(font
@@ -18166,7 +18166,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 368.3 149.86 0)
 			(effects
 				(font
@@ -18175,7 +18175,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 368.3 149.86 0)
 			(effects
 				(font
@@ -18817,7 +18817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 345.44 149.86 0)
 			(effects
 				(font
@@ -18826,7 +18826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 345.44 149.86 0)
 			(effects
 				(font
@@ -18835,7 +18835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 345.44 149.86 0)
 			(effects
 				(font
@@ -18844,7 +18844,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 345.44 149.86 0)
 			(effects
 				(font
@@ -18862,7 +18862,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 345.44 149.86 0)
 			(effects
 				(font
@@ -18871,7 +18871,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 345.44 149.86 0)
 			(effects
 				(font
@@ -20117,7 +20117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -20126,7 +20126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -20135,7 +20135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -20144,7 +20144,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -20162,7 +20162,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -20171,7 +20171,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -20910,7 +20910,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 375.92 149.86 0)
 			(effects
 				(font
@@ -20919,7 +20919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 375.92 149.86 0)
 			(effects
 				(font
@@ -20928,7 +20928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 375.92 149.86 0)
 			(effects
 				(font
@@ -20937,7 +20937,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 375.92 149.86 0)
 			(effects
 				(font
@@ -20955,7 +20955,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 375.92 149.86 0)
 			(effects
 				(font
@@ -20964,7 +20964,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 375.92 149.86 0)
 			(effects
 				(font
@@ -21082,7 +21082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 391.16 149.86 0)
 			(effects
 				(font
@@ -21091,7 +21091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 391.16 149.86 0)
 			(effects
 				(font
@@ -21109,7 +21109,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GRT21BC71E106KE13LCT-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 391.16 149.86 0)
 			(effects
 				(font
@@ -21118,7 +21118,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 391.16 149.86 0)
 			(effects
 				(font
@@ -21136,7 +21136,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT21BC71E106KE13L"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 391.16 149.86 0)
 			(effects
 				(font
@@ -21532,7 +21532,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 355.6 149.86 0)
 			(effects
 				(font
@@ -21541,7 +21541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT188R71E105KE13-01.pdf"
 			(at 355.6 149.86 0)
 			(effects
 				(font
@@ -21550,7 +21550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1µF ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 355.6 149.86 0)
 			(effects
 				(font
@@ -21559,7 +21559,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3473-1-ND"
+		(property "DPN" "490-GRT188R71E105KE13DCT-ND"
 			(at 355.6 149.86 0)
 			(effects
 				(font
@@ -21577,7 +21577,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 355.6 149.86 0)
 			(effects
 				(font
@@ -21586,7 +21586,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ105KAHT"
+		(property "MPN" "GRT188R71E105KE13D"
 			(at 355.6 149.86 0)
 			(effects
 				(font
@@ -22057,7 +22057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -22066,7 +22066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -22075,7 +22075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -22084,7 +22084,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -22102,7 +22102,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -22111,7 +22111,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 67.31 110.49 0)
 			(effects
 				(font

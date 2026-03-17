@@ -10044,7 +10044,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -10053,7 +10053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -10062,7 +10062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "10 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -10071,7 +10071,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-6840-1-ND"
+		(property "DPN" "399-16015-1-ND"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -10080,7 +10080,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -10098,7 +10098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C100J5GACAUTO"
+		(property "MPN" "C0603C100J1GACAUTO"
 			(at 153.67 88.9 0)
 			(effects
 				(font
@@ -10901,7 +10901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 215.9 196.85 0)
 			(effects
 				(font
@@ -10910,7 +10910,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 215.9 196.85 0)
 			(effects
 				(font
@@ -10919,7 +10919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 215.9 196.85 0)
 			(effects
 				(font
@@ -10928,7 +10928,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 215.9 196.85 0)
 			(effects
 				(font
@@ -10946,7 +10946,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 215.9 196.85 0)
 			(effects
 				(font
@@ -10955,7 +10955,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 215.9 196.85 0)
 			(effects
 				(font
@@ -11071,7 +11071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 160.02 119.38 0)
 			(effects
 				(font
@@ -12180,7 +12180,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 160.02 104.14 0)
 			(effects
 				(font
@@ -12283,7 +12283,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -12292,7 +12292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1023_X7R_AUTO_SMD"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -12301,7 +12301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 nF (1000 pF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "1000 pF ±5% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -12310,7 +12310,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-C0603C102J5GECAUTOCT-ND"
+		(property "DPN" "399-12989-1-ND"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -12319,7 +12319,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -12337,7 +12337,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C102J5GECAUTO"
+		(property "MPN" "C0603C102J5RACAUTO"
 			(at 257.81 91.44 0)
 			(effects
 				(font
@@ -12386,7 +12386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 265.43 91.44 0)
 			(effects
 				(font
@@ -12395,7 +12395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 265.43 91.44 0)
 			(effects
 				(font
@@ -12404,7 +12404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 265.43 91.44 0)
 			(effects
 				(font
@@ -12413,7 +12413,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 265.43 91.44 0)
 			(effects
 				(font
@@ -12431,7 +12431,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 265.43 91.44 0)
 			(effects
 				(font
@@ -12440,7 +12440,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 265.43 91.44 0)
 			(effects
 				(font
@@ -12725,7 +12725,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -12734,7 +12734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -12743,7 +12743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10pF ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "10 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -12752,7 +12752,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-6840-1-ND"
+		(property "DPN" "399-16015-1-ND"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -12761,7 +12761,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -12779,7 +12779,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C100J5GACAUTO"
+		(property "MPN" "C0603C100J1GACAUTO"
 			(at 153.67 73.66 0)
 			(effects
 				(font

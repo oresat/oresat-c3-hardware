@@ -3644,6 +3644,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 308.356 142.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "028d3268-8474-4d81-85c4-784398c5f85b")
+	)
 	(text "Pulse integrator"
 		(exclude_from_sim no)
 		(at 232.41 189.23 0)
@@ -3676,6 +3686,16 @@
 			(justify left bottom)
 		)
 		(uuid "179a9cec-be73-4c24-83e2-25c4724f7391")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 251.714 172.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "295997dd-51ac-43a4-bdd9-fff9ef844af5")
 	)
 	(text "DC block and pulse detector"
 		(exclude_from_sim no)
@@ -3723,6 +3743,36 @@
 			(justify left bottom)
 		)
 		(uuid "5c1784c9-5a04-445f-bd80-3519279cc5ee")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 262.128 173.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5d2f0a18-01a5-44d6-b0ea-838dc291f3fb")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 185.166 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6d787155-6add-4ca2-a047-e33621cca11a")
+	)
+	(text "0805"
+		(exclude_from_sim no)
+		(at 217.678 170.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f3b9ee2-2f59-4669-8426-4d77e9fd6bed")
 	)
 	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
 		(exclude_from_sim no)
@@ -6330,7 +6380,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 303.53 138.43 0)
 			(effects
 				(font
@@ -6339,7 +6389,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 303.53 138.43 0)
 			(effects
 				(font
@@ -6348,7 +6398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 303.53 138.43 0)
 			(effects
 				(font
@@ -6357,7 +6407,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-12317-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 303.53 138.43 0)
 			(effects
 				(font
@@ -6366,7 +6416,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 303.53 138.43 0)
 			(effects
 				(font
@@ -6384,7 +6434,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT188R61C106KE13D"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 303.53 138.43 0)
 			(effects
 				(font
@@ -7064,7 +7114,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 222.25 166.37 0)
 			(effects
 				(font
@@ -7073,7 +7123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 222.25 166.37 0)
 			(effects
 				(font
@@ -7082,7 +7132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 222.25 166.37 0)
 			(effects
 				(font
@@ -7091,7 +7141,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-12317-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 222.25 166.37 0)
 			(effects
 				(font
@@ -7100,7 +7150,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 222.25 166.37 0)
 			(effects
 				(font
@@ -7118,7 +7168,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT188R61C106KE13D"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 222.25 166.37 0)
 			(effects
 				(font
@@ -7892,7 +7942,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 266.7 168.91 0)
 			(effects
 				(font
@@ -7901,7 +7951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 266.7 168.91 0)
 			(effects
 				(font
@@ -7910,7 +7960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 266.7 168.91 0)
 			(effects
 				(font
@@ -7919,7 +7969,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-12317-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 266.7 168.91 0)
 			(effects
 				(font
@@ -7928,7 +7978,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 266.7 168.91 0)
 			(effects
 				(font
@@ -7946,7 +7996,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT188R61C106KE13D"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 266.7 168.91 0)
 			(effects
 				(font
@@ -8342,7 +8392,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 256.54 168.91 0)
 			(effects
 				(font
@@ -8351,7 +8401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 256.54 168.91 0)
 			(effects
 				(font
@@ -8360,7 +8410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 256.54 168.91 0)
 			(effects
 				(font
@@ -8369,7 +8419,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-12317-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 256.54 168.91 0)
 			(effects
 				(font
@@ -8378,7 +8428,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 256.54 168.91 0)
 			(effects
 				(font
@@ -8396,7 +8446,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT188R61C106KE13D"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 256.54 168.91 0)
 			(effects
 				(font
@@ -8552,7 +8602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0805-C-NOSILK"
 			(at 185.42 165.1 0)
 			(effects
 				(font
@@ -8561,7 +8611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT21BC71E106KE13-01.pdf"
 			(at 185.42 165.1 0)
 			(effects
 				(font
@@ -8570,7 +8620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±10% 16V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7S 0805 (2012 Metric)"
 			(at 185.42 165.1 0)
 			(effects
 				(font
@@ -8579,7 +8629,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-12317-1-ND"
+		(property "DPN" "490-GRT21BC71E106KE13KCT-ND"
 			(at 185.42 165.1 0)
 			(effects
 				(font
@@ -8588,7 +8638,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 185.42 165.1 0)
 			(effects
 				(font
@@ -8606,7 +8656,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRT188R61C106KE13D"
+		(property "MPN" "GRT21BC71E106KE13K"
 			(at 185.42 165.1 0)
 			(effects
 				(font

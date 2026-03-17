@@ -11051,7 +11051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/TMK325B7226KMHP_SS.pdf"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -11060,7 +11060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7S 1210 (3225 Metric)"
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -11069,7 +11069,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
+		(property "DPN" "587-5949-1-ND"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -11078,7 +11078,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -11087,7 +11087,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -11096,7 +11096,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM32EC71E226KE36K"
+		(property "MPN" "TMK325B7226KMHP"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -11375,7 +11375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 299.72 219.71 0)
 			(effects
 				(font
@@ -11384,7 +11384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 299.72 219.71 0)
 			(effects
 				(font
@@ -11393,7 +11393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 299.72 219.71 0)
 			(effects
 				(font
@@ -11402,7 +11402,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 299.72 219.71 0)
 			(effects
 				(font
@@ -11420,7 +11420,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 299.72 219.71 0)
 			(effects
 				(font
@@ -11429,7 +11429,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 299.72 219.71 0)
 			(effects
 				(font
@@ -11547,7 +11547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 289.56 190.5 0)
 			(effects
 				(font
@@ -11556,7 +11556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 289.56 190.5 0)
 			(effects
 				(font
@@ -11565,7 +11565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 289.56 190.5 0)
 			(effects
 				(font
@@ -11574,7 +11574,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 289.56 190.5 0)
 			(effects
 				(font
@@ -11592,7 +11592,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 289.56 190.5 0)
 			(effects
 				(font
@@ -11601,7 +11601,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 289.56 190.5 0)
 			(effects
 				(font
@@ -12320,7 +12320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -12329,7 +12329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -12338,7 +12338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 nF (0.1µF) ±10% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -12347,7 +12347,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "587-3472-1-ND"
+		(property "DPN" "399-6856-1-ND"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -12365,7 +12365,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "KEMET"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -12374,7 +12374,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TMK107BJ104KAHT"
+		(property "MPN" "C0603C104K5RACAUTO"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -14079,7 +14079,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/TMK325B7226KMHP_SS.pdf"
 			(at 285.75 58.42 0)
 			(effects
 				(font
@@ -14088,7 +14088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7S 1210 (3225 Metric)"
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 285.75 58.42 0)
 			(effects
 				(font
@@ -14097,7 +14097,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
+		(property "DPN" "587-5949-1-ND"
 			(at 285.75 58.42 0)
 			(effects
 				(font
@@ -14106,7 +14106,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 285.75 58.42 0)
 			(effects
 				(font
@@ -14115,7 +14115,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 285.75 58.42 0)
 			(effects
 				(font
@@ -14124,7 +14124,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM32EC71E226KE36K"
+		(property "MPN" "TMK325B7226KMHP"
 			(at 285.75 58.42 0)
 			(effects
 				(font
@@ -15400,7 +15400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/TMK325B7226KMHP_SS.pdf"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -15409,7 +15409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7S 1210 (3225 Metric)"
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -15418,7 +15418,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
+		(property "DPN" "587-5949-1-ND"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -15427,7 +15427,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -15436,7 +15436,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -15445,7 +15445,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM32EC71E226KE36K"
+		(property "MPN" "TMK325B7226KMHP"
 			(at 166.37 58.42 0)
 			(effects
 				(font
@@ -15572,7 +15572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/TMK325B7226KMHP_SS.pdf"
 			(at 166.37 76.2 0)
 			(effects
 				(font
@@ -15581,7 +15581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7S 1210 (3225 Metric)"
+		(property "Description" "22 µF ±10% 25V Ceramic Capacitor X7R 1210 (3225 Metric)"
 			(at 166.37 76.2 0)
 			(effects
 				(font
@@ -15590,7 +15590,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-GCM32EC71E226KE36KCT-ND"
+		(property "DPN" "587-5949-1-ND"
 			(at 166.37 76.2 0)
 			(effects
 				(font
@@ -15599,7 +15599,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 166.37 76.2 0)
 			(effects
 				(font
@@ -15608,7 +15608,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Murata Electronics"
+		(property "MFR" "Taiyo Yuden"
 			(at 166.37 76.2 0)
 			(effects
 				(font
@@ -15617,7 +15617,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCM32EC71E226KE36K"
+		(property "MPN" "TMK325B7226KMHP"
 			(at 166.37 76.2 0)
 			(effects
 				(font
