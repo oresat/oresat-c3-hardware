@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat C3 Card")
-		(date "2025-12-30")
+		(date "2026-03-17")
 		(rev "7.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -21515,22 +21515,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "96318d8e-8f92-4e4b-9f30-eca9ea5b2f50")
+			(uuid "96318d8e-8f92-4e4b-9f30-eca9ea5b2f51")
 		)
 		(pin "1"
-			(uuid "7872bbd7-2610-462e-b6a2-d16b07aaec61")
+			(uuid "7872bbd7-2610-462e-b6a2-d16b07aaec62")
 		)
 		(pin "3"
-			(uuid "363c394d-6abd-4c13-97d1-01bc27c6c6ca")
+			(uuid "363c394d-6abd-4c13-97d1-01bc27c6c6cb")
 		)
 		(pin "2"
-			(uuid "19e6b59e-62d2-41b9-80d7-3235f2be9c1a")
+			(uuid "19e6b59e-62d2-41b9-80d7-3235f2be9c1b")
 		)
 		(pin "5"
-			(uuid "cff85bdd-356a-4d01-b145-de7bcf84f8ce")
+			(uuid "cff85bdd-356a-4d01-b145-de7bcf84f8cf")
 		)
 		(pin "4"
-			(uuid "70fa20e8-13e3-4896-98ed-5eebf10d4615")
+			(uuid "70fa20e8-13e3-4896-98ed-5eebf10d4616")
 		)
 		(instances
 			(project ""
@@ -23440,22 +23440,22 @@
 			)
 		)
 		(pin "6"
-			(uuid "96318d8e-8f92-4e4b-9f30-eca9ea5b2f50")
+			(uuid "96318d8e-8f92-4e4b-9f30-eca9ea5b2f52")
 		)
 		(pin "1"
-			(uuid "7872bbd7-2610-462e-b6a2-d16b07aaec61")
+			(uuid "7872bbd7-2610-462e-b6a2-d16b07aaec63")
 		)
 		(pin "3"
-			(uuid "363c394d-6abd-4c13-97d1-01bc27c6c6ca")
+			(uuid "363c394d-6abd-4c13-97d1-01bc27c6c6cc")
 		)
 		(pin "2"
-			(uuid "19e6b59e-62d2-41b9-80d7-3235f2be9c1a")
+			(uuid "19e6b59e-62d2-41b9-80d7-3235f2be9c1c")
 		)
 		(pin "5"
-			(uuid "cff85bdd-356a-4d01-b145-de7bcf84f8ce")
+			(uuid "cff85bdd-356a-4d01-b145-de7bcf84f8d0")
 		)
 		(pin "4"
-			(uuid "70fa20e8-13e3-4896-98ed-5eebf10d4615")
+			(uuid "70fa20e8-13e3-4896-98ed-5eebf10d4617")
 		)
 		(instances
 			(project ""
