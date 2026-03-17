@@ -11,6 +11,224 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
+		(symbol "74xGxx:74LVC2G34"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LVC2G34"
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Buffer, Low-Voltage CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Dual Buffer LVC CMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SG-* SOT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74LVC2G34_1_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC2G34_2_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LVC2G34_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "74LVC2G34_3_1"
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -151,7 +369,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -171,7 +389,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "LED_Small_Filled"
 				(at -4.445 -2.54 0)
 				(effects
 					(font
@@ -198,7 +416,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -234,7 +452,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -280,7 +498,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -296,7 +514,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -11835,6 +12053,16 @@
 		)
 		(uuid "496bb3be-6bfd-4190-8e8d-c473b1c4ba37")
 	)
+	(text "GPIO to the backplane\nfor controlling various\nperipherals (e.g., ESI's\nS Band Radio) on pins \nSPARE7 and SPARE8."
+		(exclude_from_sim no)
+		(at 26.416 178.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4d28915e-6c05-4ee1-9cbf-2ad573bab069")
+	)
 	(text "HH"
 		(exclude_from_sim no)
 		(at 158.75 162.56 0)
@@ -12217,17 +12445,6 @@
 			(justify left bottom)
 		)
 		(uuid "ab5c23ad-19e7-4652-a83c-8f6d39d24d6a")
-	)
-	(text "ZL"
-		(exclude_from_sim no)
-		(at 189.23 201.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac10cf21-7292-4637-8a06-c92901d61b6c")
 	)
 	(text "HH"
 		(exclude_from_sim no)
@@ -12672,6 +12889,12 @@
 		(uuid "5b87640f-a375-41a1-aed9-86de01e55ca6")
 	)
 	(junction
+		(at 111.76 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60b1a3ae-c1c7-40db-999c-b5959565a10a")
+	)
+	(junction
 		(at 375.92 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12682,6 +12905,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72c41aa9-8f60-4bb3-9746-9687ceb53b20")
+	)
+	(junction
+		(at 81.28 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72dd3331-0e32-407e-963a-1d2d47668c7f")
+	)
+	(junction
+		(at 109.22 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7306c905-aed4-46da-a2b7-70286f11d1ad")
 	)
 	(junction
 		(at 279.4 162.56)
@@ -12706,6 +12941,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "937440d2-8725-477f-8722-2dc925ca80e9")
+	)
+	(junction
+		(at 114.3 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "972df95f-741b-4b02-93c6-d5e11ca77f51")
 	)
 	(junction
 		(at 276.86 172.72)
@@ -12742,6 +12983,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac59f442-3e07-46d4-93e9-14fa39cf94ab")
+	)
+	(junction
+		(at 81.28 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acecb02d-ecaf-4dbb-9325-534eae247324")
 	)
 	(junction
 		(at 368.3 153.67)
@@ -12929,6 +13176,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 212.09) (xy 73.66 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c0d9dd-fe92-46cb-9964-40f15aa7b179")
+	)
+	(wire
+		(pts
 			(xy 283.21 104.14) (xy 290.83 104.14)
 		)
 		(stroke
@@ -12969,6 +13226,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 203.2) (xy 81.28 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b915b95-12b4-416e-b1c0-5041286bfdda")
+	)
+	(wire
+		(pts
 			(xy 238.76 154.94) (xy 238.76 160.02)
 		)
 		(stroke
@@ -12986,6 +13253,16 @@
 			(type default)
 		)
 		(uuid "0beee7c2-5390-4fe5-b85e-5a01bc6031e6")
+	)
+	(polyline
+		(pts
+			(xy 39.37 190.5) (xy 41.91 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfae9ad-4907-4079-8378-e2353c7026e2")
 	)
 	(wire
 		(pts
@@ -13189,6 +13466,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 226.06) (xy 81.28 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d82440b-8341-43c3-9c8d-1e2919cb7342")
+	)
+	(wire
+		(pts
 			(xy 327.66 140.97) (xy 330.2 140.97)
 		)
 		(stroke
@@ -13196,6 +13483,16 @@
 			(type default)
 		)
 		(uuid "1e7b281e-ff25-4c09-a0f2-2ea094cc9779")
+	)
+	(wire
+		(pts
+			(xy 99.06 186.69) (xy 93.98 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa7bdd0-50c1-48c5-a0d6-983a1ae6ece1")
 	)
 	(wire
 		(pts
@@ -13236,6 +13533,16 @@
 			(type default)
 		)
 		(uuid "250d2227-1741-4151-86e7-a6f137ea9720")
+	)
+	(wire
+		(pts
+			(xy 73.66 217.17) (xy 73.66 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2528ab2c-f19d-43ed-894c-3a9d3b96baf6")
 	)
 	(wire
 		(pts
@@ -13306,6 +13613,26 @@
 			(type default)
 		)
 		(uuid "30f43de9-6fe8-49c5-86a2-17415d1d05cb")
+	)
+	(wire
+		(pts
+			(xy 109.22 175.26) (xy 109.22 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324da8e2-2d03-4fe3-985b-2f86191105f3")
+	)
+	(wire
+		(pts
+			(xy 64.77 186.69) (xy 66.04 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33f93ba9-fb37-42f6-8958-d917a8b9457a")
 	)
 	(wire
 		(pts
@@ -13386,6 +13713,16 @@
 			(type default)
 		)
 		(uuid "3e2c0d6b-b28d-4bc9-b0fc-67685b967c48")
+	)
+	(wire
+		(pts
+			(xy 111.76 184.15) (xy 114.3 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e33f76a-6445-479f-abc1-0a5a06b5a014")
 	)
 	(wire
 		(pts
@@ -13479,6 +13816,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 177.8) (xy 114.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e01f15b-4010-41f8-90d0-69bc980a5c1f")
+	)
+	(wire
+		(pts
 			(xy 332.74 196.85) (xy 332.74 195.58)
 		)
 		(stroke
@@ -13486,6 +13833,16 @@
 			(type default)
 		)
 		(uuid "4e307c14-0eb7-44bd-a21e-844c4abf8e50")
+	)
+	(polyline
+		(pts
+			(xy 39.37 166.37) (xy 39.37 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f1013cc-259d-44a8-b0d7-e43a14b65592")
 	)
 	(wire
 		(pts
@@ -13576,6 +13933,16 @@
 			(type default)
 		)
 		(uuid "56ec5334-41d8-44d5-b60e-d79d0fd10888")
+	)
+	(wire
+		(pts
+			(xy 63.5 170.18) (xy 66.04 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59189147-0801-4eec-9e50-d8ac71a4cc8e")
 	)
 	(wire
 		(pts
@@ -13749,6 +14116,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 203.2) (xy 81.28 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ca3ce45-4515-418a-9ad3-177c32e6bd0b")
+	)
+	(wire
+		(pts
 			(xy 223.52 167.64) (xy 284.48 167.64)
 		)
 		(stroke
@@ -13829,6 +14206,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 170.18) (xy 162.56 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728b3e58-4d35-4170-b878-6f00748ec8bf")
+	)
+	(wire
+		(pts
 			(xy 158.75 147.32) (xy 158.75 142.24)
 		)
 		(stroke
@@ -13899,6 +14286,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 175.26) (xy 162.56 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa70c92-965c-4644-a87c-8f21924f72ce")
+	)
+	(wire
+		(pts
 			(xy 223.52 121.92) (xy 271.78 121.92)
 		)
 		(stroke
@@ -13939,16 +14336,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 175.26) (xy 162.56 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "853efa76-56e4-49d7-8d7d-d3e904d0e41c")
-	)
-	(wire
-		(pts
 			(xy 375.92 146.05) (xy 383.54 146.05)
 		)
 		(stroke
@@ -13976,6 +14363,16 @@
 			(type default)
 		)
 		(uuid "8a71f04c-aa1d-41ef-8a73-44d21a761fc2")
+	)
+	(wire
+		(pts
+			(xy 99.06 175.26) (xy 99.06 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2dba3b-ee99-45cf-a3c3-4bdedc13d359")
 	)
 	(polyline
 		(pts
@@ -14096,6 +14493,16 @@
 			(type default)
 		)
 		(uuid "90cb69f9-05e4-475c-bd32-5bdde9de094c")
+	)
+	(wire
+		(pts
+			(xy 73.66 226.06) (xy 81.28 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91efc525-b7e2-402b-81b6-bc7257ff3de0")
 	)
 	(wire
 		(pts
@@ -14269,6 +14676,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 182.88) (xy 109.22 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a234ec01-566a-4c4a-96cb-0ca5f57b9134")
+	)
+	(wire
+		(pts
 			(xy 223.52 114.3) (xy 232.41 114.3)
 		)
 		(stroke
@@ -14299,6 +14716,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 170.18) (xy 114.3 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6691392-c95f-4de2-85d3-8b1d07386154")
+	)
+	(wire
+		(pts
 			(xy 241.3 152.4) (xy 241.3 157.48)
 		)
 		(stroke
@@ -14306,6 +14733,16 @@
 			(type default)
 		)
 		(uuid "a89cd599-632e-4649-83f0-66422cbe5cf9")
+	)
+	(wire
+		(pts
+			(xy 81.28 201.93) (xy 81.28 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e07028-8fda-4c09-b4a7-533dc15de35f")
 	)
 	(wire
 		(pts
@@ -14336,6 +14773,16 @@
 			(type default)
 		)
 		(uuid "ab4d08ad-1543-4082-b288-7b73c696b075")
+	)
+	(wire
+		(pts
+			(xy 81.28 227.33) (xy 81.28 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab7353ba-d415-4322-8a6e-8541a595a01e")
 	)
 	(wire
 		(pts
@@ -14377,15 +14824,15 @@
 		)
 		(uuid "b01fd57b-ca93-4556-80a6-d836517ff6cd")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 154.94 170.18) (xy 162.56 170.18)
+			(xy 41.91 166.37) (xy 39.37 166.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b37865b1-381c-4327-abc2-6fcc7e588de7")
+		(uuid "b306c93b-acfe-4b45-bf89-0ddfc12be6f3")
 	)
 	(wire
 		(pts
@@ -14529,6 +14976,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 184.15) (xy 111.76 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3f11ec3-555c-494d-9318-7b42e2acb242")
+	)
+	(wire
+		(pts
 			(xy 391.16 153.67) (xy 383.54 153.67)
 		)
 		(stroke
@@ -14536,6 +14993,16 @@
 			(type default)
 		)
 		(uuid "c447fe66-4d54-4077-92a6-35ac010d3f79")
+	)
+	(wire
+		(pts
+			(xy 114.3 184.15) (xy 114.3 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c53efca8-1a4e-4bbe-b2e7-46b81c461d8f")
 	)
 	(wire
 		(pts
@@ -14566,6 +15033,26 @@
 			(type default)
 		)
 		(uuid "c9ee4f4c-0bca-4344-8e8a-d2c35520179c")
+	)
+	(wire
+		(pts
+			(xy 109.22 184.15) (xy 111.76 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0340b1-a06a-4474-a33d-383bf359bd84")
+	)
+	(wire
+		(pts
+			(xy 55.88 186.69) (xy 59.69 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc42f1be-8354-437f-9541-d1d261e3dbdd")
 	)
 	(wire
 		(pts
@@ -14799,6 +15286,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 170.18) (xy 58.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc93c54c-567a-4ae6-8336-7954cce42699")
+	)
+	(wire
+		(pts
 			(xy 287.02 154.94) (xy 287.02 180.34)
 		)
 		(stroke
@@ -14946,6 +15443,16 @@
 			(type default)
 		)
 		(uuid "ea42f9c7-4246-4f73-9cae-2b1f47bb9cd1")
+	)
+	(wire
+		(pts
+			(xy 99.06 175.26) (xy 109.22 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebb4f37e-d57c-4812-a6ff-0fad78027099")
 	)
 	(wire
 		(pts
@@ -15147,6 +15654,16 @@
 		)
 		(uuid "fedb4b4b-2414-4110-b056-3d61aed28109")
 	)
+	(label "PIN8-GPIO"
+		(at 127 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "09568a4a-8277-4ec1-a429-25e0486a5b5d")
+	)
 	(label "EMMC_D6"
 		(at 247.65 177.8 0)
 		(effects
@@ -15156,6 +15673,16 @@
 			(justify left bottom)
 		)
 		(uuid "1575b671-f42a-467e-a5d1-bea547f49580")
+	)
+	(label "PIN7-GPIO"
+		(at 127 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22c9d042-9b97-490c-ad83-ad0d25c0b34d")
 	)
 	(label "USR3"
 		(at 240.03 124.46 0)
@@ -15468,6 +15995,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "PIN7-OUT"
+		(shape input)
+		(at 55.88 186.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c3171a3-3c0d-4ca9-848a-7de1c49ddcb8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.279 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -15803,6 +16351,27 @@
 			)
 		)
 	)
+	(global_label "PIN8-OUT"
+		(shape input)
+		(at 55.88 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5efcaa3-9c16-4561-af41-e97748b07d0f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.279 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "OPD_nFAULT"
 		(shape input)
 		(at 154.94 182.88 180)
@@ -15969,6 +16538,121 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G34")
+		(at 78.74 170.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e27ade1-2b70-456b-a4a6-7eea9587f978")
+		(property "Reference" "U42"
+			(at 89.408 176.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G34"
+			(at 89.408 178.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC2G34_Q100.pdf"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buffer, Non-Inverting 2 Element 1 Bit per Element Push-Pull Output 6-TSSOP"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1727-8431-1-ND"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia USA Inc."
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74LVC2G34GW-Q100,1"
+			(at 78.74 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "96318d8e-8f92-4e4b-9f30-eca9ea5b2f50")
+		)
+		(pin "1"
+			(uuid "7872bbd7-2610-462e-b6a2-d16b07aaec61")
+		)
+		(pin "3"
+			(uuid "363c394d-6abd-4c13-97d1-01bc27c6c6ca")
+		)
+		(pin "2"
+			(uuid "19e6b59e-62d2-41b9-80d7-3235f2be9c1a")
+		)
+		(pin "5"
+			(uuid "cff85bdd-356a-4d01-b145-de7bcf84f8ce")
+		)
+		(pin "4"
+			(uuid "70fa20e8-13e3-4896-98ed-5eebf10d4615")
+		)
+		(instances
+			(project ""
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "U42")
 					(unit 1)
 				)
 			)
@@ -16436,7 +17120,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 293.37 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16469,7 +17153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
+		(property "Datasheet" "~"
 			(at 293.37 104.14 90)
 			(effects
 				(font
@@ -16478,7 +17162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -16866,6 +17550,71 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:3.3V")
+		(at 81.28 201.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2550431a-66b8-4390-b0e3-fc2dd4ca42f8")
+		(property "Reference" "#3V05"
+			(at 81.28 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 81.28 198.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "396a9f3b-7014-420d-9613-81472ed83316")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "#3V05")
 					(unit 1)
 				)
 			)
@@ -17664,73 +18413,6 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 154.94 175.26 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "33067405-bc8a-40fc-a2a4-7b90e4e04570")
-		(property "Reference" "TP31"
-			(at 148.59 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 157.48 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 165.1 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 154.94 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "898c5f12-0eb7-47d1-bc00-5ac8eb51ca6a")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "TP31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 229.87 195.58 90)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -17857,6 +18539,71 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "TP27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33acb312-c463-476c-a663-83f1278ee6c2")
+		(property "Reference" "#PWR019"
+			(at 111.76 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c1203a0-fdb0-4ba9-8137-5a61c257913f")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -18260,6 +19007,112 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "TP42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 60.96 170.18 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40724c70-7876-4600-b917-f884c71358db")
+		(property "Reference" "R91"
+			(at 60.325 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 62.865 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT150RCT-ND"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT150R"
+			(at 60.96 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55453176-bd6a-4acc-9340-d56fc5e2e861")
+		)
+		(pin "2"
+			(uuid "e3ec0ca1-0bfd-4e95-b5d7-09a9293ae17e")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -19028,7 +19881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 293.37 111.76 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19061,7 +19914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
+		(property "Datasheet" "~"
 			(at 293.37 111.76 90)
 			(effects
 				(font
@@ -19070,7 +19923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 293.37 111.76 0)
 			(effects
 				(font
@@ -20262,44 +21115,32 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 154.94 170.18 270)
-		(mirror x)
+		(lib_id "Device:R_Small_US")
+		(at 109.22 180.34 180)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8c4d1ed5-6a1c-420d-ac80-5d060dfd6cbc")
-		(property "Reference" "TP26"
-			(at 148.59 170.18 90)
+		(uuid "8d64cd9e-8636-49ff-9c7b-df2987ceb007")
+		(property "Reference" "R30"
+			(at 106.68 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Test-Point"
-			(at 157.48 170.18 0)
+		(property "Value" "10k"
+			(at 106.68 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 165.1 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 170.18 0)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 109.22 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20307,8 +21148,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1mm round SMT test point"
-			(at 154.94 170.18 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 109.22 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 109.22 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20317,12 +21203,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "afcdee8e-c9e0-428b-af5e-ca0b1faa1611")
+			(uuid "ac6f3d98-7ef8-4bf5-b452-e3cf8103d0f1")
+		)
+		(pin "2"
+			(uuid "da8ae6b0-e978-4d5e-8982-ff06e5e40fa2")
 		)
 		(instances
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "TP26")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -20432,6 +21321,227 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 62.23 186.69 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f21a9d7-5212-4dea-8da7-2d9d913813d9")
+		(property "Reference" "R94"
+			(at 61.595 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "150"
+			(at 64.135 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT150RCT-ND"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT150R"
+			(at 62.23 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dea1b9fd-a56b-4eee-93c0-2eb0c2e8f0de")
+		)
+		(pin "2"
+			(uuid "1b07af2e-1751-4607-ae32-d7d49a600d93")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G34")
+		(at 78.74 186.69 180)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b683a93-e7af-417e-ace8-b4988470bdd7")
+		(property "Reference" "U42"
+			(at 90.424 192.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LVC2G34"
+			(at 90.424 195.072 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC2G34_Q100.pdf"
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buffer, Non-Inverting 2 Element 1 Bit per Element Push-Pull Output 6-TSSOP"
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1727-8431-1-ND"
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia USA Inc."
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74LVC2G34GW-Q100,1"
+			(at 78.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "96318d8e-8f92-4e4b-9f30-eca9ea5b2f50")
+		)
+		(pin "1"
+			(uuid "7872bbd7-2610-462e-b6a2-d16b07aaec61")
+		)
+		(pin "3"
+			(uuid "363c394d-6abd-4c13-97d1-01bc27c6c6ca")
+		)
+		(pin "2"
+			(uuid "19e6b59e-62d2-41b9-80d7-3235f2be9c1a")
+		)
+		(pin "5"
+			(uuid "cff85bdd-356a-4d01-b145-de7bcf84f8ce")
+		)
+		(pin "4"
+			(uuid "70fa20e8-13e3-4896-98ed-5eebf10d4615")
+		)
+		(instances
+			(project ""
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "U42")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 229.87 149.86 180)
 		(unit 1)
@@ -20492,6 +21602,175 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "TP47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 114.3 180.34 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abe5ca3f-7a32-47d3-af37-27bab13537ce")
+		(property "Reference" "R90"
+			(at 116.84 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 116.84 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603FT10K0CT-ND"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603FT10K0"
+			(at 114.3 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c58cf596-58fb-4628-8bb9-a850fe5e5007")
+		)
+		(pin "2"
+			(uuid "ed30d409-c124-4439-92b9-473e383e981e")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "add7c88b-b609-48c1-886c-47e79f119324")
+		(property "Reference" "#PWR018"
+			(at 81.28 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94db3698-1d61-46ca-9a64-bdb5973c22bd")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -20696,7 +21975,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 293.37 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20729,7 +22008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
+		(property "Datasheet" "~"
 			(at 293.37 119.38 90)
 			(effects
 				(font
@@ -20738,7 +22017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 293.37 119.38 0)
 			(effects
 				(font
@@ -21611,7 +22890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 293.37 127 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21644,7 +22923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
+		(property "Datasheet" "~"
 			(at 293.37 127 90)
 			(effects
 				(font
@@ -21653,7 +22932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 293.37 127 0)
 			(effects
 				(font
@@ -21861,6 +23140,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 73.66 214.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e58fa61d-e2a3-45ad-a6cd-8ee4e6f94e60")
+		(property "Reference" "C48"
+			(at 71.12 213.3535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 71.12 215.8935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 73.66 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.kemet.com/download/specsheet/C0603C104K5RACAUTO"
+			(at 73.66 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 73.66 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-6856-1-ND"
+			(at 73.66 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 73.66 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 73.66 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C104K5RACAUTO"
+			(at 73.66 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb4c7044-dc50-4fa3-8bee-f18d57360848")
+		)
+		(pin "2"
+			(uuid "a5a67fce-068f-4f7f-b50c-95e733dbbd90")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 280.67 127 90)
 		(unit 1)
@@ -21959,6 +23344,124 @@
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "R45")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xGxx:74LVC2G34")
+		(at 81.28 214.63 180)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee8a31a5-dc76-4afa-be51-9a1c060ce7ea")
+		(property "Reference" "U42"
+			(at 87.63 213.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "74LVC2G34"
+			(at 87.63 215.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 81.28 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74LVC2G34_Q100.pdf"
+			(at 81.28 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buffer, Non-Inverting 2 Element 1 Bit per Element Push-Pull Output 6-TSSOP"
+			(at 81.28 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "1727-8431-1-ND"
+			(at 81.28 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 81.28 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Nexperia USA Inc."
+			(at 81.28 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74LVC2G34GW-Q100,1"
+			(at 81.28 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "96318d8e-8f92-4e4b-9f30-eca9ea5b2f50")
+		)
+		(pin "1"
+			(uuid "7872bbd7-2610-462e-b6a2-d16b07aaec61")
+		)
+		(pin "3"
+			(uuid "363c394d-6abd-4c13-97d1-01bc27c6c6ca")
+		)
+		(pin "2"
+			(uuid "19e6b59e-62d2-41b9-80d7-3235f2be9c1a")
+		)
+		(pin "5"
+			(uuid "cff85bdd-356a-4d01-b145-de7bcf84f8ce")
+		)
+		(pin "4"
+			(uuid "70fa20e8-13e3-4896-98ed-5eebf10d4615")
+		)
+		(instances
+			(project ""
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
+					(reference "U42")
+					(unit 3)
 				)
 			)
 		)

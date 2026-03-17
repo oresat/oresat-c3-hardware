@@ -6047,6 +6047,21 @@
 		)
 		(uuid "91792d16-8593-4c9a-bf52-1bdf9343061d")
 	)
+	(text "U21 IS EOL"
+		(exclude_from_sim no)
+		(at 251.968 86.106 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 255 0 33 1)
+			)
+		)
+		(uuid "93cea9be-7bdd-4dff-972a-e539e3013264")
+	)
 	(text "Internally generated output voltages:\nAVDD0 (1.8V) - 435 MHz\nAVDD1 (1.8V) - 2.4 GHz\nDVDD (1.8V) - Digital Voltage Regulator"
 		(exclude_from_sim no)
 		(at 77.724 94.996 0)

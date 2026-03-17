@@ -351,7 +351,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -371,7 +371,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "LED_Small_Filled"
 				(at -4.445 -2.54 0)
 				(effects
 					(font
@@ -398,7 +398,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -434,7 +434,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -480,7 +480,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -496,7 +496,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -8334,18 +8334,6 @@
 		)
 		(uuid "18f86255-285e-4609-9c0d-f6cc5f8ae1f5")
 	)
-	(text "TODO: CHOOSE 1.27 mm CONNECTOR"
-		(exclude_from_sim no)
-		(at 130.302 187.706 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "2b8016ca-0f98-4b01-9019-0aabd30a9ab7")
-	)
 	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
 		(exclude_from_sim no)
 		(at 115.57 261.62 0)
@@ -8401,9 +8389,9 @@
 		)
 		(uuid "5f593e01-d400-4fc6-be44-f925e148108e")
 	)
-	(text "Needed for programming\nboot EEPROM\n\nTPS65217 I2C Addrs = 0x24\nEEPROM I2C Addrs = 0x50"
+	(text "Needed for programming\nboot EEPROM\n\nTPS65217 I2C Addrs = 0x24\nEEPROM I2C Addrs = 0x50\n\nNeeds 4 pos 1.27 mm socket\nand cable, e.g., \nSamtec SFSS-04-28-H-06.00-SR."
 		(exclude_from_sim no)
-		(at 118.872 203.454 0)
+		(at 106.426 209.296 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9167,7 +9155,7 @@
 	)
 	(polyline
 		(pts
-			(xy 151.13 219.71) (xy 154.94 219.71)
+			(xy 143.51 220.98) (xy 147.32 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9237,7 +9225,7 @@
 	)
 	(polyline
 		(pts
-			(xy 154.94 180.34) (xy 151.13 180.34)
+			(xy 147.32 181.61) (xy 143.51 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10217,7 +10205,7 @@
 	)
 	(polyline
 		(pts
-			(xy 151.13 180.34) (xy 151.13 219.71)
+			(xy 143.51 181.61) (xy 143.51 220.98)
 		)
 		(stroke
 			(width 0)
@@ -11121,7 +11109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 298.45 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11131,7 +11119,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bc342cc-952c-463d-85f5-a1eb78189e43")
 		(property "Reference" "D8"
-			(at 300.99 81.8515 90)
+			(at 300.99 81.2164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11140,7 +11128,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 300.99 84.3915 90)
+			(at 300.99 83.7564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +11145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
+		(property "Datasheet" "~"
 			(at 298.45 82.55 90)
 			(effects
 				(font
@@ -11166,7 +11154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 298.45 82.55 0)
 			(effects
 				(font
@@ -12671,15 +12659,15 @@
 		(dnp no)
 		(uuid "7f7a3e12-3cb8-45ab-bb50-9be2ead7877b")
 		(property "Reference" "J7"
-			(at 158.242 208.4183 0)
+			(at 160.528 208.026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 158.242 205.994 0)
+		(property "Value" "GRPB041VWVN-RC"
+			(at 153.162 205.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12695,7 +12683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE94-95%20.050%20MALE%20HDR%20ST%20RA%20SMT.pdf"
 			(at 160.02 198.12 0)
 			(effects
 				(font
@@ -12704,7 +12692,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Connector Header Through Hole 4 position 0.050\" (1.27mm)"
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "S9014E-04-ND"
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Sullins Connector Solutions"
+			(at 160.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRPB041VWVN-RC"
 			(at 160.02 198.12 0)
 			(effects
 				(font

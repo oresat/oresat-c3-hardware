@@ -313,7 +313,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -333,7 +333,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "LED_Small_Filled"
 				(at -4.445 -2.54 0)
 				(effects
 					(font
@@ -360,7 +360,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -396,7 +396,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -442,7 +442,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -458,7 +458,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -2560,7 +2560,7 @@
 	)
 	(text "Normally on; asserting \nI2C_SYS_DISABLE will \nturn off this subsystem."
 		(exclude_from_sim no)
-		(at 151.13 50.8 0)
+		(at 151.638 43.688 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2571,7 +2571,7 @@
 	)
 	(text "IMPORTANT: To power down RTC/FRAM,\nOPD_PWR must be turned off as well\nto prevent pullup voltage bleeding\nthrough the LTC4300A-1."
 		(exclude_from_sim no)
-		(at 231.14 52.07 0)
+		(at 155.448 53.594 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2780,7 +2780,7 @@
 		(uuid "66a26b16-14df-4337-8a7d-d36ce29d2e13")
 	)
 	(junction
-		(at 207.01 48.26)
+		(at 207.01 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73bd8c99-2a62-476d-962f-8330629c8bbc")
@@ -2947,7 +2947,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 48.26) (xy 207.01 49.53)
+			(xy 207.01 40.64) (xy 207.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2957,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 53.34) (xy 215.9 66.04)
+			(xy 215.9 45.72) (xy 215.9 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2997,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 54.61) (xy 207.01 55.88)
+			(xy 207.01 46.99) (xy 207.01 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3127,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 41.91) (xy 215.9 43.18)
+			(xy 215.9 34.29) (xy 215.9 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3627,7 +3627,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 48.26) (xy 207.01 48.26)
+			(xy 196.85 40.64) (xy 207.01 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4127,7 +4127,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 48.26) (xy 208.28 48.26)
+			(xy 207.01 40.64) (xy 208.28 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4305,7 +4305,7 @@
 	)
 	(global_label "I2C2_SYS_DISABLE"
 		(shape input)
-		(at 196.85 48.26 180)
+		(at 196.85 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4315,7 +4315,7 @@
 		)
 		(uuid "71140b16-babc-4df1-8be8-c867aa95f8fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 176.5876 48.26 0)
+			(at 176.5876 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,7 +4958,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 207.01 52.07 0)
+		(at 207.01 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4966,7 +4966,7 @@
 		(dnp no)
 		(uuid "18ed06b3-2372-4998-89cb-c491e44b58f7")
 		(property "Reference" "R66"
-			(at 204.47 51.435 0)
+			(at 204.47 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +4975,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 204.47 53.975 0)
+			(at 204.47 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4984,7 +4984,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 207.01 52.07 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4993,7 +4993,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
-			(at 207.01 52.07 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5002,7 @@
 			)
 		)
 		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 207.01 52.07 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5011,7 @@
 			)
 		)
 		(property "DPN" "RMCF0603FT10K0CT-ND"
-			(at 207.01 52.07 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5020,7 @@
 			)
 		)
 		(property "DST" "DigiKey"
-			(at 207.01 52.07 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +5029,7 @@
 			)
 		)
 		(property "MFR" "Stackpole Electronics"
-			(at 207.01 52.07 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5038,7 +5038,7 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT10K0"
-			(at 207.01 52.07 0)
+			(at 207.01 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5903,7 +5903,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:NTR2101P")
-		(at 213.36 48.26 0)
+		(at 213.36 40.64 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5912,7 +5912,7 @@
 		(dnp no)
 		(uuid "41b2b59e-b990-4807-abf4-f81abaeb54c7")
 		(property "Reference" "Q1"
-			(at 219.71 48.895 0)
+			(at 219.71 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5921,7 +5921,7 @@
 			)
 		)
 		(property "Value" "DMP2035UQ-7"
-			(at 219.71 46.355 0)
+			(at 219.71 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5930,7 +5930,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 218.44 46.355 0)
+			(at 218.44 38.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,7 +5941,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf"
-			(at 213.36 48.26 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +5951,7 @@
 			)
 		)
 		(property "Description" "P-Channel 20 V 4.9A (Ta) 810mW (Ta) Surface Mount SOT-23-3 (TO-236)"
-			(at 213.36 48.26 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5960,7 +5960,7 @@
 			)
 		)
 		(property "DPN" "31-DMP2035UQ-7CT-ND"
-			(at 213.36 48.26 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5969,7 +5969,7 @@
 			)
 		)
 		(property "DST" "DigiKey"
-			(at 213.36 48.26 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5978,7 @@
 			)
 		)
 		(property "MFR" "Diodes Incorporated"
-			(at 213.36 48.26 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5987,7 +5987,7 @@
 			)
 		)
 		(property "MPN" "DMP2035UQ-7"
-			(at 213.36 48.26 0)
+			(at 213.36 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6290,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 207.01 173.99 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6325,7 +6325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
+		(property "Datasheet" "~"
 			(at 207.01 173.99 90)
 			(effects
 				(font
@@ -6334,7 +6334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 207.01 173.99 0)
 			(effects
 				(font
@@ -7439,7 +7439,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:3.3V")
-		(at 215.9 41.91 0)
+		(at 215.9 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7448,7 +7448,7 @@
 		(fields_autoplaced yes)
 		(uuid "8b3ea88b-c6cd-478a-b98e-7bd15b87c973")
 		(property "Reference" "#3V01"
-			(at 215.9 45.72 0)
+			(at 215.9 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7457,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 215.9 36.83 0)
+			(at 215.9 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 41.91 0)
+			(at 215.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7474,7 +7474,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 41.91 0)
+			(at 215.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7483,7 +7483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 41.91 0)
+			(at 215.9 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8753,7 +8753,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 55.88 0)
+		(at 207.01 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8761,7 +8761,7 @@
 		(dnp no)
 		(uuid "d591566d-971e-4081-80b4-6e7f5342b655")
 		(property "Reference" "#PWR0280"
-			(at 207.01 62.23 0)
+			(at 207.01 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8770,7 +8770,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 59.69 0)
+			(at 207.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8778,7 +8778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 55.88 0)
+			(at 207.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8787,7 +8787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 55.88 0)
+			(at 207.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8796,7 +8796,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 55.88 0)
+			(at 207.01 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)

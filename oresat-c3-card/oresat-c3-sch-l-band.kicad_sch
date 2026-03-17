@@ -315,6 +315,377 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:RFShield_OnePiece"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RFShield_OnePiece"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "One-piece EMI RF shielding cabinet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RF EMI shielding cabinet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RFShield_OnePiece_0_1"
+				(polyline
+					(pts
+						(xy -15.24 6.35) (xy -15.24 7.62) (xy -13.97 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 2.54) (xy -15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -1.27) (xy -15.24 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -15.24 -5.08) (xy -15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -13.97 -7.62) (xy -15.24 -7.62) (xy -15.24 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -12.7 7.62) (xy -10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -7.62) (xy -12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 7.62) (xy -8.89 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -7.62) (xy -8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -5.08 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 7.62) (xy -1.27 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 7.62) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -7.62) (xy 8.89 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 7.62) (xy 6.35 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 7.62) (xy 10.16 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 13.97 -7.62) (xy 15.24 -7.62) (xy 15.24 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 6.35) (xy 15.24 7.62) (xy 13.97 7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -1.27) (xy 15.24 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 -5.08) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RFShield_OnePiece_1_1"
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:RFShield_TwoPieces"
 			(pin_names
 				(offset 1.016)
@@ -4464,7 +4835,7 @@
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 1.27 1.27)
+				(size 2 2)
 				(thickness 0.254)
 				(bold yes)
 				(italic yes)
@@ -4765,6 +5136,16 @@
 		)
 		(uuid "c5f9a628-017e-4922-80b9-a6eda9875ca8")
 	)
+	(text "Snap on cap for RF shield"
+		(exclude_from_sim no)
+		(at 47.244 204.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ca20f396-e32b-4336-955c-b5f067fee8e5")
+	)
 	(text "0402"
 		(exclude_from_sim no)
 		(at 166.37 71.12 0)
@@ -4858,6 +5239,16 @@
 			(justify left bottom)
 		)
 		(uuid "f3bdd1af-7e13-4fc3-9d61-be81e75b6e92")
+	)
+	(text "Soldered on RF shield\n"
+		(exclude_from_sim no)
+		(at 47.244 223.774 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f4f6ff85-cad0-4196-94a5-4c0ba0630be5")
 	)
 	(text "0402"
 		(exclude_from_sim no)
@@ -5228,6 +5619,10 @@
 	(no_connect
 		(at 175.26 135.89)
 		(uuid "c7fb29c0-bda5-4c65-8c9d-ea6f7670ddc0")
+	)
+	(no_connect
+		(at 46.99 217.17)
+		(uuid "cb0ae140-0d59-4386-8746-28630a43a743")
 	)
 	(no_connect
 		(at 139.7 165.1)
@@ -7838,7 +8233,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 113.03) (xy 257.81 111.76)
+			(xy 46.99 240.03) (xy 46.99 238.76)
 		)
 		(stroke
 			(width 0)
@@ -8264,6 +8659,108 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
 					(reference "TP43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RFShield_TwoPieces")
+		(at 46.99 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "05f971cf-cb51-4a30-841f-fac272ce670c")
+		(property "Reference" "SH2"
+			(at 63.5 211.582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMI-S-209-C"
+			(at 63.5 214.122 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.laird.com/document/pmbu-doc-000012068"
+			(at 46.99 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RF Shield Cover 0.752\" (19.10mm) X 1.180\" (29.96mm) Non-Vented Snap Fit"
+			(at 46.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "903-1185-ND"
+			(at 46.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 46.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Laird Technologies EMI"
+			(at 46.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BMI-S-209-C"
+			(at 46.99 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6d8f42c-c567-4b75-8410-b26c1d3f64b8")
+		)
+		(instances
+			(project ""
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
+					(reference "SH2")
 					(unit 1)
 				)
 			)
@@ -11627,17 +12124,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:RFShield_TwoPieces")
-		(at 257.81 101.6 0)
+		(lib_id "Device:RFShield_OnePiece")
+		(at 46.99 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f3e9633-0463-4c37-baf1-9b642b20f5b9")
 		(property "Reference" "SH1"
-			(at 276.86 98.4249 0)
+			(at 63.5 233.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11646,7 +12142,7 @@
 			)
 		)
 		(property "Value" "BMI-S-209-F"
-			(at 276.86 100.9649 0)
+			(at 63.5 235.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11655,7 +12151,7 @@
 			)
 		)
 		(property "Footprint" "RF_Shielding:Laird_Technologies_BMI-S-209-F_29.36x18.50mm"
-			(at 257.81 104.14 0)
+			(at 46.99 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11664,7 +12160,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.laird.com/document/pmbu-doc-000012068"
-			(at 257.81 104.14 0)
+			(at 46.99 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11673,7 +12169,7 @@
 			)
 		)
 		(property "Description" "RF Shield Frame 0.728\" (18.50mm) X 1.156\" (29.36mm) Surface Mount"
-			(at 257.81 101.6 0)
+			(at 46.99 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +12178,7 @@
 			)
 		)
 		(property "DPN" "903-1212-1-ND"
-			(at 257.81 101.6 0)
+			(at 46.99 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11691,7 +12187,7 @@
 			)
 		)
 		(property "DST" "DigiKey"
-			(at 257.81 101.6 0)
+			(at 46.99 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11700,7 +12196,7 @@
 			)
 		)
 		(property "MFR" "Laird Technologies EMI"
-			(at 257.81 101.6 0)
+			(at 46.99 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11709,7 +12205,7 @@
 			)
 		)
 		(property "MPN" "BMI-S-209-F"
-			(at 257.81 101.6 0)
+			(at 46.99 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12419,7 +12915,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 257.81 113.03 0)
+		(at 46.99 240.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12427,7 +12923,7 @@
 		(dnp no)
 		(uuid "67446aef-ae50-44f5-8719-0248e3b3583c")
 		(property "Reference" "#PWR017"
-			(at 257.81 119.38 0)
+			(at 46.99 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12436,7 +12932,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 257.81 116.84 0)
+			(at 46.99 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,7 +12940,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 113.03 0)
+			(at 46.99 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12453,7 +12949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 113.03 0)
+			(at 46.99 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12462,7 +12958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 257.81 113.03 0)
+			(at 46.99 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

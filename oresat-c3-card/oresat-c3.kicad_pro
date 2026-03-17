@@ -297,11 +297,11 @@
           ""
         ],
         [
-          "shorting_items|94248995|122548995|0b7dd4ff-19cc-45b1-a109-5cbc3a686e6e|0c0654d4-a409-4fd9-820f-08b8bfbd8d67",
+          "shorting_items|94510000|121950000|075799f9-1058-4a4a-9226-e1cb298ca5e1|af31447a-97c4-4a02-a699-3ec7c0e92f1e",
           ""
         ],
         [
-          "shorting_items|94290000|121950000|042a3d31-4ebe-4e4a-98ad-7643952a2bae|af31447a-97c4-4a02-a699-3ec7c0e92f1e",
+          "shorting_items|94551005|122851005|0b7dd4ff-19cc-45b1-a109-5cbc3a686e6e|e11ee243-485e-4f86-acfe-39cc857e48a8",
           ""
         ],
         [
@@ -321,11 +321,11 @@
           ""
         ],
         [
-          "shorting_items|94748995|121851005|075799f9-1058-4a4a-9226-e1cb298ca5e1|5597815e-d4c2-40a3-a410-c4225ac09aa8",
+          "shorting_items|95010000|122950000|6328a4ff-7716-4c7e-8845-d4e0c4e43eba|8e1b0e70-522d-4178-9f8a-2c909e3a5bb5",
           ""
         ],
         [
-          "shorting_items|95010000|122950000|6328a4ff-7716-4c7e-8845-d4e0c4e43eba|8e1b0e70-522d-4178-9f8a-2c909e3a5bb5",
+          "shorting_items|95248995|121351005|5597815e-d4c2-40a3-a410-c4225ac09aa8|f24681a2-9520-4a9c-8047-dc38064960b5",
           ""
         ],
         [
@@ -1020,7 +1020,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -1065,51 +1065,39 @@
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U29-IN)"
+        "pattern": "Net-(C167-Pad1)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U20-RF2)"
+        "pattern": "Net-(C167-Pad2)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U32-OUT)"
+        "pattern": "Net-(C37-Pad1)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U29-OUT)"
+        "pattern": "Net-(C38-Pad1)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U33-IN)"
+        "pattern": "Net-(C39-Pad1)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U33-OUT)"
+        "pattern": "Net-(C39-Pad2)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(C82-Pad2)"
+        "pattern": "Net-(C41-Pad1)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(C81-Pad1)"
+        "pattern": "Net-(C48-Pad2)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U23-ANTP)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U23-ANTN)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U19-OUT)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U21-OUT)"
+        "pattern": "Net-(C54-Pad1)"
       },
       {
         "netclass": "RF-50-OSH",
@@ -1117,11 +1105,15 @@
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U19-IN)"
+        "pattern": "Net-(C71-Pad1)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U21-IN)"
+        "pattern": "Net-(C81-Pad1)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(C82-Pad2)"
       },
       {
         "netclass": "RF-50-OSH",
@@ -1145,7 +1137,39 @@
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U23-ANTP1)"
+        "pattern": "Net-(U15-IN)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U15-OUT)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U16-ANTN)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U16-ANTP)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U16-RFN09)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U16-RFP09)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U17-IFOUT)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U19-IN)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U19-OUT)"
       },
       {
         "netclass": "RF-50-OSH",
@@ -1153,11 +1177,35 @@
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U41-IN)"
+        "pattern": "Net-(U20-RF2)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U41-OUT)"
+        "pattern": "Net-(U21-IN)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U21-OUT)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U23-ANTN)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U23-ANTP)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U23-ANTP1)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U29-IN)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U29-OUT)"
       },
       {
         "netclass": "RF-50-OSH",
@@ -1169,11 +1217,43 @@
       },
       {
         "netclass": "RF-50-OSH",
+        "pattern": "Net-(U32-OUT)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U33-IN)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U33-OUT)"
+      },
+      {
+        "netclass": "RF-50-OSH",
         "pattern": "Net-(U4-RF-IN)"
       },
       {
         "netclass": "RF-50-OSH",
         "pattern": "Net-(U4-RF-OUT)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U41-IN)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U41-OUT)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U44-RFN09)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U47-RF2)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(U47-RF_COM)"
       },
       {
         "netclass": "RF-50-OSH",
@@ -1189,87 +1269,11 @@
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(U15-IN)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U15-OUT)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C37-Pad1)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C38-Pad1)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C39-Pad2)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U16-ANTN)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U16-ANTP)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C39-Pad1)"
-      },
-      {
-        "netclass": "RF-50-OSH",
         "pattern": "Net-(U7-LO)"
       },
       {
         "netclass": "RF-50-OSH",
-        "pattern": "Net-(C54-Pad1)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U17-IFOUT)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C48-Pad2)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U47-RF2)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U47-RF_COM)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C167-Pad1)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C167-Pad2)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U44-RFN09)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U16-RFN09)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(U16-RFP09)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C41-Pad1)"
-      },
-      {
-        "netclass": "RF-50-OSH",
-        "pattern": "Net-(C71-Pad1)"
+        "pattern": "Net-(U44-RFP09)"
       }
     ]
   },

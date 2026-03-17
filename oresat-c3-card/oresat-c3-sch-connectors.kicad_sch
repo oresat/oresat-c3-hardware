@@ -2989,7 +2989,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 111.76) (xy 115.57 111.76)
+			(xy 113.03 111.76) (xy 130.81 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3379,7 +3379,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 114.3) (xy 115.57 114.3)
+			(xy 113.03 114.3) (xy 130.81 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3476,6 +3476,27 @@
 			(type default)
 		)
 		(uuid "fc991a89-093e-42f8-88c7-b34ae0a53e68")
+	)
+	(global_label "PIN7-OUT"
+		(shape input)
+		(at 130.81 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0034277f-538e-42e3-9072-c6e3355fc422")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.411 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "C3-UART-RX"
 		(shape output)
@@ -3595,6 +3616,27 @@
 		(uuid "6abb8915-38cd-4758-9360-e3b69ba42c99")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.0512 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "PIN8-OUT"
+		(shape input)
+		(at 130.81 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6ea4437c-c829-42e1-80a3-891611f74cce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.411 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,6 +4653,15 @@
 				(hide yes)
 			)
 		)
+		(property "DST" "DigiKey"
+			(at 212.09 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "4e73652b-7802-4abd-9b58-42f1d76d809b")
 		)
@@ -4959,72 +5010,6 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
 					(reference "PCB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 115.57 111.76 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "9aca8e79-adff-4d93-8580-0c573b050565")
-		(property "Reference" "TP3"
-			(at 118.11 111.125 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 118.11 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 125.73 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 115.57 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "96dd56ec-94db-44b5-ae29-7384c31fb3d7")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -5939,72 +5924,6 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
 					(reference "TP155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 115.57 114.3 270)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d860d4cd-1f9b-4f56-84b0-43467fdf240a")
-		(property "Reference" "TP28"
-			(at 118.11 113.665 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 118.11 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 125.73 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 115.57 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "294ad7fd-d5cf-4907-a8c3-f8b58c59068b")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
-					(reference "TP28")
 					(unit 1)
 				)
 			)

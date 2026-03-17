@@ -302,7 +302,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
+		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
 			)
@@ -322,7 +322,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "LED_Small"
+			(property "Value" "LED_Small_Filled"
 				(at -4.445 -2.54 0)
 				(effects
 					(font
@@ -349,7 +349,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Light emitting diode, small symbol"
+			(property "Description" "Light emitting diode, small symbol, filled shape"
 				(at 0 0 0)
 				(effects
 					(font
@@ -385,7 +385,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED_Small_0_1"
+			(symbol "LED_Small_Filled_0_1"
 				(polyline
 					(pts
 						(xy -0.762 -1.016) (xy -0.762 1.016)
@@ -431,7 +431,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -447,7 +447,7 @@
 					)
 				)
 			)
-			(symbol "LED_Small_1_1"
+			(symbol "LED_Small_Filled_1_1"
 				(pin passive line
 					(at -2.54 0 0)
 					(length 1.778)
@@ -2576,7 +2576,7 @@
 	)
 	(text "REMEASURE CURRENTS AND LABEL!!!!"
 		(exclude_from_sim no)
-		(at 328.422 123.698 0)
+		(at 329.946 223.266 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -7455,7 +7455,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 251.46 162.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7490,7 +7490,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
+		(property "Datasheet" "~"
 			(at 251.46 162.56 90)
 			(effects
 				(font
@@ -7499,7 +7499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 251.46 162.56 0)
 			(effects
 				(font
@@ -12180,7 +12180,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 287.02 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12216,7 +12216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
+		(property "Datasheet" "~"
 			(at 287.02 82.55 90)
 			(effects
 				(font
@@ -12225,7 +12225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
+		(property "Description" "Light emitting diode, small symbol, filled shape"
 			(at 287.02 82.55 0)
 			(effects
 				(font
