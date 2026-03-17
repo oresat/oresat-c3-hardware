@@ -10157,7 +10157,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 256.54 185.42 0)
 			(effects
 				(font
@@ -10750,7 +10750,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 132.08 90.17 0)
 			(effects
 				(font
@@ -11138,7 +11138,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 116.84 74.93 0)
 			(effects
 				(font
@@ -11215,7 +11215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octavosystems.com/docs/osd335x-sm-datasheet/"
 			(at 147.32 157.48 0)
 			(effects
 				(font
@@ -11251,7 +11251,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 147.32 157.48 0)
 			(effects
 				(font
@@ -12647,7 +12647,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 231.14 185.42 0)
 			(effects
 				(font
@@ -12842,7 +12842,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 213.36 107.95 0)
 			(effects
 				(font

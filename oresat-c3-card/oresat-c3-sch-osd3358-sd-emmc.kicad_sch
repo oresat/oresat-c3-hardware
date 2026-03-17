@@ -16469,7 +16469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
 			(at 293.37 104.14 90)
 			(effects
 				(font
@@ -16478,7 +16478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -16496,7 +16496,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 293.37 104.14 0)
 			(effects
 				(font
@@ -16581,7 +16581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 280.67 119.38 0)
 			(effects
 				(font
@@ -16590,7 +16590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 280.67 119.38 0)
 			(effects
 				(font
@@ -16617,7 +16617,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 280.67 119.38 0)
 			(effects
 				(font
@@ -16626,7 +16626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 280.67 119.38 0)
 			(effects
 				(font
@@ -16723,7 +16723,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 360.68 149.86 0)
 			(effects
 				(font
@@ -16829,7 +16829,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 383.54 149.86 0)
 			(effects
 				(font
@@ -16971,7 +16971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.swissbit.com/data/EM-20/EM-20_fact_sheet.pdf"
+		(property "Datasheet" "https://www.flexxon.com/wp-content/uploads/Flexxon%20Profile/Flexxon-Brochure-Jan2020_compressed.pdf"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -16980,7 +16980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "IC FLASH 16GBIT EMMC 153FBGA"
+		(property "Description" "Memory Card microSD™ 32GB UHS Class 1 TLC"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -16989,7 +16989,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1052-SFEM016GB1EA1TO-I-GE-121-STD-ND"
+		(property "DPN" "3052-FDMM032GBE-3101-ND"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -16998,7 +16998,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -17007,7 +17007,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Swissbit"
+		(property "MFR" "Flexxon Pte Ltd"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -17016,7 +17016,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "SFEM016GB1EA1TO-I-GE-121-STD"
+		(property "MPN" "FDMM032GBE-3101"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -17584,7 +17584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 280.67 104.14 0)
 			(effects
 				(font
@@ -17593,7 +17593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 280.67 104.14 0)
 			(effects
 				(font
@@ -17620,7 +17620,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 280.67 104.14 0)
 			(effects
 				(font
@@ -17629,7 +17629,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 280.67 104.14 0)
 			(effects
 				(font
@@ -18033,7 +18033,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 191.77 63.5 0)
 			(effects
 				(font
@@ -18157,7 +18157,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 368.3 149.86 0)
 			(effects
 				(font
@@ -18853,7 +18853,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 345.44 149.86 0)
 			(effects
 				(font
@@ -19061,7 +19061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
 			(at 293.37 111.76 90)
 			(effects
 				(font
@@ -19070,7 +19070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
 			(at 293.37 111.76 0)
 			(effects
 				(font
@@ -19088,7 +19088,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 293.37 111.76 0)
 			(effects
 				(font
@@ -19249,7 +19249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octavosystems.com/docs/osd335x-sm-datasheet/"
 			(at 193.04 157.48 0)
 			(effects
 				(font
@@ -19285,7 +19285,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 193.04 157.48 0)
 			(effects
 				(font
@@ -20153,7 +20153,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 176.53 48.26 0)
 			(effects
 				(font
@@ -20353,7 +20353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 280.67 111.76 0)
 			(effects
 				(font
@@ -20362,7 +20362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 280.67 111.76 0)
 			(effects
 				(font
@@ -20389,7 +20389,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 280.67 111.76 0)
 			(effects
 				(font
@@ -20398,7 +20398,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 280.67 111.76 0)
 			(effects
 				(font
@@ -20729,7 +20729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
 			(at 293.37 119.38 90)
 			(effects
 				(font
@@ -20738,7 +20738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
 			(at 293.37 119.38 0)
 			(effects
 				(font
@@ -20756,7 +20756,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 293.37 119.38 0)
 			(effects
 				(font
@@ -20946,7 +20946,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 375.92 149.86 0)
 			(effects
 				(font
@@ -21222,7 +21222,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -21568,7 +21568,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 355.6 149.86 0)
 			(effects
 				(font
@@ -21644,7 +21644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
 			(at 293.37 127 90)
 			(effects
 				(font
@@ -21653,7 +21653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Blue 470nm LED Indication - Discrete 3.2V 0603 (1608 Metric)"
 			(at 293.37 127 0)
 			(effects
 				(font
@@ -21671,7 +21671,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 293.37 127 0)
 			(effects
 				(font
@@ -21794,7 +21794,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 78.74 106.68 0)
 			(effects
 				(font
@@ -21885,7 +21885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 280.67 127 0)
 			(effects
 				(font
@@ -21894,7 +21894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 280.67 127 0)
 			(effects
 				(font
@@ -21921,7 +21921,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 280.67 127 0)
 			(effects
 				(font
@@ -21930,7 +21930,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 280.67 127 0)
 			(effects
 				(font
@@ -22093,7 +22093,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 67.31 110.49 0)
 			(effects
 				(font
@@ -22198,7 +22198,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 261.62 142.24 0)
 			(effects
 				(font
@@ -22327,7 +22327,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 281.94 142.24 0)
 			(effects
 				(font

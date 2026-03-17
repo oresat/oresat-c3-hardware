@@ -2478,6 +2478,16 @@
 		)
 		(uuid "580f9c76-0c91-4205-96ef-b4ce09c1dac4")
 	)
+	(text "Goes to Debug board; don't switch!"
+		(exclude_from_sim no)
+		(at 266.192 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "627ea99b-5f56-471f-b306-ab9a552ca115")
+	)
 	(text "SMPM Connectors to Backplane"
 		(exclude_from_sim no)
 		(at 202.565 149.86 0)
@@ -2511,18 +2521,6 @@
 			(justify left bottom)
 		)
 		(uuid "cda9749d-e9ba-42fd-9c91-b5d4049063ed")
-	)
-	(text "FIXME THIS SHOULD BE C3-UART-TX/RX NOT CARD\nUNLESS THIS IS REALLY CARD???"
-		(exclude_from_sim no)
-		(at 212.344 101.854 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "cdb62153-70a1-4bcf-9724-a4f3bd672abd")
 	)
 	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
 		(exclude_from_sim no)
@@ -4137,7 +4135,7 @@
 				)
 			)
 		)
-		(property "Value" "733000020"
+		(property "Value" "2477330-1"
 			(at 197.3326 156.21 0)
 			(effects
 				(font
@@ -4154,7 +4152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=SMPM_Connectors_Product_Extension-en&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=2477330-1"
 			(at 196.85 152.4 0)
 			(effects
 				(font
@@ -4163,7 +4161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Edge mounted SMPM 50ohm Connector"
+		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Board Edge, Cutout; Surface Mount Solder"
 			(at 196.85 161.29 0)
 			(effects
 				(font
@@ -4172,7 +4170,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "WM10772-ND"
+		(property "DPN" "343-2477330-1CT-ND"
 			(at 196.85 161.29 0)
 			(effects
 				(font
@@ -4181,7 +4179,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 196.85 161.29 0)
 			(effects
 				(font
@@ -4190,7 +4188,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Molex"
+		(property "MFR" "TE Connectivity Linx"
 			(at 196.85 161.29 0)
 			(effects
 				(font
@@ -4199,7 +4197,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0733000020"
+		(property "MPN" "2477330-1"
 			(at 196.85 161.29 0)
 			(effects
 				(font
@@ -4372,7 +4370,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "75"
 			(at 227.33 92.71 90)
 			(effects
 				(font
@@ -4380,7 +4378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 227.33 87.63 0)
 			(effects
 				(font
@@ -4389,7 +4387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 227.33 87.63 0)
 			(effects
 				(font
@@ -4398,7 +4396,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "75 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 227.33 87.63 0)
 			(effects
 				(font
@@ -4407,7 +4405,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT10R0CT-ND"
+		(property "DPN" "RMCF0603FT75R0CT-ND"
 			(at 227.33 87.63 0)
 			(effects
 				(font
@@ -4416,7 +4414,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 227.33 87.63 0)
 			(effects
 				(font
@@ -4434,7 +4432,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT10R0"
+		(property "MPN" "RMCF1206FT75R0"
 			(at 227.33 87.63 0)
 			(effects
 				(font
@@ -4903,7 +4901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "N/A"
 			(at 214.63 193.04 0)
 			(effects
 				(font
@@ -4912,7 +4910,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C3 v7.0 Card"
+			(at 214.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "N/A"
+			(at 214.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "N/A"
+			(at 214.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "N/A"
+			(at 214.63 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "N/A"
 			(at 214.63 193.04 0)
 			(effects
 				(font
@@ -5080,7 +5114,7 @@
 				)
 			)
 		)
-		(property "Value" "733000020"
+		(property "Value" "2477330-1"
 			(at 233.68 156.21 0)
 			(effects
 				(font
@@ -5097,7 +5131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/733000020_sd.pdf"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=SMPM_Connectors_Product_Extension-en&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=2477330-1"
 			(at 233.68 152.4 0)
 			(effects
 				(font
@@ -5106,7 +5140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Edge mounted SMPM 50ohm Connector"
+		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Board Edge, Cutout; Surface Mount Solder"
 			(at 233.68 161.29 0)
 			(effects
 				(font
@@ -5115,7 +5149,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "WM10772-ND"
+		(property "DPN" "343-2477330-1CT-ND"
 			(at 233.68 161.29 0)
 			(effects
 				(font
@@ -5124,7 +5158,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 233.68 161.29 0)
 			(effects
 				(font
@@ -5133,7 +5167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Molex"
+		(property "MFR" "TE Connectivity Linx"
 			(at 233.68 161.29 0)
 			(effects
 				(font
@@ -5142,7 +5176,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0733000020"
+		(property "MPN" "2477330-1"
 			(at 233.68 161.29 0)
 			(effects
 				(font
@@ -5228,7 +5262,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 107.95 144.78 0)
 			(effects
 				(font

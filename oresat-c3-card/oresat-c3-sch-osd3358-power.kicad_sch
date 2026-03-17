@@ -11157,7 +11157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060GS75000.pdf"
 			(at 298.45 82.55 90)
 			(effects
 				(font
@@ -11166,7 +11166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Green 520nm LED Indication - Discrete 3.2V 0603 (1608 Metric) - 430 mcd @ 20 mA"
 			(at 298.45 82.55 0)
 			(effects
 				(font
@@ -11184,7 +11184,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 298.45 82.55 0)
 			(effects
 				(font
@@ -11269,7 +11269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 182.88 218.44 0)
 			(effects
 				(font
@@ -11278,7 +11278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 182.88 218.44 0)
 			(effects
 				(font
@@ -11305,7 +11305,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 182.88 218.44 0)
 			(effects
 				(font
@@ -11314,7 +11314,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 182.88 218.44 0)
 			(effects
 				(font
@@ -11411,7 +11411,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 299.72 219.71 0)
 			(effects
 				(font
@@ -11583,7 +11583,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 289.56 190.5 0)
 			(effects
 				(font
@@ -12045,7 +12045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 298.45 139.7 0)
 			(effects
 				(font
@@ -12054,7 +12054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 298.45 139.7 0)
 			(effects
 				(font
@@ -12081,7 +12081,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 298.45 139.7 0)
 			(effects
 				(font
@@ -12214,7 +12214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 308.61 139.7 0)
 			(effects
 				(font
@@ -12223,7 +12223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 308.61 139.7 0)
 			(effects
 				(font
@@ -12250,7 +12250,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 308.61 139.7 0)
 			(effects
 				(font
@@ -12259,7 +12259,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 308.61 139.7 0)
 			(effects
 				(font
@@ -12356,7 +12356,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -13023,7 +13023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 308.61 114.3 0)
 			(effects
 				(font
@@ -13032,7 +13032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 308.61 114.3 0)
 			(effects
 				(font
@@ -13059,7 +13059,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 308.61 114.3 0)
 			(effects
 				(font
@@ -13136,7 +13136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://octavosystems.com/docs/osd335x-sm-datasheet/"
 			(at 224.79 132.08 0)
 			(effects
 				(font
@@ -13172,7 +13172,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 224.79 132.08 0)
 			(effects
 				(font
@@ -14476,7 +14476,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 298.45 124.46 0)
 			(effects
 				(font
@@ -14625,7 +14625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMBT2907A.pdf"
 			(at 288.29 132.08 0)
 			(effects
 				(font
@@ -14634,7 +14634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "PNP transistor, base/emitter/collector"
+		(property "Description" "Bipolar (BJT) Transistor PNP 60 V 600 mA 200MHz 250 mW Surface Mount TO-236AB"
 			(at 288.29 132.08 0)
 			(effects
 				(font
@@ -14643,7 +14643,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1727-1884-1-ND"
+		(property "DPN" "1727-2958-1-ND"
 			(at 288.29 132.08 0)
 			(effects
 				(font
@@ -14652,7 +14652,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 288.29 132.08 0)
 			(effects
 				(font
@@ -14670,7 +14670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMBT2907A,235"
+		(property "MPN" "PMBT2907A,215"
 			(at 288.29 132.08 0)
 			(effects
 				(font
@@ -14872,7 +14872,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 299.72 210.82 0)
 			(effects
 				(font
@@ -14881,7 +14881,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 299.72 210.82 0)
 			(effects
 				(font
@@ -14908,7 +14908,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 299.72 210.82 0)
 			(effects
 				(font
@@ -14917,7 +14917,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 299.72 210.82 0)
 			(effects
 				(font
@@ -14975,7 +14975,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 298.45 76.2 0)
 			(effects
 				(font
@@ -14984,7 +14984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 298.45 76.2 0)
 			(effects
 				(font
@@ -15011,7 +15011,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 298.45 76.2 0)
 			(effects
 				(font
@@ -15020,7 +15020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 298.45 76.2 0)
 			(effects
 				(font
@@ -15180,7 +15180,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 285.75 203.2 0)
 			(effects
 				(font

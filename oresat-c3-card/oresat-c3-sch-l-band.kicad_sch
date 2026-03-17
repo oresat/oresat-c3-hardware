@@ -8331,7 +8331,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 179.07 55.88 0)
 			(effects
 				(font
@@ -8643,7 +8643,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 341.63 60.96 0)
 			(effects
 				(font
@@ -9034,7 +9034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 266.7 200.66 0)
 			(effects
 				(font
@@ -9043,7 +9043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 266.7 200.66 0)
 			(effects
 				(font
@@ -9070,7 +9070,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 266.7 200.66 0)
 			(effects
 				(font
@@ -9175,7 +9175,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 196.85 55.88 0)
 			(effects
 				(font
@@ -9776,7 +9776,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 113.03 118.11 90)
 			(effects
 				(font
@@ -9786,6 +9786,15 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT100K"
+			(at 113.03 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 113.03 118.11 90)
 			(effects
 				(font
@@ -10515,7 +10524,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "75 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 143.51 231.14 0)
 			(effects
 				(font
@@ -10533,7 +10542,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT75R0CT-ND"
 			(at 143.51 231.14 90)
 			(effects
 				(font
@@ -10551,7 +10560,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF1206FT75R0"
+			(at 143.51 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 143.51 231.14 90)
 			(effects
 				(font
@@ -10740,7 +10758,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 247.65 140.97 0)
 			(effects
 				(font
@@ -11043,7 +11061,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 166.37 41.91 0)
 			(effects
 				(font
@@ -11402,7 +11420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6 pin ballun with two grounds and an NC."
+		(property "Description" "Signal Conditioning RF XFMR / SURF MOUNT / RoHS"
 			(at 201.93 130.302 0)
 			(effects
 				(font
@@ -11420,7 +11438,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "3157-NCS2-62+TR-ND"
+		(property "DPN" "139-NCS2-62"
 			(at 201.93 146.05 0)
 			(effects
 				(font
@@ -11439,6 +11457,15 @@
 			)
 		)
 		(property "MPN" "NCS2-62+"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Mouser"
 			(at 201.93 146.05 0)
 			(effects
 				(font
@@ -11618,7 +11645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.laird.com/document/pmbu-doc-000012068"
 			(at 257.81 104.14 0)
 			(effects
 				(font
@@ -11627,7 +11654,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two-piece EMI RF shielding cabinet"
+		(property "Description" "RF Shield Frame 0.728\" (18.50mm) X 1.156\" (29.36mm) Surface Mount"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "903-1212-1-ND"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Laird Technologies EMI"
+			(at 257.81 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BMI-S-209-F"
 			(at 257.81 101.6 0)
 			(effects
 				(font
@@ -12446,7 +12509,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 246.38 60.96 0)
 			(effects
 				(font
@@ -12766,7 +12829,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 257.81 140.97 0)
 			(effects
 				(font
@@ -12852,7 +12915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 130.81 175.26 0)
 			(effects
 				(font
@@ -12870,7 +12933,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
 			(at 130.81 175.26 90)
 			(effects
 				(font
@@ -12879,7 +12942,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 130.81 175.26 90)
 			(effects
 				(font
@@ -12888,7 +12951,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 130.81 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 130.81 175.26 90)
 			(effects
 				(font
@@ -12940,7 +13012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 279.4 193.04 0)
 			(effects
 				(font
@@ -12949,7 +13021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 279.4 193.04 0)
 			(effects
 				(font
@@ -12976,7 +13048,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 279.4 193.04 0)
 			(effects
 				(font
@@ -13275,7 +13347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "AT86RF215-ZUR"
+		(property "Description" "IC RF TxRx Only 802.15.4, General ISM < 1GHz 389.5MHz ~ 510MHz, 779MHz ~ 1.02GHz, 2.4GHz 48-VFQFN Exposed Pad"
 			(at 157.48 149.86 0)
 			(effects
 				(font
@@ -13312,6 +13384,15 @@
 			)
 		)
 		(property "MPN" "AT86RF215-ZUR"
+			(at 157.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 157.48 149.86 0)
 			(effects
 				(font
@@ -13537,7 +13618,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 212.09 57.15 0)
 			(effects
 				(font
@@ -14049,7 +14130,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 328.93 144.78 0)
 			(effects
 				(font
@@ -14219,7 +14300,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 138.43 60.96 0)
 			(effects
 				(font
@@ -15057,7 +15138,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 321.31 185.42 0)
 			(effects
 				(font
@@ -15181,6 +15262,15 @@
 			)
 		)
 		(property "MPN" "TXETALSANF-26.000000"
+			(at 100.33 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 100.33 172.72 0)
 			(effects
 				(font
@@ -15782,7 +15872,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 292.1 53.34 0)
 			(effects
 				(font
@@ -16087,7 +16177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 271.78 200.66 0)
 			(effects
 				(font
@@ -16096,7 +16186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 271.78 200.66 0)
 			(effects
 				(font
@@ -16123,7 +16213,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 271.78 200.66 0)
 			(effects
 				(font
@@ -16534,7 +16624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 130.81 172.72 0)
 			(effects
 				(font
@@ -16552,7 +16642,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
 			(at 130.81 172.72 90)
 			(effects
 				(font
@@ -16561,7 +16651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 130.81 172.72 90)
 			(effects
 				(font
@@ -16570,7 +16660,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 130.81 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 130.81 172.72 90)
 			(effects
 				(font
@@ -16990,7 +17089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -16999,7 +17098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -17026,7 +17125,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 185.42 39.37 0)
 			(effects
 				(font
@@ -17631,7 +17730,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 274.32 48.26 0)
 			(effects
 				(font
@@ -17832,7 +17931,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 261.62 200.66 0)
 			(effects
 				(font
@@ -17841,7 +17940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 261.62 200.66 0)
 			(effects
 				(font
@@ -17868,7 +17967,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 261.62 200.66 0)
 			(effects
 				(font
@@ -17971,7 +18070,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 360.68 144.78 0)
 			(effects
 				(font
@@ -18366,7 +18465,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 331.47 213.36 0)
 			(effects
 				(font

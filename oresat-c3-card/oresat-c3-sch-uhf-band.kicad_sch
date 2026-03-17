@@ -518,191 +518,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LED_Small"
-				(at -4.445 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode light-emitting-diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy -0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
@@ -8882,7 +8697,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 162.56) (xy 49.53 162.56)
+			(xy 40.64 162.56) (xy 41.91 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9439,7 +9254,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 168.91) (xy 49.53 168.91)
+			(xy 43.18 175.26) (xy 48.26 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9681,6 +9496,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 160.02) (xy 49.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9922391c-4b8c-419e-beb4-26fe85026849")
+	)
+	(wire
+		(pts
 			(xy 88.9 26.67) (xy 88.9 27.94)
 		)
 		(stroke
@@ -9798,6 +9623,16 @@
 			(type default)
 		)
 		(uuid "9cf9e62b-90cc-47ec-9427-b12bf79af401")
+	)
+	(wire
+		(pts
+			(xy 48.26 168.91) (xy 49.53 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d01641f-b263-4539-a9a6-96548a1e1c4d")
 	)
 	(wire
 		(pts
@@ -10194,6 +10029,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 175.26) (xy 48.26 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b220df35-797c-4cad-ab1c-d812611da735")
+	)
+	(wire
+		(pts
 			(xy 384.81 41.91) (xy 387.35 41.91)
 		)
 		(stroke
@@ -10201,6 +10046,16 @@
 			(type default)
 		)
 		(uuid "b2d24ea3-2761-436e-8c8e-851e443b10bf")
+	)
+	(wire
+		(pts
+			(xy 46.99 162.56) (xy 49.53 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b370a3a2-53fe-44d9-8e9d-dec5ed6de25c")
 	)
 	(wire
 		(pts
@@ -10437,7 +10292,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 160.02) (xy 49.53 160.02)
+			(xy 38.1 160.02) (xy 41.91 160.02)
 		)
 		(stroke
 			(width 0)
@@ -12379,7 +12234,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 22.86 105.41 90)
 			(effects
 				(font
@@ -12389,6 +12244,15 @@
 			)
 		)
 		(property "MPN" "RMCF0603FT100K"
+			(at 22.86 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 22.86 105.41 90)
 			(effects
 				(font
@@ -12794,7 +12658,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "3.0k"
 			(at 100.584 202.946 0)
 			(effects
 				(font
@@ -12821,7 +12685,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5.1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "3 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 99.06 201.93 0)
 			(effects
 				(font
@@ -12839,7 +12703,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT5K10CT-ND"
+		(property "DPN" "RMCF0603FT3K00CT-ND"
 			(at 99.06 201.93 0)
 			(effects
 				(font
@@ -12857,7 +12721,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT5K10"
+		(property "MPN" "RMCF0603FT3K00"
+			(at 99.06 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 99.06 201.93 0)
 			(effects
 				(font
@@ -13562,7 +13435,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "oresat-passives:0402-B-NOSILK"
 			(at 267.97 63.5 0)
 			(effects
 				(font
@@ -13571,7 +13444,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/53014/ch.pdf"
 			(at 267.97 63.5 0)
 			(effects
 				(font
@@ -13598,7 +13471,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 267.97 63.5 0)
 			(effects
 				(font
@@ -14072,7 +13945,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 146.05 45.72 0)
 			(effects
 				(font
@@ -14141,7 +14014,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PMV45EN"
+		(property "Value" "DMN3028LQ-7"
 			(at 248.92 128.27 0)
 			(effects
 				(font
@@ -14159,7 +14032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3028LQ.pdf"
 			(at 260.35 130.81 0)
 			(effects
 				(font
@@ -14168,7 +14041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/source/drain"
+		(property "Description" "N-Channel 30 V 6.2A (Ta) 860mW (Ta) Surface Mount SOT-23-3 (TO-236)"
 			(at 260.35 130.81 0)
 			(effects
 				(font
@@ -14177,7 +14050,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1727-2307-1-ND"
+		(property "DPN" "31-DMN3028LQ-7CT-ND"
 			(at 260.35 130.81 0)
 			(effects
 				(font
@@ -14186,7 +14059,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 260.35 130.81 0)
 			(effects
 				(font
@@ -14195,7 +14068,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Nexperia"
+		(property "MFR" "Diodes Incorporated"
 			(at 260.35 130.81 0)
 			(effects
 				(font
@@ -14204,7 +14077,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMV45EN2R"
+		(property "MPN" "DMN3028LQ-7"
 			(at 260.35 130.81 0)
 			(effects
 				(font
@@ -14323,7 +14196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 396.24 52.07 0)
 			(effects
 				(font
@@ -14332,7 +14205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 396.24 52.07 0)
 			(effects
 				(font
@@ -14359,7 +14232,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 396.24 52.07 0)
 			(effects
 				(font
@@ -14489,6 +14362,15 @@
 				(hide yes)
 			)
 		)
+		(property "DST" "DigiKey"
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "380ceccd-b9ad-4666-b82b-347a3fc02d82")
 		)
@@ -14597,7 +14479,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33k"
+		(property "Value" "1k"
 			(at 279.4 216.535 0)
 			(effects
 				(font
@@ -14606,7 +14488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 280.67 214.63 0)
 			(effects
 				(font
@@ -14615,7 +14497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 280.67 214.63 0)
 			(effects
 				(font
@@ -14624,7 +14506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "33 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "1 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 280.67 214.63 0)
 			(effects
 				(font
@@ -14633,7 +14515,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "RMCF0603FT33K0CT-ND"
+		(property "DPN" "RMCF0603FT1K00CT-ND"
 			(at 280.67 214.63 0)
 			(effects
 				(font
@@ -14642,7 +14524,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 280.67 214.63 0)
 			(effects
 				(font
@@ -14660,7 +14542,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF0603FT33K0"
+		(property "MPN" "RMCF0603FT1K00"
 			(at 280.67 214.63 0)
 			(effects
 				(font
@@ -14745,7 +14627,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 214.63 105.41 0)
 			(effects
 				(font
@@ -14955,7 +14837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -14964,7 +14846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -14982,7 +14864,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 125.73 101.6 90)
 			(effects
 				(font
@@ -15001,6 +14883,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 125.73 101.6 0)
 			(effects
 				(font
@@ -15116,7 +15007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 255.27 134.62 0)
 			(effects
 				(font
@@ -15125,7 +15016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 255.27 134.62 0)
 			(effects
 				(font
@@ -15152,7 +15043,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 255.27 134.62 0)
 			(effects
 				(font
@@ -15161,7 +15052,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 255.27 134.62 0)
 			(effects
 				(font
@@ -15189,6 +15080,119 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
 					(reference "R81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 44.45 162.56 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ad98cbf-b664-4667-bdde-342cc3b480a1")
+		(property "Reference" "R27"
+			(at 44.196 164.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 44.196 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 44.45 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 44.45 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
+			(at 44.45 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 44.45 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 44.45 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 44.45 162.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38e60eb0-f56b-4507-a498-b4dcffdb83b8")
+		)
+		(pin "2"
+			(uuid "791cc5d6-04a4-4b9a-a0d5-b5721a7f5852")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -15522,7 +15526,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 237.49 163.83 0)
 			(effects
 				(font
@@ -15602,7 +15606,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -15611,7 +15615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -15638,7 +15642,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -15647,7 +15651,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -15789,7 +15793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "AT86RF215-ZUR"
+		(property "Description" "IC RF TxRx Only 802.15.4, General ISM < 1GHz 389.5MHz ~ 510MHz, 779MHz ~ 1.02GHz, 2.4GHz 48-VFQFN Exposed Pad"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -15826,6 +15830,15 @@
 			)
 		)
 		(property "MPN" "AT86RF215-ZUR"
+			(at 67.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 67.31 137.16 0)
 			(effects
 				(font
@@ -16265,7 +16278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 382.27 147.32 0)
 			(effects
 				(font
@@ -16274,7 +16287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 382.27 147.32 0)
 			(effects
 				(font
@@ -16283,7 +16296,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "5.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 382.27 147.32 0)
 			(effects
 				(font
@@ -16292,7 +16305,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT5K60CT-ND"
 			(at 382.27 147.32 0)
 			(effects
 				(font
@@ -16301,7 +16314,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 382.27 147.32 0)
 			(effects
 				(font
@@ -16319,7 +16332,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT5K60"
 			(at 382.27 147.32 0)
 			(effects
 				(font
@@ -16509,7 +16522,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 209.55 100.33 0)
 			(effects
 				(font
@@ -16644,7 +16657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 266.7 114.3 0)
 			(effects
 				(font
@@ -16653,7 +16666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 266.7 114.3 0)
 			(effects
 				(font
@@ -16680,7 +16693,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 266.7 114.3 0)
 			(effects
 				(font
@@ -17027,7 +17040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -17036,7 +17049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -17063,7 +17076,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 110.49 36.83 0)
 			(effects
 				(font
@@ -17233,7 +17246,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 290.83 100.33 0)
 			(effects
 				(font
@@ -17276,7 +17289,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
+		(lib_id "Device:LED_Small_Filled")
 		(at 274.32 134.62 270)
 		(mirror x)
 		(unit 1)
@@ -17294,7 +17307,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AMBER"
+		(property "Value" "RED"
 			(at 273.05 135.89 90)
 			(effects
 				(font
@@ -17312,7 +17325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060RS75000.pdf"
 			(at 274.32 134.62 90)
 			(effects
 				(font
@@ -17321,7 +17334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "Red 625nm LED Indication - Discrete 2V 0603 (1608 Metric) - 250 mcd @ 20 mA"
 			(at 274.32 134.62 0)
 			(effects
 				(font
@@ -17330,7 +17343,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "732-150060AS75000CT-ND"
+		(property "DPN" "732-4978-1-ND"
 			(at 274.32 134.62 0)
 			(effects
 				(font
@@ -17339,7 +17352,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 274.32 134.62 0)
 			(effects
 				(font
@@ -17357,7 +17370,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "150060AS75000"
+		(property "MPN" "150060RS75000"
 			(at 274.32 134.62 0)
 			(effects
 				(font
@@ -17647,7 +17660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 125.73 109.22 0)
 			(effects
 				(font
@@ -17656,7 +17669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "5.6 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 125.73 109.22 0)
 			(effects
 				(font
@@ -17665,7 +17678,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT5K60CT-ND"
 			(at 125.73 109.22 90)
 			(effects
 				(font
@@ -17683,7 +17696,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT5K60"
 			(at 125.73 109.22 90)
 			(effects
 				(font
@@ -17693,6 +17706,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 125.73 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 125.73 109.22 0)
 			(effects
 				(font
@@ -17916,7 +17938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -17925,7 +17947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -17934,7 +17956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+		(property "Description" "100 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -17952,7 +17974,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -17961,7 +17983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 158.75 44.45 0)
 			(effects
 				(font
@@ -18086,7 +18108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 402.59 55.88 0)
 			(effects
 				(font
@@ -18095,7 +18117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 402.59 55.88 0)
 			(effects
 				(font
@@ -18122,7 +18144,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 402.59 55.88 0)
 			(effects
 				(font
@@ -18226,7 +18248,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 243.84 212.09 0)
 			(effects
 				(font
@@ -18294,7 +18316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 149.86 171.45 0)
 			(effects
 				(font
@@ -18303,7 +18325,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 149.86 171.45 0)
 			(effects
 				(font
@@ -18312,7 +18334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 149.86 171.45 0)
 			(effects
 				(font
@@ -18321,7 +18343,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "P10.0KHCT-ND "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 149.86 171.45 0)
 			(effects
 				(font
@@ -18330,7 +18352,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic "
+		(property "MFR" "Stackpole Electronics"
 			(at 149.86 171.45 0)
 			(effects
 				(font
@@ -18339,7 +18361,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-3EKF1002V"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 149.86 171.45 0)
 			(effects
 				(font
@@ -18350,6 +18372,15 @@
 		)
 		(property "DIS" "DigiKey"
 			(at 149.86 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 149.86 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18416,7 +18447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "5-6000 MHZ LOW DISTORTION SPDT S"
+		(property "Description" "RF Switch ICs 5-6000MHz SPDT IL .25dB Iso 39dB"
 			(at 140.97 128.27 0)
 			(effects
 				(font
@@ -18425,7 +18456,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "2312-QPC1022TR7CT-ND "
+		(property "DPN" "772-QPC1022TR7"
 			(at 140.97 128.27 0)
 			(effects
 				(font
@@ -18434,7 +18465,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Qorvo "
+		(property "MFR" "Qorvo"
 			(at 140.97 128.27 0)
 			(effects
 				(font
@@ -18443,7 +18474,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "QPC1022TR7 "
+		(property "MPN" "QPC1022TR7"
 			(at 140.97 128.27 0)
 			(effects
 				(font
@@ -18453,6 +18484,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 140.97 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Mouser"
 			(at 140.97 128.27 0)
 			(effects
 				(font
@@ -19024,7 +19064,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 274.32 128.27 0)
 			(effects
 				(font
@@ -19033,7 +19073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 274.32 128.27 0)
 			(effects
 				(font
@@ -19060,7 +19100,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 274.32 128.27 0)
 			(effects
 				(font
@@ -19069,7 +19109,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 274.32 128.27 0)
 			(effects
 				(font
@@ -19335,7 +19375,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 283.21 128.27 0)
 			(effects
 				(font
@@ -19444,6 +19484,119 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 44.45 160.02 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a71ac75-442f-4109-acc2-e79649b8b350")
+		(property "Reference" "R26"
+			(at 44.704 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 44.704 157.988 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 44.45 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "Digikey"
+			(at 44.45 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
+			(at 44.45 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics"
+			(at 44.45 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 44.45 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
+			(at 44.45 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad6ba395-5337-4ce9-b153-dc230e6db12b")
+		)
+		(pin "2"
+			(uuid "c635ee52-e768-4e38-bbad-d1ae03528299")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 365.76 147.32 0)
 		(mirror y)
@@ -19505,7 +19658,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 365.76 147.32 0)
 			(effects
 				(font
@@ -19837,7 +19990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 327.66 166.37 0)
 			(effects
 				(font
@@ -19846,7 +19999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 327.66 166.37 0)
 			(effects
 				(font
@@ -19873,7 +20026,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 327.66 166.37 0)
 			(effects
 				(font
@@ -19882,7 +20035,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 327.66 166.37 0)
 			(effects
 				(font
@@ -20006,7 +20159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 227.33 55.88 0)
 			(effects
 				(font
@@ -20015,7 +20168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 227.33 55.88 0)
 			(effects
 				(font
@@ -20042,7 +20195,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 227.33 55.88 0)
 			(effects
 				(font
@@ -20148,7 +20301,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 88.9 45.72 0)
 			(effects
 				(font
@@ -20235,7 +20388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -20244,7 +20397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -20271,7 +20424,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 158.75 52.07 0)
 			(effects
 				(font
@@ -20440,7 +20593,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 261.62 217.17 0)
 			(effects
 				(font
@@ -20501,7 +20654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTR4101P"
+		(property "Value" "DMP2035UQ-7"
 			(at 276.86 118.11 0)
 			(effects
 				(font
@@ -20521,7 +20674,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/NTR2101P-D.PDF"
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf"
 			(at 271.78 118.11 0)
 			(effects
 				(font
@@ -20531,7 +20684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-Channel 20V 1.8A (Ta) 420mW (Ta) Surface Mount SOT-23-3 (TO-236)"
+		(property "Description" "P-Channel 20 V 4.9A (Ta) 810mW (Ta) Surface Mount SOT-23-3 (TO-236)"
 			(at 271.78 118.11 0)
 			(effects
 				(font
@@ -20540,7 +20693,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "NTR4101PT1GOSCT-ND"
+		(property "DPN" "31-DMP2035UQ-7CT-ND"
 			(at 271.78 118.11 0)
 			(effects
 				(font
@@ -20549,7 +20702,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 271.78 118.11 0)
 			(effects
 				(font
@@ -20558,7 +20711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "On Semiconductor"
+		(property "MFR" "Diodes Incorporated"
 			(at 271.78 118.11 0)
 			(effects
 				(font
@@ -20567,7 +20720,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NTR4101PT1G"
+		(property "MPN" "DMP2035UQ-7"
 			(at 271.78 118.11 0)
 			(effects
 				(font
@@ -21086,7 +21239,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 377.19 52.07 0)
 			(effects
 				(font
@@ -21636,7 +21789,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 283.21 104.14 0)
 			(effects
 				(font
@@ -21809,7 +21962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 280.67 233.68 0)
 			(effects
 				(font
@@ -21818,7 +21971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 280.67 233.68 0)
 			(effects
 				(font
@@ -21845,7 +21998,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 280.67 233.68 0)
 			(effects
 				(font
@@ -21854,7 +22007,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 280.67 233.68 0)
 			(effects
 				(font
@@ -22347,6 +22500,15 @@
 				(hide yes)
 			)
 		)
+		(property "DST" "DigiKey"
+			(at 27.94 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "f2600351-3585-4721-bd85-8cda78c0f229")
 		)
@@ -22601,7 +22763,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 252.73 52.07 0)
 			(effects
 				(font
@@ -22746,7 +22908,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 128.27 45.72 0)
 			(effects
 				(font
@@ -22755,7 +22917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 128.27 45.72 0)
 			(effects
 				(font
@@ -22782,7 +22944,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 128.27 45.72 0)
 			(effects
 				(font
@@ -22826,7 +22988,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
-		(at 46.99 168.91 90)
+		(at 43.18 175.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -22834,7 +22996,7 @@
 		(dnp no)
 		(uuid "a2652321-5ec4-4845-917c-a0c12e095e56")
 		(property "Reference" "TP171"
-			(at 49.022 166.37 90)
+			(at 45.212 172.72 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -22843,7 +23005,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 39.37 168.91 0)
+			(at 35.56 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22852,7 +23014,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
-			(at 36.83 168.91 0)
+			(at 33.02 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22861,7 +23023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 168.91 0)
+			(at 43.18 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22870,7 +23032,7 @@
 			)
 		)
 		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
-			(at 39.624 168.656 0)
+			(at 35.814 175.006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23087,7 +23249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 123.19 41.91 0)
 			(effects
 				(font
@@ -23096,7 +23258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 123.19 41.91 0)
 			(effects
 				(font
@@ -23123,7 +23285,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 123.19 41.91 0)
 			(effects
 				(font
@@ -23292,7 +23454,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 245.11 38.1 0)
 			(effects
 				(font
@@ -23427,7 +23589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 219.71 168.91 0)
 			(effects
 				(font
@@ -23436,7 +23598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 219.71 168.91 0)
 			(effects
 				(font
@@ -23463,7 +23625,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 219.71 168.91 0)
 			(effects
 				(font
@@ -23472,7 +23634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 219.71 168.91 0)
 			(effects
 				(font
@@ -23567,7 +23729,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 199.39 100.33 0)
 			(effects
 				(font
@@ -23889,7 +24051,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AMB"
+		(property "Value" "AMBER"
 			(at 100.584 209.55 90)
 			(effects
 				(font
@@ -23907,7 +24069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/150060AS75000.pdf"
 			(at 99.06 208.28 90)
 			(effects
 				(font
@@ -23962,6 +24124,15 @@
 			)
 		)
 		(property "MPN" "150060AS75000"
+			(at 99.06 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 99.06 208.28 90)
 			(effects
 				(font
@@ -24574,7 +24745,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 243.84 100.33 0)
 			(effects
 				(font
@@ -24886,7 +25057,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 143.51 36.83 0)
 			(effects
 				(font
@@ -26108,7 +26279,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 229.87 153.67 0)
 			(effects
 				(font
@@ -26277,7 +26448,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 83.82 27.94 0)
 			(effects
 				(font
@@ -26516,7 +26687,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 109.22 66.04 0)
 			(effects
 				(font
@@ -26778,7 +26949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 331.47 170.18 0)
 			(effects
 				(font
@@ -26787,7 +26958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 331.47 170.18 0)
 			(effects
 				(font
@@ -26814,7 +26985,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 331.47 170.18 0)
 			(effects
 				(font
@@ -26823,7 +26994,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 331.47 170.18 0)
 			(effects
 				(font
@@ -27118,7 +27289,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 110.49 29.21 0)
 			(effects
 				(font
@@ -27127,7 +27298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 110.49 29.21 0)
 			(effects
 				(font
@@ -27154,7 +27325,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 110.49 29.21 0)
 			(effects
 				(font
@@ -27394,7 +27565,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "oresat-passives:0402-B-NOSILK"
 			(at 361.95 63.5 0)
 			(effects
 				(font
@@ -27403,7 +27574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vishay.com/docs/53014/ch.pdf"
 			(at 361.95 63.5 0)
 			(effects
 				(font
@@ -27430,7 +27601,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 361.95 63.5 0)
 			(effects
 				(font
@@ -27706,7 +27877,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -28407,7 +28578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -28416,7 +28587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -28425,7 +28596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -28434,7 +28605,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" ""
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -28443,7 +28614,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -28452,7 +28623,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Stackpole Electronics Inc"
+		(property "MFR" "Stackpole Electronics"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -28461,7 +28632,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "RMCF0603FT10K0"
 			(at 382.27 139.7 0)
 			(effects
 				(font
@@ -29061,7 +29232,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 384.81 38.1 0)
 			(effects
 				(font
@@ -29316,7 +29487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6 pin ballun with two grounds and an NC."
+		(property "Description" "Signal Conditioning RF XFMR / SURF MOUNT / RoHS"
 			(at 107.95 117.602 0)
 			(effects
 				(font
@@ -29334,7 +29505,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "3157-NCS2-62+TR-ND"
+		(property "DPN" "139-NCS2-62"
 			(at 107.95 133.35 0)
 			(effects
 				(font
@@ -29353,6 +29524,15 @@
 			)
 		)
 		(property "MPN" "NCS2-62+"
+			(at 107.95 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "Mouser"
 			(at 107.95 133.35 0)
 			(effects
 				(font
@@ -29413,7 +29593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 233.68 52.07 0)
 			(effects
 				(font
@@ -29422,7 +29602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 233.68 52.07 0)
 			(effects
 				(font
@@ -29449,7 +29629,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 233.68 52.07 0)
 			(effects
 				(font
@@ -29651,7 +29831,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -29660,7 +29840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -29669,7 +29849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
+		(property "Description" "10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -29678,7 +29858,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "P10.0KHCT-ND "
+		(property "DPN" "RMCF0603FT10K0CT-ND"
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -29687,7 +29867,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Panasonic "
+		(property "MFR" "Stackpole Electronics"
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -29696,7 +29876,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ERJ-3EKF1002V"
+		(property "MPN" "RMCF0603FT10K0"
 			(at 154.94 176.53 0)
 			(effects
 				(font
@@ -29706,6 +29886,15 @@
 			)
 		)
 		(property "DIS" "DigiKey"
+			(at 154.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DST" "DigiKey"
 			(at 154.94 176.53 0)
 			(effects
 				(font
