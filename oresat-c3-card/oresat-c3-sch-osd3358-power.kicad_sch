@@ -12750,7 +12750,7 @@
 			(uuid "05cc7a8e-6610-4542-917b-80561e72b7d9")
 		)
 		(instances
-			(project ""
+			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c1da208-2d1c-4d05-9cc7-59584e50a6ac"
 					(reference "J7")
 					(unit 1)

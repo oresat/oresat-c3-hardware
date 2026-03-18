@@ -4711,7 +4711,7 @@
 			(uuid "49d1868a-7eb0-41fa-a14b-2ddf1b55099e")
 		)
 		(instances
-			(project ""
+			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/b9a61b98-fba0-4063-a603-e7fc9d7070a0"
 					(reference "J8")
 					(unit 1)

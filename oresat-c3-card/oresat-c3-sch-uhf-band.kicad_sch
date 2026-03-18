@@ -13871,7 +13871,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 283.21 59.69 0)
 			(effects
 				(font
@@ -14041,7 +14041,7 @@
 		(dnp no)
 		(uuid "1f127483-4c42-4e20-862a-ebb0f9226436")
 		(property "Reference" "Q4"
-			(at 255.27 125.73 0)
+			(at 256.794 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14050,7 +14050,7 @@
 			)
 		)
 		(property "Value" "DMN3028LQ-7"
-			(at 248.92 128.27 0)
+			(at 245.364 127.508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17633,7 +17633,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 308.61 59.69 0)
 			(effects
 				(font
@@ -25465,7 +25465,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 345.44 59.69 0)
 			(effects
 				(font
@@ -28639,7 +28639,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 295.91 59.69 0)
 			(effects
 				(font

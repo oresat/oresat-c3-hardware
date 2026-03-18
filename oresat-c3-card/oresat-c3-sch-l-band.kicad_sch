@@ -8758,7 +8758,7 @@
 			(uuid "e6d8f42c-c567-4b75-8410-b26c1d3f64b8")
 		)
 		(instances
-			(project ""
+			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
 					(reference "SH2")
 					(unit 1)
@@ -12217,7 +12217,7 @@
 			(uuid "01c0701f-bc09-44b6-a52f-fcc33c3627b2")
 		)
 		(instances
-			(project ""
+			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
 					(reference "SH1")
 					(unit 1)
