@@ -702,7 +702,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -1241,6 +1241,17 @@
 			(uuid "a32b23d4-6cf2-412b-8def-deb095b17029")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_5x1206.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
@@ -3205,7 +3216,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -3966,6 +3977,17 @@
 			(uuid "84448074-a8bc-4fb0-971b-968e41e28795")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8_3x3mm_P0.65mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -8735,7 +8757,7 @@
 			(uuid "dfea25af-e6ba-46e2-890c-216e7c989c7d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12013,7 +12035,7 @@
 			(uuid "679e03dc-b008-4ab0-bfbf-11e40b72d206")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12141,13 +12163,13 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
 		)
 		(property "Value" "10k"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "8f9987d7-778c-4843-b793-466f7f43bc27")
 			(effects
@@ -12680,6 +12702,17 @@
 			(uuid "4294aefe-71b2-4ef7-a70c-6cab6520b658")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_5x1206.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -19899,6 +19932,17 @@
 			(uuid "db0f0dfe-aa03-43b2-bda8-69faebeefbb4")
 		)
 		(embedded_fonts no)
+		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/2450FB15A050E_JOT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -27138,7 +27182,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -27677,6 +27721,17 @@
 			(uuid "e8d7cc53-921f-44e3-bb47-f0e4146c4695")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_5x1206.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "oresat-misc:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
@@ -28224,15 +28279,15 @@
 			(uuid "bfc0027e-ce14-49c7-8dbd-ec6a08f88836")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/RF_Shielding.3dshapes/Laird_Technologies_BMI-S-209-F_29.36x18.50mm.step"
+		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/bmi-s-209-f.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 0 0 7)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -30321,7 +30376,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -30750,6 +30805,17 @@
 			(uuid "c1101557-1423-4fdf-8da1-5375cf51e47a")
 		)
 		(embedded_fonts no)
+		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/mac-24+.stp"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
@@ -31655,7 +31721,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -31860,6 +31926,17 @@
 			(uuid "21a40ad1-fd77-4076-90fd-95df4f1eb843")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_Mini-Circuits_FV1206-1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -36949,7 +37026,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -37488,6 +37565,17 @@
 			(uuid "796ceaa1-5cfe-41ad-a8d4-4af9740fd78f")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_5x1206.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -39287,7 +39375,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -43109,6 +43197,17 @@
 			(uuid "35005b71-06d8-4c39-92d4-fb48e6420f83")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "oresat-ics:BP0805"
 		(layer "F.Cu")
@@ -49886,6 +49985,17 @@
 			(uuid "bd712a4e-e42a-40ed-85b1-ef6543fe274d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -52321,7 +52431,7 @@
 			(uuid "b4ad52cc-e26a-4e27-82cb-fe2129f9b61d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -55442,7 +55552,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -56203,6 +56313,17 @@
 			(uuid "bd7618e1-3f60-4be0-a454-5824aa3c819b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8_3x3mm_P0.65mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -59246,6 +59367,17 @@
 			(uuid "254500c2-1439-4b9c-ae66-1f7b91bbde04")
 		)
 		(embedded_fonts no)
+		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/2450FB15A050E_JOT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -62147,7 +62279,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -62686,6 +62818,17 @@
 			(uuid "dd160654-48ee-45e5-b301-549b5cbab6a8")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_5x1206.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -64024,7 +64167,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 				(justify left bottom)
@@ -64216,6 +64359,17 @@
 			(uuid "61581421-d530-43bf-b08c-c406c6c0dbb4")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM3B-4Pin_5.0x3.2mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1.5)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "oresat-passives:0603-C-NOSILK"
 		(layer "F.Cu")
@@ -72817,7 +72971,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -73027,7 +73181,7 @@
 			(uuid "ecdfbd8d-5995-4f44-b909-41774bfcf330")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -75371,7 +75525,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -75910,6 +76064,17 @@
 			(uuid "7e6f7a0f-1d66-4bcc-8705-0bb94daf7e6d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_Array_Convex_5x1206.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_1210_3225Metric"
 		(layer "F.Cu")
@@ -79159,13 +79324,13 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
 		)
 		(property "Value" "MAX941EUA+"
-			(at 0 2.7 270)
+			(at 0 2.7 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b8c9808a-6ff2-4520-acc4-98a5ec68768c")
@@ -79920,6 +80085,17 @@
 			(uuid "203624b8-ea66-4e57-9f3b-0d998eba6a32")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/MSOP-8-1EP_3x3mm_P0.65mm_EP1.5x1.8mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Diode_SMD:D_SOD-323"
 		(layer "F.Cu")
@@ -94168,7 +94344,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 			)
@@ -94380,7 +94556,7 @@
 			(uuid "cdfe3453-9f32-4ae0-b2d6-96c17741227e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_Abracon_ABM10-4Pin_2.5x2.0mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_2520-4Pin_2.5x2.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -94448,7 +94624,7 @@
 			)
 		)
 		(property "MFG" "Analog Devices"
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8842a50-7fdb-44a5-bfe3-4a2784bb5bc8")
@@ -94850,7 +95026,7 @@
 			(uuid "73cf7f3e-0be9-4d27-b08c-162dc5ef3228")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_3x3mm_P0.5mm_EP1.65x2.38mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SON.3dshapes/WSON-8-1EP_3x3mm_P0.5mm_EP1.6x2.0mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -111652,6 +111828,17 @@
 			(uuid "4cc480b1-7e91-4d48-8523-4ee59cb7be5e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-89-3.step"
+			(offset
+				(xyz 0 2 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
 		(layer "F.Cu")
@@ -112694,7 +112881,7 @@
 			(uuid "abb00074-ffd3-44b1-aa37-77b6bd62fc80")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -113363,7 +113550,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 				)
 				(justify left bottom)
 			)
@@ -113523,6 +113710,17 @@
 			(uuid "35941bdf-d0f7-433f-aa89-29e003d2ee9e")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3215-2Pin_3.2x1.5mm.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Package_SO:Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm_ThermalVias"
 		(layer "F.Cu")
@@ -114094,7 +114292,7 @@
 			(uuid "20a52170-d68b-46d7-bd3d-6aec727cef57")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/Texas_R-PDSO-G8_EP2.95x4.9mm_Mask2.4x3.1mm.step"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -114630,7 +114828,7 @@
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.127)
+					(thickness 0.125)
 					(bold yes)
 				)
 				(justify right bottom)
@@ -114979,6 +115177,17 @@
 			(uuid "bba014fe-7d26-4789-9327-087075612b3c")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Filter.3dshapes/Filter_Mini-Circuits_FV1206-1.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
