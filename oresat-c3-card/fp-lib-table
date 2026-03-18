@@ -9,5 +9,4 @@
   (lib (name "oresat-pcbs")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-pcbs.pretty")(options "")(descr ""))
   (lib (name "oresat-qrcodes")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-qrcodes.pretty")(options "")(descr ""))
   (lib (name "oresat-transistors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/oresat-transistors.pretty")(options "")(descr ""))
-  (lib (name "U-PIR-PIRT1280A1-12")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-footprints/U-PIR-PIRT1280A1-12.pretty")(options "")(descr ""))
 )
