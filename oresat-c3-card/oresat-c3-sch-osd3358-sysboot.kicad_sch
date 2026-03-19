@@ -9605,6 +9605,10 @@
 		(uuid "1cc20f3f-3f7c-4c19-bb08-786e6697209f")
 	)
 	(no_connect
+		(at 161.29 91.44)
+		(uuid "3c15136b-cfbd-4125-bca2-933a032d59e8")
+	)
+	(no_connect
 		(at 280.67 171.45)
 		(uuid "3ce94d74-8958-4699-a573-861b6f4859a7")
 	)
@@ -9627,6 +9631,10 @@
 	(no_connect
 		(at 295.91 171.45)
 		(uuid "9e631463-7594-4ada-9a89-7a367d5e5c91")
+	)
+	(no_connect
+		(at 161.29 93.98)
+		(uuid "bc7ad5d7-1761-4e16-9c60-f7aba76d6b06")
 	)
 	(wire
 		(pts
@@ -9657,16 +9665,6 @@
 			(type default)
 		)
 		(uuid "0b210503-0469-44e7-a019-9c5b2f2c77aa")
-	)
-	(wire
-		(pts
-			(xy 158.75 93.98) (xy 161.29 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf6382f-15c5-4919-b67c-29a9bf94525e")
 	)
 	(wire
 		(pts
@@ -10170,23 +10168,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 161.29 86.36)
+			(xy 116.84 86.36) (xy 161.29 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9cfb4515-55bc-44d9-8680-5b89c712acfa")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 161.29 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e0151b0-4980-463a-954f-44ca910b1e01")
 	)
 	(wire
 		(pts
@@ -10200,7 +10188,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 135.89) (xy 158.75 135.89)
+			(xy 116.84 135.89) (xy 158.75 135.89)
 		)
 		(stroke
 			(width 0)
@@ -10430,7 +10418,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 86.36) (xy 113.03 135.89)
+			(xy 116.84 86.36) (xy 116.84 135.89)
 		)
 		(stroke
 			(width 0)
@@ -11873,72 +11861,6 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 158.75 91.44 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "59453407-6bd0-4930-b291-92c21d68399c")
-		(property "Reference" "TP32"
-			(at 152.4 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 158.75 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 158.75 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d5786f7-f859-4be1-8c16-6e57af99bd08")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
-					(reference "TP32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
 		(at 149.86 166.37 270)
 		(unit 1)
 		(exclude_from_sim yes)
@@ -13046,72 +12968,6 @@
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
 					(reference "U1")
 					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 158.75 93.98 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b9ff259-8130-4486-b436-b19d41049b41")
-		(property "Reference" "TP49"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 158.75 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 158.75 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 158.75 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b037517c-b536-4444-b594-c95c6ec19c74")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/0c732c1e-ab0d-41ac-9d77-9d7763333b6f"
-					(reference "TP49")
-					(unit 1)
 				)
 			)
 		)

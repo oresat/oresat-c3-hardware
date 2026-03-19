@@ -4972,7 +4972,7 @@
 	)
 	(text "-2.8 dBm\n"
 		(exclude_from_sim no)
-		(at 330.454 204.47 0)
+		(at 357.886 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4983,7 +4983,7 @@
 	)
 	(text "808 MHz"
 		(exclude_from_sim no)
-		(at 331.724 202.184 0)
+		(at 359.156 219.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5303,12 +5303,6 @@
 		(uuid "2567597f-7f67-4878-8947-00a8ce1923e1")
 	)
 	(junction
-		(at 325.12 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2bdf7c53-c40c-4d90-be1a-174ae2dc1b6d")
-	)
-	(junction
 		(at 299.72 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5463,6 +5457,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5119d7f-a26d-4b07-a844-b59c68ea2af5")
+	)
+	(junction
+		(at 351.79 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a638de57-f002-4811-bcec-5ddb5915caba")
 	)
 	(junction
 		(at 228.6 140.97)
@@ -7138,7 +7138,7 @@
 	)
 	(polyline
 		(pts
-			(xy 330.2 205.105) (xy 326.39 209.55)
+			(xy 353.695 215.9) (xy 358.14 219.71)
 		)
 		(stroke
 			(width 0)
@@ -7198,7 +7198,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.36 213.36) (xy 355.6 213.36)
+			(xy 340.36 213.36) (xy 351.79 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7238,7 +7238,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 213.36) (xy 325.12 213.36)
+			(xy 320.04 213.36) (xy 328.93 213.36)
 		)
 		(stroke
 			(width 0)
@@ -7887,16 +7887,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 213.36) (xy 328.93 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5d80a61-c5ba-4864-951a-4f1feb634f1d")
-	)
-	(wire
-		(pts
 			(xy 279.4 203.2) (xy 284.48 203.2)
 		)
 		(stroke
@@ -8180,6 +8170,16 @@
 			(color 146 146 146 1)
 		)
 		(uuid "ef140f65-d7f6-4ad7-8c27-78f3dfc7828c")
+	)
+	(wire
+		(pts
+			(xy 351.79 213.36) (xy 355.6 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f116563f-b2a1-4eb2-8cb1-5283f9802cda")
 	)
 	(wire
 		(pts
@@ -14469,7 +14469,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
-		(at 325.12 213.36 0)
+		(at 351.79 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -14477,7 +14477,7 @@
 		(dnp no)
 		(uuid "7d171b42-80f0-4784-bbb6-aa224240faa4")
 		(property "Reference" "TP801"
-			(at 325.12 210.82 0)
+			(at 351.79 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -14485,7 +14485,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 325.12 205.74 0)
+			(at 351.79 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,7 +14494,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
-			(at 325.12 203.2 0)
+			(at 351.79 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14503,7 +14503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 325.12 213.36 0)
+			(at 351.79 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14512,7 +14512,7 @@
 			)
 		)
 		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
-			(at 325.12 213.36 0)
+			(at 351.79 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)

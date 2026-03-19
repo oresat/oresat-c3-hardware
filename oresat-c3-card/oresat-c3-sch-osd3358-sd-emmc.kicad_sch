@@ -13094,6 +13094,14 @@
 		(at 223.52 139.7)
 		(uuid "8afb15e8-8d76-453c-9234-e76feb68c70e")
 	)
+	(no_connect
+		(at 179.07 68.58)
+		(uuid "c1a86e9d-7fb4-4720-bedb-dbf5de506af7")
+	)
+	(no_connect
+		(at 179.07 66.04)
+		(uuid "d9652b44-9f06-4185-95ec-6aae38b30c33")
+	)
 	(wire
 		(pts
 			(xy 295.91 119.38) (xy 300.99 119.38)
@@ -13143,16 +13151,6 @@
 			(type default)
 		)
 		(uuid "0296326c-e547-4b09-8843-23d98e1bc461")
-	)
-	(wire
-		(pts
-			(xy 176.53 68.58) (xy 179.07 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "038afd93-2312-47ed-8dbc-84cf9be2236e")
 	)
 	(wire
 		(pts
@@ -15373,16 +15371,6 @@
 			(type default)
 		)
 		(uuid "e5ff36bd-e145-44dd-9362-eaf342a314b5")
-	)
-	(wire
-		(pts
-			(xy 176.53 66.04) (xy 179.07 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87e7a03-c193-4eb7-a1d1-6f91752227dc")
 	)
 	(wire
 		(pts
@@ -19382,72 +19370,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 176.53 66.04 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c6ddc1f-f3c7-4c52-88f6-f390359e74af")
-		(property "Reference" "TP23"
-			(at 170.18 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 176.53 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 176.53 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 176.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21f0de4d-c971-4bed-b86c-0ae4ab16807c")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "TP23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 350.52 154.94 0)
 		(unit 1)
@@ -22090,72 +22012,6 @@
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 176.53 68.58 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "c3469bc4-2677-4a83-b002-b2b25e4bf254")
-		(property "Reference" "TP24"
-			(at 170.18 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Test-Point"
-			(at 176.53 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 176.53 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1mm round SMT test point"
-			(at 176.53 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df23a00e-57e9-4be3-9d08-bc5626654635")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/f3d147ad-4cea-4d77-ae60-95882b03454e"
-					(reference "TP24")
 					(unit 1)
 				)
 			)
