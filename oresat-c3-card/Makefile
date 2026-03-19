@@ -75,9 +75,12 @@ stp:	## A 3D STEP file to import into your MCAD package
 	kicad-cli pcb export step -o $(OUTPUT_DIR)/$(DOC_DIR)/$(PROJECT_NAME)-pcba.step --no-dnp --include-silkscreen --include-soldermask --include-pads --cut-vias-in-body --subst-models $(BOARD)
 
 rme:	## Readme files
-	cp README.md $(OUTPUT_DIR)/$(DOC_DIR)
-	cp README-fabrication.md $(OUTPUT_DIR)/$(FAB_DIR)
-	cp README-assembly.md $(OUTPUT_DIR)/$(ASM_DIR)
+	sed "s/PROJECT-NAME/$(PROJECT_NAME)/g" README.md > $(OUTPUT_DIR)/README.md
+	sed -i "s/TIME-STAMP/$(TIMESTAMP)/g" $(OUTPUT_DIR)/README.md
+	pandoc $(OUTPUT_DIR)/README.md -o $(OUTPUT_DIR)/README.pdf
+	cp $(OUTPUT_DIR)/README.pdf $(OUTPUT_DIR)/$(DOC_DIR)
+	cp $(OUTPUT_DIR)/README.pdf $(OUTPUT_DIR)/$(FAB_DIR)
+	cp $(OUTPUT_DIR)/README.pdf $(OUTPUT_DIR)/$(ASM_DIR)
 
 cad:	## CAD files
 	mkdir -p $(OUTPUT_DIR)/$(CAD_DIR)
