@@ -1,0 +1,10 @@
+(version 1)
+(rule "RF_Clearance_Relaxation_at_Pad"
+    (condition "A.NetClass == 'RF-50-OSH' && B.Type == 'Pad'")
+    (constraint clearance (min 0.19mm))
+)
+
+(rule "RF_Clearance_Relaxation_In_Zone"
+    (condition "A.NetClass == 'RF-50-OSH' && A.insideArea('RF_ZONE')")
+    (constraint clearance (min 0.15mm))
+)
