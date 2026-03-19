@@ -8795,7 +8795,7 @@
 	)
 	(rectangle
 		(start 72.39 143.51)
-		(end 115.57 185.42)
+		(end 115.57 189.23)
 		(stroke
 			(width 0)
 			(type default)
@@ -9424,6 +9424,16 @@
 		)
 		(uuid "d85d5fea-42a0-4d27-b3e2-f1c88417b050")
 	)
+	(text "F_res = 1.6kHz & 4-5.5 KHz"
+		(exclude_from_sim no)
+		(at 94.742 182.118 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dcaae2ea-e0d5-4331-8e9d-9844f1d9bedf")
+	)
 	(text "Other settings:\n\nSYSBOOT[15:14] = 0b01 = 24 MHz Crystal\nSYSBOOT[5] = 0 = CLKOUT1 disabled"
 		(exclude_from_sim no)
 		(at 299.72 156.21 0)
@@ -9514,7 +9524,7 @@
 	)
 	(text "CAUTION: WILL NOT WORK IN SPACE.\nWait, no. Will work, can't hear."
 		(exclude_from_sim no)
-		(at 96.012 181.61 0)
+		(at 93.98 186.944 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9710,7 +9720,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 179.07) (xy 228.6 179.07)
+			(xy 219.71 179.07) (xy 229.87 179.07)
 		)
 		(stroke
 			(width 0)
@@ -9910,7 +9920,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 176.53) (xy 228.6 176.53)
+			(xy 219.71 176.53) (xy 226.06 176.53)
 		)
 		(stroke
 			(width 0)
@@ -10100,7 +10110,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 173.99) (xy 228.6 173.99)
+			(xy 219.71 173.99) (xy 229.87 173.99)
 		)
 		(stroke
 			(width 0)
@@ -10470,7 +10480,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 171.45) (xy 228.6 171.45)
+			(xy 219.71 171.45) (xy 226.06 171.45)
 		)
 		(stroke
 			(width 0)
@@ -10715,7 +10725,7 @@
 	)
 	(global_label "PET_WDT"
 		(shape output)
-		(at 228.6 179.07 0)
+		(at 229.87 179.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10725,7 +10735,7 @@
 		)
 		(uuid "948a20f1-d8ce-4871-9366-86ad3139d8b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.549 179.07 0)
+			(at 240.819 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10757,7 +10767,7 @@
 	)
 	(global_label "RADIO_ENABLE"
 		(shape output)
-		(at 228.6 173.99 0)
+		(at 229.87 173.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10767,7 +10777,7 @@
 		)
 		(uuid "d7f0205b-e2bf-419c-ab4d-25006edaa803")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0525 173.99 0)
+			(at 246.3225 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +12005,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 228.6 171.45 90)
+		(at 226.06 171.45 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -12003,7 +12013,7 @@
 		(dnp no)
 		(uuid "6228e5aa-4a57-4c19-8849-dd7eed52ddae")
 		(property "Reference" "TP123"
-			(at 237.49 171.45 90)
+			(at 234.95 171.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12012,7 +12022,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 226.06 171.45 0)
+			(at 223.52 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12021,7 +12031,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 218.44 171.45 0)
+			(at 215.9 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12030,7 +12040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 171.45 0)
+			(at 226.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12039,7 +12049,7 @@
 			)
 		)
 		(property "Description" "1mm round SMT test point"
-			(at 228.6 171.45 0)
+			(at 226.06 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13655,7 +13665,7 @@
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")
-		(at 228.6 176.53 90)
+		(at 226.06 176.53 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13663,7 +13673,7 @@
 		(dnp no)
 		(uuid "de123fbf-707e-4f77-ac56-9b6a00843c68")
 		(property "Reference" "TP125"
-			(at 237.49 176.53 90)
+			(at 234.95 176.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13672,7 +13682,7 @@
 			)
 		)
 		(property "Value" "Test-Point"
-			(at 226.06 176.53 0)
+			(at 223.52 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13681,7 +13691,7 @@
 			)
 		)
 		(property "Footprint" "oresat-misc:TestPoint_Pad_D1.0mm"
-			(at 218.44 176.53 0)
+			(at 215.9 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13690,7 +13700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 228.6 176.53 0)
+			(at 226.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13699,7 +13709,7 @@
 			)
 		)
 		(property "Description" "1mm round SMT test point"
-			(at 228.6 176.53 0)
+			(at 226.06 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
