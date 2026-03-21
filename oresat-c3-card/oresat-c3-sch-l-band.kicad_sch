@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat C3 Card")
-		(date "2026-03-17")
+		(date "2026-03-20")
 		(rev "7.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -5339,12 +5339,6 @@
 		(uuid "3827ae12-46e5-4d40-b25e-2d228ff878db")
 	)
 	(junction
-		(at 212.09 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a9f852f-bc71-417a-ad09-0ad44d96d976")
-	)
-	(junction
 		(at 231.14 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6357,16 +6351,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 140.97) (xy 217.17 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4745c74a-84fd-43da-b886-1d19132767dd")
-	)
-	(wire
-		(pts
 			(xy 182.88 128.27) (xy 182.88 127)
 		)
 		(stroke
@@ -6660,7 +6644,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 140.97) (xy 212.09 140.97)
+			(xy 208.28 140.97) (xy 217.17 140.97)
 		)
 		(stroke
 			(width 0)
@@ -8600,71 +8584,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
-		(at 212.09 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "0045fa7a-15a4-4966-82f6-e58f6cd8cebf")
-		(property "Reference" "TP43"
-			(at 212.09 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 212.09 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "oresat-misc:TestPoint_RF_Probe"
-			(at 212.09 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special test point symbol for RF3B-BC2.0 3 needle RFspring probe"
-			(at 212.09 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4cf6794-808e-4cea-9b0a-be76e3a74e3c")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-					(reference "TP43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:RFShield_TwoPieces")
 		(at 46.99 207.01 0)
 		(unit 1)
@@ -10455,7 +10374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33a15144-e983-4afd-af07-34c150de8838")
-		(property "Reference" "TP25"
+		(property "Reference" "TP811"
 			(at 159.258 228.6 90)
 			(effects
 				(font
@@ -10506,7 +10425,7 @@
 		(instances
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-					(reference "TP25")
+					(reference "TP811")
 					(unit 1)
 				)
 			)
