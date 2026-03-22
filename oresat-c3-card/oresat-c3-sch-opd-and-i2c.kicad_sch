@@ -8278,7 +8278,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 189.23 83.82 0)
 			(effects
 				(font

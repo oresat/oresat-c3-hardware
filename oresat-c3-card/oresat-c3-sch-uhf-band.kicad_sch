@@ -12030,7 +12030,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 204.47 105.41 0)
 			(effects
 				(font
@@ -12198,7 +12198,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 383.54 38.1 0)
 			(effects
 				(font
@@ -12414,7 +12414,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 383.54 55.88 0)
 			(effects
 				(font
@@ -13194,7 +13194,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 241.3 55.88 0)
 			(effects
 				(font
@@ -16874,7 +16874,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 238.76 104.14 0)
 			(effects
 				(font
@@ -19033,7 +19033,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 288.29 224.79 0)
 			(effects
 				(font
@@ -21119,7 +21119,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 290.83 128.27 0)
 			(effects
 				(font
@@ -22015,7 +22015,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 251.46 224.79 0)
 			(effects
 				(font
@@ -23319,7 +23319,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 118.11 128.27 0)
 			(effects
 				(font
@@ -24781,7 +24781,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 267.97 55.88 0)
 			(effects
 				(font
@@ -26043,7 +26043,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 240.03 38.1 0)
 			(effects
 				(font
@@ -26212,7 +26212,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 233.68 100.33 0)
 			(effects
 				(font
@@ -27256,7 +27256,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 355.6 55.88 0)
 			(effects
 				(font
@@ -27662,7 +27662,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 252.73 212.09 0)
 			(effects
 				(font

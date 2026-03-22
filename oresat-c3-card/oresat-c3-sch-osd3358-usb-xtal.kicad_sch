@@ -11107,7 +11107,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 160.02 119.38 0)
 			(effects
 				(font
@@ -12216,7 +12216,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 160.02 104.14 0)
 			(effects
 				(font

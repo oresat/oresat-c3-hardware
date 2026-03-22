@@ -4375,7 +4375,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5711,7 +5711,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10820,7 +10820,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11312,7 +11312,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24413,7 +24413,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26298,7 +26298,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28581,7 +28581,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33795,7 +33795,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35091,7 +35091,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35849,7 +35849,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/KYOCERA_FINAL%20Catalog%20Datasheet.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35862,7 +35862,7 @@
 				)
 			)
 		)
-		(property "Description" "220µF Molded Tantalum Capacitors 16V 2917 (7343 Metric) 100mOhm @ 100kHz"
+		(property "Description" "220µF Molded Tantalum Capacitors 16V 2917 (7343 Metric) - SPECIAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35875,7 +35875,7 @@
 				)
 			)
 		)
-		(property "DPN" "478-12572-1-ND"
+		(property "DPN" "581-TBJE227K016LBSZ0"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35888,7 +35888,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35901,7 +35901,7 @@
 				)
 			)
 		)
-		(property "MFR" "AVX Corporation"
+		(property "MFR" "KYOCERA AVX"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35914,7 +35914,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPSE227K016T0100V"
+		(property "MPN" "TBJE227K016LBSZ0000"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40092,7 +40092,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41991,7 +41991,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/KYOCERA_FINAL%20Catalog%20Datasheet.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42004,7 +42004,7 @@
 				)
 			)
 		)
-		(property "Description" "220µF Molded Tantalum Capacitors 16V 2917 (7343 Metric) 100mOhm @ 100kHz"
+		(property "Description" "220µF Molded Tantalum Capacitors 16V 2917 (7343 Metric) - SPECIAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42017,7 +42017,7 @@
 				)
 			)
 		)
-		(property "DPN" "478-12572-1-ND"
+		(property "DPN" "581-TBJE227K016LBSZ0"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42030,7 +42030,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42043,7 +42043,7 @@
 				)
 			)
 		)
-		(property "MFR" "AVX Corporation"
+		(property "MFR" "KYOCERA AVX"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42056,7 +42056,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPSE227K016T0100V"
+		(property "MPN" "TBJE227K016LBSZ0000"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42532,7 +42532,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42730,7 +42730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/KYOCERA_FINAL%20Catalog%20Datasheet.pdf"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42743,7 +42743,7 @@
 				)
 			)
 		)
-		(property "Description" "220µF Molded Tantalum Capacitors 16V 2917 (7343 Metric) 100mOhm @ 100kHz"
+		(property "Description" "220µF Molded Tantalum Capacitors 16V 2917 (7343 Metric) - SPECIAL"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42756,7 +42756,7 @@
 				)
 			)
 		)
-		(property "DPN" "478-12572-1-ND"
+		(property "DPN" "581-TBJE227K016LBSZ0"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42769,7 +42769,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "Mouser"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42782,7 +42782,7 @@
 				)
 			)
 		)
-		(property "MFR" "AVX Corporation"
+		(property "MFR" "KYOCERA AVX"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42795,7 +42795,7 @@
 				)
 			)
 		)
-		(property "MPN" "TPSE227K016T0100V"
+		(property "MPN" "TBJE227K016LBSZ0000"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46481,7 +46481,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -48368,7 +48368,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -57897,7 +57897,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -61554,7 +61554,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -63979,7 +63979,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -71855,7 +71855,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -74148,7 +74148,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -78378,7 +78378,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -86889,7 +86889,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90191,7 +90191,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -90685,7 +90685,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94151,7 +94151,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -94632,7 +94632,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -104328,7 +104328,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -109793,7 +109793,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -118452,7 +118452,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -119147,7 +119147,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -119832,7 +119832,7 @@
 				)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -8850,7 +8850,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 309.88 187.96 0)
 			(effects
 				(font
@@ -8954,7 +8954,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 219.71 140.97 0)
 			(effects
 				(font
@@ -9709,7 +9709,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 292.1 187.96 0)
 			(effects
 				(font
@@ -10079,7 +10079,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 314.96 60.96 0)
 			(effects
 				(font
@@ -10864,7 +10864,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 148.59 234.95 0)
 			(effects
 				(font
@@ -11080,7 +11080,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 242.57 146.05 0)
 			(effects
 				(font
@@ -11693,7 +11693,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 262.89 146.05 0)
 			(effects
 				(font
@@ -13186,7 +13186,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 173.99 41.91 0)
 			(effects
 				(font
@@ -14513,7 +14513,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 285.75 60.96 0)
 			(effects
 				(font
@@ -14896,7 +14896,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 337.82 213.36 0)
 			(effects
 				(font
@@ -15964,7 +15964,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 283.21 48.26 0)
 			(effects
 				(font
@@ -16133,7 +16133,7 @@
 				(hide yes)
 			)
 		)
-		(property "DST" "Digi-Key"
+		(property "DST" "DigiKey"
 			(at 252.73 146.05 0)
 			(effects
 				(font
