@@ -3735,275 +3735,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "oresat-ics:SF2446E"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SF2446E"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-ics:SM3030-6"
-				(at 0 15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.rfmi.co/pdf/Datasheet/sf2446e.pdf"
-				(at 0 17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SF2446E_1_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 3.81) (xy 2.54 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 5.08)
-					(mid -1.27 6.3445)
-					(end 0 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
-					(mid -1.27 3.8045)
-					(end 0 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.27 1.2645)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 5.08)
-					(mid 1.27 3.8155)
-					(end 0 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.54)
-					(mid 1.27 1.2755)
-					(end 0 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0)
-					(mid 1.27 -1.2645)
-					(end 0 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "oresat-ics:SN74LVC1G11IDCKRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4892,6 +4623,231 @@
 						(effects
 							(font
 								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "oresat-passives:856930"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "856930"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-ics:856930-saw-filter"
+				(at -2.54 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.qorvo.com/products/d/da003067"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "856930_0_1"
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.54 -2.54) (xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -5.08 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "856930_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5809,6 +5765,16 @@
 		)
 		(uuid "178f6f71-1ff2-42d8-b785-ce780f151856")
 	)
+	(text "Alt: TST TA0692A for 436.5 MHz\nbut must be hand placed"
+		(exclude_from_sim no)
+		(at 213.36 242.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18aa1115-8501-419f-abbe-58a35d261dab")
+	)
 	(text "0402"
 		(exclude_from_sim no)
 		(at 248.92 234.95 0)
@@ -5947,6 +5913,26 @@
 		)
 		(uuid "5242cbf6-fc25-4f0b-9b16-7339d7237de6")
 	)
+	(text "For 401 MHz"
+		(exclude_from_sim no)
+		(at 321.31 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "587e484c-337d-4f7f-8e3c-5351a581ad4a")
+	)
+	(text "For 401 MHz"
+		(exclude_from_sim no)
+		(at 213.106 218.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "600b7218-caa3-44f9-bc19-1db9bf86bae1")
+	)
 	(text "TRANSMIT"
 		(exclude_from_sim no)
 		(at 350.52 161.29 0)
@@ -5969,16 +5955,16 @@
 		)
 		(uuid "70b0b1a7-3bd9-4b8b-a5bd-8a657e85e3f4")
 	)
-	(text "5th order LPF\nfor 436.5 MHz"
+	(text "5th order LPF for harmonics\n(F3dB = 600 MHz)"
 		(exclude_from_sim no)
-		(at 198.374 92.71 0)
+		(at 204.978 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "73e89c8f-f759-4e7a-a994-00e6be8b21f9")
 	)
@@ -6074,6 +6060,16 @@
 		)
 		(uuid "97a5ee50-9d3a-460a-9307-b92bbf7b25df")
 	)
+	(text "Alt: TST TA0692A for 436.5 MHz\nbut must be hand placed"
+		(exclude_from_sim no)
+		(at 321.564 242.316 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98253f8d-ebb4-459d-bcd5-d3ceeb98af22")
+	)
 	(text "Note: 0603 for power!"
 		(exclude_from_sim no)
 		(at 283.21 92.71 0)
@@ -6106,6 +6102,17 @@
 			(justify left bottom)
 		)
 		(uuid "a2eb764a-a313-4a2a-aea9-3ce579a02d11")
+	)
+	(text "0402"
+		(exclude_from_sim no)
+		(at 389.89 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a559ac6b-b4cd-4ae1-861b-77c463349278")
 	)
 	(text "On when TX"
 		(exclude_from_sim no)
@@ -6284,6 +6291,16 @@
 			(justify left bottom)
 		)
 		(uuid "e64acbfc-af16-443f-9114-27a402d58e6b")
+	)
+	(text "70 cm amateur radio band is 430 - 440 MHz"
+		(exclude_from_sim no)
+		(at 46.482 195.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e7aa498f-ab0d-410d-b8bb-a96781d33c64")
 	)
 	(text "Bi-directional\nCoupler"
 		(exclude_from_sim no)
@@ -8360,7 +8377,7 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 236.22) (xy 321.31 234.95)
+			(xy 321.31 233.68) (xy 321.31 232.41)
 		)
 		(stroke
 			(width 0)
@@ -10915,7 +10932,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 234.95) (xy 213.36 236.22)
+			(xy 213.36 232.41) (xy 213.36 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11986,7 +12003,7 @@
 				)
 			)
 		)
-		(property "Value" "8.3p"
+		(property "Value" "8.2p"
 			(at 207.01 107.95 0)
 			(effects
 				(font
@@ -12012,7 +12029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8.3 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+		(property "Description" "8.2 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 204.47 105.41 0)
 			(effects
 				(font
@@ -12021,7 +12038,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-16122-1-ND"
+		(property "DPN" "490-17515-1-ND"
 			(at 204.47 105.41 0)
 			(effects
 				(font
@@ -12039,7 +12056,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "KEMET"
+		(property "MFR" "Murata"
 			(at 204.47 105.41 0)
 			(effects
 				(font
@@ -12048,7 +12065,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CBR04C839B5GAC"
+		(property "MPN" "GCQ1555C1H8R2BB01D"
 			(at 204.47 105.41 0)
 			(effects
 				(font
@@ -12378,7 +12395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-C-NOSILK"
+		(property "Footprint" "oresat-passives:0402-B-NOSILK"
 			(at 383.54 55.88 0)
 			(effects
 				(font
@@ -12396,7 +12413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "8.2pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "8.2 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 383.54 55.88 0)
 			(effects
 				(font
@@ -12405,7 +12422,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1276-6566-1-ND"
+		(property "DPN" "490-17515-1-ND"
 			(at 383.54 55.88 0)
 			(effects
 				(font
@@ -12423,7 +12440,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Samsung Electro-Mechanics"
+		(property "MFR" "Murata"
 			(at 383.54 55.88 0)
 			(effects
 				(font
@@ -12432,7 +12449,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL10C8R2CB81PNC"
+		(property "MPN" "GCQ1555C1H8R2BB01D"
 			(at 383.54 55.88 0)
 			(effects
 				(font
@@ -13237,125 +13254,8 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-ics:SF2446E")
-		(at 321.31 224.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d2f8b84-6151-44c9-a8fa-df4f78fef202")
-		(property "Reference" "U32"
-			(at 321.31 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SF2446E"
-			(at 321.31 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-ics:SM3030-6"
-			(at 321.31 208.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rfmi.co/pdf/Datasheet/sf2446e.pdf"
-			(at 321.31 206.375 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Signal Conditioning FILTER, SAW, 435 MHZ, 6SMD"
-			(at 321.31 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "198-SF2446E"
-			(at 321.31 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Mouser"
-			(at 321.31 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "RFMi"
-			(at 321.31 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SF2446E"
-			(at 321.31 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d4ad3e64-673f-4439-abd8-1b98029511ec")
-		)
-		(pin "2"
-			(uuid "89404de8-9ab2-4206-9372-a631028edc20")
-		)
-		(pin "3"
-			(uuid "25175379-0636-42fe-b048-a405ff54baef")
-		)
-		(pin "4"
-			(uuid "03abdd53-47ff-420e-a92f-28b451bced31")
-		)
-		(pin "5"
-			(uuid "8c74ac48-bb29-4aa9-bc92-01ee6f16a301")
-		)
-		(pin "6"
-			(uuid "a76d5b42-9463-4347-a34e-731f488a7dc5")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-					(reference "U32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 213.36 236.22 0)
+		(at 213.36 233.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13364,7 +13264,7 @@
 		(dnp no)
 		(uuid "111d8345-4b63-413f-ae13-534c676a565a")
 		(property "Reference" "#PWR0227"
-			(at 213.36 242.57 0)
+			(at 213.36 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13373,7 +13273,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 240.03 0)
+			(at 213.36 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13381,7 +13281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 236.22 0)
+			(at 213.36 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13390,7 +13290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 236.22 0)
+			(at 213.36 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13399,7 +13299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 236.22 0)
+			(at 213.36 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14660,7 +14560,7 @@
 				)
 			)
 		)
-		(property "Value" "3p"
+		(property "Value" "3.9p"
 			(at 217.17 107.95 0)
 			(effects
 				(font
@@ -14686,7 +14586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+		(property "Description" "3.9 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 214.63 105.41 0)
 			(effects
 				(font
@@ -14695,7 +14595,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-17461-1-ND"
+		(property "DPN" "490-GCQ1555C1H3R9WB01DCT-ND"
 			(at 214.63 105.41 0)
 			(effects
 				(font
@@ -14722,7 +14622,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCQ1555C1H3R0CB01D"
+		(property "MPN" "GCQ1555C1H3R9WB01D"
 			(at 214.63 105.41 0)
 			(effects
 				(font
@@ -18508,6 +18408,128 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-passives:856930")
+		(at 213.36 224.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5256d0a7-76d7-40fa-8aae-0e5d1a2d3675")
+		(property "Reference" "FL1"
+			(at 213.36 213.106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF1419D"
+			(at 213.36 215.646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Filter:Filter_SAW-8_3.8x3.8mm"
+			(at 215.9 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.rfmi.co/pdf/Datasheet/rf1419d.pdf"
+			(at 213.36 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "403.5MHz Frequency General Purpose RF SAW Filter (Surface Acoustic Wave) 1.6dB 7.5MHz Bandwidth 8-SMD, No Lead"
+			(at 213.36 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "RFMi"
+			(at 213.36 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RF1419D"
+			(at 213.36 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 213.36 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2410-RF1419D-ND"
+			(at 213.36 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "85e1e20a-acbb-4aa8-a74c-5c0c611c2c74")
+		)
+		(pin "3"
+			(uuid "4979d7fc-54dd-480b-ad4a-d5c7a80f8cb4")
+		)
+		(pin "4"
+			(uuid "9c5a5f0e-e069-4e8e-9fe8-e5c18e3fdf2f")
+		)
+		(pin "2"
+			(uuid "b482a8b1-fcf7-455d-b09a-bbd8aefb40e1")
+		)
+		(pin "1"
+			(uuid "30080e6e-db12-4866-8cd7-40eacb570da1")
+		)
+		(pin "5"
+			(uuid "f834c022-22e3-4959-9212-f8ef8dcc962f")
+		)
+		(pin "7"
+			(uuid "4050cce2-3363-4639-890b-276cca361c36")
+		)
+		(pin "6"
+			(uuid "179dd0aa-e941-450a-98c6-ed5930d804bf")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
+					(reference "FL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-ics:QPC1022")
 		(at 140.97 128.27 0)
 		(unit 1)
@@ -22058,6 +22080,128 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-passives:856930")
+		(at 321.31 224.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "944f5ca6-9d28-4ce8-924d-fb702917d4cb")
+		(property "Reference" "FL2"
+			(at 321.31 212.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RF1419D"
+			(at 321.31 215.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Filter:Filter_SAW-8_3.8x3.8mm"
+			(at 323.85 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.rfmi.co/pdf/Datasheet/rf1419d.pdf"
+			(at 321.31 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "403.5MHz Frequency General Purpose RF SAW Filter (Surface Acoustic Wave) 1.6dB 7.5MHz Bandwidth 8-SMD, No Lead"
+			(at 321.31 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "RFMi"
+			(at 321.31 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RF1419D"
+			(at 321.31 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 321.31 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "2410-RF1419D-ND"
+			(at 321.31 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "8071b706-d766-4137-b274-845559ffead5")
+		)
+		(pin "3"
+			(uuid "5d90ed9b-83e3-41d0-a41c-31947883a8fa")
+		)
+		(pin "4"
+			(uuid "eed9e15f-0548-471e-a401-a63191b442f9")
+		)
+		(pin "2"
+			(uuid "f820158e-69c1-49c3-86d1-1157d25b6c49")
+		)
+		(pin "1"
+			(uuid "7b4a8be2-5787-4b86-ba22-49a0e5be77c8")
+		)
+		(pin "5"
+			(uuid "673c241a-b5f3-480e-93c8-3fde5dabdee9")
+		)
+		(pin "7"
+			(uuid "d98680bc-9afa-46cd-8395-87691138a22f")
+		)
+		(pin "6"
+			(uuid "ce204dec-9970-4715-a465-9ea792a3c44c")
+		)
+		(instances
+			(project "oresat-c3"
+				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
+					(reference "FL2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 280.67 233.68 0)
 		(unit 1)
@@ -24363,123 +24507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-ics:SF2446E")
-		(at 213.36 224.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abbcbc8f-a7ca-45ad-997e-17192235975c")
-		(property "Reference" "U33"
-			(at 213.36 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SF2446E"
-			(at 213.36 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "oresat-ics:SM3030-6"
-			(at 224.79 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.rfmi.co/pdf/Datasheet/sf2446e.pdf"
-			(at 224.79 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Signal Conditioning FILTER, SAW, 435 MHZ, 6SMD"
-			(at 213.36 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DPN" "198-SF2446E"
-			(at 213.36 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DST" "Mouser"
-			(at 213.36 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "RFMi"
-			(at 213.36 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SF2446E"
-			(at 213.36 224.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fe82fd1-d8b6-46fb-aca0-fd30c8729512")
-		)
-		(pin "2"
-			(uuid "9cff6b71-44e3-4422-8540-86785b831c62")
-		)
-		(pin "3"
-			(uuid "f300a868-eebf-4359-b434-c21e0e1724fb")
-		)
-		(pin "4"
-			(uuid "fb782f73-7e00-4814-a366-b3e0241dc3b6")
-		)
-		(pin "5"
-			(uuid "de8cf8da-609f-435f-9eca-8e7197a5b146")
-		)
-		(pin "6"
-			(uuid "fbdca2f5-abee-4689-aaf3-3c3b1f28d5e4")
-		)
-		(instances
-			(project "oresat-c3"
-				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/05e45903-5042-4bc1-87af-e9d7510ea02d"
-					(reference "U33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "oresat-ics:TQP7M9105")
 		(at 256.54 100.33 0)
 		(unit 1)
@@ -25316,7 +25343,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 321.31 236.22 0)
+		(at 321.31 233.68 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25325,7 +25352,7 @@
 		(dnp no)
 		(uuid "b7760e4a-3714-4878-8785-c34d79e8c171")
 		(property "Reference" "#PWR0257"
-			(at 321.31 242.57 0)
+			(at 321.31 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25334,7 +25361,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 321.31 240.03 0)
+			(at 321.31 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25342,7 +25369,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 321.31 236.22 0)
+			(at 321.31 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25351,7 +25378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 236.22 0)
+			(at 321.31 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25360,7 +25387,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 321.31 236.22 0)
+			(at 321.31 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28009,7 +28036,7 @@
 				)
 			)
 		)
-		(property "Value" "3p"
+		(property "Value" "3.9p"
 			(at 196.85 107.95 0)
 			(effects
 				(font
@@ -28035,7 +28062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3pF ±0.25pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+		(property "Description" "3.9 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -28044,7 +28071,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "490-17461-1-ND"
+		(property "DPN" "490-GCQ1555C1H3R9WB01DCT-ND"
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -28071,7 +28098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GCQ1555C1H3R0CB01D"
+		(property "MPN" "GCQ1555C1H3R9WB01D"
 			(at 194.31 105.41 0)
 			(effects
 				(font

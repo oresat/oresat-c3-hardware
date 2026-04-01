@@ -1082,6 +1082,14 @@
       {
         "netclass": "RF-50-OSH",
         "pattern": "Net-(U44-RFP09)"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(FL1*"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(FL2*"
       }
     ]
   },
