@@ -4817,7 +4817,7 @@
 		)
 		(uuid "2d129a11-4f8e-4895-b1f9-835980afe4c4")
 	)
-	(text "U15 IS EOL"
+	(text "FL3 IS EOL"
 		(exclude_from_sim no)
 		(at 251.714 126.492 0)
 		(effects
@@ -8784,8 +8784,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0856207d-3805-4d0e-b618-8af2b0b76a6d")
-		(property "Reference" "U2"
-			(at 341.63 52.07 0)
+		(property "Reference" "FL4"
+			(at 341.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8793,7 +8793,7 @@
 			)
 		)
 		(property "Value" "BP0805A1308"
-			(at 341.63 54.61 0)
+			(at 341.63 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8878,7 +8878,7 @@
 		(instances
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-					(reference "U2")
+					(reference "FL4")
 					(unit 1)
 				)
 			)
@@ -12374,8 +12374,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "686579fd-6d71-49e2-bd18-c7dd44d56256")
-		(property "Reference" "U3"
-			(at 246.38 52.07 0)
+		(property "Reference" "FL5"
+			(at 246.38 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12383,7 +12383,7 @@
 			)
 		)
 		(property "Value" "BP0805A1308"
-			(at 246.38 54.61 0)
+			(at 246.38 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12468,7 +12468,7 @@
 		(instances
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-					(reference "U3")
+					(reference "FL5")
 					(unit 1)
 				)
 			)
@@ -14098,8 +14098,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "863bfb97-8f33-4515-b460-992102f3d33d")
-		(property "Reference" "U5"
-			(at 138.43 52.07 0)
+		(property "Reference" "FL6"
+			(at 138.43 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14107,7 +14107,7 @@
 			)
 		)
 		(property "Value" "BP0805A1308"
-			(at 138.43 54.61 0)
+			(at 138.43 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14192,7 +14192,7 @@
 		(instances
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-					(reference "U5")
+					(reference "FL6")
 					(unit 1)
 				)
 			)
@@ -17693,7 +17693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f03da2cc-6fe8-4fc9-bc22-ba2788a70d30")
-		(property "Reference" "U15"
+		(property "Reference" "FL3"
 			(at 251.46 132.08 0)
 			(effects
 				(font
@@ -17799,7 +17799,7 @@
 		(instances
 			(project "oresat-c3"
 				(path "/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c"
-					(reference "U15")
+					(reference "FL3")
 					(unit 1)
 				)
 			)

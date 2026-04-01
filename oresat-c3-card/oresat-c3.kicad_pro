@@ -1090,6 +1090,22 @@
       {
         "netclass": "RF-50-OSH",
         "pattern": "Net-(FL2*"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(FL3*"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(FL4*"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(FL5*"
+      },
+      {
+        "netclass": "RF-50-OSH",
+        "pattern": "Net-(FL6*"
       }
     ]
   },
