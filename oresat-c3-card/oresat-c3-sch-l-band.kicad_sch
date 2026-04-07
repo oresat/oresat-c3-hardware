@@ -4845,7 +4845,7 @@
 	)
 	(text "0402"
 		(exclude_from_sim no)
-		(at 211.836 149.098 0)
+		(at 217.17 149.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8704,7 +8704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1121_CBR_AUTO.pdf"
 			(at 219.71 140.97 0)
 			(effects
 				(font
@@ -8713,7 +8713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "18pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+		(property "Description" "18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 219.71 140.97 0)
 			(effects
 				(font
@@ -8722,7 +8722,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-15952-1-ND"
+		(property "DPN" "399-CBR04C180J5GACAUTOCT-ND"
 			(at 219.71 140.97 0)
 			(effects
 				(font
@@ -8749,7 +8749,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C180J5GACAUTO"
+		(property "MPN" "CBR04C180J5GACAUTO"
 			(at 219.71 140.97 0)
 			(effects
 				(font
@@ -10762,7 +10762,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RMCF1206FT75R0"
+		(property "MPN" "RMCF0603FT75R0"
 			(at 143.51 231.14 90)
 			(effects
 				(font
@@ -11132,7 +11132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1121_CBR_AUTO.pdf"
 			(at 297.18 140.97 0)
 			(effects
 				(font
@@ -11141,7 +11141,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "22 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 297.18 140.97 0)
 			(effects
 				(font
@@ -11150,7 +11150,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-15987-1-ND"
+		(property "DPN" "399-CBR04C220J5GACAUTOCT-ND"
 			(at 297.18 140.97 0)
 			(effects
 				(font
@@ -11177,7 +11177,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C220J1GACAUTO"
+		(property "MPN" "CBR04C220J5GACAUTO"
 			(at 297.18 140.97 0)
 			(effects
 				(font
@@ -14403,7 +14403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1121_CBR_AUTO.pdf"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -14412,7 +14412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "22 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -14421,7 +14421,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-15987-1-ND"
+		(property "DPN" "399-CBR04C220J5GACAUTOCT-ND"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -14448,7 +14448,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C220J1GACAUTO"
+		(property "MPN" "CBR04C220J5GACAUTO"
 			(at 219.71 60.96 0)
 			(effects
 				(font
@@ -14918,7 +14918,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TXETALSANF-26.000000"
+		(property "Value" "TYETACSANF-26.000000"
 			(at 97.282 180.34 0)
 			(effects
 				(font
@@ -14963,7 +14963,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1664-TXETALSANF-26.000000CT-ND"
+		(property "DPN" "1664-TYETACSANF-26.000000CT-ND"
 			(at 100.33 172.72 0)
 			(effects
 				(font
@@ -14981,7 +14981,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TXETALSANF-26.000000"
+		(property "MPN" "TYETACSANF-26.000000"
 			(at 100.33 172.72 0)
 			(effects
 				(font
@@ -16356,7 +16356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1121_CBR_AUTO.pdf"
 			(at 168.91 60.96 0)
 			(effects
 				(font
@@ -16365,7 +16365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+		(property "Description" "22 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 168.91 60.96 0)
 			(effects
 				(font
@@ -16374,7 +16374,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-15987-1-ND"
+		(property "DPN" "399-CBR04C220J5GACAUTOCT-ND"
 			(at 168.91 60.96 0)
 			(effects
 				(font
@@ -16401,7 +16401,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0603C220J1GACAUTO"
+		(property "MPN" "CBR04C220J5GACAUTO"
 			(at 168.91 60.96 0)
 			(effects
 				(font

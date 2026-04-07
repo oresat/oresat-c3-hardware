@@ -22721,7 +22721,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TXETALSANF-26.000000"
+		(property "Value" "TYETACSANF-26.000000"
 			(at 16.256 155.194 90)
 			(effects
 				(font
@@ -22766,7 +22766,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "1664-TXETALSANF-26.000000CT-ND"
+		(property "DPN" "1664-TYETACSANF-26.000000CT-ND"
 			(at 25.4 160.02 0)
 			(effects
 				(font
@@ -22784,7 +22784,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TXETALSANF-26.000000"
+		(property "MPN" "TYETACSANF-26.000000"
 			(at 25.4 160.02 0)
 			(effects
 				(font
@@ -23454,7 +23454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1121_CBR_AUTO.pdf"
 			(at 118.11 128.27 0)
 			(effects
 				(font
@@ -23463,7 +23463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "18pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+		(property "Description" "18 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 118.11 128.27 0)
 			(effects
 				(font
@@ -23472,7 +23472,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "399-15952-1-ND"
+		(property "DPN" "399-CBR04C180J5GACAUTOCT-ND"
 			(at 118.11 128.27 0)
 			(effects
 				(font
@@ -23499,7 +23499,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "C0402C180J5GACAUTO"
+		(property "MPN" "CBR04C180J5GACAUTO"
 			(at 118.11 128.27 0)
 			(effects
 				(font
