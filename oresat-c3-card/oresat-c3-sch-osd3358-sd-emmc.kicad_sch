@@ -17708,7 +17708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.flexxon.com/wp-content/uploads/Flexxon%20Profile/Flexxon-Brochure-Jan2020_compressed.pdf"
+		(property "Datasheet" "https://www.micron.com/products/managed-nand/emmc/part-catalog/mtfc32gazaqhd-it?login"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -17717,7 +17717,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Memory Card microSD™ 32GB UHS Class 1 TLC"
+		(property "Description" "FLASH - NAND Memory IC 256Gbit eMMC 200 MHz 153-VFBGA (11.5x13)"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -17726,7 +17726,7 @@
 				(hide yes)
 			)
 		)
-		(property "DPN" "3052-FDMM032GBE-3101-ND"
+		(property "DPN" "557-MTFC32GAZAQHD-IT-ND"
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -17744,7 +17744,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "Flexxon Pte Ltd"
+		(property "MFR" "Micron Technology Inc."
 			(at 330.2 175.26 0)
 			(effects
 				(font
@@ -17753,7 +17753,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "FDMM032GBE-3101"
+		(property "MPN" "MTFC32GAZAQHD-IT"
 			(at 330.2 175.26 0)
 			(effects
 				(font
