@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "65d12cdd-c326-4033-9053-c59fa4e0b25e")
 	(paper "USLedger")
 	(title_block
@@ -56,11 +56,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "05e45903-5042-4bc1-87af-e9d7510ea02d")
 		(property "Sheetname" "UHF Band"
 			(at 248.92 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -71,6 +73,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-uhf-band.kicad_sch"
 			(at 247.65 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -98,11 +102,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0c1da208-2d1c-4d05-9cc7-59584e50a6ac")
 		(property "Sheetname" "OSD3358: SIP A"
 			(at 190.5 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -113,6 +119,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-osd3358-power.kicad_sch"
 			(at 189.23 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,11 +148,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0c732c1e-ab0d-41ac-9d77-9d7763333b6f")
 		(property "Sheetname" "OSD3358: SIP D"
 			(at 190.5 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -155,6 +165,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-osd3358-sysboot.kicad_sch"
 			(at 189.23 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -182,11 +194,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "0d3a1fa4-c9ee-4335-9068-a81ae0178f3f")
 		(property "Sheetname" "OSD3358: SIP B"
 			(at 190.5 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -197,6 +211,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-osd3358-usb-xtal.kicad_sch"
 			(at 189.23 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -224,11 +240,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "1b68ea4b-cacf-4529-b1d4-9be5d7c1043c")
 		(property "Sheetname" "L Band"
 			(at 248.92 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -239,6 +257,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-l-band.kicad_sch"
 			(at 247.65 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,11 +286,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "2134bb9a-062c-4e32-a41e-d15ce3545372")
 		(property "Sheetname" "Power"
 			(at 140.97 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -281,6 +303,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-power.kicad_sch"
 			(at 139.7 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,11 +332,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "730a6f7e-0bbd-44c5-a45a-78e61e54b6d6")
 		(property "Sheetname" "Watchdog"
 			(at 248.92 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -323,6 +349,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-watchdog.kicad_sch"
 			(at 247.65 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -332,11 +360,13 @@
 		)
 		(property "Field2" ""
 			(at 247.65 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -359,11 +389,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "80f02433-745c-4401-b985-fcfd89ff5669")
 		(property "Sheetname" "OPD and I2C Peripherals"
 			(at 248.92 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -374,6 +406,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-opd-and-i2c.kicad_sch"
 			(at 247.65 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -401,11 +435,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "b9a61b98-fba0-4063-a603-e7fc9d7070a0")
 		(property "Sheetname" "Connectors"
 			(at 140.97 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -416,6 +452,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-connectors.kicad_sch"
 			(at 139.7 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -443,11 +481,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "ce2d6150-524f-4c6f-aba3-da83a5df548c")
 		(property "Sheetname" "OSD3358: SIP E + F"
 			(at 189.23 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -458,6 +498,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-osd3358-sip-e-f.kicad_sch"
 			(at 189.23 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,11 +509,13 @@
 		)
 		(property "Field2" ""
 			(at 189.23 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(instances
@@ -494,11 +538,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "f3d147ad-4cea-4d77-ae60-95882b03454e")
 		(property "Sheetname" "OSD3358: SIP C"
 			(at 190.5 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -509,6 +555,8 @@
 		)
 		(property "Sheetfile" "oresat-c3-sch-osd3358-sd-emmc.kicad_sch"
 			(at 189.23 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
