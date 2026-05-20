@@ -8611,7 +8611,7 @@
 	)
 	(text "Needed for programming\nboot EEPROM\n\nTPS65217 I2C Addrs = 0x24\nEEPROM I2C Addrs = 0x50\n\nNeeds 4 pos 1.27 mm socket\nand cable, e.g., \nSamtec SFSS-04-28-H-06.00-SR."
 		(exclude_from_sim no)
-		(at 106.426 209.296 0)
+		(at 84.836 209.296 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9375,7 +9375,7 @@
 	)
 	(polyline
 		(pts
-			(xy 143.51 220.98) (xy 147.32 220.98)
+			(xy 121.92 220.98) (xy 125.73 220.98)
 		)
 		(stroke
 			(width 0)
@@ -9445,7 +9445,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.32 181.61) (xy 143.51 181.61)
+			(xy 125.73 181.61) (xy 121.92 181.61)
 		)
 		(stroke
 			(width 0)
@@ -9695,7 +9695,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 200.66) (xy 173.99 200.66)
+			(xy 143.51 200.66) (xy 173.99 200.66)
 		)
 		(stroke
 			(width 0)
@@ -10415,6 +10415,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 203.2) (xy 144.78 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd29a39c-c598-4561-ae29-35befa1c9db1")
+	)
+	(wire
+		(pts
 			(xy 265.43 134.62) (xy 265.43 137.16)
 		)
 		(stroke
@@ -10425,7 +10435,7 @@
 	)
 	(polyline
 		(pts
-			(xy 143.51 181.61) (xy 143.51 220.98)
+			(xy 121.92 181.61) (xy 121.92 220.98)
 		)
 		(stroke
 			(width 0)
@@ -10715,17 +10725,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 203.2) (xy 165.1 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0b427bd-26e5-4718-bddd-70efbc8f62e5")
-	)
-	(wire
-		(pts
-			(xy 165.1 198.12) (xy 173.99 198.12)
+			(xy 143.51 198.12) (xy 173.99 198.12)
 		)
 		(stroke
 			(width 0)
@@ -10742,6 +10742,16 @@
 			(type default)
 		)
 		(uuid "e108eb73-e023-4f13-b1be-0a077c198b8f")
+	)
+	(wire
+		(pts
+			(xy 144.78 203.2) (xy 143.51 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e12cac08-2fea-4a12-8ef1-e51b939f5c41")
 	)
 	(wire
 		(pts
@@ -10925,7 +10935,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 195.58) (xy 165.1 195.58)
+			(xy 167.64 195.58) (xy 143.51 195.58)
 		)
 		(stroke
 			(width 0)
@@ -10982,6 +10992,36 @@
 			(justify left bottom)
 		)
 		(uuid "826a55f0-7f08-4582-90b8-690a0085d6fb")
+	)
+	(label "EEPROM_WP"
+		(at 146.0126 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ded4253-9551-4129-b68c-a61cf75f214a")
+	)
+	(label "I2C0_SDA"
+		(at 145.9874 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "943627bf-0df8-4797-b77f-4560a3c17a83")
+	)
+	(label "I2C0_SCL"
+		(at 146.05 195.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfdb1574-36bf-4c25-9926-527f7d6df8f1")
 	)
 	(global_label "VIN_USB"
 		(shape input)
@@ -13222,7 +13262,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 160.02 198.12 0)
+		(at 138.43 198.12 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -13233,7 +13273,7 @@
 		(dnp no)
 		(uuid "7f7a3e12-3cb8-45ab-bb50-9be2ead7877b")
 		(property "Reference" "J7"
-			(at 160.528 208.026 0)
+			(at 138.938 208.026 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13243,7 +13283,7 @@
 			)
 		)
 		(property "Value" "GRPB041VWVN-RC"
-			(at 153.162 205.994 0)
+			(at 131.572 205.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13253,7 +13293,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x04_P1.27mm_Vertical"
-			(at 160.02 198.12 0)
+			(at 138.43 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13264,7 +13304,7 @@
 			)
 		)
 		(property "Datasheet" "https://s3.amazonaws.com/catalogspreads-pdf/PAGE94-95%20.050%20MALE%20HDR%20ST%20RA%20SMT.pdf"
-			(at 160.02 198.12 0)
+			(at 138.43 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13275,7 +13315,7 @@
 			)
 		)
 		(property "Description" "Connector Header Through Hole 4 position 0.050\" (1.27mm)"
-			(at 160.02 198.12 0)
+			(at 138.43 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13286,7 +13326,7 @@
 			)
 		)
 		(property "DPN" "S9014E-04-ND"
-			(at 160.02 198.12 0)
+			(at 138.43 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13297,7 +13337,7 @@
 			)
 		)
 		(property "DST" "DigiKey"
-			(at 160.02 198.12 0)
+			(at 138.43 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13308,7 +13348,7 @@
 			)
 		)
 		(property "MFR" "Sullins Connector Solutions"
-			(at 160.02 198.12 0)
+			(at 138.43 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13319,7 +13359,7 @@
 			)
 		)
 		(property "MPN" "GRPB041VWVN-RC"
-			(at 160.02 198.12 0)
+			(at 138.43 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16657,7 +16697,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 208.28 0)
+		(at 144.78 208.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16667,7 +16707,7 @@
 		(dnp no)
 		(uuid "f4c91732-c3e9-4a66-87eb-11b42f96cc53")
 		(property "Reference" "#PWR0145"
-			(at 165.1 214.63 0)
+			(at 144.78 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16678,7 +16718,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 212.09 0)
+			(at 144.78 212.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16688,7 +16728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 208.28 0)
+			(at 144.78 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16699,7 +16739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 208.28 0)
+			(at 144.78 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16710,7 +16750,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 208.28 0)
+			(at 144.78 208.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
