@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat C3 Card")
-		(date "2026-03-20")
-		(rev "7.0")
+		(date "2026-06-07")
+		(rev "7.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -8971,7 +8971,7 @@
 	)
 	(rectangle
 		(start 72.39 143.51)
-		(end 115.57 189.23)
+		(end 115.57 195.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -9698,9 +9698,9 @@
 		)
 		(uuid "f6aa3a62-a118-45dc-a103-c483d2e8056e")
 	)
-	(text "CAUTION: WILL NOT WORK IN SPACE.\nWait, no. Will work, can't hear."
+	(text "CAUTION: WILL NOT WORK IN SPACE.\nWait, no. Will work, can't hear.\nIf you can't hear it, check if\nyou're in space."
 		(exclude_from_sim no)
-		(at 93.98 186.944 0)
+		(at 93.98 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)

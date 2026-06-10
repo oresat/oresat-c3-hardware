@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat C3 Card")
-		(date "2026-03-20")
-		(rev "7.0")
+		(date "2026-06-07")
+		(rev "7.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -16148,7 +16148,7 @@
 		)
 	)
 	(global_label "I2C2_SYS_DISABLE"
-		(shape input)
+		(shape output)
 		(at 240.03 198.12 0)
 		(fields_autoplaced yes)
 		(effects
