@@ -16078,373 +16078,29 @@
 		)
 		(uuid "fffeb820-d333-4984-9ace-80fffa3c3f72")
 	)
-	(global_label "SPI1_CS"
+	(hierarchical_label "SPI1_MOSI"
 		(shape input)
-		(at 146.05 195.58 180)
-		(fields_autoplaced yes)
+		(at 146.05 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "035b6a64-076e-4d0d-8a85-50f6d08a233d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.4033 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "1029aa8c-4a17-4156-a71b-e9bdfe8594d5")
 	)
-	(global_label "SPI0_MOSI"
+	(hierarchical_label "UHF_TOT_CLEAR"
 		(shape input)
-		(at 146.05 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09452adf-b2a5-4174-ae72-613812d9ee57")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2866 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI1_MISO"
-		(shape input)
-		(at 146.05 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ff78428-25a0-41f0-b8aa-55f9e6ed4386")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2866 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C2_SYS_DISABLE"
-		(shape output)
-		(at 240.03 198.12 0)
-		(fields_autoplaced yes)
+		(at 240.03 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "1f473e58-d536-4537-a471-360bf21dd0d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.3718 198.12 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "1829e29f-f6b5-4b2d-bf94-229abfaf81d9")
 	)
-	(global_label "PIN7-OUT"
-		(shape input)
-		(at 55.88 186.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2c3171a3-3c0d-4ca9-848a-7de1c49ddcb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.279 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "UHF_IRQ"
-		(shape input)
-		(at 240.03 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f4e9ae9-29d4-4161-8618-c076999b8ad7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.8583 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UHF_ENABLE"
-		(shape input)
-		(at 240.03 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4f8ab6ec-353b-4f1e-ad10-0d5418662580")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UHF_TOT_OK"
-		(shape input)
-		(at 240.03 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ceae6c8-9279-4594-a916-f55b3b7edc71")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.4868 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SPI0_SCLK"
-		(shape input)
-		(at 146.05 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "72d810fc-9d65-423f-bc38-6dcd32e043f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1052 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "C3-UART-RX"
-		(shape input)
-		(at 146.05 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "77542f4c-fb25-48ff-bbe0-e9c347d0cabb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.08 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "OPD_nENABLE"
-		(shape output)
-		(at 146.05 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "80783611-1a93-4fc3-bb08-e3048b38d093")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1419 185.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI0_MISO"
-		(shape input)
-		(at 146.05 134.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8878cf90-6584-4b71-aabd-deb86d94c6df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2866 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RADIO_nFLT"
-		(shape input)
-		(at 146.05 180.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "92f2bbb3-9fa0-466d-b68b-18387e5ddf41")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.3794 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C2_SYS_SDA"
-		(shape input)
-		(at 146.05 121.92 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6968685-773f-4029-bd01-5145a0b97871")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.8395 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2C2_SYS_SCL"
-		(shape input)
-		(at 146.05 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa88b830-4862-4abe-991d-7a4d67db2735")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.9 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "UHF_PA_ENABLE"
-		(shape output)
-		(at 240.03 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b275ddbe-9473-4315-a5ae-ecc57c3d3148")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.9944 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "L_BAND_ENABLE"
+	(hierarchical_label "L_BAND_ENABLE"
 		(shape input)
 		(at 240.03 114.3 0)
 		(effects
@@ -16453,43 +16109,163 @@
 			)
 			(justify left)
 		)
-		(uuid "bbf3ef9f-9870-4406-8e9d-ad0f9ac8d218")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.175 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "2fe40868-8a29-4781-94c7-71b96988d06f")
 	)
-	(global_label "SPI0_CS"
+	(hierarchical_label "SPI0_MISO"
 		(shape input)
-		(at 146.05 139.7 180)
-		(fields_autoplaced yes)
+		(at 146.05 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c261e565-6541-4ad9-9e19-42360bc33e2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.4033 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "3029cf41-f71f-4995-843c-2e367f4d3442")
 	)
-	(global_label "C3-UART-TX"
+	(hierarchical_label "UHF_IRQ"
+		(shape input)
+		(at 240.03 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33ff2940-28f7-40dd-aaf2-b22da174093e")
+	)
+	(hierarchical_label "SPI0_SCLK"
+		(shape input)
+		(at 146.05 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "35c2eb89-3f08-4e07-b073-41a9ef07e3c7")
+	)
+	(hierarchical_label "I2C2_SYS_DISABLE"
+		(shape input)
+		(at 240.03 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ba20a38-c782-4c5a-ba6c-034634d0c2f0")
+	)
+	(hierarchical_label "OPD_nENABLE"
+		(shape output)
+		(at 146.05 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "42859271-df7e-4b73-a51e-6c090cf83dd4")
+	)
+	(hierarchical_label "CAN1_L"
+		(shape input)
+		(at 208.28 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "45d331c2-22d9-48cc-a7e4-89e5259cffc3")
+	)
+	(hierarchical_label "CAN1_H"
+		(shape input)
+		(at 208.28 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5016a17f-7d35-4485-b8d3-639af4db9a86")
+	)
+	(hierarchical_label "RADIO_nFLT"
+		(shape input)
+		(at 146.05 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "53d08210-d021-4193-9e56-eb9dae969757")
+	)
+	(hierarchical_label "SPI1_SCLK"
+		(shape output)
+		(at 146.05 200.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58564c46-8090-4ab3-a361-27be66c916cb")
+	)
+	(hierarchical_label "I2C2_SYS_SCL"
+		(shape input)
+		(at 146.05 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c311498-15ac-4029-bba2-7a35fc61669c")
+	)
+	(hierarchical_label "PIN7-OUT"
+		(shape output)
+		(at 55.88 186.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dd6c9e6-d404-4dfd-a60e-1f816c188795")
+	)
+	(hierarchical_label "SPI0_MOSI"
+		(shape input)
+		(at 146.05 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6be76f19-2305-48eb-a15b-bc14002a5a61")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape input)
+		(at 146.05 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7eda3315-65a9-4775-92ce-f9ceaedfaad8")
+	)
+	(hierarchical_label "SPI1_CS"
+		(shape input)
+		(at 146.05 195.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "811812e1-3bb0-40e8-881f-180d5daec9c9")
+	)
+	(hierarchical_label "C3-UART-TX"
 		(shape input)
 		(at 146.05 92.71 180)
 		(effects
@@ -16498,202 +16274,106 @@
 			)
 			(justify right)
 		)
-		(uuid "c9670b6b-0dc9-4a11-a401-f8a17d586a4f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.826 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "86c747a3-2df4-4b6b-bff7-304f7ac104a5")
 	)
-	(global_label "SPI1_SCLK"
+	(hierarchical_label "I2C2_SYS_SDA"
 		(shape input)
-		(at 146.05 200.66 180)
-		(fields_autoplaced yes)
+		(at 146.05 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "c99e3c65-b048-45c9-97c2-e2a29bd4cc55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.1052 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "95be093c-5298-4274-a2f3-0d7c12b5edf2")
 	)
-	(global_label "CAN1_L"
-		(shape input)
-		(at 208.28 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d03039d0-be9a-43c9-833a-a1dceaafcf51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.0801 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "PIN8-OUT"
-		(shape input)
-		(at 55.88 170.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d5efcaa3-9c16-4561-af41-e97748b07d0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.279 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "OPD_nFAULT"
-		(shape input)
-		(at 146.05 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dddb3c4d-aa0e-43dc-b057-8b651a4fb582")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.6537 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "UHF_TOT_CLEAR"
-		(shape output)
-		(at 240.03 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "de8979a4-6b2f-49e7-b599-f3a1e4a3065f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.692 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CAN1_H"
-		(shape input)
-		(at 208.28 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e17009fb-5186-487e-850c-7b161fbb0725")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.3825 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SPI1_MOSI"
-		(shape input)
-		(at 146.05 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e4c32745-1e47-4759-a359-15eafc1ec355")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2866 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LBAND_IRQ"
+	(hierarchical_label "LBAND_IRQ"
 		(shape input)
 		(at 240.03 144.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f571da11-8259-4884-a797-6e8582088003")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.0959 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "a225ba9f-0793-4bb9-82b0-dc3634a11595")
+	)
+	(hierarchical_label "PIN8-OUT"
+		(shape input)
+		(at 55.88 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "c88a4ff8-9212-4014-954e-f89829b09e99")
+	)
+	(hierarchical_label "UHF_TOT_OK"
+		(shape input)
+		(at 240.03 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cd008f17-1d7f-40cc-a474-3cccdfaa866f")
+	)
+	(hierarchical_label "UHF_ENABLE"
+		(shape input)
+		(at 240.03 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d21002f8-b910-441e-9db4-b8c254b5c37c")
+	)
+	(hierarchical_label "UHF_PA_ENABLE"
+		(shape input)
+		(at 240.03 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc1022dc-784c-4660-812a-30e54e89db0a")
+	)
+	(hierarchical_label "OPD_nFAULT"
+		(shape input)
+		(at 146.05 182.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e601e688-5a94-406d-aedb-b7257fe02033")
+	)
+	(hierarchical_label "SPI0_CS"
+		(shape input)
+		(at 146.05 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7500f58-bdff-49cd-8e36-fa5cb7052cd6")
+	)
+	(hierarchical_label "C3-UART-RX"
+		(shape input)
+		(at 146.05 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fee14112-bc31-4b8f-b67d-eb435c961889")
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")

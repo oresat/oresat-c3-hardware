@@ -5192,55 +5192,27 @@
 		)
 		(uuid "e429ebcd-4dc0-4ed1-9878-b1a3a9d85028")
 	)
-	(global_label "PET_WDT"
-		(shape input)
-		(at 172.72 165.1 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "848b109c-e8b3-4e77-b8da-aa1c20517487")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.3426 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "ORESAT_nSD"
+	(hierarchical_label "ORESAT_nSD"
 		(shape input)
 		(at 322.58 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify left)
 		)
-		(uuid "fdea4bc8-3308-4481-8c45-762aa8a96964")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.5255 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "36565db7-18be-4138-945d-7a4b9b5d30a5")
+	)
+	(hierarchical_label "PET_WDT"
+		(shape input)
+		(at 172.72 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "e5843eaa-d92f-44a8-b5c0-4d5fd868ef8c")
 	)
 	(symbol
 		(lib_id "power:GND")

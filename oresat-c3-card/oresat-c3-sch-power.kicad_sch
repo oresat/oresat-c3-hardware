@@ -5295,130 +5295,60 @@
 		)
 		(uuid "1d725674-5089-4d86-9fdc-79c63ce3a884")
 	)
-	(global_label "RADIO_CURRENT"
-		(shape input)
-		(at 134.62 160.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "3ab43ed3-4d7c-4f50-bc37-41ad88f64bae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6449 160.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "RADIO_ENABLE"
-		(shape input)
-		(at 73.66 168.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "905bf5dd-51f5-4d20-a0f6-94e00f779a6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.2075 168.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RADIO_nFLT"
-		(shape input)
-		(at 134.62 157.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "973d3bd6-db56-48a1-a99b-77d378d6bdeb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.2906 157.48 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UHF_ENABLE"
+	(hierarchical_label "UHF_ENABLE"
 		(shape input)
 		(at 308.61 135.89 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify right)
 		)
-		(uuid "a88dc4d1-55e2-4613-a481-06b84071af0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 293.8924 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "2f0cbb4b-2937-4677-8e8e-51ad3d1a111c")
 	)
-	(global_label "L_BAND_ENABLE"
+	(hierarchical_label "L_BAND_ENABLE"
 		(shape input)
 		(at 312.42 210.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify right)
 		)
-		(uuid "f5e41ebc-5eb1-42a5-a3ed-94dfd3e8ad44")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 294.4972 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
+		(uuid "4f091e1c-af72-4663-8d04-6716cc409412")
+	)
+	(hierarchical_label "RADIO_nFLT"
+		(shape input)
+		(at 134.62 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "651c04e7-86fa-4d05-92c1-cd751dfa7f6a")
+	)
+	(hierarchical_label "RADIO_ENABLE"
+		(shape input)
+		(at 73.66 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95c9714d-47de-4a48-898c-d8b5452ecf99")
+	)
+	(hierarchical_label "RADIO_CURRENT"
+		(shape input)
+		(at 134.62 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7ebc42a-705a-49a0-b54d-63ccf6ff9bc6")
 	)
 	(symbol
 		(lib_id "power:GND")

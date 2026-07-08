@@ -83,27 +83,11 @@
           ""
         ],
         [
-          "copper_edge_clearance|149625200|50100000|d69e1601-09f9-47f9-9959-1c7da4e3ed98|c0fdad21-85ba-41a2-8d5e-575f492ff0ea",
-          ""
-        ],
-        [
-          "copper_edge_clearance|152774800|53021000|bdf9df55-7cc3-4473-a2df-3d9dfcb77f71|08aa7a30-f341-4117-8ad3-04042c1d6180",
-          ""
-        ],
-        [
           "copper_edge_clearance|152790000|53800000|2522c7f7-3262-4b7e-8274-37f994f8e7b3|08aa7a30-f341-4117-8ad3-04042c1d6180",
           ""
         ],
         [
           "copper_edge_clearance|154533000|50100000|96efcb7e-27ce-43fc-ac0d-d34a3dfc287a|ee7e80e2-17e0-4fb4-9963-44bd3faf590f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|155625200|50100000|3808c489-3acd-4498-a639-a2f89c4c061b|ee7e80e2-17e0-4fb4-9963-44bd3faf590f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|158774800|53021000|249a1679-dce4-4b9c-b739-a361626cc51a|39d4c2ca-6a2d-434b-8781-bc80956bda98",
           ""
         ],
         [
@@ -525,6 +509,10 @@
     "erc_exclusions": [
       [
         "multiple_net_names|3048000|2362200|d7158830-4bc5-4e8a-b6e6-b65b2a3254c6|bdf58f65-11c6-4086-9155-35babbb8b571|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c",
+        ""
+      ],
+      [
+        "multiple_net_names|3048000|2362200|fe5b22c9-38e2-4fd9-b9ab-639270757ab5|bdf58f65-11c6-4086-9155-35babbb8b571|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c|/65d12cdd-c326-4033-9053-c59fa4e0b25e/1b68ea4b-cacf-4529-b1d4-9be5d7c1043c",
         ""
       ],
       [
@@ -1573,13 +1561,13 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR7,#PWR101-104,#PWR145,FID1-3,R48,J1,J3-4,J7-8,PCB1,TP29-30,TP106,TP142-147,TP152-155",
     "variants": []
   },
   "sheets": [
     [
-      "b9a61b98-fba0-4063-a603-e7fc9d7070a0",
-      "Connectors"
+      "65d12cdd-c326-4033-9053-c59fa4e0b25e",
+      "oresat-c3"
     ],
     [
       "2134bb9a-062c-4e32-a41e-d15ce3545372",
@@ -1620,10 +1608,6 @@
     [
       "80f02433-745c-4401-b985-fcfd89ff5669",
       "OPD and I2C Peripherals"
-    ],
-    [
-      "65d12cdd-c326-4033-9053-c59fa4e0b25e",
-      "oresat-c3"
     ]
   ],
   "text_variables": {},

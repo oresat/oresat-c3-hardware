@@ -7671,7 +7671,7 @@
 	)
 	(text "ALL ADC INPUTS MUST\nBE <= 1.8V MAXIMUM"
 		(exclude_from_sim no)
-		(at 295.91 129.54 0)
+		(at 295.91 133.604 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9392,52 +9392,18 @@
 		)
 		(uuid "e611dfc6-31b7-46a0-b535-112799a15e75")
 	)
-	(global_label "USB_CLI_DP"
-		(shape bidirectional)
-		(at 153.67 165.1 180)
+	(hierarchical_label "VIN_USB"
+		(shape input)
+		(at 153.67 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "0443ee29-f84e-4ca8-8c9b-a9e200e8258c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "0968aed9-5cf4-4a39-a23c-0abc08e86ac4")
 	)
-	(global_label "OPD_CURRENT"
-		(shape input)
-		(at 271.78 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2da4ece8-7665-4a7a-bcfe-e65f1c185c8c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 288.1115 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "nRESET"
+	(hierarchical_label "nRESET"
 		(shape input)
 		(at 152.4 208.28 180)
 		(effects
@@ -9446,21 +9412,43 @@
 			)
 			(justify right)
 		)
-		(uuid "4a3599f5-00ac-4a9c-ae08-99512bbcbf6f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 208.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "601a7293-c672-4a75-a33b-ecfa5f8baa0e")
 	)
-	(global_label "USB_CLI_DM"
-		(shape bidirectional)
+	(hierarchical_label "OPD_CURRENT"
+		(shape input)
+		(at 271.78 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6125e136-7e10-4eb8-9373-b63920d1f26d")
+	)
+	(hierarchical_label "USB_CLI_DP"
+		(shape input)
+		(at 153.67 165.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "672807b7-59ed-46e9-a1c5-469cb260eac0")
+	)
+	(hierarchical_label "UHF_FWD_RF_LOG"
+		(shape input)
+		(at 271.78 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "703956ec-2c11-4e62-b050-eb2c573af683")
+	)
+	(hierarchical_label "USB_CLI_DM"
+		(shape input)
 		(at 153.67 162.56 180)
 		(effects
 			(font
@@ -9468,110 +9456,29 @@
 			)
 			(justify right)
 		)
-		(uuid "55437954-75e4-48f4-b353-2671c6c9a7f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 162.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "aef23f8e-762c-410a-8a87-db421773fd25")
 	)
-	(global_label "UHF_FWD_RF_LOG"
-		(shape input)
-		(at 271.78 121.92 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a337c045-8d39-44d4-95b3-27b4bce5f74c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.1354 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "UHF_REV_RF_LOG"
-		(shape input)
-		(at 271.78 124.46 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d44a48c1-5063-46be-a9f7-9438078ce34b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 290.833 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VIN_USB"
-		(shape input)
-		(at 153.67 160.02 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f2f853fb-b194-4568-b540-0f38029b9085")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.4555 159.9406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "RADIO_CURRENT"
+	(hierarchical_label "RADIO_CURRENT"
 		(shape input)
 		(at 271.78 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fddff9ce-f06f-4853-8755-a4314e9dcb8d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 289.8049 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "cec98643-bc7e-45ef-8c5b-4a96fc3c649c")
+	)
+	(hierarchical_label "UHF_REV_RF_LOG"
+		(shape input)
+		(at 271.78 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "e8bd8cef-e5c0-4638-9035-6dec6ea69cc6")
 	)
 	(symbol
 		(lib_id "Device:Crystal_GND24")

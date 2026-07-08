@@ -10782,189 +10782,93 @@
 		)
 		(uuid "99126714-aee1-472e-b5a4-db771755dea8")
 	)
-	(global_label "LBAND_LO_nSEN"
-		(shape output)
-		(at 143.51 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12516429-8cb2-4ad4-ba37-575254039a32")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.4852 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "CAN2_L"
+	(hierarchical_label "CAN2_L"
 		(shape input)
 		(at 194.31 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4f681381-cc26-4dce-b983-7ec950a83c7f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.1895 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "1a744caf-dccb-40d3-8139-cbf2a985ecd7")
 	)
-	(global_label "LBAND_LO_SDATA"
-		(shape output)
-		(at 143.51 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6074bf11-03d1-42e6-a220-5c4f05750bab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.6989 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LBAND_LO_nLOCKED"
-		(shape input)
-		(at 144.78 171.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6c0325a4-755d-486f-87c3-510209b4978c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.1266 171.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LBAND_LO_SCLK"
-		(shape output)
-		(at 143.51 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8f5d2306-b0fb-4d0b-ba53-7e52c0fe94b6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.5456 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "PET_WDT"
-		(shape output)
-		(at 229.87 179.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "948a20f1-d8ce-4871-9366-86ad3139d8b0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.819 179.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "CAN2_H"
+	(hierarchical_label "CAN2_H"
 		(shape input)
 		(at 194.31 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9a21bab5-3324-40e0-b33e-d51b55080735")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.4919 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "1c0a1bbb-00de-4b5d-a308-fcebe1497df7")
 	)
-	(global_label "RADIO_ENABLE"
+	(hierarchical_label "LBAND_LO_SCLK"
+		(shape input)
+		(at 143.51 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4483a44d-6e61-427b-b442-f856a7c7dd8b")
+	)
+	(hierarchical_label "LBAND_LO_nSEN"
+		(shape input)
+		(at 143.51 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63b9fc69-7ef1-43a2-a30a-6090e2f37872")
+	)
+	(hierarchical_label "RADIO_ENABLE"
 		(shape output)
 		(at 229.87 173.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d7f0205b-e2bf-419c-ab4d-25006edaa803")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 246.3225 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "73d8e6a1-8996-4494-9538-fc89c59e8a19")
+	)
+	(hierarchical_label "LBAND_LO_SDATA"
+		(shape input)
+		(at 143.51 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
+		(uuid "88f73825-136d-4f5c-976c-c24a3481bf9c")
+	)
+	(hierarchical_label "LBAND_LO_nLOCKED"
+		(shape input)
+		(at 144.78 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aee10c75-7923-4a8f-b244-b564fc5e1917")
+	)
+	(hierarchical_label "PET_WDT"
+		(shape output)
+		(at 229.87 179.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f17cfdf6-4aa4-46e6-8f9b-94d616f85094")
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-1mm-round")

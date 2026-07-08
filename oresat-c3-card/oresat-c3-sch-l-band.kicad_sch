@@ -8310,246 +8310,115 @@
 		)
 		(uuid "ffca148f-ade3-48a8-8676-fc94195707cf")
 	)
-	(global_label "LBAND_LO_nSEN"
-		(shape input)
-		(at 259.08 210.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "19cae1b8-a2d0-4213-8302-bf746ea141f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.6268 210.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LBAND_LO_SDATA"
-		(shape input)
-		(at 259.08 215.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "3ff7af0c-194c-40c1-9d42-deeaa6444daf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.8405 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LBAND_LO_SCLK"
-		(shape input)
-		(at 259.08 213.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "4ddaeca5-f6da-4cb0-a072-ae702f0d1b24")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.6872 213.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI1_MISO"
-		(shape output)
-		(at 137.16 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "547ee320-2bdf-44c3-9b21-b3d7e560bbac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8412 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LBAND_IRQ"
-		(shape output)
-		(at 137.16 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "6d695c9a-870c-48f2-8c2b-e6a84d472718")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.5387 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "LBAND_LO_nLOCKED"
-		(shape output)
-		(at 259.08 218.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.1588)
-			)
-			(justify right)
-		)
-		(uuid "7275fda2-5a48-4916-9a68-041e3b6d983d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.9982 218.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SPI1_SCLK"
+	(hierarchical_label "SPI1_SCLK"
 		(shape input)
 		(at 137.16 123.19 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
 			)
 			(justify right)
 		)
-		(uuid "897d3ecf-d3a4-4dda-9a86-0f2e1a914356")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.6598 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "09f41bb0-9cf4-4733-9909-b6c3c0347037")
 	)
-	(global_label "SPI1_MOSI"
+	(hierarchical_label "SPI1_CS"
+		(shape input)
+		(at 137.16 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "490056d3-e57d-43df-8afc-c3901d0b6cd3")
+	)
+	(hierarchical_label "SPI1_MOSI"
 		(shape input)
 		(at 137.16 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
 			)
 			(justify right)
 		)
-		(uuid "a708d8b2-7206-4d62-a66e-b3949cdfe7e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.8412 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "6c1f241e-236c-44fe-a9f5-237ed7c0a9ed")
 	)
-	(global_label "L_BAND_RF"
+	(hierarchical_label "LBAND_LO_nSEN"
 		(shape input)
-		(at 368.3 60.96 0)
-		(fields_autoplaced yes)
+		(at 259.08 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "77b733c5-9e1a-406f-9505-ac4270a1563e")
+	)
+	(hierarchical_label "LBAND_IRQ"
+		(shape input)
+		(at 137.16 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9a2931c9-8854-46d0-a671-4aba664a4a56")
+	)
+	(hierarchical_label "LBAND_LO_SCLK"
+		(shape input)
+		(at 259.08 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2d02dc8-de25-4815-b5f8-1e4abc8627f0")
+	)
+	(hierarchical_label "LBAND_LO_SDATA"
+		(shape input)
+		(at 259.08 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad792086-25ba-41e7-9ced-436ce1cfc4f6")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape input)
+		(at 137.16 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8211bca-977e-465a-be08-3413190e15d1")
+	)
+	(hierarchical_label "L_BAND_RF"
+		(shape input)
+		(at 368.3 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "d827b033-f11a-4979-a37e-7493b58f6cf4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 381.9152 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "dd55e71b-02c4-4d40-a2ae-69da4dfcdb3e")
 	)
-	(global_label "SPI1_CS"
-		(shape input)
-		(at 137.16 125.73 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "LBAND_LO_nLOCKED"
+		(shape output)
+		(at 259.08 218.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.1588)
 			)
 			(justify right)
 		)
-		(uuid "f8608ad4-9ea6-48bb-a843-b28df0838d1f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.9579 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "f839dbe8-3782-43be-9c52-613549f47f0f")
 	)
 	(symbol
 		(lib_id "oresat-misc:Test-Point-RF-Probe-Stripline")
