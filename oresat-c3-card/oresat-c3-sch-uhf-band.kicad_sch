@@ -6105,9 +6105,9 @@
 		)
 		(uuid "09bcaa58-d1c7-4228-a39b-df3f8e618c86")
 	)
-	(text "-80.2 dBm"
+	(text "-80.2 dBm\n-83.9 dBm"
 		(exclude_from_sim no)
-		(at 336.55 234.95 0)
+		(at 337.566 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6148,9 +6148,9 @@
 		)
 		(uuid "19db32d2-7fba-4938-896e-e1be6d4ca950")
 	)
-	(text "-83.2 dBm"
+	(text "-83.2 dBm\n-84.8 dBm"
 		(exclude_from_sim no)
-		(at 295.91 234.315 0)
+		(at 295.91 235.712 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6227,7 +6227,7 @@
 		)
 		(uuid "4a4e56da-ad8a-4472-b5ad-63df52b4df1b")
 	)
-	(text "RX: -80 dBm in\n"
+	(text "-80 dBm\n-83.9 dBm"
 		(exclude_from_sim no)
 		(at 401.955 156.21 0)
 		(effects
@@ -6352,6 +6352,16 @@
 		)
 		(uuid "7df70781-eb2a-4e8b-be8d-baac94e10554")
 	)
+	(text "+20 dBm??\n+22.5 dBm"
+		(exclude_from_sim no)
+		(at 264.668 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84229833-3edd-4006-ab53-7ae7e43e826e")
+	)
 	(text "0805\n"
 		(exclude_from_sim no)
 		(at 279.908 108.458 0)
@@ -6363,7 +6373,7 @@
 		)
 		(uuid "84fbc137-b4a3-4b8a-8ebe-dd2367d9edf3")
 	)
-	(text "-58.7 dBm"
+	(text "-58.7 dBm\n-62.3 dBm"
 		(exclude_from_sim no)
 		(at 222.885 234.95 0)
 		(effects
@@ -6431,6 +6441,16 @@
 			)
 		)
 		(uuid "98253f8d-ebb4-459d-bcd5-d3ceeb98af22")
+	)
+	(text "RF Test Point Measurements:\nTop number = design value\nBottom number = measured on test board"
+		(exclude_from_sim no)
+		(at 398.526 109.982 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c9b493a-28e8-4a46-bfc6-63bb3a9035f7")
 	)
 	(text "Note: 0603 for power!"
 		(exclude_from_sim no)
@@ -6508,9 +6528,9 @@
 		)
 		(uuid "b635313c-cda6-4be5-8ee2-f29892201f6e")
 	)
-	(text "-61.7 dBm"
+	(text "-61.7 dBm\n-63.8 dBm"
 		(exclude_from_sim no)
-		(at 168.91 143.764 0)
+		(at 168.402 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6574,6 +6594,17 @@
 			)
 		)
 		(uuid "d494261d-84b7-4533-a37d-0aa92e902074")
+	)
+	(text "-61.7 dBm\n-70.8 dBm"
+		(exclude_from_sim no)
+		(at 120.904 143.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4e7a51b-53be-4af0-9996-28f92c6a9209")
 	)
 	(text "+11 dBm\n(single ended)"
 		(exclude_from_sim no)
@@ -6687,6 +6718,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea2de2a3-bf94-4d8e-8eb3-2bf0c6576ecb")
+	)
+	(text "-1.6 dBm\n-0.9 dBm"
+		(exclude_from_sim no)
+		(at 321.818 247.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ecb87cb1-1551-49b6-884b-1b09eb9efb42")
 	)
 	(text "0402"
 		(exclude_from_sim no)
@@ -11100,6 +11141,16 @@
 			(type default)
 		)
 		(uuid "ce76bdef-1c0b-4209-afbc-57a1ca3ec3ad")
+	)
+	(polyline
+		(pts
+			(xy 125.73 138.43) (xy 124.333 130.556)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea51491-a959-444f-b99c-be4dd2fe5a1f")
 	)
 	(wire
 		(pts

@@ -1561,7 +1561,7 @@
         "uuid": "65d12cdd-c326-4033-9053-c59fa4e0b25e"
       }
     ],
-    "used_designators": "#PWR7,#PWR101-104,#PWR145,FID1-3,R48,J1,J3-4,J7-8,PCB1,TP29-30,TP106,TP142-147,TP152-155",
+    "used_designators": "#PWR7,#PWR101-104,#PWR145,FID1-3,R48,TP29-30,TP106,TP142-147,TP152-155,J1,J3-4,J7-8,PCB1",
     "variants": []
   },
   "sheets": [

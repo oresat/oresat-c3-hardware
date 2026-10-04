@@ -5009,9 +5009,9 @@
 		)
 		(uuid "0fe9581f-b0e1-4aa6-a4a4-ab051b293ce3")
 	)
-	(text "-46.8 dBm\n"
+	(text "-46.8 dBm\n-57.5 dBm\n"
 		(exclude_from_sim no)
-		(at 146.685 72.39 0)
+		(at 145.034 74.676 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5031,9 +5031,9 @@
 		)
 		(uuid "23eab227-ba6d-4269-bd8e-c03fee292667")
 	)
-	(text "RX: -80 dBm in\n"
+	(text "-80.0 dBm\n-84.5 dBm\n"
 		(exclude_from_sim no)
-		(at 351.155 74.295 0)
+		(at 355.6 74.676 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5052,6 +5052,16 @@
 			(justify right bottom)
 		)
 		(uuid "2d129a11-4f8e-4895-b1f9-835980afe4c4")
+	)
+	(text "-1.2 dB\n-0.4 dB"
+		(exclude_from_sim no)
+		(at 246.126 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3026c7c1-373d-4f18-9dcd-420f11905d58")
 	)
 	(text "FL3 IS EOL"
 		(exclude_from_sim no)
@@ -5078,6 +5088,16 @@
 			(justify left bottom)
 		)
 		(uuid "3caf9eac-fe3b-426a-a8bb-ea9b05a5cdbb")
+	)
+	(text "-1.2 dB\n-6.0 dB"
+		(exclude_from_sim no)
+		(at 137.922 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4033e4d9-f8fc-418f-84bc-27e9c78a16b9")
 	)
 	(text "0402"
 		(exclude_from_sim no)
@@ -5205,9 +5225,19 @@
 		)
 		(uuid "7baf4004-3863-4d64-840e-e3e492a67f7a")
 	)
-	(text "1st Stage LNA: +20 dB"
+	(text "+17.6 dB\n+18.5 dB"
 		(exclude_from_sim no)
-		(at 287.02 34.29 0)
+		(at 302.768 81.534 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ecf4905-392b-4384-b53f-f391677198dd")
+	)
+	(text "1st Stage LNA: +17.6 dB"
+		(exclude_from_sim no)
+		(at 281.178 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5228,9 +5258,9 @@
 		)
 		(uuid "823ed74d-61a2-4828-b719-b12f301a3d2f")
 	)
-	(text "-81.2 dBm\n"
+	(text "-81.2 dBm\n-88.6 dBm\n"
 		(exclude_from_sim no)
-		(at 321.31 70.485 0)
+		(at 325.374 76.962 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5249,6 +5279,16 @@
 			(justify left bottom)
 		)
 		(uuid "89ca4161-5183-4c30-a674-d8e177101959")
+	)
+	(text "+18.0 dB\n+13.0 dB"
+		(exclude_from_sim no)
+		(at 198.12 81.788 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ad6922c-1e9b-4577-b2bd-0e417a6f5a6d")
 	)
 	(text "All resistors are 0603 1% AEC-Q200 unless marked.\nAll capacitors are 0603 AEC-Q200 Vw >= 16V X5R or better unless marked."
 		(exclude_from_sim no)
@@ -5271,6 +5311,16 @@
 			(justify left bottom)
 		)
 		(uuid "9420d2d3-083f-48ae-a0e1-da5818398f7a")
+	)
+	(text "-1.2 dB\n-4.1 dB"
+		(exclude_from_sim no)
+		(at 346.964 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b3e27bf-e058-43ad-8b48-67be4c6cac0c")
 	)
 	(text "808 MHz"
 		(exclude_from_sim no)
@@ -5305,9 +5355,9 @@
 		)
 		(uuid "a4fc86ff-40e9-4029-9d1c-a4eddef641d2")
 	)
-	(text "-64.8 dBm\n"
+	(text "-64.8 dBm\n-70.5 dBm"
 		(exclude_from_sim no)
-		(at 227.33 71.755 0)
+		(at 226.568 73.914 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5327,9 +5377,9 @@
 		)
 		(uuid "c08036be-a234-480e-9e1a-ddaf988ff94a")
 	)
-	(text "-63.6 dBm\n"
+	(text "-63.6 dBm\n-70.1 dBm"
 		(exclude_from_sim no)
-		(at 254.635 71.12 0)
+		(at 252.984 73.152 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5407,6 +5457,16 @@
 		)
 		(uuid "e445e42b-436b-4049-aae9-73b3b34b3490")
 	)
+	(text "RF Test Point Measurements:\nTop number = design value\nBottom number = measured on test board"
+		(exclude_from_sim no)
+		(at 368.046 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e6da0b2e-0ee3-448c-af4c-6f3dfd10ed59")
+	)
 	(text "0402"
 		(exclude_from_sim no)
 		(at 275.59 228.6 90)
@@ -5461,9 +5521,9 @@
 		)
 		(uuid "f593242a-bde4-47a9-952e-993a820d0da3")
 	)
-	(text "-48.0 dBm\n"
+	(text "-48.0 dBm\n-52.4 dBm"
 		(exclude_from_sim no)
-		(at 343.662 136.144 0)
+		(at 336.55 131.826 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5919,7 +5979,7 @@
 	)
 	(polyline
 		(pts
-			(xy 325.12 62.865) (xy 325.12 67.945)
+			(xy 326.39 63.5) (xy 330.2 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7356,7 +7416,7 @@
 	)
 	(polyline
 		(pts
-			(xy 356.87 71.12) (xy 355.6 62.865)
+			(xy 355.6 63.5) (xy 360.68 69.85)
 		)
 		(stroke
 			(width 0)
